@@ -1,0 +1,65 @@
+{
+  "id": "st-patrick-s-day",
+  "name": "St. Patrick's Day",
+  "deck": "world-culture",
+  "aliases": ["Saint Patrick's Day"],
+  "hook": "The March 17 holiday when everyone is Irish — green, shamrocks, parades and leprechauns.",
+  "facts": [
+    {
+      "id": "march-17",
+      "label": "March 17",
+      "statement": "It is celebrated on March 17, the anniversary of the death of a 5th-century bishop of Armagh — St. Patrick himself.",
+      "associations": ["March 17", "bishop of Armagh", "St. Patrick's death"],
+      "clue_ids": ["9700f4d942", "9636e93598", "b9af05bd9e"]
+    },
+    {
+      "id": "parades",
+      "label": "Fifth Avenue parade",
+      "statement": "New York City's parade runs up Fifth Avenue; in March 2018 it celebrated its 257th anniversary. Maryville, Missouri, bills its own as \"The World's Shortest\" parade.",
+      "associations": ["Fifth Avenue", "257th anniversary", "Maryville, Missouri"],
+      "clue_ids": ["7bd8595568", "b9c640fed7"]
+    },
+    {
+      "id": "green",
+      "label": "green",
+      "statement": "Green is the color of the day — pancakes and even TV episodes get dyed green, and the old song celebrates \"the wearin' o' the green.\"",
+      "associations": ["green", "\"The Wearin' o' the Green\"", "green pancakes"],
+      "clue_ids": ["66388b9a6c", "61646f48ac"]
+    },
+    {
+      "id": "shamrock",
+      "label": "shamrock",
+      "statement": "The shamrock is the plant traditionally worn on the day: a trifoliate clover whose name is also a Crayola green.",
+      "associations": ["shamrock", "trifoliate plant", "Crayola green"],
+      "clue_ids": ["a6cea2b149", "7ec00a901c"]
+    },
+    {
+      "id": "leprechaun",
+      "label": "leprechaun",
+      "statement": "Leprechauns are the holiday's fairy folk, the quarry in the picture book \"How to Catch a Leprechaun\" by Adam Wallace and Andy Elkerton.",
+      "associations": ["leprechaun", "How to Catch a Leprechaun", "Adam Wallace"],
+      "clue_ids": ["e3a4252eb0", "953e58023b"]
+    },
+    {
+      "id": "shamrock-shake",
+      "label": "Shamrock Shake",
+      "statement": "McDonald's Shamrock Shake is the minty green drink sold around the holiday; 2020 marked its 50th anniversary.",
+      "associations": ["Shamrock Shake", "McDonald's", "minty green"],
+      "clue_ids": ["ff483b85a0", "e7bfc0b205"]
+    },
+    {
+      "id": "corned-beef-cabbage",
+      "label": "corned beef & cabbage",
+      "statement": "Corned beef and cabbage is the traditional plate, while Irish stew is the \"national\" pot of mutton, onions and potatoes.",
+      "associations": ["corned beef & cabbage", "Irish stew", "mutton and potatoes"],
+      "clue_ids": ["bcf3780ab8", "36d2d202bd"]
+    }
+  ],
+  "clue_ids": [
+    "7bd8595568", "b9c640fed7", "9700f4d942", "66388b9a6c", "61646f48ac",
+    "7ec00a901c", "a6cea2b149", "e3a4252eb0", "ff483b85a0", "e7bfc0b205",
+    "9636e93598", "b9af05bd9e", "953e58023b", "fab059614e", "36d2d202bd",
+    "bcf3780ab8"
+  ],
+  "related": ["ireland", "guinness", "valentine-s-day"]
+}

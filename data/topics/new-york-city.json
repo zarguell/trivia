@@ -1,0 +1,65 @@
+{
+  "id": "new-york-city",
+  "name": "New York City",
+  "deck": "geography",
+  "aliases": ["New York", "NYC"],
+  "hook": "Five boroughs, one skyline, and the canal that made it the capital of the world.",
+  "facts": [
+    {
+      "id": "boroughs",
+      "label": "the five boroughs",
+      "statement": "New York City is made up of five boroughs: Manhattan, Brooklyn, Queens, the Bronx, and Staten Island.",
+      "associations": ["five boroughs", "Manhattan", "Brooklyn", "Staten Island"],
+      "clue_ids": ["2a4962df75", "74eeaf9252", "56f4e64717"]
+    },
+    {
+      "id": "empire-state",
+      "label": "the Empire State Building",
+      "statement": "The Empire State Building, designed by William Lamb, was inspired by a pencil standing point-up; Andy Warhol filmed its facade for eight hours.",
+      "associations": ["Empire State Building", "William Lamb", "pencil", "Andy Warhol"],
+      "clue_ids": ["4f695e2254", "9453702927"]
+    },
+    {
+      "id": "central-park",
+      "label": "Central Park",
+      "statement": "Central Park opened in 1859 with Frederick Law Olmsted as chief designer; Christo and Jeanne-Claude's The Gates filled it with 7,503 orange gates in 2005.",
+      "associations": ["Central Park", "Frederick Law Olmsted", "1859", "The Gates"],
+      "clue_ids": ["a5a2805dbc", "95f400c1dd"]
+    },
+    {
+      "id": "erie-canal",
+      "label": "the Erie Canal",
+      "statement": "The Erie Canal opened in 1825, linking New York City to the Great Lakes and cutting freight rates from Buffalo from $100 to $10 a ton.",
+      "associations": ["Erie Canal", "1825", "Great Lakes", "freight rates"],
+      "clue_ids": ["1e1cb74a9c", "ae09cc1cbb"]
+    },
+    {
+      "id": "boss-tweed",
+      "label": "Boss Tweed",
+      "statement": "Boss Tweed ran Tammany Hall's corrupt \"Ring\" and escaped from jail in 1875, fleeing to Cuba.",
+      "associations": ["Boss Tweed", "Tammany Hall", "1875", "Cuba"],
+      "clue_ids": ["cf68e19254", "792f149216"]
+    },
+    {
+      "id": "columbia",
+      "label": "Columbia University",
+      "statement": "Columbia University hosted Franz Boas's first U.S. anthropology department in 1902; Bennett Cerf and Herman Wouk both edited its humor magazine, Jester.",
+      "associations": ["Columbia University", "Franz Boas", "1902", "Jester"],
+      "clue_ids": ["3c01fbd422", "52a01651fc"]
+    },
+    {
+      "id": "first-capital",
+      "label": "the first U.S. capital",
+      "statement": "New York City was the first U.S. capital, where George Washington took the first presidential oath in 1789, and has been called \"The Capital of the World.\"",
+      "associations": ["first U.S. capital", "George Washington", "1789", "Capital of the World"],
+      "clue_ids": ["aa3bcd23de", "2205366fc9"]
+    }
+  ],
+  "clue_ids": [
+    "aa3bcd23de", "2205366fc9", "2a4962df75", "74eeaf9252", "56f4e64717",
+    "4f695e2254", "9453702927", "a5a2805dbc", "95f400c1dd", "1e1cb74a9c",
+    "ae09cc1cbb", "cf68e19254", "792f149216", "3c01fbd422", "52a01651fc",
+    "b55c971a20", "6ffba94225"
+  ],
+  "related": ["statue-of-liberty", "chicago", "california"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "portugal",
+  "name": "Portugal",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "A small seafaring nation Jeopardy asks about through explorers, colonies and cork.",
+  "facts": [
+    {
+      "id": "iberian",
+      "label": "Iberian Peninsula",
+      "statement": "Portugal shares the Iberian Peninsula with Spain and is the westernmost country in mainland Europe.",
+      "associations": ["Iberian Peninsula", "Spain", "westernmost Europe"],
+      "clue_ids": ["1daf23915a", "a0e771689e"]
+    },
+    {
+      "id": "gama",
+      "label": "Vasco da Gama",
+      "statement": "Vasco da Gama sailed from Portugal in 1497 and opened the sea route to India; The Lusiads celebrates the voyage.",
+      "associations": ["Vasco da Gama", "1497", "sea route to India", "The Lusiads"],
+      "clue_ids": ["9b1ee99c11", "4c05d46a7a"]
+    },
+    {
+      "id": "brazil",
+      "label": "Brazil",
+      "statement": "Pedro Cabral claimed Brazil for Portugal in 1500, and in 1807 the Portuguese court fled there ahead of Napoleon.",
+      "associations": ["Pedro Cabral", "1500", "1807 court flight"],
+      "clue_ids": ["b41a592bee", "88fb132022", "d99d71f05d"]
+    },
+    {
+      "id": "lisbon",
+      "label": "Lisbon",
+      "statement": "Lisbon, Portugal's capital, sits on the Tagus estuary and like Rome is built on seven hills.",
+      "associations": ["Lisbon", "Tagus", "seven hills"],
+      "clue_ids": ["22071fbd56", "8c83fb0c29"]
+    },
+    {
+      "id": "islands",
+      "label": "the Azores and Madeira",
+      "statement": "The Azores and Madeira are Portuguese island groups in the Atlantic; King Afonso VI was banished to the Azores.",
+      "associations": ["Azores", "Madeira", "Atlantic islands"],
+      "clue_ids": ["56843d1156", "15598d5c97", "30e30544bb"]
+    },
+    {
+      "id": "africa",
+      "label": "Angola and Mozambique",
+      "statement": "Angola and Mozambique were Portuguese colonies until both gained independence in 1975.",
+      "associations": ["Angola", "Mozambique", "1975"],
+      "clue_ids": ["c3a193d684", "7a89d2227b", "5a81269ee4"]
+    },
+    {
+      "id": "macao",
+      "label": "Macao",
+      "statement": "Portugal returned Macao, its territory at the mouth of the Pearl River, to China in 1999 after more than four centuries.",
+      "associations": ["Macao", "1999", "returned to China"],
+      "clue_ids": ["f5c234b5d7", "58bb630440"]
+    }
+  ],
+  "clue_ids": [
+    "b41a592bee", "88fb132022", "d99d71f05d", "1daf23915a", "a0e771689e",
+    "9b1ee99c11", "4c05d46a7a", "22071fbd56", "8c83fb0c29", "56843d1156",
+    "15598d5c97", "30e30544bb", "c3a193d684", "7a89d2227b", "5a81269ee4",
+    "f5c234b5d7", "58bb630440", "63ad75d76d"
+  ],
+  "related": ["spain", "brazil"]
+}

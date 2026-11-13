@@ -1,0 +1,65 @@
+{
+  "id": "ancient-egypt",
+  "name": "Ancient Egypt",
+  "deck": "history",
+  "aliases": ["Egyptians", "Egyptian"],
+  "hook": "Gods, pharaohs and the Nile: the ancient civilization Jeopardy visits from Alexandria to Tut.",
+  "facts": [
+    {
+      "id": "calendar",
+      "label": "the 365-day calendar",
+      "statement": "Ancient Egypt produced the first known calendar with 365 days.",
+      "associations": ["365-day calendar", "first calendar"],
+      "clue_ids": ["30b5f8da63"]
+    },
+    {
+      "id": "ennead",
+      "label": "the Ennead",
+      "statement": "The Ennead was the pantheon of Atum, Tefnut and seven others; Ra was the sun god, Khepri at dawn and Atum at evening.",
+      "associations": ["Ennead", "Atum", "Tefnut", "Ra"],
+      "clue_ids": ["4753be0cd5", "144256c1bd"]
+    },
+    {
+      "id": "osiris-isis",
+      "label": "Osiris and Isis",
+      "statement": "Seth sealed his brother Osiris in a coffin, making him lord and judge of the underworld; Isis, his wife, is often shown suckling Horus.",
+      "associations": ["Osiris", "Isis", "Seth", "Horus"],
+      "clue_ids": ["04f596ebc1", "5f28308065", "9f9ce41e0e"]
+    },
+    {
+      "id": "memphis",
+      "label": "Memphis",
+      "statement": "Memphis was Egypt's capital for centuries; its ruins supplied the stones used to build Cairo.",
+      "associations": ["Memphis", "ancient capital", "Cairo"],
+      "clue_ids": ["15b5db979b"]
+    },
+    {
+      "id": "alexandria",
+      "label": "Alexandria",
+      "statement": "Alexandria was nicknamed \"Mother of Books\" for its ancient library, and Hypatia taught mathematics there.",
+      "associations": ["Alexandria", "library", "Hypatia"],
+      "clue_ids": ["be72846b36", "03b901f550"]
+    },
+    {
+      "id": "papyrus",
+      "label": "papyrus",
+      "statement": "Papyrus, the writing material made from a Nile reed, gives its name to the Rhind papyrus, an Egyptian math text.",
+      "associations": ["papyrus", "Rhind papyrus", "Nile reed"],
+      "clue_ids": ["3f1dd9c863", "4ce40157de"]
+    },
+    {
+      "id": "king-tut",
+      "label": "King Tut",
+      "statement": "King Tut restored Thebes as the capital and was \"discovered\" in 1922, setting off a worldwide craze.",
+      "associations": ["King Tut", "Thebes", "1922"],
+      "clue_ids": ["77812770ff"]
+    }
+  ],
+  "clue_ids": [
+    "4753be0cd5", "17d01c47e0", "30b5f8da63", "7b9ae5b41b", "be72846b36",
+    "03b901f550", "d8d26525f1", "9f9ce41e0e", "04f596ebc1", "5f28308065",
+    "15b5db979b", "144256c1bd", "3f1dd9c863", "4ce40157de", "77812770ff",
+    "b51f2828a4", "fdd40bf681", "00a08f40d6"
+  ],
+  "related": ["cleopatra", "egypt", "greece"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "sahara",
+  "name": "Sahara",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "The world's largest hot desert, from Timbuktu's caravans to Saint-Exupéry's crash.",
+  "facts": [
+    {
+      "id": "largest",
+      "label": "largest hot desert",
+      "statement": "The Sahara is the world's largest hot desert, covering more than 3 million square miles of North Africa.",
+      "associations": ["largest hot desert", "3 million square miles", "North Africa"],
+      "clue_ids": ["55c0a52139", "f56bce6b56"]
+    },
+    {
+      "id": "atlas",
+      "label": "the Atlas Mountains",
+      "statement": "The Atlas Mountains separate the Mediterranean coast from the Sahara across Morocco and Algeria.",
+      "associations": ["Atlas Mountains", "Morocco", "Mediterranean"],
+      "clue_ids": ["df6b923863", "2725b9717f"]
+    },
+    {
+      "id": "countries",
+      "label": "Algeria and Libya",
+      "statement": "The Sahara covers about 85 percent of Algeria and 90 percent of Libya.",
+      "associations": ["Algeria", "Libya", "85 percent"],
+      "clue_ids": ["c667e1f5ab", "ea24ad5a4e", "27f9b70628"]
+    },
+    {
+      "id": "timbuktu",
+      "label": "Timbuktu",
+      "statement": "Timbuktu, a caravan city on the Sahara's southern edge in Mali, grew rich on trade and drew Mansa Musa's mosque.",
+      "associations": ["Timbuktu", "Mali", "Mansa Musa", "caravan city"],
+      "clue_ids": ["42bb5230b1", "3331c550b8"]
+    },
+    {
+      "id": "caravan",
+      "label": "caravans",
+      "statement": "Caravans of merchants crossed the Sahara for safety, and explorers such as Clapperton followed their routes.",
+      "associations": ["caravan", "Clapperton", "trade routes"],
+      "clue_ids": ["90f30a7b93", "15f03172eb"]
+    },
+    {
+      "id": "oases",
+      "label": "oases",
+      "statement": "Oases such as Siwa and Al Kufra dot the Sahara, some fed by wells drilled more than 1,000 feet deep.",
+      "associations": ["oases", "Siwa", "Al Kufra"],
+      "clue_ids": ["7b89b99174"]
+    },
+    {
+      "id": "little-prince",
+      "label": "The Little Prince",
+      "statement": "Antoine de Saint-Exupéry's The Little Prince begins with a pilot crashed in the Sahara.",
+      "associations": ["The Little Prince", "Saint-Exupéry", "plane crash"],
+      "clue_ids": ["15ac8e4903", "626e70d97b"]
+    }
+  ],
+  "clue_ids": [
+    "55c0a52139", "f56bce6b56", "d87ebe7a3d", "8aea57f37a", "df6b923863",
+    "2725b9717f", "c667e1f5ab", "ea24ad5a4e", "27f9b70628", "42bb5230b1",
+    "3331c550b8", "90f30a7b93", "15f03172eb", "7b89b99174", "15ac8e4903",
+    "626e70d97b", "17123676c1", "2d52dda5e9"
+  ],
+  "related": ["egypt", "nile", "suez-canal"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "macbeth",
+  "name": "Macbeth",
+  "deck": "literature",
+  "aliases": [],
+  "hook": "Shakespeare's shortest tragedy: prophecy, a dagger, a ghost, and a wood that walks.",
+  "facts": [
+    {
+      "id": "duncan",
+      "label": "Duncan",
+      "statement": "Macbeth kills King Duncan in 1040 and seizes the Scottish throne; the play turns the murder into Shakespeare's darkest tragedy.",
+      "associations": ["King Duncan", "1040", "Scotland"],
+      "clue_ids": ["e472b342b3", "fb32500471", "f694e36efe"]
+    },
+    {
+      "id": "weird-sisters",
+      "label": "the Weird Sisters",
+      "statement": "Three witches, called the Weird Sisters, greet Macbeth with prophecies that he will be thane of Cawdor and then king.",
+      "associations": ["three witches", "Weird Sisters", "prophecy"],
+      "clue_ids": ["9dbc9d6ae7", "3613522d7a"]
+    },
+    {
+      "id": "banquo",
+      "label": "Banquo's ghost",
+      "statement": "Macbeth has Banquo killed, then sees his ghost at a banquet; the witches promised Banquo's children would be kings.",
+      "associations": ["Banquo", "ghost at the banquet", "children shall be kings"],
+      "clue_ids": ["a1cd575f2f", "63f80b4fba"]
+    },
+    {
+      "id": "macduff",
+      "label": "Macduff",
+      "statement": "Macduff, Thane of Fife, kills Macbeth — he was \"not of woman born\", having been cut from his mother's womb.",
+      "associations": ["Thane of Fife", "not of woman born", "kills Macbeth"],
+      "clue_ids": ["795a700a3d", "7ce161ece3"]
+    },
+    {
+      "id": "birnam",
+      "label": "Birnam Wood",
+      "statement": "Birnam Wood moves against Dunsinane, fulfilling the prophecy that Macbeth is safe until the wood comes to him.",
+      "associations": ["Birnam Wood", "Dunsinane", "prophecy"],
+      "clue_ids": ["61e5fa3718", "b8eef0a48e"]
+    },
+    {
+      "id": "dagger",
+      "label": "the dagger",
+      "statement": "Macbeth's soliloquy asks, \"Is this a dagger which I see before me?\" — a vision pointing him toward murder that later titled a Star Trek episode.",
+      "associations": ["Is this a dagger", "soliloquy", "Star Trek"],
+      "clue_ids": ["60b6fa9859", "b986721c0b"]
+    },
+    {
+      "id": "sound-fury",
+      "label": "The Sound and the Fury",
+      "statement": "Act V's speech about life as \"a tale told by an idiot\" gave Faulkner the title of The Sound and the Fury.",
+      "associations": ["Faulkner", "tale told by an idiot", "Act V"],
+      "clue_ids": ["8c36ca6958", "c9d8f80115"]
+    }
+  ],
+  "clue_ids": [
+    "e472b342b3", "fb32500471", "f694e36efe", "9dbc9d6ae7", "3613522d7a",
+    "a1cd575f2f", "63f80b4fba", "795a700a3d", "7ce161ece3", "61e5fa3718",
+    "b8eef0a48e", "60b6fa9859", "b986721c0b", "8c36ca6958", "c9d8f80115",
+    "c2be27824c", "976c7f3d85"
+  ],
+  "related": ["hamlet", "william-shakespeare", "romeo-and-juliet"]
+}

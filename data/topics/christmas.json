@@ -1,0 +1,64 @@
+{
+  "id": "christmas",
+  "name": "Christmas",
+  "deck": "world-culture",
+  "aliases": [],
+  "hook": "The holiday Jeopardy quizzes through its carols, characters, plants and films.",
+  "facts": [
+    {
+      "id": "mistletoe",
+      "label": "mistletoe",
+      "statement": "Mistletoe is the parasitic plant you kiss under; it won't bloom until March.",
+      "associations": ["mistletoe", "kissing", "parasitic plant"],
+      "clue_ids": ["5af088251b", "5c69ae6df9"]
+    },
+    {
+      "id": "nutcracker",
+      "label": "The Nutcracker",
+      "statement": "Tchaikovsky's The Nutcracker is the Christmas Eve ballet; its first full U.S. performance was on Christmas Eve 1944.",
+      "associations": ["The Nutcracker", "Tchaikovsky", "Christmas Eve", "1944"],
+      "clue_ids": ["1f3fc55d77", "a39d09cdb6"]
+    },
+    {
+      "id": "scrooge",
+      "label": "Ebenezer Scrooge",
+      "statement": "Ebenezer Scrooge is the miser of Dickens's A Christmas Carol, haunted by Jacob Marley's ghost and reformed by Christmas morning.",
+      "associations": ["Ebenezer Scrooge", "A Christmas Carol", "Jacob Marley"],
+      "clue_ids": ["c78dc5099c", "b8d7191ee7", "fb4f399580"]
+    },
+    {
+      "id": "grinch",
+      "label": "the Grinch",
+      "statement": "The Grinch is Dr. Seuss's Christmas thief from Who-ville; he dresses his dog as a reindeer and later carves the roast beast.",
+      "associations": ["the Grinch", "Dr. Seuss", "Who-ville"],
+      "clue_ids": ["d97c241784", "7fc8138bdb"]
+    },
+    {
+      "id": "white-christmas",
+      "label": "White Christmas",
+      "statement": "Irving Berlin wrote 'White Christmas,' Bing Crosby's signature hit; a stage musical of that name was based on the 1954 film.",
+      "associations": ["Irving Berlin", "White Christmas", "Bing Crosby"],
+      "clue_ids": ["c5cea4c7b7", "6d357a821e"]
+    },
+    {
+      "id": "poinsettia",
+      "label": "the poinsettia",
+      "statement": "The poinsettia is the red-leaved Christmas plant named for Joel Poinsett, the first U.S. envoy to Mexico.",
+      "associations": ["poinsettia", "Joel Poinsett", "red leaves"],
+      "clue_ids": ["2b053f3d9e", "fa407f43a0"]
+    },
+    {
+      "id": "wonderful-life",
+      "label": "It's a Wonderful Life",
+      "statement": "It's a Wonderful Life is the 1946 Christmas classic set in Bedford Falls; Sesame Street's Bert and Ernie are named for its characters.",
+      "associations": ["It's a Wonderful Life", "Bedford Falls", "1946"],
+      "clue_ids": ["7eaa849126", "1580450389"]
+    }
+  ],
+  "clue_ids": [
+    "5af088251b", "5c69ae6df9", "1f3fc55d77", "a39d09cdb6", "c78dc5099c",
+    "b8d7191ee7", "fb4f399580", "d97c241784", "7fc8138bdb", "c5cea4c7b7",
+    "6d357a821e", "2b053f3d9e", "fa407f43a0", "7eaa849126", "1580450389"
+  ],
+  "related": ["st-patrick-s-day", "halloween", "thanksgiving"]
+}

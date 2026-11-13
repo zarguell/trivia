@@ -1,0 +1,134 @@
+{
+  "id": "vikings",
+  "name": "Vikings",
+  "deck": "history",
+  "aliases": [
+    "Viking"
+  ],
+  "hook": "Raiders, traders and settlers from the fjords — and the first Europeans to reach America.",
+  "facts": [
+    {
+      "id": "name",
+      "label": "the name Viking",
+      "statement": "\"Viking\" may come from Viken, a fjord near the future Norwegian capital Oslo, or from an Old Norse word for a bay or fjord dweller.",
+      "associations": [
+        "Viken",
+        "Oslo",
+        "fjord dweller"
+      ],
+      "clue_ids": [
+        "6bc8e5fd63",
+        "3fee095b61"
+      ]
+    },
+    {
+      "id": "homelands",
+      "label": "Scandinavia",
+      "statement": "The Vikings came from Scandinavia; they settled Iceland in 874, and the Althing there, founded in 930, is Europe's oldest parliament.",
+      "associations": [
+        "Scandinavia",
+        "Iceland",
+        "Althing",
+        "930"
+      ],
+      "clue_ids": [
+        "8eb5628179",
+        "a564237ed1"
+      ]
+    },
+    {
+      "id": "england",
+      "label": "Alfred the Great",
+      "statement": "Danish Vikings overran England until Alfred the Great of Wessex beat them at Edington in 878; Danegeld was the tax landowners paid to buy them off.",
+      "associations": [
+        "Alfred the Great",
+        "Edington",
+        "Danegeld",
+        "878"
+      ],
+      "clue_ids": [
+        "52b1725d0c",
+        "3ca6527900",
+        "38304fd23a"
+      ]
+    },
+    {
+      "id": "normandy",
+      "label": "Normandy",
+      "statement": "Around 900 the French king ceded a northern territory to the Viking Rollo, and that duchy became Normandy, home of the Normans.",
+      "associations": [
+        "Rollo",
+        "Normandy",
+        "Normans"
+      ],
+      "clue_ids": [
+        "3bccf50042",
+        "f7d160347c"
+      ]
+    },
+    {
+      "id": "l-anse-aux-meadows",
+      "label": "L'Anse aux Meadows",
+      "statement": "The Vikings reached North America around 1000; L'Anse aux Meadows in Newfoundland is the first authenticated European site there.",
+      "associations": [
+        "L'Anse aux Meadows",
+        "Newfoundland",
+        "North America",
+        "1000"
+      ],
+      "clue_ids": [
+        "37d140fbb0",
+        "90eb51fc2e"
+      ]
+    },
+    {
+      "id": "erik-the-red",
+      "label": "Erik the Red",
+      "statement": "Erik the Red founded the first Viking colony on Greenland around 985 and gave the island its inviting name; only 14 of his 25 ships arrived.",
+      "associations": [
+        "Erik the Red",
+        "Greenland",
+        "985"
+      ],
+      "clue_ids": [
+        "560b3b4637",
+        "8384bf1a80",
+        "3c13928b81"
+      ]
+    },
+    {
+      "id": "1893-replica",
+      "label": "the 1893 Viking replica",
+      "statement": "To show Columbus was not first across the Atlantic, a Viking ship replica sailed from Norway to Chicago's 1893 world's fair.",
+      "associations": [
+        "1893",
+        "Chicago",
+        "Viking ship replica"
+      ],
+      "clue_ids": [
+        "e8ac12308e"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "6bc8e5fd63",
+    "3fee095b61",
+    "8eb5628179",
+    "a564237ed1",
+    "52b1725d0c",
+    "3ca6527900",
+    "38304fd23a",
+    "3bccf50042",
+    "f7d160347c",
+    "37d140fbb0",
+    "90eb51fc2e",
+    "560b3b4637",
+    "8384bf1a80",
+    "3c13928b81",
+    "e8ac12308e"
+  ],
+  "related": [
+    "iceland",
+    "christopher-columbus"
+  ]
+}

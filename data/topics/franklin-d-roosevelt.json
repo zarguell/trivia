@@ -1,0 +1,65 @@
+{
+  "id": "franklin-d-roosevelt",
+  "name": "Franklin D. Roosevelt",
+  "deck": "history",
+  "aliases": ["Franklin Roosevelt", "FDR"],
+  "hook": "Four elections, the New Deal and \"a date which will live in infamy\" — FDR in seven facts.",
+  "facts": [
+    {
+      "id": "new-deal",
+      "label": "the New Deal",
+      "statement": "The New Deal was his economic recovery and social reform program; the \"second New Deal\" began with his January 4, 1935 message to Congress.",
+      "associations": ["New Deal", "1933", "Great Depression", "second New Deal"],
+      "clue_ids": ["d195a86be2", "22187db956", "5a1088aada"]
+    },
+    {
+      "id": "fireside-chats",
+      "label": "Fireside Chats",
+      "statement": "He gave the first of his \"Fireside Chats\" on March 12, 1933, speaking from the White House diplomatic reception room.",
+      "associations": ["Fireside Chats", "March 12, 1933", "radio addresses"],
+      "clue_ids": ["385fb34bd8", "58be17dfb8"]
+    },
+    {
+      "id": "good-neighbor",
+      "label": "Good Neighbor Policy",
+      "statement": "His Good Neighbor Policy toward Latin America stressed nonintervention and improved U.S. relations there.",
+      "associations": ["Good Neighbor Policy", "Latin America", "nonintervention"],
+      "clue_ids": ["4b9dbd07a0", "fdb27fab9f"]
+    },
+    {
+      "id": "infamy",
+      "label": "\"Infamy\" speech",
+      "statement": "In his December 8, 1941 speech he called December 7 \"a date which will live in infamy\" and asked Congress for war.",
+      "associations": ["infamy", "December 8, 1941", "Pearl Harbor"],
+      "clue_ids": ["749d0dab45"]
+    },
+    {
+      "id": "casablanca",
+      "label": "Casablanca Conference",
+      "statement": "At Casablanca in 1943 he and Churchill agreed to invade \"the soft underbelly of the Axis.\"",
+      "associations": ["Casablanca", "1943", "soft underbelly", "Churchill"],
+      "clue_ids": ["6ea562c9cb", "d1a813db8f"]
+    },
+    {
+      "id": "yalta",
+      "label": "Yalta",
+      "statement": "In February 1945 he met Churchill and Stalin at Yalta in the Crimea; his daughter Anna went with him.",
+      "associations": ["Yalta", "February 1945", "Churchill and Stalin"],
+      "clue_ids": ["626fea355c", "9cf839e248", "26899994c4"]
+    },
+    {
+      "id": "warm-springs",
+      "label": "Warm Springs",
+      "statement": "He died in office in April 1945; his will left $560,000 in insurance to the Warm Springs Foundation in Georgia.",
+      "associations": ["Warm Springs", "April 1945", "died in office"],
+      "clue_ids": ["4d58cbc826"]
+    }
+  ],
+  "clue_ids": [
+    "aa1ebc83a0", "4d58cbc826", "e6dd59a70f", "626fea355c", "d195a86be2",
+    "5a1088aada", "1b4ff2fc8e", "10edd4db90", "22187db956", "6ea562c9cb",
+    "d1a813db8f", "4b9dbd07a0", "fdb27fab9f", "385fb34bd8", "58be17dfb8",
+    "749d0dab45", "9cf839e248", "26899994c4"
+  ],
+  "related": ["world-war-ii", "cold-war", "ronald-reagan"]
+}

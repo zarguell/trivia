@@ -1,0 +1,64 @@
+{
+  "id": "thomas-edison",
+  "name": "Thomas Edison",
+  "deck": "science",
+  "aliases": ["Edison"],
+  "hook": "Menlo Park's \"invention factory\" and the inventions Jeopardy credits him with.",
+  "facts": [
+    {
+      "id": "menlo-park",
+      "label": "Menlo Park, New Jersey",
+      "statement": "Edison worked at his Menlo Park, New Jersey laboratory — the \"invention factory\" — where the Edison Memorial Tower now stands.",
+      "associations": ["Menlo Park", "New Jersey", "invention factory"],
+      "clue_ids": ["fbc06819e0", "90b6c42839"]
+    },
+    {
+      "id": "phonograph",
+      "label": "the phonograph",
+      "statement": "Edison invented the phonograph in 1877; his first recording was a line from \"Mary Had a Little Lamb.\"",
+      "associations": ["phonograph", "1877", "Mary Had a Little Lamb"],
+      "clue_ids": ["701aa256f2", "d3d8e6ef78", "ed7e7a2ef2"]
+    },
+    {
+      "id": "light-bulb",
+      "label": "the incandescent light bulb",
+      "statement": "Edison's practical incandescent bulb, perfected in 1879, became his signature invention and the basis of his fame.",
+      "associations": ["light bulb", "1879", "incandescent"],
+      "clue_ids": ["ce65394abb", "543c6dd3f8", "abaa826e34"]
+    },
+    {
+      "id": "general-electric",
+      "label": "General Electric",
+      "statement": "Edison's electric light company combined with Thomson-Houston in 1892 to form General Electric.",
+      "associations": ["General Electric", "1892", "Thomson-Houston"],
+      "clue_ids": ["0f847c1789", "6f4c196b5a"]
+    },
+    {
+      "id": "genius-quote",
+      "label": "the 99 percent perspiration quote",
+      "statement": "Edison's most quoted line: \"Genius is one percent inspiration and 99 percent perspiration.\"",
+      "associations": ["inspiration", "perspiration", "genius"],
+      "clue_ids": ["0eca0c4714", "0a9f82a8ce"]
+    },
+    {
+      "id": "milan-ohio",
+      "label": "Milan, Ohio",
+      "statement": "Edison was born in Milan, Ohio — a village named for the Italian city but pronounced to rhyme with \"stylin'.\"",
+      "associations": ["Milan", "Ohio", "birthplace"],
+      "clue_ids": ["2aba3397f9"]
+    },
+    {
+      "id": "moving-pictures",
+      "label": "motion pictures",
+      "statement": "Edison's studio filmed the first sporting event ever shot, an 1894 boxing match, and made a 1909 film of Mark Twain.",
+      "associations": ["motion pictures", "1894 boxing", "Mark Twain"],
+      "clue_ids": ["d412cdeb51", "f07fa60b3e"]
+    }
+  ],
+  "clue_ids": [
+    "fbc06819e0", "90b6c42839", "701aa256f2", "d3d8e6ef78", "ed7e7a2ef2",
+    "ce65394abb", "543c6dd3f8", "abaa826e34", "0f847c1789", "6f4c196b5a",
+    "0eca0c4714", "0a9f82a8ce", "2aba3397f9", "d412cdeb51", "f07fa60b3e"
+  ],
+  "related": ["alexander-graham-bell", "henry-ford", "nikola-tesla", "wright-brothers"]
+}

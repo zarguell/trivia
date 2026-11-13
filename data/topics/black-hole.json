@@ -1,0 +1,64 @@
+{
+  "id": "black-hole",
+  "name": "Black hole",
+  "deck": "science",
+  "aliases": ["black holes"],
+  "hook": "The collapsed star whose gravity traps light — and the man who made it famous.",
+  "facts": [
+    {
+      "id": "gravity",
+      "label": "gravity",
+      "statement": "A black hole's gravity is so strong that nothing, not even light, can escape it.",
+      "associations": ["gravity", "light cannot escape", "collapsed object"],
+      "clue_ids": ["df17227a6d", "eba8d33d96"]
+    },
+    {
+      "id": "event-horizon",
+      "label": "the event horizon",
+      "statement": "The event horizon is the boundary of a black hole, the point beyond which escape would require exceeding the speed of light.",
+      "associations": ["event horizon", "boundary", "point of no return"],
+      "clue_ids": ["0d48ab7af7", "65899fdfb1"]
+    },
+    {
+      "id": "singularity",
+      "label": "the singularity",
+      "statement": "At the center of a black hole, matter collapses to a singularity — a point of zero volume and infinite density.",
+      "associations": ["singularity", "infinite density", "center"],
+      "clue_ids": ["343caf2e5d", "66f77dda6b"]
+    },
+    {
+      "id": "hawking",
+      "label": "Stephen Hawking",
+      "statement": "Stephen Hawking calculated in 1974 that black holes emit radiation and are not completely black; his bestseller A Brief History of Time is subtitled From the Big Bang to Black Holes.",
+      "associations": ["Stephen Hawking", "Hawking radiation", "1974", "A Brief History of Time"],
+      "clue_ids": ["9454812f37", "56eba1a77c", "a29d6d4ca5"]
+    },
+    {
+      "id": "cygnus-x1",
+      "label": "Cygnus X-1",
+      "statement": "Cygnus X-1, in the constellation Cygnus the Swan, was the first black hole identified.",
+      "associations": ["Cygnus X-1", "Cygnus the Swan", "first black hole"],
+      "clue_ids": ["71db490e18", "f36ddd370c"]
+    },
+    {
+      "id": "sagittarius-a",
+      "label": "Sagittarius A*",
+      "statement": "Sagittarius A*, at the center of the Milky Way, is a supermassive black hole about 4.3 million times the mass of the Sun.",
+      "associations": ["Sagittarius A*", "Milky Way center", "supermassive", "4.3 million Suns"],
+      "clue_ids": ["1aaa112915"]
+    },
+    {
+      "id": "the-name",
+      "label": "the name",
+      "statement": "John Michell proposed the idea in 1783, and physicist John Wheeler coined the term black hole as shorthand for completely collapsed objects.",
+      "associations": ["John Michell", "1783", "John Wheeler", "coined the term"],
+      "clue_ids": ["624efcc460", "de1fbe9383"]
+    }
+  ],
+  "clue_ids": [
+    "df17227a6d", "eba8d33d96", "0d48ab7af7", "65899fdfb1", "343caf2e5d",
+    "66f77dda6b", "9454812f37", "56eba1a77c", "a29d6d4ca5", "71db490e18",
+    "f36ddd370c", "1aaa112915", "624efcc460", "de1fbe9383"
+  ],
+  "related": ["albert-einstein", "isaac-newton", "solar-system"]
+}

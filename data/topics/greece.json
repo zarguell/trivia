@@ -1,0 +1,65 @@
+{
+  "id": "greece",
+  "name": "Greece",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "Athens, Olympus and ouzo: the Greek facts behind a thousand classical clues.",
+  "facts": [
+    {
+      "id": "athens",
+      "label": "Athens",
+      "statement": "Athens, the capital, was called \"the eye of Greece\"; Paul preached on the Areopagus hill there.",
+      "associations": ["Athens", "capital", "Areopagus", "eye of Greece"],
+      "clue_ids": ["6ea3dfafc0", "abf280f955"]
+    },
+    {
+      "id": "crete",
+      "label": "Crete",
+      "statement": "Crete is Greece's largest island; the Ottomans took it in 1669 after a 21-year siege, and Greece gained it in 1913.",
+      "associations": ["Crete", "largest island", "1669 siege", "1913"],
+      "clue_ids": ["405fe9cf6b", "2cebd27eec"]
+    },
+    {
+      "id": "macedonia",
+      "label": "Macedonia",
+      "statement": "Philip II of Macedonia conquered Greece in 338 B.C.; when today's North Macedonia became independent in 1991, Greece objected to its name and flag.",
+      "associations": ["Macedonia", "Philip II", "338 B.C.", "1991 name dispute"],
+      "clue_ids": ["208ba0a29c", "4e9c870c1e", "5f3c6efd8f"]
+    },
+    {
+      "id": "olympus",
+      "label": "Mount Olympus",
+      "statement": "Mount Olympus, on the border of Thessaly and Macedonia, is Greece's highest peak at 9,750 feet.",
+      "associations": ["Mount Olympus", "9,750 feet", "highest peak", "Thessaly"],
+      "clue_ids": ["5f55d77dee", "324bb53047"]
+    },
+    {
+      "id": "ouzo",
+      "label": "ouzo",
+      "statement": "Ouzo is the anise-flavored Greek aperitif that turns cloudy when water or ice is added.",
+      "associations": ["ouzo", "anise", "turns cloudy", "aperitif"],
+      "clue_ids": ["f23de850bf", "f17c4279de"]
+    },
+    {
+      "id": "byron",
+      "label": "Lord Byron",
+      "statement": "Lord Byron died in Greece in 1824 while helping its freedom fighters; most of him was returned to England, but his lungs stayed.",
+      "associations": ["Lord Byron", "1824", "Greek independence", "lungs"],
+      "clue_ids": ["fa0089acef", "8797ff8fdf"]
+    },
+    {
+      "id": "cyprus",
+      "label": "Cyprus",
+      "statement": "Cyprus became independent in 1960 under a settlement among Britain, Greece and Turkey; the two countries nearly went to war over it in 1967 and 1974.",
+      "associations": ["Cyprus", "1960 independence", "Turkey", "1974"],
+      "clue_ids": ["b63cdeef8a", "02c798e5e6"]
+    }
+  ],
+  "clue_ids": [
+    "6ea3dfafc0", "abf280f955", "405fe9cf6b", "2cebd27eec", "208ba0a29c",
+    "4e9c870c1e", "5f3c6efd8f", "5f55d77dee", "324bb53047", "f23de850bf",
+    "f17c4279de", "fa0089acef", "8797ff8fdf", "b63cdeef8a", "02c798e5e6",
+    "74a85b030f", "265d4e1826", "e74eba0d28"
+  ],
+  "related": ["athens", "alexander-the-great", "homer", "rome"]
+}

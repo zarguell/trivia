@@ -1,0 +1,65 @@
+{
+  "id": "buddhism",
+  "name": "Buddhism",
+  "deck": "myth-religion",
+  "aliases": [],
+  "hook": "Four Noble Truths, nirvana and the sound of one hand: Buddhism's recurring six.",
+  "facts": [
+    {
+      "id": "four-noble-truths",
+      "label": "the Four Noble Truths",
+      "statement": "The Four Noble Truths begin with the truth that existence is suffering (dukkha) and end with the cessation of suffering.",
+      "associations": ["Four Noble Truths", "suffering", "dukkha", "cessation"],
+      "clue_ids": ["421af75df8", "fb0b662262"]
+    },
+    {
+      "id": "nirvana",
+      "label": "nirvana",
+      "statement": "Nirvana is Buddhism's state of absolute blessedness, from Sanskrit for \"to blow out\"; it is the goal of the path.",
+      "associations": ["nirvana", "bliss", "blow out", "goal of the path"],
+      "clue_ids": ["42b12dee47", "fb0b662262"]
+    },
+    {
+      "id": "zen",
+      "label": "Zen",
+      "statement": "Zen's two main Japanese schools are Soto and Rinzai, started by Dogen and Eisai in the 12th century; its koans ask about the sound of one hand.",
+      "associations": ["Zen", "Soto", "Rinzai", "koan", "one hand"],
+      "clue_ids": ["799f13ac86", "cbbd2da8ea", "79c818365f"]
+    },
+    {
+      "id": "dalai-lama",
+      "label": "the Dalai Lama",
+      "statement": "The Dalai Lama heads Tibetan Buddhism's Yellow Hat (Gelug) sect; the title goes back more than 600 years, and lama means \"superior one.\"",
+      "associations": ["Dalai Lama", "Yellow Hat", "Gelug", "lama", "Tibet"],
+      "clue_ids": ["acd2266271", "602db2beca", "1cc3f1d0e8"]
+    },
+    {
+      "id": "india",
+      "label": "India",
+      "statement": "Buddhism began in India but had largely died out there by the 12th century, though India is credited with giving it to Asia.",
+      "associations": ["India", "died out", "12th century", "Asia"],
+      "clue_ids": ["d4471aad7c", "3055df50dc"]
+    },
+    {
+      "id": "abhidharma",
+      "label": "the Abhidharma Pitaka",
+      "statement": "Buddhism's scriptures are divided into \"baskets\"; the Abhidharma Pitaka is one of those baskets, or texts.",
+      "associations": ["Abhidharma Pitaka", "baskets", "scriptures"],
+      "clue_ids": ["1891bff736"]
+    },
+    {
+      "id": "kukai",
+      "label": "Kukai",
+      "statement": "Kukai, also called Kobo Daishi, brought esoteric Shingon Buddhism to Japan.",
+      "associations": ["Kukai", "Kobo Daishi", "Shingon", "Japan"],
+      "clue_ids": ["d69fe4308f"]
+    }
+  ],
+  "clue_ids": [
+    "45d7bad005", "1891bff736", "fb0b662262", "42b12dee47", "799f13ac86",
+    "cbbd2da8ea", "79c818365f", "4f957d2446", "acd2266271", "602db2beca",
+    "35a5d737f8", "1cc3f1d0e8", "3411f50713", "d4471aad7c", "3055df50dc",
+    "421af75df8", "50518e6f04", "d69fe4308f"
+  ],
+  "related": ["buddha", "hinduism"]
+}

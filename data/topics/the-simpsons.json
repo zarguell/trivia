@@ -1,0 +1,65 @@
+{
+  "id": "the-simpsons",
+  "name": "The Simpsons",
+  "deck": "film-tv",
+  "aliases": ["Simpsons"],
+  "hook": "Springfield's first family, and the catchphrases Jeopardy has been quizzing since 1989.",
+  "facts": [
+    {
+      "id": "groening",
+      "label": "Matt Groening",
+      "statement": "Matt Groening created The Simpsons, which premiered December 17, 1989; its Springfield is named for Springfield, Oregon, and its style grew out of his Life in Hell strips.",
+      "associations": ["Matt Groening", "December 17, 1989", "Springfield, Oregon", "Life in Hell"],
+      "clue_ids": ["1271ce1f18", "2f155e3810", "2736aca2d5"]
+    },
+    {
+      "id": "springfield",
+      "label": "Springfield",
+      "statement": "The family lives at Evergreen Terrace in Springfield, a state the show never specifies.",
+      "associations": ["Springfield", "Evergreen Terrace", "unspecified state"],
+      "clue_ids": ["7959396b4e", "f0396c07b3"]
+    },
+    {
+      "id": "doh",
+      "label": "D'oh!",
+      "statement": "Dan Castellaneta's \"D'oh!\" was scripted as \"annoyed grunt\" and was inspired by a faux curse in Laurel and Hardy.",
+      "associations": ["D'oh!", "Dan Castellaneta", "annoyed grunt", "Laurel and Hardy"],
+      "clue_ids": ["1adcc73283", "676426ca4d"]
+    },
+    {
+      "id": "flanders",
+      "label": "Ned Flanders",
+      "statement": "Ned Flanders is the cheery neighbor who says \"Okely-dokely\"; his wife Maude was voiced by Maggie Roswell.",
+      "associations": ["Ned Flanders", "Okely-dokely", "Maude Flanders"],
+      "clue_ids": ["bbec04ed26", "b659b0a46c"]
+    },
+    {
+      "id": "krusty",
+      "label": "Krusty the Clown",
+      "statement": "Krusty the Clown endorses products like imitation gruel and Non-Toxic Kologne, and Luke Perry is his half-brother.",
+      "associations": ["Krusty the Clown", "imitation gruel", "Non-Toxic Kologne"],
+      "clue_ids": ["e9f614b5d3", "f69282d411"]
+    },
+    {
+      "id": "burns",
+      "label": "Montgomery Burns",
+      "statement": "Montgomery Burns owns Springfield's nuclear plant, is tended by Waylon Smithers, and has a pet monkey named Furious George.",
+      "associations": ["Montgomery Burns", "Waylon Smithers", "Furious George"],
+      "clue_ids": ["dd2e451736", "92e39708f1"]
+    },
+    {
+      "id": "santas-little-helper",
+      "label": "Santa's Little Helper",
+      "statement": "Santa's Little Helper is the family's greyhound, adopted at Christmas, who drinks toilet-bowl water.",
+      "associations": ["Santa's Little Helper", "greyhound", "toilet bowl water"],
+      "clue_ids": ["9c1adf025a", "42f7a012c9"]
+    }
+  ],
+  "clue_ids": [
+    "1271ce1f18", "df785fe4f3", "7959396b4e", "f0396c07b3", "2f155e3810",
+    "2736aca2d5", "1adcc73283", "368c6d115e", "bbec04ed26", "b659b0a46c",
+    "6e94529548", "84eb60d7ce", "676426ca4d", "e9f614b5d3", "dd4148d140",
+    "9c1adf025a", "42f7a012c9", "92e39708f1"
+  ],
+  "related": ["seinfeld", "i-love-lucy", "star-trek"]
+}

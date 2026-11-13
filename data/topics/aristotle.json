@@ -1,0 +1,64 @@
+{
+  "id": "aristotle",
+  "name": "Aristotle",
+  "deck": "science",
+  "aliases": [],
+  "hook": "The philosopher who taught Alexander, founded the Lyceum and wrote the rules on tragedy.",
+  "facts": [
+    {
+      "id": "plato",
+      "label": "Plato",
+      "statement": "Aristotle was Plato's student for about 20 years and left the Academy only after Plato died, saying truth was dearer to him than his teacher.",
+      "associations": ["Plato", "the Academy", "student for 20 years"],
+      "clue_ids": ["3756a6adb2", "9437d3a79c"]
+    },
+    {
+      "id": "lyceum",
+      "label": "the Lyceum",
+      "statement": "In 335 B.C. Aristotle founded the Lyceum, the school in a grove outside Athens where most of his surviving writings began as lecture notes.",
+      "associations": ["Lyceum", "335 B.C.", "Athens", "lecture notes"],
+      "clue_ids": ["0ff5108e14", "1be9de929f"]
+    },
+    {
+      "id": "alexander",
+      "label": "Alexander the Great",
+      "statement": "Aristotle tutored Alexander the Great, who went on to beat Darius III at Issus and conquer the Persian Empire.",
+      "associations": ["Alexander the Great", "tutor", "Darius III", "Macedonia"],
+      "clue_ids": ["5b842cde5c", "ec2fa39535"]
+    },
+    {
+      "id": "catharsis",
+      "label": "catharsis",
+      "statement": "In the Poetics Aristotle says tragedy should arouse fear and pity and provide catharsis, a cleansing release of those emotions.",
+      "associations": ["Poetics", "tragedy", "catharsis", "fear and pity"],
+      "clue_ids": ["73556eb1a6", "9bb075a9fe", "b16acef66d"]
+    },
+    {
+      "id": "political-animal",
+      "label": "a political animal",
+      "statement": "Aristotle wrote that man is by nature a political animal, and in Politics he asks what the ideal government is.",
+      "associations": ["political animal", "Politics", "ideal government"],
+      "clue_ids": ["6abb5e54a4", "579f74b83b"]
+    },
+    {
+      "id": "ethics",
+      "label": "ethics",
+      "statement": "Aristotle explores how to live a happy and virtuous life in the Nicomachean Ethics and the Eudemian Ethics.",
+      "associations": ["ethics", "Nicomachean Ethics", "Eudemian Ethics", "virtue"],
+      "clue_ids": ["df523874e5"]
+    },
+    {
+      "id": "rembrandt",
+      "label": "Rembrandt's Aristotle",
+      "statement": "Rembrandt's 1653 painting Aristotle with a Bust of Homer shows the philosopher contemplating the blind poet.",
+      "associations": ["Rembrandt", "1653", "Bust of Homer"],
+      "clue_ids": ["fe48cbdadb", "bdcf9b174d"]
+    }
+  ],
+  "clue_ids": [
+    "3756a6adb2", "9437d3a79c", "0ff5108e14", "1be9de929f", "5b842cde5c",
+    "ec2fa39535", "73556eb1a6", "9bb075a9fe", "b16acef66d", "6abb5e54a4",
+    "579f74b83b", "df523874e5", "fe48cbdadb", "bdcf9b174d"
+  ],
+  "related": ["alexander-the-great", "homer", "athens"]
+}

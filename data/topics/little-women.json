@@ -1,0 +1,141 @@
+{
+  "id": "little-women",
+  "name": "Little Women",
+  "deck": "literature",
+  "aliases": [
+    "Louisa May Alcott",
+    "Alcott"
+  ],
+  "hook": "Four sisters, one 1868 bestseller, and the March family Jeopardy never stops asking about.",
+  "facts": [
+    {
+      "id": "alcott",
+      "label": "Louisa May Alcott",
+      "statement": "Louisa May Alcott published Little Women in 1868, modeling Jo on herself and three sisters on her own siblings; sister Elizabeth, dead at 22, was the model for Beth.",
+      "associations": [
+        "Louisa May Alcott",
+        "1868",
+        "Jo March",
+        "Elizabeth Alcott"
+      ],
+      "clue_ids": [
+        "c1a8eccaa7",
+        "364d159b32"
+      ]
+    },
+    {
+      "id": "march-sisters",
+      "label": "Meg, Jo, Beth and Amy",
+      "statement": "The four March sisters are Meg (Margaret), Jo, Beth and Amy; Meg complains, 'It's so dreadful to be poor.'",
+      "associations": [
+        "March sisters",
+        "Meg",
+        "Jo",
+        "Beth",
+        "Amy"
+      ],
+      "clue_ids": [
+        "8a7dbe760a",
+        "b1c9f91af0",
+        "9d622875fe"
+      ]
+    },
+    {
+      "id": "jo",
+      "label": "Jo March",
+      "statement": "Jo is the second-oldest, the tomboy of the family, and Alcott's stand-in; she becomes a writer and marries Professor Bhaer.",
+      "associations": [
+        "Jo March",
+        "second-oldest",
+        "tomboy",
+        "Professor Bhaer"
+      ],
+      "clue_ids": [
+        "0af7e1eb02",
+        "bc4e465f63",
+        "9fbe2d9e9d"
+      ]
+    },
+    {
+      "id": "beth",
+      "label": "Beth March",
+      "statement": "Beth is the shy, timid sister nicknamed 'Little Tranquillity' who dies young, as did the real Elizabeth Alcott at 22.",
+      "associations": [
+        "Beth March",
+        "Little Tranquillity",
+        "dies young"
+      ],
+      "clue_ids": [
+        "9e456b707e",
+        "0bcbe43d50"
+      ]
+    },
+    {
+      "id": "amy",
+      "label": "Amy March",
+      "statement": "Amy is the youngest sister, 'a most important person, in her own opinion at least'; her name means 'loved,' and she marries Laurie.",
+      "associations": [
+        "Amy March",
+        "youngest",
+        "Laurie",
+        "loved"
+      ],
+      "clue_ids": [
+        "7e7fef3256",
+        "505fe357ed"
+      ]
+    },
+    {
+      "id": "sequels",
+      "label": "Little Men",
+      "statement": "Little Men is subtitled 'Life at Plumfield with Jo's Boys'; Good Wives, published in 1869, was the earlier follow-up.",
+      "associations": [
+        "Little Men",
+        "Plumfield",
+        "Good Wives",
+        "1869"
+      ],
+      "clue_ids": [
+        "0e41f8abf4",
+        "76e5fb2d62",
+        "5e1c50d1aa"
+      ]
+    },
+    {
+      "id": "civil-war",
+      "label": "the Civil War",
+      "statement": "The girls' father, Mr. March, is an army chaplain serving in the Civil War, which keeps him away from home.",
+      "associations": [
+        "Civil War",
+        "army chaplain",
+        "Mr. March"
+      ],
+      "clue_ids": [
+        "572737e0f4"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "c1a8eccaa7",
+    "364d159b32",
+    "8a7dbe760a",
+    "b1c9f91af0",
+    "9d622875fe",
+    "0af7e1eb02",
+    "bc4e465f63",
+    "9fbe2d9e9d",
+    "9e456b707e",
+    "0bcbe43d50",
+    "7e7fef3256",
+    "505fe357ed",
+    "0e41f8abf4",
+    "76e5fb2d62",
+    "5e1c50d1aa",
+    "572737e0f4"
+  ],
+  "related": [
+    "jane-austen",
+    "mark-twain",
+    "charles-dickens"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "stanley-kubrick",
+  "name": "Stanley Kubrick",
+  "deck": "film-tv",
+  "aliases": ["Kubrick"],
+  "hook": "The perfectionist auteur behind 2001, A Clockwork Orange, The Shining and Dr. Strangelove.",
+  "facts": [
+    {
+      "id": "space-odyssey",
+      "label": "2001: A Space Odyssey",
+      "statement": "2001: A Space Odyssey was inspired by Arthur C. Clarke's story \"The Sentinel\" and set to The Blue Danube and Thus Spoke Zarathustra.",
+      "associations": ["2001: A Space Odyssey", "Arthur C. Clarke", "The Sentinel", "Blue Danube"],
+      "clue_ids": ["8e368090af", "1e22464002"]
+    },
+    {
+      "id": "clockwork-orange",
+      "label": "A Clockwork Orange",
+      "statement": "A Clockwork Orange (1971) adapted Anthony Burgess's novel; Kubrick himself pulled it from British release fearing copycat violence.",
+      "associations": ["A Clockwork Orange", "1971", "Anthony Burgess", "banned in England"],
+      "clue_ids": ["7a503c742d", "0cede0fe34", "f64de92b7c"]
+    },
+    {
+      "id": "dr-strangelove",
+      "label": "Dr. Strangelove",
+      "statement": "Dr. Strangelove (1964) turned Peter George's novel Red Alert into a nuclear black comedy; Slim Pickens rides the bomb.",
+      "associations": ["Dr. Strangelove", "1964", "Red Alert", "Slim Pickens"],
+      "clue_ids": ["e07bbee8af", "4b703e1b43"]
+    },
+    {
+      "id": "the-shining",
+      "label": "The Shining",
+      "statement": "The Shining (1980) adapts Stephen King's novel; Shelley Duvall's scene holds the record at 127 takes, and Danny sees twin girls.",
+      "associations": ["The Shining", "Stephen King", "Overlook Hotel", "127 takes"],
+      "clue_ids": ["6cfef4b9f7", "746a6f27e9", "23ca88e8f0"]
+    },
+    {
+      "id": "full-metal-jacket",
+      "label": "Full Metal Jacket",
+      "statement": "Full Metal Jacket (1987) follows Marines from basic training to Vietnam, adapted from Gustav Hasford's The Short-Timers.",
+      "associations": ["Full Metal Jacket", "Vietnam", "Gustav Hasford", "The Short-Timers"],
+      "clue_ids": ["2a67a19137", "179c6064ba"]
+    },
+    {
+      "id": "eyes-wide-shut",
+      "label": "Eyes Wide Shut",
+      "statement": "Eyes Wide Shut (1999), his final film, stars Tom Cruise and Nicole Kidman and adapts Schnitzler's Traumnovelle.",
+      "associations": ["Eyes Wide Shut", "1999", "Tom Cruise", "Traumnovelle"],
+      "clue_ids": ["f4264fc75c", "db6c6e6552", "8f2192a955"]
+    },
+    {
+      "id": "paths-of-glory",
+      "label": "Paths of Glory",
+      "statement": "Paths of Glory (1957) is a WWI film about French soldiers accused of cowardice.",
+      "associations": ["Paths of Glory", "1957", "World War I", "France"],
+      "clue_ids": ["880746c628", "9dbb12bcfe", "89333b7ccc"]
+    }
+  ],
+  "clue_ids": [
+    "8e368090af", "1e22464002", "7a503c742d", "0cede0fe34", "f64de92b7c",
+    "e07bbee8af", "4b703e1b43", "6cfef4b9f7", "746a6f27e9", "23ca88e8f0",
+    "2a67a19137", "179c6064ba", "f4264fc75c", "db6c6e6552", "8f2192a955",
+    "880746c628", "9dbb12bcfe", "89333b7ccc"
+  ],
+  "related": ["steven-spielberg", "alfred-hitchcock", "star-wars"]
+}

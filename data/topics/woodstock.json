@@ -1,0 +1,64 @@
+{
+  "id": "woodstock",
+  "name": "Woodstock",
+  "deck": "music",
+  "aliases": ["Woodstock Festival"],
+  "hook": "Three days of peace, music and mud on a New York farm in August 1969.",
+  "facts": [
+    {
+      "id": "bethel",
+      "label": "Bethel, New York",
+      "statement": "The festival ran August 15-18, 1969 on Max Yasgur's farm in Bethel, Sullivan County, New York — not in Woodstock — drawing over 300,000.",
+      "associations": ["August 1969", "Bethel", "Max Yasgur", "Sullivan County"],
+      "clue_ids": ["4fd71ef643", "caaac2503b"]
+    },
+    {
+      "id": "jimi-hendrix",
+      "label": "Jimi Hendrix",
+      "statement": "Jimi Hendrix played a searing \"Star-Spangled Banner\" at Woodstock; he told Dick Cavett, \"I'm American, so I played it.\"",
+      "associations": ["Jimi Hendrix", "\"The Star-Spangled Banner\"", "Dick Cavett"],
+      "clue_ids": ["839f8b8490", "cf6358abc7", "03316212ee"]
+    },
+    {
+      "id": "richie-havens",
+      "label": "Richie Havens",
+      "statement": "Richie Havens opened the festival and, called back for so many encores he ran out of material, improvised \"Freedom.\"",
+      "associations": ["Richie Havens", "opening act", "\"Freedom\""],
+      "clue_ids": ["e87f0b347d", "3d28868ed9"]
+    },
+    {
+      "id": "documentary",
+      "label": "the 1970 documentary",
+      "statement": "The 1970 documentary Woodstock includes Max Yasgur's speech; Martin Scorsese worked on it as an assistant director and supervising editor.",
+      "associations": ["1970 film", "Max Yasgur", "Martin Scorsese", "assistant director"],
+      "clue_ids": ["caaac2503b", "bc82c69590", "94d8abeefa"]
+    },
+    {
+      "id": "the-who",
+      "label": "The Who",
+      "statement": "The Who played Woodstock; Pete Townshend said the \"desolation\" there inspired \"Baba O'Riley.\"",
+      "associations": ["The Who", "Pete Townshend", "\"Baba O'Riley\""],
+      "clue_ids": ["697d424cc6"]
+    },
+    {
+      "id": "granola",
+      "label": "granola",
+      "statement": "Thousands of cups of granola were passed down from the stage to feed the huge crowd.",
+      "associations": ["granola", "free food", "crowd"],
+      "clue_ids": ["f8e18907da"]
+    },
+    {
+      "id": "filippini",
+      "label": "Filippini's Pond",
+      "statement": "At Woodstock, concertgoers shed their clothes and inhibitions by skinny-dipping in Filippini's Pond.",
+      "associations": ["Filippini's Pond", "skinny dipping", "Bethel"],
+      "clue_ids": ["f40cb3f151"]
+    }
+  ],
+  "clue_ids": [
+    "4fd71ef643", "caaac2503b", "bc82c69590", "94d8abeefa", "839f8b8490",
+    "cf6358abc7", "03316212ee", "e87f0b347d", "3d28868ed9", "697d424cc6",
+    "f8e18907da", "f40cb3f151"
+  ],
+  "related": ["the-beatles", "bob-dylan", "the-rolling-stones"]
+}

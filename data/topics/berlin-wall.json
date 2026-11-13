@@ -1,0 +1,65 @@
+{
+  "id": "berlin-wall",
+  "name": "Berlin Wall",
+  "deck": "history",
+  "aliases": ["the Wall", "Berliner Mauer"],
+  "hook": "A city divided, a wall built and torn down, and the century's most famous crossing.",
+  "facts": [
+    {
+      "id": "built",
+      "label": "1961",
+      "statement": "The Berlin Wall was built in 1961; East German leader Walter Ulbricht ordered its construction.",
+      "associations": ["1961", "Walter Ulbricht", "East Germany"],
+      "clue_ids": ["c5af8b8dfd", "01f17717f2"]
+    },
+    {
+      "id": "checkpoint-charlie",
+      "label": "Checkpoint Charlie",
+      "statement": "Checkpoint Charlie on Friedrichstrasse was the famous crossing between East and West Berlin.",
+      "associations": ["Checkpoint Charlie", "Friedrichstrasse", "crossing point"],
+      "clue_ids": ["6ba066717b", "63d7c6a117"]
+    },
+    {
+      "id": "kennedy",
+      "label": "John F. Kennedy",
+      "statement": "John F. Kennedy visited the Wall in 1963 and said democracy never had to build a wall to keep people in.",
+      "associations": ["John F. Kennedy", "1963", "democracy quote"],
+      "clue_ids": ["0089d17cfe", "5350149474"]
+    },
+    {
+      "id": "peter-fechter",
+      "label": "Peter Fechter",
+      "statement": "Peter Fechter was shot trying to climb the Wall in 1962 and died after his pleas for aid went unanswered.",
+      "associations": ["Peter Fechter", "1962", "shot at the Wall"],
+      "clue_ids": ["8567ffed48"]
+    },
+    {
+      "id": "fall",
+      "label": "November 9, 1989",
+      "statement": "The Wall fell on November 9, 1989, as the Cold War ended and the Soviet bloc broke apart.",
+      "associations": ["November 9", "1989", "fall of the Wall"],
+      "clue_ids": ["30360ca6c5", "37462dfe1d"]
+    },
+    {
+      "id": "twenty-eight-years",
+      "label": "28 years",
+      "statement": "The Wall stood 28 years, from 1961 to 1989; its fall spelled the end of East Germany.",
+      "associations": ["28 years", "1961–1989", "East Germany"],
+      "clue_ids": ["5a303f53cb", "199a02a082", "2992228376"]
+    },
+    {
+      "id": "concerts",
+      "label": "The Wall concerts",
+      "statement": "Roger Waters performed The Wall at the site in 1990, and David Hasselhoff sang on the Wall to a million people.",
+      "associations": ["Roger Waters", "Pink Floyd", "David Hasselhoff", "1990 concert"],
+      "clue_ids": ["5374b81989", "46eb43ab2d", "18ff0b2d5b"]
+    }
+  ],
+  "clue_ids": [
+    "c5af8b8dfd", "01f17717f2", "6ba066717b", "63d7c6a117", "0089d17cfe",
+    "5350149474", "8567ffed48", "30360ca6c5", "37462dfe1d", "5a303f53cb",
+    "199a02a082", "2992228376", "5374b81989", "46eb43ab2d", "18ff0b2d5b",
+    "e99b4cc074", "5eeee59925"
+  ],
+  "related": ["cold-war", "ronald-reagan", "world-war-ii"]
+}

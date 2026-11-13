@@ -1,0 +1,65 @@
+{
+  "id": "alaska",
+  "name": "Alaska",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "Seward's Folly to the Bering Strait: the frozen facts Jeopardy asks about the 49th state.",
+  "facts": [
+    {
+      "id": "purchase",
+      "label": "the 1867 Alaska Purchase",
+      "statement": "The U.S. bought Alaska from Russia in 1867 for $7.2 million — \"Seward's Folly,\" after Secretary of State William Seward.",
+      "associations": ["1867", "Russia", "$7.2 million", "Seward's Folly"],
+      "clue_ids": ["fdb16651ab", "55e52f5496", "2ad2e0a560"]
+    },
+    {
+      "id": "anchorage",
+      "label": "Anchorage",
+      "statement": "Anchorage, Alaska's largest city, was hit by the great earthquake of March 27, 1964, and dusted by Mount Spurr's ash in 1992.",
+      "associations": ["Anchorage", "1964 earthquake", "Mount Spurr", "largest city"],
+      "clue_ids": ["bf964c3347", "fa6c6c13df"]
+    },
+    {
+      "id": "bering-strait",
+      "label": "the Bering Strait",
+      "statement": "The Bering Strait separates Alaska from Russia by about 50 miles and holds the Diomede Islands, one Russian and one American.",
+      "associations": ["Bering Strait", "Russia", "50 miles", "Diomede Islands"],
+      "clue_ids": ["3506efb61e", "d45e14e445"]
+    },
+    {
+      "id": "bering",
+      "label": "Vitus Bering",
+      "statement": "Vitus Bering, a Dane sailing for Russia, sighted Alaska's St. Elias mountains in 1741.",
+      "associations": ["Vitus Bering", "1741", "St. Elias", "Danish explorer"],
+      "clue_ids": ["ed573b222f", "cc9706f69a", "1818138451"]
+    },
+    {
+      "id": "yukon",
+      "label": "the Yukon",
+      "statement": "The Yukon River runs 1,980 miles across Alaska into the Bering Sea, and the territory of Yukon borders the state.",
+      "associations": ["Yukon River", "1,980 miles", "Bering Sea", "Yukon territory"],
+      "clue_ids": ["2b189d1735", "ed56ea3b90"]
+    },
+    {
+      "id": "kodiak",
+      "label": "Kodiak",
+      "statement": "Kodiak Island was the capital of Russian Alaska and lends its name to the world's biggest grizzly bears.",
+      "associations": ["Kodiak", "Russian Alaska", "Kodiak bear", "island"],
+      "clue_ids": ["5297355cc7", "09127b571b"]
+    },
+    {
+      "id": "glaciers",
+      "label": "its glaciers",
+      "statement": "Alaska holds thousands of glaciers; the Malaspina alone covers an area larger than Rhode Island.",
+      "associations": ["glaciers", "Malaspina", "Rhode Island"],
+      "clue_ids": ["39e897f21c", "35c965d4c6"]
+    }
+  ],
+  "clue_ids": [
+    "fdb16651ab", "55e52f5496", "2ad2e0a560", "bf964c3347", "fa6c6c13df",
+    "3506efb61e", "d45e14e445", "ed573b222f", "cc9706f69a", "1818138451",
+    "2b189d1735", "ed56ea3b90", "5297355cc7", "09127b571b", "39e897f21c",
+    "35c965d4c6", "4080a464df", "cfae8905be"
+  ],
+  "related": ["canada", "hawaii", "world-war-ii"]
+}

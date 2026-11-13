@@ -1,0 +1,135 @@
+{
+ "id": "romeo-and-juliet",
+ "name": "Romeo and Juliet",
+ "deck": "literature",
+ "aliases": [
+  "Romeo & Juliet"
+ ],
+ "hook": "The star-crossed lovers, the balcony, and the tomb — Shakespeare's most-quoted tragedy.",
+ "facts": [
+  {
+   "id": "verona",
+   "label": "Verona",
+   "statement": "The play is set in Verona, where the Montagues and Capulets feud; it opens 'Two households, both alike in dignity.'",
+   "associations": [
+    "Verona",
+    "Montagues",
+    "Capulets",
+    "two households"
+   ],
+   "clue_ids": [
+    "d4b7d8b75c",
+    "c36bb88402",
+    "8ec61d9888"
+   ]
+  },
+  {
+   "id": "lovers",
+   "label": "Romeo and Juliet",
+   "statement": "Romeo and Juliet meet at a Capulet ball and share a sonnet; Juliet says parting is 'such sweet sorrow.'",
+   "associations": [
+    "Capulet ball",
+    "sonnet",
+    "sweet sorrow"
+   ],
+   "clue_ids": [
+    "c86d12d730",
+    "3b2aaa4507"
+   ]
+  },
+  {
+   "id": "mercutio",
+   "label": "Mercutio",
+   "statement": "Mercutio, Romeo's friend, is stabbed by Tybalt and dies saying 'A plague o' both your houses!'; he also delivers the Queen Mab speech.",
+   "associations": [
+    "Mercutio",
+    "A plague o' both your houses",
+    "Queen Mab"
+   ],
+   "clue_ids": [
+    "2f5e79eaba",
+    "e6afb4f7d1",
+    "15d3ed2a26"
+   ]
+  },
+  {
+   "id": "tybalt",
+   "label": "Tybalt",
+   "statement": "Tybalt is Juliet's arrogant Capulet kinsman who turns a servants' quarrel into a brawl and kills Mercutio.",
+   "associations": [
+    "Tybalt",
+    "Capulet kinsman",
+    "kills Mercutio"
+   ],
+   "clue_ids": [
+    "9e10fe00db"
+   ]
+  },
+  {
+   "id": "friar-laurence",
+   "label": "Friar Laurence",
+   "statement": "Friar Laurence secretly marries the lovers and gives Juliet the potion that makes her appear dead.",
+   "associations": [
+    "Friar Laurence",
+    "secret marriage",
+    "potion"
+   ],
+   "clue_ids": [
+    "f0fd524db9"
+   ]
+  },
+  {
+   "id": "capulet-tomb",
+   "label": "the Capulet tomb",
+   "statement": "Both lovers die in the Capulet tomb; Juliet stabs herself with Romeo's dagger, and Paris is killed there too.",
+   "associations": [
+    "Capulet tomb",
+    "dagger",
+    "Paris"
+   ],
+   "clue_ids": [
+    "5b3e8cd85a",
+    "641f176d6c",
+    "430076cc7a"
+   ]
+  },
+  {
+   "id": "zeffirelli",
+   "label": "Franco Zeffirelli",
+   "statement": "Zeffirelli directed the 1968 film after filming The Taming of the Shrew (1967); his Hamlet came later, in 1990.",
+   "associations": [
+    "Franco Zeffirelli",
+    "1968 film"
+   ],
+   "clue_ids": [
+    "30608f4c6f",
+    "d06a5400f7"
+   ]
+  }
+ ],
+ "clue_ids": [
+  "d4b7d8b75c",
+  "c36bb88402",
+  "8ec61d9888",
+  "c86d12d730",
+  "3b2aaa4507",
+  "2f5e79eaba",
+  "e6afb4f7d1",
+  "15d3ed2a26",
+  "9e10fe00db",
+  "f0fd524db9",
+  "5b3e8cd85a",
+  "641f176d6c",
+  "430076cc7a",
+  "30608f4c6f",
+  "d06a5400f7",
+  "83d7e19d8c",
+  "43e0c74da3",
+  "06bf29de9d"
+ ],
+ "related": [
+  "william-shakespeare",
+  "hamlet",
+  "macbeth"
+ ]
+}

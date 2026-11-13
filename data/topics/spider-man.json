@@ -1,0 +1,65 @@
+{
+  "id": "spider-man",
+  "name": "Spider-Man",
+  "deck": "pop-culture",
+  "aliases": ["Spiderman"],
+  "hook": "Three film Spider-Men, one motto, and the villains who kept coming back.",
+  "facts": [
+    {
+      "id": "peter-parker",
+      "label": "Peter Parker",
+      "statement": "Peter Parker is Spider-Man, the \"friendly neighborhood\" hero whose motto is \"With great power comes great responsibility.\"",
+      "associations": ["Peter Parker", "great power", "great responsibility"],
+      "clue_ids": ["f1c78904f9", "4581a87ea3"]
+    },
+    {
+      "id": "stan-lee",
+      "label": "Stan Lee",
+      "statement": "Stan Lee co-created Spider-Man and cameoed in the films, including The Amazing Spider-Man.",
+      "associations": ["Stan Lee", "co-creator", "cameo"],
+      "clue_ids": ["3c0d125773", "04d8bca77a"]
+    },
+    {
+      "id": "sam-raimi",
+      "label": "Sam Raimi",
+      "statement": "Sam Raimi directed the 2002 Spider-Man after making his name with The Evil Dead at 22.",
+      "associations": ["Sam Raimi", "2002 film", "The Evil Dead"],
+      "clue_ids": ["b9433b9fd7", "e63fc4cd3c"]
+    },
+    {
+      "id": "tobey-maguire",
+      "label": "Tobey Maguire",
+      "statement": "Tobey Maguire played Peter Parker and Spider-Man in the 2002 film and reads \"The Song of Hiawatha\" in Spider-Man 2.",
+      "associations": ["Tobey Maguire", "2002 film", "The Song of Hiawatha"],
+      "clue_ids": ["f213bc1437", "e6b2a426c1"]
+    },
+    {
+      "id": "green-goblin",
+      "label": "the Green Goblin",
+      "statement": "Willem Dafoe played the Green Goblin in all three Tobey Maguire Spider-Man films.",
+      "associations": ["Green Goblin", "Willem Dafoe", "villain"],
+      "clue_ids": ["07cf00fb1b", "f985498d11"]
+    },
+    {
+      "id": "doctor-octopus",
+      "label": "Doctor Octopus",
+      "statement": "Doctor Octopus, Otto Octavius, was played by Alfred Molina in 2004's Spider-Man 2.",
+      "associations": ["Doctor Octopus", "Otto Octavius", "Alfred Molina"],
+      "clue_ids": ["663a8c7151", "f482b97227"]
+    },
+    {
+      "id": "tom-holland",
+      "label": "Tom Holland",
+      "statement": "Tom Holland plays Peter Parker in Spider-Man: Homecoming and Far From Home.",
+      "associations": ["Tom Holland", "Homecoming", "Far From Home"],
+      "clue_ids": ["d6ab269827", "ed0a74386d"]
+    }
+  ],
+  "clue_ids": [
+    "f1c78904f9", "4581a87ea3", "3c0d125773", "04d8bca77a", "b9433b9fd7",
+    "e63fc4cd3c", "f213bc1437", "e6b2a426c1", "07cf00fb1b", "f985498d11",
+    "663a8c7151", "f482b97227", "d6ab269827", "ed0a74386d", "f22e3b5100",
+    "bd9ef939c6", "bb6272f120", "6b7ec4678e"
+  ],
+  "related": ["marvel", "batman", "superman"]
+}

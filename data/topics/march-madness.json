@@ -1,0 +1,64 @@
+{
+  "id": "march-madness",
+  "name": "March Madness",
+  "deck": "sports",
+  "aliases": ["NCAA tournament"],
+  "hook": "The tournament's phrase, bracket and blue-blood moments, explained in one sitting.",
+  "facts": [
+    {
+      "id": "phrase-origin",
+      "label": "the phrase's origin",
+      "statement": "An Illinois sports official wrote in 1939 that 'a little March Madness' may 'contribute to sanity'; Brent Musburger made it the men's tournament's name.",
+      "associations": ["March Madness", "1939", "Brent Musburger"],
+      "clue_ids": ["0066bd252c", "77ffd26b0b"]
+    },
+    {
+      "id": "bracket",
+      "label": "a bracket",
+      "statement": "Filling out a bracket is the March Madness office ritual, and a 14-letter expert who picks for fans is a bracketologist.",
+      "associations": ["bracket", "bracketologist", "office pool"],
+      "clue_ids": ["220fb34f37", "828e38e395", "c73750f860"]
+    },
+    {
+      "id": "elite-eight",
+      "label": "the Elite Eight",
+      "statement": "The Elite Eight is the round before the Final Four — the third-to-last round of the tournament.",
+      "associations": ["Elite Eight", "Final Four", "third-to-last round"],
+      "clue_ids": ["3f7a30ca47"]
+    },
+    {
+      "id": "msg",
+      "label": "Madison Square Garden",
+      "statement": "Early on, the NIT at Madison Square Garden was a bigger deal than the NCAA tournament.",
+      "associations": ["NIT", "Madison Square Garden", "New York City"],
+      "clue_ids": ["f456ebb7a0"]
+    },
+    {
+      "id": "kansas",
+      "label": "Kansas",
+      "statement": "Kansas, the Midwestern hoops powerhouse, beat North Carolina in a 2022 March Madness title thriller.",
+      "associations": ["Kansas", "North Carolina", "2022"],
+      "clue_ids": ["92860d9874"]
+    },
+    {
+      "id": "michael-jordan",
+      "label": "Michael Jordan",
+      "statement": "Michael Jordan hit a championship winner for North Carolina against Georgetown in 1982 and was named an all-time March Madness player in 2013.",
+      "associations": ["Michael Jordan", "North Carolina", "1982"],
+      "clue_ids": ["d2732b5350"]
+    },
+    {
+      "id": "gonzaga",
+      "label": "Gonzaga",
+      "statement": "Gonzaga, the Catholic liberal arts college in Spokane, is a regular March Madness contender.",
+      "associations": ["Gonzaga", "Spokane", "Cinderella"],
+      "clue_ids": ["bbb7cf64c6"]
+    }
+  ],
+  "clue_ids": [
+    "0066bd252c", "77ffd26b0b", "220fb34f37", "828e38e395", "c73750f860",
+    "3f7a30ca47", "f456ebb7a0", "92860d9874", "d2732b5350", "bbb7cf64c6",
+    "463469e025", "37c6bc2787"
+  ],
+  "related": ["michael-jordan", "super-bowl", "world-cup"]
+}

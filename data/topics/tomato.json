@@ -1,0 +1,64 @@
+{
+  "id": "tomato",
+  "name": "Tomato",
+  "deck": "food-drink",
+  "aliases": ["tomatoes"],
+  "hook": "Botanically a fruit, legally a vegetable — and the base of ketchup, gazpacho and the Bloody Mary.",
+  "facts": [
+    {
+      "id": "fruit-or-vegetable",
+      "label": "fruit or vegetable",
+      "statement": "Botanically a fruit, the tomato was ruled a vegetable by the Supreme Court in 1893, which let it be taxed as produce.",
+      "associations": ["fruit vs. vegetable", "Supreme Court", "1893", "tariff"],
+      "clue_ids": ["4d12d6d78d"]
+    },
+    {
+      "id": "nightshade",
+      "label": "nightshade family",
+      "statement": "The tomato belongs to the nightshade family, along with the potato and the poisonous belladonna.",
+      "associations": ["nightshade", "belladonna", "potato", "Solanaceae"],
+      "clue_ids": ["af983b52d0", "4b128e1a78"]
+    },
+    {
+      "id": "ketchup",
+      "label": "ketchup",
+      "statement": "Ketchup's name comes from Chinese or Malay; New Englanders added tomatoes to the recipe in the 1700s, making the condiment for French fries.",
+      "associations": ["ketchup", "Chinese or Malay", "1700s", "French fries"],
+      "clue_ids": ["ee65636532", "7a518ab86d"]
+    },
+    {
+      "id": "gazpacho",
+      "label": "Gazpacho",
+      "statement": "Gazpacho is the cold Andalusian tomato soup; in Spain it is a classic tapa, sometimes served in a glass.",
+      "associations": ["gazpacho", "Andalusia", "cold soup", "tapas"],
+      "clue_ids": ["d49da45fd2", "d3de6abfa8"]
+    },
+    {
+      "id": "bloody-mary",
+      "label": "Bloody Mary",
+      "statement": "The Bloody Mary is vodka and tomato juice with Tabasco, pepper, lemon and Worcestershire — reputedly better on a plane.",
+      "associations": ["Bloody Mary", "vodka", "tomato juice", "Tabasco"],
+      "clue_ids": ["ce1ed7d0ed", "628d47e254"]
+    },
+    {
+      "id": "fried-green-tomatoes",
+      "label": "Fried Green Tomatoes",
+      "statement": "Fannie Flagg wrote Fried Green Tomatoes at the Whistle Stop Cafe and set it in Alabama; she was also a Match Game panelist.",
+      "associations": ["Fannie Flagg", "Fried Green Tomatoes", "Alabama", "Match Game"],
+      "clue_ids": ["ae1c784fd1", "7a1e31229f"]
+    },
+    {
+      "id": "la-tomatina",
+      "label": "La Tomatina",
+      "statement": "Each year the town of Buñol, Spain, stages La Tomatina, a huge street fight using tomatoes.",
+      "associations": ["La Tomatina", "Buñol", "Spain", "tomato fight"],
+      "clue_ids": ["21c059e259"]
+    }
+  ],
+  "clue_ids": [
+    "4d12d6d78d", "af983b52d0", "4b128e1a78", "ee65636532", "7a518ab86d",
+    "d49da45fd2", "d3de6abfa8", "ce1ed7d0ed", "628d47e254", "ae1c784fd1",
+    "7a1e31229f", "21c059e259"
+  ],
+  "related": ["potato", "pizza", "mcdonald-s"]
+}

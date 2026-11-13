@@ -1,0 +1,64 @@
+{
+  "id": "scotland",
+  "name": "Scotland",
+  "deck": "geography",
+  "aliases": ["Caledonia"],
+  "hook": "Macbeth, Mary Queen of Scots, Robert Burns and Loch Lomond: the names Jeopardy keeps asking about.",
+  "facts": [
+    {
+      "id": "mary",
+      "label": "Mary, Queen of Scots",
+      "statement": "Mary, Queen of Scots was James VI's mother; she spent most of her teens in France and gave birth to the future king in 1566 while a prisoner.",
+      "associations": ["Mary, Queen of Scots", "James VI", "France", "1566"],
+      "clue_ids": ["ee59fc707a", "0a30d1d917"]
+    },
+    {
+      "id": "macbeth",
+      "label": "Macbeth",
+      "statement": "Shakespeare's Macbeth is the only play he set in Scotland; the real Macbeth killed King Duncan in 1040 to take the throne.",
+      "associations": ["Shakespeare", "only play set in Scotland", "Duncan", "1040"],
+      "clue_ids": ["f66a3c7f54", "e472b342b3"]
+    },
+    {
+      "id": "burns",
+      "label": "Robert Burns",
+      "statement": "Robert Burns is Scotland's national poet, the \"Bard of Ayrshire,\" toasted in 1786 as \"Caledonia's Bard.\"",
+      "associations": ["Bard of Ayrshire", "Caledonia's Bard", "national poet"],
+      "clue_ids": ["2ea1f41f46", "497ada87c4"]
+    },
+    {
+      "id": "glasgow",
+      "label": "Glasgow",
+      "statement": "Glasgow is Scotland's largest city; its name comes from Celtic for \"dear green spot,\" and it holds the Royal Conservatoire and University of Strathclyde.",
+      "associations": ["largest city", "dear green spot", "Strathclyde"],
+      "clue_ids": ["0a7454c9af", "049dce4249"]
+    },
+    {
+      "id": "loch-lomond",
+      "label": "Loch Lomond",
+      "statement": "Loch Lomond is Scotland's largest lake by area; Loch Ness holds more water. Both are among its biggest lochs.",
+      "associations": ["largest lake by area", "Loch Ness", "bonnie loch"],
+      "clue_ids": ["218cdd29f3", "21c9289ae0"]
+    },
+    {
+      "id": "robert-the-bruce",
+      "label": "Robert the Bruce",
+      "statement": "Robert the Bruce was crowned King of Scotland in 1306 and led the small force that won at Bannockburn in 1314, taking Stirling Castle.",
+      "associations": ["Bannockburn 1314", "crowned 1306", "Stirling Castle"],
+      "clue_ids": ["f4f4f2c6f2", "772e448fae"]
+    },
+    {
+      "id": "knox",
+      "label": "John Knox",
+      "statement": "John Knox fled to Geneva under Mary I, returned in 1559, and led the Reformation of the Church of Scotland.",
+      "associations": ["Church of Scotland", "Geneva", "1559"],
+      "clue_ids": ["08c43dd62f", "2af15b6aae"]
+    }
+  ],
+  "clue_ids": [
+    "ee59fc707a", "0a30d1d917", "f66a3c7f54", "e472b342b3", "2ea1f41f46",
+    "497ada87c4", "0a7454c9af", "049dce4249", "218cdd29f3", "21c9289ae0",
+    "f4f4f2c6f2", "772e448fae", "08c43dd62f", "2af15b6aae"
+  ],
+  "related": ["macbeth", "ireland", "italy"]
+}

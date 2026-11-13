@@ -1,0 +1,65 @@
+{
+  "id": "tour-de-france",
+  "name": "Tour de France",
+  "deck": "sports",
+  "aliases": ["Le Tour"],
+  "hook": "Cycling's biggest race — yellow jerseys, the Champs-Élysées, and the Americans who defined it.",
+  "facts": [
+    {
+      "id": "founding",
+      "label": "Henri Desgrange",
+      "statement": "Henri Desgrange founded the race, first run in 1903, and created the maillot jaune, first worn by Eugène Christophe.",
+      "associations": ["Henri Desgrange", "1903", "maillot jaune", "Eugène Christophe"],
+      "clue_ids": ["9a6b79f95a"]
+    },
+    {
+      "id": "yellow-jersey",
+      "label": "the yellow jersey",
+      "statement": "The overall leader wears the maillot jaune, a yellow jersey, and the race winner receives one.",
+      "associations": ["maillot jaune", "yellow jersey", "overall leader"],
+      "clue_ids": ["5e4a7bae0a", "98c10eb566", "e57030f5d3"]
+    },
+    {
+      "id": "champs-elysees",
+      "label": "the Champs-Élysées",
+      "statement": "The Tour traditionally finishes on the Champs-Élysées in Paris; since 1975 the finale has been an eight-lap circuit of the avenue.",
+      "associations": ["Champs-Élysées", "Paris", "finish line", "1975"],
+      "clue_ids": ["00cbcfed46", "897bd014bf", "5ed6d6455d"]
+    },
+    {
+      "id": "lemond",
+      "label": "Greg LeMond",
+      "statement": "Greg LeMond, the American whose surname sounds French, won in 1986, 1989 and 1990.",
+      "associations": ["Greg LeMond", "1986", "1989", "1990", "American"],
+      "clue_ids": ["578d9e7e03", "6447464abc", "582c960151"]
+    },
+    {
+      "id": "armstrong",
+      "label": "Lance Armstrong",
+      "statement": "Lance Armstrong won seven straight Tours from 1999 after beating cancer, then admitted doping to Oprah Winfrey in 2013 and lost the titles.",
+      "associations": ["Lance Armstrong", "1999", "seven wins", "doping admission"],
+      "clue_ids": ["d239d43b66", "4d12f140c4"]
+    },
+    {
+      "id": "indurain",
+      "label": "Miguel Induráin",
+      "statement": "Spain's Miguel Induráin won five straight Tours from 1991 to 1995, a record.",
+      "associations": ["Miguel Induráin", "Spain", "five straight", "1995"],
+      "clue_ids": ["f161644ad5", "50f382bb6b"]
+    },
+    {
+      "id": "mountains",
+      "label": "the Alps and the Pyrenees",
+      "statement": "The decisive climbing is in the Alps and the Pyrenees, including Alpine passes named for St. Bernard.",
+      "associations": ["Alps", "Pyrenees", "St. Bernard", "mountain stages"],
+      "clue_ids": ["89bd04b724", "b3c23f2bcf"]
+    }
+  ],
+  "clue_ids": [
+    "9a6b79f95a", "5e4a7bae0a", "98c10eb566", "e57030f5d3", "00cbcfed46",
+    "897bd014bf", "5ed6d6455d", "578d9e7e03", "6447464abc", "582c960151",
+    "d239d43b66", "4d12f140c4", "f161644ad5", "50f382bb6b", "89bd04b724",
+    "b3c23f2bcf"
+  ],
+  "related": ["olympic-games", "wimbledon"]
+}

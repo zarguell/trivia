@@ -1,0 +1,64 @@
+{
+  "id": "isaac-newton",
+  "name": "Isaac Newton",
+  "deck": "science",
+  "aliases": ["Newton"],
+  "hook": "The apple, the prism and the laws of motion — Jeopardy's favorite English scientist.",
+  "facts": [
+    {
+      "id": "woolsthorpe",
+      "label": "Woolsthorpe Manor",
+      "statement": "Newton was born at Woolsthorpe Manor in 1642, and the apple tree outside his bedroom window is still shown to visitors.",
+      "associations": ["Woolsthorpe Manor", "1642", "apple tree"],
+      "clue_ids": ["3215ee28f1"]
+    },
+    {
+      "id": "laws-of-motion",
+      "label": "the three laws of motion",
+      "statement": "Newton's three laws of motion begin with the law of inertia; he set them out in the Principia in 1687.",
+      "associations": ["three laws", "inertia", "Principia", "1687"],
+      "clue_ids": ["9a4170cc19", "6028abb520"]
+    },
+    {
+      "id": "gravity",
+      "label": "universal gravitation",
+      "statement": "Newton showed that gravitational force depends on just two things: the masses involved and the distance between them.",
+      "associations": ["gravity", "mass", "distance", "inverse square"],
+      "clue_ids": ["c1c726d760"]
+    },
+    {
+      "id": "prism",
+      "label": "the prism",
+      "statement": "Newton used a prism to split white sunlight into its spectrum of colors, a landmark of his work in optics.",
+      "associations": ["prism", "white light", "spectrum", "optics"],
+      "clue_ids": ["0e5de4b3a7", "b672b73fa2"]
+    },
+    {
+      "id": "reflecting-telescope",
+      "label": "the reflecting telescope",
+      "statement": "In 1668 Newton built the first reflecting telescope, using a mirror instead of a lens to get a sharper image.",
+      "associations": ["reflecting telescope", "1668", "mirror"],
+      "clue_ids": ["b680717010", "e518c47405"]
+    },
+    {
+      "id": "leibniz",
+      "label": "Gottfried Leibniz",
+      "statement": "Newton feuded for decades with the German mathematician Leibniz over who invented calculus.",
+      "associations": ["Leibniz", "calculus", "feud"],
+      "clue_ids": ["bd22090955", "664df6818d"]
+    },
+    {
+      "id": "cambridge",
+      "label": "Cambridge",
+      "statement": "Newton studied at Trinity College, Cambridge, and later represented Cambridge University in Parliament.",
+      "associations": ["Trinity College", "Cambridge", "Member of Parliament"],
+      "clue_ids": ["76ab4b8ab7", "3b177216f3", "723efdf98b"]
+    }
+  ],
+  "clue_ids": [
+    "3215ee28f1", "9a4170cc19", "6028abb520", "c1c726d760", "0e5de4b3a7",
+    "b672b73fa2", "b680717010", "e518c47405", "bd22090955", "664df6818d",
+    "76ab4b8ab7", "3b177216f3", "723efdf98b"
+  ],
+  "related": ["albert-einstein", "galileo", "thomas-edison", "solar-system"]
+}

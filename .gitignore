@@ -1,0 +1,13 @@
+# dependencies / build output
+node_modules/
+dist/
+data/raw/
+data/work/
+data/generated/
+
+# local artifacts
+.DS_Store
+*.log
+/tmp/
+test-results/
+playwright-report/

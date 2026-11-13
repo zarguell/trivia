@@ -1,0 +1,65 @@
+{
+  "id": "china",
+  "name": "China",
+  "deck": "geography",
+  "aliases": ["Chinese"],
+  "hook": "Confucius, the Yangtze and Mao: four thousand years of clues distilled into six things.",
+  "facts": [
+    {
+      "id": "confucius",
+      "label": "Confucius",
+      "statement": "Confucius, born in 551 B.C. and also called Kongfuzi or \"Master Kong,\" briefly served as prime minister of the state of Lu.",
+      "associations": ["Confucius", "551 B.C.", "Kongfuzi", "Lu"],
+      "clue_ids": ["9c41be663b", "84ade192eb"]
+    },
+    {
+      "id": "mandarin",
+      "label": "Mandarin",
+      "statement": "Mandarin, called Putonghua or \"the common language,\" is China's standard language; Pinyin romanization was officially adopted in 1979.",
+      "associations": ["Mandarin", "Putonghua", "Pinyin", "1979"],
+      "clue_ids": ["3c15d8604f", "511948d79a", "5e06b51de1"]
+    },
+    {
+      "id": "yangtze",
+      "label": "the Yangtze",
+      "statement": "The Yangtze, China's longest river, runs from Tibet to the East China Sea, and the Chinese alligator survives in its valley.",
+      "associations": ["Yangtze", "longest Chinese river", "Tibet", "East China Sea"],
+      "clue_ids": ["c5617cd2e8", "81df970101"]
+    },
+    {
+      "id": "tibet",
+      "label": "Tibet",
+      "statement": "Tibet is a high-altitude autonomous region China incorporated in 1951 amid controversy.",
+      "associations": ["Tibet", "autonomous region", "1951", "Himalayas"],
+      "clue_ids": ["4763c85dad", "eb83630a0e"]
+    },
+    {
+      "id": "hong-kong",
+      "label": "Hong Kong",
+      "statement": "Hong Kong was ceded to Britain in 1842 and became a crown colony; I.M. Pei's Bank of China Tower now marks its skyline.",
+      "associations": ["Hong Kong", "1842", "crown colony", "Bank of China Tower"],
+      "clue_ids": ["0146f99688", "1024bbb6e8"]
+    },
+    {
+      "id": "taiwan",
+      "label": "Taiwan",
+      "statement": "Taiwan, which Portuguese sailors named Ilha Formosa or \"beautiful island,\" is served by EVA Air and China Airlines.",
+      "associations": ["Taiwan", "Formosa", "EVA Air", "China Airlines"],
+      "clue_ids": ["6d36daca49", "7d8871918e"]
+    },
+    {
+      "id": "mao-and-chiang",
+      "label": "Mao and Chiang Kai-shek",
+      "statement": "Mao Tse-tung's victory at Huai-hai in 1948 drove Chiang Kai-shek from the mainland in December 1949.",
+      "associations": ["Mao Tse-tung", "Chiang Kai-shek", "Huai-hai", "1949"],
+      "clue_ids": ["4af54bb388", "a3a8018043"]
+    }
+  ],
+  "clue_ids": [
+    "9c41be663b", "84ade192eb", "3c15d8604f", "511948d79a", "5e06b51de1",
+    "c5617cd2e8", "81df970101", "4763c85dad", "eb83630a0e", "0146f99688",
+    "1024bbb6e8", "6d36daca49", "7d8871918e", "4af54bb388", "a3a8018043",
+    "27fd97d83c", "7784caf94d", "700e70e742"
+  ],
+  "related": ["japan", "india", "genghis-khan"]
+}

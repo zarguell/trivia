@@ -1,0 +1,65 @@
+{
+  "id": "louis-armstrong",
+  "name": "Louis Armstrong",
+  "deck": "music",
+  "aliases": ["Satchmo"],
+  "hook": "New Orleans' trumpet king, from the Hot Five to \"Hello, Dolly!\"",
+  "facts": [
+    {
+      "id": "new-orleans",
+      "label": "New Orleans",
+      "statement": "Louis Armstrong was born in New Orleans, which named its airport for him and held a centennial Jazz Fest in 2001.",
+      "associations": ["New Orleans", "Louis Armstrong International Airport", "Jazz Fest"],
+      "clue_ids": ["ff2b82153a", "4aa72eb905", "90cdf41bc8"]
+    },
+    {
+      "id": "hello-dolly",
+      "label": "\"Hello, Dolly!\"",
+      "statement": "In May 1964 his \"Hello, Dolly!\" knocked the Beatles' \"Can't Buy Me Love\" off No. 1; he was 62.",
+      "associations": ["\"Hello, Dolly!\"", "1964", "The Beatles", "No. 1"],
+      "clue_ids": ["c5d1d61066", "aaa611c929"]
+    },
+    {
+      "id": "wonderful-world",
+      "label": "\"What a Wonderful World\"",
+      "statement": "\"What a Wonderful World,\" co-written by George Weiss, became a hit for him in 1967 and reached the Top 40 again in 1988.",
+      "associations": ["\"What a Wonderful World\"", "George Weiss", "1967", "1988"],
+      "clue_ids": ["a741a669da", "c74c579b31"]
+    },
+    {
+      "id": "saints",
+      "label": "\"When the Saints Go Marching In\"",
+      "statement": "He recorded \"When the Saints Go Marching In\" in 1938; it is played at every New Orleans Saints home game.",
+      "associations": ["\"When the Saints Go Marching In\"", "1938", "New Orleans Saints"],
+      "clue_ids": ["282bae3db9", "2b5fde3b7f"]
+    },
+    {
+      "id": "cornet",
+      "label": "the cornet",
+      "statement": "Armstrong became famous on the trumpet but started on the cornet, its close brass relative.",
+      "associations": ["the cornet", "the trumpet", "brass"],
+      "clue_ids": ["217a32a458", "d825b64e55", "e90a13cffa"]
+    },
+    {
+      "id": "jazz-quote",
+      "label": "jazz",
+      "statement": "Asked what jazz is, he replied, \"Man, if you gotta ask, you'll never know.\"",
+      "associations": ["jazz", "\"if you gotta ask\"", "quote"],
+      "clue_ids": ["081c33442a", "e43a206c66"]
+    },
+    {
+      "id": "birthday",
+      "label": "July 4, 1900",
+      "statement": "He said he was born on the Fourth of July in 1900; later research pointed to August 4, 1901.",
+      "associations": ["July 4, 1900", "Independence Day", "birthday"],
+      "clue_ids": ["6a10b9fac5"]
+    }
+  ],
+  "clue_ids": [
+    "ff2b82153a", "4aa72eb905", "90cdf41bc8", "c5d1d61066", "aaa611c929",
+    "a741a669da", "c74c579b31", "282bae3db9", "2b5fde3b7f", "217a32a458",
+    "d825b64e55", "e90a13cffa", "081c33442a", "e43a206c66", "6a10b9fac5",
+    "908a809918"
+  ],
+  "related": ["frank-sinatra", "the-beatles", "woodstock"]
+}

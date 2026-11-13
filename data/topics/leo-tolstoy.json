@@ -1,0 +1,136 @@
+{
+  "id": "leo-tolstoy",
+  "name": "Leo Tolstoy",
+  "deck": "literature",
+  "aliases": [
+    "Tolstoy",
+    "War and Peace"
+  ],
+  "hook": "Russia's epic novelist: War and Peace, Anna Karenina, and the Count who never got a Nobel.",
+  "facts": [
+    {
+      "id": "war-and-peace",
+      "label": "War and Peace",
+      "statement": "War and Peace (1869) follows five aristocratic families through Napoleon's invasion of Russia, and its first epilogue weighs Alexander against Napoleon.",
+      "associations": [
+        "War and Peace",
+        "1869",
+        "Napoleon's invasion",
+        "five families"
+      ],
+      "clue_ids": [
+        "8b895a3667",
+        "6e08939ea5",
+        "42785e91f0"
+      ]
+    },
+    {
+      "id": "anna-karenina",
+      "label": "Anna Karenina",
+      "statement": "Anna Karenina (1878) is about a married woman shunned by Russian society for her adultery; she dies at a railway station.",
+      "associations": [
+        "Anna Karenina",
+        "adultery",
+        "railway station",
+        "1878"
+      ],
+      "clue_ids": [
+        "6a5680afd9",
+        "d2a5273fb8",
+        "b557b05dea"
+      ]
+    },
+    {
+      "id": "nobel",
+      "label": "the 1901 Nobel snub",
+      "statement": "When the first Nobel Prize in Literature went elsewhere in 1901, 42 of Tolstoy's peers apologized to him as 'the most revered patriarch of today's literature.'",
+      "associations": [
+        "Nobel Prize",
+        "1901",
+        "42 peers"
+      ],
+      "clue_ids": [
+        "b0fde098e6"
+      ]
+    },
+    {
+      "id": "crimean-war",
+      "label": "the Crimean War",
+      "statement": "Tolstoy served as an artillery officer at Sevastopol during the Crimean War, and his Sevastopol Sketches drew on that experience.",
+      "associations": [
+        "Crimean War",
+        "Sevastopol",
+        "Sevastopol Sketches"
+      ],
+      "clue_ids": [
+        "15e385463c",
+        "7e68e9da09"
+      ]
+    },
+    {
+      "id": "ivan-ilyich",
+      "label": "The Death of Ivan Ilyich",
+      "statement": "The 1886 novella follows a judge whose life was 'most simple and most ordinary'; hanging curtains is the unlikely cause of his death.",
+      "associations": [
+        "Ivan Ilyich",
+        "1886 novella",
+        "hanging curtains"
+      ],
+      "clue_ids": [
+        "467763971e",
+        "91adbf5d95"
+      ]
+    },
+    {
+      "id": "cossacks",
+      "label": "The Cossacks",
+      "statement": "Tolstoy's early novella is named for the horsemen of the steppes, drawn from his years as a soldier in the Caucasus.",
+      "associations": [
+        "The Cossacks",
+        "horsemen",
+        "Caucasus"
+      ],
+      "clue_ids": [
+        "a4ac1739dd",
+        "fa71fe7150"
+      ]
+    },
+    {
+      "id": "moscow-house",
+      "label": "his Moscow house",
+      "statement": "From 1882 to 1901 Tolstoy lived at 21 Ulitsa Lva Tolstogo in Moscow, where the restored house is now a museum.",
+      "associations": [
+        "Moscow",
+        "21 Ulitsa Lva Tolstogo",
+        "museum"
+      ],
+      "clue_ids": [
+        "4255e32a39",
+        "2ceee2d48c"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "8b895a3667",
+    "6e08939ea5",
+    "42785e91f0",
+    "6a5680afd9",
+    "d2a5273fb8",
+    "b557b05dea",
+    "b0fde098e6",
+    "15e385463c",
+    "7e68e9da09",
+    "467763971e",
+    "91adbf5d95",
+    "a4ac1739dd",
+    "fa71fe7150",
+    "4255e32a39",
+    "2ceee2d48c",
+    "3638ac74f9"
+  ],
+  "related": [
+    "fyodor-dostoevsky",
+    "charles-dickens",
+    "mark-twain"
+  ]
+}

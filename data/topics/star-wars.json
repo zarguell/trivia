@@ -1,0 +1,65 @@
+{
+  "id": "star-wars",
+  "name": "Star Wars",
+  "deck": "film-tv",
+  "aliases": [],
+  "hook": "A 1977 blockbuster, a John Williams score and a galaxy of catchphrases Jeopardy returns to constantly.",
+  "facts": [
+    {
+      "id": "lucas-1977",
+      "label": "George Lucas",
+      "statement": "George Lucas's Star Wars opened in 1977; Akira Kurosawa's The Hidden Fortress and Yojimbo helped inspire it.",
+      "associations": ["George Lucas", "1977", "The Hidden Fortress", "Yojimbo"],
+      "clue_ids": ["02a6cd6484", "b7580de39a", "0ffd3c12be"]
+    },
+    {
+      "id": "williams",
+      "label": "John Williams",
+      "statement": "John Williams composed the Star Wars theme; Meco's disco version hit No. 1 while Williams's own single reached No. 10.",
+      "associations": ["John Williams", "Meco", "No. 1 disco version"],
+      "clue_ids": ["e03ddacf8b", "be401222dd"]
+    },
+    {
+      "id": "carrie-fisher",
+      "label": "Carrie Fisher",
+      "statement": "Carrie Fisher played Princess Leia and later wrote Postcards from the Edge about her drug dependency.",
+      "associations": ["Carrie Fisher", "Princess Leia", "Postcards from the Edge"],
+      "clue_ids": ["dc036c94a9", "9050497240"]
+    },
+    {
+      "id": "james-earl-jones",
+      "label": "James Earl Jones",
+      "statement": "James Earl Jones voiced Darth Vader for $7,000, redubbing David Prowse's lines.",
+      "associations": ["James Earl Jones", "Darth Vader", "$7,000", "David Prowse"],
+      "clue_ids": ["5f90ecf521", "d9f512d587"]
+    },
+    {
+      "id": "original-trilogy",
+      "label": "the original trilogy",
+      "statement": "The original trilogy runs A New Hope, The Empire Strikes Back, Return of the Jedi; \"Episode IV: A New Hope\" was added later.",
+      "associations": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi"],
+      "clue_ids": ["0908890a5a", "0e8d5d75c0", "c64c4a3c73"]
+    },
+    {
+      "id": "c-3po",
+      "label": "C-3PO",
+      "statement": "Anthony Daniels is the only actor to appear in every Star Wars film, as C-3PO.",
+      "associations": ["Anthony Daniels", "C-3PO", "every film"],
+      "clue_ids": ["1c7a171f88", "48a67856e2"]
+    },
+    {
+      "id": "skywalker",
+      "label": "Luke Skywalker",
+      "statement": "Luke Skywalker was nearly named \"Starkiller\"; Episode IX, The Rise of Skywalker, closed the saga in 2019.",
+      "associations": ["Luke Skywalker", "Starkiller", "The Rise of Skywalker"],
+      "clue_ids": ["8c26f5db4e", "f4eb4ecd2e"]
+    }
+  ],
+  "clue_ids": [
+    "02a6cd6484", "b7580de39a", "0ffd3c12be", "e03ddacf8b", "be401222dd",
+    "dc036c94a9", "9050497240", "5f90ecf521", "d9f512d587", "0908890a5a",
+    "0e8d5d75c0", "c64c4a3c73", "1c7a171f88", "48a67856e2", "8c26f5db4e",
+    "f4eb4ecd2e", "256ec8a28a", "cfbeff80d5"
+  ],
+  "related": ["star-trek", "jurassic-park"]
+}

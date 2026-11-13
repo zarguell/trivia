@@ -1,0 +1,65 @@
+{
+  "id": "pablo-picasso",
+  "name": "Pablo Picasso",
+  "deck": "arts",
+  "aliases": ["Picasso"],
+  "hook": "Cubism, Guernica, and a blue period: the modern artist Jeopardy returns to again and again.",
+  "facts": [
+    {
+      "id": "guernica",
+      "label": "Guernica",
+      "statement": "Guernica is Picasso's 1937 answer to the bombing of a Basque town; asked by a German officer if he did it, he replied, \"No, you did.\"",
+      "associations": ["Guernica", "1937", "Basque town", "\"No, you did\""],
+      "clue_ids": ["f4d388dde1", "522d4d3e30"]
+    },
+    {
+      "id": "cubism",
+      "label": "Cubism",
+      "statement": "Picasso and Georges Braque founded Cubism, a movement whose three-dimensional name hides its flattening of reality onto a two-dimensional plane.",
+      "associations": ["Cubism", "Georges Braque", "two-dimensional", "Juan Gris"],
+      "clue_ids": ["3924861e49", "58dcc52ffe"]
+    },
+    {
+      "id": "demoiselles",
+      "label": "Les Demoiselles d'Avignon",
+      "statement": "Les Demoiselles d'Avignon (1907) was an early Cubist landmark; its title refers to a street of ill repute in Barcelona, not a town.",
+      "associations": ["Les Demoiselles d'Avignon", "1907", "Barcelona", "street of ill repute"],
+      "clue_ids": ["d4b14ab67b", "a10231de54"]
+    },
+    {
+      "id": "blue-period",
+      "label": "the Blue Period",
+      "statement": "Picasso's Blue Period followed the 1901 death of his friend Carles Casagemas and preceded his Rose Period.",
+      "associations": ["Blue Period", "Carles Casagemas", "1901", "Rose Period"],
+      "clue_ids": ["88a860086f", "b0e67e52c6"]
+    },
+    {
+      "id": "chicago",
+      "label": "the Chicago Picasso",
+      "statement": "A 50-foot Cubist sculpture by Picasso stands in Chicago's Daley Plaza, unveiled in 1967; the city celebrated its 50th birthday in 2017.",
+      "associations": ["Chicago", "Daley Plaza", "50-foot sculpture", "1967"],
+      "clue_ids": ["4a49d11120"]
+    },
+    {
+      "id": "stein",
+      "label": "Gertrude Stein",
+      "statement": "Gertrude Stein and her brother Leo were early Picasso patrons; her Autobiography of Alice B. Toklas describes those friendships.",
+      "associations": ["Gertrude Stein", "Leo Stein", "The Autobiography of Alice B. Toklas"],
+      "clue_ids": ["8c5dab7ccf", "8b19e2c6c4"]
+    },
+    {
+      "id": "dove",
+      "label": "the dove",
+      "statement": "Picasso drew the dove for his world-peace posters and gave the Spanish word Paloma to his daughter, who later designed Tiffany jewelry.",
+      "associations": ["dove", "Paloma Picasso", "peace posters", "Tiffany"],
+      "clue_ids": ["cce065ccc4", "1266112708", "df8db997ff"]
+    }
+  ],
+  "clue_ids": [
+    "f4d388dde1", "522d4d3e30", "3924861e49", "58dcc52ffe", "5c68844a7d",
+    "d4b14ab67b", "a10231de54", "88a860086f", "b0e67e52c6", "4a49d11120",
+    "8c5dab7ccf", "8b19e2c6c4", "cce065ccc4", "1266112708", "df8db997ff",
+    "8a3b6154bd"
+  ],
+  "related": ["claude-monet", "andy-warhol", "vincent-van-gogh", "leonardo-da-vinci"]
+}

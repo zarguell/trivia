@@ -1,0 +1,65 @@
+{
+  "id": "wonder-woman",
+  "name": "Wonder Woman",
+  "deck": "pop-culture",
+  "aliases": [],
+  "hook": "Amazon princess, lasso of truth, Lynda Carter's spin, and Gal Gadot's blockbuster.",
+  "facts": [
+    {
+      "id": "diana",
+      "label": "Diana Prince",
+      "statement": "Diana Prince is Wonder Woman, an Amazon princess who fights crime with a tiara and a magic lasso.",
+      "associations": ["Diana Prince", "Amazon princess", "secret identity"],
+      "clue_ids": ["9cb983faca", "49e2048dea", "52009f2a40"]
+    },
+    {
+      "id": "lynda-carter",
+      "label": "Lynda Carter",
+      "statement": "Lynda Carter played Diana Prince for three seasons on TV and was Maybelline's Beauty & Fashion Director.",
+      "associations": ["Lynda Carter", "three seasons", "Maybelline"],
+      "clue_ids": ["b0c30f13f2", "9cb983faca", "16e004ba32"]
+    },
+    {
+      "id": "lasso",
+      "label": "the lasso of truth",
+      "statement": "Her lasso forces anyone caught in it to tell the truth; her invisible plane and boomerang tiara are other tools.",
+      "associations": ["lasso of truth", "invisible plane", "tiara"],
+      "clue_ids": ["726bceebf7", "7f5f8adccb", "52009f2a40"]
+    },
+    {
+      "id": "gal-gadot",
+      "label": "Gal Gadot",
+      "statement": "Gal Gadot first played Wonder Woman in Batman v Superman, then headlined the 2017 film set in World War I.",
+      "associations": ["Gal Gadot", "Batman v Superman", "2017 film"],
+      "clue_ids": ["5b9dfb3495", "1011a1c512", "78d8a55b2e"]
+    },
+    {
+      "id": "patty-jenkins",
+      "label": "Patty Jenkins",
+      "statement": "Patty Jenkins directed 2017's Wonder Woman, becoming the first woman to direct a $100 million superhero movie.",
+      "associations": ["Patty Jenkins", "2017 film", "first woman director"],
+      "clue_ids": ["06ae10487e", "5d264b8e0c"]
+    },
+    {
+      "id": "dc-comics",
+      "label": "DC Comics",
+      "statement": "Wonder Woman has been a DC Comics character since the 1940s and a founding member of the Justice League.",
+      "associations": ["DC Comics", "1940s", "Justice League"],
+      "clue_ids": ["1b77f6980c", "ceb856e827"]
+    },
+    {
+      "id": "steve-trevor",
+      "label": "Steve Trevor",
+      "statement": "Chris Pine played Steve Trevor in 2017's Wonder Woman after playing Captain Kirk in the Star Trek reboot.",
+      "associations": ["Steve Trevor", "Chris Pine", "Captain Kirk"],
+      "clue_ids": ["4e318b0d77"]
+    }
+  ],
+  "clue_ids": [
+    "9cb983faca", "49e2048dea", "52009f2a40", "b0c30f13f2", "16e004ba32",
+    "726bceebf7", "7f5f8adccb", "5b9dfb3495", "1011a1c512", "78d8a55b2e",
+    "06ae10487e", "5d264b8e0c", "1b77f6980c", "ceb856e827", "4e318b0d77",
+    "b0108aa41a", "28bc16eec1", "e1f402ee96"
+  ],
+  "related": ["batman", "superman", "marvel"]
+}

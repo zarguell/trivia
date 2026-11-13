@@ -1,0 +1,64 @@
+{
+  "id": "marie-curie",
+  "name": "Marie Curie",
+  "deck": "science",
+  "aliases": ["Curie"],
+  "hook": "Two Nobels, two elements and a first at the Sorbonne — the scientist Jeopardy loves.",
+  "facts": [
+    {
+      "id": "warsaw",
+      "label": "Warsaw",
+      "statement": "Marie Curie was born in Warsaw in 1867, when the Polish capital was under Russian control.",
+      "associations": ["Warsaw", "1867", "Poland", "Russian control"],
+      "clue_ids": ["0447adcc23", "e5b3e4f344"]
+    },
+    {
+      "id": "two-nobels",
+      "label": "two Nobel Prizes",
+      "statement": "She was the first person to win two Nobel Prizes: Physics in 1903 with Pierre Curie and Henri Becquerel, then Chemistry in 1911.",
+      "associations": ["two Nobel Prizes", "1903 Physics", "1911 Chemistry", "Henri Becquerel"],
+      "clue_ids": ["2e766f73d1", "7f176ea957", "aa72d4da5c"]
+    },
+    {
+      "id": "elements",
+      "label": "polonium and radium",
+      "statement": "In 1898 the Curies discovered polonium, named for Marie's homeland, and radium, the element that made her famous.",
+      "associations": ["polonium", "radium", "1898", "named for Poland"],
+      "clue_ids": ["6a25efa876", "ff509af668", "d35b4de72a"]
+    },
+    {
+      "id": "radioactivity",
+      "label": "radioactivity",
+      "statement": "Marie Curie coined the word radioactivity for the property shown by elements such as uranium and thorium.",
+      "associations": ["radioactivity", "coined the word", "uranium", "thorium"],
+      "clue_ids": ["029a81c010"]
+    },
+    {
+      "id": "sorbonne",
+      "label": "the Sorbonne",
+      "statement": "After Pierre died, Marie took his professorship in 1906 and became the first woman to teach at the Sorbonne in Paris.",
+      "associations": ["the Sorbonne", "1906", "first woman professor", "Paris"],
+      "clue_ids": ["8c85f5b534"]
+    },
+    {
+      "id": "pantheon",
+      "label": "the Panthéon",
+      "statement": "In 1995 she became the first woman honored in France's Panthéon in her own right.",
+      "associations": ["Panthéon", "1995", "first woman", "France"],
+      "clue_ids": ["2f8cbc1b73", "839c8c73af"]
+    },
+    {
+      "id": "irene",
+      "label": "Irène Joliot-Curie",
+      "statement": "Her daughter Irène Joliot-Curie also won a Nobel in chemistry, sharing it with her husband Frédéric Joliot.",
+      "associations": ["Irène Joliot-Curie", "Frédéric Joliot", "Nobel chemistry", "daughter"],
+      "clue_ids": ["40874eae82"]
+    }
+  ],
+  "clue_ids": [
+    "0447adcc23", "e5b3e4f344", "2e766f73d1", "7f176ea957", "aa72d4da5c",
+    "6a25efa876", "ff509af668", "d35b4de72a", "029a81c010", "8c85f5b534",
+    "2f8cbc1b73", "839c8c73af", "40874eae82"
+  ],
+  "related": ["albert-einstein", "isaac-newton", "charles-darwin"]
+}

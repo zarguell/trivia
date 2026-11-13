@@ -1,0 +1,64 @@
+{
+  "id": "saturn",
+  "name": "Saturn",
+  "deck": "science",
+  "aliases": [],
+  "hook": "Rings, Titan and the rocket that took Apollo to the Moon — everything called Saturn.",
+  "facts": [
+    {
+      "id": "roman-god",
+      "label": "the Roman god of agriculture",
+      "statement": "Saturn is named for the Roman god of agriculture, father of Jupiter; from Earth it appears to move slowest of the planets.",
+      "associations": ["Roman god", "agriculture", "father of Jupiter", "slowest planet"],
+      "clue_ids": ["f58520ac97", "061df2263d"]
+    },
+    {
+      "id": "rings",
+      "label": "the rings",
+      "statement": "Saturn's rings are its defining feature; Jupiter's rings were discovered in 1979, and Neptune also has a series made mainly of dust.",
+      "associations": ["rings", "Jupiter 1979", "Neptune", "dust"],
+      "clue_ids": ["7240c84f4d", "ab9ca54ec2"]
+    },
+    {
+      "id": "cassini-division",
+      "label": "the Cassini division",
+      "statement": "The Cassini division is the gap between Saturn's A and B rings, cleared by the gravity of the moon Mimas and named for Giovanni Cassini.",
+      "associations": ["Cassini division", "A and B rings", "Mimas", "Giovanni Cassini"],
+      "clue_ids": ["8a65c2910f", "664615a3a9", "f7c633fd08"]
+    },
+    {
+      "id": "titan",
+      "label": "Titan",
+      "statement": "Titan is Saturn's largest moon, with clouds and a dense atmosphere; the Huygens probe parachuted to its surface in 2005.",
+      "associations": ["Titan", "largest moon", "dense atmosphere", "Huygens probe"],
+      "clue_ids": ["e86937a77b", "66c1c08510"]
+    },
+    {
+      "id": "cassini-spacecraft",
+      "label": "the Cassini spacecraft",
+      "statement": "The Cassini spacecraft, named for the astronomer who found four of Saturn's moons, studied the planet until its mission ended in 2017.",
+      "associations": ["Cassini spacecraft", "2017", "Enceladus"],
+      "clue_ids": ["34def70cde", "369b277c64"]
+    },
+    {
+      "id": "saturn-v",
+      "label": "the Saturn V rocket",
+      "statement": "The Saturn V, developed by Wernher von Braun, powered most of the Apollo missions.",
+      "associations": ["Saturn V", "Wernher von Braun", "Apollo"],
+      "clue_ids": ["d2855ee8da", "6ff83c7d51"]
+    },
+    {
+      "id": "sapphire",
+      "label": "the sapphire",
+      "statement": "The sapphire, September's birthstone, may take its name from the Sanskrit sanipriya, meaning \"dear to the planet Saturn.\"",
+      "associations": ["sapphire", "September birthstone", "sanipriya"],
+      "clue_ids": ["0cef657e39", "08ce1d0cd8"]
+    }
+  ],
+  "clue_ids": [
+    "f58520ac97", "061df2263d", "7240c84f4d", "ab9ca54ec2", "8a65c2910f",
+    "664615a3a9", "f7c633fd08", "e86937a77b", "66c1c08510", "34def70cde",
+    "369b277c64", "d2855ee8da", "6ff83c7d51", "0cef657e39", "08ce1d0cd8"
+  ],
+  "related": ["jupiter", "galileo", "solar-system", "moon"]
+}

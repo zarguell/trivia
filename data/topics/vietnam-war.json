@@ -1,0 +1,65 @@
+{
+  "id": "vietnam-war",
+  "name": "Vietnam War",
+  "deck": "history",
+  "aliases": [],
+  "hook": "Saigon, Agent Orange, the Pentagon Papers and the movies that defined America's longest war.",
+  "facts": [
+    {
+      "id": "saigon",
+      "label": "Saigon",
+      "statement": "Saigon was the headquarters of American military operations in South Vietnam; Cam Ranh Bay supplied tens of thousands of U.S. troops.",
+      "associations": ["Saigon", "Cam Ranh Bay", "U.S. headquarters"],
+      "clue_ids": ["af5ae44310", "23da69134f"]
+    },
+    {
+      "id": "agent-orange",
+      "label": "Agent Orange",
+      "statement": "Agent Orange was the military code name for the herbicide used to defoliate forests; it was linked to three kinds of cancer.",
+      "associations": ["Agent Orange", "defoliant", "cancer"],
+      "clue_ids": ["73e685601e", "7462dd963d"]
+    },
+    {
+      "id": "pentagon-papers",
+      "label": "the Pentagon Papers",
+      "statement": "Daniel Ellsberg leaked the Pentagon Papers in 1971 to protest the war and expose policy misconduct.",
+      "associations": ["Pentagon Papers", "Daniel Ellsberg", "1971", "New York Times"],
+      "clue_ids": ["3407ed9827", "718696f642"]
+    },
+    {
+      "id": "ali",
+      "label": "Muhammad Ali",
+      "statement": "Muhammad Ali was stripped of his title in 1967 for refusing to serve in the Vietnam War.",
+      "associations": ["Muhammad Ali", "stripped of title", "1967", "draft refusal"],
+      "clue_ids": ["acc27ab3a2"]
+    },
+    {
+      "id": "carter",
+      "label": "Jimmy Carter",
+      "statement": "On his first full day as president, Jimmy Carter pardoned most Vietnam War draft evaders in January 1977.",
+      "associations": ["Jimmy Carter", "draft evaders", "January 1977"],
+      "clue_ids": ["2a33ee2d06", "f353d86593"]
+    },
+    {
+      "id": "mccain",
+      "label": "John McCain",
+      "statement": "John McCain was a POW in Hanoi for five and a half years during the war, much of it in solitary confinement.",
+      "associations": ["John McCain", "POW", "Hanoi", "solitary confinement"],
+      "clue_ids": ["a85b35fb48", "b5cb376539"]
+    },
+    {
+      "id": "films",
+      "label": "Vietnam War films",
+      "statement": "Apocalypse Now, The Deer Hunter and Full Metal Jacket are the war's defining films, from the napalm line to Russian roulette.",
+      "associations": ["Apocalypse Now", "The Deer Hunter", "Full Metal Jacket", "napalm"],
+      "clue_ids": ["ca9976fc38", "fc9585bb85", "179c6064ba"]
+    }
+  ],
+  "clue_ids": [
+    "af5ae44310", "23da69134f", "73e685601e", "7462dd963d", "3407ed9827",
+    "718696f642", "acc27ab3a2", "2a33ee2d06", "f353d86593", "a85b35fb48",
+    "b5cb376539", "ca9976fc38", "fc9585bb85", "179c6064ba", "0fb608f44f",
+    "301dc8505f", "29347ea918", "b579fc0168"
+  ],
+  "related": ["cold-war", "watergate", "john-f-kennedy"]
+}

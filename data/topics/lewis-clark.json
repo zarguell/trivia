@@ -1,0 +1,64 @@
+{
+  "id": "lewis-clark",
+  "name": "Lewis & Clark",
+  "deck": "history",
+  "aliases": [],
+  "hook": "Jefferson's Corps of Discovery: St. Louis, Sacagawea, the Columbia and a lot of salt.",
+  "facts": [
+    {
+      "id": "jefferson",
+      "label": "Thomas Jefferson",
+      "statement": "Thomas Jefferson sent Lewis and Clark to find a route to the Pacific and to see whether the Columbia connected with the Missouri.",
+      "associations": ["Thomas Jefferson", "Pacific route", "Columbia and Missouri"],
+      "clue_ids": ["400a6514f1", "ee649d548f"]
+    },
+    {
+      "id": "departure",
+      "label": "St. Louis, 1804",
+      "statement": "The expedition set out from St. Louis on May 14, 1804, traveling up the Missouri River in a keelboat.",
+      "associations": ["St. Louis", "May 14, 1804", "Missouri River", "keelboat"],
+      "clue_ids": ["87dd40107e", "7b0f34cb7b", "bf48a0ccc2"]
+    },
+    {
+      "id": "sacagawea",
+      "label": "Sacagawea",
+      "statement": "Sacagawea, a Shoshone, guided the expedition; she met her long-lost brother Cameahwait when they needed Shoshone horses.",
+      "associations": ["Sacagawea", "Shoshone", "Cameahwait", "horses"],
+      "clue_ids": ["edf74eea99", "382d6a94ef", "4cd9540b9a"]
+    },
+    {
+      "id": "salt",
+      "label": "Seaside, Oregon",
+      "statement": "At Seaside, Oregon, the expedition boiled sea water for seven weeks to make salt for preserving food on the return trip.",
+      "associations": ["Seaside, Oregon", "salt", "Pacific coast"],
+      "clue_ids": ["66114612bb", "b182ddbeac"]
+    },
+    {
+      "id": "council-bluffs",
+      "label": "Council Bluffs",
+      "statement": "The Iowa city of Council Bluffs is named for the 1804 powwow Lewis and Clark held with area Indians.",
+      "associations": ["Council Bluffs", "Iowa", "1804 powwow"],
+      "clue_ids": ["b422db503f", "171757f671"]
+    },
+    {
+      "id": "governors",
+      "label": "territorial governors",
+      "statement": "After splitting up in 1806, Lewis and Clark both became territorial governors — of Upper Louisiana and Missouri.",
+      "associations": ["Upper Louisiana", "Missouri Territory", "1806"],
+      "clue_ids": ["bd815a8c7c"]
+    },
+    {
+      "id": "nickel",
+      "label": "the 2004 nickel",
+      "statement": "The 2004 nickel depicted the peace medal Lewis and Clark gave to Indians during the expedition.",
+      "associations": ["2004 nickel", "peace medal", "coin"],
+      "clue_ids": ["45551c99f2"]
+    }
+  ],
+  "clue_ids": [
+    "400a6514f1", "ee649d548f", "87dd40107e", "7b0f34cb7b", "bf48a0ccc2",
+    "edf74eea99", "382d6a94ef", "4cd9540b9a", "66114612bb", "b182ddbeac",
+    "b422db503f", "171757f671", "bd815a8c7c", "45551c99f2"
+  ],
+  "related": ["thomas-jefferson", "france", "american-revolution"]
+}

@@ -1,0 +1,133 @@
+{
+ "id": "the-great-gatsby",
+ "name": "The Great Gatsby",
+ "deck": "literature",
+ "aliases": [
+  "Great Gatsby",
+  "Gatsby"
+ ],
+ "hook": "Fitzgerald's 1925 novel is Jeopardy's favorite book about longing, money and the green light.",
+ "facts": [
+  {
+   "id": "fitzgerald",
+   "label": "F. Scott Fitzgerald",
+   "statement": "F. Scott Fitzgerald published it in 1925; he had left Princeton without a degree in 1917.",
+   "associations": [
+    "F. Scott Fitzgerald",
+    "1925",
+    "Princeton"
+   ],
+   "clue_ids": [
+    "59b7287110",
+    "6b865a4acd"
+   ]
+  },
+  {
+   "id": "gatsby",
+   "label": "Jay Gatsby",
+   "statement": "Jay Gatsby is the mysterious wealthy bootlegger, Nick Carraway's neighbor in West Egg on Long Island.",
+   "associations": [
+    "Jay Gatsby",
+    "bootlegger",
+    "West Egg"
+   ],
+   "clue_ids": [
+    "6cd4fc2959",
+    "d6ceff77d8"
+   ]
+  },
+  {
+   "id": "carraway",
+   "label": "Nick Carraway",
+   "statement": "Nick Carraway narrates; he is Daisy Buchanan's cousin and Gatsby's next-door neighbor.",
+   "associations": [
+    "Nick Carraway",
+    "narrator",
+    "Daisy's cousin"
+   ],
+   "clue_ids": [
+    "a3aa8dbf28",
+    "870ebf7069"
+   ]
+  },
+  {
+   "id": "daisy",
+   "label": "Daisy Buchanan",
+   "statement": "Daisy Buchanan is Gatsby's love and Tom's wife; driving Gatsby's car, she kills Myrtle Wilson.",
+   "associations": [
+    "Daisy Buchanan",
+    "Myrtle Wilson",
+    "Gatsby's love"
+   ],
+   "clue_ids": [
+    "4406847c94",
+    "3c9b386d25"
+   ]
+  },
+  {
+   "id": "tom",
+   "label": "Tom Buchanan",
+   "statement": "Tom Buchanan is Daisy's husband; Gatsby tells him \"Daisy's leaving you,\" and Tom answers, \"Nonsense.\"",
+   "associations": [
+    "Tom Buchanan",
+    "Daisy's husband",
+    "Nonsense"
+   ],
+   "clue_ids": [
+    "6bfc42a0e6",
+    "23de5ca70a"
+   ]
+  },
+  {
+   "id": "eggs",
+   "label": "West Egg and East Egg",
+   "statement": "West Egg is nouveau riche and East Egg old money. East Egg was modeled on Sands Point; West Egg on Kings Point and Great Neck.",
+   "associations": [
+    "West Egg",
+    "East Egg",
+    "Long Island"
+   ],
+   "clue_ids": [
+    "6ff143c6ec",
+    "211670784b"
+   ]
+  },
+  {
+   "id": "film",
+   "label": "the 2013 film",
+   "statement": "The 2013 film starred Leonardo DiCaprio as Gatsby; Ralph Lauren dressed Robert Redford for the 1974 version.",
+   "associations": [
+    "Leonardo DiCaprio",
+    "2013 film",
+    "Ralph Lauren"
+   ],
+   "clue_ids": [
+    "7f6347157d",
+    "263775c357"
+   ]
+  }
+ ],
+ "clue_ids": [
+  "59b7287110",
+  "6b865a4acd",
+  "6cd4fc2959",
+  "d6ceff77d8",
+  "a3aa8dbf28",
+  "870ebf7069",
+  "4406847c94",
+  "3c9b386d25",
+  "6bfc42a0e6",
+  "23de5ca70a",
+  "6ff143c6ec",
+  "211670784b",
+  "7f6347157d",
+  "263775c357",
+  "e36267364a",
+  "3660619bc7"
+ ],
+ "related": [
+  "to-kill-a-mockingbird",
+  "ernest-hemingway",
+  "citizen-kane"
+ ]
+}

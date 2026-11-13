@@ -1,0 +1,65 @@
+{
+  "id": "mount-rushmore",
+  "name": "Mount Rushmore",
+  "deck": "geography",
+  "aliases": ["Rushmore"],
+  "hook": "Four presidents, one dynamite-happy sculptor and a Hitchcock chase scene in the Black Hills.",
+  "facts": [
+    {
+      "id": "borglum",
+      "label": "Gutzon Borglum",
+      "statement": "Sculptor Gutzon Borglum designed and oversaw the carving, after deciding the Needles' granite spires were too thin; he had already carved a Lincoln head for the Capitol Rotunda.",
+      "associations": ["Gutzon Borglum", "Capitol Rotunda Lincoln", "the Needles"],
+      "clue_ids": ["4e8a3b76a6", "0241cc794c", "6718964356"]
+    },
+    {
+      "id": "presidents",
+      "label": "Washington, Jefferson, Roosevelt and Lincoln",
+      "statement": "Washington, Jefferson, Theodore Roosevelt and Lincoln are carved on the mountain; Roosevelt sits between Jefferson and Lincoln and is the only 20th-century president shown.",
+      "associations": ["four presidents", "Theodore Roosevelt", "between Jefferson and Lincoln"],
+      "clue_ids": ["6e30a56cc2", "17d92cc36b", "5b40ee29a2"]
+    },
+    {
+      "id": "black-hills",
+      "label": "the Black Hills",
+      "statement": "It is in the Black Hills of South Dakota near Rapid City, on a peak named for New York attorney Charles Rushmore; the hills were taken from the Sioux after gold was found.",
+      "associations": ["Black Hills", "South Dakota", "Rapid City", "Charles Rushmore"],
+      "clue_ids": ["481a32e2b0", "199276336e", "b81c5c38e1"]
+    },
+    {
+      "id": "completion",
+      "label": "1941",
+      "statement": "Carving ended in 1941 during World War II, but the memorial was not formally dedicated until 1991 by George H. W. Bush.",
+      "associations": ["1941", "1991 dedication", "George H. W. Bush"],
+      "clue_ids": ["64dd18e7b9"]
+    },
+    {
+      "id": "granite",
+      "label": "granite and dynamite",
+      "statement": "The heads are carved into granite that erodes about an inch every 10,000 years; over 90% of the sculpting was done with dynamite.",
+      "associations": ["granite", "dynamite", "90%"],
+      "clue_ids": ["fa8b1efd75", "e0d1ccdf8f", "b46345d168"]
+    },
+    {
+      "id": "hitchcock",
+      "label": "North by Northwest",
+      "statement": "Alfred Hitchcock's 1959 thriller North by Northwest stages its climax on the monument, with Cary Grant and Eva Marie Saint clambering over the presidents.",
+      "associations": ["North by Northwest", "Hitchcock", "Cary Grant"],
+      "clue_ids": ["cb1e63af14", "d6e8e6797e"]
+    },
+    {
+      "id": "rushmore-state",
+      "label": "the Rushmore State",
+      "statement": "South Dakota is nicknamed \"The Mount Rushmore State,\" and in 1992 replaced \"The Sunshine State\" with that motto on its flag.",
+      "associations": ["South Dakota", "The Rushmore State", "state flag"],
+      "clue_ids": ["738aa40f05"]
+    }
+  ],
+  "clue_ids": [
+    "4e8a3b76a6", "0241cc794c", "6718964356", "968a00bd16", "6e30a56cc2",
+    "17d92cc36b", "5b40ee29a2", "481a32e2b0", "199276336e", "b81c5c38e1",
+    "64dd18e7b9", "fa8b1efd75", "e0d1ccdf8f", "b46345d168", "cb1e63af14",
+    "d6e8e6797e", "738aa40f05", "1425816f39"
+  ],
+  "related": ["yellowstone", "american-civil-war", "abraham-lincoln"]
+}

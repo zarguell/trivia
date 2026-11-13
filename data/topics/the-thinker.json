@@ -1,0 +1,65 @@
+{
+  "id": "the-thinker",
+  "name": "The Thinker",
+  "deck": "arts",
+  "aliases": ["Auguste Rodin", "Rodin"],
+  "hook": "Rodin's brooding bronze began as Dante — and Jeopardy keeps asking about the backstory.",
+  "facts": [
+    {
+      "id": "rodin",
+      "label": "Auguste Rodin",
+      "statement": "Auguste Rodin was the French sculptor behind The Thinker; he called his monument to Balzac \"the sum of my whole life.\"",
+      "associations": ["Auguste Rodin", "French sculptor", "Balzac"],
+      "clue_ids": ["7d12bf7063", "5ff9505ca1"]
+    },
+    {
+      "id": "the-poet",
+      "label": "The Poet",
+      "statement": "Rodin originally called the figure \"The Poet\" and conceived it as Dante seated before The Gates of Hell.",
+      "associations": ["The Poet", "Dante", "The Gates of Hell"],
+      "clue_ids": ["40dd206a69", "f142f2504c"]
+    },
+    {
+      "id": "gates-of-hell",
+      "label": "The Gates of Hell",
+      "statement": "The Gates of Hell is Rodin's unfinished monumental portal inspired by Dante's Inferno, also known as La Porte de l'Enfer.",
+      "associations": ["The Gates of Hell", "Dante's Inferno", "La Porte de l'Enfer"],
+      "clue_ids": ["f91bbb0e01", "9a1efa5557", "7203607c50"]
+    },
+    {
+      "id": "bronze-casts",
+      "label": "bronze casts",
+      "statement": "The Thinker is cast in bronze; a 2,000-pound version sits outside the Detroit Institute of Arts, and three Rodin bronzes were stolen from the St. Louis Art Museum in 1978.",
+      "associations": ["bronze", "Detroit Institute of Arts", "St. Louis Art Museum"],
+      "clue_ids": ["4d84c2c9ed", "4959d3d51b"]
+    },
+    {
+      "id": "burghers",
+      "label": "The Burghers of Calais",
+      "statement": "The Burghers of Calais honors six city leaders who surrendered to the English in 1347; Rodin promised \"six sculptures for the price of one.\"",
+      "associations": ["The Burghers of Calais", "1347", "six sculptures"],
+      "clue_ids": ["64331330ed", "9ee2b9574d", "83a7bb8d40"]
+    },
+    {
+      "id": "the-kiss",
+      "label": "The Kiss",
+      "statement": "The Kiss shows Paolo and Francesca, the adulterous lovers from Dante's Inferno.",
+      "associations": ["The Kiss", "Paolo and Francesca", "Dante"],
+      "clue_ids": ["7203607c50", "ceaa4ea5c7", "d984b2d7f8"]
+    },
+    {
+      "id": "claudel",
+      "label": "Camille Claudel",
+      "statement": "Camille Claudel was Rodin's alliterative muse and a sculptor in her own right; Isabelle Adjani played her in a 1988 film.",
+      "associations": ["Camille Claudel", "sculptor", "Isabelle Adjani"],
+      "clue_ids": ["466f09401a", "c18d8646e7"]
+    }
+  ],
+  "clue_ids": [
+    "7d12bf7063", "5ff9505ca1", "40dd206a69", "f142f2504c", "f91bbb0e01",
+    "9a1efa5557", "4d84c2c9ed", "4959d3d51b", "64331330ed", "9ee2b9574d",
+    "83a7bb8d40", "7203607c50", "ceaa4ea5c7", "d984b2d7f8", "466f09401a",
+    "c18d8646e7"
+  ],
+  "related": ["michelangelo", "mona-lisa", "statue-of-liberty"]
+}

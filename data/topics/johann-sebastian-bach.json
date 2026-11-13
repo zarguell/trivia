@@ -1,0 +1,65 @@
+{
+  "id": "johann-sebastian-bach",
+  "name": "Johann Sebastian Bach",
+  "deck": "music",
+  "aliases": ["Bach", "J.S. Bach"],
+  "hook": "The Baroque master of the fugue and the organ — and father of 20 children.",
+  "facts": [
+    {
+      "id": "organ",
+      "label": "the organ",
+      "statement": "Bach was a master of the organ and wrote a \"Little Book\" of 45 chorales for the instrument.",
+      "associations": ["organ", "Little Book of Chorales", "45 chorales"],
+      "clue_ids": ["506df7fd80", "d12e0d247f"]
+    },
+    {
+      "id": "well-tempered-clavier",
+      "label": "The Well-Tempered Clavier",
+      "statement": "In 1722 Bach completed the first book of The Well-Tempered Clavier; the full set runs to 48 preludes and fugues for the clavier.",
+      "associations": ["Well-Tempered Clavier", "1722", "48 preludes and fugues", "clavier"],
+      "clue_ids": ["f26c7acfc8", "d262515658", "f5264703c4", "57c0561aca"]
+    },
+    {
+      "id": "brandenburg",
+      "label": "Brandenburg Concertos",
+      "statement": "The Brandenburg Concertos are six concertos that Bach dedicated in 1721 to Christian Ludwig, Margrave of Brandenburg.",
+      "associations": ["Brandenburg Concertos", "1721", "Christian Ludwig", "six concertos"],
+      "clue_ids": ["530f4c3cdc", "afe820eb09", "ad72f71b5b", "59179049cc"]
+    },
+    {
+      "id": "fugue",
+      "label": "the fugue",
+      "statement": "Bach was a master of the fugue, a polyphonic form he paired with a toccata in D minor and explored in The Art of Fugue in 1749.",
+      "associations": ["fugue", "Toccata and Fugue in D minor", "The Art of Fugue"],
+      "clue_ids": ["69cee913af"]
+    },
+    {
+      "id": "eisenach",
+      "label": "Eisenach",
+      "statement": "Bach grew up in Eisenach, Germany, and the Baroque era is said to have ended with his death in 1750.",
+      "associations": ["Eisenach", "Baroque", "1750"],
+      "clue_ids": ["7c363ff372", "93f93c619a", "e474b52cd5"]
+    },
+    {
+      "id": "children",
+      "label": "20 children",
+      "statement": "Bach had 20 children, among them the composers Carl Philipp Emanuel Bach and Johann Christian Bach.",
+      "associations": ["20 children", "Carl Philipp Emanuel Bach", "Johann Christian Bach"],
+      "clue_ids": ["973a17741f", "ae13bf1dd8"]
+    },
+    {
+      "id": "handel",
+      "label": "Handel",
+      "statement": "Bach and Handel were born weeks apart in 1685, a few dozen miles apart, but never met.",
+      "associations": ["Handel", "1685", "never met"],
+      "clue_ids": ["ecef423d45", "c298665f2b"]
+    }
+  ],
+  "clue_ids": [
+    "506df7fd80", "d12e0d247f", "f26c7acfc8", "d262515658", "f5264703c4",
+    "57c0561aca", "530f4c3cdc", "afe820eb09", "ad72f71b5b", "59179049cc",
+    "69cee913af", "7c363ff372", "93f93c619a", "e474b52cd5", "973a17741f",
+    "ae13bf1dd8", "ecef423d45", "c298665f2b"
+  ],
+  "related": ["ludwig-van-beethoven", "wolfgang-amadeus-mozart", "pyotr-ilyich-tchaikovsky"]
+}

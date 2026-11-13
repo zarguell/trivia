@@ -1,0 +1,65 @@
+{
+  "id": "panama-canal",
+  "name": "Panama Canal",
+  "deck": "geography",
+  "aliases": ["the Big Ditch"],
+  "hook": "A French failure turned American triumph — the ditch that bent the map and made the trip east.",
+  "facts": [
+    {
+      "id": "opening",
+      "label": "1914",
+      "statement": "Nicknamed \"The Big Ditch,\" the canal opened in 1914 and marked its centennial in 2014; Woodrow Wilson formally dedicated it in 1920.",
+      "associations": ["1914", "The Big Ditch", "Woodrow Wilson"],
+      "clue_ids": ["7f7238f055", "184c1c5532", "f272fb4d97"]
+    },
+    {
+      "id": "gatun",
+      "label": "Gatun Lake",
+      "statement": "Gatun Lake, a man-made lake covering nearly 170 square miles, stores the water that keeps the locks running through the dry season.",
+      "associations": ["Gatun Lake", "170 square miles", "water storage"],
+      "clue_ids": ["cee4409db5"]
+    },
+    {
+      "id": "direction",
+      "label": "east, not west",
+      "statement": "Ships climb a staircase of locks; because Central America curves, a trip from the Pacific to the Atlantic actually heads east.",
+      "associations": ["locks", "Pacific to Atlantic", "east"],
+      "clue_ids": ["bd95e8e5d2", "7648c3c024"]
+    },
+    {
+      "id": "lesseps",
+      "label": "Ferdinand de Lesseps",
+      "statement": "Ferdinand de Lesseps, who had built the Suez Canal, tried and failed here; his company went bankrupt, and the U.S. finished the job.",
+      "associations": ["de Lesseps", "Suez Canal", "bankrupt"],
+      "clue_ids": ["0e55c88ae9", "01c58e0ad4"]
+    },
+    {
+      "id": "ports",
+      "label": "Colón and Balboa",
+      "statement": "The canal's two port cities, Colón at the Caribbean end and Balboa at the Pacific end, are named for explorers.",
+      "associations": ["Colón", "Balboa", "port cities"],
+      "clue_ids": ["a33047744a"]
+    },
+    {
+      "id": "caribbean",
+      "label": "the Caribbean Sea",
+      "statement": "The canal's Atlantic entrance opens into the Caribbean, which the canal helped make one of the world's most traveled seas.",
+      "associations": ["Caribbean Sea", "Atlantic entrance", "busy sea"],
+      "clue_ids": ["3ca9fc5564", "f8f7232d85"]
+    },
+    {
+      "id": "before",
+      "label": "Cape Horn and Magellan",
+      "statement": "Before the canal, ships rounded Cape Horn or threaded the Strait of Magellan; even today, supertankers too big for the locks take the long way.",
+      "associations": ["Cape Horn", "Strait of Magellan", "supertankers"],
+      "clue_ids": ["40f01d1ac4", "a69765b89f", "343d51f0a7"]
+    }
+  ],
+  "clue_ids": [
+    "7f7238f055", "184c1c5532", "f272fb4d97", "cee4409db5", "bd95e8e5d2",
+    "7648c3c024", "0e55c88ae9", "01c58e0ad4", "a33047744a", "3ca9fc5564",
+    "f8f7232d85", "40f01d1ac4", "a69765b89f", "343d51f0a7", "cedfca38ae",
+    "878e032c95"
+  ],
+  "related": ["suez-canal", "world-war-ii", "grand-canyon"]
+}

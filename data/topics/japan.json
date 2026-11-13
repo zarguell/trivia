@@ -1,0 +1,65 @@
+{
+  "id": "japan",
+  "name": "Japan",
+  "deck": "geography",
+  "aliases": ["Japanese"],
+  "hook": "Shinto, the shogun and Mount Fuji: Japan's clues reward knowing the old titles and the new emperors.",
+  "facts": [
+    {
+      "id": "shinto",
+      "label": "Shinto",
+      "statement": "Shinto, Japan's native religion, means \"the way of the gods\"; its name comes from Chinese words.",
+      "associations": ["Shinto", "way of the gods", "native religion", "Chinese origin"],
+      "clue_ids": ["9d159010b4", "79862a88ab"]
+    },
+    {
+      "id": "mount-fuji",
+      "label": "Mount Fuji",
+      "statement": "Mount Fuji is Japan's sacred peak; Hokusai's Thirty-Six Views of Mount Fuji made it famous, and some Buddhists treat the 33rd and 88th ascents as special.",
+      "associations": ["Mount Fuji", "Hokusai", "Thirty-Six Views", "pilgrimage"],
+      "clue_ids": ["38e44b6dd9", "95a244f226"]
+    },
+    {
+      "id": "kyoto",
+      "label": "Kyoto",
+      "statement": "Kyoto, called Heian-Kyo, became Japan's capital in 794 under Emperor Kammu; the Kansai dialect is spoken there and in Osaka.",
+      "associations": ["Kyoto", "Heian-Kyo", "794", "Kansai dialect"],
+      "clue_ids": ["01a15a4ddc", "217359a57d", "f7f6cb25e2"]
+    },
+    {
+      "id": "shogun",
+      "label": "shogun",
+      "statement": "Shogun means \"great general\"; Yoritomo received the title in 1192, and James Clavell's 1975 novel Shogun is set in Japan in 1600.",
+      "associations": ["shogun", "Yoritomo", "1192", "James Clavell"],
+      "clue_ids": ["5393c34f19", "dbbfef4a23"]
+    },
+    {
+      "id": "hirohito",
+      "label": "Emperor Hirohito",
+      "statement": "Emperor Hirohito died in 1989 after more than 60 years on the throne; he was buried with a Mickey Mouse watch and succeeded by Akihito.",
+      "associations": ["Hirohito", "Akihito", "1989", "Mickey Mouse watch"],
+      "clue_ids": ["1251e0c732", "6bcb797866"]
+    },
+    {
+      "id": "kabuki",
+      "label": "kabuki",
+      "statement": "Kabuki is a highly stylized Japanese drama; the Nakamura-za was a leading venue, and Sharaku made prints of its actors.",
+      "associations": ["kabuki", "Nakamura-za", "Sharaku", "actors"],
+      "clue_ids": ["6a7d0f89b1", "53de5c9b2c"]
+    },
+    {
+      "id": "okinawa",
+      "label": "Okinawa",
+      "statement": "Okinawa, the largest Ryukyu island, takes its name from Japanese for \"rope in the sea\" and was returned to Japan in 1972.",
+      "associations": ["Okinawa", "Ryukyu Islands", "rope in the sea", "1972"],
+      "clue_ids": ["e54dc21c5e", "3b1ada2522"]
+    }
+  ],
+  "clue_ids": [
+    "9d159010b4", "79862a88ab", "38e44b6dd9", "95a244f226", "01a15a4ddc",
+    "217359a57d", "f7f6cb25e2", "5393c34f19", "dbbfef4a23", "1251e0c732",
+    "6bcb797866", "6a7d0f89b1", "53de5c9b2c", "e54dc21c5e", "3b1ada2522",
+    "91e861eb46", "12164839ed", "39f09a23fb"
+  ],
+  "related": ["sushi", "pearl-harbor", "china"]
+}

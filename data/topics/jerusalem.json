@@ -1,0 +1,65 @@
+{
+  "id": "jerusalem",
+  "name": "Jerusalem",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "David, the Dome of the Rock, the Wailing Wall and Saladin: Jerusalem's clues are a holy-city history test.",
+  "facts": [
+    {
+      "id": "david",
+      "label": "King David",
+      "statement": "King David captured Jerusalem around 1000 B.C.; his commander Joab led the conquest, and the city is called the \"city of David.\"",
+      "associations": ["King David", "Joab", "1000 B.C.", "city of David"],
+      "clue_ids": ["796f939c22", "7aa718a816", "84b3b510d3"]
+    },
+    {
+      "id": "nebuchadnezzar",
+      "label": "Nebuchadnezzar",
+      "statement": "Nebuchadnezzar, king of Babylonia, captured Jerusalem twice and destroyed its temple around 587 B.C.",
+      "associations": ["Nebuchadnezzar", "Babylonia", "587 B.C.", "temple"],
+      "clue_ids": ["6db56f74da", "8bab228142"]
+    },
+    {
+      "id": "dome-of-the-rock",
+      "label": "the Dome of the Rock",
+      "statement": "The Dome of the Rock, completed around 691, is the Muslim shrine known in Arabic as Qubbat as-Sakhra and also as the Mosque of Omar.",
+      "associations": ["Dome of the Rock", "691", "Qubbat as-Sakhra", "Mosque of Omar"],
+      "clue_ids": ["94818b267e", "5c5f97f83b"]
+    },
+    {
+      "id": "wailing-wall",
+      "label": "the Wailing Wall",
+      "statement": "Letters addressed to \"God, Jerusalem\" go into the Wailing Wall; Israel took East Jerusalem from Jordan in the 1967 Six-Day War, restoring Jewish access.",
+      "associations": ["Wailing Wall", "Western Wall", "1967", "Jordan"],
+      "clue_ids": ["23f3726e3d", "68c233384e", "737a0fada3"]
+    },
+    {
+      "id": "saladin",
+      "label": "Saladin",
+      "statement": "Saladin recaptured Jerusalem in the 12th century and crushed a crusader army at the Battle of Hattin in 1187.",
+      "associations": ["Saladin", "Hattin 1187", "crusaders"],
+      "clue_ids": ["1d4c51dac3", "51a6961f0c"]
+    },
+    {
+      "id": "mount-of-olives",
+      "label": "the Mount of Olives",
+      "statement": "The Mount of Olives, named for the region's crop, is where Jesus began his Palm Sunday entry into Jerusalem; the Church of All Nations sits at its foot.",
+      "associations": ["Mount of Olives", "Palm Sunday", "Church of All Nations"],
+      "clue_ids": ["d758f85218", "6d64b3678c", "3ffe6b1a33"]
+    },
+    {
+      "id": "knights-templar",
+      "label": "the Knights Templar",
+      "statement": "The Knights Templar formed around 1119 in Jerusalem, led by Hugh de Payns, to protect pilgrims traveling there.",
+      "associations": ["Knights Templar", "Hugh de Payns", "1119", "pilgrims"],
+      "clue_ids": ["511d9053a4", "c57da90dcd"]
+    }
+  ],
+  "clue_ids": [
+    "796f939c22", "7aa718a816", "84b3b510d3", "6db56f74da", "8bab228142",
+    "94818b267e", "5c5f97f83b", "23f3726e3d", "68c233384e", "737a0fada3",
+    "1d4c51dac3", "51a6961f0c", "d758f85218", "6d64b3678c", "3ffe6b1a33",
+    "511d9053a4", "c57da90dcd"
+  ],
+  "related": ["egypt", "istanbul", "rome"]
+}

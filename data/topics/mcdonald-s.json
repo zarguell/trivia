@@ -1,0 +1,64 @@
+{
+  "id": "mcdonald-s",
+  "name": "McDonald's",
+  "deck": "food-drink",
+  "aliases": ["McDonalds"],
+  "hook": "Ray Kroc's Illinois burger stand, and the sandwiches and mascots Jeopardy ties to it.",
+  "facts": [
+    {
+      "id": "ray-kroc",
+      "label": "Ray Kroc",
+      "statement": "Ray Kroc sold milkshake machines to the McDonald brothers, then built their burger stand into a global chain; his memoir is Grinding It Out.",
+      "associations": ["Ray Kroc", "milkshake machines", "Grinding It Out", "McDonald brothers"],
+      "clue_ids": ["e406de3973", "7d24a418c2"]
+    },
+    {
+      "id": "oak-brook",
+      "label": "Oak Brook, Illinois",
+      "statement": "McDonald's is headquartered in Oak Brook, Illinois, and Ray Kroc's first franchise was in the same state.",
+      "associations": ["Oak Brook", "Illinois", "first franchise"],
+      "clue_ids": ["906898dc28", "5c1e462ea2", "7eef583765"]
+    },
+    {
+      "id": "big-mac",
+      "label": "Big Mac",
+      "statement": "Jim Delligatti invented the Big Mac at his Pittsburgh-area McDonald's in 1967; in 2019 the EU revoked McDonald's trademark on the name.",
+      "associations": ["Big Mac", "Jim Delligatti", "1967", "EU trademark"],
+      "clue_ids": ["9944a843ab", "7912bca024"]
+    },
+    {
+      "id": "egg-mcmuffin",
+      "label": "Egg McMuffin",
+      "statement": "Herb Peterson created the Egg McMuffin in 1972: Canadian bacon, American cheese and an English muffin.",
+      "associations": ["Egg McMuffin", "Herb Peterson", "1972", "Canadian bacon"],
+      "clue_ids": ["32f5a4e3ca", "b61acbe13a"]
+    },
+    {
+      "id": "quarter-pounder",
+      "label": "Quarter Pounder",
+      "statement": "Franchisee Al Bernardin created the Quarter Pounder in 1971; in France it is called \"le Royal Cheese.\"",
+      "associations": ["Quarter Pounder", "Al Bernardin", "1971", "le Royal Cheese"],
+      "clue_ids": ["42680f3516", "bc8fc2136d"]
+    },
+    {
+      "id": "ronald-mcdonald",
+      "label": "Ronald McDonald",
+      "statement": "Willard Scott, the Today show weatherman, was the first Ronald McDonald.",
+      "associations": ["Ronald McDonald", "Willard Scott", "Today show"],
+      "clue_ids": ["417db0fd94", "45a6c5d6e6"]
+    },
+    {
+      "id": "super-size-me",
+      "label": "Super Size Me",
+      "statement": "Morgan Spurlock's 2004 documentary Super Size Me followed a month of eating only McDonald's; a 2019 sequel went after fast-food chicken.",
+      "associations": ["Super Size Me", "Morgan Spurlock", "2004 documentary"],
+      "clue_ids": ["2a3caa4cef", "b73163b854"]
+    }
+  ],
+  "clue_ids": [
+    "e406de3973", "7d24a418c2", "906898dc28", "5c1e462ea2", "7eef583765",
+    "9944a843ab", "7912bca024", "32f5a4e3ca", "b61acbe13a", "42680f3516",
+    "bc8fc2136d", "417db0fd94", "45a6c5d6e6", "2a3caa4cef", "b73163b854"
+  ],
+  "related": ["coca-cola", "pizza", "potato"]
+}

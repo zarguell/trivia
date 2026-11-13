@@ -1,0 +1,65 @@
+{
+  "id": "napoleon",
+  "name": "Napoleon",
+  "deck": "history",
+  "aliases": ["Napoleon Bonaparte"],
+  "hook": "Waterloo, Elba, Josephine: the handful of facts behind a thousand Napoleonic clues.",
+  "facts": [
+    {
+      "id": "corsica",
+      "label": "Corsica",
+      "statement": "Napoleon Bonaparte was born in 1769 on Corsica, which Genoa had ceded to France the year before — making him French.",
+      "associations": ["Corsica", "1769", "Genoa"],
+      "clue_ids": ["65026d7fc9", "a07280d19f"]
+    },
+    {
+      "id": "emperor",
+      "label": "Emperor of the French",
+      "statement": "By the early 1800s his empire included the duchy of Warsaw, the kingdom of Naples and Spain.",
+      "associations": ["Emperor", "1804", "Warsaw", "Naples"],
+      "clue_ids": ["27d0a278a1"]
+    },
+    {
+      "id": "waterloo",
+      "label": "Waterloo",
+      "statement": "He was finally defeated at Waterloo in 1815 by the Duke of Wellington and Blücher's Prussian troops.",
+      "associations": ["Waterloo", "1815", "Duke of Wellington", "Blücher"],
+      "clue_ids": ["2644d43d53", "20f60a796c"]
+    },
+    {
+      "id": "elba",
+      "label": "Elba",
+      "statement": "His first exile was to Elba, the island off the Italian coast; he escaped and returned for the Hundred Days.",
+      "associations": ["Elba", "first exile", "Hundred Days"],
+      "clue_ids": ["e5f3d3b058", "c3018bf624"]
+    },
+    {
+      "id": "st-helena",
+      "label": "St. Helena",
+      "statement": "He died in exile on St. Helena in the South Atlantic, where Longwood House is now a Napoleon museum.",
+      "associations": ["St. Helena", "Longwood House", "South Atlantic"],
+      "clue_ids": ["b3d2dedb07", "63d859f471"]
+    },
+    {
+      "id": "josephine",
+      "label": "Josephine",
+      "statement": "Josephine, his first empress, spent her first 15 years on Martinique and narrowly escaped the guillotine.",
+      "associations": ["Josephine", "Martinique", "guillotine"],
+      "clue_ids": ["a3fff9fba0", "14eae75c79"]
+    },
+    {
+      "id": "impossible",
+      "label": "\"The word is not French\"",
+      "statement": "In an 1813 letter he wrote, \"You write to me that it's impossible; the word is not French.\"",
+      "associations": ["impossible", "the word is not French", "1813 letter"],
+      "clue_ids": ["fdce8cfa9d"]
+    }
+  ],
+  "clue_ids": [
+    "c8ec7e3067", "27d0a278a1", "178ea5d985", "fdce8cfa9d", "2644d43d53",
+    "e5f3d3b058", "c3018bf624", "b3d2dedb07", "63d859f471", "65026d7fc9",
+    "a07280d19f", "20f60a796c", "a3fff9fba0", "14eae75c79", "9fa9381a3e",
+    "bdd01a33e0", "8b895a3667", "89dde00490"
+  ],
+  "related": ["french-revolution", "leo-tolstoy", "julius-caesar"]
+}

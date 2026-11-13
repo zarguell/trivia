@@ -1,0 +1,64 @@
+{
+  "id": "california",
+  "name": "California",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "The Gold Rush state, asked through its cities, parks and extremes.",
+  "facts": [
+    {
+      "id": "statehood",
+      "label": "the 31st state",
+      "statement": "California joined the Union in 1850 and is now the most populous state in the country.",
+      "associations": ["1850", "statehood", "most populous state"],
+      "clue_ids": ["bb46fd0d88", "204ef3fb1c"]
+    },
+    {
+      "id": "gold-rush",
+      "label": "the Gold Rush",
+      "statement": "James Marshall found gold at Coloma in 1848, setting off the Gold Rush that swelled California's population.",
+      "associations": ["James Marshall", "Coloma", "1848", "Sutter's Mill"],
+      "clue_ids": ["d772622647", "4ee2f6dc4e"]
+    },
+    {
+      "id": "death-valley",
+      "label": "Death Valley",
+      "statement": "Death Valley holds the record for the hottest temperature in North America: 134 degrees Fahrenheit on July 10, 1913.",
+      "associations": ["134 degrees", "1913", "hottest in North America", "Racetrack Playa"],
+      "clue_ids": ["1806699332", "93d2424e7a"]
+    },
+    {
+      "id": "yosemite",
+      "label": "Yosemite",
+      "statement": "Yosemite is the East-Central California national park with Badger Pass and the Grand Canyon of the Tuolumne.",
+      "associations": ["national park", "Badger Pass", "Grand Canyon of the Tuolumne"],
+      "clue_ids": ["7ebb032f90", "aeffba5cb7"]
+    },
+    {
+      "id": "san-francisco",
+      "label": "San Francisco",
+      "statement": "San Francisco was named for its bay, which was named for St. Francis of Assisi.",
+      "associations": ["St. Francis of Assisi", "San Francisco Bay"],
+      "clue_ids": ["b7881c8b86"]
+    },
+    {
+      "id": "sacramento",
+      "label": "Sacramento",
+      "statement": "Sacramento, the state capital, grew during the Gold Rush and was the western end of the Pony Express and the transcontinental railroad.",
+      "associations": ["state capital", "Pony Express", "transcontinental railroad"],
+      "clue_ids": ["1d89489545", "520860ca09"]
+    },
+    {
+      "id": "stanford",
+      "label": "Stanford",
+      "statement": "Stanford University, built on Leland Stanford's farm, is called \"The Farm\"; Herbert Hoover managed its first football team.",
+      "associations": ["The Farm", "Herbert Hoover", "Palo Alto"],
+      "clue_ids": ["0f89bd4ac7", "d97c2a9956"]
+    }
+  ],
+  "clue_ids": [
+    "bb46fd0d88", "204ef3fb1c", "d772622647", "4ee2f6dc4e", "1806699332",
+    "93d2424e7a", "7ebb032f90", "aeffba5cb7", "b7881c8b86", "1d89489545",
+    "520860ca09", "0f89bd4ac7", "d97c2a9956"
+  ],
+  "related": ["texas", "alaska", "grand-canyon"]
+}

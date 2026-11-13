@@ -1,0 +1,65 @@
+{
+  "id": "michael-jackson",
+  "name": "Michael Jackson",
+  "deck": "music",
+  "aliases": ["MJ", "King of Pop"],
+  "hook": "The King of Pop, from the moonwalk to Thriller and \"Billie Jean.\"",
+  "facts": [
+    {
+      "id": "thriller",
+      "label": "Thriller",
+      "statement": "Thriller was the 1982 album whose title track was written by Rod Temperton; its 13-minute music video premiered in 1983.",
+      "associations": ["Thriller", "1982", "Rod Temperton", "13-minute video"],
+      "clue_ids": ["edad3013e9", "1e4b97dc70"]
+    },
+    {
+      "id": "moonwalk",
+      "label": "the moonwalk",
+      "statement": "Jackson introduced his signature moonwalk, a backwards glide, on Motown's 25th Anniversary special in 1983.",
+      "associations": ["moonwalk", "Motown 25", "1983"],
+      "clue_ids": ["bf523e9104", "c5a2c87d22"]
+    },
+    {
+      "id": "billie-jean",
+      "label": "Billie Jean",
+      "statement": "\"Billie Jean\" was a No. 1 hit about a woman claiming the singer is the father; Quincy Jones wanted the title changed to avoid confusion with a tennis player.",
+      "associations": ["Billie Jean", "No. 1", "Quincy Jones", "tennis player"],
+      "clue_ids": ["0abcfe8e06", "84eefab405"]
+    },
+    {
+      "id": "beat-it",
+      "label": "Beat It",
+      "statement": "\"Beat It\" featured real gang members in its video, and \"Weird Al\" Yankovic parodied it as \"Eat It.\"",
+      "associations": ["Beat It", "Weird Al Yankovic", "Eat It"],
+      "clue_ids": ["774a3c7107", "bc501c560a"]
+    },
+    {
+      "id": "bad",
+      "label": "Bad",
+      "statement": "The album Bad followed Thriller and produced five No. 1 hits.",
+      "associations": ["Bad", "five No. 1 hits", "Thriller"],
+      "clue_ids": ["60a26ebd8b"]
+    },
+    {
+      "id": "king-of-pop",
+      "label": "King of Pop",
+      "statement": "Jackson was known as the \"King of Pop,\" the nickname used in dozens of his obituaries.",
+      "associations": ["King of Pop", "nickname"],
+      "clue_ids": ["6a2a2899b9"]
+    },
+    {
+      "id": "mccartney-duets",
+      "label": "Paul McCartney duets",
+      "statement": "Jackson duetted with Paul McCartney on \"The Girl Is Mine\" and the No. 1 hit \"Say Say Say.\"",
+      "associations": ["Paul McCartney", "The Girl Is Mine", "Say Say Say"],
+      "clue_ids": ["4da45d1758", "565cb1d171", "8585c4da67"]
+    }
+  ],
+  "clue_ids": [
+    "edad3013e9", "1e4b97dc70", "bf523e9104", "c5a2c87d22", "0abcfe8e06",
+    "84eefab405", "774a3c7107", "bc501c560a", "60a26ebd8b", "6a2a2899b9",
+    "4da45d1758", "565cb1d171", "8585c4da67", "55c572d853", "33592c287d",
+    "241a1e2840", "b6ec8ca432", "6478e6ed52"
+  ],
+  "related": ["madonna", "billboard", "the-beatles"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "star-trek",
+  "name": "Star Trek",
+  "deck": "film-tv",
+  "aliases": [],
+  "hook": "Kirk, Spock, the Enterprise and the catchphrases — a franchise Jeopardy has asked about since 1966.",
+  "facts": [
+    {
+      "id": "roddenberry",
+      "label": "Gene Roddenberry",
+      "statement": "Gene Roddenberry created Star Trek, which debuted in 1966; in 1992 a Space Shuttle crew carried his ashes into space.",
+      "associations": ["Gene Roddenberry", "1966", "ashes in space"],
+      "clue_ids": ["5e141e6479", "14dcbd932e"]
+    },
+    {
+      "id": "spock",
+      "label": "Spock",
+      "statement": "Leonard Nimoy played Spock; the Vulcan salute came from the Hebrew letter shin, and Vulcans mate in pon farr.",
+      "associations": ["Leonard Nimoy", "Spock", "Vulcan salute", "pon farr"],
+      "clue_ids": ["5ebf386274", "fb3b1570a8", "24aac60609"]
+    },
+    {
+      "id": "kirk",
+      "label": "James T. Kirk",
+      "statement": "William Shatner played James T. Kirk, appeared in all the original-cast films, and directed Star Trek V.",
+      "associations": ["William Shatner", "James T. Kirk", "Star Trek V"],
+      "clue_ids": ["44f5e295f3", "aac71035fa"]
+    },
+    {
+      "id": "scotty",
+      "label": "Scotty",
+      "statement": "James Doohan played Scotty, lost a finger on D-Day, and devised the first version of the Klingon language.",
+      "associations": ["James Doohan", "Scotty", "D-Day", "Klingon"],
+      "clue_ids": ["bc926455f7", "7d82321fef"]
+    },
+    {
+      "id": "enterprise",
+      "label": "the Enterprise",
+      "statement": "Fans got the first Space Shuttle orbiter named Enterprise; a 14-foot model of the starship hangs in the Smithsonian.",
+      "associations": ["the Enterprise", "Space Shuttle", "Smithsonian"],
+      "clue_ids": ["0c6a490f1c", "4cc00247ec"]
+    },
+    {
+      "id": "borg",
+      "label": "the Borg",
+      "statement": "The Borg warn \"Resistance is futile\"; they designated Jeri Ryan's Voyager character Seven of Nine.",
+      "associations": ["the Borg", "Resistance is futile", "Seven of Nine"],
+      "clue_ids": ["0d81985ee4", "36a356daf1"]
+    },
+    {
+      "id": "spinoffs",
+      "label": "the spin-offs",
+      "statement": "Deep Space Nine and Voyager followed The Next Generation; Voyager ran from 1995 to 2001.",
+      "associations": ["Deep Space Nine", "Voyager", "1995–2001"],
+      "clue_ids": ["66e613d246", "0f5489cb91", "030cf9099c"]
+    }
+  ],
+  "clue_ids": [
+    "5e141e6479", "14dcbd932e", "5ebf386274", "fb3b1570a8", "24aac60609",
+    "44f5e295f3", "aac71035fa", "bc926455f7", "7d82321fef", "0c6a490f1c",
+    "4cc00247ec", "0d81985ee4", "36a356daf1", "66e613d246", "0f5489cb91",
+    "030cf9099c", "9eb7f914ec"
+  ],
+  "related": ["star-wars", "jurassic-park"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "india",
+  "name": "India",
+  "deck": "geography",
+  "aliases": ["Indian"],
+  "hook": "Gandhi, the Ganges and Sanskrit: the clues keep returning to a small set of names and rivers.",
+  "facts": [
+    {
+      "id": "gandhi",
+      "label": "Mahatma Gandhi",
+      "statement": "Mohandas \"Mahatma\" Gandhi, called the \"Great Soul,\" led India's nonviolent independence movement and after 1915 left India only once, to visit London.",
+      "associations": ["Mahatma Gandhi", "Great Soul", "nonviolence", "London"],
+      "clue_ids": ["78dc9352a0", "c813a8b297"]
+    },
+    {
+      "id": "ganges",
+      "label": "the Ganges",
+      "statement": "The Ganges, India's most sacred river, is named for a Hindu goddess; Allahabad sits at its junction with the Yamuna.",
+      "associations": ["Ganges", "Hindu goddess", "Allahabad", "Yamuna"],
+      "clue_ids": ["2f8240e17f", "223903c1a5"]
+    },
+    {
+      "id": "sanskrit",
+      "label": "Sanskrit",
+      "statement": "Sanskrit, the ancient language of India related to Greek and Latin, is the language of the Mahabharata's 100,000 verses.",
+      "associations": ["Sanskrit", "Mahabharata", "ancient language", "Greek and Latin"],
+      "clue_ids": ["a6857109f2", "6074054e8d"]
+    },
+    {
+      "id": "vasco-da-gama",
+      "label": "Vasco da Gama",
+      "statement": "Vasco da Gama reached India in 1498, became viceroy of Portuguese India, and died at Cochin in 1524.",
+      "associations": ["Vasco da Gama", "1498", "viceroy", "Cochin"],
+      "clue_ids": ["9568c90ad1", "9fca76aa5a"]
+    },
+    {
+      "id": "indira-gandhi",
+      "label": "Indira Gandhi",
+      "statement": "Indira Gandhi became India's first woman prime minister and the \"Madam P.M.\" of the Congress-I era; a Rajasthan canal is named for her.",
+      "associations": ["Indira Gandhi", "first woman PM", "Congress-I", "Rajasthan canal"],
+      "clue_ids": ["842e826b16", "11581a07e1"]
+    },
+    {
+      "id": "calcutta",
+      "label": "Calcutta",
+      "statement": "Calcutta, now Kolkata, is the cultural center of eastern India and was the world's jute-processing capital around 1900.",
+      "associations": ["Calcutta", "Kolkata", "West Bengal", "jute"],
+      "clue_ids": ["003b030822", "51456194a6"]
+    },
+    {
+      "id": "population",
+      "label": "India's population",
+      "statement": "India is projected to have more people than China by 2100 and has the world's highest share of vegetarians, about 38%.",
+      "associations": ["population", "China", "vegetarians", "38%"],
+      "clue_ids": ["d02f32e2c5", "b9c6203980"]
+    }
+  ],
+  "clue_ids": [
+    "78dc9352a0", "c813a8b297", "2f8240e17f", "223903c1a5", "a6857109f2",
+    "6074054e8d", "9568c90ad1", "9fca76aa5a", "842e826b16", "11581a07e1",
+    "003b030822", "51456194a6", "d02f32e2c5", "b9c6203980", "012276bd0f",
+    "d5e85cd9da"
+  ],
+  "related": ["gandhi", "taj-mahal", "china"]
+}

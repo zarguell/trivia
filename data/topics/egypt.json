@@ -1,0 +1,65 @@
+{
+  "id": "egypt",
+  "name": "Egypt",
+  "deck": "geography",
+  "aliases": ["Egyptian"],
+  "hook": "Cleopatra, the Nile and the gods: the handful of Egyptian answers Jeopardy keeps returning to.",
+  "facts": [
+    {
+      "id": "nile",
+      "label": "the Nile",
+      "statement": "The Nile is Egypt's lifeline: the Romans founded Antinoopolis after Antinous drowned in it, and Isis's temple in Pompeii imported its holy water.",
+      "associations": ["the Nile", "Antinous", "Antinoopolis"],
+      "clue_ids": ["8980e8b2e0", "3e2883effa"]
+    },
+    {
+      "id": "cleopatra",
+      "label": "Cleopatra",
+      "statement": "Cleopatra was Egypt's last pharaoh. After her death in 30 B.C., Egypt became a province of the Roman Empire.",
+      "associations": ["Cleopatra", "30 B.C.", "last pharaoh", "Roman province"],
+      "clue_ids": ["b51f2828a4", "a05263bdb8"]
+    },
+    {
+      "id": "alexandria",
+      "label": "Alexandria",
+      "statement": "Alexandria was Egypt's capital for nearly a thousand years and a center of learning; Hypatia taught there before her murder.",
+      "associations": ["Alexandria", "Hypatia", "capital", "center of learning"],
+      "clue_ids": ["03b901f550", "a337f6a414"]
+    },
+    {
+      "id": "gods",
+      "label": "Isis and Osiris",
+      "statement": "Isis was Osiris's sister and consort and Horus's mother; Set murdered Osiris, who then became ruler of the underworld.",
+      "associations": ["Isis", "Osiris", "Set", "Horus"],
+      "clue_ids": ["9f9ce41e0e", "9a3565791b", "5f28308065"]
+    },
+    {
+      "id": "nefertiti",
+      "label": "Nefertiti",
+      "statement": "Nefertiti was Akhenaten's queen; the painted bust found at Amarna in 1912 made her a symbol of beauty.",
+      "associations": ["Nefertiti", "Akhenaten", "Amarna", "1912 bust"],
+      "clue_ids": ["fdd40bf681", "eeda1ec806"]
+    },
+    {
+      "id": "memphis",
+      "label": "Memphis",
+      "statement": "Memphis was an ancient capital of Egypt and a center of worship of Ptah; the Bible calls it Noph.",
+      "associations": ["Memphis", "Ptah", "Noph", "ancient capital"],
+      "clue_ids": ["27aa0dcdb8", "82c9cd89cc"]
+    },
+    {
+      "id": "sadat",
+      "label": "Anwar Sadat",
+      "statement": "Anwar Sadat signed the 1979 peace treaty with Israel and was assassinated in 1981.",
+      "associations": ["Anwar Sadat", "1979 treaty", "Israel", "assassinated"],
+      "clue_ids": ["d12cbacb75", "ac4791c407"]
+    }
+  ],
+  "clue_ids": [
+    "8980e8b2e0", "3e2883effa", "b51f2828a4", "a05263bdb8", "03b901f550",
+    "a337f6a414", "9f9ce41e0e", "9a3565791b", "5f28308065", "fdd40bf681",
+    "eeda1ec806", "27aa0dcdb8", "82c9cd89cc", "d12cbacb75", "ac4791c407",
+    "e16ccd68c1", "9674eeedb5", "1db1d585b3"
+  ],
+  "related": ["ancient-egypt", "nile", "cleopatra", "rome"]
+}

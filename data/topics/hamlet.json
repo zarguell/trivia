@@ -1,0 +1,64 @@
+{
+  "id": "hamlet",
+  "name": "Hamlet",
+  "deck": "literature",
+  "aliases": [],
+  "hook": "One play, one castle, and a handful of characters Jeopardy asks for again and again.",
+  "facts": [
+    {
+      "id": "elsinore",
+      "label": "Elsinore",
+      "statement": "Hamlet is set at Elsinore, the Danish castle where Olivier, Gielgud and Plummer all played the prince.",
+      "associations": ["Elsinore", "Denmark", "castle"],
+      "clue_ids": ["7462c3cbc8", "ef9cd0f5ee"]
+    },
+    {
+      "id": "claudius",
+      "label": "Claudius",
+      "statement": "Claudius murders Hamlet's father, marries Hamlet's mother Gertrude, and is played by Derek Jacobi in Branagh's film.",
+      "associations": ["Claudius", "Gertrude", "uncle", "Derek Jacobi"],
+      "clue_ids": ["c6bf362425", "ed861d4dcb", "297c567b7a"]
+    },
+    {
+      "id": "ophelia",
+      "label": "Ophelia",
+      "statement": "Ophelia is Polonius's daughter and Laertes's sister; Hamlet spurns her, and she drowns.",
+      "associations": ["Ophelia", "Polonius's daughter", "Laertes's sister"],
+      "clue_ids": ["d0e46cf241", "9db871aa14"]
+    },
+    {
+      "id": "polonius",
+      "label": "Polonius",
+      "statement": "Polonius, the pompous counselor, gives the advice \"To thine own self be true\" and is stabbed through the arras by Hamlet.",
+      "associations": ["Polonius", "To thine own self be true", "stabbed"],
+      "clue_ids": ["9a4050fa6e", "f433f4f7ec"]
+    },
+    {
+      "id": "yorick",
+      "label": "Yorick",
+      "statement": "Yorick is the dead court jester whose skull Hamlet holds — \"a fellow of infinite jest, of most excellent fancy\".",
+      "associations": ["Yorick", "skull", "court jester"],
+      "clue_ids": ["253905cfa8", "8dcaa5c952"]
+    },
+    {
+      "id": "rosencrantz",
+      "label": "Rosencrantz & Guildenstern",
+      "statement": "Rosencrantz and Guildenstern are Hamlet's schoolmates, sent to spy on him; Stoppard made them the leads of Rosencrantz & Guildenstern Are Dead.",
+      "associations": ["Rosencrantz & Guildenstern", "schoolmates", "Tom Stoppard"],
+      "clue_ids": ["29c79fbe05", "2eed74f2d3"]
+    },
+    {
+      "id": "olivier",
+      "label": "Laurence Olivier",
+      "statement": "Laurence Olivier won the Best Actor Oscar for the 1948 film of Hamlet, which also won Best Picture.",
+      "associations": ["Laurence Olivier", "1948 film", "Best Actor Oscar"],
+      "clue_ids": ["332a6dae05", "525f4d4a00"]
+    }
+  ],
+  "clue_ids": [
+    "7462c3cbc8", "ef9cd0f5ee", "c6bf362425", "ed861d4dcb", "297c567b7a",
+    "d0e46cf241", "9db871aa14", "9a4050fa6e", "f433f4f7ec", "253905cfa8",
+    "8dcaa5c952", "29c79fbe05", "2eed74f2d3", "332a6dae05", "525f4d4a00"
+  ],
+  "related": ["william-shakespeare", "macbeth", "romeo-and-juliet"]
+}

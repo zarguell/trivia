@@ -1,0 +1,65 @@
+{
+  "id": "steven-spielberg",
+  "name": "Steven Spielberg",
+  "deck": "film-tv",
+  "aliases": ["Spielberg"],
+  "hook": "The blockbuster auteur Jeopardy connects to Jaws, E.T., and a record run of John Williams scores.",
+  "facts": [
+    {
+      "id": "early-tv",
+      "label": "Night Gallery",
+      "statement": "A college dropout not yet 23, Spielberg directed one segment of Rod Serling's Night Gallery when it premiered in 1969.",
+      "associations": ["Night Gallery", "Rod Serling", "1969"],
+      "clue_ids": ["7b626b0a35"]
+    },
+    {
+      "id": "williams",
+      "label": "John Williams",
+      "statement": "John Williams has scored more than 25 Spielberg films since 1974, including Jaws, E.T., and Schindler's List.",
+      "associations": ["John Williams", "film scores", "since 1974"],
+      "clue_ids": ["b0f48c09ee"]
+    },
+    {
+      "id": "jaws",
+      "label": "Jaws",
+      "statement": "Jaws (1975) named its mechanical shark Bruce after Spielberg's lawyer; Robert Shaw croons \"Farewell and adieu, you fair Spanish ladies.\"",
+      "associations": ["Jaws", "Bruce the shark", "1975"],
+      "clue_ids": ["7587a29f2c", "0a455ca6fe"]
+    },
+    {
+      "id": "close-encounters",
+      "label": "Close Encounters of the Third Kind",
+      "statement": "Close Encounters of the Third Kind (1977) is his aliens-in-America film; Jack Nicholson turned it down, saying the special effects were the real star.",
+      "associations": ["Close Encounters of the Third Kind", "1977", "Jack Nicholson"],
+      "clue_ids": ["032db8837c", "b665fb30be"]
+    },
+    {
+      "id": "e-t",
+      "label": "E.T. the Extra-Terrestrial",
+      "statement": "E.T. the Extra-Terrestrial (1982) was written by Melissa Mathison, then Harrison Ford's wife; Ford's cameo was cut.",
+      "associations": ["E.T.", "1982", "Melissa Mathison", "Harrison Ford"],
+      "clue_ids": ["4448bf3d5f", "aa617d9b69"]
+    },
+    {
+      "id": "1993",
+      "label": "Jurassic Park and Schindler's List",
+      "statement": "In 1993 Jurassic Park set a first-week box-office record while Schindler's List won Best Picture; the latter led to the USC Shoah Foundation.",
+      "associations": ["Jurassic Park", "Schindler's List", "1993", "Shoah Foundation"],
+      "clue_ids": ["2c88104e0c", "cac2aa9780", "4bdec710cb"]
+    },
+    {
+      "id": "hook",
+      "label": "Hook",
+      "statement": "Hook (1991) is his Peter Pan fantasy, with Glenn Close in a cameo as a male pirate and Smee calling the title pirate \"unfathomable.\"",
+      "associations": ["Hook", "Peter Pan", "Glenn Close", "Smee"],
+      "clue_ids": ["1c57df98bf", "cf139d235e"]
+    }
+  ],
+  "clue_ids": [
+    "50274818f7", "b0f48c09ee", "7b626b0a35", "4448bf3d5f", "aa617d9b69",
+    "0a455ca6fe", "032db8837c", "b665fb30be", "cac2aa9780", "4bdec710cb",
+    "1c57df98bf", "7587a29f2c", "cf139d235e", "2c88104e0c", "c80a55ef1e",
+    "e5b61bdc1f", "0f65e6ca5c"
+  ],
+  "related": ["jurassic-park", "star-wars", "tom-hanks"]
+}

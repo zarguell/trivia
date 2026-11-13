@@ -1,0 +1,64 @@
+{
+  "id": "halloween",
+  "name": "Halloween",
+  "deck": "world-culture",
+  "aliases": [],
+  "hook": "The October holiday, from Carpenter's slasher to candy corn and Houdini's seances.",
+  "facts": [
+    {
+      "id": "film",
+      "label": "the 1978 film",
+      "statement": "Halloween is John Carpenter's 1978 thriller, working title 'The Babysitter Murders,' with Jamie Lee Curtis as Laurie Strode and Michael Myers as the killer.",
+      "associations": ["1978", "John Carpenter", "Michael Myers", "Jamie Lee Curtis"],
+      "clue_ids": ["83c236bfd6", "23662dbfca", "03e9f4f9ae"]
+    },
+    {
+      "id": "monster-mash",
+      "label": "Monster Mash",
+      "statement": "Bobby 'Boris' Pickett's 'Monster Mash' was a 1962 Halloween hit, a 'graveyard smash' that charted again in 1973.",
+      "associations": ["Monster Mash", "Bobby Pickett", "1962", "graveyard smash"],
+      "clue_ids": ["d4a7077122", "3ccc852524"]
+    },
+    {
+      "id": "candy-corn",
+      "label": "candy corn",
+      "statement": "Candy corn is the tri-colored Halloween staple with its own national day on October 30.",
+      "associations": ["candy corn", "October 30", "tri-colored"],
+      "clue_ids": ["c47b2f20a7", "aef7919a55"]
+    },
+    {
+      "id": "pumpkin",
+      "label": "the pumpkin",
+      "statement": "Pumpkins are carved into jack-o'-lanterns, though the Scots and Irish once used turnips instead.",
+      "associations": ["pumpkin", "jack-o'-lantern", "turnips"],
+      "clue_ids": ["1f5d320f00", "40174afd42"]
+    },
+    {
+      "id": "houdini",
+      "label": "Harry Houdini",
+      "statement": "Harry Houdini died on Halloween in 1926, and his widow Bess held annual seances to try to contact him.",
+      "associations": ["Harry Houdini", "1926", "seances"],
+      "clue_ids": ["5b8ff5571c", "5280112ac9", "b53dae555f"]
+    },
+    {
+      "id": "trick-or-treat",
+      "label": "trick or treat",
+      "statement": "Trick-or-treating descends from children asking for food in exchange for prayers for the dead.",
+      "associations": ["trick or treat", "prayers for the dead", "food"],
+      "clue_ids": ["5ec7ac9543"]
+    },
+    {
+      "id": "great-pumpkin",
+      "label": "the Great Pumpkin",
+      "statement": "Linus waits every Halloween for the Great Pumpkin in the Peanuts special.",
+      "associations": ["the Great Pumpkin", "Linus", "Peanuts"],
+      "clue_ids": ["5c90203b18", "de4fef54cc"]
+    }
+  ],
+  "clue_ids": [
+    "83c236bfd6", "23662dbfca", "03e9f4f9ae", "d4a7077122", "3ccc852524",
+    "c47b2f20a7", "aef7919a55", "1f5d320f00", "40174afd42", "5b8ff5571c",
+    "5280112ac9", "b53dae555f", "5ec7ac9543", "5c90203b18", "de4fef54cc"
+  ],
+  "related": ["christmas", "thanksgiving", "valentine-s-day"]
+}

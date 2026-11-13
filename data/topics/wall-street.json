@@ -1,0 +1,65 @@
+{
+  "id": "wall-street",
+  "name": "Wall Street",
+  "deck": "business",
+  "aliases": [],
+  "hook": "The street, the crash of 1929, and the movie that made \"greed is good\" famous.",
+  "facts": [
+    {
+      "id": "nyse",
+      "label": "New York Stock Exchange",
+      "statement": "The New York Stock Exchange, founded in 1792, is the Wall Street body where Muriel Siebert became the first woman to hold a seat.",
+      "associations": ["New York Stock Exchange", "1792", "Muriel Siebert", "first woman seat"],
+      "clue_ids": ["571aa62206", "9501d0b9f4"]
+    },
+    {
+      "id": "black-thursday",
+      "label": "Black Thursday",
+      "statement": "Black Thursday, October 24, 1929, kicked off the Wall Street crash that led to the Great Depression.",
+      "associations": ["Black Thursday", "October 24 1929", "stock market crash"],
+      "clue_ids": ["fbd434c0f4", "99299fd5d8"]
+    },
+    {
+      "id": "wall-street-film",
+      "label": "Wall Street (1987 film)",
+      "statement": "Oliver Stone's 1987 film Wall Street has Michael Douglas as Gordon Gekko, whose \"greed is good\" speech won Douglas the Best Actor Oscar.",
+      "associations": ["1987 film", "Oliver Stone", "Gordon Gekko", "greed is good"],
+      "clue_ids": ["f5b41ce378", "0008b78a29", "8a39dd0c8f"]
+    },
+    {
+      "id": "the-99-percent",
+      "label": "the 99%",
+      "statement": "Occupy Wall Street popularized the phrase \"We are the 99%\" to protest economic inequality.",
+      "associations": ["Occupy Wall Street", "the 99%", "inequality"],
+      "clue_ids": ["c8231360e5", "ddf46169a2"]
+    },
+    {
+      "id": "wall-street-journal",
+      "label": "Wall Street Journal",
+      "statement": "The Wall Street Journal is the financial newspaper named for the street; \"journal\" is a synonym for newspaper.",
+      "associations": ["Wall Street Journal", "newspaper", "financial"],
+      "clue_ids": ["694feb8631", "795e741011"]
+    },
+    {
+      "id": "goldman-sachs",
+      "label": "Goldman Sachs",
+      "statement": "Goldman Sachs, the Wall Street banking powerhouse, is named for founders Marcus Goldman and Samuel Sachs.",
+      "associations": ["Goldman Sachs", "Marcus Goldman", "Samuel Sachs"],
+      "clue_ids": ["cd4888bd5e"]
+    },
+    {
+      "id": "bloomberg",
+      "label": "Michael Bloomberg",
+      "statement": "Michael Bloomberg's company began by selling computer terminals to Wall Street, and he later became mayor of New York City.",
+      "associations": ["Michael Bloomberg", "Bloomberg terminals", "NYC mayor"],
+      "clue_ids": ["f43cde6eda", "acde5de7ed"]
+    }
+  ],
+  "clue_ids": [
+    "f5b41ce378", "de45c100a8", "8a39dd0c8f", "571aa62206", "9501d0b9f4",
+    "58696f2e96", "fbd434c0f4", "f43cde6eda", "0008b78a29", "9503b16a1d",
+    "c8231360e5", "694feb8631", "99299fd5d8", "acde5de7ed", "ddf46169a2",
+    "cd4888bd5e", "4b82d39987", "d50bac8281"
+  ],
+  "related": ["new-york-city", "great-depression", "academy-awards"]
+}

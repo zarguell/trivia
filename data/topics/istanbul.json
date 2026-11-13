@@ -1,0 +1,65 @@
+{
+  "id": "istanbul",
+  "name": "Istanbul",
+  "deck": "geography",
+  "aliases": ["Constantinople", "Byzantium"],
+  "hook": "One city, three names, two continents — Byzantium, the Bosphorus and the Orient Express.",
+  "facts": [
+    {
+      "id": "byzantium",
+      "label": "Byzantium",
+      "statement": "Legend says Byzas founded the city as Byzantium after consulting the Oracle of Delphi; Yeats later imagined \"Sailing to Byzantium.\"",
+      "associations": ["Byzantium", "Byzas", "Yeats"],
+      "clue_ids": ["95af75b064", "d3fa6c74ac"]
+    },
+    {
+      "id": "constantinople",
+      "label": "Constantinople",
+      "statement": "It was Constantinople, capital of the Byzantine Empire, before the Turkish Republic made the old name Istanbul official.",
+      "associations": ["Constantinople", "Byzantine Empire", "renamed"],
+      "clue_ids": ["f0338b1a79", "72828108ba", "f69f1a5648"]
+    },
+    {
+      "id": "conquest",
+      "label": "1453",
+      "statement": "Mehmed II's Ottomans took the city in 1453, ending the Byzantine Empire; in 1204 the Fourth Crusade had already sacked it.",
+      "associations": ["1453", "Mehmed II", "Fourth Crusade"],
+      "clue_ids": ["ca821f2fe4", "9b005ab9f3"]
+    },
+    {
+      "id": "bosphorus",
+      "label": "the Bosphorus",
+      "statement": "The Bosphorus strait separates Istanbul's European and Asian sides; the city straddles both continents and is linked by suspension bridges.",
+      "associations": ["Bosphorus", "Europe and Asia", "strait"],
+      "clue_ids": ["aa613ae25c", "745f09e650", "8b94376d0d"]
+    },
+    {
+      "id": "hagia-sophia",
+      "label": "Hagia Sophia",
+      "statement": "Hagia Sophia — the Church of the Divine Wisdom — dates to the 6th century and stands on the site of a cathedral burned in the Nika riot of 532.",
+      "associations": ["Hagia Sophia", "6th century", "Nika riot"],
+      "clue_ids": ["afb269dce7", "5bf7552885"]
+    },
+    {
+      "id": "blue-mosque",
+      "label": "the Blue Mosque",
+      "statement": "The Blue Mosque, with its six minarets, was built to rival Hagia Sophia across from it and survived the 1999 earthquake undamaged.",
+      "associations": ["Blue Mosque", "six minarets", "1999 earthquake"],
+      "clue_ids": ["505fbabf74", "c6447f57f5"]
+    },
+    {
+      "id": "orient-express",
+      "label": "the Orient Express",
+      "statement": "The Orient Express first ran from Paris to Istanbul in 1883; Agatha Christie set her 1934 Poirot novel aboard it, partly written at the Pera Palace.",
+      "associations": ["Orient Express", "Paris to Istanbul", "Murder on the Orient Express"],
+      "clue_ids": ["527813f732", "315e25dd0e", "6d8a4b7832"]
+    }
+  ],
+  "clue_ids": [
+    "95af75b064", "d3fa6c74ac", "f0338b1a79", "72828108ba", "f69f1a5648",
+    "ca821f2fe4", "9b005ab9f3", "aa613ae25c", "745f09e650", "8b94376d0d",
+    "afb269dce7", "5bf7552885", "505fbabf74", "c6447f57f5", "527813f732",
+    "315e25dd0e", "6d8a4b7832", "99b2d7c031"
+  ],
+  "related": ["athens", "jerusalem", "greece"]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "moby-dick",
+  "name": "Moby-Dick",
+  "deck": "literature",
+  "aliases": ["Moby Dick", "Herman Melville", "Melville"],
+  "hook": "A whaling novel with a famous first line and a white whale Jeopardy never stops chasing.",
+  "facts": [
+    {
+      "id": "author",
+      "label": "Herman Melville",
+      "statement": "Herman Melville published it in 1851 after shipping out as a sailor; his other fiction includes Typee, Billy Budd and \"Bartleby, the Scrivener\".",
+      "associations": ["Herman Melville", "1851", "Typee", "Billy Budd"],
+      "clue_ids": ["514a2edcef", "6b01553864", "c43ae3ae7e"]
+    },
+    {
+      "id": "ishmael",
+      "label": "Ishmael",
+      "statement": "The novel opens \"Call me Ishmael.\" Ishmael is the narrator, and at the end the Pequod sinks while he is the lone survivor.",
+      "associations": ["Call me Ishmael", "narrator", "lone survivor"],
+      "clue_ids": ["6600e89818", "d4a03f58f7", "4fad1addfb"]
+    },
+    {
+      "id": "ahab",
+      "label": "Ahab",
+      "statement": "Captain Ahab, named for an evil king of Israel, commands the Pequod and hunts the white whale that took his leg.",
+      "associations": ["Captain Ahab", "evil king of Israel", "wooden leg"],
+      "clue_ids": ["190a6d9a74", "672519cce1"]
+    },
+    {
+      "id": "whale",
+      "label": "the sperm whale",
+      "statement": "Moby Dick is an albino sperm whale, the largest of the toothed whales — and Connecticut's state animal.",
+      "associations": ["white whale", "sperm whale", "Connecticut"],
+      "clue_ids": ["6a2c955b68", "67e1cd5c06", "b689755104"]
+    },
+    {
+      "id": "pequod",
+      "label": "the Pequod",
+      "statement": "The Pequod is Ahab's ship, named for a New England tribe destroyed by the Puritans; it sinks at the novel's end.",
+      "associations": ["the Pequod", "Nantucket whaler", "sinks"],
+      "clue_ids": ["f43944cce9", "4fad1addfb"]
+    },
+    {
+      "id": "legacy",
+      "label": "the white whale in later works",
+      "statement": "Later writers kept the whale: Jules Verne mentions Moby Dick in a novel, Ray Bradbury wrote the screenplay, and Jaws was called a mix of it and Ibsen.",
+      "associations": ["Jules Verne", "Ray Bradbury", "Jaws"],
+      "clue_ids": ["369a737281", "363c0d1f6f", "ae40265c1f"]
+    }
+  ],
+  "clue_ids": [
+    "514a2edcef", "6b01553864", "c43ae3ae7e", "6600e89818", "d4a03f58f7",
+    "4fad1addfb", "190a6d9a74", "672519cce1", "6a2c955b68", "67e1cd5c06",
+    "b689755104", "f43944cce9", "369a737281", "363c0d1f6f", "ae40265c1f",
+    "5743c1bc68", "d1e90d8bc1"
+  ],
+  "related": ["ernest-hemingway", "mark-twain"]
+}

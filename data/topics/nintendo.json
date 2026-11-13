@@ -1,0 +1,129 @@
+{
+  "id": "nintendo",
+  "name": "Nintendo",
+  "deck": "pop-culture",
+  "aliases": [],
+  "hook": "A Japanese card company that became the biggest name in video games, with Mario at the center.",
+  "facts": [
+    {
+      "id": "console-1983",
+      "label": "1983 console",
+      "statement": "Nintendo is the Japanese company behind Donkey Kong. It introduced its first home console in Japan in 1983 and moved its U.S. base near Seattle in 1982.",
+      "associations": [
+        "Donkey Kong",
+        "1983",
+        "Seattle"
+      ],
+      "clue_ids": [
+        "012bb7da1d",
+        "6d54c1ab46"
+      ]
+    },
+    {
+      "id": "mario",
+      "label": "Mario",
+      "statement": "Mario started as Jumpman in Donkey Kong. Nintendo named its mascot after the landlord of its first U.S. warehouse, and he starred in 1985's Super Mario Bros.",
+      "associations": [
+        "Jumpman",
+        "mascot",
+        "Super Mario Bros."
+      ],
+      "clue_ids": [
+        "cc91845b6f",
+        "2ce776c33b"
+      ]
+    },
+    {
+      "id": "donkey-kong",
+      "label": "Donkey Kong",
+      "statement": "Shigeru Miyamoto designed Donkey Kong, the 1981 arcade game that introduced Mario; much of the design work happened in a company bathtub.",
+      "associations": [
+        "Shigeru Miyamoto",
+        "1981",
+        "arcade"
+      ],
+      "clue_ids": [
+        "4d652ba089"
+      ]
+    },
+    {
+      "id": "game-boy",
+      "label": "Game Boy",
+      "statement": "The Game Boy was Nintendo's black-and-white handheld, later sold in a 1998 color version and succeeded by the DS; it entered the National Toy Hall of Fame in 2009.",
+      "associations": [
+        "handheld",
+        "1998 color",
+        "Nintendo DS"
+      ],
+      "clue_ids": [
+        "eb994c6769",
+        "b2aad9bc40"
+      ]
+    },
+    {
+      "id": "wii",
+      "label": "Wii",
+      "statement": "The Wii, released in 2006, was Nintendo's home console that pioneered motion-sensor controls with bowling, boxing and more.",
+      "associations": [
+        "2006",
+        "motion sensors",
+        "home console"
+      ],
+      "clue_ids": [
+        "412773e55a",
+        "675f21aedd"
+      ]
+    },
+    {
+      "id": "pokemon",
+      "label": "Pokémon",
+      "statement": "Pokémon began as Nintendo's \"Pocket Monsters\" and grew into a game series where Ponyta evolves into the fiery Rapidash.",
+      "associations": [
+        "Pocket Monsters",
+        "Ponyta",
+        "Rapidash"
+      ],
+      "clue_ids": [
+        "182626e279",
+        "3145c8f243"
+      ]
+    },
+    {
+      "id": "animal-crossing",
+      "label": "Animal Crossing",
+      "statement": "Animal Crossing: New Horizons, a 2020 Switch game, has the raccoon Tom Nook running the in-game business.",
+      "associations": [
+        "New Horizons",
+        "Tom Nook",
+        "2020 Switch"
+      ],
+      "clue_ids": [
+        "b49b6f03ff",
+        "b529f8629e"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "012bb7da1d",
+    "6d54c1ab46",
+    "cc91845b6f",
+    "2ce776c33b",
+    "4d652ba089",
+    "eb994c6769",
+    "b2aad9bc40",
+    "412773e55a",
+    "675f21aedd",
+    "182626e279",
+    "3145c8f243",
+    "b49b6f03ff",
+    "b529f8629e",
+    "4f2c302bd3",
+    "c1631ecaac",
+    "c8021c874e"
+  ],
+  "related": [
+    "the-simpsons",
+    "barbie",
+    "apple-inc"
+  ]
+}

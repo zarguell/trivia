@@ -1,0 +1,65 @@
+{
+  "id": "google",
+  "name": "Google",
+  "deck": "business",
+  "aliases": [],
+  "hook": "The search engine that became a verb — founders, Doodles and the companies it owns.",
+  "facts": [
+    {
+      "id": "founders",
+      "label": "Larry Page & Sergey Brin",
+      "statement": "Larry Page and Sergey Brin founded Google in 1998 while Ph.D. students at Stanford; the name was chosen to imply a vast reach.",
+      "associations": ["Larry Page", "Sergey Brin", "Stanford", "1998"],
+      "clue_ids": ["c0dd0d0129", "1a04d7ee70", "b28b627e3e"]
+    },
+    {
+      "id": "doodle",
+      "label": "Google Doodle",
+      "statement": "Google's homepage marks holidays with Doodles; Wes Craven created one for Halloween 2008.",
+      "associations": ["Google Doodle", "homepage", "Wes Craven"],
+      "clue_ids": ["607ce13fda", "553eac644e"]
+    },
+    {
+      "id": "alphabet",
+      "label": "Alphabet",
+      "statement": "Alphabet is the holding company that owns Google, headed by Larry Page and Sergey Brin.",
+      "associations": ["Alphabet", "parent company", "Page and Brin"],
+      "clue_ids": ["d24128c7a5", "d9dd3dc3a2"]
+    },
+    {
+      "id": "android",
+      "label": "Android",
+      "statement": "Android is Google's mobile operating system, named for a humanoid robot.",
+      "associations": ["Android", "mobile OS", "humanoid robot"],
+      "clue_ids": ["e123aae747", "96702253c1"]
+    },
+    {
+      "id": "chrome",
+      "label": "Chrome",
+      "statement": "Google unveiled its Chrome web browser in September 2008.",
+      "associations": ["Chrome", "2008", "web browser"],
+      "clue_ids": ["2a46dcd66f", "4e2c8853e7"]
+    },
+    {
+      "id": "google-earth",
+      "label": "Google Earth",
+      "statement": "Google bought Keyhole in 2004; its mapping technology became Google Earth.",
+      "associations": ["Google Earth", "Keyhole", "2004", "maps"],
+      "clue_ids": ["f016a05eb0"]
+    },
+    {
+      "id": "waymo",
+      "label": "Waymo",
+      "statement": "Waymo is Google's self-driving car unit, testing driverless rides in Phoenix.",
+      "associations": ["Waymo", "self-driving cars", "Phoenix"],
+      "clue_ids": ["f5c53bd1b1"]
+    }
+  ],
+  "clue_ids": [
+    "c0dd0d0129", "607ce13fda", "1a04d7ee70", "d24128c7a5", "d9dd3dc3a2",
+    "e123aae747", "b28b627e3e", "f016a05eb0", "4e2c8853e7", "c6b5cf1dcb",
+    "96702253c1", "f5c53bd1b1", "088d8c9871", "dc635a3834", "66326151bb",
+    "553eac644e", "2a46dcd66f", "b1a17ef43a"
+  ],
+  "related": ["microsoft", "apple-inc", "world-wide-web"]
+}

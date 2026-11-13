@@ -1,0 +1,64 @@
+{
+  "id": "salvador-dali",
+  "name": "Salvador Dali",
+  "deck": "arts",
+  "aliases": ["Dali"],
+  "hook": "Melting watches, a legendary mustache, and the Surrealist who called his paintings dream photographs.",
+  "facts": [
+    {
+      "id": "surrealism",
+      "label": "Surrealism",
+      "statement": "Dali was a Spanish Surrealist who called his works \"hand-painted dream photographs\"; the movement grew from Dada and de Chirico.",
+      "associations": ["Surrealism", "Spanish", "hand-painted dream photographs", "Dada"],
+      "clue_ids": ["98a2705ae5", "c918b86fc1", "453e06dcae"]
+    },
+    {
+      "id": "persistence-of-memory",
+      "label": "The Persistence of Memory",
+      "statement": "His 1931 The Persistence of Memory sets melting watches on the cliffs of Catalonia; an image in it echoes Bosch's Garden of Earthly Delights.",
+      "associations": ["The Persistence of Memory", "1931", "melting watches", "Bosch"],
+      "clue_ids": ["e4ba70bc98", "2667181489", "c9feca4774"]
+    },
+    {
+      "id": "mustache",
+      "label": "the mustache",
+      "statement": "Dali was famous for his eccentrically upturned mustache, the subject of a book with photographer Philippe Halsman.",
+      "associations": ["mustache", "Philippe Halsman", "upturned"],
+      "clue_ids": ["7a9266527f", "e2e138c490", "830ff7bb5b"]
+    },
+    {
+      "id": "figueres",
+      "label": "the Figueres museum",
+      "statement": "The Dali Theatre-Museum in his birthplace, Figueres, Spain, is dedicated to the painter and adorned with surreal figures.",
+      "associations": ["Figueres", "Dali Theatre-Museum", "Spain"],
+      "clue_ids": ["302646130b"]
+    },
+    {
+      "id": "bunuel",
+      "label": "Luis Bunuel",
+      "statement": "Dali made two Surrealist films with Luis Bunuel: Un Chien Andalou and L'Age d'Or.",
+      "associations": ["Luis Bunuel", "Un Chien Andalou", "L'Age d'Or"],
+      "clue_ids": ["6a605cab91"]
+    },
+    {
+      "id": "freud",
+      "label": "Sigmund Freud",
+      "statement": "Freud inspired the Surrealists but thought them \"absolute cranks\" until he met Dali in London in 1938.",
+      "associations": ["Sigmund Freud", "1938", "absolute cranks"],
+      "clue_ids": ["b422037019"]
+    },
+    {
+      "id": "st-petersburg",
+      "label": "St. Petersburg, Florida",
+      "statement": "A magnificent museum devoted to Dali stands in St. Petersburg, Florida.",
+      "associations": ["St. Petersburg", "Florida", "Dali Museum"],
+      "clue_ids": ["a75355f8d9"]
+    }
+  ],
+  "clue_ids": [
+    "98a2705ae5", "c918b86fc1", "453e06dcae", "e4ba70bc98", "2667181489",
+    "c9feca4774", "7a9266527f", "e2e138c490", "830ff7bb5b", "302646130b",
+    "6a605cab91", "b422037019", "a75355f8d9", "e82dedb8e9"
+  ],
+  "related": ["pablo-picasso", "the-scream", "mona-lisa"]
+}

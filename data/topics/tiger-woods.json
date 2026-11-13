@@ -1,0 +1,64 @@
+{
+  "id": "tiger-woods",
+  "name": "Tiger Woods",
+  "deck": "sports",
+  "aliases": ["Eldrick Woods"],
+  "hook": "Golf's biggest name — the green jacket, the Stanford years, and the comeback from a car crash.",
+  "facts": [
+    {
+      "id": "name",
+      "label": "Eldrick \"Tiger\" Woods",
+      "statement": "His given name is Eldrick; the nickname Tiger honors his father's Vietnam War buddy, and he calls himself \"Cablinasian.\"",
+      "associations": ["Eldrick", "Tiger", "Cablinasian", "Vietnam War buddy"],
+      "clue_ids": ["01a65b0a9f", "a32c5f0293"]
+    },
+    {
+      "id": "stanford",
+      "label": "Stanford",
+      "statement": "He competed for Stanford — \"the Farm\" — as did John McEnroe and Janet Evans, before leaving for the pro tour.",
+      "associations": ["Stanford", "the Farm", "John McEnroe", "Janet Evans"],
+      "clue_ids": ["5b1e893db3", "8bcce05c38"]
+    },
+    {
+      "id": "masters-1997",
+      "label": "the 1997 Masters",
+      "statement": "He became the youngest ever to win the Masters in 1997 at Augusta, taking the green jacket at 21 and winning again in 2001 and 2002.",
+      "associations": ["Masters", "1997", "Augusta", "green jacket", "youngest winner"],
+      "clue_ids": ["fa4c4a0edb", "abe3047765"]
+    },
+    {
+      "id": "amateurs",
+      "label": "U.S. Amateur",
+      "statement": "He won the U.S. Amateur three straight times, taking the 1996 title at Pumpkin Ridge before turning pro; in 1994 he had been its youngest winner.",
+      "associations": ["U.S. Amateur", "1996", "Pumpkin Ridge", "1994", "turned pro"],
+      "clue_ids": ["44272ea1f9", "193fef38ce"]
+    },
+    {
+      "id": "vijay-singh",
+      "label": "Vijay Singh",
+      "statement": "Fijian-born Vijay Singh beat him by six strokes at the 2000 Masters and displaced him as world No. 1 in 2003.",
+      "associations": ["Vijay Singh", "Fiji", "2000 Masters", "No. 1"],
+      "clue_ids": ["72da0da338", "e951b0507e"]
+    },
+    {
+      "id": "comeback",
+      "label": "the 2022 Masters",
+      "statement": "A year after a serious car crash, he returned to competition at the 2022 Masters in Augusta.",
+      "associations": ["2022 Masters", "car crash", "Augusta", "comeback"],
+      "clue_ids": ["47b19b7f7d"]
+    },
+    {
+      "id": "wheaties",
+      "label": "Wheaties",
+      "statement": "A 22-page booklet, \"The Making of a Champion,\" came free on a million boxes of Wheaties.",
+      "associations": ["Wheaties", "The Making of a Champion", "cereal box"],
+      "clue_ids": ["da764977a7"]
+    }
+  ],
+  "clue_ids": [
+    "01a65b0a9f", "a32c5f0293", "5b1e893db3", "8bcce05c38", "fa4c4a0edb",
+    "abe3047765", "44272ea1f9", "193fef38ce", "72da0da338", "e951b0507e",
+    "47b19b7f7d", "da764977a7", "4ae1201367"
+  ],
+  "related": ["serena-williams", "michael-jordan"]
+}

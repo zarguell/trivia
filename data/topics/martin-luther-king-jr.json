@@ -1,0 +1,65 @@
+{
+  "id": "martin-luther-king-jr",
+  "name": "Martin Luther King, Jr.",
+  "deck": "history",
+  "aliases": ["MLK", "Dr. King"],
+  "hook": "The minister, the March, and the martyr: the facts Jeopardy returns to again and again.",
+  "facts": [
+    {
+      "id": "atlanta-ebenezer",
+      "label": "Atlanta and Ebenezer Baptist Church",
+      "statement": "Martin Luther King Jr. was born in Atlanta in 1929 and served as co-pastor with his father at Ebenezer Baptist Church.",
+      "associations": ["Atlanta", "1929", "Ebenezer Baptist Church", "co-pastor"],
+      "clue_ids": ["528ef72233", "4aae7aef54"]
+    },
+    {
+      "id": "montgomery-boycott",
+      "label": "the Montgomery bus boycott",
+      "statement": "King first gained prominence leading the 1955 Montgomery bus boycott against Alabama's segregated bus system.",
+      "associations": ["Montgomery", "bus boycott", "1955", "Alabama"],
+      "clue_ids": ["f5c2438326", "9dcfadc42f"]
+    },
+    {
+      "id": "sclc",
+      "label": "the Southern Christian Leadership Conference",
+      "statement": "He helped found the Southern Christian Leadership Conference in 1957 and led it until his death.",
+      "associations": ["SCLC", "Southern Christian Leadership Conference", "1957"],
+      "clue_ids": ["041079f27d", "0a2ebc1317", "26550e08a0"]
+    },
+    {
+      "id": "birmingham-letter",
+      "label": "Letter from Birmingham Jail",
+      "statement": "King's 1963 \"Letter from Birmingham Jail\" became a landmark document of the civil rights movement.",
+      "associations": ["Birmingham Jail", "1963", "civil rights document"],
+      "clue_ids": ["b49a3c7b68"]
+    },
+    {
+      "id": "dream-speech",
+      "label": "the March on Washington",
+      "statement": "He delivered his \"I Have a Dream\" speech at the 1963 March on Washington.",
+      "associations": ["I Have a Dream", "1963", "March on Washington"],
+      "clue_ids": ["2bf0f8c37a"]
+    },
+    {
+      "id": "nobel",
+      "label": "the Nobel Peace Prize",
+      "statement": "Martin Luther King Jr. won the Nobel Peace Prize in 1964.",
+      "associations": ["Nobel Peace Prize", "1964"],
+      "clue_ids": ["96fc91ae0e"]
+    },
+    {
+      "id": "assassination",
+      "label": "James Earl Ray",
+      "statement": "King was assassinated in Memphis in April 1968; James Earl Ray was convicted of the murder.",
+      "associations": ["assassination", "Memphis", "April 1968", "James Earl Ray"],
+      "clue_ids": ["9e0502cd0c", "a9a398b569", "71ae9e37a8"]
+    }
+  ],
+  "clue_ids": [
+    "528ef72233", "4aae7aef54", "f5c2438326", "9dcfadc42f", "041079f27d",
+    "0a2ebc1317", "26550e08a0", "b49a3c7b68", "2bf0f8c37a", "96fc91ae0e",
+    "9e0502cd0c", "a9a398b569", "71ae9e37a8", "875281d2a7", "18f001a41c",
+    "c0b0767ee6", "2400330f21", "636dd95258"
+  ],
+  "related": ["abraham-lincoln", "american-civil-war", "vietnam-war"]
+}

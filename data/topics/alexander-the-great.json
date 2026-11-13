@@ -1,0 +1,65 @@
+{
+  "id": "alexander-the-great",
+  "name": "Alexander the Great",
+  "deck": "history",
+  "aliases": [],
+  "hook": "A Macedonian king who cut the Gordian knot, crushed Persia by 30, and died with nowhere left to conquer.",
+  "facts": [
+    {
+      "id": "pella",
+      "label": "Pella",
+      "statement": "Alexander was born in Pella, the Macedonian capital, in a region that is now part of Greece.",
+      "associations": ["Pella", "Macedonia", "Greece", "birthplace"],
+      "clue_ids": ["375db773d0", "9613b13681", "7b1d288d10"]
+    },
+    {
+      "id": "aristotle",
+      "label": "Aristotle",
+      "statement": "Aristotle was hired by Philip II to tutor Alexander; he later wrote the Constitution of Athens.",
+      "associations": ["Aristotle", "tutor", "Philip II", "Constitution of Athens"],
+      "clue_ids": ["2dd28bd990", "d1df3919c7", "ffb68f2495"]
+    },
+    {
+      "id": "philip-ii",
+      "label": "Philip II of Macedon",
+      "statement": "Philip II, Alexander's father, was assassinated at a wedding in 336 B.C. by Pausanias; Alexander succeeded him.",
+      "associations": ["Philip II", "assassinated", "336 B.C.", "Pausanias"],
+      "clue_ids": ["316cb3f29a", "8f861d1d98"]
+    },
+    {
+      "id": "gordian-knot",
+      "label": "the Gordian knot",
+      "statement": "Alexander solved the Gordian knot by cutting it with his sword, after hearing only the future ruler of Asia could untie it.",
+      "associations": ["Gordian knot", "sword", "Phrygia", "ruler of Asia"],
+      "clue_ids": ["842dbeea19", "a3ab28c0b3"]
+    },
+    {
+      "id": "darius-iii",
+      "label": "Darius III",
+      "statement": "Alexander defeated Darius III at Gaugamela in 331 B.C.; the last Achaemenid king of Persia was later killed by one of his own men.",
+      "associations": ["Darius III", "Gaugamela", "331 B.C.", "last Achaemenid"],
+      "clue_ids": ["efc58ade6b", "e108daef87", "12e22c799d"]
+    },
+    {
+      "id": "india",
+      "label": "India",
+      "statement": "Alexander led his army as far east as the Hyphasis River, now the Beas, in India.",
+      "associations": ["India", "Hyphasis", "Beas River", "eastern limit"],
+      "clue_ids": ["4f60643706"]
+    },
+    {
+      "id": "ptolemy",
+      "label": "Ptolemy",
+      "statement": "Ptolemy, once a bodyguard of Alexander, took Egypt after Alexander's death and founded a dynasty that lasted until Cleopatra.",
+      "associations": ["Ptolemy", "Egypt", "bodyguard", "Cleopatra"],
+      "clue_ids": ["8b6896f5ab", "89b94fac1c"]
+    }
+  ],
+  "clue_ids": [
+    "375db773d0", "9613b13681", "7b1d288d10", "2dd28bd990", "d1df3919c7",
+    "ffb68f2495", "316cb3f29a", "8f861d1d98", "842dbeea19", "a3ab28c0b3",
+    "efc58ade6b", "e108daef87", "12e22c799d", "4f60643706", "8b6896f5ab",
+    "89b94fac1c"
+  ],
+  "related": ["greece", "egypt", "india"]
+}

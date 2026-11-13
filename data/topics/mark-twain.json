@@ -1,0 +1,65 @@
+{
+  "id": "mark-twain",
+  "name": "Mark Twain",
+  "deck": "literature",
+  "aliases": ["Samuel Clemens", "Samuel Langhorne Clemens"],
+  "hook": "Clemens, Hannibal and the Mississippi: the handful of facts behind every Twain clue.",
+  "facts": [
+    {
+      "id": "clemens",
+      "label": "Samuel Langhorne Clemens",
+      "statement": "Mark Twain was the pen name of Samuel Langhorne Clemens; under his real name he was born in Missouri in 1835.",
+      "associations": ["Samuel Langhorne Clemens", "pen name", "1835"],
+      "clue_ids": ["e3547d80d4", "f785add964"]
+    },
+    {
+      "id": "hannibal",
+      "label": "Hannibal, Missouri",
+      "statement": "Twain grew up in Hannibal, Missouri, on the Mississippi; its Boyhood Home & Museum and the Mark Twain Memorial Bridge honor him.",
+      "associations": ["Hannibal", "Missouri", "Mississippi"],
+      "clue_ids": ["95f2936cfa", "702a060f13"]
+    },
+    {
+      "id": "tom-and-huck",
+      "label": "Tom Sawyer and Huckleberry Finn",
+      "statement": "Tom Sawyer and Huckleberry Finn are his two Mississippi boyhood books; Huck is the \"vulgar & bad\" boy all the other children admire.",
+      "associations": ["Tom Sawyer", "Huckleberry Finn", "Mississippi"],
+      "clue_ids": ["5fc9f53d8d", "9e439bfad6", "ded794185f"]
+    },
+    {
+      "id": "prince-and-pauper",
+      "label": "The Prince and the Pauper",
+      "statement": "The Prince and the Pauper (1881) pairs Edward Tudor with Tom Canty and moves between London's poor and rich quarters.",
+      "associations": ["1881", "Edward Tudor", "Tom Canty", "London"],
+      "clue_ids": ["e8ccea6605", "06705c89ae"]
+    },
+    {
+      "id": "connecticut-yankee",
+      "label": "A Connecticut Yankee in King Arthur's Court",
+      "statement": "A Connecticut Yankee in King Arthur's Court was illustrated by Daniel Beard, whose comic drawings shaped the book.",
+      "associations": ["Daniel Beard", "King Arthur", "illustrations"],
+      "clue_ids": ["3f1564d221", "c571914a5c"]
+    },
+    {
+      "id": "life-on-mississippi",
+      "label": "Life on the Mississippi",
+      "statement": "Life on the Mississippi (1883) is his memoir of learning to pilot steamboats on the river, opening with Hernando de Soto.",
+      "associations": ["1883", "steamboats", "Hernando de Soto"],
+      "clue_ids": ["fa441b52b7", "5b3b19dc72", "b635d02066"]
+    },
+    {
+      "id": "hartford",
+      "label": "Hartford, Connecticut",
+      "statement": "Twain lived in Hartford's Nook Farm from 1871 to 1891, and his house there is now a museum.",
+      "associations": ["Hartford", "Nook Farm", "Connecticut"],
+      "clue_ids": ["7f94c41bea", "4ad2192e95"]
+    }
+  ],
+  "clue_ids": [
+    "e3547d80d4", "f785add964", "95f2936cfa", "702a060f13", "5fc9f53d8d",
+    "9e439bfad6", "ded794185f", "ac7f3bfe39", "e8ccea6605", "06705c89ae",
+    "3f1564d221", "c571914a5c", "fa441b52b7", "5b3b19dc72", "b635d02066",
+    "7f94c41bea", "4ad2192e95"
+  ],
+  "related": ["ernest-hemingway", "charles-dickens", "to-kill-a-mockingbird"]
+}

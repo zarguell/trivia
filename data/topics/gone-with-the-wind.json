@@ -1,0 +1,65 @@
+{
+  "id": "gone-with-the-wind",
+  "name": "Gone with the Wind",
+  "deck": "literature",
+  "aliases": ["GWTW"],
+  "hook": "The American novel Jeopardy asks about more than any other. Six things cover almost every clue.",
+  "facts": [
+    {
+      "id": "author",
+      "label": "Margaret Mitchell",
+      "statement": "Margaret Mitchell wrote it — her only novel, published in 1936, and winner of the 1937 Pulitzer Prize for Fiction.",
+      "associations": ["Margaret Mitchell", "1936", "Pulitzer Prize"],
+      "clue_ids": ["2d5be294b3", "f8178d8f6b", "3b05407b04"]
+    },
+    {
+      "id": "scarlett",
+      "label": "Scarlett O'Hara",
+      "statement": "Scarlett O'Hara is the heroine. The novel opens by saying she \"was not beautiful,\" and her last line is \"After all, tomorrow is another day.\"",
+      "associations": ["Scarlett O'Hara", "\"Tomorrow is another day\"", "opening line"],
+      "clue_ids": ["688b265275", "04e1e4c318"]
+    },
+    {
+      "id": "rhett",
+      "label": "Rhett Butler",
+      "statement": "Rhett Butler is the male lead — Clark Gable in the film — and speaks the famous last line about not giving a damn.",
+      "associations": ["Rhett Butler", "Clark Gable", "Frankly, my dear"],
+      "clue_ids": ["a84acac790", "4b5943841d"]
+    },
+    {
+      "id": "tara",
+      "label": "Tara",
+      "statement": "Tara is the O'Hara family plantation. Twelve Oaks belongs to the Wilkes family.",
+      "associations": ["Tara", "Twelve Oaks", "O'Hara plantation"],
+      "clue_ids": ["6b08b09ae8", "6b4fa7c54f"]
+    },
+    {
+      "id": "film",
+      "label": "the 1939 film",
+      "statement": "The 1939 film starred Vivien Leigh as Scarlett and Clark Gable as Rhett. Victor Fleming directed it — and The Wizard of Oz in the same year.",
+      "associations": ["1939 film", "Vivien Leigh", "Victor Fleming", "The Wizard of Oz"],
+      "clue_ids": ["8c7608ba14", "5a4434c285", "ae89c6a7d8"]
+    },
+    {
+      "id": "mcdaniel",
+      "label": "Hattie McDaniel",
+      "statement": "Hattie McDaniel played Mammy and became the first African-American performer to win an Oscar.",
+      "associations": ["Hattie McDaniel", "Mammy", "first Black Oscar winner"],
+      "clue_ids": ["901fadab1d", "6db598d45d"]
+    },
+    {
+      "id": "atlanta",
+      "label": "Atlanta, Georgia",
+      "statement": "It is set in Atlanta and rural Georgia during the Civil War and Reconstruction. The 1939 premiere was in Atlanta on December 15.",
+      "associations": ["Atlanta", "Georgia", "Civil War", "1939 premiere"],
+      "clue_ids": ["3fd8080443", "4550e5777c", "bad9cfa49c"]
+    }
+  ],
+  "clue_ids": [
+    "f7a41c0fb4", "3b05407b04", "2d5be294b3", "f8178d8f6b", "4550e5777c",
+    "3fd8080443", "a84acac790", "4b5943841d", "688b265275", "04e1e4c318",
+    "6b08b09ae8", "6a39c64bea", "901fadab1d", "8c7608ba14", "5a4434c285",
+    "bad9cfa49c", "9b47609222", "1e1c686e8a"
+  ],
+  "related": ["to-kill-a-mockingbird", "the-wizard-of-oz", "mark-twain"]
+}

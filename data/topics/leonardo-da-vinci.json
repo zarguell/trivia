@@ -1,0 +1,64 @@
+{
+  "id": "leonardo-da-vinci",
+  "name": "Leonardo da Vinci",
+  "deck": "arts",
+  "aliases": ["da Vinci", "Leonardo"],
+  "hook": "The Renaissance man Jeopardy asks about most: two paintings, one drawing, and a very famous smile.",
+  "facts": [
+    {
+      "id": "mona-lisa",
+      "label": "the Mona Lisa",
+      "statement": "The Mona Lisa hangs in the Louvre; Leonardo never delivered it to the sitter, and it was sold to the king of France around 1520.",
+      "associations": ["Mona Lisa", "the Louvre", "sold to France", "1520"],
+      "clue_ids": ["b8d5179b40", "265aacaf52"]
+    },
+    {
+      "id": "last-supper",
+      "label": "The Last Supper",
+      "statement": "The Last Supper is a mural in the refectory of Santa Maria delle Grazie in Milan, commissioned by Ludovico Sforza; Judas is the apostle who spills the salt.",
+      "associations": ["The Last Supper", "Santa Maria delle Grazie", "Milan", "Ludovico Sforza", "Judas"],
+      "clue_ids": ["84311f3a87", "5691365a5e", "b622a446c5"]
+    },
+    {
+      "id": "vitruvian-man",
+      "label": "Vitruvian Man",
+      "statement": "The Vitruvian Man, drawn around 1490, applies proportions set down by the Roman architect Vitruvius; Italy put the drawing on its euro coins.",
+      "associations": ["Vitruvian Man", "Vitruvius", "proportions", "euro coins"],
+      "clue_ids": ["1ded60c98a", "6c86b1c53e"]
+    },
+    {
+      "id": "milan",
+      "label": "Milan and Ludovico Sforza",
+      "statement": "Leonardo left Florence around 1482 to serve Ludovico Sforza, duke of Milan, pitching himself as a maker of armored wagons and sculpture.",
+      "associations": ["Milan", "Ludovico Sforza", "1482", "armored wagons"],
+      "clue_ids": ["ac3c77e342", "bc96e92a19", "40659d2272"]
+    },
+    {
+      "id": "birth",
+      "label": "Vinci, Tuscany",
+      "statement": "Leonardo was born in 1452 near Vinci, a small Tuscan hill town, and trained as an artist in Florence.",
+      "associations": ["1452", "Vinci", "Tuscany", "Florence"],
+      "clue_ids": ["a3c605b8c0"]
+    },
+    {
+      "id": "salvator-mundi",
+      "label": "Salvator Mundi",
+      "statement": "Salvator Mundi sold for 45 pounds in 1958 and $450 million in 2017, after it was attributed to Leonardo.",
+      "associations": ["Salvator Mundi", "$450 million", "2017", "attribution"],
+      "clue_ids": ["1c1354da77"]
+    },
+    {
+      "id": "louvre-works",
+      "label": "the Louvre holdings",
+      "statement": "The Louvre owns several Leonardos beyond the Mona Lisa, including the Virgin of the Rocks and St. John the Baptist.",
+      "associations": ["the Louvre", "Virgin of the Rocks", "St. John the Baptist"],
+      "clue_ids": ["86909e0a39"]
+    }
+  ],
+  "clue_ids": [
+    "b8d5179b40", "265aacaf52", "86909e0a39", "84311f3a87", "5691365a5e",
+    "b622a446c5", "73d0f2b10c", "1ded60c98a", "6c86b1c53e", "ac3c77e342",
+    "bc96e92a19", "40659d2272", "a3c605b8c0", "1c1354da77"
+  ],
+  "related": ["mona-lisa", "michelangelo", "vincent-van-gogh", "pablo-picasso"]
+}

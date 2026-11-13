@@ -1,0 +1,56 @@
+{
+  "id": "george-orwell",
+  "name": "George Orwell",
+  "deck": "literature",
+  "aliases": ["Orwell", "Eric Blair"],
+  "hook": "Jeopardy asks for Orwell by pen name, by real name, and by the two novels everyone knows.",
+  "facts": [
+    {
+      "id": "eric-blair",
+      "label": "Eric Blair",
+      "statement": "George Orwell was the pen name of Eric Blair — the real name Jeopardy accepts alongside Orwell.",
+      "associations": ["Eric Blair", "pen name", "George Orwell"],
+      "clue_ids": ["0988143a24"]
+    },
+    {
+      "id": "nineteen-eighty-four",
+      "label": "Nineteen Eighty-Four",
+      "statement": "\"1984\" is his 1949 dystopian novel of Big Brother and Winston Smith; it was a Cliffs Notes bestseller, and the 1984 film used Eurythmics' \"Sexcrime\".",
+      "associations": ["1949", "Big Brother", "Winston Smith", "Eurythmics"],
+      "clue_ids": ["a144b23ac4", "ead6280383"]
+    },
+    {
+      "id": "animal-farm",
+      "label": "Animal Farm",
+      "statement": "Animal Farm is the 1945 parable subtitled \"A Contemporary Satire\"; its donkey Benjamin says none of the animals has ever seen a dead donkey.",
+      "associations": ["1945", "A Contemporary Satire", "Benjamin the donkey"],
+      "clue_ids": ["f9024bc8eb", "559b06256f"]
+    },
+    {
+      "id": "cold-war",
+      "label": "the Cold War",
+      "statement": "Orwell first used the term \"Cold War\" in print, in his 1945 essay \"You and the Atomic Bomb\".",
+      "associations": ["Cold War", "You and the Atomic Bomb", "1945"],
+      "clue_ids": ["e55c4918f4"]
+    },
+    {
+      "id": "spain",
+      "label": "the Spanish Civil War",
+      "statement": "He was wounded in the Spanish Civil War fighting for the Loyalists, the experience behind Homage to Catalonia.",
+      "associations": ["Spanish Civil War", "Loyalists", "wounded"],
+      "clue_ids": ["2a7f6c37d0"]
+    },
+    {
+      "id": "pynchon",
+      "label": "Thomas Pynchon",
+      "statement": "Thomas Pynchon wrote that Orwell \"in 1948 understood that despite the Axis defeat... fascism had not gone away\".",
+      "associations": ["Thomas Pynchon", "fascism", "1948"],
+      "clue_ids": ["88f0d2b496"]
+    }
+  ],
+  "clue_ids": [
+    "0988143a24", "a144b23ac4", "ead6280383", "f9024bc8eb", "559b06256f",
+    "e55c4918f4", "2a7f6c37d0", "88f0d2b496"
+  ],
+  "related": ["mark-twain", "charles-dickens", "ernest-hemingway"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "john-steinbeck",
+  "name": "John Steinbeck",
+  "deck": "literature",
+  "aliases": ["Steinbeck"],
+  "hook": "California's Nobel laureate: Dust Bowl migrants, Monterey canneries, and a poodle named Charley.",
+  "facts": [
+    {
+      "id": "author",
+      "label": "John Steinbeck",
+      "statement": "John Steinbeck (1902–1968), a Californian who won the 1962 Nobel Prize in Literature, set much of his fiction in the Salinas Valley.",
+      "associations": ["1902–1968", "Nobel Prize", "Salinas Valley"],
+      "clue_ids": ["e3d8bfb1be", "150a6bf169"]
+    },
+    {
+      "id": "grapes",
+      "label": "The Grapes of Wrath",
+      "statement": "The Grapes of Wrath (1939) follows the Joad family from the Dust Bowl to California; its title comes from \"The Battle Hymn of the Republic\".",
+      "associations": ["1939", "Joad family", "Battle Hymn of the Republic"],
+      "clue_ids": ["9d4a5daf56", "af99c0dc06", "96072f779b"]
+    },
+    {
+      "id": "mice",
+      "label": "Of Mice and Men",
+      "statement": "Of Mice and Men (1937), first called \"Something That Happened\", follows George and Lennie, who dream of rabbits on their own farm.",
+      "associations": ["1937", "Lennie", "rabbits"],
+      "clue_ids": ["b8dd850f64", "1441f58ffe"]
+    },
+    {
+      "id": "east-of-eden",
+      "label": "East of Eden",
+      "statement": "East of Eden (1952) retells Cain and Abel through the Trask family, with Cathy Ames abandoning her sons Cal and Aron.",
+      "associations": ["1952", "Trask family", "Cathy Ames"],
+      "clue_ids": ["c3ec5bdc99", "a6a16e7dab", "692aad3fed"]
+    },
+    {
+      "id": "cannery-row",
+      "label": "Cannery Row",
+      "statement": "Cannery Row (1945) is set in Monterey, and Steinbeck wrote the sequel Sweet Thursday.",
+      "associations": ["Monterey", "1945", "Sweet Thursday"],
+      "clue_ids": ["e736448875", "314fab72bb"]
+    },
+    {
+      "id": "pearl",
+      "label": "The Pearl",
+      "statement": "The Pearl (1947) is about Kino, a diver who finds a great pearl and learns to be careful what he wishes for.",
+      "associations": ["Kino", "diver", "1947"],
+      "clue_ids": ["336976d7fa", "a4e0306409"]
+    },
+    {
+      "id": "charley",
+      "label": "Travels with Charley",
+      "statement": "Travels with Charley (1962) recounts his road trip across America with his poodle, Charley.",
+      "associations": ["poodle", "1962", "road trip"],
+      "clue_ids": ["aac227c82f", "2748a3cbf2", "00a0ae6752"]
+    }
+  ],
+  "clue_ids": [
+    "e3d8bfb1be", "150a6bf169", "9d4a5daf56", "af99c0dc06", "96072f779b",
+    "b8dd850f64", "1441f58ffe", "c3ec5bdc99", "a6a16e7dab", "692aad3fed",
+    "e736448875", "314fab72bb", "336976d7fa", "a4e0306409", "aac227c82f",
+    "2748a3cbf2", "00a0ae6752"
+  ],
+  "related": ["to-kill-a-mockingbird", "ernest-hemingway"]
+}

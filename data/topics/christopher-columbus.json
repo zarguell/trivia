@@ -1,0 +1,65 @@
+{
+  "id": "christopher-columbus",
+  "name": "Christopher Columbus",
+  "deck": "history",
+  "aliases": ["Columbus", "Cristoforo Colombo"],
+  "hook": "The 1492 voyage and its aftermath, the explorer Jeopardy treats as a fixture of discovery.",
+  "facts": [
+    {
+      "id": "genoa",
+      "label": "Genoa, Italy",
+      "statement": "Christopher Columbus was born in Genoa, the Italian seaport where his father was a merchant and wool weaver.",
+      "associations": ["Genoa", "Italy", "wool weaver"],
+      "clue_ids": ["c05e990c74", "eac707e88e"]
+    },
+    {
+      "id": "first-voyage",
+      "label": "the 1492 voyage",
+      "statement": "In 1492 he sailed for Spain and reached San Salvador, the island he named in the Bahamas.",
+      "associations": ["1492", "San Salvador", "Spain", "first voyage"],
+      "clue_ids": ["69eae6ba69", "fa1c0de0d8"]
+    },
+    {
+      "id": "santa-maria",
+      "label": "the Santa María",
+      "statement": "His flagship Santa María ran aground off Haiti on Christmas 1492; its wreckage was used to build a fort on Hispaniola.",
+      "associations": ["Santa María", "Christmas 1492", "Haiti", "Hispaniola"],
+      "clue_ids": ["e893e8a5f8", "6900dc0edf"]
+    },
+    {
+      "id": "nina",
+      "label": "the Niña",
+      "statement": "After the Santa María was wrecked, the Niña became Columbus's flagship.",
+      "associations": ["Niña", "flagship", "Santa María wreck"],
+      "clue_ids": ["65858469c6"]
+    },
+    {
+      "id": "second-voyage",
+      "label": "the 1493 voyage",
+      "statement": "On his 1493 voyage he reached Puerto Rico, naming it San Juan Bautista, and the island of Dominica.",
+      "associations": ["1493", "Puerto Rico", "San Juan Bautista", "Dominica"],
+      "clue_ids": ["5b8f207b72", "bf5c232a8d", "53363243b5"]
+    },
+    {
+      "id": "santo-domingo",
+      "label": "Santo Domingo",
+      "statement": "His brother Bartholomew founded Santo Domingo in 1498; both it and Seville's cathedral claim his remains.",
+      "associations": ["Santo Domingo", "Bartholomew", "1498", "remains"],
+      "clue_ids": ["e2d30d96b1", "5e5caa0908", "ee1dc28619"]
+    },
+    {
+      "id": "colon",
+      "label": "the colón",
+      "statement": "El Salvador's currency, the colón, is named for Christopher Columbus.",
+      "associations": ["colón", "El Salvador", "currency"],
+      "clue_ids": ["8c2fc24a8c", "fe237a4d05"]
+    }
+  ],
+  "clue_ids": [
+    "c05e990c74", "eac707e88e", "69eae6ba69", "fa1c0de0d8", "e893e8a5f8",
+    "6900dc0edf", "65858469c6", "5b8f207b72", "bf5c232a8d", "53363243b5",
+    "e2d30d96b1", "5e5caa0908", "ee1dc28619", "8c2fc24a8c", "fe237a4d05",
+    "da185be367", "8a4418308f", "13863232cc"
+  ],
+  "related": ["spain", "italy", "aztecs"]
+}

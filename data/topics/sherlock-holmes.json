@@ -1,0 +1,65 @@
+{
+  "id": "sherlock-holmes",
+  "name": "Sherlock Holmes",
+  "deck": "literature",
+  "aliases": ["Arthur Conan Doyle", "Conan Doyle"],
+  "hook": "Baker Street's consulting detective: the deerstalker, the pipe, Moriarty, and a hound on the moor.",
+  "facts": [
+    {
+      "id": "doyle",
+      "label": "Arthur Conan Doyle",
+      "statement": "Arthur Conan Doyle, born in 1859 and knighted in 1902, modeled Holmes on his teacher Dr. Joseph Bell, a master of diagnostic deduction.",
+      "associations": ["Arthur Conan Doyle", "Dr. Joseph Bell", "knighted 1902"],
+      "clue_ids": ["01d48aa793", "c3831c7a8b", "93ba994490"]
+    },
+    {
+      "id": "holmes",
+      "label": "Sherlock Holmes",
+      "statement": "Sherlock Holmes lives at 221B Baker Street; more than 60 actors have played him, with Basil Rathbone the definitive for many.",
+      "associations": ["221B Baker Street", "Basil Rathbone", "61 actors"],
+      "clue_ids": ["5c761d4240", "b7673fa5a3"]
+    },
+    {
+      "id": "deerstalker",
+      "label": "the deerstalker",
+      "statement": "The deerstalker cap came from illustrator Sidney Paget, not Conan Doyle; Basil Rathbone wore one as Holmes.",
+      "associations": ["deerstalker", "Sidney Paget", "fore-and-after"],
+      "clue_ids": ["6984a685c1", "5b31349044"]
+    },
+    {
+      "id": "watson",
+      "label": "Dr. Watson",
+      "statement": "Dr. Watson, the good-natured physician who narrates the stories, marries Mary Morstan in \"A Scandal in Bohemia\".",
+      "associations": ["Dr. Watson", "narrator", "Mary Morstan"],
+      "clue_ids": ["8cd532169b", "bd5e60a038"]
+    },
+    {
+      "id": "moriarty",
+      "label": "Professor Moriarty",
+      "statement": "Professor Moriarty is Holmes's great adversary, \"one of the greatest brains of the century\"; they plunge together at the Reichenbach Falls in Switzerland.",
+      "associations": ["Professor Moriarty", "Reichenbach Falls", "Switzerland"],
+      "clue_ids": ["b3831869c4", "2cf943a4ee", "7bcd60f827"]
+    },
+    {
+      "id": "study-scarlet",
+      "label": "A Study in Scarlet",
+      "statement": "A Study in Scarlet (1887) introduced Holmes, opening with a chapter titled \"Mr. Sherlock Holmes\" and a murder at Lauriston Gardens.",
+      "associations": ["A Study in Scarlet", "1887", "Lauriston Gardens"],
+      "clue_ids": ["4d49de8447", "374c6fc8a0"]
+    },
+    {
+      "id": "hound",
+      "label": "The Hound of the Baskervilles",
+      "statement": "The Hound of the Baskervilles describes a huge, luminous, spectral creature on the moor and remains the most famous Holmes book.",
+      "associations": ["The Hound of the Baskervilles", "spectral hound", "Dartmoor"],
+      "clue_ids": ["17b328fe2b", "a6f277a9f6"]
+    }
+  ],
+  "clue_ids": [
+    "01d48aa793", "c3831c7a8b", "93ba994490", "5c761d4240", "b7673fa5a3",
+    "6984a685c1", "5b31349044", "8cd532169b", "bd5e60a038", "b3831869c4",
+    "2cf943a4ee", "7bcd60f827", "4d49de8447", "374c6fc8a0", "17b328fe2b",
+    "a6f277a9f6", "089982fc7f", "b8d6a3e0fa"
+  ],
+  "related": ["edgar-allan-poe", "dracula", "frankenstein"]
+}

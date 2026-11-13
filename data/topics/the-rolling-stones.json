@@ -1,0 +1,65 @@
+{
+  "id": "the-rolling-stones",
+  "name": "The Rolling Stones",
+  "deck": "music",
+  "aliases": ["Rolling Stones", "the Stones"],
+  "hook": "The British rock band named after a Muddy Waters song — and still touring.",
+  "facts": [
+    {
+      "id": "muddy-waters",
+      "label": "Muddy Waters",
+      "statement": "The band took its name from \"Rollin' Stone,\" a song by bluesman Muddy Waters.",
+      "associations": ["Muddy Waters", "Rollin' Stone", "band name"],
+      "clue_ids": ["2f9036eb2b", "03e344e790"]
+    },
+    {
+      "id": "satisfaction",
+      "label": "Satisfaction",
+      "statement": "\"(I Can't Get No) Satisfaction\" was the Stones' first U.S. No. 1, topping the chart for four weeks in 1965.",
+      "associations": ["Satisfaction", "first U.S. No. 1", "1965", "four weeks"],
+      "clue_ids": ["dd8be33932", "af536e4c36"]
+    },
+    {
+      "id": "keith-richards",
+      "label": "Keith Richards",
+      "statement": "Keith Richards is the band's guitarist; he married model Patti Hansen, and Chuck Berry once punched him for touching his guitar.",
+      "associations": ["Keith Richards", "Patti Hansen", "Chuck Berry"],
+      "clue_ids": ["f6021743e1", "457e35e9d7"]
+    },
+    {
+      "id": "sticky-fingers",
+      "label": "Sticky Fingers",
+      "statement": "The 1971 album Sticky Fingers had a working zipper on its cover, an idea suggested by Andy Warhol.",
+      "associations": ["Sticky Fingers", "zipper", "Andy Warhol", "1971"],
+      "clue_ids": ["16e79bee25", "3765ef6d5b", "6a418cc868", "80519edd93", "a6973b6ace"]
+    },
+    {
+      "id": "sympathy-for-the-devil",
+      "label": "Sympathy for the Devil",
+      "statement": "\"Sympathy for the Devil\" repeats \"Pleased to meet you, hope you guess my name.\"",
+      "associations": ["Sympathy for the Devil", "Pleased to meet you"],
+      "clue_ids": ["1a2aa6e8ff", "ff9903c731"]
+    },
+    {
+      "id": "paint-it-black",
+      "label": "Paint It Black",
+      "statement": "\"Paint It Black\" was a 1966 hit that begins with seeing a red door and wanting it painted black.",
+      "associations": ["Paint It Black", "1966", "red door"],
+      "clue_ids": ["ff0a980d1c", "472b167c66"]
+    },
+    {
+      "id": "jumpin-jack-flash",
+      "label": "Jumpin' Jack Flash",
+      "statement": "\"Jumpin' Jack Flash\" was a 1968 song whose title became a 1986 Whoopi Goldberg spy comedy.",
+      "associations": ["Jumpin' Jack Flash", "1968", "Whoopi Goldberg"],
+      "clue_ids": ["aca00278bf", "d4b9433d6a"]
+    }
+  ],
+  "clue_ids": [
+    "2f9036eb2b", "03e344e790", "dd8be33932", "af536e4c36", "f6021743e1",
+    "457e35e9d7", "16e79bee25", "3765ef6d5b", "6a418cc868", "80519edd93",
+    "a6973b6ace", "1a2aa6e8ff", "ff9903c731", "ff0a980d1c", "472b167c66",
+    "aca00278bf", "d4b9433d6a"
+  ],
+  "related": ["the-beatles", "bob-dylan", "billboard"]
+}

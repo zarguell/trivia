@@ -1,0 +1,133 @@
+{
+  "id": "mars",
+  "name": "Mars",
+  "deck": "science",
+  "aliases": [],
+  "hook": "The red planet, its war-god name and two tiny moons — Mars clues keep returning to the same orbit.",
+  "facts": [
+    {
+      "id": "war-god",
+      "label": "the war god",
+      "statement": "Mars is named for the Roman god of war; his Greek counterpart is Ares, and the planet's two moons are named for the sons or attendants of Ares.",
+      "associations": [
+        "Roman god of war",
+        "Ares",
+        "moons"
+      ],
+      "clue_ids": [
+        "d6f620df9c",
+        "e5a981fac9",
+        "da04a03e41"
+      ]
+    },
+    {
+      "id": "moons",
+      "label": "Phobos & Deimos",
+      "statement": "Mars' two moons are Phobos (fear) and Deimos (dread); Phobos is larger and orbits so fast that it laps Deimos almost four times per Deimos orbit.",
+      "associations": [
+        "Phobos",
+        "Deimos",
+        "fear and dread"
+      ],
+      "clue_ids": [
+        "6b15dd5796",
+        "18cffffa65",
+        "2e52671d86"
+      ]
+    },
+    {
+      "id": "twins",
+      "label": "Romulus & Remus",
+      "statement": "Romulus and Remus, the twins who founded Rome, were sons of Mars and the vestal virgin Rhea Silvia.",
+      "associations": [
+        "twin founders",
+        "Rhea Silvia",
+        "Rome"
+      ],
+      "clue_ids": [
+        "b33b276772",
+        "49da0eee10"
+      ]
+    },
+    {
+      "id": "pathfinder",
+      "label": "Pathfinder",
+      "statement": "NASA's Pathfinder spacecraft landed on Mars on July 4, 1997, and deployed Sojourner, the first Mars rover.",
+      "associations": [
+        "July 4, 1997",
+        "Sojourner",
+        "rover"
+      ],
+      "clue_ids": [
+        "e2e653de85",
+        "6ab4804285",
+        "bf723e75cc"
+      ]
+    },
+    {
+      "id": "mariner",
+      "label": "Mariner",
+      "statement": "Mariner 4 photographed Mars in 1965, becoming the first spacecraft to photograph another planet; Mariner 9 later took the first close-ups of Phobos and Deimos.",
+      "associations": [
+        "Mariner 4",
+        "1965",
+        "first photos"
+      ],
+      "clue_ids": [
+        "666a30562e",
+        "7349034a3c"
+      ]
+    },
+    {
+      "id": "the-planets",
+      "label": "The Planets",
+      "statement": "Gustav Holst's suite The Planets includes \"Mars, the Bringer of War\" as its opening movement.",
+      "associations": [
+        "Holst",
+        "Mars, the Bringer of War",
+        "suite"
+      ],
+      "clue_ids": [
+        "cd1c0f826a",
+        "d97a1a5f35"
+      ]
+    },
+    {
+      "id": "gulliver",
+      "label": "Gulliver's Travels",
+      "statement": "Jonathan Swift's Gulliver's Travels mentioned Mars' two moons 151 years before Asaph Hall discovered them.",
+      "associations": [
+        "Jonathan Swift",
+        "Asaph Hall",
+        "two moons"
+      ],
+      "clue_ids": [
+        "f937bef120"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "d6f620df9c",
+    "e5a981fac9",
+    "da04a03e41",
+    "6b15dd5796",
+    "18cffffa65",
+    "2e52671d86",
+    "b33b276772",
+    "49da0eee10",
+    "e2e653de85",
+    "6ab4804285",
+    "bf723e75cc",
+    "666a30562e",
+    "7349034a3c",
+    "cd1c0f826a",
+    "d97a1a5f35",
+    "f937bef120",
+    "b286ca22c6",
+    "7f8a28cc6b"
+  ],
+  "related": [
+    "solar-system",
+    "moon"
+  ]
+}

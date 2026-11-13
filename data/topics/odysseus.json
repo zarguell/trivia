@@ -1,0 +1,65 @@
+{
+  "id": "odysseus",
+  "name": "Odysseus",
+  "deck": "myth-religion",
+  "aliases": ["Ulysses"],
+  "hook": "Homer's wandering hero — Cyclops, Sirens, Circe and the long road back to Ithaca.",
+  "facts": [
+    {
+      "id": "ithaca",
+      "label": "Ithaca",
+      "statement": "Ithaca is his home island, where Penelope and son Telemachus wait; his father Laertes shares a name with Ophelia's brother.",
+      "associations": ["Ithaca", "Penelope", "Telemachus", "Laertes"],
+      "clue_ids": ["555379e0f1", "34b0f3e9f7", "fa44177c84"]
+    },
+    {
+      "id": "penelope",
+      "label": "Penelope",
+      "statement": "Penelope stays faithful for 20 years and sets a contest: whoever strings Odysseus' great bow wins her.",
+      "associations": ["Penelope", "great bow", "20 years", "faithful wife"],
+      "clue_ids": ["6c2f60331b", "5c1dde72de"]
+    },
+    {
+      "id": "cyclops",
+      "label": "Polyphemus",
+      "statement": "Odysseus blinds Polyphemus, the Cyclops, after the one-eyed giant eats some of his men.",
+      "associations": ["Polyphemus", "the Cyclops", "blinded"],
+      "clue_ids": ["83215666be", "5b8d3fd980"]
+    },
+    {
+      "id": "circe",
+      "label": "Circe",
+      "statement": "Circe the enchantress keeps him a year; Calypso holds him seven years on the island of Ogygia.",
+      "associations": ["Circe", "Calypso", "Ogygia", "enchantress"],
+      "clue_ids": ["4f3a63bdea", "8892f9fea8", "adf5394f4a"]
+    },
+    {
+      "id": "sirens",
+      "label": "the Sirens",
+      "statement": "To hear the Sirens without dying, Odysseus has himself tied to the mast as the ship sails past.",
+      "associations": ["the Sirens", "mast", "tied"],
+      "clue_ids": ["ff76ae6176"]
+    },
+    {
+      "id": "athena",
+      "label": "Athena",
+      "statement": "Athena, goddess of wisdom, aids Odysseus in disguise and pleads with Zeus to free him from Calypso.",
+      "associations": ["Athena", "goddess of wisdom", "Zeus"],
+      "clue_ids": ["b8ef62319c", "a32145086c"]
+    },
+    {
+      "id": "ulysses-novel",
+      "label": "Ulysses (the novel)",
+      "statement": "James Joyce's 1922 novel Ulysses recasts him as Dubliner Leopold Bloom and ends with Molly Bloom's long monologue.",
+      "associations": ["Ulysses", "James Joyce", "1922", "Molly Bloom"],
+      "clue_ids": ["f8bf0eaed5", "c2e2627c95", "68dcb6eee8"]
+    }
+  ],
+  "clue_ids": [
+    "555379e0f1", "34b0f3e9f7", "fa44177c84", "6c2f60331b", "5c1dde72de",
+    "83215666be", "5b8d3fd980", "4f3a63bdea", "8892f9fea8", "adf5394f4a",
+    "ff76ae6176", "b8ef62319c", "a32145086c", "f8bf0eaed5", "c2e2627c95",
+    "68dcb6eee8"
+  ],
+  "related": ["trojan-war", "achilles", "homer"]
+}

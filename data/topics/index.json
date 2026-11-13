@@ -1,0 +1,3008 @@
+[
+ {
+  "id": "gone-with-the-wind",
+  "name": "Gone with the Wind",
+  "deck": "literature",
+  "aliases": [
+   "GWTW"
+  ],
+  "clueCount": 231,
+  "asAnswer": 107,
+  "first": "1984-09-17",
+  "last": "2025-11-04"
+ },
+ {
+  "id": "william-shakespeare",
+  "name": "William Shakespeare",
+  "deck": "literature",
+  "aliases": [
+   "Shakespeare",
+   "Bard of Avon"
+  ],
+  "clueCount": 1289,
+  "asAnswer": 144,
+  "first": "1984-09-14",
+  "last": "2026-07-22"
+ },
+ {
+  "id": "hamlet",
+  "name": "Hamlet",
+  "deck": "literature",
+  "aliases": [],
+  "clueCount": 564,
+  "asAnswer": 211,
+  "first": "1984-09-14",
+  "last": "2026-07-13"
+ },
+ {
+  "id": "macbeth",
+  "name": "Macbeth",
+  "deck": "literature",
+  "aliases": [],
+  "clueCount": 349,
+  "asAnswer": 173,
+  "first": "1984-09-17",
+  "last": "2026-06-03"
+ },
+ {
+  "id": "romeo-and-juliet",
+  "name": "Romeo and Juliet",
+  "deck": "literature",
+  "aliases": [
+   "Romeo & Juliet"
+  ],
+  "clueCount": 192,
+  "asAnswer": 121,
+  "first": "1984-09-20",
+  "last": "2026-07-20"
+ },
+ {
+  "id": "mark-twain",
+  "name": "Mark Twain",
+  "deck": "literature",
+  "aliases": [
+   "Samuel Clemens",
+   "Samuel Langhorne Clemens"
+  ],
+  "clueCount": 465,
+  "asAnswer": 183,
+  "first": "1984-09-18",
+  "last": "2026-07-13"
+ },
+ {
+  "id": "charles-dickens",
+  "name": "Charles Dickens",
+  "deck": "literature",
+  "aliases": [
+   "Dickens"
+  ],
+  "clueCount": 602,
+  "asAnswer": 154,
+  "first": "1984-10-03",
+  "last": "2026-07-20"
+ },
+ {
+  "id": "ernest-hemingway",
+  "name": "Ernest Hemingway",
+  "deck": "literature",
+  "aliases": [
+   "Hemingway"
+  ],
+  "clueCount": 471,
+  "asAnswer": 180,
+  "first": "1984-09-27",
+  "last": "2026-07-20"
+ },
+ {
+  "id": "jane-austen",
+  "name": "Jane Austen",
+  "deck": "literature",
+  "aliases": [
+   "Austen"
+  ],
+  "clueCount": 242,
+  "asAnswer": 97,
+  "first": "1985-04-29",
+  "last": "2026-07-07"
+ },
+ {
+  "id": "f-scott-fitzgerald",
+  "name": "F. Scott Fitzgerald",
+  "deck": "literature",
+  "aliases": [
+   "Fitzgerald"
+  ],
+  "clueCount": 352,
+  "asAnswer": 129,
+  "first": "1984-09-14",
+  "last": "2026-07-20"
+ },
+ {
+  "id": "the-great-gatsby",
+  "name": "The Great Gatsby",
+  "deck": "literature",
+  "aliases": [
+   "Great Gatsby",
+   "Gatsby"
+  ],
+  "clueCount": 141,
+  "asAnswer": 82,
+  "first": "1984-12-10",
+  "last": "2026-05-14"
+ },
+ {
+  "id": "to-kill-a-mockingbird",
+  "name": "To Kill a Mockingbird",
+  "deck": "literature",
+  "aliases": [
+   "Harper Lee"
+  ],
+  "clueCount": 140,
+  "asAnswer": 99,
+  "first": "1986-01-28",
+  "last": "2026-06-16"
+ },
+ {
+  "id": "moby-dick",
+  "name": "Moby-Dick",
+  "deck": "literature",
+  "aliases": [
+   "Moby Dick",
+   "Herman Melville",
+   "Melville"
+  ],
+  "clueCount": 380,
+  "asAnswer": 191,
+  "first": "1984-09-14",
+  "last": "2026-05-27"
+ },
+ {
+  "id": "harry-potter",
+  "name": "Harry Potter",
+  "deck": "literature",
+  "aliases": [
+   "J.K. Rowling",
+   "J. K. Rowling",
+   "Rowling"
+  ],
+  "clueCount": 293,
+  "asAnswer": 79,
+  "first": "1999-12-09",
+  "last": "2026-06-17"
+ },
+ {
+  "id": "the-lord-of-the-rings",
+  "name": "The Lord of the Rings",
+  "deck": "literature",
+  "aliases": [
+   "Lord of the Rings",
+   "J.R.R. Tolkien",
+   "Tolkien"
+  ],
+  "clueCount": 244,
+  "asAnswer": 97,
+  "first": "1986-11-04",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "sherlock-holmes",
+  "name": "Sherlock Holmes",
+  "deck": "literature",
+  "aliases": [
+   "Arthur Conan Doyle",
+   "Conan Doyle"
+  ],
+  "clueCount": 329,
+  "asAnswer": 140,
+  "first": "1984-09-20",
+  "last": "2026-07-13"
+ },
+ {
+  "id": "frankenstein",
+  "name": "Frankenstein",
+  "deck": "literature",
+  "aliases": [
+   "Mary Shelley"
+  ],
+  "clueCount": 220,
+  "asAnswer": 119,
+  "first": "1985-02-18",
+  "last": "2026-07-10"
+ },
+ {
+  "id": "dracula",
+  "name": "Dracula",
+  "deck": "literature",
+  "aliases": [
+   "Bram Stoker",
+   "Stoker"
+  ],
+  "clueCount": 222,
+  "asAnswer": 125,
+  "first": "1984-10-30",
+  "last": "2026-07-01"
+ },
+ {
+  "id": "little-women",
+  "name": "Little Women",
+  "deck": "literature",
+  "aliases": [
+   "Louisa May Alcott",
+   "Alcott"
+  ],
+  "clueCount": 245,
+  "asAnswer": 157,
+  "first": "1984-11-09",
+  "last": "2026-07-17"
+ },
+ {
+  "id": "the-wizard-of-oz",
+  "name": "The Wizard of Oz",
+  "deck": "literature",
+  "aliases": [
+   "Wizard of Oz",
+   "L. Frank Baum",
+   "Frank Baum"
+  ],
+  "clueCount": 299,
+  "asAnswer": 149,
+  "first": "1985-01-09",
+  "last": "2026-06-30"
+ },
+ {
+  "id": "alice-s-adventures-in-wonderland",
+  "name": "Alice's Adventures in Wonderland",
+  "deck": "literature",
+  "aliases": [
+   "Alice in Wonderland",
+   "Lewis Carroll"
+  ],
+  "clueCount": 286,
+  "asAnswer": 128,
+  "first": "1985-01-28",
+  "last": "2026-05-05"
+ },
+ {
+  "id": "john-steinbeck",
+  "name": "John Steinbeck",
+  "deck": "literature",
+  "aliases": [
+   "Steinbeck"
+  ],
+  "clueCount": 308,
+  "asAnswer": 102,
+  "first": "1984-09-14",
+  "last": "2026-06-11"
+ },
+ {
+  "id": "george-orwell",
+  "name": "George Orwell",
+  "deck": "literature",
+  "aliases": [
+   "Orwell",
+   "1984",
+   "Animal Farm"
+  ],
+  "clueCount": 1552,
+  "asAnswer": 209,
+  "first": "1984-10-04",
+  "last": "2026-07-08"
+ },
+ {
+  "id": "edgar-allan-poe",
+  "name": "Edgar Allan Poe",
+  "deck": "literature",
+  "aliases": [
+   "Poe"
+  ],
+  "clueCount": 503,
+  "asAnswer": 175,
+  "first": "1984-09-18",
+  "last": "2026-02-25"
+ },
+ {
+  "id": "emily-dickinson",
+  "name": "Emily Dickinson",
+  "deck": "literature",
+  "aliases": [],
+  "clueCount": 137,
+  "asAnswer": 95,
+  "first": "1985-04-09",
+  "last": "2026-07-15"
+ },
+ {
+  "id": "robert-frost",
+  "name": "Robert Frost",
+  "deck": "literature",
+  "aliases": [],
+  "clueCount": 195,
+  "asAnswer": 104,
+  "first": "1984-11-19",
+  "last": "2026-02-25"
+ },
+ {
+  "id": "homer",
+  "name": "Homer",
+  "deck": "literature",
+  "aliases": [
+   "The Odyssey",
+   "Odyssey",
+   "The Iliad",
+   "Iliad"
+  ],
+  "clueCount": 491,
+  "asAnswer": 136,
+  "first": "1985-01-16",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "leo-tolstoy",
+  "name": "Leo Tolstoy",
+  "deck": "literature",
+  "aliases": [
+   "Tolstoy",
+   "War and Peace"
+  ],
+  "clueCount": 249,
+  "asAnswer": 160,
+  "first": "1984-11-08",
+  "last": "2026-06-17"
+ },
+ {
+  "id": "fyodor-dostoevsky",
+  "name": "Fyodor Dostoevsky",
+  "deck": "literature",
+  "aliases": [
+   "Dostoevsky",
+   "Crime and Punishment"
+  ],
+  "clueCount": 104,
+  "asAnswer": 81,
+  "first": "1984-12-18",
+  "last": "2026-06-18"
+ },
+ {
+  "id": "pride-and-prejudice",
+  "name": "Pride and Prejudice",
+  "deck": "literature",
+  "aliases": [],
+  "clueCount": 101,
+  "asAnswer": 61,
+  "first": "1987-10-02",
+  "last": "2026-04-16"
+ },
+ {
+  "id": "american-revolution",
+  "name": "American Revolution",
+  "deck": "history",
+  "aliases": [
+   "Revolutionary War"
+  ],
+  "clueCount": 386,
+  "asAnswer": 77,
+  "first": "1984-11-19",
+  "last": "2026-06-17"
+ },
+ {
+  "id": "american-civil-war",
+  "name": "American Civil War",
+  "deck": "history",
+  "aliases": [
+   "Civil War"
+  ],
+  "clueCount": 1081,
+  "asAnswer": 157,
+  "first": "1984-09-12",
+  "last": "2026-07-10"
+ },
+ {
+  "id": "world-war-ii",
+  "name": "World War II",
+  "deck": "history",
+  "aliases": [
+   "World War 2",
+   "WWII",
+   "WW2",
+   "Second World War"
+  ],
+  "clueCount": 1659,
+  "asAnswer": 93,
+  "first": "1984-09-20",
+  "last": "2026-07-21"
+ },
+ {
+  "id": "vietnam-war",
+  "name": "Vietnam War",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 161,
+  "asAnswer": 60,
+  "first": "1984-11-29",
+  "last": "2026-03-20"
+ },
+ {
+  "id": "cold-war",
+  "name": "Cold War",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 100,
+  "asAnswer": 13,
+  "first": "1985-05-13",
+  "last": "2026-07-02"
+ },
+ {
+  "id": "titanic",
+  "name": "Titanic",
+  "deck": "history",
+  "aliases": [
+   "RMS Titanic"
+  ],
+  "clueCount": 309,
+  "asAnswer": 142,
+  "first": "1984-09-21",
+  "last": "2026-06-30"
+ },
+ {
+  "id": "french-revolution",
+  "name": "French Revolution",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 131,
+  "asAnswer": 32,
+  "first": "1984-10-12",
+  "last": "2026-07-01"
+ },
+ {
+  "id": "roman-empire",
+  "name": "Roman Empire",
+  "deck": "history",
+  "aliases": [
+   "Ancient Rome"
+  ],
+  "clueCount": 282,
+  "asAnswer": 50,
+  "first": "1984-09-13",
+  "last": "2026-05-29"
+ },
+ {
+  "id": "ancient-egypt",
+  "name": "Ancient Egypt",
+  "deck": "history",
+  "aliases": [
+   "Egyptians",
+   "Egyptian"
+  ],
+  "clueCount": 922,
+  "asAnswer": 29,
+  "first": "1984-09-26",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "julius-caesar",
+  "name": "Julius Caesar",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 423,
+  "asAnswer": 227,
+  "first": "1984-10-12",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "napoleon",
+  "name": "Napoleon",
+  "deck": "history",
+  "aliases": [
+   "Napoleon Bonaparte"
+  ],
+  "clueCount": 927,
+  "asAnswer": 305,
+  "first": "1984-09-18",
+  "last": "2026-07-09"
+ },
+ {
+  "id": "abraham-lincoln",
+  "name": "Abraham Lincoln",
+  "deck": "history",
+  "aliases": [
+   "Lincoln"
+  ],
+  "clueCount": 1357,
+  "asAnswer": 386,
+  "first": "1984-09-13",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "george-washington",
+  "name": "George Washington",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 554,
+  "asAnswer": 248,
+  "first": "1984-09-10",
+  "last": "2026-07-16"
+ },
+ {
+  "id": "thomas-jefferson",
+  "name": "Thomas Jefferson",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 381,
+  "asAnswer": 230,
+  "first": "1984-09-26",
+  "last": "2026-06-12"
+ },
+ {
+  "id": "franklin-d-roosevelt",
+  "name": "Franklin D. Roosevelt",
+  "deck": "history",
+  "aliases": [
+   "Franklin Roosevelt",
+   "FDR"
+  ],
+  "clueCount": 657,
+  "asAnswer": 222,
+  "first": "1984-09-27",
+  "last": "2026-06-29"
+ },
+ {
+  "id": "john-f-kennedy",
+  "name": "John F. Kennedy",
+  "deck": "history",
+  "aliases": [
+   "JFK",
+   "Kennedy"
+  ],
+  "clueCount": 1086,
+  "asAnswer": 250,
+  "first": "1984-09-28",
+  "last": "2026-06-02"
+ },
+ {
+  "id": "ronald-reagan",
+  "name": "Ronald Reagan",
+  "deck": "history",
+  "aliases": [
+   "Reagan"
+  ],
+  "clueCount": 796,
+  "asAnswer": 297,
+  "first": "1984-09-17",
+  "last": "2026-07-02"
+ },
+ {
+  "id": "henry-viii",
+  "name": "Henry VIII",
+  "deck": "history",
+  "aliases": [
+   "Henry the Eighth"
+  ],
+  "clueCount": 492,
+  "asAnswer": 183,
+  "first": "1984-09-26",
+  "last": "2026-07-17"
+ },
+ {
+  "id": "elizabeth-i",
+  "name": "Elizabeth I",
+  "deck": "history",
+  "aliases": [
+   "Queen Elizabeth I"
+  ],
+  "clueCount": 274,
+  "asAnswer": 158,
+  "first": "1984-09-26",
+  "last": "2026-05-05"
+ },
+ {
+  "id": "cleopatra",
+  "name": "Cleopatra",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 361,
+  "asAnswer": 201,
+  "first": "1984-11-06",
+  "last": "2026-07-14"
+ },
+ {
+  "id": "alexander-the-great",
+  "name": "Alexander the Great",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 240,
+  "asAnswer": 153,
+  "first": "1984-10-02",
+  "last": "2026-07-10"
+ },
+ {
+  "id": "genghis-khan",
+  "name": "Genghis Khan",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 116,
+  "asAnswer": 86,
+  "first": "1985-10-21",
+  "last": "2026-06-30"
+ },
+ {
+  "id": "vikings",
+  "name": "Vikings",
+  "deck": "history",
+  "aliases": [
+   "Viking"
+  ],
+  "clueCount": 323,
+  "asAnswer": 70,
+  "first": "1984-10-02",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "salem-witch-trials",
+  "name": "Salem witch trials",
+  "deck": "history",
+  "aliases": [
+   "Salem"
+  ],
+  "clueCount": 202,
+  "asAnswer": 76,
+  "first": "1985-01-22",
+  "last": "2026-06-25"
+ },
+ {
+  "id": "prohibition",
+  "name": "Prohibition",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 147,
+  "asAnswer": 46,
+  "first": "1985-02-07",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "apollo-11",
+  "name": "Apollo 11",
+  "deck": "history",
+  "aliases": [
+   "Apollo"
+  ],
+  "clueCount": 458,
+  "asAnswer": 73,
+  "first": "1984-09-14",
+  "last": "2026-06-01"
+ },
+ {
+  "id": "berlin-wall",
+  "name": "Berlin Wall",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 85,
+  "asAnswer": 55,
+  "first": "1985-10-11",
+  "last": "2026-07-17"
+ },
+ {
+  "id": "d-day",
+  "name": "D-Day",
+  "deck": "history",
+  "aliases": [
+   "Normandy"
+  ],
+  "clueCount": 201,
+  "asAnswer": 65,
+  "first": "1984-11-14",
+  "last": "2026-05-26"
+ },
+ {
+  "id": "pearl-harbor",
+  "name": "Pearl Harbor",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 152,
+  "asAnswer": 49,
+  "first": "1985-02-13",
+  "last": "2026-06-11"
+ },
+ {
+  "id": "watergate",
+  "name": "Watergate",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 160,
+  "asAnswer": 44,
+  "first": "1984-11-02",
+  "last": "2026-07-21"
+ },
+ {
+  "id": "great-depression",
+  "name": "Great Depression",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 54,
+  "asAnswer": 14,
+  "first": "1984-09-28",
+  "last": "2026-04-21"
+ },
+ {
+  "id": "martin-luther-king-jr",
+  "name": "Martin Luther King, Jr.",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 145,
+  "asAnswer": 81,
+  "first": "1984-09-24",
+  "last": "2025-09-24"
+ },
+ {
+  "id": "winston-churchill",
+  "name": "Winston Churchill",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 212,
+  "asAnswer": 119,
+  "first": "1985-01-28",
+  "last": "2026-06-30"
+ },
+ {
+  "id": "gandhi",
+  "name": "Gandhi",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 194,
+  "asAnswer": 81,
+  "first": "1984-09-19",
+  "last": "2026-06-24"
+ },
+ {
+  "id": "joan-of-arc",
+  "name": "Joan of Arc",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 193,
+  "asAnswer": 130,
+  "first": "1985-01-02",
+  "last": "2026-07-13"
+ },
+ {
+  "id": "marie-antoinette",
+  "name": "Marie Antoinette",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 179,
+  "asAnswer": 123,
+  "first": "1984-11-28",
+  "last": "2026-07-13"
+ },
+ {
+  "id": "louis-xiv",
+  "name": "Louis XIV",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 209,
+  "asAnswer": 104,
+  "first": "1984-10-10",
+  "last": "2026-06-05"
+ },
+ {
+  "id": "charlemagne",
+  "name": "Charlemagne",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 205,
+  "asAnswer": 110,
+  "first": "1985-03-29",
+  "last": "2026-06-30"
+ },
+ {
+  "id": "christopher-columbus",
+  "name": "Christopher Columbus",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 137,
+  "asAnswer": 101,
+  "first": "1984-09-27",
+  "last": "2026-06-22"
+ },
+ {
+  "id": "lewis-clark",
+  "name": "Lewis & Clark",
+  "deck": "history",
+  "aliases": [],
+  "clueCount": 185,
+  "asAnswer": 85,
+  "first": "1985-01-10",
+  "last": "2026-02-04"
+ },
+ {
+  "id": "aztecs",
+  "name": "Aztecs",
+  "deck": "history",
+  "aliases": [
+   "Aztec"
+  ],
+  "clueCount": 287,
+  "asAnswer": 85,
+  "first": "1985-01-07",
+  "last": "2026-05-28"
+ },
+ {
+  "id": "mayans",
+  "name": "Mayans",
+  "deck": "history",
+  "aliases": [
+   "Maya",
+   "Mayan"
+  ],
+  "clueCount": 292,
+  "asAnswer": 69,
+  "first": "1984-11-29",
+  "last": "2026-07-17"
+ },
+ {
+  "id": "japan",
+  "name": "Japan",
+  "deck": "geography",
+  "aliases": [
+   "Japanese"
+  ],
+  "clueCount": 2775,
+  "asAnswer": 503,
+  "first": "1984-09-12",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "france",
+  "name": "France",
+  "deck": "geography",
+  "aliases": [
+   "French"
+  ],
+  "clueCount": 9299,
+  "asAnswer": 604,
+  "first": "1984-09-10",
+  "last": "2026-07-22"
+ },
+ {
+  "id": "australia",
+  "name": "Australia",
+  "deck": "geography",
+  "aliases": [
+   "Australian"
+  ],
+  "clueCount": 1833,
+  "asAnswer": 511,
+  "first": "1984-09-17",
+  "last": "2026-07-20"
+ },
+ {
+  "id": "brazil",
+  "name": "Brazil",
+  "deck": "geography",
+  "aliases": [
+   "Brazilian"
+  ],
+  "clueCount": 816,
+  "asAnswer": 337,
+  "first": "1984-10-05",
+  "last": "2026-07-13"
+ },
+ {
+  "id": "egypt",
+  "name": "Egypt",
+  "deck": "geography",
+  "aliases": [
+   "Egyptian"
+  ],
+  "clueCount": 1817,
+  "asAnswer": 324,
+  "first": "1984-09-26",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "india",
+  "name": "India",
+  "deck": "geography",
+  "aliases": [
+   "Indian"
+  ],
+  "clueCount": 3142,
+  "asAnswer": 443,
+  "first": "1984-09-14",
+  "last": "2026-07-21"
+ },
+ {
+  "id": "china",
+  "name": "China",
+  "deck": "geography",
+  "aliases": [
+   "Chinese"
+  ],
+  "clueCount": 3184,
+  "asAnswer": 537,
+  "first": "1984-09-12",
+  "last": "2026-07-22"
+ },
+ {
+  "id": "russia",
+  "name": "Russia",
+  "deck": "geography",
+  "aliases": [
+   "Russian"
+  ],
+  "clueCount": 3027,
+  "asAnswer": 349,
+  "first": "1984-09-12",
+  "last": "2026-07-22"
+ },
+ {
+  "id": "italy",
+  "name": "Italy",
+  "deck": "geography",
+  "aliases": [
+   "Italian"
+  ],
+  "clueCount": 4361,
+  "asAnswer": 416,
+  "first": "1984-09-19",
+  "last": "2026-07-22"
+ },
+ {
+  "id": "spain",
+  "name": "Spain",
+  "deck": "geography",
+  "aliases": [
+   "Spanish"
+  ],
+  "clueCount": 4152,
+  "asAnswer": 519,
+  "first": "1984-09-12",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "mexico",
+  "name": "Mexico",
+  "deck": "geography",
+  "aliases": [
+   "Mexican"
+  ],
+  "clueCount": 2640,
+  "asAnswer": 393,
+  "first": "1984-09-10",
+  "last": "2026-07-17"
+ },
+ {
+  "id": "canada",
+  "name": "Canada",
+  "deck": "geography",
+  "aliases": [
+   "Canadian"
+  ],
+  "clueCount": 2623,
+  "asAnswer": 377,
+  "first": "1984-09-10",
+  "last": "2026-07-21"
+ },
+ {
+  "id": "south-africa",
+  "name": "South Africa",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 718,
+  "asAnswer": 313,
+  "first": "1984-10-26",
+  "last": "2026-06-17"
+ },
+ {
+  "id": "nile",
+  "name": "Nile",
+  "deck": "geography",
+  "aliases": [
+   "Nile River"
+  ],
+  "clueCount": 437,
+  "asAnswer": 164,
+  "first": "1984-09-28",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "mount-everest",
+  "name": "Mount Everest",
+  "deck": "geography",
+  "aliases": [
+   "Everest"
+  ],
+  "clueCount": 217,
+  "asAnswer": 107,
+  "first": "1984-09-12",
+  "last": "2026-04-29"
+ },
+ {
+  "id": "sahara",
+  "name": "Sahara",
+  "deck": "geography",
+  "aliases": [
+   "Sahara Desert"
+  ],
+  "clueCount": 182,
+  "asAnswer": 100,
+  "first": "1984-10-30",
+  "last": "2026-05-26"
+ },
+ {
+  "id": "great-barrier-reef",
+  "name": "Great Barrier Reef",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 58,
+  "asAnswer": 34,
+  "first": "1984-11-30",
+  "last": "2026-07-20"
+ },
+ {
+  "id": "paris",
+  "name": "Paris",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 1880,
+  "asAnswer": 322,
+  "first": "1984-09-24",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "london",
+  "name": "London",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 2332,
+  "asAnswer": 298,
+  "first": "1984-09-11",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "rome",
+  "name": "Rome",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 1279,
+  "asAnswer": 233,
+  "first": "1984-09-10",
+  "last": "2026-07-17"
+ },
+ {
+  "id": "new-york-city",
+  "name": "New York City",
+  "deck": "geography",
+  "aliases": [
+   "New York",
+   "NYC"
+  ],
+  "clueCount": 5188,
+  "asAnswer": 476,
+  "first": "1984-09-11",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "chicago",
+  "name": "Chicago",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 1847,
+  "asAnswer": 485,
+  "first": "1984-09-19",
+  "last": "2026-07-15"
+ },
+ {
+  "id": "california",
+  "name": "California",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 2687,
+  "asAnswer": 423,
+  "first": "1984-09-14",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "texas",
+  "name": "Texas",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 1927,
+  "asAnswer": 337,
+  "first": "1984-09-17",
+  "last": "2026-07-22"
+ },
+ {
+  "id": "alaska",
+  "name": "Alaska",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 991,
+  "asAnswer": 385,
+  "first": "1984-09-17",
+  "last": "2026-07-13"
+ },
+ {
+  "id": "hawaii",
+  "name": "Hawaii",
+  "deck": "geography",
+  "aliases": [
+   "Hawaiian"
+  ],
+  "clueCount": 1289,
+  "asAnswer": 373,
+  "first": "1984-09-18",
+  "last": "2026-07-01"
+ },
+ {
+  "id": "mississippi-river",
+  "name": "Mississippi River",
+  "deck": "geography",
+  "aliases": [
+   "Mississippi"
+  ],
+  "clueCount": 1078,
+  "asAnswer": 306,
+  "first": "1984-09-10",
+  "last": "2026-07-21"
+ },
+ {
+  "id": "grand-canyon",
+  "name": "Grand Canyon",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 189,
+  "asAnswer": 88,
+  "first": "1984-09-21",
+  "last": "2026-07-09"
+ },
+ {
+  "id": "yellowstone",
+  "name": "Yellowstone",
+  "deck": "geography",
+  "aliases": [
+   "Yellowstone National Park"
+  ],
+  "clueCount": 173,
+  "asAnswer": 93,
+  "first": "1984-09-14",
+  "last": "2026-07-16"
+ },
+ {
+  "id": "mount-rushmore",
+  "name": "Mount Rushmore",
+  "deck": "geography",
+  "aliases": [
+   "Rushmore"
+  ],
+  "clueCount": 141,
+  "asAnswer": 71,
+  "first": "1984-10-11",
+  "last": "2026-07-08"
+ },
+ {
+  "id": "panama-canal",
+  "name": "Panama Canal",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 132,
+  "asAnswer": 96,
+  "first": "1984-12-03",
+  "last": "2026-01-22"
+ },
+ {
+  "id": "suez-canal",
+  "name": "Suez Canal",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 122,
+  "asAnswer": 79,
+  "first": "1985-01-18",
+  "last": "2026-01-14"
+ },
+ {
+  "id": "antarctica",
+  "name": "Antarctica",
+  "deck": "geography",
+  "aliases": [
+   "Antarctic"
+  ],
+  "clueCount": 505,
+  "asAnswer": 215,
+  "first": "1984-11-06",
+  "last": "2026-07-20"
+ },
+ {
+  "id": "venice",
+  "name": "Venice",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 581,
+  "asAnswer": 231,
+  "first": "1984-10-08",
+  "last": "2026-06-22"
+ },
+ {
+  "id": "athens",
+  "name": "Athens",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 466,
+  "asAnswer": 182,
+  "first": "1984-09-19",
+  "last": "2026-06-29"
+ },
+ {
+  "id": "istanbul",
+  "name": "Istanbul",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 161,
+  "asAnswer": 81,
+  "first": "1984-10-12",
+  "last": "2026-04-20"
+ },
+ {
+  "id": "jerusalem",
+  "name": "Jerusalem",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 502,
+  "asAnswer": 157,
+  "first": "1984-09-10",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "iceland",
+  "name": "Iceland",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 350,
+  "asAnswer": 195,
+  "first": "1984-10-26",
+  "last": "2026-06-11"
+ },
+ {
+  "id": "greenland",
+  "name": "Greenland",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 282,
+  "asAnswer": 143,
+  "first": "1984-09-26",
+  "last": "2026-05-12"
+ },
+ {
+  "id": "niagara-falls",
+  "name": "Niagara Falls",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 148,
+  "asAnswer": 95,
+  "first": "1984-09-21",
+  "last": "2025-12-12"
+ },
+ {
+  "id": "cuba",
+  "name": "Cuba",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 589,
+  "asAnswer": 242,
+  "first": "1984-09-28",
+  "last": "2026-05-04"
+ },
+ {
+  "id": "ireland",
+  "name": "Ireland",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 866,
+  "asAnswer": 322,
+  "first": "1984-11-02",
+  "last": "2026-07-16"
+ },
+ {
+  "id": "scotland",
+  "name": "Scotland",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 772,
+  "asAnswer": 223,
+  "first": "1984-11-27",
+  "last": "2026-07-21"
+ },
+ {
+  "id": "switzerland",
+  "name": "Switzerland",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 631,
+  "asAnswer": 286,
+  "first": "1984-11-14",
+  "last": "2026-07-01"
+ },
+ {
+  "id": "greece",
+  "name": "Greece",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 831,
+  "asAnswer": 311,
+  "first": "1984-09-12",
+  "last": "2026-06-25"
+ },
+ {
+  "id": "portugal",
+  "name": "Portugal",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 493,
+  "asAnswer": 244,
+  "first": "1985-02-13",
+  "last": "2026-06-24"
+ },
+ {
+  "id": "sweden",
+  "name": "Sweden",
+  "deck": "geography",
+  "aliases": [],
+  "clueCount": 648,
+  "asAnswer": 303,
+  "first": "1984-11-14",
+  "last": "2026-07-02"
+ },
+ {
+  "id": "albert-einstein",
+  "name": "Albert Einstein",
+  "deck": "science",
+  "aliases": [
+   "Einstein"
+  ],
+  "clueCount": 305,
+  "asAnswer": 163,
+  "first": "1984-09-27",
+  "last": "2026-07-09"
+ },
+ {
+  "id": "isaac-newton",
+  "name": "Isaac Newton",
+  "deck": "science",
+  "aliases": [
+   "Newton"
+  ],
+  "clueCount": 369,
+  "asAnswer": 124,
+  "first": "1984-09-19",
+  "last": "2026-07-08"
+ },
+ {
+  "id": "charles-darwin",
+  "name": "Charles Darwin",
+  "deck": "science",
+  "aliases": [
+   "Darwin"
+  ],
+  "clueCount": 286,
+  "asAnswer": 124,
+  "first": "1984-09-11",
+  "last": "2026-07-14"
+ },
+ {
+  "id": "marie-curie",
+  "name": "Marie Curie",
+  "deck": "science",
+  "aliases": [
+   "Curie"
+  ],
+  "clueCount": 134,
+  "asAnswer": 94,
+  "first": "1985-02-08",
+  "last": "2026-06-11"
+ },
+ {
+  "id": "dna",
+  "name": "DNA",
+  "deck": "science",
+  "aliases": [
+   "deoxyribonucleic acid"
+  ],
+  "clueCount": 228,
+  "asAnswer": 68,
+  "first": "1984-09-11",
+  "last": "2026-07-08"
+ },
+ {
+  "id": "mars",
+  "name": "Mars",
+  "deck": "science",
+  "aliases": [],
+  "clueCount": 531,
+  "asAnswer": 228,
+  "first": "1984-09-12",
+  "last": "2026-07-07"
+ },
+ {
+  "id": "jupiter",
+  "name": "Jupiter",
+  "deck": "science",
+  "aliases": [],
+  "clueCount": 401,
+  "asAnswer": 171,
+  "first": "1984-10-10",
+  "last": "2026-06-03"
+ },
+ {
+  "id": "saturn",
+  "name": "Saturn",
+  "deck": "science",
+  "aliases": [],
+  "clueCount": 281,
+  "asAnswer": 143,
+  "first": "1984-09-12",
+  "last": "2026-02-11"
+ },
+ {
+  "id": "moon",
+  "name": "Moon",
+  "deck": "science",
+  "aliases": [
+   "the Moon"
+  ],
+  "clueCount": 1477,
+  "asAnswer": 198,
+  "first": "1984-09-14",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "solar-system",
+  "name": "Solar System",
+  "deck": "science",
+  "aliases": [],
+  "clueCount": 214,
+  "asAnswer": 5,
+  "first": "1984-09-17",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "black-hole",
+  "name": "Black hole",
+  "deck": "science",
+  "aliases": [
+   "black holes"
+  ],
+  "clueCount": 137,
+  "asAnswer": 71,
+  "first": "1984-09-17",
+  "last": "2026-06-25"
+ },
+ {
+  "id": "dinosaurs",
+  "name": "Dinosaurs",
+  "deck": "science",
+  "aliases": [
+   "dinosaur"
+  ],
+  "clueCount": 316,
+  "asAnswer": 38,
+  "first": "1984-09-19",
+  "last": "2026-05-01"
+ },
+ {
+  "id": "tyrannosaurus-rex",
+  "name": "Tyrannosaurus rex",
+  "deck": "science",
+  "aliases": [
+   "T. rex",
+   "T-Rex",
+   "Tyrannosaurus"
+  ],
+  "clueCount": 81,
+  "asAnswer": 45,
+  "first": "1985-11-06",
+  "last": "2026-03-17"
+ },
+ {
+  "id": "photosynthesis",
+  "name": "Photosynthesis",
+  "deck": "science",
+  "aliases": [],
+  "clueCount": 69,
+  "asAnswer": 42,
+  "first": "1984-11-30",
+  "last": "2026-07-20"
+ },
+ {
+  "id": "evolution",
+  "name": "Evolution",
+  "deck": "science",
+  "aliases": [
+   "natural selection"
+  ],
+  "clueCount": 143,
+  "asAnswer": 32,
+  "first": "1985-04-05",
+  "last": "2026-07-14"
+ },
+ {
+  "id": "thomas-edison",
+  "name": "Thomas Edison",
+  "deck": "science",
+  "aliases": [
+   "Edison"
+  ],
+  "clueCount": 329,
+  "asAnswer": 176,
+  "first": "1984-09-25",
+  "last": "2026-05-04"
+ },
+ {
+  "id": "nikola-tesla",
+  "name": "Nikola Tesla",
+  "deck": "science",
+  "aliases": [
+   "Tesla"
+  ],
+  "clueCount": 95,
+  "asAnswer": 57,
+  "first": "1988-02-19",
+  "last": "2026-04-28"
+ },
+ {
+  "id": "wright-brothers",
+  "name": "Wright brothers",
+  "deck": "science",
+  "aliases": [
+   "Wright Brothers",
+   "Orville and Wilbur Wright"
+  ],
+  "clueCount": 125,
+  "asAnswer": 75,
+  "first": "1985-10-11",
+  "last": "2026-04-22"
+ },
+ {
+  "id": "penicillin",
+  "name": "Penicillin",
+  "deck": "science",
+  "aliases": [
+   "Alexander Fleming"
+  ],
+  "clueCount": 96,
+  "asAnswer": 65,
+  "first": "1984-09-17",
+  "last": "2026-01-20"
+ },
+ {
+  "id": "mercury",
+  "name": "Mercury",
+  "deck": "science",
+  "aliases": [],
+  "clueCount": 515,
+  "asAnswer": 251,
+  "first": "1984-10-26",
+  "last": "2026-07-08"
+ },
+ {
+  "id": "venus",
+  "name": "Venus",
+  "deck": "science",
+  "aliases": [],
+  "clueCount": 472,
+  "asAnswer": 216,
+  "first": "1984-09-12",
+  "last": "2026-06-29"
+ },
+ {
+  "id": "gold",
+  "name": "Gold",
+  "deck": "science",
+  "aliases": [],
+  "clueCount": 2171,
+  "asAnswer": 196,
+  "first": "1984-09-14",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "human-heart",
+  "name": "Human heart",
+  "deck": "science",
+  "aliases": [
+   "heart"
+  ],
+  "clueCount": 1893,
+  "asAnswer": 177,
+  "first": "1984-09-13",
+  "last": "2026-07-20"
+ },
+ {
+  "id": "galileo",
+  "name": "Galileo",
+  "deck": "science",
+  "aliases": [],
+  "clueCount": 247,
+  "asAnswer": 149,
+  "first": "1984-10-11",
+  "last": "2026-06-18"
+ },
+ {
+  "id": "aristotle",
+  "name": "Aristotle",
+  "deck": "science",
+  "aliases": [],
+  "clueCount": 202,
+  "asAnswer": 86,
+  "first": "1984-11-28",
+  "last": "2026-05-27"
+ },
+ {
+  "id": "neptune",
+  "name": "Neptune",
+  "deck": "science",
+  "aliases": [],
+  "clueCount": 203,
+  "asAnswer": 115,
+  "first": "1984-09-27",
+  "last": "2026-05-26"
+ },
+ {
+  "id": "pluto",
+  "name": "Pluto",
+  "deck": "science",
+  "aliases": [],
+  "clueCount": 200,
+  "asAnswer": 126,
+  "first": "1984-09-12",
+  "last": "2026-07-07"
+ },
+ {
+  "id": "mona-lisa",
+  "name": "Mona Lisa",
+  "deck": "arts",
+  "aliases": [
+   "La Gioconda"
+  ],
+  "clueCount": 124,
+  "asAnswer": 66,
+  "first": "1985-05-21",
+  "last": "2026-07-20"
+ },
+ {
+  "id": "leonardo-da-vinci",
+  "name": "Leonardo da Vinci",
+  "deck": "arts",
+  "aliases": [
+   "da Vinci",
+   "Leonardo"
+  ],
+  "clueCount": 370,
+  "asAnswer": 122,
+  "first": "1985-01-01",
+  "last": "2026-07-08"
+ },
+ {
+  "id": "michelangelo",
+  "name": "Michelangelo",
+  "deck": "arts",
+  "aliases": [],
+  "clueCount": 328,
+  "asAnswer": 138,
+  "first": "1984-09-18",
+  "last": "2026-06-19"
+ },
+ {
+  "id": "vincent-van-gogh",
+  "name": "Vincent van Gogh",
+  "deck": "arts",
+  "aliases": [
+   "Van Gogh",
+   "Starry Night"
+  ],
+  "clueCount": 260,
+  "asAnswer": 159,
+  "first": "1985-01-29",
+  "last": "2026-06-11"
+ },
+ {
+  "id": "pablo-picasso",
+  "name": "Pablo Picasso",
+  "deck": "arts",
+  "aliases": [
+   "Picasso"
+  ],
+  "clueCount": 346,
+  "asAnswer": 190,
+  "first": "1984-09-26",
+  "last": "2026-07-13"
+ },
+ {
+  "id": "claude-monet",
+  "name": "Claude Monet",
+  "deck": "arts",
+  "aliases": [
+   "Monet"
+  ],
+  "clueCount": 172,
+  "asAnswer": 88,
+  "first": "1985-12-26",
+  "last": "2026-06-11"
+ },
+ {
+  "id": "salvador-dali",
+  "name": "Salvador Dali",
+  "deck": "arts",
+  "aliases": [
+   "Dali"
+  ],
+  "clueCount": 93,
+  "asAnswer": 47,
+  "first": "1986-01-31",
+  "last": "2024-12-12"
+ },
+ {
+  "id": "frida-kahlo",
+  "name": "Frida Kahlo",
+  "deck": "arts",
+  "aliases": [],
+  "clueCount": 65,
+  "asAnswer": 47,
+  "first": "1992-01-29",
+  "last": "2026-07-02"
+ },
+ {
+  "id": "andy-warhol",
+  "name": "Andy Warhol",
+  "deck": "arts",
+  "aliases": [
+   "Warhol"
+  ],
+  "clueCount": 170,
+  "asAnswer": 111,
+  "first": "1984-12-10",
+  "last": "2026-06-24"
+ },
+ {
+  "id": "norman-rockwell",
+  "name": "Norman Rockwell",
+  "deck": "arts",
+  "aliases": [
+   "Rockwell"
+  ],
+  "clueCount": 94,
+  "asAnswer": 56,
+  "first": "1985-01-31",
+  "last": "2026-03-13"
+ },
+ {
+  "id": "rembrandt",
+  "name": "Rembrandt",
+  "deck": "arts",
+  "aliases": [],
+  "clueCount": 220,
+  "asAnswer": 104,
+  "first": "1984-10-12",
+  "last": "2026-06-12"
+ },
+ {
+  "id": "johannes-vermeer",
+  "name": "Johannes Vermeer",
+  "deck": "arts",
+  "aliases": [
+   "Vermeer",
+   "Girl with a Pearl Earring"
+  ],
+  "clueCount": 58,
+  "asAnswer": 25,
+  "first": "1987-01-05",
+  "last": "2025-11-18"
+ },
+ {
+  "id": "the-scream",
+  "name": "The Scream",
+  "deck": "arts",
+  "aliases": [
+   "Edvard Munch",
+   "Munch"
+  ],
+  "clueCount": 117,
+  "asAnswer": 74,
+  "first": "1984-12-06",
+  "last": "2026-03-16"
+ },
+ {
+  "id": "sistine-chapel",
+  "name": "Sistine Chapel",
+  "deck": "arts",
+  "aliases": [],
+  "clueCount": 92,
+  "asAnswer": 38,
+  "first": "1984-09-18",
+  "last": "2026-03-06"
+ },
+ {
+  "id": "statue-of-liberty",
+  "name": "Statue of Liberty",
+  "deck": "arts",
+  "aliases": [],
+  "clueCount": 195,
+  "asAnswer": 115,
+  "first": "1984-09-10",
+  "last": "2026-01-07"
+ },
+ {
+  "id": "eiffel-tower",
+  "name": "Eiffel Tower",
+  "deck": "arts",
+  "aliases": [],
+  "clueCount": 112,
+  "asAnswer": 79,
+  "first": "1985-05-02",
+  "last": "2026-07-22"
+ },
+ {
+  "id": "taj-mahal",
+  "name": "Taj Mahal",
+  "deck": "arts",
+  "aliases": [],
+  "clueCount": 98,
+  "asAnswer": 54,
+  "first": "1985-01-29",
+  "last": "2026-03-05"
+ },
+ {
+  "id": "the-thinker",
+  "name": "The Thinker",
+  "deck": "arts",
+  "aliases": [
+   "Auguste Rodin",
+   "Rodin"
+  ],
+  "clueCount": 165,
+  "asAnswer": 119,
+  "first": "1984-09-18",
+  "last": "2026-05-12"
+ },
+ {
+  "id": "frank-lloyd-wright",
+  "name": "Frank Lloyd Wright",
+  "deck": "arts",
+  "aliases": [],
+  "clueCount": 157,
+  "asAnswer": 95,
+  "first": "1985-02-08",
+  "last": "2026-06-02"
+ },
+ {
+  "id": "casablanca",
+  "name": "Casablanca",
+  "deck": "film-tv",
+  "aliases": [],
+  "clueCount": 209,
+  "asAnswer": 114,
+  "first": "1984-09-17",
+  "last": "2026-05-25"
+ },
+ {
+  "id": "the-godfather",
+  "name": "The Godfather",
+  "deck": "film-tv",
+  "aliases": [
+   "Godfather"
+  ],
+  "clueCount": 225,
+  "asAnswer": 75,
+  "first": "1985-03-08",
+  "last": "2026-06-29"
+ },
+ {
+  "id": "citizen-kane",
+  "name": "Citizen Kane",
+  "deck": "film-tv",
+  "aliases": [],
+  "clueCount": 91,
+  "asAnswer": 43,
+  "first": "1984-09-17",
+  "last": "2025-12-10"
+ },
+ {
+  "id": "star-wars",
+  "name": "Star Wars",
+  "deck": "film-tv",
+  "aliases": [],
+  "clueCount": 228,
+  "asAnswer": 55,
+  "first": "1985-04-08",
+  "last": "2026-05-20"
+ },
+ {
+  "id": "jurassic-park",
+  "name": "Jurassic Park",
+  "deck": "film-tv",
+  "aliases": [],
+  "clueCount": 81,
+  "asAnswer": 42,
+  "first": "1992-01-24",
+  "last": "2026-03-24"
+ },
+ {
+  "id": "alfred-hitchcock",
+  "name": "Alfred Hitchcock",
+  "deck": "film-tv",
+  "aliases": [
+   "Hitchcock"
+  ],
+  "clueCount": 260,
+  "asAnswer": 75,
+  "first": "1984-09-17",
+  "last": "2026-07-09"
+ },
+ {
+  "id": "steven-spielberg",
+  "name": "Steven Spielberg",
+  "deck": "film-tv",
+  "aliases": [
+   "Spielberg"
+  ],
+  "clueCount": 203,
+  "asAnswer": 56,
+  "first": "1984-09-28",
+  "last": "2026-06-22"
+ },
+ {
+  "id": "stanley-kubrick",
+  "name": "Stanley Kubrick",
+  "deck": "film-tv",
+  "aliases": [
+   "Kubrick"
+  ],
+  "clueCount": 72,
+  "asAnswer": 17,
+  "first": "1984-09-26",
+  "last": "2024-05-28"
+ },
+ {
+  "id": "marilyn-monroe",
+  "name": "Marilyn Monroe",
+  "deck": "film-tv",
+  "aliases": [],
+  "clueCount": 231,
+  "asAnswer": 114,
+  "first": "1984-09-10",
+  "last": "2026-06-29"
+ },
+ {
+  "id": "audrey-hepburn",
+  "name": "Audrey Hepburn",
+  "deck": "film-tv",
+  "aliases": [],
+  "clueCount": 80,
+  "asAnswer": 30,
+  "first": "1984-09-21",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "john-wayne",
+  "name": "John Wayne",
+  "deck": "film-tv",
+  "aliases": [],
+  "clueCount": 155,
+  "asAnswer": 71,
+  "first": "1984-09-26",
+  "last": "2025-05-07"
+ },
+ {
+  "id": "meryl-streep",
+  "name": "Meryl Streep",
+  "deck": "film-tv",
+  "aliases": [],
+  "clueCount": 165,
+  "asAnswer": 51,
+  "first": "1985-01-28",
+  "last": "2026-05-21"
+ },
+ {
+  "id": "tom-hanks",
+  "name": "Tom Hanks",
+  "deck": "film-tv",
+  "aliases": [],
+  "clueCount": 206,
+  "asAnswer": 44,
+  "first": "1985-04-15",
+  "last": "2026-06-15"
+ },
+ {
+  "id": "academy-awards",
+  "name": "Academy Awards",
+  "deck": "film-tv",
+  "aliases": [
+   "Oscars",
+   "Oscar"
+  ],
+  "clueCount": 2659,
+  "asAnswer": 36,
+  "first": "1984-09-13",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "i-love-lucy",
+  "name": "I Love Lucy",
+  "deck": "film-tv",
+  "aliases": [
+   "Lucille Ball"
+  ],
+  "clueCount": 115,
+  "asAnswer": 69,
+  "first": "1984-11-20",
+  "last": "2026-03-16"
+ },
+ {
+  "id": "seinfeld",
+  "name": "Seinfeld",
+  "deck": "film-tv",
+  "aliases": [],
+  "clueCount": 164,
+  "asAnswer": 61,
+  "first": "1989-05-16",
+  "last": "2026-06-25"
+ },
+ {
+  "id": "the-simpsons",
+  "name": "The Simpsons",
+  "deck": "film-tv",
+  "aliases": [
+   "Simpsons"
+  ],
+  "clueCount": 160,
+  "asAnswer": 65,
+  "first": "1990-05-16",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "sesame-street",
+  "name": "Sesame Street",
+  "deck": "film-tv",
+  "aliases": [],
+  "clueCount": 112,
+  "asAnswer": 44,
+  "first": "1984-09-20",
+  "last": "2026-03-24"
+ },
+ {
+  "id": "star-trek",
+  "name": "Star Trek",
+  "deck": "film-tv",
+  "aliases": [],
+  "clueCount": 267,
+  "asAnswer": 47,
+  "first": "1984-11-07",
+  "last": "2026-06-09"
+ },
+ {
+  "id": "the-beatles",
+  "name": "The Beatles",
+  "deck": "music",
+  "aliases": [
+   "Beatles"
+  ],
+  "clueCount": 518,
+  "asAnswer": 78,
+  "first": "1984-10-11",
+  "last": "2026-07-15"
+ },
+ {
+  "id": "elvis-presley",
+  "name": "Elvis Presley",
+  "deck": "music",
+  "aliases": [
+   "Elvis"
+  ],
+  "clueCount": 615,
+  "asAnswer": 170,
+  "first": "1984-09-24",
+  "last": "2026-06-08"
+ },
+ {
+  "id": "michael-jackson",
+  "name": "Michael Jackson",
+  "deck": "music",
+  "aliases": [],
+  "clueCount": 224,
+  "asAnswer": 97,
+  "first": "1984-09-10",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "madonna",
+  "name": "Madonna",
+  "deck": "music",
+  "aliases": [],
+  "clueCount": 349,
+  "asAnswer": 136,
+  "first": "1984-09-18",
+  "last": "2026-04-10"
+ },
+ {
+  "id": "wolfgang-amadeus-mozart",
+  "name": "Wolfgang Amadeus Mozart",
+  "deck": "music",
+  "aliases": [
+   "Mozart"
+  ],
+  "clueCount": 439,
+  "asAnswer": 157,
+  "first": "1984-10-26",
+  "last": "2026-07-13"
+ },
+ {
+  "id": "ludwig-van-beethoven",
+  "name": "Ludwig van Beethoven",
+  "deck": "music",
+  "aliases": [
+   "Beethoven"
+  ],
+  "clueCount": 411,
+  "asAnswer": 183,
+  "first": "1984-11-08",
+  "last": "2026-07-13"
+ },
+ {
+  "id": "johann-sebastian-bach",
+  "name": "Johann Sebastian Bach",
+  "deck": "music",
+  "aliases": [
+   "Bach"
+  ],
+  "clueCount": 271,
+  "asAnswer": 92,
+  "first": "1984-11-08",
+  "last": "2026-05-28"
+ },
+ {
+  "id": "pyotr-ilyich-tchaikovsky",
+  "name": "Pyotr Ilyich Tchaikovsky",
+  "deck": "music",
+  "aliases": [
+   "Tchaikovsky"
+  ],
+  "clueCount": 219,
+  "asAnswer": 89,
+  "first": "1984-10-08",
+  "last": "2026-07-13"
+ },
+ {
+  "id": "woodstock",
+  "name": "Woodstock",
+  "deck": "music",
+  "aliases": [],
+  "clueCount": 84,
+  "asAnswer": 43,
+  "first": "1986-05-20",
+  "last": "2026-07-02"
+ },
+ {
+  "id": "louis-armstrong",
+  "name": "Louis Armstrong",
+  "deck": "music",
+  "aliases": [],
+  "clueCount": 91,
+  "asAnswer": 44,
+  "first": "1985-03-14",
+  "last": "2026-05-29"
+ },
+ {
+  "id": "frank-sinatra",
+  "name": "Frank Sinatra",
+  "deck": "music",
+  "aliases": [
+   "Sinatra"
+  ],
+  "clueCount": 289,
+  "asAnswer": 100,
+  "first": "1984-09-11",
+  "last": "2026-07-16"
+ },
+ {
+  "id": "bob-dylan",
+  "name": "Bob Dylan",
+  "deck": "music",
+  "aliases": [],
+  "clueCount": 156,
+  "asAnswer": 80,
+  "first": "1985-05-24",
+  "last": "2026-02-26"
+ },
+ {
+  "id": "the-rolling-stones",
+  "name": "The Rolling Stones",
+  "deck": "music",
+  "aliases": [
+   "Rolling Stones"
+  ],
+  "clueCount": 183,
+  "asAnswer": 81,
+  "first": "1985-01-24",
+  "last": "2026-02-19"
+ },
+ {
+  "id": "nirvana",
+  "name": "Nirvana",
+  "deck": "music",
+  "aliases": [],
+  "clueCount": 114,
+  "asAnswer": 59,
+  "first": "1984-10-08",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "billboard",
+  "name": "Billboard",
+  "deck": "music",
+  "aliases": [
+   "Billboard Hot 100",
+   "Billboard charts"
+  ],
+  "clueCount": 248,
+  "asAnswer": 14,
+  "first": "1985-01-16",
+  "last": "2026-07-17"
+ },
+ {
+  "id": "olympic-games",
+  "name": "Olympic Games",
+  "deck": "sports",
+  "aliases": [
+   "Olympics",
+   "Olympic"
+  ],
+  "clueCount": 1826,
+  "asAnswer": 65,
+  "first": "1984-09-11",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "babe-ruth",
+  "name": "Babe Ruth",
+  "deck": "sports",
+  "aliases": [],
+  "clueCount": 173,
+  "asAnswer": 93,
+  "first": "1984-09-26",
+  "last": "2026-03-26"
+ },
+ {
+  "id": "muhammad-ali",
+  "name": "Muhammad Ali",
+  "deck": "sports",
+  "aliases": [],
+  "clueCount": 168,
+  "asAnswer": 90,
+  "first": "1984-10-01",
+  "last": "2026-01-02"
+ },
+ {
+  "id": "michael-jordan",
+  "name": "Michael Jordan",
+  "deck": "sports",
+  "aliases": [],
+  "clueCount": 120,
+  "asAnswer": 81,
+  "first": "1989-05-18",
+  "last": "2026-05-28"
+ },
+ {
+  "id": "tiger-woods",
+  "name": "Tiger Woods",
+  "deck": "sports",
+  "aliases": [],
+  "clueCount": 85,
+  "asAnswer": 64,
+  "first": "1995-10-19",
+  "last": "2026-04-16"
+ },
+ {
+  "id": "serena-williams",
+  "name": "Serena Williams",
+  "deck": "sports",
+  "aliases": [],
+  "clueCount": 30,
+  "asAnswer": 20,
+  "first": "1999-11-04",
+  "last": "2026-04-13"
+ },
+ {
+  "id": "world-cup",
+  "name": "World Cup",
+  "deck": "sports",
+  "aliases": [
+   "FIFA World Cup"
+  ],
+  "clueCount": 152,
+  "asAnswer": 32,
+  "first": "1985-03-15",
+  "last": "2026-05-12"
+ },
+ {
+  "id": "super-bowl",
+  "name": "Super Bowl",
+  "deck": "sports",
+  "aliases": [],
+  "clueCount": 416,
+  "asAnswer": 29,
+  "first": "1984-12-03",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "march-madness",
+  "name": "March Madness",
+  "deck": "sports",
+  "aliases": [
+   "NCAA tournament"
+  ],
+  "clueCount": 19,
+  "asAnswer": 6,
+  "first": "1999-11-15",
+  "last": "2026-04-13"
+ },
+ {
+  "id": "wimbledon",
+  "name": "Wimbledon",
+  "deck": "sports",
+  "aliases": [],
+  "clueCount": 214,
+  "asAnswer": 49,
+  "first": "1984-12-13",
+  "last": "2026-06-26"
+ },
+ {
+  "id": "tour-de-france",
+  "name": "Tour de France",
+  "deck": "sports",
+  "aliases": [],
+  "clueCount": 71,
+  "asAnswer": 33,
+  "first": "1985-02-20",
+  "last": "2026-07-06"
+ },
+ {
+  "id": "jackie-robinson",
+  "name": "Jackie Robinson",
+  "deck": "sports",
+  "aliases": [],
+  "clueCount": 74,
+  "asAnswer": 44,
+  "first": "1984-09-20",
+  "last": "2026-02-16"
+ },
+ {
+  "id": "zeus",
+  "name": "Zeus",
+  "deck": "myth-religion",
+  "aliases": [],
+  "clueCount": 357,
+  "asAnswer": 68,
+  "first": "1984-10-10",
+  "last": "2026-07-07"
+ },
+ {
+  "id": "hercules",
+  "name": "Hercules",
+  "deck": "myth-religion",
+  "aliases": [
+   "Heracles"
+  ],
+  "clueCount": 280,
+  "asAnswer": 113,
+  "first": "1984-11-09",
+  "last": "2026-06-26"
+ },
+ {
+  "id": "odysseus",
+  "name": "Odysseus",
+  "deck": "myth-religion",
+  "aliases": [
+   "Ulysses"
+  ],
+  "clueCount": 386,
+  "asAnswer": 119,
+  "first": "1984-11-09",
+  "last": "2026-07-16"
+ },
+ {
+  "id": "achilles",
+  "name": "Achilles",
+  "deck": "myth-religion",
+  "aliases": [],
+  "clueCount": 151,
+  "asAnswer": 58,
+  "first": "1985-03-14",
+  "last": "2026-03-02"
+ },
+ {
+  "id": "trojan-war",
+  "name": "Trojan War",
+  "deck": "myth-religion",
+  "aliases": [
+   "Trojan Horse",
+   "Troy"
+  ],
+  "clueCount": 421,
+  "asAnswer": 127,
+  "first": "1985-01-01",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "norse-mythology",
+  "name": "Norse mythology",
+  "deck": "myth-religion",
+  "aliases": [
+   "Thor",
+   "Odin",
+   "Loki"
+  ],
+  "clueCount": 348,
+  "asAnswer": 174,
+  "first": "1984-11-27",
+  "last": "2026-06-25"
+ },
+ {
+  "id": "noah-s-ark",
+  "name": "Noah's Ark",
+  "deck": "myth-religion",
+  "aliases": [
+   "Noah"
+  ],
+  "clueCount": 377,
+  "asAnswer": 128,
+  "first": "1984-11-06",
+  "last": "2026-07-21"
+ },
+ {
+  "id": "moses",
+  "name": "Moses",
+  "deck": "myth-religion",
+  "aliases": [],
+  "clueCount": 505,
+  "asAnswer": 155,
+  "first": "1984-09-20",
+  "last": "2026-06-30"
+ },
+ {
+  "id": "ten-commandments",
+  "name": "Ten Commandments",
+  "deck": "myth-religion",
+  "aliases": [],
+  "clueCount": 85,
+  "asAnswer": 38,
+  "first": "1985-05-17",
+  "last": "2026-06-30"
+ },
+ {
+  "id": "david-and-goliath",
+  "name": "David and Goliath",
+  "deck": "myth-religion",
+  "aliases": [
+   "Goliath"
+  ],
+  "clueCount": 118,
+  "asAnswer": 72,
+  "first": "1985-02-13",
+  "last": "2025-09-26"
+ },
+ {
+  "id": "garden-of-eden",
+  "name": "Garden of Eden",
+  "deck": "myth-religion",
+  "aliases": [
+   "Adam and Eve",
+   "Eden"
+  ],
+  "clueCount": 237,
+  "asAnswer": 63,
+  "first": "1984-10-02",
+  "last": "2026-04-27"
+ },
+ {
+  "id": "atlantis",
+  "name": "Atlantis",
+  "deck": "myth-religion",
+  "aliases": [],
+  "clueCount": 95,
+  "asAnswer": 42,
+  "first": "1984-11-09",
+  "last": "2026-04-29"
+ },
+ {
+  "id": "buddha",
+  "name": "Buddha",
+  "deck": "myth-religion",
+  "aliases": [],
+  "clueCount": 185,
+  "asAnswer": 92,
+  "first": "1985-10-03",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "hinduism",
+  "name": "Hinduism",
+  "deck": "myth-religion",
+  "aliases": [],
+  "clueCount": 164,
+  "asAnswer": 100,
+  "first": "1985-02-12",
+  "last": "2026-07-15"
+ },
+ {
+  "id": "buddhism",
+  "name": "Buddhism",
+  "deck": "myth-religion",
+  "aliases": [],
+  "clueCount": 222,
+  "asAnswer": 128,
+  "first": "1984-10-08",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "islam",
+  "name": "Islam",
+  "deck": "myth-religion",
+  "aliases": [],
+  "clueCount": 306,
+  "asAnswer": 126,
+  "first": "1984-09-11",
+  "last": "2026-06-26"
+ },
+ {
+  "id": "martin-luther",
+  "name": "Martin Luther",
+  "deck": "myth-religion",
+  "aliases": [],
+  "clueCount": 298,
+  "asAnswer": 103,
+  "first": "1985-01-18",
+  "last": "2026-06-11"
+ },
+ {
+  "id": "pizza",
+  "name": "Pizza",
+  "deck": "food-drink",
+  "aliases": [],
+  "clueCount": 293,
+  "asAnswer": 38,
+  "first": "1985-01-18",
+  "last": "2026-06-11"
+ },
+ {
+  "id": "champagne",
+  "name": "Champagne",
+  "deck": "food-drink",
+  "aliases": [],
+  "clueCount": 288,
+  "asAnswer": 87,
+  "first": "1984-10-04",
+  "last": "2026-07-09"
+ },
+ {
+  "id": "coffee",
+  "name": "Coffee",
+  "deck": "food-drink",
+  "aliases": [],
+  "clueCount": 742,
+  "asAnswer": 117,
+  "first": "1984-09-12",
+  "last": "2026-06-29"
+ },
+ {
+  "id": "chocolate",
+  "name": "Chocolate",
+  "deck": "food-drink",
+  "aliases": [],
+  "clueCount": 713,
+  "asAnswer": 61,
+  "first": "1984-09-28",
+  "last": "2026-07-23"
+ },
+ {
+  "id": "potato",
+  "name": "Potato",
+  "deck": "food-drink",
+  "aliases": [
+   "potatoes"
+  ],
+  "clueCount": 649,
+  "asAnswer": 132,
+  "first": "1984-09-28",
+  "last": "2026-07-21"
+ },
+ {
+  "id": "tomato",
+  "name": "Tomato",
+  "deck": "food-drink",
+  "aliases": [
+   "tomatoes"
+  ],
+  "clueCount": 371,
+  "asAnswer": 81,
+  "first": "1984-09-11",
+  "last": "2026-07-16"
+ },
+ {
+  "id": "coca-cola",
+  "name": "Coca-Cola",
+  "deck": "food-drink",
+  "aliases": [
+   "Coca Cola",
+   "Coke"
+  ],
+  "clueCount": 298,
+  "asAnswer": 122,
+  "first": "1984-09-18",
+  "last": "2026-02-18"
+ },
+ {
+  "id": "mcdonald-s",
+  "name": "McDonald's",
+  "deck": "food-drink",
+  "aliases": [
+   "McDonalds"
+  ],
+  "clueCount": 267,
+  "asAnswer": 88,
+  "first": "1985-01-17",
+  "last": "2026-04-29"
+ },
+ {
+  "id": "sushi",
+  "name": "Sushi",
+  "deck": "food-drink",
+  "aliases": [],
+  "clueCount": 105,
+  "asAnswer": 13,
+  "first": "1984-10-08",
+  "last": "2026-04-29"
+ },
+ {
+  "id": "guinness",
+  "name": "Guinness",
+  "deck": "food-drink",
+  "aliases": [],
+  "clueCount": 315,
+  "asAnswer": 38,
+  "first": "1985-09-23",
+  "last": "2026-03-20"
+ },
+ {
+  "id": "mickey-mouse",
+  "name": "Mickey Mouse",
+  "deck": "pop-culture",
+  "aliases": [
+   "Mickey"
+  ],
+  "clueCount": 254,
+  "asAnswer": 50,
+  "first": "1984-12-10",
+  "last": "2026-07-09"
+ },
+ {
+  "id": "disney",
+  "name": "Disney",
+  "deck": "pop-culture",
+  "aliases": [
+   "Walt Disney"
+  ],
+  "clueCount": 816,
+  "asAnswer": 76,
+  "first": "1984-09-11",
+  "last": "2026-07-16"
+ },
+ {
+  "id": "superman",
+  "name": "Superman",
+  "deck": "pop-culture",
+  "aliases": [],
+  "clueCount": 281,
+  "asAnswer": 70,
+  "first": "1984-09-11",
+  "last": "2026-07-14"
+ },
+ {
+  "id": "batman",
+  "name": "Batman",
+  "deck": "pop-culture",
+  "aliases": [],
+  "clueCount": 223,
+  "asAnswer": 50,
+  "first": "1984-11-22",
+  "last": "2026-07-16"
+ },
+ {
+  "id": "spider-man",
+  "name": "Spider-Man",
+  "deck": "pop-culture",
+  "aliases": [
+   "Spiderman"
+  ],
+  "clueCount": 128,
+  "asAnswer": 55,
+  "first": "1985-01-28",
+  "last": "2026-07-14"
+ },
+ {
+  "id": "wonder-woman",
+  "name": "Wonder Woman",
+  "deck": "pop-culture",
+  "aliases": [],
+  "clueCount": 65,
+  "asAnswer": 38,
+  "first": "1985-01-07",
+  "last": "2026-05-14"
+ },
+ {
+  "id": "peanuts",
+  "name": "Peanuts",
+  "deck": "pop-culture",
+  "aliases": [
+   "Snoopy",
+   "Charlie Brown"
+  ],
+  "clueCount": 363,
+  "asAnswer": 106,
+  "first": "1984-09-28",
+  "last": "2026-07-16"
+ },
+ {
+  "id": "marvel",
+  "name": "Marvel",
+  "deck": "pop-culture",
+  "aliases": [
+   "Marvel Comics"
+  ],
+  "clueCount": 163,
+  "asAnswer": 11,
+  "first": "1985-10-16",
+  "last": "2026-05-07"
+ },
+ {
+  "id": "nintendo",
+  "name": "Nintendo",
+  "deck": "pop-culture",
+  "aliases": [],
+  "clueCount": 60,
+  "asAnswer": 16,
+  "first": "1990-10-15",
+  "last": "2026-03-19"
+ },
+ {
+  "id": "barbie",
+  "name": "Barbie",
+  "deck": "pop-culture",
+  "aliases": [],
+  "clueCount": 142,
+  "asAnswer": 45,
+  "first": "1984-09-13",
+  "last": "2026-05-14"
+ },
+ {
+  "id": "lego",
+  "name": "LEGO",
+  "deck": "pop-culture",
+  "aliases": [],
+  "clueCount": 57,
+  "asAnswer": 21,
+  "first": "1985-12-19",
+  "last": "2026-07-20"
+ },
+ {
+  "id": "monopoly",
+  "name": "Monopoly",
+  "deck": "pop-culture",
+  "aliases": [],
+  "clueCount": 266,
+  "asAnswer": 81,
+  "first": "1984-09-13",
+  "last": "2026-07-24"
+ },
+ {
+  "id": "peter-pan",
+  "name": "Peter Pan",
+  "deck": "pop-culture",
+  "aliases": [],
+  "clueCount": 232,
+  "asAnswer": 103,
+  "first": "1984-09-20",
+  "last": "2026-06-15"
+ },
+ {
+  "id": "cinderella",
+  "name": "Cinderella",
+  "deck": "pop-culture",
+  "aliases": [],
+  "clueCount": 201,
+  "asAnswer": 101,
+  "first": "1985-03-04",
+  "last": "2026-06-11"
+ },
+ {
+  "id": "apple-inc",
+  "name": "Apple Inc.",
+  "deck": "business",
+  "aliases": [
+   "Apple Computer",
+   "Steve Jobs"
+  ],
+  "clueCount": 79,
+  "asAnswer": 35,
+  "first": "1988-06-27",
+  "last": "2026-07-03"
+ },
+ {
+  "id": "microsoft",
+  "name": "Microsoft",
+  "deck": "business",
+  "aliases": [
+   "Bill Gates"
+  ],
+  "clueCount": 240,
+  "asAnswer": 112,
+  "first": "1987-10-15",
+  "last": "2026-06-18"
+ },
+ {
+  "id": "amazon",
+  "name": "Amazon",
+  "deck": "business",
+  "aliases": [
+   "Jeff Bezos"
+  ],
+  "clueCount": 401,
+  "asAnswer": 156,
+  "first": "1984-09-25",
+  "last": "2026-07-13"
+ },
+ {
+  "id": "google",
+  "name": "Google",
+  "deck": "business",
+  "aliases": [],
+  "clueCount": 119,
+  "asAnswer": 36,
+  "first": "2001-11-14",
+  "last": "2026-05-28"
+ },
+ {
+  "id": "henry-ford",
+  "name": "Henry Ford",
+  "deck": "business",
+  "aliases": [
+   "Ford Model T",
+   "Model T"
+  ],
+  "clueCount": 210,
+  "asAnswer": 104,
+  "first": "1984-09-12",
+  "last": "2026-06-08"
+ },
+ {
+  "id": "world-wide-web",
+  "name": "World Wide Web",
+  "deck": "business",
+  "aliases": [
+   "the Web",
+   "Tim Berners-Lee"
+  ],
+  "clueCount": 92,
+  "asAnswer": 18,
+  "first": "1990-12-19",
+  "last": "2026-07-16"
+ },
+ {
+  "id": "wall-street",
+  "name": "Wall Street",
+  "deck": "business",
+  "aliases": [],
+  "clueCount": 177,
+  "asAnswer": 50,
+  "first": "1984-09-27",
+  "last": "2026-05-01"
+ },
+ {
+  "id": "silicon-valley",
+  "name": "Silicon Valley",
+  "deck": "business",
+  "aliases": [],
+  "clueCount": 47,
+  "asAnswer": 22,
+  "first": "1988-12-05",
+  "last": "2026-05-14"
+ },
+ {
+  "id": "alexander-graham-bell",
+  "name": "Alexander Graham Bell",
+  "deck": "business",
+  "aliases": [],
+  "clueCount": 143,
+  "asAnswer": 108,
+  "first": "1985-05-17",
+  "last": "2026-06-09"
+ },
+ {
+  "id": "christmas",
+  "name": "Christmas",
+  "deck": "world-culture",
+  "aliases": [],
+  "clueCount": 1269,
+  "asAnswer": 74,
+  "first": "1984-09-13",
+  "last": "2026-07-21"
+ },
+ {
+  "id": "halloween",
+  "name": "Halloween",
+  "deck": "world-culture",
+  "aliases": [],
+  "clueCount": 227,
+  "asAnswer": 69,
+  "first": "1984-09-24",
+  "last": "2026-06-23"
+ },
+ {
+  "id": "thanksgiving",
+  "name": "Thanksgiving",
+  "deck": "world-culture",
+  "aliases": [],
+  "clueCount": 222,
+  "asAnswer": 62,
+  "first": "1984-09-21",
+  "last": "2026-06-25"
+ },
+ {
+  "id": "valentine-s-day",
+  "name": "Valentine's Day",
+  "deck": "world-culture",
+  "aliases": [
+   "Valentines Day"
+  ],
+  "clueCount": 94,
+  "asAnswer": 25,
+  "first": "1985-02-26",
+  "last": "2026-07-01"
+ },
+ {
+  "id": "st-patrick-s-day",
+  "name": "St. Patrick's Day",
+  "deck": "world-culture",
+  "aliases": [
+   "Saint Patrick's Day"
+  ],
+  "clueCount": 75,
+  "asAnswer": 34,
+  "first": "1984-09-24",
+  "last": "2026-06-17"
+ },
+ {
+  "id": "queen-victoria",
+  "name": "Queen Victoria",
+  "deck": "world-culture",
+  "aliases": [],
+  "clueCount": 300,
+  "asAnswer": 126,
+  "first": "1984-12-07",
+  "last": "2026-05-28"
+ },
+ {
+  "id": "harvard",
+  "name": "Harvard",
+  "deck": "world-culture",
+  "aliases": [],
+  "clueCount": 554,
+  "asAnswer": 137,
+  "first": "1984-09-12",
+  "last": "2026-07-02"
+ },
+ {
+  "id": "notre-dame",
+  "name": "Notre Dame",
+  "deck": "world-culture",
+  "aliases": [],
+  "clueCount": 251,
+  "asAnswer": 118,
+  "first": "1984-10-26",
+  "last": "2026-06-05"
+ }
+]

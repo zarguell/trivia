@@ -1,0 +1,136 @@
+{
+  "id": "disney",
+  "name": "Disney",
+  "deck": "pop-culture",
+  "aliases": [
+    "Walt Disney"
+  ],
+  "hook": "The studio that turned fairy tales, music and a mouse into a century of animation.",
+  "facts": [
+    {
+      "id": "walt",
+      "label": "Walt Disney",
+      "statement": "Walt Disney won four awards at the 1954 Oscars, and he used the alias M.T. Lott to buy 27,000 acres in Florida for Disney World.",
+      "associations": [
+        "Walt Disney",
+        "1954 Oscars",
+        "M.T. Lott",
+        "Florida"
+      ],
+      "clue_ids": [
+        "6664fac569",
+        "64e99a184e"
+      ]
+    },
+    {
+      "id": "snow-white",
+      "label": "Snow White and the Seven Dwarfs",
+      "statement": "Snow White and the Seven Dwarfs was Disney's first animated feature, premiering December 21, 1937, and it earned Walt a special Oscar.",
+      "associations": [
+        "1937",
+        "first animated feature",
+        "special Oscar"
+      ],
+      "clue_ids": [
+        "735759601d",
+        "190c5369e8"
+      ]
+    },
+    {
+      "id": "pinocchio",
+      "label": "Pinocchio",
+      "statement": "Pinocchio is the 1940 puppet film whose title voice was supplied by Dick Jones; it is in the National Film Registry.",
+      "associations": [
+        "Pinocchio",
+        "1940",
+        "Dick Jones"
+      ],
+      "clue_ids": [
+        "37ec15d34e",
+        "1c1c9cc1ec"
+      ]
+    },
+    {
+      "id": "fantasia",
+      "label": "Fantasia",
+      "statement": "Fantasia is the 1940 eight-part marriage of music and animation; Hewlett-Packard's first big customer was Walt Disney, buying sound equipment for it.",
+      "associations": [
+        "Fantasia",
+        "1940",
+        "Hewlett-Packard",
+        "eight segments"
+      ],
+      "clue_ids": [
+        "13bcfdcef7",
+        "772be281dd"
+      ]
+    },
+    {
+      "id": "dumbo",
+      "label": "Dumbo",
+      "statement": "Dumbo is the 1941 film in which a misfit elephant becomes a circus star with help from Timothy Mouse.",
+      "associations": [
+        "Dumbo",
+        "1941",
+        "Timothy Mouse"
+      ],
+      "clue_ids": [
+        "ee9211694d",
+        "0d27270704"
+      ]
+    },
+    {
+      "id": "bambi",
+      "label": "Bambi",
+      "statement": "Bambi opened in 1942 and killed off its mother; in 1944 Smokey Bear replaced Bambi as the U.S. Forest Service symbol.",
+      "associations": [
+        "Bambi",
+        "1942",
+        "Smokey Bear"
+      ],
+      "clue_ids": [
+        "30b0944a91",
+        "4c3e2f29d3"
+      ]
+    },
+    {
+      "id": "mary-poppins",
+      "label": "Mary Poppins",
+      "statement": "Mary Poppins is the musical whose making is dramatized in Saving Mr. Banks; 'Feed the Birds' was one of Walt Disney's favorite songs.",
+      "associations": [
+        "Mary Poppins",
+        "Saving Mr. Banks",
+        "Feed the Birds"
+      ],
+      "clue_ids": [
+        "b6ff3f355e",
+        "3d2c8910b7"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "6664fac569",
+    "64e99a184e",
+    "735759601d",
+    "190c5369e8",
+    "37ec15d34e",
+    "1c1c9cc1ec",
+    "13bcfdcef7",
+    "772be281dd",
+    "ee9211694d",
+    "0d27270704",
+    "30b0944a91",
+    "4c3e2f29d3",
+    "b6ff3f355e",
+    "3d2c8910b7",
+    "a37bdd00fe",
+    "80ce23c749",
+    "97ec41efd1",
+    "cd40ce5ab2"
+  ],
+  "related": [
+    "mickey-mouse",
+    "star-wars",
+    "the-simpsons"
+  ]
+}

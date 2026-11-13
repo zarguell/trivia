@@ -1,0 +1,65 @@
+{
+  "id": "frank-sinatra",
+  "name": "Frank Sinatra",
+  "deck": "music",
+  "aliases": ["Sinatra", "Ol' Blue Eyes"],
+  "hook": "The Hoboken crooner with the blue eyes, the Rat Pack and \"My Way.\"",
+  "facts": [
+    {
+      "id": "hoboken",
+      "label": "Hoboken, New Jersey",
+      "statement": "Francis Albert Sinatra was born in Hoboken, New Jersey, in December 1915, the son of a tavern owner.",
+      "associations": ["Hoboken", "New Jersey", "1915"],
+      "clue_ids": ["1be18efd12", "b533ab0a66"]
+    },
+    {
+      "id": "my-way",
+      "label": "My Way",
+      "statement": "Paul Anka rewrote the lyrics of the French song \"Comme d'Habitude\" as \"My Way,\" which became Sinatra's signature song.",
+      "associations": ["My Way", "Paul Anka", "Comme d'Habitude"],
+      "clue_ids": ["7ee71f3468", "237bfb15e5"]
+    },
+    {
+      "id": "rat-pack",
+      "label": "the Rat Pack",
+      "statement": "Lauren Bacall coined \"the Rat Pack\" for the carousing circle that included Humphrey Bogart, Judy Garland and Sinatra.",
+      "associations": ["Rat Pack", "Lauren Bacall", "Humphrey Bogart", "Dean Martin"],
+      "clue_ids": ["d627ac8415", "8dbd0d124a"]
+    },
+    {
+      "id": "chairman",
+      "label": "Chairman of the Board",
+      "statement": "Sinatra was nicknamed the Chairman of the Board after creating and heading his own label, Reprise Records.",
+      "associations": ["Chairman of the Board", "Reprise Records", "record label"],
+      "clue_ids": ["f9114fc81d"]
+    },
+    {
+      "id": "from-here-to-eternity",
+      "label": "From Here to Eternity",
+      "statement": "Sinatra won an Oscar for playing Maggio in the 1953 film From Here to Eternity.",
+      "associations": ["From Here to Eternity", "Maggio", "Oscar", "1953"],
+      "clue_ids": ["623ecfad86", "6c1b144101"]
+    },
+    {
+      "id": "new-york-new-york",
+      "label": "New York, New York",
+      "statement": "Sinatra's \"New York, New York\" — \"if I can make it there, I'll make it anywhere\" — is a staple at Yankee Stadium.",
+      "associations": ["New York, New York", "Yankee Stadium", "If I can make it there"],
+      "clue_ids": ["6961993cdd"]
+    },
+    {
+      "id": "strangers-in-the-night",
+      "label": "Strangers in the Night",
+      "statement": "\"Strangers in the Night\" was a 1966 No. 1 in which Sinatra ad-libbed \"Scooby Dooby Doo.\"",
+      "associations": ["Strangers in the Night", "1966", "Scooby Dooby Doo"],
+      "clue_ids": ["40226eb220", "dcde45d8c9"]
+    }
+  ],
+  "clue_ids": [
+    "1be18efd12", "b533ab0a66", "7ee71f3468", "237bfb15e5", "d627ac8415",
+    "8dbd0d124a", "f9114fc81d", "623ecfad86", "6c1b144101", "6961993cdd",
+    "40226eb220", "dcde45d8c9", "5de7c6d51a", "8c3027177c", "92bff2b4d2",
+    "9f19423faf", "b0efe2b534"
+  ],
+  "related": ["elvis-presley", "billboard", "the-beatles"]
+}

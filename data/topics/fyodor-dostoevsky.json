@@ -1,0 +1,65 @@
+{
+  "id": "fyodor-dostoevsky",
+  "name": "Fyodor Dostoevsky",
+  "deck": "literature",
+  "aliases": ["Dostoevsky", "Crime and Punishment"],
+  "hook": "The Russian novelist of guilt, murder and salvation — Jeopardy's favorite existentialist.",
+  "facts": [
+    {
+      "id": "crime-punishment",
+      "label": "Crime and Punishment",
+      "statement": "Crime and Punishment (1866) follows Raskolnikov, a former student who murders a pawnbroker and her half-sister.",
+      "associations": ["Crime and Punishment", "Raskolnikov", "1866"],
+      "clue_ids": ["cae19984ae", "30a1e7a0b2"]
+    },
+    {
+      "id": "siberia",
+      "label": "Siberia",
+      "statement": "Raskolnikov confesses and gets eight years in Siberia; Dostoevsky himself had spent four years in a Siberian prison camp.",
+      "associations": ["Siberia", "prison camp", "confession"],
+      "clue_ids": ["2ff41e42c5", "7d1cd20bc5", "48e22b875f"]
+    },
+    {
+      "id": "notes",
+      "label": "Notes from Underground",
+      "statement": "Notes from Underground was called \"the best overture to existentialism ever written\" by Walter Kaufmann.",
+      "associations": ["Notes from Underground", "existentialism", "Walter Kaufmann"],
+      "clue_ids": ["bf1511fac5", "67662d162d"]
+    },
+    {
+      "id": "karamazov",
+      "label": "The Brothers Karamazov",
+      "statement": "The Brothers Karamazov is his last novel; its brothers include a writer, a monastery student and one who did not work.",
+      "associations": ["The Brothers Karamazov", "brothers", "last novel"],
+      "clue_ids": ["0666ac1436"]
+    },
+    {
+      "id": "gambler",
+      "label": "The Gambler",
+      "statement": "Deep in debt, he wrote The Gambler in October 1866.",
+      "associations": ["The Gambler", "1866", "debt"],
+      "clue_ids": ["903c6d9142"]
+    },
+    {
+      "id": "petersburg",
+      "label": "St. Petersburg",
+      "statement": "Crime and Punishment unfolds in St. Petersburg, where his home is now a museum.",
+      "associations": ["St. Petersburg", "museum", "setting"],
+      "clue_ids": ["4d18078409", "8fd4e32eee", "d3a1edbcf0"]
+    },
+    {
+      "id": "house-dead",
+      "label": "The House of the Dead",
+      "statement": "Tolstoy considered The House of the Dead, from the 1860s, his countryman's masterpiece.",
+      "associations": ["The House of the Dead", "Tolstoy", "1860s"],
+      "clue_ids": ["ad6d773408"]
+    }
+  ],
+  "clue_ids": [
+    "cae19984ae", "30a1e7a0b2", "2ff41e42c5", "7d1cd20bc5", "48e22b875f",
+    "bf1511fac5", "67662d162d", "0666ac1436", "903c6d9142", "4d18078409",
+    "8fd4e32eee", "d3a1edbcf0", "ad6d773408", "7f364aa99f", "1afec11e05",
+    "7b1db28831"
+  ],
+  "related": ["george-orwell", "john-steinbeck", "william-shakespeare"]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "paris",
+  "name": "Paris",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "The city Jeopardy returns to for the Seine, the Louvre and the Eiffel Tower.",
+  "facts": [
+    {
+      "id": "seine",
+      "label": "the Seine",
+      "statement": "The Seine flows through Paris; the city bought the land at its source and erected a statue of the goddess Sequana.",
+      "associations": ["the Seine", "Sequana", "river"],
+      "clue_ids": ["23a6e22eda", "83aecf2bed"]
+    },
+    {
+      "id": "louvre",
+      "label": "the Louvre",
+      "statement": "The Louvre began as Philip Augustus's castle and was renamed the Musée Napoléon under Napoleon.",
+      "associations": ["the Louvre", "Philip Augustus", "Musée Napoléon"],
+      "clue_ids": ["a2bbe9fe7e", "851279f064"]
+    },
+    {
+      "id": "notre-dame",
+      "label": "Notre-Dame",
+      "statement": "Pope Alexander III laid Notre-Dame's cornerstone in 1163; Victor Hugo's 1831 novel gave it the bell ringer Quasimodo.",
+      "associations": ["Notre-Dame", "1163", "Quasimodo", "Victor Hugo"],
+      "clue_ids": ["c5eed8a06e", "f86ac61765", "cba94f55a9"]
+    },
+    {
+      "id": "eiffel-tower",
+      "label": "the Eiffel Tower",
+      "statement": "The Eiffel Tower was the gateway to the 1889 International Exhibition; con man Victor Lustig sold it for scrap twice.",
+      "associations": ["Eiffel Tower", "1889 exhibition", "Victor Lustig"],
+      "clue_ids": ["202eaa0658", "c7f4bb673c"]
+    },
+    {
+      "id": "bastille",
+      "label": "the Bastille",
+      "statement": "The Bastille's first stone was laid in 1370; the Paris Metro station named for it recalls the French Revolution.",
+      "associations": ["the Bastille", "1370", "Metro station", "French Revolution"],
+      "clue_ids": ["865be37d16", "625158184c"]
+    },
+    {
+      "id": "sorbonne",
+      "label": "the Sorbonne",
+      "statement": "The Sorbonne began as a 1250s theology school founded by Robert de Sorbon and has more than 750 years of history.",
+      "associations": ["the Sorbonne", "Robert de Sorbon", "1250s", "theology"],
+      "clue_ids": ["74935aecd9", "007219ca1c"]
+    },
+    {
+      "id": "phantom",
+      "label": "The Phantom of the Opera",
+      "statement": "Gaston Leroux's 1910 novel The Phantom of the Opera is set in the Palais Garnier; a real 1896 chandelier accident inspired it.",
+      "associations": ["Phantom of the Opera", "Gaston Leroux", "Palais Garnier", "1896 chandelier"],
+      "clue_ids": ["84e7cbe3e6", "e9aab1fb8d"]
+    }
+  ],
+  "clue_ids": [
+    "23a6e22eda", "83aecf2bed", "a2bbe9fe7e", "851279f064", "c5eed8a06e",
+    "f86ac61765", "cba94f55a9", "202eaa0658", "c7f4bb673c", "865be37d16",
+    "625158184c", "74935aecd9", "007219ca1c", "84e7cbe3e6", "e9aab1fb8d"
+  ],
+  "related": ["london", "france", "notre-dame", "eiffel-tower"]
+}

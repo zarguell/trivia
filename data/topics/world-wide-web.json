@@ -1,0 +1,64 @@
+{
+  "id": "world-wide-web",
+  "name": "World Wide Web",
+  "deck": "business",
+  "aliases": ["the Web", "Tim Berners-Lee"],
+  "hook": "The system Tim Berners-Lee built at CERN — six facts cover what Jeopardy keeps asking.",
+  "facts": [
+    {
+      "id": "berners-lee",
+      "label": "Tim Berners-Lee",
+      "statement": "Tim Berners-Lee invented the World Wide Web in 1989–90 while at CERN; he was knighted in 2004.",
+      "associations": ["Tim Berners-Lee", "CERN", "knighted 2004", "1989"],
+      "clue_ids": ["ed57100e6e", "cb05554034", "2aa8b37268"]
+    },
+    {
+      "id": "cern",
+      "label": "CERN",
+      "statement": "CERN, the particle-physics lab near Geneva, released the Web free to all on April 30, 1993, after considering a user fee.",
+      "associations": ["CERN", "Geneva", "April 30, 1993", "free to all"],
+      "clue_ids": ["20d56ad08b", "a2ee57debc"]
+    },
+    {
+      "id": "first-browser",
+      "label": "the first browser",
+      "statement": "Time said that \"on the seventh day\" Berners-Lee cobbled together the Web's first browser, which he wrote himself.",
+      "associations": ["first browser", "Time magazine", "Berners-Lee"],
+      "clue_ids": ["b6a281c083"]
+    },
+    {
+      "id": "blue-links",
+      "label": "blue links",
+      "statement": "Web links are blue because Berners-Lee made them so; asked why, he answered, \"There is no reason.\"",
+      "associations": ["blue links", "Berners-Lee", "hyperlink color"],
+      "clue_ids": ["f2b78b200a"]
+    },
+    {
+      "id": "www",
+      "label": "WWW",
+      "statement": "The three-letter abbreviation WWW was first proposed in 1989 by software developer Tim Berners-Lee.",
+      "associations": ["WWW", "three-letter abbreviation", "1989"],
+      "clue_ids": ["2aa8b37268"]
+    },
+    {
+      "id": "french-name",
+      "label": "toile d'araignee mondiale",
+      "statement": "The Academie Francaise officially translates the World Wide Web as \"toile d'araignee mondiale\" — literally \"world spiderweb.\"",
+      "associations": ["Academie Francaise", "toile d'araignee mondiale", "French translation"],
+      "clue_ids": ["c761f2d722"]
+    },
+    {
+      "id": "yahoo",
+      "label": "Yahoo!",
+      "statement": "Yahoo! began as \"Jerry's Guide to the World Wide Web,\" created by Jerry Yang and David Filo.",
+      "associations": ["Yahoo!", "Jerry Yang", "David Filo"],
+      "clue_ids": ["4a08223005", "d08a3036dc"]
+    }
+  ],
+  "clue_ids": [
+    "c761f2d722", "cb05554034", "b6a281c083", "ed57100e6e", "20d56ad08b",
+    "a2ee57debc", "4a08223005", "d08a3036dc", "2aa8b37268", "f2b78b200a",
+    "677f25df09", "5fe3c3604a"
+  ],
+  "related": ["google", "microsoft", "silicon-valley"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "cinderella",
+  "name": "Cinderella",
+  "deck": "pop-culture",
+  "aliases": [],
+  "hook": "The fairy tale Jeopardy asks about through Perrault, Disney and Sondheim.",
+  "facts": [
+    {
+      "id": "perrault",
+      "label": "Charles Perrault",
+      "statement": "Charles Perrault set down the Cinderella tale in a 1697 collection that popularized it.",
+      "associations": ["Charles Perrault", "1697", "French fairy tales"],
+      "clue_ids": ["b89e0bd80f", "08ad4da751"]
+    },
+    {
+      "id": "china",
+      "label": "Yeh-hsien",
+      "statement": "The earliest known Cinderella story is a 9th-century Chinese tale about a girl named Yeh-hsien.",
+      "associations": ["Yeh-hsien", "9th century", "China"],
+      "clue_ids": ["3abab42d6b"]
+    },
+    {
+      "id": "fairy-godmother",
+      "label": "the Fairy Godmother",
+      "statement": "The Fairy Godmother sings \"Bibbidi-Bobbidi-Boo\" in Disney's Cinderella and turns a pumpkin into a coach.",
+      "associations": ["Fairy Godmother", "Bibbidi-Bobbidi-Boo", "pumpkin"],
+      "clue_ids": ["16b3a9d014", "43eb61be12", "2877522a6b"]
+    },
+    {
+      "id": "midnight",
+      "label": "midnight",
+      "statement": "The magic ends at midnight, which is why a dance party timed to end then is called a Cinderella dance.",
+      "associations": ["midnight", "Cinderella dance", "magic ends"],
+      "clue_ids": ["a8ae58349d", "dc6cadc8b5"]
+    },
+    {
+      "id": "disney-film",
+      "label": "Disney's Cinderella",
+      "statement": "Disney's 1950 Cinderella gives her mice friends named Jaq and Gus and a Prince Charming voiced by William Phipps.",
+      "associations": ["Jaq and Gus", "Prince Charming", "William Phipps"],
+      "clue_ids": ["13e0b85fa8", "ac43dd0fc3"]
+    },
+    {
+      "id": "rodgers-hammerstein",
+      "label": "Rodgers & Hammerstein's Cinderella",
+      "statement": "Rodgers & Hammerstein wrote Cinderella for television, their only musical written for TV; a 1965 version starred Lesley Ann Warren.",
+      "associations": ["Rodgers & Hammerstein", "TV musical", "Lesley Ann Warren"],
+      "clue_ids": ["342d5714e6"]
+    },
+    {
+      "id": "into-the-woods",
+      "label": "Into the Woods",
+      "statement": "Cinderella appears in Sondheim's Into the Woods, where her prince and Rapunzel's prince sing \"Agony.\"",
+      "associations": ["Into the Woods", "Stephen Sondheim", "Agony"],
+      "clue_ids": ["aadc2b4bdb", "e45001cbbc"]
+    }
+  ],
+  "clue_ids": [
+    "b89e0bd80f", "08ad4da751", "3abab42d6b", "16b3a9d014", "43eb61be12",
+    "2877522a6b", "a8ae58349d", "dc6cadc8b5", "13e0b85fa8", "9137b5652e",
+    "ac43dd0fc3", "342d5714e6", "aadc2b4bdb", "e45001cbbc", "e060eb799a",
+    "c6149eafd4", "adc759ec0f", "4e874875a2"
+  ],
+  "related": ["disney", "peter-pan"]
+}

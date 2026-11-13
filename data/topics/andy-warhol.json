@@ -1,0 +1,65 @@
+{
+  "id": "andy-warhol",
+  "name": "Andy Warhol",
+  "deck": "arts",
+  "aliases": ["Warhol"],
+  "hook": "Soup cans, silkscreens, and fifteen minutes: the Pop artist whose factory made fame a subject.",
+  "facts": [
+    {
+      "id": "pop-art",
+      "label": "Pop Art",
+      "statement": "Andy Warhol and Roy Lichtenstein were leading figures of Pop Art, the movement that turned commercial imagery into fine art.",
+      "associations": ["Pop Art", "Roy Lichtenstein", "commercial imagery"],
+      "clue_ids": ["2a6068a9f0", "24f151ae1c"]
+    },
+    {
+      "id": "soup-cans",
+      "label": "Campbell's Soup Cans",
+      "statement": "Warhol's Campbell's Soup Cans made the grocery shelf into art; a book on the Campbell Soup Company reproduces 12 pages of his work.",
+      "associations": ["Campbell's Soup Cans", "Campbell Soup Company", "America's Favorite Food"],
+      "clue_ids": ["ccc181ca0c"]
+    },
+    {
+      "id": "fifteen-minutes",
+      "label": "fifteen minutes of fame",
+      "statement": "Warhol said that in the future everyone will be world-famous for 15 minutes.",
+      "associations": ["15 minutes", "fame", "quote"],
+      "clue_ids": ["1c2034d61f", "f0d6452e10"]
+    },
+    {
+      "id": "shooting",
+      "label": "Valerie Solanas",
+      "statement": "In 1968 Valerie Solanas shot Warhol; months later she wrote to him, \"I'm very happy you're alive + well.\"",
+      "associations": ["Valerie Solanas", "1968", "shooting"],
+      "clue_ids": ["0204d4fd2b"]
+    },
+    {
+      "id": "interview",
+      "label": "Interview magazine",
+      "statement": "Warhol founded Interview magazine in 1969; it was nicknamed the \"Crystal Ball of Pop.\"",
+      "associations": ["Interview", "1969", "Crystal Ball of Pop"],
+      "clue_ids": ["f6a3f28600", "9bd1afd69c"]
+    },
+    {
+      "id": "silkscreen",
+      "label": "silkscreen printing",
+      "statement": "Warhol made many of his pictures by silkscreen, also called serigraphy, a stencil process that let him repeat images mechanically.",
+      "associations": ["silkscreen", "serigraphy", "stencil", "repetition"],
+      "clue_ids": ["743430aedb", "df3abce1f7"]
+    },
+    {
+      "id": "velvet-underground",
+      "label": "the Velvet Underground",
+      "statement": "Warhol managed the Velvet Underground from 1965 and produced their first album, whose cover is his famous banana.",
+      "associations": ["Velvet Underground", "Lou Reed", "banana cover", "1965"],
+      "clue_ids": ["a351da37b4", "2811241996"]
+    }
+  ],
+  "clue_ids": [
+    "2a6068a9f0", "24f151ae1c", "ccc181ca0c", "1c2034d61f", "f0d6452e10",
+    "0204d4fd2b", "f6a3f28600", "9bd1afd69c", "743430aedb", "df3abce1f7",
+    "a351da37b4", "2811241996", "30dc65ef24", "fe67eaa0eb", "16e79bee25",
+    "f2d807778c", "9453702927"
+  ],
+  "related": ["pablo-picasso", "claude-monet", "vincent-van-gogh", "michelangelo"]
+}

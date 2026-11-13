@@ -1,0 +1,65 @@
+{
+  "id": "marie-antoinette",
+  "name": "Marie Antoinette",
+  "deck": "history",
+  "aliases": [],
+  "hook": "The Austrian queen of France: cake, a balloon, a guillotine and a very small dog.",
+  "facts": [
+    {
+      "id": "vienna",
+      "label": "Vienna, 1755",
+      "statement": "Marie Antoinette was born in Vienna in 1755, a daughter of Empress Maria Theresa of Austria.",
+      "associations": ["Vienna", "1755", "Maria Theresa", "Austria"],
+      "clue_ids": ["e0a930706a", "28ac3fb127", "ec4632680f"]
+    },
+    {
+      "id": "louis",
+      "label": "Louis XVI",
+      "statement": "In 1770 she married the Dauphin, who became Louis XVI of France four years later.",
+      "associations": ["Louis XVI", "1770", "Dauphin", "marriage"],
+      "clue_ids": ["b705f6548f", "75600c6191"]
+    },
+    {
+      "id": "cake",
+      "label": "Let them eat cake",
+      "statement": "'Let them eat cake' was attributed to her, but the line actually comes from a work by Rousseau.",
+      "associations": ["Let them eat cake", "Rousseau", "misattributed"],
+      "clue_ids": ["5703f65037", "d29c167f54"]
+    },
+    {
+      "id": "guillotine",
+      "label": "the guillotine",
+      "statement": "She was executed by guillotine in 1793 during the French Revolution, known at her trial as the Widow Capet.",
+      "associations": ["guillotine", "1793", "Widow Capet", "French Revolution"],
+      "clue_ids": ["1004d0402a", "d261fea8c1", "f9dd8596f4"]
+    },
+    {
+      "id": "balloon",
+      "label": "the Montgolfier brothers",
+      "statement": "Louis XVI and Marie Antoinette watched the Montgolfier brothers demonstrate their hot air balloon in 1783.",
+      "associations": ["Montgolfier brothers", "hot air balloon", "1783"],
+      "clue_ids": ["7b8702a7f3", "260af3c585"]
+    },
+    {
+      "id": "papillon",
+      "label": "papillon",
+      "statement": "Marie Antoinette loved papillons, the toy breed whose butterfly-like ears gave it its name.",
+      "associations": ["papillon", "butterfly ears", "toy breed"],
+      "clue_ids": ["b8e5121a6f", "4bbed75442"]
+    },
+    {
+      "id": "film",
+      "label": "Marie Antoinette (2006 film)",
+      "statement": "Sofia Coppola directed Kirsten Dunst in the 2006 film Marie Antoinette, with shoes by Manolo Blahnik.",
+      "associations": ["Sofia Coppola", "Kirsten Dunst", "2006 film", "Manolo Blahnik"],
+      "clue_ids": ["baa4d41ee1", "9eafd1021c", "a00417121d"]
+    }
+  ],
+  "clue_ids": [
+    "e0a930706a", "28ac3fb127", "ec4632680f", "b705f6548f", "75600c6191",
+    "5703f65037", "d29c167f54", "1004d0402a", "d261fea8c1", "f9dd8596f4",
+    "7b8702a7f3", "260af3c585", "b8e5121a6f", "4bbed75442", "baa4d41ee1",
+    "9eafd1021c", "a00417121d", "90a9a9429e"
+  ],
+  "related": ["louis-xiv", "french-revolution", "napoleon"]
+}

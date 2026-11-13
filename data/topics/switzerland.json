@@ -1,0 +1,64 @@
+{
+  "id": "switzerland",
+  "name": "Switzerland",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "Neutral, alpine and landlocked: Swiss clues return to the Matterhorn, William Tell and Lake Geneva.",
+  "facts": [
+    {
+      "id": "neutral",
+      "label": "Swiss neutrality",
+      "statement": "Switzerland is Europe's largest country outside the United Nations and hosts the U.N.'s European headquarters in Geneva.",
+      "associations": ["not a U.N. member", "Geneva", "neutral"],
+      "clue_ids": ["d32d02c0c6", "99f7d8a83f"]
+    },
+    {
+      "id": "liechtenstein",
+      "label": "Liechtenstein",
+      "statement": "Liechtenstein, the tiny principality between Switzerland and Austria, once offered itself on Airbnb for $70,000 a night.",
+      "associations": ["Liechtenstein", "Austria", "Airbnb"],
+      "clue_ids": ["42c7b07eb4", "9a718f188e"]
+    },
+    {
+      "id": "rhine",
+      "label": "the Rhine",
+      "statement": "The Rhine is navigable from Basel, Switzerland, to the North Sea; Basel and Cologne both stand on it.",
+      "associations": ["Rhine", "Basel", "North Sea"],
+      "clue_ids": ["46b4e28246", "7f8de585f7"]
+    },
+    {
+      "id": "lake-geneva",
+      "label": "Lake Geneva",
+      "statement": "Lake Geneva lies between southwestern Switzerland and France's Haute-Savoie; the U.N.'s Ariana Park looks out on it.",
+      "associations": ["Lake Geneva", "Haute-Savoie", "Ariana Park"],
+      "clue_ids": ["e28c5c29ae", "9801ec03f8"]
+    },
+    {
+      "id": "matterhorn",
+      "label": "the Matterhorn",
+      "statement": "The Matterhorn, the horn-shaped peak above Zermatt, straddles Switzerland and Italy; a 1947 short Oscar went to \"Climbing\" it.",
+      "associations": ["Matterhorn", "Zermatt", "Switzerland-Italy border"],
+      "clue_ids": ["4784738661", "595ca399ac"]
+    },
+    {
+      "id": "william-tell",
+      "label": "William Tell",
+      "statement": "William Tell is the Swiss hero of Schiller's 1804 play, staged outdoors each summer in Interlaken, and of Rossini's last opera.",
+      "associations": ["William Tell", "Schiller", "Rossini's last opera", "Interlaken"],
+      "clue_ids": ["d709dd764c", "cb4e86e7de"]
+    },
+    {
+      "id": "zurich",
+      "label": "Zurich",
+      "statement": "Zurich, on the Limmat River, is Switzerland's largest city by population.",
+      "associations": ["Zurich", "Limmat River", "largest city"],
+      "clue_ids": ["b773b5711d", "db39c041c5"]
+    }
+  ],
+  "clue_ids": [
+    "d32d02c0c6", "99f7d8a83f", "42c7b07eb4", "9a718f188e", "46b4e28246",
+    "7f8de585f7", "e28c5c29ae", "9801ec03f8", "4784738661", "595ca399ac",
+    "d709dd764c", "cb4e86e7de", "b773b5711d", "db39c041c5"
+  ],
+  "related": ["italy", "france", "mount-everest"]
+}

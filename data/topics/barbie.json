@@ -1,0 +1,65 @@
+{
+  "id": "barbie",
+  "name": "Barbie",
+  "deck": "pop-culture",
+  "aliases": [],
+  "hook": "The doll, her boyfriend, her sisters, and the pinkest movie of 2023.",
+  "facts": [
+    {
+      "id": "mattel",
+      "label": "Mattel",
+      "statement": "Mattel makes Barbie; Jill Barad ran the Barbie line before becoming the toy company's CEO.",
+      "associations": ["Mattel", "Jill Barad", "toy company"],
+      "clue_ids": ["16cb6b7ec3", "b91a353752"]
+    },
+    {
+      "id": "ken",
+      "label": "Ken",
+      "statement": "Ken is Barbie's boyfriend; the plastic man turned 50 on March 11, two years after Barbie's own 50th birthday.",
+      "associations": ["Ken", "boyfriend", "March 11"],
+      "clue_ids": ["c16e9d884e", "6748df18db"]
+    },
+    {
+      "id": "skipper",
+      "label": "Skipper",
+      "statement": "Skipper is Barbie's little sister; Francie is a friend and Ken is the boyfriend.",
+      "associations": ["Skipper", "little sister", "Francie"],
+      "clue_ids": ["2a9d06648f", "f2c0525ff6"]
+    },
+    {
+      "id": "malibu",
+      "label": "Malibu Barbie",
+      "statement": "Malibu Barbie shares her name with a California beach and a 1964 Chevy model reintroduced in 1996.",
+      "associations": ["Malibu Barbie", "California beach", "Chevy"],
+      "clue_ids": ["1cc36c065e", "9419e9d77e"]
+    },
+    {
+      "id": "midge",
+      "label": "Midge",
+      "statement": "Midge is Barbie's pregnant best friend, and also a kind of fly.",
+      "associations": ["Midge", "pregnant best friend", "fly"],
+      "clue_ids": ["0550198479"]
+    },
+    {
+      "id": "becky",
+      "label": "Becky",
+      "statement": "\"Share a Smile\" Becky, Barbie's first friend with a disability, comes with a pink wheelchair.",
+      "associations": ["Becky", "wheelchair", "Share a Smile"],
+      "clue_ids": ["686f10ac36"]
+    },
+    {
+      "id": "movie",
+      "label": "the 2023 film",
+      "statement": "The 2023 live-action Barbie starred Margot Robbie and Ryan Gosling, with Dua Lipa's \"Dance the Night\" on the soundtrack.",
+      "associations": ["Margot Robbie", "Ryan Gosling", "Dance the Night"],
+      "clue_ids": ["bd6c0195b0", "a6ecdc45e2", "ac9197c5fe"]
+    }
+  ],
+  "clue_ids": [
+    "16cb6b7ec3", "b91a353752", "c16e9d884e", "6748df18db", "2a9d06648f",
+    "f2c0525ff6", "1cc36c065e", "9419e9d77e", "0550198479", "686f10ac36",
+    "bd6c0195b0", "a6ecdc45e2", "ac9197c5fe", "a588932753", "823c39cc1e",
+    "30d34b3a55", "a39d09cdb6", "b4cfb5405a"
+  ],
+  "related": ["lego", "monopoly"]
+}

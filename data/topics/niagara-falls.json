@@ -1,0 +1,64 @@
+{
+  "id": "niagara-falls",
+  "name": "Niagara Falls",
+  "deck": "geography",
+  "aliases": ["Niagara"],
+  "hook": "Honeymoons, barrels and hydropower: the border cataract with more stories than water.",
+  "facts": [
+    {
+      "id": "two-falls",
+      "label": "Horseshoe Falls",
+      "statement": "The falls are two cataracts: Horseshoe Falls on the Canadian side, named for its curved crest, and the straight American Falls.",
+      "associations": ["Horseshoe Falls", "American Falls", "curved crest"],
+      "clue_ids": ["e8d1c6e96f", "308c0017f9", "f27ea3ac16"]
+    },
+    {
+      "id": "border",
+      "label": "New York and Ontario",
+      "statement": "The falls sit on the U.S.–Canada border, between New York State and the Canadian province of Ontario.",
+      "associations": ["New York", "Ontario", "U.S.–Canada border"],
+      "clue_ids": ["9653c2d972", "9881f5a3f8"]
+    },
+    {
+      "id": "barrel",
+      "label": "Annie Taylor",
+      "statement": "In 1901 schoolteacher Annie Taylor became the first person to go over the falls in a barrel — and survived.",
+      "associations": ["Annie Taylor", "1901", "barrel"],
+      "clue_ids": ["9f26ed3d8e"]
+    },
+    {
+      "id": "honeymoon",
+      "label": "the honeymoon capital",
+      "statement": "Niagara was the original American honeymoon destination: Theodosia Burr honeymooned here in 1801 and started the tradition.",
+      "associations": ["honeymoon", "Theodosia Burr", "1801"],
+      "clue_ids": ["16d1fad54e"]
+    },
+    {
+      "id": "love-canal",
+      "label": "Love Canal",
+      "statement": "The Love Canal neighborhood in Niagara Falls, New York, became the symbol of toxic-waste disaster after chemicals leaked there.",
+      "associations": ["Love Canal", "toxic waste", "Niagara Falls, N.Y."],
+      "clue_ids": ["e6d9e5258f", "a0473084e6"]
+    },
+    {
+      "id": "power",
+      "label": "hydropower",
+      "statement": "The falls have generated electricity since the 1890s; by 1896 Niagara power reached Buffalo, about 20 miles away.",
+      "associations": ["hydropower", "1896", "Buffalo"],
+      "clue_ids": ["3d3ead130d", "016dabd7ce"]
+    },
+    {
+      "id": "erosion",
+      "label": "seven miles of erosion",
+      "statement": "Since forming about 10,000 years ago, the falls have eaten back some seven miles of cliff.",
+      "associations": ["10,000 years", "erosion", "seven miles"],
+      "clue_ids": ["967ead323e"]
+    }
+  ],
+  "clue_ids": [
+    "e8d1c6e96f", "308c0017f9", "f27ea3ac16", "97642d125f", "9653c2d972",
+    "9881f5a3f8", "9f26ed3d8e", "16d1fad54e", "e6d9e5258f", "a0473084e6",
+    "3d3ead130d", "016dabd7ce", "967ead323e", "29bd924004", "8f49a0a38a"
+  ],
+  "related": ["grand-canyon", "yellowstone", "canada"]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "david-and-goliath",
+  "name": "David and Goliath",
+  "deck": "myth-religion",
+  "aliases": [
+    "Goliath"
+  ],
+  "hook": "A shepherd, a giant and a sling: the underdog story Jeopardy retells more than any other.",
+  "facts": [
+    {
+      "id": "elah",
+      "label": "the valley of Elah",
+      "statement": "The First Book of Samuel sets the fight in the valley of Elah, between the Philistine giant Goliath and the young Israelite David.",
+      "associations": [
+        "First Book of Samuel",
+        "valley of Elah",
+        "Philistines",
+        "Israelites"
+      ],
+      "clue_ids": [
+        "5b7b55d935",
+        "e37077347b"
+      ]
+    },
+    {
+      "id": "six-cubits",
+      "label": "six cubits and a span",
+      "statement": "The King James Bible puts Goliath at six cubits and a span tall, a giant by any measure.",
+      "associations": [
+        "six cubits",
+        "a span",
+        "giant"
+      ],
+      "clue_ids": [
+        "4e389a079f",
+        "f3a005c347"
+      ]
+    },
+    {
+      "id": "sling",
+      "label": "a sling",
+      "statement": "David brings down the heavily armed Goliath with a shepherd's sling, the weapon also usable as an arm splint.",
+      "associations": [
+        "sling",
+        "shepherd",
+        "stone"
+      ],
+      "clue_ids": [
+        "fff0c82f21",
+        "8cb389097d"
+      ]
+    },
+    {
+      "id": "philistines",
+      "label": "the Philistines",
+      "statement": "Goliath is a Philistine, the Aegean people who also count Delilah among their villains and who steal the Ark of God.",
+      "associations": [
+        "Philistines",
+        "Delilah",
+        "Ark of God"
+      ],
+      "clue_ids": [
+        "023ab7a0cb",
+        "593edf3cad"
+      ]
+    },
+    {
+      "id": "jonathan",
+      "label": "Jonathan",
+      "statement": "Jonathan, Saul's eldest son, befriends David soon after the Goliath kill.",
+      "associations": [
+        "Jonathan",
+        "Saul",
+        "friendship"
+      ],
+      "clue_ids": [
+        "1c4739ac36"
+      ]
+    },
+    {
+      "id": "del-castagno",
+      "label": "Andrea del Castagno's David",
+      "statement": "Andrea del Castagno painted David on a shield with Goliath's severed head at his feet.",
+      "associations": [
+        "Andrea del Castagno",
+        "shield",
+        "severed head"
+      ],
+      "clue_ids": [
+        "e2642e0b98"
+      ]
+    },
+    {
+      "id": "underdog",
+      "label": "David and Goliath",
+      "statement": "The pair became a byword for the underdog: Malcolm Gladwell used them in a book title, and a 1951 film cast 7-foot wrestler Walter Talun as Goliath.",
+      "associations": [
+        "Malcolm Gladwell",
+        "underdog",
+        "Walter Talun"
+      ],
+      "clue_ids": [
+        "1d7f52c3ba",
+        "6d1718b6b7"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "5b7b55d935",
+    "e37077347b",
+    "4e389a079f",
+    "f3a005c347",
+    "fff0c82f21",
+    "8cb389097d",
+    "023ab7a0cb",
+    "593edf3cad",
+    "1c4739ac36",
+    "e2642e0b98",
+    "1d7f52c3ba",
+    "6d1718b6b7"
+  ],
+  "related": [
+    "moses",
+    "jerusalem",
+    "ancient-egypt"
+  ]
+}

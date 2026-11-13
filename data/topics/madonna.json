@@ -1,0 +1,58 @@
+{
+  "id": "madonna",
+  "name": "Madonna",
+  "deck": "music",
+  "aliases": ["Madonna Louise Ciccone"],
+  "hook": "The Material Girl who reinvented herself from \"Like a Virgin\" to Evita, Vogue and beyond.",
+  "facts": [
+    {
+      "id": "like-a-virgin",
+      "label": "Like a Virgin",
+      "statement": "The 1984 album Like a Virgin spawned four Top 5 hits, including \"Material Girl,\" and its title song was her first Billboard No. 1.",
+      "associations": ["Like a Virgin", "1984", "first No. 1", "Material Girl"],
+      "clue_ids": ["4efc54aeb2", "f7aeaaa06a"]
+    },
+    {
+      "id": "material-girl",
+      "label": "Material Girl",
+      "statement": "The 1985 hit \"Material Girl\" gave Madonna her nickname; its line is \"'cause the boy with the cold hard cash is always Mr. Right.\"",
+      "associations": ["Material Girl", "nickname", "1985"],
+      "clue_ids": ["524c754277", "e83e1ca937"]
+    },
+    {
+      "id": "papa-dont-preach",
+      "label": "Papa Don't Preach",
+      "statement": "\"Papa Don't Preach\" was a 1986 No. 1 in which Madonna asks her father not to sermonize, and Danny Aiello played the father in its video.",
+      "associations": ["Papa Don't Preach", "1986", "No. 1", "Danny Aiello"],
+      "clue_ids": ["c191a9858f", "6bb798926b"]
+    },
+    {
+      "id": "evita",
+      "label": "Evita",
+      "statement": "Madonna played Eva Perón, the first lady of Argentina, in the 1996 film Evita, and performed a song from the balcony of Buenos Aires' presidential palace.",
+      "associations": ["Evita", "Eva Perón", "1996", "Buenos Aires"],
+      "clue_ids": ["9e04e14153", "a5d6eed089", "aa004cc9f2"]
+    },
+    {
+      "id": "vogue",
+      "label": "Vogue",
+      "statement": "The 1990 hit \"Vogue\" namechecks Greta Garbo and Marilyn Monroe, and it brought the drag-ball dance style vogue to the mainstream.",
+      "associations": ["Vogue", "1990", "Greta Garbo", "Marilyn Monroe"],
+      "clue_ids": ["c8e2a79fc2", "090cec4e6e"]
+    },
+    {
+      "id": "a-league-of-their-own",
+      "label": "A League of Their Own",
+      "statement": "Madonna co-starred in the 1992 film A League of Their Own, and her song \"This Used to Be My Playground\" played over its closing credits.",
+      "associations": ["A League of Their Own", "1992", "This Used to Be My Playground"],
+      "clue_ids": ["5fec1f0e89", "4a23cab4f1"]
+    }
+  ],
+  "clue_ids": [
+    "4efc54aeb2", "f7aeaaa06a", "524c754277", "e83e1ca937", "c191a9858f",
+    "6bb798926b", "9e04e14153", "a5d6eed089", "aa004cc9f2", "c8e2a79fc2",
+    "090cec4e6e", "5fec1f0e89", "4a23cab4f1", "40c36d029c", "50358a7ad1",
+    "73247bedbd", "73b1f52fa4"
+  ],
+  "related": ["michael-jackson", "billboard", "the-beatles"]
+}

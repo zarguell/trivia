@@ -1,0 +1,65 @@
+{
+  "id": "johannes-vermeer",
+  "name": "Johannes Vermeer",
+  "deck": "arts",
+  "aliases": ["Vermeer", "Girl with a Pearl Earring"],
+  "hook": "The Dutch master of light behind \"Girl with a Pearl Earring\" and \"The Milkmaid.\"",
+  "facts": [
+    {
+      "id": "dutch-master",
+      "label": "Dutch master",
+      "statement": "Vermeer was a 17th-century Dutch master who painted in Delft; only about 35 of his paintings are known.",
+      "associations": ["Dutch", "17th century", "Delft", "about 35 paintings"],
+      "clue_ids": ["4e3aea7f62", "ff1a2ff829", "51dadaa6ac"]
+    },
+    {
+      "id": "pearl-earring-film",
+      "label": "Girl with a Pearl Earring (film)",
+      "statement": "The 2003 film \"Girl with a Pearl Earring\" stars Scarlett Johansson as the model and Colin Firth as Vermeer.",
+      "associations": ["Girl with a Pearl Earring", "Scarlett Johansson", "Colin Firth", "2003 film"],
+      "clue_ids": ["2ce8667776", "8fa78ea701", "3bd215bfad"]
+    },
+    {
+      "id": "tracy-chevalier",
+      "label": "Tracy Chevalier",
+      "statement": "Tracy Chevalier wrote the novel \"Girl with a Pearl Earring,\" inspired by the painting; her surname means \"knight.\"",
+      "associations": ["Tracy Chevalier", "novel", "Griet", "surname means knight"],
+      "clue_ids": ["cd2a417793", "6e57fd1fb2", "c31bd36513"]
+    },
+    {
+      "id": "milkmaid",
+      "label": "The Milkmaid",
+      "statement": "\"The Milkmaid,\" also called \"The Kitchen Maid,\" hangs in Amsterdam's Rijksmuseum, which also holds \"Woman in Blue Reading a Letter.\"",
+      "associations": ["The Milkmaid", "Rijksmuseum", "Amsterdam", "Kitchen Maid"],
+      "clue_ids": ["c8e2fde760", "b190904c13", "94c4388d44"]
+    },
+    {
+      "id": "view-of-delft",
+      "label": "View of Delft",
+      "statement": "\"View of Delft\" is his cityscape of Delft, painted a few years after a devastating powder-magazine explosion there.",
+      "associations": ["View of Delft", "cityscape", "powder explosion"],
+      "clue_ids": ["4860495cbc", "7f6777462f"]
+    },
+    {
+      "id": "camera-obscura",
+      "label": "camera obscura",
+      "statement": "Some scholars think Vermeer used a camera obscura — Latin for \"dark chamber\" — to achieve his paintings' photographic look.",
+      "associations": ["camera obscura", "dark chamber", "optical device"],
+      "clue_ids": ["7e9223d09c"]
+    },
+    {
+      "id": "van-meegeren",
+      "label": "Han van Meegeren",
+      "statement": "Forger Han van Meegeren sold fake Vermeers to Nazis including Hermann Goering, then proved the forgery to escape a death sentence.",
+      "associations": ["Han van Meegeren", "forgery", "Hermann Goering", "Nazis"],
+      "clue_ids": ["cb8986647e", "85c8e60c75"]
+    }
+  ],
+  "clue_ids": [
+    "e1b46dc320", "cb8986647e", "3bd215bfad", "2ce8667776", "51dadaa6ac",
+    "4e3aea7f62", "cd2a417793", "8fa78ea701", "7e9223d09c", "4860495cbc",
+    "c8e2fde760", "b190904c13", "7f6777462f", "c31bd36513", "94c4388d44",
+    "85c8e60c75", "ff1a2ff829", "d857510367"
+  ],
+  "related": ["mona-lisa", "rembrandt", "leonardo-da-vinci"]
+}

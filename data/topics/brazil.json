@@ -1,0 +1,65 @@
+{
+  "id": "brazil",
+  "name": "Brazil",
+  "deck": "geography",
+  "aliases": ["Brazilian"],
+  "hook": "From brazilwood to Pelé: the South American giant in six facts.",
+  "facts": [
+    {
+      "id": "name",
+      "label": "brazilwood",
+      "statement": "Brazil was first called Vera Cruz and was renamed for brazilwood, the tree that gave the country its name and an early export.",
+      "associations": ["brazilwood", "Vera Cruz", "tree", "export"],
+      "clue_ids": ["b83f8c515e"]
+    },
+    {
+      "id": "royal-family",
+      "label": "the Portuguese court in Brazil",
+      "statement": "When the Portuguese royal family fled to Brazil in 1807, Brazil became the only South American country ruled from a European capital.",
+      "associations": ["1807", "Portuguese court", "only colony ruled from Europe"],
+      "clue_ids": ["002e21ed46"]
+    },
+    {
+      "id": "amazon",
+      "label": "the Amazon",
+      "statement": "The Amazon reaches the Atlantic at the equator near Macapá, and the Rio Madeira is one of its major tributaries.",
+      "associations": ["Amazon", "Macapá", "equator", "Rio Madeira"],
+      "clue_ids": ["f712e031b9", "509543c17d"]
+    },
+    {
+      "id": "rio",
+      "label": "Rio de Janeiro",
+      "statement": "Rio de Janeiro was Brazil's capital and is home to Maracanã stadium; its main post office is a palace built for Portuguese rulers.",
+      "associations": ["Rio de Janeiro", "Maracanã", "former capital", "post office palace"],
+      "clue_ids": ["496a04a2ca", "1e03045c04"]
+    },
+    {
+      "id": "sao-paulo",
+      "label": "São Paulo",
+      "statement": "São Paulo, founded by Jesuits in 1554, is Brazil's largest city, home to its top-ranked university and the tomb of Pedro I.",
+      "associations": ["São Paulo", "1554", "largest city", "Pedro I"],
+      "clue_ids": ["c4152906c8", "d51fd14e82", "3576d0dfa2"]
+    },
+    {
+      "id": "coffee",
+      "label": "coffee",
+      "statement": "Coffee became Brazil's top export by 1830; in 1932 the Olympic team sold bags of it to pay for the trip to Los Angeles.",
+      "associations": ["coffee", "top export", "1830", "1932 Olympics"],
+      "clue_ids": ["fb5ba4a157", "7fb4923256"]
+    },
+    {
+      "id": "pele",
+      "label": "Pelé",
+      "statement": "Pelé led Brazil to the first of its five World Cup titles in 1958 and appeared in the film Victory.",
+      "associations": ["Pelé", "1958 World Cup", "five titles", "Victory"],
+      "clue_ids": ["fc5d2aec11", "1542f5dc7f"]
+    }
+  ],
+  "clue_ids": [
+    "b83f8c515e", "002e21ed46", "f712e031b9", "509543c17d", "496a04a2ca",
+    "1e03045c04", "c4152906c8", "d51fd14e82", "3576d0dfa2", "fb5ba4a157",
+    "7fb4923256", "fc5d2aec11", "1542f5dc7f", "404d350f8c", "6e1613b694",
+    "a414992b2b", "b0a6e8ea63", "d7fe7bd827"
+  ],
+  "related": ["amazon", "portugal"]
+}

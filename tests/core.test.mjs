@@ -1,0 +1,57 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { normAnswer, isAnswer, optionsFor, shape, levenshtein } from "../site/client/core.js";
+
+test("normalization strips question scaffolding and articles", () => {
+  assert.equal(normAnswer("What is the Mona Lisa?"), "mona lisa");
+  assert.equal(normAnswer("Who was Margaret Mitchell"), "margaret mitchell");
+  assert.equal(normAnswer("  Café  Society "), "cafe society");
+  assert.equal(normAnswer("The Beatles"), "beatles");
+});
+
+test("exact and near-exact answers pass", () => {
+  assert.ok(isAnswer("Mona Lisa", "Mona Lisa"));
+  assert.ok(isAnswer("mona lisa", "Mona Lisa"));
+  assert.ok(isAnswer("pistacio", "pistachio"));
+  assert.ok(isAnswer("Gone With The Wind", "Gone with the Wind"));
+});
+
+test("surnames and partial names pass, weak fragments do not", () => {
+  assert.ok(isAnswer("Mitchell", "Margaret Mitchell"));
+  assert.ok(isAnswer("van gogh", "Vincent van Gogh"));
+  assert.ok(!isAnswer("gone", "Gone with the Wind"));
+  assert.ok(!isAnswer("the", "The Godfather"));
+});
+
+test("wrong numbers and unrelated answers fail", () => {
+  assert.ok(!isAnswer("1952", "1953"));
+  assert.ok(!isAnswer("Picasso", "Michelangelo"));
+  assert.ok(!isAnswer("", "Zeus"));
+});
+
+test("levenshtein sanity", () => {
+  assert.equal(levenshtein("kitten", "sitting"), 3);
+  assert.equal(levenshtein("", "abc"), 3);
+});
+
+test("shape distinguishes people, places, numbers", () => {
+  assert.equal(shape("Margaret Mitchell"), "name");
+  assert.equal(shape("(James) Buchanan"), "proper");
+  assert.equal(shape("the Alamo"), "proper");
+  assert.equal(shape("1912"), "num");
+  assert.equal(shape("pistachio"), "common");
+});
+
+test("multiple choice always includes the answer, four unique options", () => {
+  const pool = [
+    { a: "Margaret Mitchell" }, { a: "Harper Lee" }, { a: "Mark Twain" },
+    { a: "Ernest Hemingway" }, { a: "Atlanta" }, { a: "1936" },
+  ];
+  const clue = { a: "Margaret Mitchell" };
+  for (let i = 0; i < 30; i++) {
+    const opts = optionsFor(clue, pool);
+    assert.equal(opts.length, 4);
+    assert.equal(new Set(opts).size, 4);
+    assert.ok(opts.includes("Margaret Mitchell"));
+  }
+});

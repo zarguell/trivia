@@ -1,0 +1,49 @@
+{
+  "id": "mickey-mouse",
+  "name": "Mickey Mouse",
+  "deck": "pop-culture",
+  "aliases": ["Mickey"],
+  "hook": "A cartoon star, a theme-park empire, and one very large rat joke.",
+  "facts": [
+    {
+      "id": "creator",
+      "label": "Walt Disney",
+      "statement": "Walt Disney created Mickey Mouse, who became the Disney studio's most famous cartoon star.",
+      "associations": ["Walt Disney", "creator", "Disney studio"],
+      "clue_ids": ["36f004c63a", "570caca4a6"]
+    },
+    {
+      "id": "pluto",
+      "label": "Pluto",
+      "statement": "Pluto is Mickey's dog companion and got his own cartoon shorts, including 1945's Canine Casanova.",
+      "associations": ["Pluto", "Canine Casanova", "dog"],
+      "clue_ids": ["8ab01f6f16", "2bf46c20bc"]
+    },
+    {
+      "id": "sorcerer",
+      "label": "The Sorcerer's Apprentice",
+      "statement": "Mickey plays the Sorcerer's Apprentice in Fantasia, and after the performance he shook hands with conductor Leopold Stokowski.",
+      "associations": ["Fantasia", "The Sorcerer's Apprentice", "Leopold Stokowski"],
+      "clue_ids": ["98e88a73e1", "5b3825ea93", "58100a409c"]
+    },
+    {
+      "id": "six-foot-rat",
+      "label": "the 6-foot rat",
+      "statement": "Robin Williams joked that to a 3-year-old, Mickey is a 6-foot rat.",
+      "associations": ["Robin Williams", "6-foot rat", "3-year-old"],
+      "clue_ids": ["9eb0a382ed", "ed488fb82d"]
+    },
+    {
+      "id": "miniature-golf",
+      "label": "Fantasia miniature golf",
+      "statement": "Disney World's miniature golf course is named for Fantasia, the film that cast Mickey as the Sorcerer's Apprentice.",
+      "associations": ["Disney World", "miniature golf", "Fantasia"],
+      "clue_ids": ["2c7c9995eb"]
+    }
+  ],
+  "clue_ids": [
+    "36f004c63a", "570caca4a6", "8ab01f6f16", "2bf46c20bc", "98e88a73e1",
+    "5b3825ea93", "58100a409c", "9eb0a382ed", "ed488fb82d", "2c7c9995eb"
+  ],
+  "related": ["disney", "marvel"]
+}

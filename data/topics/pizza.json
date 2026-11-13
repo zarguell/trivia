@@ -1,0 +1,64 @@
+{
+  "id": "pizza",
+  "name": "Pizza",
+  "deck": "food-drink",
+  "aliases": [],
+  "hook": "Naples to deep dish: the pie, the toppings and the delivery chains Jeopardy keeps asking about.",
+  "facts": [
+    {
+      "id": "naples",
+      "label": "Naples",
+      "statement": "Pizza originated in Naples; a calzone is a turnover of pizza dough stuffed with meats, cheese and vegetables.",
+      "associations": ["Naples", "calzone", "pizza dough", "turnover"],
+      "clue_ids": ["ae70c8f7d1", "065f47597c"]
+    },
+    {
+      "id": "pepperoni",
+      "label": "pepperoni",
+      "statement": "Pepperoni is the most popular pizza topping in the U.S., and Papa John's puts it on \"The Meats.\"",
+      "associations": ["pepperoni", "most popular topping", "The Meats"],
+      "clue_ids": ["4a7b05c074", "d754a8c14e"]
+    },
+    {
+      "id": "hawaiian",
+      "label": "Hawaiian pizza",
+      "statement": "Hawaiian pizza tops the crust with ham or Canadian bacon and pineapple — the combination Gordon Ramsay refuses to accept.",
+      "associations": ["Hawaiian pizza", "pineapple", "Canadian bacon", "Gordon Ramsay"],
+      "clue_ids": ["25b7bf48ad", "013fe397bb"]
+    },
+    {
+      "id": "chicago-deep-dish",
+      "label": "Chicago deep dish",
+      "statement": "Chicago is the home of deep-dish pizza, and its Taste of Chicago festival fills Grant Park.",
+      "associations": ["Chicago", "deep dish", "Taste of Chicago", "Grant Park"],
+      "clue_ids": ["01bcf2beac", "141c5e6e5a"]
+    },
+    {
+      "id": "sicilian",
+      "label": "Sicilian",
+      "statement": "Square-cut pizza is called Sicilian, after the large Mediterranean island.",
+      "associations": ["Sicilian", "square pizza", "Sicily"],
+      "clue_ids": ["f76fc02b11"]
+    },
+    {
+      "id": "mozzarella",
+      "label": "mozzarella",
+      "statement": "Mozzarella is the pizza cheese; Pizza Hut's 1995 stuffed crust was filled with \"100% real\" mozzarella, and it is sold as string cheese.",
+      "associations": ["mozzarella", "stuffed crust", "string cheese", "Pizza Hut"],
+      "clue_ids": ["12fd9576d8", "5e242d89e0"]
+    },
+    {
+      "id": "dominos",
+      "label": "Domino's",
+      "statement": "James Monaghan traded his half of Domino's to his brother Tom for a Volkswagen Beetle — a famously bad deal.",
+      "associations": ["Domino's", "James Monaghan", "VW Beetle", "Tom Monaghan"],
+      "clue_ids": ["50b68c24a1"]
+    }
+  ],
+  "clue_ids": [
+    "ae70c8f7d1", "065f47597c", "4a7b05c074", "d754a8c14e", "25b7bf48ad",
+    "013fe397bb", "01bcf2beac", "141c5e6e5a", "f76fc02b11", "12fd9576d8",
+    "5e242d89e0", "50b68c24a1"
+  ],
+  "related": ["tomato", "coca-cola", "mcdonald-s"]
+}

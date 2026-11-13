@@ -1,0 +1,65 @@
+{
+  "id": "suez-canal",
+  "name": "Suez Canal",
+  "deck": "geography",
+  "aliases": ["the Highway to India"],
+  "hook": "De Lesseps, Disraeli's shares and Nasser's seizure — the shortcut that keeps becoming a crisis.",
+  "facts": [
+    {
+      "id": "opened",
+      "label": "1869",
+      "statement": "Completed in 1869 and nicknamed \"the Highway to India,\" the canal has no locks because the Mediterranean and the Red Sea sit at nearly the same level.",
+      "associations": ["1869", "Highway to India", "no locks"],
+      "clue_ids": ["012276bd0f", "c110586fbb"]
+    },
+    {
+      "id": "lesseps",
+      "label": "Ferdinand de Lesseps",
+      "statement": "French diplomat Ferdinand de Lesseps promoted and built the Suez Canal, then failed at Panama.",
+      "associations": ["de Lesseps", "French", "Panama failure"],
+      "clue_ids": ["daf6f73105", "0e55c88ae9"]
+    },
+    {
+      "id": "port-said",
+      "label": "Port Said",
+      "statement": "Port Said, founded when construction began in 1859, stands where the canal meets the Mediterranean.",
+      "associations": ["Port Said", "Mediterranean", "1859"],
+      "clue_ids": ["79512f44e1", "22ec7ebea7", "55ba935434"]
+    },
+    {
+      "id": "nasser",
+      "label": "Gamal Abdel Nasser",
+      "statement": "Nasser nationalized the canal on July 26, 1956, to collect tolls for the Aswan Dam, setting off the Suez Crisis.",
+      "associations": ["Nasser", "1956", "Aswan Dam", "nationalized"],
+      "clue_ids": ["25998f166e", "73584d57e6", "c74e130962"]
+    },
+    {
+      "id": "rothschilds",
+      "label": "the Rothschilds",
+      "statement": "In 1875 the Rothschilds floated the loan that let Britain buy Egypt's shares in the canal.",
+      "associations": ["Rothschilds", "1875", "British shares"],
+      "clue_ids": ["035f19b3aa", "199d7c6466", "7ff79e74c8"]
+    },
+    {
+      "id": "sinai",
+      "label": "the Sinai Peninsula",
+      "statement": "The canal separates the Sinai Peninsula — and Africa — from the rest of Asia.",
+      "associations": ["Sinai Peninsula", "Asia–Africa border", "Egypt"],
+      "clue_ids": ["cc505920e2", "639ff732d3", "25e2f39844"]
+    },
+    {
+      "id": "liberty",
+      "label": "the Statue of Liberty",
+      "statement": "Frédéric Bartholdi first wanted his colossal statue to light the way to Asia at the Suez Canal; when that plan died, it became the Statue of Liberty in New York.",
+      "associations": ["Bartholdi", "Statue of Liberty", "original plan"],
+      "clue_ids": ["ae7f9a9ee1"]
+    }
+  ],
+  "clue_ids": [
+    "012276bd0f", "c110586fbb", "daf6f73105", "0e55c88ae9", "79512f44e1",
+    "22ec7ebea7", "55ba935434", "25998f166e", "73584d57e6", "c74e130962",
+    "035f19b3aa", "199d7c6466", "7ff79e74c8", "cc505920e2", "639ff732d3",
+    "25e2f39844", "ae7f9a9ee1", "2826853010"
+  ],
+  "related": ["panama-canal", "egypt", "ancient-egypt"]
+}

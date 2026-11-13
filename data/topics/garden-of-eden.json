@@ -1,0 +1,64 @@
+{
+  "id": "garden-of-eden",
+  "name": "Garden of Eden",
+  "deck": "myth-religion",
+  "aliases": ["Adam and Eve", "Eden"],
+  "hook": "Four rivers, one forbidden fruit and a couple expelled: Eden's clues stay in Genesis.",
+  "facts": [
+    {
+      "id": "genesis",
+      "label": "Genesis",
+      "statement": "In Genesis, God plants Eden and puts Adam there \"to dress it and keep it\"; the name is Hebrew for \"pleasure\" or \"delight.\"",
+      "associations": ["Genesis", "Adam", "Hebrew for delight", "to dress and keep it"],
+      "clue_ids": ["faa39ba7d6", "7d65c2416f"]
+    },
+    {
+      "id": "rivers",
+      "label": "its four rivers",
+      "statement": "Four rivers flow out of Eden: the Pison, Gihon, Hiddekel (Tigris) and Euphrates; Babylon later rose on the Euphrates.",
+      "associations": ["Pison", "Gihon", "Hiddekel", "Euphrates"],
+      "clue_ids": ["6ee33be0fa", "bb1555b3a2", "5f5b2edf03"]
+    },
+    {
+      "id": "adam-eve",
+      "label": "Adam and Eve",
+      "statement": "Adam and Eve are the first couple; after eating the forbidden fruit they are expelled, and an archangel with a sword guards the way back.",
+      "associations": ["Adam and Eve", "forbidden fruit", "expulsion", "archangel"],
+      "clue_ids": ["3d82c5da65", "af0cb568b7"]
+    },
+    {
+      "id": "cain",
+      "label": "Cain and Seth",
+      "statement": "Cain kills his brother Abel and is exiled to the land of Nod, east of Eden; Seth is the third son born to Adam and Eve.",
+      "associations": ["Cain", "Abel", "land of Nod", "Seth"],
+      "clue_ids": ["eead2393bc", "62c5626bdd", "45fab04055"]
+    },
+    {
+      "id": "paradise-lost",
+      "label": "Paradise Lost",
+      "statement": "Milton's 1667 epic Paradise Lost retells the Fall, with the angel Michael leading Adam and Eve out of Eden.",
+      "associations": ["Paradise Lost", "John Milton", "1667", "the Fall"],
+      "clue_ids": ["3e2ddd245e", "43322ed412"]
+    },
+    {
+      "id": "paradise",
+      "label": "paradise",
+      "statement": "Eden became a synonym for any ideal place; \"paradise\" comes from an ancient Persian word for an enclosed park.",
+      "associations": ["paradise", "ideal place", "Persian", "enclosed park"],
+      "clue_ids": ["af0cb568b7", "7d65c2416f"]
+    },
+    {
+      "id": "ask-embla",
+      "label": "Ask and Embla",
+      "statement": "In Scandinavian mythology, Ask and Embla are the first man and woman, the Norse counterparts of Adam and Eve.",
+      "associations": ["Ask and Embla", "Norse", "first couple"],
+      "clue_ids": ["86a458483d"]
+    }
+  ],
+  "clue_ids": [
+    "3d82c5da65", "86a458483d", "6ee33be0fa", "7d65c2416f", "faa39ba7d6",
+    "eead2393bc", "62c5626bdd", "68e6b323c2", "45fab04055", "3e2ddd245e",
+    "43322ed412", "bb1555b3a2", "5f5b2edf03", "af0cb568b7"
+  ],
+  "related": ["noah-s-ark", "moses", "ten-commandments"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "claude-monet",
+  "name": "Claude Monet",
+  "deck": "arts",
+  "aliases": ["Monet"],
+  "hook": "The painter of light on water: haystacks, cathedrals, and the pond at Giverny.",
+  "facts": [
+    {
+      "id": "impression-sunrise",
+      "label": "Impression, Sunrise",
+      "statement": "Impression, Sunrise (1872), a Le Havre port scene, gave Impressionism its name after critic Louis Leroy mocked it in 1874.",
+      "associations": ["Impression, Sunrise", "1872", "Le Havre", "Louis Leroy"],
+      "clue_ids": ["97ddcb2a25", "5f48c5600e", "092021b22b"]
+    },
+    {
+      "id": "giverny",
+      "label": "Giverny",
+      "statement": "Monet settled at Giverny in 1883 and built the water-lily pond that inspired his late paintings; he died there in 1926.",
+      "associations": ["Giverny", "1883", "water-lily pond", "1926"],
+      "clue_ids": ["97462b8106", "af08fd03b7", "47e19791af"]
+    },
+    {
+      "id": "water-lilies",
+      "label": "the Water Lilies",
+      "statement": "His Nymphéas series, exhibited in 1909, grew out of the pond at Giverny; the water lily is also a July birth flower.",
+      "associations": ["Nymphéas", "Water Lilies", "1909", "water lily"],
+      "clue_ids": ["bd30eb55f5", "88e92842d4", "efaae9aa59"]
+    },
+    {
+      "id": "rouen",
+      "label": "Rouen Cathedral",
+      "statement": "Monet painted Rouen Cathedral repeatedly, a series of views of the Gothic facade in changing light.",
+      "associations": ["Rouen Cathedral", "series", "Gothic facade"],
+      "clue_ids": ["172b716175", "5aaa1d657d"]
+    },
+    {
+      "id": "thames",
+      "label": "the Thames",
+      "statement": "From 1899 to 1904 Monet painted the Thames and the Houses of Parliament in London.",
+      "associations": ["the Thames", "London", "Houses of Parliament"],
+      "clue_ids": ["e8b3c31733", "c2cb77cf47"]
+    },
+    {
+      "id": "camille",
+      "label": "Camille Monet",
+      "statement": "Monet's wife Camille was a frequent model, notably in Woman with a Parasol.",
+      "associations": ["Camille Monet", "Woman with a Parasol", "model"],
+      "clue_ids": ["291e1d952b"]
+    },
+    {
+      "id": "palette",
+      "label": "the rainbow palette",
+      "statement": "In the 1870s Monet introduced a \"rainbow palette,\" banning black and brown from his work.",
+      "associations": ["rainbow palette", "no black", "no brown"],
+      "clue_ids": ["25a5392db2", "e378d5bb89"]
+    }
+  ],
+  "clue_ids": [
+    "b482e3103d", "bd30eb55f5", "291e1d952b", "af08fd03b7", "092021b22b",
+    "47e19791af", "97462b8106", "88e92842d4", "5aaa1d657d", "172b716175",
+    "e8b3c31733", "c2cb77cf47", "e378d5bb89", "97ddcb2a25", "5f48c5600e",
+    "25a5392db2", "6f559433a7"
+  ],
+  "related": ["vincent-van-gogh", "rembrandt", "pablo-picasso", "michelangelo"]
+}

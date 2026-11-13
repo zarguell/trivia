@@ -1,0 +1,65 @@
+{
+  "id": "sushi",
+  "name": "Sushi",
+  "deck": "food-drink",
+  "aliases": [],
+  "hook": "Rice, seaweed and the fish names — the six things most sushi clues actually test.",
+  "facts": [
+    {
+      "id": "vinegared-rice",
+      "label": "vinegared rice",
+      "statement": "Sushi is vinegared rice — hosomaki and futomaki are roll types — while the raw fish alone is called sashimi.",
+      "associations": ["vinegared rice", "hosomaki", "futomaki", "sashimi"],
+      "clue_ids": ["58d238407b", "a832626ffe", "cdd66fa199"]
+    },
+    {
+      "id": "nori",
+      "label": "nori",
+      "statement": "Nori is the dried seaweed, actually a red alga, sold in sheets to wrap sushi.",
+      "associations": ["nori", "dried seaweed", "red algae", "sheets"],
+      "clue_ids": ["1d09d62b23", "78b6dd6c59", "539b424859"]
+    },
+    {
+      "id": "wasabi",
+      "label": "wasabi",
+      "statement": "Wasabi is the hot green sushi condiment; the green paste commonly served is horseradish.",
+      "associations": ["wasabi", "horseradish", "green paste"],
+      "clue_ids": ["c1e13349d4", "7fc66da2fa", "fb4bbdb04d"]
+    },
+    {
+      "id": "gari",
+      "label": "gari",
+      "statement": "Gari is pickled ginger, eaten between pieces of sushi to cleanse the palate.",
+      "associations": ["gari", "pickled ginger", "palate cleanser"],
+      "clue_ids": ["41e58d1329", "d5c365a593"]
+    },
+    {
+      "id": "california-roll",
+      "label": "California roll",
+      "statement": "The California roll was created in Los Angeles by Ichiro Mashita, substituting avocado and crab for tuna.",
+      "associations": ["California roll", "Ichiro Mashita", "avocado", "crab"],
+      "clue_ids": ["580609d982", "0d3bbae9b7"]
+    },
+    {
+      "id": "toro",
+      "label": "toro",
+      "statement": "Toro is the fatty belly of tuna, the most valuable cut at a sushi bar.",
+      "associations": ["toro", "tuna belly", "fatty tuna", "delicacy"],
+      "clue_ids": ["46e16ac65e", "91e8d996ad"]
+    },
+    {
+      "id": "hamachi",
+      "label": "hamachi",
+      "statement": "Hamachi is yellowtail; the same fish is called inada or buri depending on its age and size.",
+      "associations": ["hamachi", "yellowtail", "inada", "buri"],
+      "clue_ids": ["ec107cbed6", "f567fefbbc"]
+    }
+  ],
+  "clue_ids": [
+    "58d238407b", "a832626ffe", "cdd66fa199", "1d09d62b23", "78b6dd6c59",
+    "539b424859", "c1e13349d4", "7fc66da2fa", "fb4bbdb04d", "41e58d1329",
+    "d5c365a593", "580609d982", "0d3bbae9b7", "46e16ac65e", "91e8d996ad",
+    "ec107cbed6", "f567fefbbc"
+  ],
+  "related": ["pizza", "champagne"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "superman",
+  "name": "Superman",
+  "deck": "pop-culture",
+  "aliases": [],
+  "hook": "The Man of Steel: kryptonite, Lois Lane and the many faces of Clark Kent.",
+  "facts": [
+    {
+      "id": "kryptonite",
+      "label": "kryptonite",
+      "statement": "Kryptonite first appeared in a 1943 Adventures of Superman radio show; when it reached the comics in 1949 it was red, not green.",
+      "associations": [
+        "kryptonite",
+        "1943 radio",
+        "1949",
+        "red"
+      ],
+      "clue_ids": [
+        "b2617fcc3c",
+        "529272f35b"
+      ]
+    },
+    {
+      "id": "metropolis",
+      "label": "Metropolis, Illinois",
+      "statement": "Metropolis, at the tip of Illinois, has a Superman statue, a casino and a multi-day Superman celebration.",
+      "associations": [
+        "Metropolis",
+        "Illinois",
+        "statue",
+        "Superman celebration"
+      ],
+      "clue_ids": [
+        "fcb16f5684",
+        "04b8cd210a"
+      ]
+    },
+    {
+      "id": "lois",
+      "label": "Lois Lane",
+      "statement": "Lois Lane is the Daily Planet reporter played by Margot Kidder in Superman II; Papa John's once gave free pizzas to anyone on a street named Lois Lane.",
+      "associations": [
+        "Lois Lane",
+        "reporter",
+        "Margot Kidder"
+      ],
+      "clue_ids": [
+        "5c5f8bef4a",
+        "a9e3fbaa55"
+      ]
+    },
+    {
+      "id": "reeve",
+      "label": "Christopher Reeve",
+      "statement": "Christopher Reeve played Superman in the 1978 film after rooming with Robin Williams at Juilliard; he had earlier played 'Superman' on Love of Life.",
+      "associations": [
+        "Christopher Reeve",
+        "Juilliard",
+        "1978",
+        "Love of Life"
+      ],
+      "clue_ids": [
+        "3530341b69",
+        "8ef3a3ece4"
+      ]
+    },
+    {
+      "id": "george-reeves",
+      "label": "George Reeves",
+      "statement": "George Reeves played TV's Superman in the 1950s; his mysterious death inspired the film Hollywoodland.",
+      "associations": [
+        "George Reeves",
+        "1950s TV",
+        "Hollywoodland"
+      ],
+      "clue_ids": [
+        "ef98692d8c",
+        "30b256afd8"
+      ]
+    },
+    {
+      "id": "lex-luthor",
+      "label": "Lex Luthor",
+      "statement": "Lex Luthor is Superman's bald arch-villain, played by Gene Hackman in the 1978 film and obsessed with Superman since Action Comics No. 23 in 1940.",
+      "associations": [
+        "Lex Luthor",
+        "Gene Hackman",
+        "Action Comics"
+      ],
+      "clue_ids": [
+        "1fc039411e",
+        "9ad0f17a43"
+      ]
+    },
+    {
+      "id": "smallville",
+      "label": "Smallville",
+      "statement": "Smallville is the TV series where Lois and Clark marry and Clark finally wears the suit to save Lois aboard Air Force One; Remy Zero's 'Save Me' is its theme.",
+      "associations": [
+        "Smallville",
+        "Remy Zero",
+        "Air Force One",
+        "Lois and Clark"
+      ],
+      "clue_ids": [
+        "6c91932ec8",
+        "64434de65e"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "b2617fcc3c",
+    "529272f35b",
+    "fcb16f5684",
+    "04b8cd210a",
+    "5c5f8bef4a",
+    "a9e3fbaa55",
+    "3530341b69",
+    "8ef3a3ece4",
+    "ef98692d8c",
+    "30b256afd8",
+    "1fc039411e",
+    "9ad0f17a43",
+    "6c91932ec8",
+    "64434de65e",
+    "0b82acc339",
+    "d22b821790",
+    "018b8873b4",
+    "b1685476aa"
+  ],
+  "related": [
+    "batman",
+    "wonder-woman",
+    "star-wars"
+  ]
+}

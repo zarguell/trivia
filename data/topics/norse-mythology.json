@@ -1,0 +1,64 @@
+{
+  "id": "norse-mythology",
+  "name": "Norse mythology",
+  "deck": "myth-religion",
+  "aliases": ["Thor", "Odin", "Loki"],
+  "hook": "Thor's hammer, Odin's ravens and Loki's tricks cover most Norse myth clues.",
+  "facts": [
+    {
+      "id": "odin",
+      "label": "Odin",
+      "statement": "Odin is the top god, or Allfather, of Asgard. His ravens Huginn (thought) and Muninn (memory) fly over the nine worlds and bring him news.",
+      "associations": ["Odin", "Huginn and Muninn", "Allfather", "Asgard"],
+      "clue_ids": ["5f9fdb395a", "04281ba14d", "0d8d0f5533"]
+    },
+    {
+      "id": "thor",
+      "label": "Thor",
+      "statement": "Thor is the thunder god whose hammer, Mjolnir, Vikings wore as protective pendants. His realm in Asgard is Thrudheim, the \"Place of Might.\"",
+      "associations": ["Thor", "Mjolnir", "hammer", "Thrudheim"],
+      "clue_ids": ["282282fd08", "eb083eaad4"]
+    },
+    {
+      "id": "loki",
+      "label": "Loki",
+      "statement": "Loki is the trickster god who engineered Balder's death with mistletoe and often appeared as an old woman.",
+      "associations": ["Loki", "trickster", "mistletoe", "Balder"],
+      "clue_ids": ["0d93689741", "5ce386a766"]
+    },
+    {
+      "id": "balder",
+      "label": "Balder",
+      "statement": "Balder is the beautiful, beloved son of Odin and Frigg; all things swore not to harm him except mistletoe, the plant that killed him.",
+      "associations": ["Balder", "son of Odin", "Frigg", "mistletoe"],
+      "clue_ids": ["6f16e062c1", "e1428a4a7d"]
+    },
+    {
+      "id": "fenrir",
+      "label": "Fenrir",
+      "statement": "Fenrir is the giant wolf who will swallow Odin at Ragnarok, the final battle.",
+      "associations": ["Fenrir", "giant wolf", "Ragnarok", "swallows Odin"],
+      "clue_ids": ["b0540621b1", "c78d69719f", "0d8d0f5533"]
+    },
+    {
+      "id": "valhalla",
+      "label": "Valhalla",
+      "statement": "Valhalla is Odin's great hall where slain heroes feast and revel; the boar Saehrimnir is always the main course.",
+      "associations": ["Valhalla", "slain heroes", "Saehrimnir", "Odin's hall"],
+      "clue_ids": ["2e60cd2536", "830e1c6662"]
+    },
+    {
+      "id": "sleipnir",
+      "label": "Sleipnir",
+      "statement": "Sleipnir is the horse that carried Odin to the underworld; a feature on Pluto is named Sleipnir Fossa after it.",
+      "associations": ["Sleipnir", "Odin's horse", "underworld", "Pluto"],
+      "clue_ids": ["84e00af541"]
+    }
+  ],
+  "clue_ids": [
+    "0d8d0f5533", "b0540621b1", "c78d69719f", "6f16e062c1", "e1428a4a7d",
+    "0d93689741", "5ce386a766", "2e60cd2536", "830e1c6662", "282282fd08",
+    "5f9fdb395a", "04281ba14d", "84e00af541", "eb083eaad4", "564554a116"
+  ],
+  "related": ["zeus", "achilles"]
+}

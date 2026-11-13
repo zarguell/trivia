@@ -1,0 +1,65 @@
+{
+  "id": "eiffel-tower",
+  "name": "Eiffel Tower",
+  "deck": "arts",
+  "aliases": [],
+  "hook": "A despised iron eyesore that became Paris — and Jeopardy asks about the criticism, the rivets and the height.",
+  "facts": [
+    {
+      "id": "exposition",
+      "label": "the 1889 Universal Exposition",
+      "statement": "The tower was built for the 1889 Universal Exposition and honored the 100th anniversary of the French Revolution.",
+      "associations": ["1889", "Universal Exposition", "French Revolution"],
+      "clue_ids": ["c5fdb65532", "5b3af9413e"]
+    },
+    {
+      "id": "iron",
+      "label": "wrought iron",
+      "statement": "It is made of about 7,000 tons of iron: 18,038 pieces joined by 2.5 million rivets.",
+      "associations": ["iron", "2.5 million rivets", "18,038 pieces"],
+      "clue_ids": ["b763c8cd21", "0bf3f38aa3", "1dd1fb363a"]
+    },
+    {
+      "id": "tallest",
+      "label": "world's tallest structure",
+      "statement": "It was the world's tallest structure until the Chrysler Building surpassed it in 1930; before the tower, the Washington Monument held the title.",
+      "associations": ["Chrysler Building", "1930", "Washington Monument"],
+      "clue_ids": ["204c3f5d6b", "1ead0e138d", "06a81282e4"]
+    },
+    {
+      "id": "paris-seine",
+      "label": "Paris and the Seine",
+      "statement": "It stands in Paris on the Seine; the grassy Champ de Mars opposite it is named for the Roman god of war.",
+      "associations": ["Paris", "the Seine", "Champ de Mars"],
+      "clue_ids": ["56c89002df", "a3db74645b", "1b9479f868"]
+    },
+    {
+      "id": "petition",
+      "label": "the artists' petition",
+      "statement": "De Maupassant, Zola and Dumas fils were among those who signed a petition decrying it as \"a gigantic factory chimney.\"",
+      "associations": ["De Maupassant", "Zola", "factory chimney"],
+      "clue_ids": ["436734c2a8"]
+    },
+    {
+      "id": "antennas",
+      "label": "its antennas",
+      "statement": "Antennas raised the tower's height from 984 to 1,052 feet in 1957; a 1953 TV antenna had added about 70 feet.",
+      "associations": ["1,052 feet", "TV antenna", "1957"],
+      "clue_ids": ["450a38f36f", "caaaf2f991"]
+    },
+    {
+      "id": "reichelt",
+      "label": "Franz Reichelt",
+      "statement": "Tailor Franz Reichelt died around 1911 jumping from the Eiffel Tower to test a combination suit and parachute he invented.",
+      "associations": ["Franz Reichelt", "parachute", "1911"],
+      "clue_ids": ["610ce49a52", "2462707277"]
+    }
+  ],
+  "clue_ids": [
+    "c5fdb65532", "5b3af9413e", "b763c8cd21", "0bf3f38aa3", "1dd1fb363a",
+    "204c3f5d6b", "1ead0e138d", "06a81282e4", "56c89002df", "a3db74645b",
+    "1b9479f868", "436734c2a8", "450a38f36f", "caaaf2f991", "610ce49a52",
+    "2462707277"
+  ],
+  "related": ["paris", "statue-of-liberty", "france"]
+}

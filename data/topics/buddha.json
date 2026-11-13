@@ -1,0 +1,65 @@
+{
+  "id": "buddha",
+  "name": "Buddha",
+  "deck": "myth-religion",
+  "aliases": ["Siddhartha Gautama", "the Awakened One"],
+  "hook": "One prince, one bodhi tree, one middle path: the Buddha clues keep returning.",
+  "facts": [
+    {
+      "id": "siddhartha",
+      "label": "Siddhartha Gautama",
+      "statement": "The Buddha was born Siddhartha Gautama, a prince of the Sakya kingdom on the border of present-day Nepal and India.",
+      "associations": ["Siddhartha Gautama", "Sakya", "Nepal", "prince"],
+      "clue_ids": ["b5b74fa866", "760e1923ce", "5e92a6e1ad"]
+    },
+    {
+      "id": "enlightenment",
+      "label": "the Bodhi tree",
+      "statement": "He reached enlightenment while meditating under a bodhi tree; December's Bodhi Day marks it.",
+      "associations": ["Bodhi tree", "enlightenment", "Bodhi Day", "December"],
+      "clue_ids": ["fc8e98afc7", "7693c1e371"]
+    },
+    {
+      "id": "deer-park",
+      "label": "the Deer Park sermon",
+      "statement": "His first sermon, at the Deer Park, set out the Four Noble Truths, beginning with the truth that existence is suffering.",
+      "associations": ["Deer Park", "first sermon", "Four Noble Truths", "suffering"],
+      "clue_ids": ["a7d739f117", "5e92a6e1ad"]
+    },
+    {
+      "id": "nirvana",
+      "label": "nirvana",
+      "statement": "Nirvana is the final state and goal of the Buddhist path; a February holiday commemorates the Buddha reaching it.",
+      "associations": ["nirvana", "final state", "February holiday", "goal"],
+      "clue_ids": ["0442c4d4a5", "c11655db34"]
+    },
+    {
+      "id": "siddhartha-novel",
+      "label": "Siddhartha",
+      "statement": "Hermann Hesse's 1922 novel Siddhartha follows an Indian boy's spiritual journey in the Buddha's time.",
+      "associations": ["Siddhartha", "Hermann Hesse", "1922", "novel"],
+      "clue_ids": ["d6bafa7e56", "e6989c515b", "843a3c68da"]
+    },
+    {
+      "id": "emerald-buddha",
+      "label": "the Emerald Buddha",
+      "statement": "The Emerald Buddha sits in the Grand Palace in Bangkok, Thailand, on a gilded wood throne.",
+      "associations": ["Emerald Buddha", "Bangkok", "Grand Palace", "Thailand"],
+      "clue_ids": ["3dc1c56fea", "166af120df", "75c26f63eb"]
+    },
+    {
+      "id": "kamakura",
+      "label": "the Great Buddha of Kamakura",
+      "statement": "Japan's Great Buddha at Kamakura was cast in 1252 in bronze, and the 93-ton statue is the country's most famous bronze.",
+      "associations": ["Kamakura", "Great Buddha", "1252", "bronze", "93 tons"],
+      "clue_ids": ["9ef2a85764", "0acf02cb91"]
+    }
+  ],
+  "clue_ids": [
+    "a7d739f117", "5e92a6e1ad", "b5b74fa866", "760e1923ce", "fc8e98afc7",
+    "7693c1e371", "0442c4d4a5", "c11655db34", "d6bafa7e56", "e6989c515b",
+    "843a3c68da", "3dc1c56fea", "166af120df", "75c26f63eb", "9ef2a85764",
+    "0acf02cb91", "d74a24e6fe"
+  ],
+  "related": ["buddhism", "hinduism"]
+}

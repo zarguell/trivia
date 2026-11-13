@@ -1,0 +1,58 @@
+{
+  "id": "titanic",
+  "name": "Titanic",
+  "deck": "history",
+  "aliases": ["RMS Titanic"],
+  "hook": "The 1912 liner that made \"unsinkable\" a cautionary word, and the 1997 film that made it a blockbuster.",
+  "facts": [
+    {
+      "id": "maiden-voyage",
+      "label": "April 1912",
+      "statement": "The Titanic sank on its maiden voyage, striking an iceberg at 11:40 p.m. on April 14, 1912 and going under about 2:20 a.m. on April 15.",
+      "associations": ["1912", "maiden voyage", "April 14", "iceberg"],
+      "clue_ids": ["76246e4614", "6ae20d59b8", "6608cb4558"]
+    },
+    {
+      "id": "unsinkable",
+      "label": "unsinkable",
+      "statement": "It was widely billed as unsinkable, a boast that became a byword for hubris. Violet Jessop survived the sinking of the Titanic and the Britannic, and was aboard the Olympic when it collided with HMS Hawke in 1911.",
+      "associations": ["unsinkable", "Violet Jessop", "Britannic", "Olympic"],
+      "clue_ids": ["574c6908ba"]
+    },
+    {
+      "id": "belfast",
+      "label": "Belfast",
+      "statement": "It was built in Belfast, Northern Ireland, by Harland & Wolff and owned by the White Star Line, which in turn belonged to J.P. Morgan.",
+      "associations": ["Belfast", "Harland & Wolff", "White Star Line", "J.P. Morgan"],
+      "clue_ids": ["ed70220018", "6b0fd120a9", "5ee71c1245"]
+    },
+    {
+      "id": "carpathia",
+      "label": "the Carpathia",
+      "statement": "The Cunard liner Carpathia raced to the scene and had rescued about 705 survivors from the lifeboats by 9 a.m. on April 15.",
+      "associations": ["Carpathia", "705 survivors", "Cunard", "rescue"],
+      "clue_ids": ["68d72a6bb4", "145fea71c2"]
+    },
+    {
+      "id": "molly-brown",
+      "label": "Molly Brown",
+      "statement": "Margaret \"Molly\" Brown was a survivor later called the Unsinkable Molly Brown; she presented the Carpathia's captain with a silver loving cup.",
+      "associations": ["Molly Brown", "survivor", "loving cup", "Carpathia"],
+      "clue_ids": ["c74fba9eba", "0095e4616e", "4f69470504"]
+    },
+    {
+      "id": "1997-film",
+      "label": "James Cameron's 1997 film",
+      "statement": "James Cameron's 1997 film starred Leonardo DiCaprio and Kate Winslet as Jack and Rose, and Celine Dion sang \"My Heart Will Go On.\"",
+      "associations": ["James Cameron", "Kate Winslet", "Leonardo DiCaprio", "My Heart Will Go On"],
+      "clue_ids": ["387a0c634e", "54d9759930", "43d2e3fa48"]
+    }
+  ],
+  "clue_ids": [
+    "76246e4614", "6ae20d59b8", "6608cb4558", "c414e7037a", "574c6908ba",
+    "ed70220018", "6b0fd120a9", "5ee71c1245", "68d72a6bb4", "145fea71c2",
+    "c74fba9eba", "0095e4616e", "4f69470504", "387a0c634e", "54d9759930",
+    "43d2e3fa48", "3a5260992a", "da7ab74a80"
+  ],
+  "related": ["pearl-harbor", "moby-dick"]
+}

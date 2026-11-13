@@ -1,0 +1,64 @@
+{
+  "id": "ernest-hemingway",
+  "name": "Ernest Hemingway",
+  "deck": "literature",
+  "aliases": ["Hemingway"],
+  "hook": "Nobel laureate, war novelist, Key West fixture — Jeopardy's Hemingway checklist.",
+  "facts": [
+    {
+      "id": "nobel",
+      "label": "the Nobel Prize",
+      "statement": "Hemingway won the 1954 Nobel Prize in Literature but could not accept it in person after injuries from two plane crashes in Africa.",
+      "associations": ["1954 Nobel Prize", "plane crashes", "Africa"],
+      "clue_ids": ["e3fbb12ef5"]
+    },
+    {
+      "id": "sun-also-rises",
+      "label": "The Sun Also Rises",
+      "statement": "The Sun Also Rises is his first novel; it opens \"Robert Cohn was once middleweight boxing champion of Princeton\" and echoes Gertrude Stein's \"lost generation\".",
+      "associations": ["Robert Cohn", "lost generation", "Gertrude Stein"],
+      "clue_ids": ["8ea5525b3b", "9429bf1201", "004d52e4f9"]
+    },
+    {
+      "id": "farewell-to-arms",
+      "label": "A Farewell to Arms",
+      "statement": "A Farewell to Arms follows an American ambulance driver and the English nurse Catherine Barkley on the Italian front in World War I.",
+      "associations": ["Catherine Barkley", "WWI", "Italian front"],
+      "clue_ids": ["dc132dc459", "6055ef4733"]
+    },
+    {
+      "id": "bell-tolls",
+      "label": "For Whom the Bell Tolls",
+      "statement": "For Whom the Bell Tolls (1940) is about Robert Jordan in the Spanish Civil War; its title comes from a John Donne work.",
+      "associations": ["Robert Jordan", "Spanish Civil War", "John Donne"],
+      "clue_ids": ["9b94386190", "db5d917605"]
+    },
+    {
+      "id": "old-man-sea",
+      "label": "The Old Man and the Sea",
+      "statement": "The Old Man and the Sea (1952) won the Pulitzer; at the end Manolin agrees to fish with Santiago again.",
+      "associations": ["Santiago", "Manolin", "Pulitzer", "1952"],
+      "clue_ids": ["9dcd0036a6", "ef9e2ab98c"]
+    },
+    {
+      "id": "key-west",
+      "label": "Key West",
+      "statement": "His home on Whitehead Street in Key West is famous for descendants of his six-toed cats and an annual Hemingway Days look-alike contest.",
+      "associations": ["Key West", "six-toed cats", "Hemingway Days"],
+      "clue_ids": ["0fb2e82e34", "e6bfd50fe7"]
+    },
+    {
+      "id": "moveable-feast",
+      "label": "A Moveable Feast",
+      "statement": "A Moveable Feast is his memoir of 1920s Paris, including pre-lunch whiskies and Perrier with F. Scott Fitzgerald.",
+      "associations": ["A Moveable Feast", "Paris", "F. Scott Fitzgerald"],
+      "clue_ids": ["f437263011", "afb1e5e03f"]
+    }
+  ],
+  "clue_ids": [
+    "e3fbb12ef5", "8ea5525b3b", "9429bf1201", "004d52e4f9", "dc132dc459",
+    "6055ef4733", "9b94386190", "db5d917605", "9dcd0036a6", "ef9e2ab98c",
+    "0fb2e82e34", "e6bfd50fe7", "f437263011", "afb1e5e03f"
+  ],
+  "related": ["f-scott-fitzgerald", "the-great-gatsby", "paris"]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "marvel",
+  "name": "Marvel",
+  "deck": "pop-culture",
+  "aliases": ["Marvel Comics"],
+  "hook": "The comic company that went from bankruptcy to the biggest movie franchise on earth.",
+  "facts": [
+    {
+      "id": "stan-lee",
+      "label": "Stan Lee",
+      "statement": "Stan Lee became editor-in-chief of Timely, later Marvel, in 1942 at age 18 and stayed in the job until 1972.",
+      "associations": ["Stan Lee", "editor-in-chief", "Timely Comics"],
+      "clue_ids": ["567a62f2e2", "31eb4434c4"]
+    },
+    {
+      "id": "avengers",
+      "label": "The Avengers",
+      "statement": "The Avengers debuted in 1963 with Thor and Iron Man; issue one cost 12 cents and a mint copy can fetch $15,000.",
+      "associations": ["The Avengers", "1963", "12 cents"],
+      "clue_ids": ["90c9bfd8fc"]
+    },
+    {
+      "id": "ownership",
+      "label": "Toy Biz and Disney",
+      "statement": "Marvel emerged from bankruptcy in 1998 as part of Toy Biz, then sold to Disney in a deal that made Isaac Perlmutter $400 million.",
+      "associations": ["bankruptcy", "Toy Biz", "Disney"],
+      "clue_ids": ["802bf6d0f4", "9743701167"]
+    },
+    {
+      "id": "black-panther",
+      "label": "Black Panther",
+      "statement": "Black Panther's Afro-futuristic costumes won Ruth E. Carter the first Costume Design Oscar for a Black woman; Disney pledged $1 million of the film's proceeds to STEM programs.",
+      "associations": ["Ruth E. Carter", "Costume Design Oscar", "STEM"],
+      "clue_ids": ["fe83b8d055", "7a1a74d0cc"]
+    },
+    {
+      "id": "x-men",
+      "label": "the X-Men",
+      "statement": "The X-Men are Marvel's mutant team; Kitty Pryde fights alongside them and names her dragon Lockheed.",
+      "associations": ["the X-Men", "mutants", "Kitty Pryde"],
+      "clue_ids": ["1964b5ac30"]
+    },
+    {
+      "id": "blade",
+      "label": "Blade",
+      "statement": "Blade, \"part man, part vampire, all hero,\" began a Marvel trilogy in 1998 that ended with Trinity in 2004.",
+      "associations": ["Blade", "vampire", "1998 film"],
+      "clue_ids": ["6c2b51c388", "28ad772277"]
+    }
+  ],
+  "clue_ids": [
+    "567a62f2e2", "31eb4434c4", "90c9bfd8fc", "802bf6d0f4", "9743701167",
+    "fe83b8d055", "7a1a74d0cc", "1964b5ac30", "6c2b51c388", "28ad772277",
+    "9c5537aa64", "ae428b006f", "5ce386a766", "bc91a80f5e", "a6f1546919",
+    "4954a562e3"
+  ],
+  "related": ["spider-man", "batman", "superman"]
+}

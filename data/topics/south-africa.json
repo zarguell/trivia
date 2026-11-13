@@ -1,0 +1,64 @@
+{
+  "id": "south-africa",
+  "name": "South Africa",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "Three capitals, Mandela, apartheid and the Orange River: the handful of things South Africa clues always test.",
+  "facts": [
+    {
+      "id": "capitals",
+      "label": "three capital cities",
+      "statement": "South Africa has three capitals: Pretoria (executive), Bloemfontein (judicial) and Cape Town (legislative) — the only one that is also a seaport.",
+      "associations": ["Pretoria", "Bloemfontein", "Cape Town", "seaport"],
+      "clue_ids": ["291dfbee58", "3b2080b538", "3254730ac9"]
+    },
+    {
+      "id": "mandela",
+      "label": "Nelson Mandela",
+      "statement": "Nelson Mandela earned a law degree from the University of South Africa in 1942 and, as president in 1996, oversaw a new democratic constitution.",
+      "associations": ["ANC", "1942 law degree", "1996 constitution"],
+      "clue_ids": ["cdc618e601", "4c0b4de37f"]
+    },
+    {
+      "id": "zulu",
+      "label": "the Zulu",
+      "statement": "The Zulu are South Africa's largest ethnic group; their beadwork carries meaning in color, shape and design, and the word impala comes from their language.",
+      "associations": ["largest ethnic group", "beadwork", "impala"],
+      "clue_ids": ["e52665d3c2", "7cce6835f0"]
+    },
+    {
+      "id": "orange-river",
+      "label": "the Orange River",
+      "statement": "The Orange River is South Africa's longest; it rises in Lesotho, forms the Free State's southwestern boundary, and honors a Dutch prince.",
+      "associations": ["longest river", "Lesotho", "Dutch prince"],
+      "clue_ids": ["fd15c8e0ac", "214334eb1d", "27a29cb6ab"]
+    },
+    {
+      "id": "diamonds",
+      "label": "diamonds",
+      "statement": "Diamonds built Kimberley's Big Hole, and in 1867 a child's \"pretty pebble\" turned out to be a 22-carat one.",
+      "associations": ["Kimberley", "Big Hole", "1867"],
+      "clue_ids": ["0ec0072e3f", "0a4cc794eb"]
+    },
+    {
+      "id": "namibia",
+      "label": "Namibia",
+      "statement": "Namibia, once a German colony, gained independence from South Africa in 1990 after a 24-year armed struggle.",
+      "associations": ["1990 independence", "German colony"],
+      "clue_ids": ["7f23a61132", "f326e44850"]
+    },
+    {
+      "id": "apartheid",
+      "label": "apartheid",
+      "statement": "Apartheid was the system of white minority rule in South Africa; Jimmy Carter's book compared Israel's treatment of Palestinians to it.",
+      "associations": ["white minority rule", "Jimmy Carter"],
+      "clue_ids": ["47fd415d54"]
+    }
+  ],
+  "clue_ids": [
+    "291dfbee58", "3b2080b538", "3254730ac9", "cdc618e601", "4c0b4de37f",
+    "e52665d3c2", "7cce6835f0", "fd15c8e0ac", "214334eb1d", "27a29cb6ab",
+    "0ec0072e3f", "0a4cc794eb", "7f23a61132", "f326e44850", "47fd415d54"
+  ],
+  "related": ["egypt", "nile", "sahara"]
+}

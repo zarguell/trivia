@@ -1,0 +1,65 @@
+{
+  "id": "charles-dickens",
+  "name": "Charles Dickens",
+  "deck": "literature",
+  "aliases": ["Dickens"],
+  "hook": "Dickens is the Victorian novelist Jeopardy keeps returning to — six titles cover most clues.",
+  "facts": [
+    {
+      "id": "victorian",
+      "label": "the Victorian novelist",
+      "statement": "Queen Victoria called his death in 1870 \"a very great loss\"; his closest friend John Forster was portrayed as Mr. Podsnap in Our Mutual Friend.",
+      "associations": ["1870", "Queen Victoria", "John Forster", "Mr. Podsnap"],
+      "clue_ids": ["a0f43f3d82", "358db81630"]
+    },
+    {
+      "id": "christmas-carol",
+      "label": "A Christmas Carol",
+      "statement": "A Christmas Carol is divided into staves, not chapters; Stave IV is \"The Last of the Spirits\", and Tiny Tim was nearly named Little Fred.",
+      "associations": ["staves", "The Last of the Spirits", "Tiny Tim", "Little Fred"],
+      "clue_ids": ["79803d98e4", "8ca0b54180", "6042aeb7cb"]
+    },
+    {
+      "id": "oliver-twist",
+      "label": "Oliver Twist",
+      "statement": "Oliver Twist is subtitled \"The Parish Boy's Progress\"; Mr. Bumble takes the orphan to the workhouse, and the 1968 musical Oliver! won Best Picture.",
+      "associations": ["The Parish Boy's Progress", "Mr. Bumble", "workhouse", "Oliver!"],
+      "clue_ids": ["e5bbd5e82d", "c7f3801732", "44812effbc"]
+    },
+    {
+      "id": "david-copperfield",
+      "label": "David Copperfield",
+      "statement": "David Copperfield is the Dickens tale with the villain Uriah Heep, who had a heap of hate for the title character.",
+      "associations": ["Uriah Heep", "title character", "villain"],
+      "clue_ids": ["2fad8254a4", "bbf7ff0820"]
+    },
+    {
+      "id": "tale-of-two-cities",
+      "label": "A Tale of Two Cities",
+      "statement": "A Tale of Two Cities begins in 1775 and ends at the guillotine; Charles Darnay is nephew of the wicked Marquis de St. Evremonde.",
+      "associations": ["1775", "Charles Darnay", "guillotine", "Marquis de St. Evremonde"],
+      "clue_ids": ["cb50f4c4c4", "36cc2b38a3", "479c183aaf"]
+    },
+    {
+      "id": "great-expectations",
+      "label": "Great Expectations",
+      "statement": "Great Expectations opens with Philip Pirrip — Pip — and his family name; David Lean filmed it in 1946.",
+      "associations": ["Pip", "Pirrip", "David Lean", "1946"],
+      "clue_ids": ["ac7e17ec28", "79054af984"]
+    },
+    {
+      "id": "bleak-house",
+      "label": "Bleak House",
+      "statement": "Bleak House, published from 1852, features the Jarndyce case, Inspector Bucket and the solicitor Tulkinghorn.",
+      "associations": ["1852", "Jarndyce", "Inspector Bucket", "Tulkinghorn"],
+      "clue_ids": ["c54d977f33", "3cfd8a97fb"]
+    }
+  ],
+  "clue_ids": [
+    "a0f43f3d82", "358db81630", "79803d98e4", "8ca0b54180", "6042aeb7cb",
+    "e5bbd5e82d", "c7f3801732", "44812effbc", "2fad8254a4", "bbf7ff0820",
+    "cb50f4c4c4", "36cc2b38a3", "479c183aaf", "ac7e17ec28", "79054af984",
+    "c54d977f33", "3cfd8a97fb"
+  ],
+  "related": ["mark-twain", "jane-austen", "william-shakespeare"]
+}

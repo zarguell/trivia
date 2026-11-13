@@ -1,0 +1,65 @@
+{
+  "id": "frank-lloyd-wright",
+  "name": "Frank Lloyd Wright",
+  "deck": "arts",
+  "aliases": [],
+  "hook": "America's starchitect: Taliesin, Fallingwater and the museum that spirals downward.",
+  "facts": [
+    {
+      "id": "taliesin",
+      "label": "Taliesin",
+      "statement": "Wright named his Wisconsin home and studio Taliesin, Welsh for \"shining brow,\" after the early Welsh poet.",
+      "associations": ["Taliesin", "shining brow", "Wisconsin"],
+      "clue_ids": ["c11721ff0d", "03ac3ef81d"]
+    },
+    {
+      "id": "fallingwater",
+      "label": "Fallingwater",
+      "statement": "Fallingwater, built between 1936 and 1939 in Pennsylvania, is named for the waterfall beneath it and is a National Historic Landmark.",
+      "associations": ["Fallingwater", "Pennsylvania", "waterfall"],
+      "clue_ids": ["ff86f5148d", "f311550312"]
+    },
+    {
+      "id": "guggenheim",
+      "label": "the Guggenheim",
+      "statement": "Wright's only New York City building, the Guggenheim, opened in 1959 after his death; visitors start at the top and spiral downward.",
+      "associations": ["the Guggenheim", "1959", "New York City"],
+      "clue_ids": ["1a434a2c16", "676048345b", "b70f0a721e"]
+    },
+    {
+      "id": "fountainhead",
+      "label": "The Fountainhead",
+      "statement": "Ayn Rand modeled Howard Roark, the uncompromising architect in The Fountainhead, on Wright.",
+      "associations": ["The Fountainhead", "Howard Roark", "Ayn Rand"],
+      "clue_ids": ["889a736a24", "f82e263d8d", "2cd33e8d98"]
+    },
+    {
+      "id": "taliesin-west",
+      "label": "Taliesin West",
+      "statement": "Taliesin West, Wright's winter home and school, is in Scottsdale, Arizona, a resort suburb of Phoenix.",
+      "associations": ["Taliesin West", "Scottsdale", "Arizona"],
+      "clue_ids": ["cb3dfd281d", "2e69770ab4"]
+    },
+    {
+      "id": "imperial-hotel",
+      "label": "Tokyo Imperial Hotel",
+      "statement": "Wright's Imperial Hotel in Tokyo, finished in 1922, survived the 1923 earthquake and reflected Mayan Revival style.",
+      "associations": ["Imperial Hotel", "Tokyo", "1923 earthquake", "Mayan Revival"],
+      "clue_ids": ["c3d8b80555", "7ba7b495d3"]
+    },
+    {
+      "id": "prairie-style",
+      "label": "Prairie style",
+      "statement": "Wright's Prairie-style houses include a cluster in Oak Park, Illinois, and Chicago's Heller House in Hyde Park.",
+      "associations": ["Prairie style", "Oak Park", "Heller House", "Chicago"],
+      "clue_ids": ["2751db835a", "34168fedba"]
+    }
+  ],
+  "clue_ids": [
+    "c11721ff0d", "03ac3ef81d", "ff86f5148d", "f311550312", "1a434a2c16",
+    "676048345b", "b70f0a721e", "889a736a24", "f82e263d8d", "2cd33e8d98",
+    "cb3dfd281d", "2e69770ab4", "c3d8b80555", "7ba7b495d3", "2751db835a",
+    "34168fedba"
+  ],
+  "related": ["eiffel-tower", "statue-of-liberty", "new-york-city"]
+}

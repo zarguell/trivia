@@ -1,0 +1,65 @@
+{
+  "id": "trojan-war",
+  "name": "Trojan War",
+  "deck": "myth-religion",
+  "aliases": ["Troy", "Trojan Horse"],
+  "hook": "The ten-year siege behind the Iliad, from Helen's elopement to the wooden horse.",
+  "facts": [
+    {
+      "id": "trojan-horse",
+      "label": "the Trojan Horse",
+      "statement": "The Trojan Horse was built by the carpenter Epeius as an offering to Athena; the Greeks hid inside and sacked Troy.",
+      "associations": ["the Trojan Horse", "Epeius", "Athena", "sack of Troy"],
+      "clue_ids": ["bbdbe4f70c", "8cbaf8d3cf", "cf05be0b35"]
+    },
+    {
+      "id": "helen",
+      "label": "Helen of Troy",
+      "statement": "Helen of Troy, the beauty Paris chose, runs off with him, starting the war; in Euripides' play only her phantom reaches Troy.",
+      "associations": ["Helen of Troy", "Paris", "Euripides", "phantom"],
+      "clue_ids": ["3065231d9b", "c63497fa1b", "e724ba35b6"]
+    },
+    {
+      "id": "priam",
+      "label": "Priam",
+      "statement": "Priam is the aged king of Troy and the father of Paris, Hector and Cassandra.",
+      "associations": ["Priam", "king of Troy", "Hector", "Cassandra"],
+      "clue_ids": ["b4b485694c", "ad39023c43"]
+    },
+    {
+      "id": "achilles",
+      "label": "Achilles",
+      "statement": "Achilles is the Greeks' greatest warrior; he kills Memnon and is killed by Paris's arrow to the heel, while his mother Thetis tried to burn away his mortality.",
+      "associations": ["Achilles", "Thetis", "Memnon", "heel"],
+      "clue_ids": ["671c184daf", "5d2b304917", "62bdf54c6b"]
+    },
+    {
+      "id": "iliad",
+      "label": "the Iliad",
+      "statement": "Homer's Iliad begins in the tenth year of the siege; its title could translate as \"Troy Story,\" and Shakespeare's Troilus and Cressida is set in the war.",
+      "associations": ["Homer", "\"Troy Story\"", "tenth year", "Troilus and Cressida"],
+      "clue_ids": ["713b54ef2b", "494c6b0629", "c008453ccb"]
+    },
+    {
+      "id": "schliemann",
+      "label": "Heinrich Schliemann",
+      "statement": "Heinrich Schliemann argued Troy was at Hissarlik and later uncovered Mycenaean royal tombs at Mycenae.",
+      "associations": ["Heinrich Schliemann", "Hissarlik", "Mycenae", "archaeology"],
+      "clue_ids": ["40af2c4251", "7880bcc03d"]
+    },
+    {
+      "id": "cassandra",
+      "label": "Cassandra",
+      "statement": "Cassandra, a daughter of Priam, has the gift of prophecy but is never believed when she foretells Troy's fall.",
+      "associations": ["Cassandra", "prophecy", "daughter of Priam", "doomsayer"],
+      "clue_ids": ["618db5f394", "718e4c564a"]
+    }
+  ],
+  "clue_ids": [
+    "bbdbe4f70c", "8cbaf8d3cf", "cf05be0b35", "3065231d9b", "c63497fa1b",
+    "e724ba35b6", "b4b485694c", "ad39023c43", "671c184daf", "5d2b304917",
+    "62bdf54c6b", "713b54ef2b", "494c6b0629", "c008453ccb", "40af2c4251",
+    "7880bcc03d", "618db5f394", "718e4c564a"
+  ],
+  "related": ["homer", "achilles", "odysseus"]
+}

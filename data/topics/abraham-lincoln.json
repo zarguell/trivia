@@ -1,0 +1,65 @@
+{
+  "id": "abraham-lincoln",
+  "name": "Abraham Lincoln",
+  "deck": "history",
+  "aliases": ["Lincoln"],
+  "hook": "The president Jeopardy asks about more than any other — from a Kentucky log cabin to Ford's Theatre.",
+  "facts": [
+    {
+      "id": "president",
+      "label": "16th president",
+      "statement": "Lincoln was the 16th president, elected in 1860 and re-elected in 1864; Karl Marx called him \"the single-minded son of the working class.\"",
+      "associations": ["16th president", "1860 election", "1864 re-election", "Karl Marx"],
+      "clue_ids": ["ae92baa410"]
+    },
+    {
+      "id": "douglas",
+      "label": "Stephen Douglas",
+      "statement": "Lincoln lost an 1858 Senate race to Stephen Douglas, then beat him in the 1860 presidential election.",
+      "associations": ["Stephen Douglas", "1858 Senate race", "1860 election"],
+      "clue_ids": ["57cce86d75", "6b107798d2"]
+    },
+    {
+      "id": "kentucky",
+      "label": "Kentucky",
+      "statement": "He was born in a log cabin in Kentucky in 1809, near what is now Hodgenville.",
+      "associations": ["Kentucky", "log cabin", "1809"],
+      "clue_ids": ["c9c56e40a4", "fddca92aa3"]
+    },
+    {
+      "id": "gettysburg-address",
+      "label": "Gettysburg Address",
+      "statement": "He delivered the Gettysburg Address on November 19, 1863; it lasted about two minutes and begins \"Four score and seven years ago.\"",
+      "associations": ["Gettysburg Address", "November 19, 1863", "Four score and seven years ago"],
+      "clue_ids": ["fa94351763", "f70d672fab"]
+    },
+    {
+      "id": "emancipation",
+      "label": "Emancipation Proclamation",
+      "statement": "The Emancipation Proclamation took effect January 1, 1863; Lincoln called it \"a fit and necessary war measure.\"",
+      "associations": ["Emancipation Proclamation", "January 1, 1863", "war measure"],
+      "clue_ids": ["bc69e42a20"]
+    },
+    {
+      "id": "johnson",
+      "label": "Andrew Johnson",
+      "statement": "Lincoln chose Democrat Andrew Johnson as his 1864 running mate; Johnson became president after the assassination.",
+      "associations": ["Andrew Johnson", "1864 running mate", "Tennessee"],
+      "clue_ids": ["92258855e4", "bc6023d25a"]
+    },
+    {
+      "id": "mcclellan",
+      "label": "George McClellan",
+      "statement": "McClellan was the \"Young Napoleon of the West\" before Lincoln sacked him; then McClellan ran against Lincoln in 1864.",
+      "associations": ["George McClellan", "Young Napoleon of the West", "1864 election"],
+      "clue_ids": ["abb6a70c10", "0b009b86d3"]
+    }
+  ],
+  "clue_ids": [
+    "ae92baa410", "47355b3afb", "32d86337c7", "c9c56e40a4", "fddca92aa3",
+    "06ff52386d", "bcebdfeda7", "57cce86d75", "6b107798d2", "92258855e4",
+    "bc6023d25a", "abb6a70c10", "0b009b86d3", "fa94351763", "f70d672fab",
+    "366ea49e2c", "bc69e42a20", "a2524ed90f"
+  ],
+  "related": ["american-civil-war", "george-washington", "thomas-jefferson"]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "martin-luther",
+  "name": "Martin Luther",
+  "deck": "myth-religion",
+  "aliases": [],
+  "hook": "Ninety-five theses, a diet at Worms and a German Bible: six facts own the Luther clues.",
+  "facts": [
+    {
+      "id": "95-theses",
+      "label": "the 95 Theses",
+      "statement": "In 1517 Luther issued 95 theses against indulgences; tradition says he posted them on a Wittenberg church door, launching the Reformation.",
+      "associations": ["95 Theses", "1517", "Wittenberg", "Reformation"],
+      "clue_ids": ["ff3b1637f0", "754f2ecdfc", "89987d806d"]
+    },
+    {
+      "id": "indulgences",
+      "label": "indulgences",
+      "statement": "Indulgences were church pardons remitting punishment for sin; their sale by friar Johannes Tetzel prompted Luther's protest.",
+      "associations": ["indulgences", "pardons", "Johannes Tetzel", "remission"],
+      "clue_ids": ["b0f332644a", "89987d806d"]
+    },
+    {
+      "id": "worms",
+      "label": "the Diet of Worms",
+      "statement": "At the 1521 Diet of Worms, Luther refused to recant, saying \"Here I stand; I can do no other.\"",
+      "associations": ["Diet of Worms", "1521", "Here I stand", "recant"],
+      "clue_ids": ["c7146697f5", "9ee380f058"]
+    },
+    {
+      "id": "german-bible",
+      "label": "the German Bible",
+      "statement": "Luther translated the Bible into German so ordinary people could read it, helping standardize New High German.",
+      "associations": ["German Bible", "translation", "New High German"],
+      "clue_ids": ["e6098360b6", "d3f5e64f27", "30940ecec7"]
+    },
+    {
+      "id": "katherine",
+      "label": "Katherine von Bora",
+      "statement": "In 1525 Luther married Katherine von Bora, a former nun.",
+      "associations": ["Katherine von Bora", "1525", "former nun"],
+      "clue_ids": ["6add56b0d8"]
+    },
+    {
+      "id": "henry-viii",
+      "label": "Henry VIII",
+      "statement": "Henry VIII wrote \"Defense of the 7 Sacraments\" against Luther; Luther shot back calling him \"King Heinz.\"",
+      "associations": ["Henry VIII", "Defense of the 7 Sacraments", "King Heinz"],
+      "clue_ids": ["4e3a39298f", "90d74a4a5a"]
+    }
+  ],
+  "clue_ids": [
+    "ff3b1637f0", "754f2ecdfc", "89987d806d", "b0f332644a", "c7146697f5",
+    "9ee380f058", "e6098360b6", "d3f5e64f27", "30940ecec7", "6add56b0d8",
+    "4e3a39298f", "90d74a4a5a"
+  ],
+  "related": ["moses", "ten-commandments"]
+}

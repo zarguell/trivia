@@ -1,0 +1,138 @@
+{
+  "id": "monopoly",
+  "name": "Monopoly",
+  "deck": "pop-culture",
+  "aliases": [],
+  "hook": "The board game that made Atlantic City real estate the most fought-over property in America.",
+  "facts": [
+    {
+      "id": "origins",
+      "label": "Henry George",
+      "statement": "Monopoly was inspired by support for economist Henry George's idea that only land should be taxed, and Parker Brothers first produced it.",
+      "associations": [
+        "Henry George",
+        "land tax",
+        "Parker Brothers"
+      ],
+      "clue_ids": [
+        "b5de28f66f",
+        "c47dc30b3d"
+      ]
+    },
+    {
+      "id": "atlantic-city",
+      "label": "Atlantic City",
+      "statement": "Most properties are named for streets in Atlantic City, New Jersey, including Boardwalk and Park Place.",
+      "associations": [
+        "Atlantic City",
+        "New Jersey",
+        "Boardwalk",
+        "Park Place"
+      ],
+      "clue_ids": [
+        "24196d15d2",
+        "ecaeab57f4"
+      ]
+    },
+    {
+      "id": "boardwalk",
+      "label": "Boardwalk",
+      "statement": "Boardwalk is the most expensive property; Resorts Casino Hotel sits on it, and it and Marvin Gardens are the only improvable properties without Avenue or Place in their names.",
+      "associations": [
+        "Boardwalk",
+        "most expensive",
+        "Resorts Casino",
+        "Marvin Gardens"
+      ],
+      "clue_ids": [
+        "4add8ea0c0",
+        "bd8b62a62f",
+        "ceda65f62e"
+      ]
+    },
+    {
+      "id": "marvin-gardens",
+      "label": "Marvin Gardens",
+      "statement": "Marvin Gardens is the only U.S. property not named for a street; it is a community near Atlantic City, and John McPhee titled an essay 'The Search for Marvin Gardens.'",
+      "associations": [
+        "Marvin Gardens",
+        "Atlantic City",
+        "John McPhee"
+      ],
+      "clue_ids": [
+        "d14da8a32c",
+        "00a554c59f"
+      ]
+    },
+    {
+      "id": "mediterranean",
+      "label": "Mediterranean Avenue",
+      "statement": "Mediterranean Avenue is the first property after Go and cannot be landed on with the first roll.",
+      "associations": [
+        "Mediterranean Avenue",
+        "Go",
+        "first property"
+      ],
+      "clue_ids": [
+        "989c006a00",
+        "e161b02a16"
+      ]
+    },
+    {
+      "id": "spaces",
+      "label": "Chance, Community Chest and Luxury Tax",
+      "statement": "Chance spaces carry question marks, Community Chest shows money bags in a strongbox, and Luxury Tax is marked by a diamond ring.",
+      "associations": [
+        "Chance",
+        "Community Chest",
+        "Luxury Tax",
+        "diamond ring"
+      ],
+      "clue_ids": [
+        "0d8f5b1150",
+        "b3bf78be57",
+        "54e07d98de"
+      ]
+    },
+    {
+      "id": "reading",
+      "label": "Reading Railroad",
+      "statement": "Reading, Pennsylvania, 'The Pretzel City,' gives its name to the Reading Railroad on the board.",
+      "associations": [
+        "Reading",
+        "Pennsylvania",
+        "Reading Railroad"
+      ],
+      "clue_ids": [
+        "c5e97e8e9c",
+        "1ccfb908b7",
+        "0650546527"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "b5de28f66f",
+    "c47dc30b3d",
+    "24196d15d2",
+    "ecaeab57f4",
+    "4add8ea0c0",
+    "bd8b62a62f",
+    "ceda65f62e",
+    "d14da8a32c",
+    "00a554c59f",
+    "989c006a00",
+    "e161b02a16",
+    "0d8f5b1150",
+    "b3bf78be57",
+    "54e07d98de",
+    "c5e97e8e9c",
+    "1ccfb908b7",
+    "0650546527",
+    "2c964f6a20"
+  ],
+  "related": [
+    "coca-cola",
+    "apple-inc",
+    "wall-street"
+  ]
+}

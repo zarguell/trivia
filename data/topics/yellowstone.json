@@ -1,0 +1,64 @@
+{
+  "id": "yellowstone",
+  "name": "Yellowstone",
+  "deck": "geography",
+  "aliases": ["Yellowstone National Park"],
+  "hook": "The world's first national park — and the geysers, Wyoming and Grand Teton clues it keeps generating.",
+  "facts": [
+    {
+      "id": "first-park",
+      "label": "the first national park",
+      "statement": "It became the world's first national park in 1872, when President Ulysses S. Grant signed the law; in 1978 it was among the first 12 UNESCO World Heritage sites.",
+      "associations": ["1872", "world's first national park", "UNESCO 1978"],
+      "clue_ids": ["26c24bfcca"]
+    },
+    {
+      "id": "name",
+      "label": "Mi tse a-da-zi",
+      "statement": "The name comes from the Yellowstone River; Native people called it Mi tse a-da-zi, which French trappers translated as \"Pierre Jaune\" — yellow stone.",
+      "associations": ["Mi tse a-da-zi", "Yellowstone River", "Pierre Jaune"],
+      "clue_ids": ["d0d8651f35"]
+    },
+    {
+      "id": "old-faithful",
+      "label": "Old Faithful",
+      "statement": "Old Faithful erupts about every 90 minutes, throwing some 5,000 gallons; at least 120 of the park's geysers have names, including Giant and Clepsydra.",
+      "associations": ["Old Faithful", "5,000 gallons", "Upper Geyser Basin"],
+      "clue_ids": ["8abc3b3208", "77e7939c43", "d8407e0774"]
+    },
+    {
+      "id": "three-states",
+      "label": "Wyoming, Montana and Idaho",
+      "statement": "The park lies mostly in Wyoming's northwest corner and spills over into Montana and Idaho.",
+      "associations": ["Wyoming", "Montana", "Idaho"],
+      "clue_ids": ["24596cb2f0", "073292d9a4", "852bb6559f"]
+    },
+    {
+      "id": "grand-teton",
+      "label": "Grand Teton National Park",
+      "statement": "Grand Teton National Park, just south of Yellowstone, is the only national park entirely inside Wyoming.",
+      "associations": ["Grand Teton", "south of Yellowstone", "only park wholly in Wyoming"],
+      "clue_ids": ["fd7cec0a05", "62cb97a6d7", "3ac6db1de4"]
+    },
+    {
+      "id": "colter",
+      "label": "John Colter",
+      "statement": "John Colter explored the region around 1807 after leaving the Lewis and Clark expedition, and was among the first white men to describe its wonders.",
+      "associations": ["John Colter", "1807", "Lewis and Clark"],
+      "clue_ids": ["f94c1f8485"]
+    },
+    {
+      "id": "geothermal",
+      "label": "geysers and hot springs",
+      "statement": "Yellowstone holds roughly half the world's geysers, plus hot springs where heat-loving Archaea thrive in places like Octopus Spring.",
+      "associations": ["geysers", "hot springs", "Archaea"],
+      "clue_ids": ["00695ebed0", "a0cfb120ad", "cbb24e53b7"]
+    }
+  ],
+  "clue_ids": [
+    "26c24bfcca", "d0d8651f35", "8abc3b3208", "77e7939c43", "d8407e0774",
+    "24596cb2f0", "073292d9a4", "852bb6559f", "fd7cec0a05", "62cb97a6d7",
+    "3ac6db1de4", "f94c1f8485", "00695ebed0", "a0cfb120ad", "cbb24e53b7"
+  ],
+  "related": ["grand-canyon", "mount-rushmore", "alaska"]
+}

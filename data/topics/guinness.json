@@ -1,0 +1,57 @@
+{
+  "id": "guinness",
+  "name": "Guinness",
+  "deck": "food-drink",
+  "aliases": [],
+  "hook": "Dublin's 1759 brewery, its dark stout, and the record book it gave the world.",
+  "facts": [
+    {
+      "id": "arthur-guinness",
+      "label": "Arthur Guinness",
+      "statement": "Arthur Guinness founded the brewery at St. James's Gate in Dublin in 1759; in 2009 the city marked the brewery's 250th anniversary.",
+      "associations": ["Arthur Guinness", "St. James's Gate", "Dublin", "1759"],
+      "clue_ids": ["ac7e87095d", "34f87c1c98", "b8606c9e58"]
+    },
+    {
+      "id": "stout",
+      "label": "stout",
+      "statement": "Guinness is a stout — a dark, hoppy beer that has been the brewery's classic product for more than two centuries.",
+      "associations": ["stout", "dark beer", "hoppy", "two centuries"],
+      "clue_ids": ["f18a8a6608", "742c711adf"]
+    },
+    {
+      "id": "world-records",
+      "label": "Guinness World Records",
+      "statement": "The brewery's Guinness Book of Records became Guinness World Records, which is why \"According to Guinness\" introduces any superlative.",
+      "associations": ["Guinness World Records", "record book", "superlatives"],
+      "clue_ids": ["f67ddb3123", "6df3522847", "82b15a3366"]
+    },
+    {
+      "id": "superlatives",
+      "label": "record-book superlatives",
+      "statement": "Guinness calls the London Bridge the largest antique ever sold, a pumpkin the heaviest fruit or vegetable, and a chicken-sized dinosaur the smallest.",
+      "associations": ["London Bridge", "heaviest pumpkin", "Compsognathus"],
+      "clue_ids": ["d5dc21fe9a", "c8374092a3", "27b565e4d1"]
+    },
+    {
+      "id": "widget",
+      "label": "the widget",
+      "statement": "The widget inside a can of Guinness, which produces its creamy head, won a Queen's Award for technological advancement in 1991.",
+      "associations": ["widget", "canned Guinness", "Queen's Award", "1991"],
+      "clue_ids": ["7279490179"]
+    },
+    {
+      "id": "christmas-1939",
+      "label": "Christmas 1939",
+      "statement": "For Christmas 1939 Guinness sent a bottle to every member of the British forces stationed in France.",
+      "associations": ["Christmas 1939", "British forces", "France", "one bottle each"],
+      "clue_ids": ["59de408812"]
+    }
+  ],
+  "clue_ids": [
+    "ac7e87095d", "34f87c1c98", "b8606c9e58", "f18a8a6608", "742c711adf",
+    "f67ddb3123", "6df3522847", "82b15a3366", "d5dc21fe9a", "c8374092a3",
+    "27b565e4d1", "7279490179", "59de408812"
+  ],
+  "related": ["champagne", "coca-cola"]
+}

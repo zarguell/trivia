@@ -1,0 +1,58 @@
+{
+  "id": "i-love-lucy",
+  "name": "I Love Lucy",
+  "deck": "film-tv",
+  "aliases": ["Lucille Ball"],
+  "hook": "The 1950s sitcom that invented the rerun — Lucy, Ricky, Fred and Ethel are still the template.",
+  "facts": [
+    {
+      "id": "the-show",
+      "label": "I Love Lucy (1951)",
+      "statement": "I Love Lucy premiered on CBS in 1951 and was billed as television's first smash-hit situation comedy; it won the Best Situation Comedy Emmy in 1952 and 1953.",
+      "associations": ["1951", "CBS", "first smash-hit sitcom", "Best Situation Comedy Emmy"],
+      "clue_ids": ["abd3a53bf7", "a5ac2ec868"]
+    },
+    {
+      "id": "lucille-ball",
+      "label": "Lucille Ball",
+      "statement": "Lucille Ball starred as redheaded Lucy Ricardo, and her real-life son Desi Arnaz Jr. was born on January 19, 1953 — the same night Lucy gave birth on the show.",
+      "associations": ["Lucille Ball", "Lucy Ricardo", "redhead", "January 19, 1953"],
+      "clue_ids": ["982de3b1f1", "8eae326c21", "c4c679672a"]
+    },
+    {
+      "id": "desi-arnaz",
+      "label": "Desi Arnaz",
+      "statement": "Cuban-born conga drummer Desi Arnaz played Ricky Ricardo and was Lucille Ball's real-life husband; a 1956 episode took the Ricardos to Cuba, his birthplace.",
+      "associations": ["Desi Arnaz", "Ricky Ricardo", "Cuban-born", "conga drummer", "Cuba"],
+      "clue_ids": ["8de54204b0", "d390494ab6", "5311b53a4f"]
+    },
+    {
+      "id": "desilu",
+      "label": "Desilu",
+      "statement": "Desilu was the production company formed to make the show, its name combining Desi and Lucy; it went public in 1958.",
+      "associations": ["Desilu", "production company", "1958 stock offering"],
+      "clue_ids": ["992d8ea49c", "b818c0f9e6"]
+    },
+    {
+      "id": "mertzes",
+      "label": "Fred and Ethel Mertz",
+      "statement": "William Frawley and Vivian Vance played the Ricardos' landlords, Fred and Ethel Mertz; Fred was the bald one and Ethel was Lucy's partner in mischief.",
+      "associations": ["Fred Mertz", "Ethel Mertz", "William Frawley", "Vivian Vance", "landlords"],
+      "clue_ids": ["e5569af254", "ac4e53e7c5", "7f0f045266"]
+    },
+    {
+      "id": "pregnant",
+      "label": "\"pregnant\"",
+      "statement": "CBS would not let the show say \"pregnant,\" so a 1952 episode was titled \"Lucy Is Enceinte,\" using the French word instead.",
+      "associations": ["pregnant", "enceinte", "CBS censors", "1952 episode"],
+      "clue_ids": ["47d625c229"]
+    }
+  ],
+  "clue_ids": [
+    "982de3b1f1", "8eae326c21", "abd3a53bf7", "a5ac2ec868", "8de54204b0",
+    "d390494ab6", "e5569af254", "ac4e53e7c5", "7f0f045266", "b818c0f9e6",
+    "992d8ea49c", "47d625c229", "5311b53a4f", "c4c679672a", "4c64b5a1f4",
+    "2375e5fb1f", "89e4dd27d8", "26672d03df"
+  ],
+  "related": ["seinfeld", "the-simpsons"]
+}

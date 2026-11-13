@@ -1,0 +1,106 @@
+{
+  "id": "human-heart",
+  "name": "Human heart",
+  "deck": "science",
+  "aliases": [
+    "heart"
+  ],
+  "hook": "Four chambers, valves and a pacemaker — the anatomy clues keep circling the same handful of parts.",
+  "facts": [
+    {
+      "id": "aorta",
+      "label": "the aorta",
+      "statement": "The aorta is the largest artery in the body; it leaves the heart's left ventricle and sends blood everywhere, with coronary arteries branching off to feed the heart itself.",
+      "associations": [
+        "largest artery",
+        "left ventricle",
+        "coronary arteries"
+      ],
+      "clue_ids": [
+        "7b9af285e6",
+        "0f07a7138c"
+      ]
+    },
+    {
+      "id": "chambers",
+      "label": "four chambers",
+      "statement": "The heart has four chambers: two atria on top and two ventricles below, with the left ventricle pumping blood into the aorta.",
+      "associations": [
+        "four chambers",
+        "atria",
+        "ventricles"
+      ],
+      "clue_ids": [
+        "7b9af285e6"
+      ]
+    },
+    {
+      "id": "pericardium",
+      "label": "the pericardium",
+      "statement": "The pericardium is the two-layered sac around the heart; in the 1890s Daniel Hale Williams made history by repairing it in open-heart surgery.",
+      "associations": [
+        "heart sac",
+        "Daniel Hale Williams",
+        "open-heart surgery"
+      ],
+      "clue_ids": [
+        "b01df7d078",
+        "30c9f6adaa"
+      ]
+    },
+    {
+      "id": "pacemaker",
+      "label": "the pacemaker",
+      "statement": "A pacemaker is an implanted stimulator that regulates the heartbeat; Otis Boykin improved it, and Wilfred Bigelow's hypothermia research helped develop it.",
+      "associations": [
+        "implant",
+        "Otis Boykin",
+        "Wilfred Bigelow"
+      ],
+      "clue_ids": [
+        "d657c16ebf",
+        "3e0d7cb8af"
+      ]
+    },
+    {
+      "id": "valves",
+      "label": "heart valves",
+      "statement": "Heart valves keep blood flowing in one direction; pig valves have been used for decades to replace damaged human ones.",
+      "associations": [
+        "valves",
+        "one-way flow",
+        "pig valves"
+      ],
+      "clue_ids": [
+        "934ac89cd5",
+        "869202682a"
+      ]
+    },
+    {
+      "id": "cardiology",
+      "label": "cardiology",
+      "statement": "Cardiology is the branch of medicine that studies the heart; its foundation was laid in 1628 when William Harvey described the circulation of blood.",
+      "associations": [
+        "cardiology",
+        "William Harvey",
+        "1628"
+      ],
+      "clue_ids": [
+        "6147359a00",
+        "66c5894b2a"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "7b9af285e6",
+    "0f07a7138c",
+    "b01df7d078",
+    "30c9f6adaa",
+    "d657c16ebf",
+    "3e0d7cb8af",
+    "934ac89cd5",
+    "869202682a",
+    "6147359a00",
+    "66c5894b2a"
+  ]
+}

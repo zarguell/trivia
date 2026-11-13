@@ -1,0 +1,134 @@
+{
+  "id": "achilles",
+  "name": "Achilles",
+  "deck": "myth-religion",
+  "aliases": [],
+  "hook": "The Iliad's greatest warrior, invulnerable except for the heel that killed him.",
+  "facts": [
+    {
+      "id": "thetis-heel",
+      "label": "Thetis and the River Styx",
+      "statement": "His mother Thetis dipped the infant Achilles in the River Styx by the heel, leaving that spot vulnerable; the Achilles tendon still carries his name.",
+      "associations": [
+        "Thetis",
+        "River Styx",
+        "heel",
+        "Achilles tendon"
+      ],
+      "clue_ids": [
+        "0700a190f2",
+        "a03031cc85",
+        "df57adf6c1"
+      ]
+    },
+    {
+      "id": "iliad",
+      "label": "the Iliad",
+      "statement": "Homer's Iliad is the Trojan War epic built on the wrath of Achilles, and it contains the duels of Menelaus and Paris and of Achilles and Hector.",
+      "associations": [
+        "Homer",
+        "Trojan War",
+        "wrath of Achilles"
+      ],
+      "clue_ids": [
+        "2ac416ecf7",
+        "7f75a8e64f"
+      ]
+    },
+    {
+      "id": "hector",
+      "label": "Hector",
+      "statement": "Hector is Troy's greatest warrior; he kills Achilles' friend Patroclus, and Achilles then kills Hector and drags his body around Patroclus' tomb.",
+      "associations": [
+        "Hector",
+        "Patroclus",
+        "dragged body"
+      ],
+      "clue_ids": [
+        "e95bbc98f7",
+        "abbeabde28"
+      ]
+    },
+    {
+      "id": "paris",
+      "label": "Paris",
+      "statement": "Paris, with Apollo's help, shoots the arrow into Achilles' heel that kills him; Paris is later killed by a poisoned arrow himself.",
+      "associations": [
+        "Paris",
+        "arrow",
+        "Apollo"
+      ],
+      "clue_ids": [
+        "5d2b304917",
+        "842d0cbaec"
+      ]
+    },
+    {
+      "id": "ajax",
+      "label": "Ajax",
+      "statement": "Ajax, son of Telamon, ranks second only to Achilles among the Greek heroes and recovers Achilles' body from the Trojans.",
+      "associations": [
+        "Ajax",
+        "Telamon",
+        "second to Achilles"
+      ],
+      "clue_ids": [
+        "24d2119e80",
+        "9f9fcdd25f"
+      ]
+    },
+    {
+      "id": "chiron",
+      "label": "Chiron",
+      "statement": "The centaur Chiron taught the young Achilles to play the lyre; he also taught Jason.",
+      "associations": [
+        "Chiron",
+        "centaur",
+        "lyre"
+      ],
+      "clue_ids": [
+        "872e4c80de",
+        "85a7169018"
+      ]
+    },
+    {
+      "id": "hephaestus",
+      "label": "Hephaestus",
+      "statement": "Hephaestus forged Achilles' armor, and W.H. Auden's poem 'The Shield of Achilles' calls the fire god 'the thin-lipped armorer.'",
+      "associations": [
+        "Hephaestus",
+        "shield",
+        "W.H. Auden"
+      ],
+      "clue_ids": [
+        "e5f8efc50c",
+        "499ceafa74"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "0700a190f2",
+    "a03031cc85",
+    "df57adf6c1",
+    "2ac416ecf7",
+    "7f75a8e64f",
+    "e95bbc98f7",
+    "abbeabde28",
+    "5d2b304917",
+    "842d0cbaec",
+    "24d2119e80",
+    "9f9fcdd25f",
+    "872e4c80de",
+    "85a7169018",
+    "e5f8efc50c",
+    "499ceafa74",
+    "0677b3970c",
+    "62bdf54c6b",
+    "1f73460673"
+  ],
+  "related": [
+    "zeus",
+    "homer",
+    "greece"
+  ]
+}

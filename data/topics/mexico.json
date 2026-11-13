@@ -1,0 +1,64 @@
+{
+  "id": "mexico",
+  "name": "Mexico",
+  "deck": "geography",
+  "aliases": ["Mexican"],
+  "hook": "A country asked through its emperors, revolutions, muralists and border.",
+  "facts": [
+    {
+      "id": "independence",
+      "label": "independence from Spain",
+      "statement": "Mexico won independence from Spain in 1821, after a war that began with the Grito de Dolores in 1810.",
+      "associations": ["1821", "Spain", "Grito de Dolores", "1810"],
+      "clue_ids": ["90d7a1da9e"]
+    },
+    {
+      "id": "maximilian",
+      "label": "Maximilian",
+      "statement": "Napoleon III installed Austrian Archduke Maximilian as emperor of Mexico in 1864; he landed at Veracruz and lived at Chapultepec Castle.",
+      "associations": ["Napoleon III", "Archduke Maximilian", "1864", "Chapultepec"],
+      "clue_ids": ["2cfdcd25c2", "43a7d33c3d", "48a6bc4049"]
+    },
+    {
+      "id": "santa-anna",
+      "label": "Santa Anna",
+      "statement": "Antonio Lopez de Santa Anna was Mexico's on-again, off-again president; he stormed the Alamo in 1836 and lost a leg in the Pastry War.",
+      "associations": ["Santa Anna", "the Alamo", "1836", "Pastry War"],
+      "clue_ids": ["95bb0b7dd3", "4e0a0bc5f3"]
+    },
+    {
+      "id": "pancho-villa",
+      "label": "Pancho Villa",
+      "statement": "Pancho Villa was the Mexican revolutionary and bandit whose gang raided Columbus, New Mexico, in 1916.",
+      "associations": ["Pancho Villa", "Columbus, New Mexico", "1916", "revolutionary"],
+      "clue_ids": ["b748700b23", "eef132a136"]
+    },
+    {
+      "id": "aztecs",
+      "label": "the Aztecs",
+      "statement": "The Aztecs gave Mexico the volcano Popocatepetl, whose name means \"smoking mountain\"; their rain god was Tlaloc.",
+      "associations": ["Aztecs", "Popocatepetl", "Tlaloc", "smoking mountain"],
+      "clue_ids": ["211956aab6", "40f52ae582"]
+    },
+    {
+      "id": "diego-rivera",
+      "label": "Diego Rivera",
+      "statement": "Diego Rivera, husband of Frida Kahlo, painted his first major mural at Mexico City's National Preparatory School in the 1920s.",
+      "associations": ["Diego Rivera", "Frida Kahlo", "muralist", "National Preparatory School"],
+      "clue_ids": ["5611d70ca6", "8f672183ab"]
+    },
+    {
+      "id": "chihuahua",
+      "label": "Chihuahua",
+      "statement": "Chihuahua is the border state between Sonora and Coahuila; its capital, state and desert all share the name.",
+      "associations": ["Chihuahua", "border state", "Sonora", "Coahuila"],
+      "clue_ids": ["fba8fa2d4a", "c07025554e"]
+    }
+  ],
+  "clue_ids": [
+    "90d7a1da9e", "2cfdcd25c2", "43a7d33c3d", "48a6bc4049", "95bb0b7dd3",
+    "4e0a0bc5f3", "b748700b23", "eef132a136", "211956aab6", "40f52ae582",
+    "5611d70ca6", "8f672183ab", "fba8fa2d4a", "c07025554e"
+  ],
+  "related": ["texas", "spain", "aztecs"]
+}

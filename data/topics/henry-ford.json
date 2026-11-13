@@ -1,0 +1,65 @@
+{
+  "id": "henry-ford",
+  "name": "Henry Ford",
+  "deck": "business",
+  "aliases": ["Ford Model T", "Model T"],
+  "hook": "The assembly line, the Model T and \"any color so long as it's black.\"",
+  "facts": [
+    {
+      "id": "model-t",
+      "label": "Model T",
+      "statement": "The Model T was first assembled on October 1, 1908, at Detroit's Piquette Avenue plant; about 15 million were built.",
+      "associations": ["Model T", "1908", "15 million", "Piquette Avenue"],
+      "clue_ids": ["64db0ec64b", "5861672757", "af2f1a0af9"]
+    },
+    {
+      "id": "assembly-line",
+      "label": "assembly line",
+      "statement": "In 1913 Ford installed the first moving assembly line at his Highland Park plant, and the Model T was built on it.",
+      "associations": ["assembly line", "1913", "Highland Park", "Model T"],
+      "clue_ids": ["d6fa2b00c2", "ed93a7cede"]
+    },
+    {
+      "id": "any-color",
+      "label": "black",
+      "statement": "Ford said Model T buyers could have any color they wanted \"so long as it's black.\"",
+      "associations": ["any color", "black", "Model T"],
+      "clue_ids": ["1362176834", "976ff08f89"]
+    },
+    {
+      "id": "fair-lane",
+      "label": "Fair Lane",
+      "statement": "Fair Lane was Ford's 56-room mansion in Dearborn, Michigan, the city where he was born and started his first car company.",
+      "associations": ["Fair Lane", "Dearborn", "Michigan", "56-room mansion"],
+      "clue_ids": ["f4d98286c7", "ab0e99f822", "cabe0f3afe"]
+    },
+    {
+      "id": "model-a",
+      "label": "Model A",
+      "statement": "Ford unveiled the Model A on December 2, 1927, as competition from Chevrolet pushed him to replace the Model T.",
+      "associations": ["Model A", "1927", "Chevrolet", "Model T"],
+      "clue_ids": ["759a95b92d", "581f10e89c"]
+    },
+    {
+      "id": "tin-lizzie",
+      "label": "Tin Lizzie",
+      "statement": "The Model T was nicknamed \"Tin Lizzie\" and \"flivver\"; Lizzie came from a woman's name used as slang for a reliable servant.",
+      "associations": ["Tin Lizzie", "flivver", "nickname"],
+      "clue_ids": ["cd55be8c8b", "63e4a771a6"]
+    },
+    {
+      "id": "history-bunk",
+      "label": "\"History is bunk\"",
+      "statement": "\"History is more or less bunk,\" Ford said in a 1916 interview.",
+      "associations": ["History is bunk", "1916 interview"],
+      "clue_ids": ["404faf8cef", "74b525161f"]
+    }
+  ],
+  "clue_ids": [
+    "64db0ec64b", "5861672757", "af2f1a0af9", "ab0e99f822", "cabe0f3afe",
+    "1362176834", "976ff08f89", "759a95b92d", "581f10e89c", "404faf8cef",
+    "ed93a7cede", "d6fa2b00c2", "cd55be8c8b", "74b525161f", "6abcecec50",
+    "d3de302fc0", "be2f408366", "63e4a771a6"
+  ],
+  "related": ["wright-brothers", "thomas-edison"]
+}

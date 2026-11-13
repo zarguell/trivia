@@ -1,0 +1,65 @@
+{
+  "id": "sistine-chapel",
+  "name": "Sistine Chapel",
+  "deck": "arts",
+  "aliases": [],
+  "hook": "Michelangelo's ceiling, the Last Judgment, and the room where cardinals elect a pope.",
+  "facts": [
+    {
+      "id": "michelangelo",
+      "label": "Michelangelo",
+      "statement": "Michelangelo painted the Sistine Chapel ceiling while Raphael was upstairs in the Vatican painting The School of Athens.",
+      "associations": ["Michelangelo", "Raphael", "The School of Athens"],
+      "clue_ids": ["97192cb0d4", "4cb54374ef"]
+    },
+    {
+      "id": "genesis",
+      "label": "Genesis and the Creation of Adam",
+      "statement": "The ceiling's central panels tell Genesis, including The Creation of Adam and Adam and Eve's temptation and expulsion.",
+      "associations": ["Genesis", "Creation of Adam", "Adam and Eve"],
+      "clue_ids": ["9a5b305dfb", "91df02222e", "8e96f92c98"]
+    },
+    {
+      "id": "last-judgment",
+      "label": "The Last Judgment",
+      "statement": "The Last Judgment is the huge fresco on the west wall, completed in 1541 — on the wall, not the ceiling.",
+      "associations": ["The Last Judgment", "west wall", "1541"],
+      "clue_ids": ["07ee71c642", "443b761d7a", "4e7e8107b3"]
+    },
+    {
+      "id": "sixtus",
+      "label": "Sixtus IV",
+      "statement": "Pope Sixtus IV, the fourth pope of that name, built and named the chapel; Giovanni dei Dolci erected it.",
+      "associations": ["Sixtus IV", "Giovanni dei Dolci", "named for a pope"],
+      "clue_ids": ["5e59438ef0", "bf7c2e4aae", "2fb8570b79"]
+    },
+    {
+      "id": "conclave",
+      "label": "the papal conclave",
+      "statement": "The College of Cardinals meets in the Sistine Chapel to elect a new pope.",
+      "associations": ["cardinals", "conclave", "elect a pope"],
+      "clue_ids": ["afd82a8009", "65b8ef48d3"]
+    },
+    {
+      "id": "fresco",
+      "label": "fresco",
+      "statement": "The chapel's decorations are frescoes, painted with water-based pigment on lime plaster.",
+      "associations": ["fresco", "lime plaster", "water-based paint"],
+      "clue_ids": ["dbc79e4b4f"]
+    },
+    {
+      "id": "noah",
+      "label": "Noah",
+      "statement": "Three of Michelangelo's ceiling panels deal with Noah, including his drunkenness and his sacrifice.",
+      "associations": ["Noah", "drunkenness", "sacrifice"],
+      "clue_ids": ["0f6d79803d"]
+    }
+  ],
+  "clue_ids": [
+    "97192cb0d4", "4cb54374ef", "9a5b305dfb", "91df02222e", "8e96f92c98",
+    "f298641b86", "07ee71c642", "443b761d7a", "4e7e8107b3", "5e59438ef0",
+    "bf7c2e4aae", "2fb8570b79", "afd82a8009", "65b8ef48d3", "dbc79e4b4f",
+    "0f6d79803d"
+  ],
+  "related": ["michelangelo", "leonardo-da-vinci", "mona-lisa"]
+}

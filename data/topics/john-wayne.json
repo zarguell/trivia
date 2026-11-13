@@ -1,0 +1,65 @@
+{
+  "id": "john-wayne",
+  "name": "John Wayne",
+  "deck": "film-tv",
+  "aliases": ["The Duke"],
+  "hook": "The Duke, whose Westerns and war films Jeopardy returns to for True Grit and Stagecoach.",
+  "facts": [
+    {
+      "id": "record",
+      "label": "142 leading roles",
+      "statement": "John Wayne played 142 leading roles, a Guinness record, and turned down the role of Dirty Harry.",
+      "associations": ["142 leading roles", "Guinness record", "Dirty Harry"],
+      "clue_ids": ["8cb9151112"]
+    },
+    {
+      "id": "true-grit",
+      "label": "Rooster Cogburn",
+      "statement": "Wayne won his only Oscar for True Grit (1969) as Rooster Cogburn, the one-eyed marshal; he returned to the role in 1975's Rooster Cogburn.",
+      "associations": ["True Grit", "Rooster Cogburn", "only Oscar"],
+      "clue_ids": ["f27275fd08", "f910aa8a73", "7e273a31b4"]
+    },
+    {
+      "id": "stagecoach",
+      "label": "Stagecoach",
+      "statement": "Stagecoach (1939), John Ford's Western named for a vehicle, made Wayne a star.",
+      "associations": ["Stagecoach", "1939", "John Ford", "breakout"],
+      "clue_ids": ["85021f94f3", "776cd703c8"]
+    },
+    {
+      "id": "john-ford",
+      "label": "John Ford",
+      "statement": "Ford directed Wayne in many films, including Fort Apache, Rio Grande, and finally Donovan's Reef in 1963.",
+      "associations": ["John Ford", "Fort Apache", "Rio Grande", "Donovan's Reef"],
+      "clue_ids": ["1373a35352", "afeb563380"]
+    },
+    {
+      "id": "the-searchers",
+      "label": "The Searchers",
+      "statement": "The Searchers (1956) is Ford's masterpiece, with Wayne searching for his niece; its line \"That'll be the day\" inspired Buddy Holly.",
+      "associations": ["The Searchers", "1956", "That'll Be the Day", "Buddy Holly"],
+      "clue_ids": ["bef065d841", "51643113a2", "e42180bacd"]
+    },
+    {
+      "id": "liberty-valance",
+      "label": "The Man Who Shot Liberty Valance",
+      "statement": "In The Man Who Shot Liberty Valance (1962) Jimmy Stewart returns to Shinbone for Wayne's funeral; Burt and Hal wrote a song of the same name.",
+      "associations": ["The Man Who Shot Liberty Valance", "Jimmy Stewart", "Shinbone"],
+      "clue_ids": ["ba8f20d72c", "e83e0271e6"]
+    },
+    {
+      "id": "green-berets",
+      "label": "The Green Berets",
+      "statement": "The Green Berets (1968) was Wayne's Vietnam War film; Richard Pryor had a small part.",
+      "associations": ["The Green Berets", "Vietnam War", "Richard Pryor"],
+      "clue_ids": ["4fe8b2bc6a", "ac11bb6423"]
+    }
+  ],
+  "clue_ids": [
+    "8cb9151112", "f27275fd08", "75dd2f1287", "85021f94f3", "776cd703c8",
+    "1373a35352", "afeb563380", "b05d9f72f7", "f910aa8a73", "7e273a31b4",
+    "ba8f20d72c", "4fe8b2bc6a", "1698b4fdf5", "cb865ff15d", "bef065d841",
+    "e42180bacd", "2ef7899683", "e83e0271e6"
+  ],
+  "related": ["the-godfather", "casablanca", "academy-awards"]
+}

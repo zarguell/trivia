@@ -1,0 +1,124 @@
+{
+  "id": "lego",
+  "name": "LEGO",
+  "deck": "pop-culture",
+  "aliases": [],
+  "hook": "The Danish plastic brick keeps showing up in clues about play, art, landmarks and movies.",
+  "facts": [
+    {
+      "id": "name",
+      "label": "the name",
+      "statement": "LEGO's four-letter name comes from Danish words meaning \"play well\"; in Latin it coincidentally means \"I put together.\"",
+      "associations": [
+        "Danish",
+        "play well",
+        "I put together"
+      ],
+      "clue_ids": [
+        "888986a610",
+        "cf02f5d7f8"
+      ]
+    },
+    {
+      "id": "billund",
+      "label": "Billund, Denmark",
+      "statement": "LEGO is a Danish company; its Legoland theme park and original factory are in Billund, Denmark, and its first flagship store is in Copenhagen.",
+      "associations": [
+        "Billund",
+        "Denmark",
+        "Legoland"
+      ],
+      "clue_ids": [
+        "1655020e63",
+        "337dc09005",
+        "fda2d1199a"
+      ]
+    },
+    {
+      "id": "brick",
+      "label": "the brick",
+      "statement": "A single LEGO piece is called a brick, and the company introduced Duplo — larger bricks for toddlers — in 1969.",
+      "associations": [
+        "brick",
+        "Duplo",
+        "1969"
+      ],
+      "clue_ids": [
+        "953f4027fc",
+        "2be812ec0c"
+      ]
+    },
+    {
+      "id": "minifigs",
+      "label": "minifigs",
+      "statement": "LEGO's little people are nicknamed minifigs; the first with multiple facial expressions were pirates.",
+      "associations": [
+        "minifigs",
+        "pirates",
+        "faces"
+      ],
+      "clue_ids": [
+        "38d1ca0ff2"
+      ]
+    },
+    {
+      "id": "landmark-sets",
+      "label": "landmark sets",
+      "statement": "LEGO's landmark sets include Big Ben, the Eiffel Tower and a Taj Mahal model of the Agra mausoleum.",
+      "associations": [
+        "Taj Mahal",
+        "Big Ben",
+        "Eiffel Tower"
+      ],
+      "clue_ids": [
+        "848847fcf7",
+        "36b20ad017"
+      ]
+    },
+    {
+      "id": "sawaya",
+      "label": "Nathan Sawaya",
+      "statement": "LEGO artist Nathan Sawaya recreated works such as van Gogh's Starry Night and a brick-built iPhone in his touring exhibition.",
+      "associations": [
+        "Nathan Sawaya",
+        "Starry Night",
+        "LEGO art"
+      ],
+      "clue_ids": [
+        "e240265ea2",
+        "4eb7e4f30b"
+      ]
+    },
+    {
+      "id": "movie",
+      "label": "The Lego Movie",
+      "statement": "In The Lego Movie, Will Ferrell voices both President Business and the man upstairs.",
+      "associations": [
+        "Will Ferrell",
+        "President Business",
+        "2014 film"
+      ],
+      "clue_ids": [
+        "b742635f5a"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "888986a610",
+    "cf02f5d7f8",
+    "1655020e63",
+    "337dc09005",
+    "fda2d1199a",
+    "953f4027fc",
+    "2be812ec0c",
+    "38d1ca0ff2",
+    "848847fcf7",
+    "36b20ad017",
+    "e240265ea2",
+    "4eb7e4f30b",
+    "b742635f5a",
+    "695cfbe021",
+    "ee53b7ec62",
+    "e5c4ce41b2"
+  ]
+}

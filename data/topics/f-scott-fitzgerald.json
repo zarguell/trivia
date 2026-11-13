@@ -1,0 +1,65 @@
+{
+  "id": "f-scott-fitzgerald",
+  "name": "F. Scott Fitzgerald",
+  "deck": "literature",
+  "aliases": ["Fitzgerald"],
+  "hook": "The Jazz Age's own novelist: five novels, one Zelda, and the most famous last line in American fiction.",
+  "facts": [
+    {
+      "id": "author",
+      "label": "F. Scott Fitzgerald",
+      "statement": "F. Scott Fitzgerald was named for distant relative Francis Scott Key, grew up in St. Paul, Minnesota, and attended Princeton.",
+      "associations": ["Francis Scott Key", "St. Paul", "Princeton"],
+      "clue_ids": ["b857526cbc", "16775257a3", "257cf1635c"]
+    },
+    {
+      "id": "this-side",
+      "label": "This Side of Paradise",
+      "statement": "This Side of Paradise, his 1920 debut, made Princeton student Amory Blaine its hero and made Fitzgerald famous.",
+      "associations": ["1920 debut", "Amory Blaine", "Princeton"],
+      "clue_ids": ["db522aaebc", "351158f9a5", "780e01fb79"]
+    },
+    {
+      "id": "gatsby",
+      "label": "The Great Gatsby",
+      "statement": "The Great Gatsby (1925) is his masterpiece; its last line about \"boats against the current\" inspired Eric Carmen, and Tom and Daisy meet at Louisville's Seelbach Hotel.",
+      "associations": ["1925", "boats against the current", "Seelbach Hotel"],
+      "clue_ids": ["855b47c86c", "c1b2a99ca3"]
+    },
+    {
+      "id": "zelda",
+      "label": "Zelda Sayre",
+      "statement": "He met Zelda Sayre in Alabama in 1918 and married her; her flapper image shaped his heroines and his fiction.",
+      "associations": ["Zelda Sayre", "Alabama", "1918"],
+      "clue_ids": ["95b526dfff", "4a6f7ea237"]
+    },
+    {
+      "id": "tender",
+      "label": "Tender Is the Night",
+      "statement": "Tender Is the Night (1934) was his last complete novel; its title comes from Keats's \"Ode to a Nightingale\".",
+      "associations": ["Tender Is the Night", "Keats", "Ode to a Nightingale"],
+      "clue_ids": ["22ecae553e", "1b7404fcf1"]
+    },
+    {
+      "id": "tycoon",
+      "label": "The Last Tycoon",
+      "statement": "The Last Tycoon, about a Hollywood producer, was unfinished when Fitzgerald died of a heart attack at 44 in 1940.",
+      "associations": ["unfinished", "Hollywood", "died at 44"],
+      "clue_ids": ["b7d6e4e857", "fdb7a7d0e2"]
+    },
+    {
+      "id": "jazz-age",
+      "label": "the Jazz Age",
+      "statement": "Fitzgerald christened the 1920s the Jazz Age; his 1922 story collection Tales of the Jazz Age made the phrase stick.",
+      "associations": ["the Jazz Age", "Roaring Twenties", "Tales of the Jazz Age"],
+      "clue_ids": ["f81073637b", "d74edbd633"]
+    }
+  ],
+  "clue_ids": [
+    "b857526cbc", "16775257a3", "257cf1635c", "db522aaebc", "351158f9a5",
+    "780e01fb79", "855b47c86c", "c1b2a99ca3", "95b526dfff", "4a6f7ea237",
+    "22ecae553e", "1b7404fcf1", "b7d6e4e857", "fdb7a7d0e2", "f81073637b",
+    "d74edbd633"
+  ],
+  "related": ["the-great-gatsby", "ernest-hemingway"]
+}

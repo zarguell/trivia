@@ -1,0 +1,64 @@
+{
+  "id": "neptune",
+  "name": "Neptune",
+  "deck": "science",
+  "aliases": [],
+  "hook": "The blue ice giant found by mathematics — sea god, rings, Triton and the Kuiper Belt beyond.",
+  "facts": [
+    {
+      "id": "discovery",
+      "label": "its 1846 discovery",
+      "statement": "Neptune was found in 1846 by Johann Galle after Le Verrier and Adams predicted it mathematically; the French wanted to call it Le Verrier.",
+      "associations": ["1846", "Johann Galle", "Le Verrier", "predicted by mathematics"],
+      "clue_ids": ["5db5e3e414", "475136fc41"]
+    },
+    {
+      "id": "poseidon",
+      "label": "Poseidon",
+      "statement": "Neptune is the Roman sea god; the Greeks called him Poseidon, and he is usually shown wielding a trident.",
+      "associations": ["Poseidon", "Roman sea god", "trident"],
+      "clue_ids": ["95bee8e132", "142406e175", "acb7732969"]
+    },
+    {
+      "id": "triton",
+      "label": "Triton",
+      "statement": "Triton, Neptune's largest moon, is named for a son of Poseidon and has a strange retrograde orbit.",
+      "associations": ["Triton", "largest moon", "retrograde orbit", "son of Poseidon"],
+      "clue_ids": ["fa72148fe8", "abf1c264d3"]
+    },
+    {
+      "id": "rings",
+      "label": "its rings",
+      "statement": "Neptune has rings made mainly of dust, including ones named Le Verrier and Adams; only Saturn's rings are visible through a small telescope.",
+      "associations": ["rings", "Le Verrier", "Adams", "dust"],
+      "clue_ids": ["ab9ca54ec2", "c3b1da724e"]
+    },
+    {
+      "id": "kuiper-belt",
+      "label": "the Kuiper Belt",
+      "statement": "Beyond Neptune's orbit lies the Kuiper Belt, the icy belt of Pluto and many short-period comets.",
+      "associations": ["Kuiper Belt", "icy bodies", "beyond Neptune", "comets"],
+      "clue_ids": ["fd33188946", "7e9e1b9332"]
+    },
+    {
+      "id": "neptunian-year",
+      "label": "one Neptunian year",
+      "statement": "Neptune's orbit is so vast that in July 2011 it completed its first full orbit since its discovery in 1846.",
+      "associations": ["first orbit", "July 2011", "1846"],
+      "clue_ids": ["830de7faf0"]
+    },
+    {
+      "id": "pisces",
+      "label": "Pisces",
+      "statement": "Neptune is one of the two planets said to rule Pisces, the fish sign of the zodiac.",
+      "associations": ["Pisces", "zodiac", "ruling planet"],
+      "clue_ids": ["9862858c64", "ad5f212eb1"]
+    }
+  ],
+  "clue_ids": [
+    "5db5e3e414", "475136fc41", "95bee8e132", "142406e175", "acb7732969",
+    "fa72148fe8", "abf1c264d3", "ab9ca54ec2", "c3b1da724e", "fd33188946",
+    "7e9e1b9332", "830de7faf0", "9862858c64", "ad5f212eb1"
+  ],
+  "related": ["pluto", "solar-system", "jupiter"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "france",
+  "name": "France",
+  "deck": "geography",
+  "aliases": ["French"],
+  "hook": "Kings, revolutionaries and one very recognizable language: the France clues keep circling the same cast.",
+  "facts": [
+    {
+      "id": "republic",
+      "label": "the French Republic",
+      "statement": "France is a country in Western Europe whose official language is French, one of the six official languages of the United Nations.",
+      "associations": ["France", "French language", "UN official language"],
+      "clue_ids": ["50ded1bb1e", "f43ff8b9a1"]
+    },
+    {
+      "id": "napoleon",
+      "label": "Napoleon Bonaparte",
+      "statement": "Napoleon Bonaparte escaped exile on Elba in February 1815 and returned to France; his final defeat came at Waterloo that June.",
+      "associations": ["Napoleon Bonaparte", "Elba", "1815", "Waterloo"],
+      "clue_ids": ["daefae018c", "915395fada"]
+    },
+    {
+      "id": "louis-xiv",
+      "label": "Louis XIV",
+      "statement": "Louis XIV, the Sun King, was great-grandfather of Louis XV and revoked the Edict of Nantes, driving Huguenots out of France.",
+      "associations": ["Louis XIV", "Sun King", "Edict of Nantes", "Huguenots"],
+      "clue_ids": ["b11524181c", "73d6ad43aa", "2618d776bd"]
+    },
+    {
+      "id": "louis-xvi",
+      "label": "Louis XVI",
+      "statement": "Louis XVI, the last absolute Bourbon king, was guillotined in 1793; his Austrian wife Marie Antoinette married him in 1770 and was executed too.",
+      "associations": ["Louis XVI", "Marie Antoinette", "guillotine", "1793"],
+      "clue_ids": ["6bfdcd8368", "90b758dbaa", "c3edc01d92"]
+    },
+    {
+      "id": "de-gaulle",
+      "label": "Charles de Gaulle",
+      "statement": "Charles de Gaulle led the Free French after 1940 and later, as president, pulled France out of NATO's military command in 1966.",
+      "associations": ["Charles de Gaulle", "Free France", "NATO", "1966"],
+      "clue_ids": ["97dbb103ab", "83599300c4", "61d593cfa5"]
+    },
+    {
+      "id": "joan-of-arc",
+      "label": "Joan of Arc",
+      "statement": "Joan of Arc, the peasant girl who led French forces against the English, was canonized by Pope Benedict XV in 1920.",
+      "associations": ["Joan of Arc", "canonized 1920", "Pope Benedict XV", "Hundred Years' War"],
+      "clue_ids": ["02d766072e", "64336f73d5"]
+    },
+    {
+      "id": "corsica",
+      "label": "Corsica",
+      "statement": "Corsica, Napoleon's birthplace, was bought from Genoa in 1768 and is called \"The Scented Isle\" for its fragrant flowers.",
+      "associations": ["Corsica", "Genoa", "1768", "Scented Isle"],
+      "clue_ids": ["472f6ace02", "1e8b1e896c"]
+    }
+  ],
+  "clue_ids": [
+    "706b022f4c", "50ded1bb1e", "f43ff8b9a1", "daefae018c", "915395fada",
+    "b11524181c", "73d6ad43aa", "2618d776bd", "6bfdcd8368", "90b758dbaa",
+    "c3edc01d92", "97dbb103ab", "83599300c4", "61d593cfa5", "02d766072e",
+    "64336f73d5", "472f6ace02", "1e8b1e896c"
+  ],
+  "related": ["paris", "napoleon", "eiffel-tower", "french-revolution"]
+}

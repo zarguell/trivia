@@ -1,0 +1,57 @@
+{
+  "id": "elvis-presley",
+  "name": "Elvis Presley",
+  "deck": "music",
+  "aliases": ["Elvis"],
+  "hook": "The King: Memphis, Graceland, the movies and the manager — a handful of facts cover most Elvis clues.",
+  "facts": [
+    {
+      "id": "memphis",
+      "label": "Memphis",
+      "statement": "Elvis Presley was born in Tupelo, Mississippi, in 1935 and became the King of Rock 'n' Roll in Memphis.",
+      "associations": ["Memphis", "Tupelo", "King of Rock 'n' Roll"],
+      "clue_ids": ["0b92ca461a", "3bee3ca2da"]
+    },
+    {
+      "id": "graceland",
+      "label": "Graceland",
+      "statement": "Graceland is his Memphis mansion; fans gather there for his January 8 birthday and Elvis Week.",
+      "associations": ["Graceland", "Memphis mansion", "January 8"],
+      "clue_ids": ["59ef340017", "69e809babd"]
+    },
+    {
+      "id": "heartbreak-hotel",
+      "label": "\"Heartbreak Hotel\"",
+      "statement": "\"Heartbreak Hotel,\" his 1956 hit, is about a place to dwell; Whitney Houston later recorded a different song with that title.",
+      "associations": ["Heartbreak Hotel", "1956", "place to dwell"],
+      "clue_ids": ["c13d52b545", "2a66b97366"]
+    },
+    {
+      "id": "hound-dog",
+      "label": "\"Hound Dog\"",
+      "statement": "\"Hound Dog\" was the flipside of \"Don't Be Cruel\"; he sang it to a basset hound named Sherlock on The Steve Allen Show.",
+      "associations": ["Hound Dog", "Don't Be Cruel", "Sherlock"],
+      "clue_ids": ["63286fc81c", "71805356a3"]
+    },
+    {
+      "id": "films",
+      "label": "his 31 movies",
+      "statement": "He made 31 features, including Love Me Tender, Jailhouse Rock, Blue Hawaii and Viva Las Vegas; the Blue Hawaii soundtrack hit No. 1.",
+      "associations": ["31 films", "Blue Hawaii", "Jailhouse Rock", "Viva Las Vegas"],
+      "clue_ids": ["7d8afef379", "f915cb576b", "6206c42445"]
+    },
+    {
+      "id": "parker",
+      "label": "Colonel Tom Parker",
+      "statement": "Colonel Tom Parker managed him — an illegal Dutch immigrant who had once been a Tampa dogcatcher.",
+      "associations": ["Colonel Tom Parker", "manager", "Dutch immigrant"],
+      "clue_ids": ["e84e0497ce", "7d0240096e"]
+    }
+  ],
+  "clue_ids": [
+    "0b92ca461a", "3bee3ca2da", "59ef340017", "69e809babd", "c13d52b545",
+    "2a66b97366", "63286fc81c", "71805356a3", "7d8afef379", "f915cb576b",
+    "6206c42445", "e84e0497ce", "7d0240096e", "f439a190e0", "5e2d491d02"
+  ],
+  "related": ["frank-sinatra", "the-beatles", "marilyn-monroe"]
+}

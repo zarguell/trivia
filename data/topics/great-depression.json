@@ -1,0 +1,65 @@
+{
+  "id": "great-depression",
+  "name": "Great Depression",
+  "deck": "history",
+  "aliases": ["the Depression", "the Slump"],
+  "hook": "Crash, Dust Bowl and New Deal: the economic disaster that defined the 1930s.",
+  "facts": [
+    {
+      "id": "crash",
+      "label": "the 1929 stock market crash",
+      "statement": "The Great Depression is usually dated to the October 1929 stock market crash, though it began in Latin America in 1928.",
+      "associations": ["October 1929", "stock market crash", "1928"],
+      "clue_ids": ["502aecc2a8", "8e681e55f8"]
+    },
+    {
+      "id": "hoover",
+      "label": "Herbert Hoover",
+      "statement": "Herbert Hoover was president when it began in 1929 and was widely blamed for the Depression.",
+      "associations": ["Herbert Hoover", "1929", "blamed"],
+      "clue_ids": ["3a7181da62", "5d32ecd82a"]
+    },
+    {
+      "id": "new-deal",
+      "label": "the New Deal",
+      "statement": "Franklin D. Roosevelt's New Deal was his domestic program to pull the U.S. out of the Depression.",
+      "associations": ["New Deal", "FDR", "domestic program"],
+      "clue_ids": ["d3de71e6ec", "7471523675", "4c297a3998"]
+    },
+    {
+      "id": "unemployment",
+      "label": "24.9% unemployment",
+      "statement": "Unemployment reached an all-time U.S. high of 24.9% during the Great Depression.",
+      "associations": ["unemployment", "24.9%", "all-time high"],
+      "clue_ids": ["ffe728f322"]
+    },
+    {
+      "id": "dust-bowl",
+      "label": "the Dust Bowl",
+      "statement": "The Dust Bowl devastated the southern plains; Steinbeck's The Grapes of Wrath follows the Joad family.",
+      "associations": ["Dust Bowl", "The Grapes of Wrath", "Joad family"],
+      "clue_ids": ["15da89ea86"]
+    },
+    {
+      "id": "hard-times",
+      "label": "Hard Times",
+      "statement": "Studs Terkel's Hard Times is an oral history of the Great Depression.",
+      "associations": ["Studs Terkel", "Hard Times", "oral history"],
+      "clue_ids": ["a2d3c9557f"]
+    },
+    {
+      "id": "water-for-elephants",
+      "label": "Water for Elephants",
+      "statement": "Sara Gruen's Water for Elephants is set in a circus during the Great Depression.",
+      "associations": ["Water for Elephants", "Sara Gruen", "circus"],
+      "clue_ids": ["a6f88a6605", "e6ed082e18"]
+    }
+  ],
+  "clue_ids": [
+    "502aecc2a8", "8e681e55f8", "3a7181da62", "5d32ecd82a", "d3de71e6ec",
+    "7471523675", "4c297a3998", "ffe728f322", "15da89ea86", "a2d3c9557f",
+    "a6f88a6605", "e6ed082e18", "4a6da893ba", "18c6ff705a", "b091fc4a16",
+    "2b4307e3d1"
+  ],
+  "related": ["franklin-d-roosevelt", "john-steinbeck", "world-war-ii"]
+}

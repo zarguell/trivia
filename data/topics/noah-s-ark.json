@@ -1,0 +1,65 @@
+{
+  "id": "noah-s-ark",
+  "name": "Noah's Ark",
+  "deck": "myth-religion",
+  "aliases": ["Noah"],
+  "hook": "The Genesis flood story: an ark of gopher wood, a dove with an olive leaf and a rainbow promise.",
+  "facts": [
+    {
+      "id": "the-ark",
+      "label": "the ark",
+      "statement": "Genesis says God told Noah to build the ark of gopher wood, 300 cubits long and 50 wide, with eight people aboard.",
+      "associations": ["Genesis", "gopher wood", "300 cubits", "eight people"],
+      "clue_ids": ["4e12d9601d", "5a872677aa", "6803c3e964"]
+    },
+    {
+      "id": "mount-ararat",
+      "label": "Mount Ararat",
+      "statement": "Mount Ararat, a 16,900-foot peak in Turkey, is the traditional resting place of Noah's Ark; astronaut James Irwin searched there.",
+      "associations": ["Mount Ararat", "Turkey", "James Irwin"],
+      "clue_ids": ["7cd3802c25", "cdd464048c", "3ab3ca4c3e"]
+    },
+    {
+      "id": "the-birds",
+      "label": "the raven and the dove",
+      "statement": "Noah first sends a raven, then a dove, which returns with an olive leaf; the constellation Columba is \"Noah's dove.\"",
+      "associations": ["the raven", "the dove", "olive leaf", "Columba"],
+      "clue_ids": ["eee41d708b", "2a82fb5230", "858322b8e5"]
+    },
+    {
+      "id": "rainbow",
+      "label": "the rainbow",
+      "statement": "The rainbow in the cloud is God's sign to Noah that he will never again flood the earth.",
+      "associations": ["a rainbow", "God's sign", "covenant"],
+      "clue_ids": ["ae544a721c", "559ad224e3"]
+    },
+    {
+      "id": "methuselah",
+      "label": "Methuselah",
+      "statement": "Methuselah, Noah's grandfather, lives 969 years — the longest life in the Bible.",
+      "associations": ["Methuselah", "969 years", "grandfather"],
+      "clue_ids": ["f2503ee17c", "745194241d"]
+    },
+    {
+      "id": "ham",
+      "label": "Ham",
+      "statement": "Ham, one of Noah's three sons, sees his father naked and is cursed; his brothers are Shem and Japheth.",
+      "associations": ["Ham", "Shem", "Japheth", "curse"],
+      "clue_ids": ["f03d3c9ff8", "54d7d31641"]
+    },
+    {
+      "id": "nimrod",
+      "label": "Nimrod",
+      "statement": "Nimrod, Noah's great-grandson, is a mighty hunter; Bugs Bunny used his name to insult Elmer Fudd.",
+      "associations": ["Nimrod", "mighty hunter", "Bugs Bunny"],
+      "clue_ids": ["4411b8a460", "f67acf19bf"]
+    }
+  ],
+  "clue_ids": [
+    "4e12d9601d", "5a872677aa", "6803c3e964", "7cd3802c25", "cdd464048c",
+    "3ab3ca4c3e", "eee41d708b", "2a82fb5230", "858322b8e5", "ae544a721c",
+    "559ad224e3", "f2503ee17c", "745194241d", "f03d3c9ff8", "54d7d31641",
+    "4411b8a460", "f67acf19bf"
+  ],
+  "related": ["moses", "garden-of-eden", "ten-commandments"]
+}

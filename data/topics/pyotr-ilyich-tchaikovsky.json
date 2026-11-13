@@ -1,0 +1,65 @@
+{
+  "id": "pyotr-ilyich-tchaikovsky",
+  "name": "Pyotr Ilyich Tchaikovsky",
+  "deck": "music",
+  "aliases": ["Tchaikovsky"],
+  "hook": "The Russian melodist of Swan Lake, The Nutcracker and the 1812 Overture.",
+  "facts": [
+    {
+      "id": "swan-lake",
+      "label": "Swan Lake",
+      "statement": "In Swan Lake, the same ballerina traditionally dances both Odette and Odile, and Rothbart is the villain.",
+      "associations": ["Swan Lake", "Odette", "Odile", "Rothbart"],
+      "clue_ids": ["9bddafa466", "741116e6b1"]
+    },
+    {
+      "id": "nutcracker",
+      "label": "The Nutcracker",
+      "statement": "The Nutcracker, based on an E.T.A. Hoffmann tale, opens with a Miniature Overture and used the then-new celesta.",
+      "associations": ["The Nutcracker", "E.T.A. Hoffmann", "Miniature Overture", "celesta"],
+      "clue_ids": ["0480a5c0ff", "136a431d97"]
+    },
+    {
+      "id": "sleeping-beauty",
+      "label": "Sleeping Beauty",
+      "statement": "Sleeping Beauty premiered in 1890, and its wedding scene includes Little Red Riding Hood and the Big Bad Wolf.",
+      "associations": ["Sleeping Beauty", "1890", "Little Red Riding Hood", "Big Bad Wolf"],
+      "clue_ids": ["60098d925d", "cc2244b71a"]
+    },
+    {
+      "id": "1812-overture",
+      "label": "the 1812 Overture",
+      "statement": "The 1812 Overture depicts Napoleon's retreat from Moscow and quotes \"La Marseillaise.\"",
+      "associations": ["1812 Overture", "Napoleon", "Moscow", "La Marseillaise"],
+      "clue_ids": ["4cd6b0d2ab", "0d7556b14b"]
+    },
+    {
+      "id": "eugene-onegin",
+      "label": "Eugene Onegin",
+      "statement": "Eugene Onegin is an opera based on Pushkin's 1833 novel in verse, in which Tatyana falls for the title character.",
+      "associations": ["Eugene Onegin", "Pushkin", "Tatyana", "1833"],
+      "clue_ids": ["ee2787d58f", "b423fbea85"]
+    },
+    {
+      "id": "carnegie-hall",
+      "label": "Carnegie Hall",
+      "statement": "Tchaikovsky guest conducted the opening concert of Carnegie Hall in May 1891.",
+      "associations": ["Carnegie Hall", "1891", "New York"],
+      "clue_ids": ["3560de1265", "2cb8b62d4e"]
+    },
+    {
+      "id": "van-cliburn",
+      "label": "Van Cliburn",
+      "statement": "Van Cliburn became an American hero in 1958 by winning the International Tchaikovsky Competition and got the first ticker-tape parade for a classical musician.",
+      "associations": ["Van Cliburn", "1958", "Tchaikovsky Competition"],
+      "clue_ids": ["429f936352", "5e1893cec4"]
+    }
+  ],
+  "clue_ids": [
+    "9bddafa466", "741116e6b1", "0480a5c0ff", "136a431d97", "60098d925d",
+    "cc2244b71a", "4cd6b0d2ab", "0d7556b14b", "ee2787d58f", "b423fbea85",
+    "3560de1265", "2cb8b62d4e", "429f936352", "5e1893cec4", "a469301d4c",
+    "86b5b38dcb", "548ecf5f15", "d519151be2"
+  ],
+  "related": ["ludwig-van-beethoven", "johann-sebastian-bach", "wolfgang-amadeus-mozart"]
+}

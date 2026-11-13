@@ -1,0 +1,23 @@
+{
+  "name": "six-things",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily trivia and study mode, distilled from 544,106 Jeopardy! clues.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "data": "python3 pipeline/site_data.py",
+    "build": "node site/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/",
+    "validate": "python3 pipeline/validate_packs.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zarguell/trivia"
+  },
+  "license": "MIT"
+}

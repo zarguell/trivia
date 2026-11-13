@@ -1,0 +1,65 @@
+{
+  "id": "pearl-harbor",
+  "name": "Pearl Harbor",
+  "deck": "history",
+  "aliases": [],
+  "hook": "December 7, 1941: the Arizona, the infamy speech and the attack that brought America into the war.",
+  "facts": [
+    {
+      "id": "attack",
+      "label": "December 7, 1941",
+      "statement": "Japan attacked Pearl Harbor on December 7, 1941, drawing the United States into World War II.",
+      "associations": ["December 7, 1941", "Japan", "World War II"],
+      "clue_ids": ["9b0704749d", "a3120758fe"]
+    },
+    {
+      "id": "arizona",
+      "label": "the USS Arizona",
+      "statement": "The USS Arizona was sunk in the attack; its wreck still leaks oil beneath the memorial in Pearl Harbor.",
+      "associations": ["USS Arizona", "sunken battleship", "oil leak", "memorial"],
+      "clue_ids": ["da6e7a79d1", "fca74ed9f6", "c91a1958f9"]
+    },
+    {
+      "id": "oahu",
+      "label": "Oahu",
+      "statement": "Pearl Harbor is on Oahu, the most populous Hawaiian island and home of the U.S. Pacific Fleet headquarters.",
+      "associations": ["Oahu", "Hawaii", "Pacific Fleet"],
+      "clue_ids": ["49bd2a3e34", "53e191e40d"]
+    },
+    {
+      "id": "yamamoto",
+      "label": "Isoroku Yamamoto",
+      "statement": "Admiral Isoroku Yamamoto planned the attack and had attended Harvard in 1919; he was shot down in 1943.",
+      "associations": ["Isoroku Yamamoto", "Harvard", "shot down 1943", "planner"],
+      "clue_ids": ["94caf7dc70", "393b9b3135"]
+    },
+    {
+      "id": "infamy",
+      "label": "day of infamy speech",
+      "statement": "Franklin D. Roosevelt's December 1941 'day of infamy' speech was typed in first draft by Grace Tully.",
+      "associations": ["FDR", "day of infamy", "Grace Tully"],
+      "clue_ids": ["52ddbc49b4"]
+    },
+    {
+      "id": "films",
+      "label": "Pearl Harbor on film",
+      "statement": "From Here to Eternity and Tora! Tora! Tora! are the classic films about the attack.",
+      "associations": ["From Here to Eternity", "Tora! Tora! Tora!", "1953", "1970"],
+      "clue_ids": ["6ed1600216", "54032025e4"]
+    },
+    {
+      "id": "widens",
+      "label": "Guam and the Philippines",
+      "statement": "Days after Pearl Harbor, Japan occupied Guam, and on the same day it bombed Clark and Iba airfields in the Philippines.",
+      "associations": ["Guam", "Philippines", "Clark Airfield", "same day"],
+      "clue_ids": ["9f4233c5f3", "2a8e84f52a"]
+    }
+  ],
+  "clue_ids": [
+    "9b0704749d", "a3120758fe", "da6e7a79d1", "fca74ed9f6", "c91a1958f9",
+    "49bd2a3e34", "53e191e40d", "94caf7dc70", "393b9b3135", "52ddbc49b4",
+    "6ed1600216", "54032025e4", "9f4233c5f3", "2a8e84f52a", "adb814942f",
+    "ddee3701b3", "c9418089d9", "b22059ec50"
+  ],
+  "related": ["world-war-ii", "japan", "franklin-d-roosevelt", "hawaii"]
+}

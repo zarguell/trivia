@@ -1,0 +1,64 @@
+{
+  "id": "albert-einstein",
+  "name": "Albert Einstein",
+  "deck": "science",
+  "aliases": ["Einstein"],
+  "hook": "E=mc², the patent office, and the Nobel he won for something else.",
+  "facts": [
+    {
+      "id": "born-died",
+      "label": "1879-1955",
+      "statement": "Einstein was born in Germany in 1879 and died in April 1955; his brain was preserved and his ashes scattered in the Delaware River.",
+      "associations": ["born 1879", "died 1955", "Delaware River"],
+      "clue_ids": ["eb9975628a", "90e5cce663"]
+    },
+    {
+      "id": "patent-clerk",
+      "label": "the Swiss patent office",
+      "statement": "Fired as a tutor in 1902, Einstein got a job as a clerk in the Swiss patent office after Marcel Grossmann's father recommended him to its director.",
+      "associations": ["patent clerk", "1902", "Marcel Grossman"],
+      "clue_ids": ["f201764663"]
+    },
+    {
+      "id": "relativity",
+      "label": "the theory of relativity",
+      "statement": "Einstein published the special theory of relativity in 1905 and the general theory in 1915; the 2021 Einstein Prize honored tests of general relativity.",
+      "associations": ["special relativity", "1905", "general relativity", "1915"],
+      "clue_ids": ["62c03e3b99", "8127c92b99"]
+    },
+    {
+      "id": "emc2",
+      "label": "E=mc²",
+      "statement": "Introduced in 1905 in a short paper, E=mc² says energy equals mass times the speed of light squared.",
+      "associations": ["E=mc²", "1905", "mass", "speed of light"],
+      "clue_ids": ["ec11b93ad4", "d0516e9880", "3980238f6f"]
+    },
+    {
+      "id": "nobel",
+      "label": "the Nobel Prize in Physics",
+      "statement": "Einstein won the Nobel Prize in Physics for the photoelectric effect, not for relativity.",
+      "associations": ["Nobel Prize", "photoelectric effect", "not relativity"],
+      "clue_ids": ["d0e453b7e6", "7d4375d85f"]
+    },
+    {
+      "id": "princeton",
+      "label": "Princeton, New Jersey",
+      "statement": "From 1933 until his death Einstein worked at the Institute for Advanced Study in Princeton, New Jersey.",
+      "associations": ["Institute for Advanced Study", "Princeton", "1933", "New Jersey"],
+      "clue_ids": ["5969d26988", "84a2efa4e8", "2399c0b974"]
+    },
+    {
+      "id": "israel",
+      "label": "the presidency of Israel",
+      "statement": "Israel offered Einstein its presidency in 1952, and he politely declined.",
+      "associations": ["Israel", "1952", "declined presidency"],
+      "clue_ids": ["8da90fc0da", "89613c35a4"]
+    }
+  ],
+  "clue_ids": [
+    "eb9975628a", "90e5cce663", "f201764663", "62c03e3b99", "8127c92b99",
+    "ec11b93ad4", "d0516e9880", "3980238f6f", "d0e453b7e6", "7d4375d85f",
+    "5969d26988", "84a2efa4e8", "2399c0b974", "8da90fc0da", "89613c35a4"
+  ],
+  "related": ["isaac-newton", "galileo", "black-hole", "solar-system"]
+}

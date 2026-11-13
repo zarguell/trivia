@@ -1,0 +1,64 @@
+{
+  "id": "sweden",
+  "name": "Sweden",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "Nobel, Volvo, Bergman and Queen Christina: Sweden's clues are about its exports and its monarchs.",
+  "facts": [
+    {
+      "id": "nobel",
+      "label": "Alfred Nobel",
+      "statement": "Alfred Nobel was born in Sweden in 1823 and died in San Remo, Italy, in 1896; the company bearing his name is Sweden's largest chemicals maker.",
+      "associations": ["Alfred Nobel", "1823", "San Remo", "chemicals"],
+      "clue_ids": ["a0b14c5db6", "8141e7bb06"]
+    },
+    {
+      "id": "volvo",
+      "label": "Volvo",
+      "statement": "Volvo built its first car in Gothenburg in 1927, and its Gothenburg headquarters was designed by American architect Romaldo Giurgola.",
+      "associations": ["1927", "Gothenburg", "Romaldo Giurgola"],
+      "clue_ids": ["9fc0bee3e6", "fe40ac705f"]
+    },
+    {
+      "id": "christina",
+      "label": "Queen Christina",
+      "statement": "Queen Christina, the 17th-century Swedish queen, founded what became the University of Helsinki; she converted to Catholicism and is buried in St. Peter's Basilica.",
+      "associations": ["Queen Christina", "University of Helsinki", "Catholic convert", "St. Peter's"],
+      "clue_ids": ["5acbb00afd", "7fa7e0d36b", "e9812a31eb"]
+    },
+    {
+      "id": "bergman",
+      "label": "Ingmar Bergman",
+      "statement": "All three of Sweden's Oscars for Best Foreign Language Film went to Ingmar Bergman, whose Cries and Whispers is Viskingar och rop at home.",
+      "associations": ["Ingmar Bergman", "three foreign-film Oscars", "Cries and Whispers"],
+      "clue_ids": ["78dd0d0d52", "d7d34c6da4"]
+    },
+    {
+      "id": "bothnia",
+      "label": "the Gulf of Bothnia",
+      "statement": "The Gulf of Bothnia, the Baltic's largest arm, separates Sweden from Finland; the Torne River runs along that border into it.",
+      "associations": ["Gulf of Bothnia", "Finland", "Torne River"],
+      "clue_ids": ["0db1ba0435", "baa9b6ca92"]
+    },
+    {
+      "id": "peter-the-great",
+      "label": "Peter the Great",
+      "statement": "Sweden's Charles XII lost the Great Northern War to Peter the Great, whose victory at Poltava in 1709 spurred the Russian Empire's rise.",
+      "associations": ["Charles XII", "Peter the Great", "Poltava 1709"],
+      "clue_ids": ["0b4f715e22", "cb92ab10ef"]
+    },
+    {
+      "id": "helsinki",
+      "label": "Helsinki",
+      "statement": "Gustav I Vasa founded Helsinki in 1550; Finland's largest city moved to its present site in 1640.",
+      "associations": ["Gustav I Vasa", "1550", "Finland's capital"],
+      "clue_ids": ["74c1b02a02", "db6d2e768a"]
+    }
+  ],
+  "clue_ids": [
+    "a0b14c5db6", "8141e7bb06", "9fc0bee3e6", "fe40ac705f", "5acbb00afd",
+    "7fa7e0d36b", "e9812a31eb", "78dd0d0d52", "d7d34c6da4", "0db1ba0435",
+    "baa9b6ca92", "0b4f715e22", "cb92ab10ef", "74c1b02a02", "db6d2e768a"
+  ],
+  "related": ["iceland", "greenland", "russia"]
+}

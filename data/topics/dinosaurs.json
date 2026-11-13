@@ -1,0 +1,64 @@
+{
+  "id": "dinosaurs",
+  "name": "Dinosaurs",
+  "deck": "science",
+  "aliases": ["dinosaur"],
+  "hook": "\"Terrible lizards\": the names, the eras and the extinction Jeopardy asks about again and again.",
+  "facts": [
+    {
+      "id": "richard-owen",
+      "label": "Richard Owen",
+      "statement": "Sir Richard Owen coined the word \"dinosaur\" around 1841, from Greek words meaning \"terrible lizard.\"",
+      "associations": ["Richard Owen", "1841", "terrible lizard"],
+      "clue_ids": ["7367d86ea2"]
+    },
+    {
+      "id": "tyrannosaurus-rex",
+      "label": "Tyrannosaurus rex",
+      "statement": "Barnum Brown found the first T. rex specimen in Montana in 1902; \"Scotty,\" unearthed in Saskatchewan, is a 42-foot, 20,000-pound example.",
+      "associations": ["T. rex", "Barnum Brown", "1902", "Scotty"],
+      "clue_ids": ["f4baa4af62", "c0ec873309", "2c55479caa"]
+    },
+    {
+      "id": "triceratops",
+      "label": "Triceratops",
+      "statement": "Triceratops had two brow horns and one nose horn, and lived in the late Cretaceous; its name means \"three-horned face.\"",
+      "associations": ["Triceratops", "three horns", "late Cretaceous"],
+      "clue_ids": ["4fa6d8e78e", "4ecb5a28cc"]
+    },
+    {
+      "id": "stegosaurus",
+      "label": "Stegosaurus",
+      "statement": "Stegosaurus means \"roof lizard\" in Greek, and the plated dinosaur roamed what is now Dinosaur National Monument.",
+      "associations": ["Stegosaurus", "roof lizard", "back plates", "Dinosaur National Monument"],
+      "clue_ids": ["ad3828a1be", "7aacca968c"]
+    },
+    {
+      "id": "mesozoic",
+      "label": "the Mesozoic era",
+      "statement": "The Mesozoic era, when dinosaurs roamed the Earth, is divided into the Triassic, Jurassic and Cretaceous periods.",
+      "associations": ["Mesozoic", "Triassic", "Jurassic", "Cretaceous"],
+      "clue_ids": ["daa2b200d0", "e326a1fe06"]
+    },
+    {
+      "id": "extinction",
+      "label": "the extinction 65 million years ago",
+      "statement": "Dinosaurs died out 65 million years ago at the end of the Cretaceous; birds are their surviving descendants.",
+      "associations": ["extinction", "65 million years", "birds"],
+      "clue_ids": ["bd59aaca3d"]
+    },
+    {
+      "id": "jurassic-park",
+      "label": "Jurassic Park",
+      "statement": "Michael Crichton's novel Jurassic Park concerns the cloning of dinosaur DNA; the 1993 film starred Ariana Richards and Joseph Mazzello.",
+      "associations": ["Michael Crichton", "Jurassic Park", "1993 film"],
+      "clue_ids": ["677679d126", "75292fc781"]
+    }
+  ],
+  "clue_ids": [
+    "7367d86ea2", "f4baa4af62", "c0ec873309", "2c55479caa", "4fa6d8e78e",
+    "4ecb5a28cc", "ad3828a1be", "7aacca968c", "daa2b200d0", "e326a1fe06",
+    "bd59aaca3d", "677679d126", "75292fc781"
+  ],
+  "related": ["tyrannosaurus-rex", "jurassic-park", "evolution"]
+}

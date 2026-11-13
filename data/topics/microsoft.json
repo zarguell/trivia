@@ -1,0 +1,65 @@
+{
+  "id": "microsoft",
+  "name": "Microsoft",
+  "deck": "business",
+  "aliases": ["Bill Gates"],
+  "hook": "The software giant behind Windows, Office and Bing — and the Bill Gates story Jeopardy loves.",
+  "facts": [
+    {
+      "id": "founding-ipo",
+      "label": "Bill Gates & Paul Allen",
+      "statement": "Bill Gates and Paul Allen founded Microsoft; an $84 purchase at its March 13, 1986 IPO grew to over $30,000 by 2006.",
+      "associations": ["Bill Gates", "Paul Allen", "1986 IPO", "$30,000"],
+      "clue_ids": ["10582c106c", "5c88932d61", "e7fdf46715"]
+    },
+    {
+      "id": "bill-gates",
+      "label": "Bill Gates",
+      "statement": "Bill Gates co-founded Microsoft, wrote The Road Ahead, and was long ranked the world's richest person, ahead of Warren Buffett.",
+      "associations": ["Bill Gates", "The Road Ahead", "world's richest", "Warren Buffett"],
+      "clue_ids": ["8f973fb181", "28f66d100e", "0751c71578"]
+    },
+    {
+      "id": "melinda-gates",
+      "label": "Melinda Gates",
+      "statement": "Melinda Gates joined Microsoft in 1987, the year she earned an MBA from Duke, and now co-chairs the Gates Foundation.",
+      "associations": ["Melinda Gates", "1987", "Duke MBA", "Gates Foundation"],
+      "clue_ids": ["771a94189b", "075b977228", "7d573b0559"]
+    },
+    {
+      "id": "ibm-pc",
+      "label": "IBM PC",
+      "statement": "In 1981 IBM's PC used an operating system from Microsoft, after Bill Gates's mother helped convince IBM to hire the company.",
+      "associations": ["IBM", "1981 PC", "operating system", "Mary Gates"],
+      "clue_ids": ["2c7a5610c8", "bf7a1d7def"]
+    },
+    {
+      "id": "windows-vista",
+      "label": "Windows Vista",
+      "statement": "Windows Vista, released in 2007, opens with a startup sound Robert Fripp spent 18 months creating.",
+      "associations": ["Windows Vista", "2007", "Robert Fripp", "startup sound"],
+      "clue_ids": ["3a001d1adf"]
+    },
+    {
+      "id": "bing",
+      "label": "Bing",
+      "statement": "Bing replaced Microsoft Live Search in 2009; its AI technology comes from OpenAI, the maker of ChatGPT.",
+      "associations": ["Bing", "2009", "Live Search", "OpenAI"],
+      "clue_ids": ["d6ae54b66e", "c219a5f25b"]
+    },
+    {
+      "id": "skype",
+      "label": "Skype",
+      "statement": "Microsoft bought Skype in 2011 for more than $8 billion.",
+      "associations": ["Skype", "2011", "$8 billion", "video chat"],
+      "clue_ids": ["9998b245b8", "e13c79f3e2"]
+    }
+  ],
+  "clue_ids": [
+    "10582c106c", "8f973fb181", "771a94189b", "5c88932d61", "e7fdf46715",
+    "2c7a5610c8", "bf7a1d7def", "c219a5f25b", "9998b245b8",
+    "7de111c97c", "d6ae54b66e", "e13c79f3e2", "28f66d100e", "0751c71578",
+    "075b977228", "7d573b0559", "3a001d1adf", "4789eb9c61"
+  ],
+  "related": ["apple-inc", "google", "world-wide-web"]
+}

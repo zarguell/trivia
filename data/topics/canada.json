@@ -1,0 +1,64 @@
+{
+  "id": "canada",
+  "name": "Canada",
+  "deck": "geography",
+  "aliases": ["Canadian"],
+  "hook": "The world's second-largest country, asked through its provinces, capitals and oil.",
+  "facts": [
+    {
+      "id": "country",
+      "label": "the second-largest country",
+      "statement": "Canada is the largest country in the Commonwealth by area and the only mainland country in the Western Hemisphere bordering just one country.",
+      "associations": ["Commonwealth", "second-largest", "one land border"],
+      "clue_ids": ["d6b11078bb", "43b0fecf40"]
+    },
+    {
+      "id": "provinces",
+      "label": "Newfoundland and British Columbia",
+      "statement": "Newfoundland, long called Terra Nova, is Canada's newest province; British Columbia joined in 1871, giving Canada both Atlantic and Pacific coasts.",
+      "associations": ["Terra Nova", "Newfoundland", "British Columbia", "1871"],
+      "clue_ids": ["5b876eaa98", "3e13dbc6bd", "da96dd416d"]
+    },
+    {
+      "id": "quebec",
+      "label": "Quebec",
+      "statement": "Quebec is the French-speaking province north of Vermont; its namesake city fell to the British in 1759.",
+      "associations": ["Quebec", "French-speaking", "1759", "Plains of Abraham"],
+      "clue_ids": ["293479c350", "113ccc9fa7"]
+    },
+    {
+      "id": "ottawa",
+      "label": "Ottawa",
+      "statement": "Ottawa was chosen as Canada's capital in 1857; it is the country's fourth-largest city and home to the National Gallery.",
+      "associations": ["Ottawa", "capital", "1857", "National Gallery"],
+      "clue_ids": ["e4ae1a46c5", "e99bfb6d73"]
+    },
+    {
+      "id": "toronto",
+      "label": "Toronto",
+      "statement": "Toronto, once named York, is Canada's largest city; its 1,815-foot CN Tower is the world's tallest self-supporting structure.",
+      "associations": ["Toronto", "York", "CN Tower", "1,815 feet"],
+      "clue_ids": ["ccc78f42bc", "3685f44968"]
+    },
+    {
+      "id": "prairies",
+      "label": "the Prairie provinces",
+      "statement": "The 1947 Leduc oil strike set off Alberta's oil boom; Manitoba is the only Prairie province that is not landlocked.",
+      "associations": ["Alberta", "Leduc", "1947", "Manitoba"],
+      "clue_ids": ["8e724316ec", "62a4ec0d3c"]
+    },
+    {
+      "id": "pei",
+      "label": "Prince Edward Island",
+      "statement": "Prince Edward Island is Canada's smallest province and the only one separated entirely from the North American mainland.",
+      "associations": ["Prince Edward Island", "smallest province", "island province"],
+      "clue_ids": ["052aa11b05", "01ee3a1feb"]
+    }
+  ],
+  "clue_ids": [
+    "d6b11078bb", "43b0fecf40", "5b876eaa98", "3e13dbc6bd", "da96dd416d",
+    "293479c350", "113ccc9fa7", "e4ae1a46c5", "e99bfb6d73", "ccc78f42bc",
+    "3685f44968", "8e724316ec", "62a4ec0d3c", "052aa11b05", "01ee3a1feb"
+  ],
+  "related": ["alaska", "niagara-falls", "australia"]
+}

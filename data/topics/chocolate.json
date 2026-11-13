@@ -1,0 +1,65 @@
+{
+  "id": "chocolate",
+  "name": "Chocolate",
+  "deck": "food-drink",
+  "aliases": [],
+  "hook": "Hershey, Wonka and cocoa butter: the sweet that Jeopardy asks about in a hundred ways.",
+  "facts": [
+    {
+      "id": "etymology",
+      "label": "\"bitter water\"",
+      "statement": "Chocolate's name comes from an Aztec word meaning \"bitter water\"; the Aztecs flavored it with vanilla and Europeans sweetened it with sugar.",
+      "associations": ["bitter water", "Aztecs", "vanilla", "sugar"],
+      "clue_ids": ["c8e8d5c9e5", "9d6c59fd60"]
+    },
+    {
+      "id": "hershey",
+      "label": "Milton Hershey",
+      "statement": "Milton Hershey started the Lancaster Caramel Company in 1886 before building his chocolate company and the town of Hershey, Pennsylvania.",
+      "associations": ["Milton Hershey", "Lancaster Caramel Company", "Hershey Pennsylvania", "1886"],
+      "clue_ids": ["5f453d7ae0", "c9e18be116"]
+    },
+    {
+      "id": "roald-dahl",
+      "label": "Roald Dahl",
+      "statement": "Roald Dahl wrote Charlie and the Chocolate Factory; his first book was The Gremlins, written for Walt Disney in 1943.",
+      "associations": ["Roald Dahl", "Charlie and the Chocolate Factory", "Willy Wonka", "The Gremlins"],
+      "clue_ids": ["7b77294e01", "e2e3d74186", "4b0aa41e94"]
+    },
+    {
+      "id": "cocoa-butter",
+      "label": "cocoa butter",
+      "statement": "Cocoa butter is the fat extracted from chocolate beans; it is used in chocolate and in skin lotion, and keeps for years without going rancid.",
+      "associations": ["cocoa butter", "fat", "skin lotion", "rancid"],
+      "clue_ids": ["a731226d37", "e56b7e218a"]
+    },
+    {
+      "id": "carob",
+      "label": "carob",
+      "statement": "Carob is the Mediterranean bean used as a chocolate substitute, also called \"St. John's bread.\"",
+      "associations": ["carob", "chocolate substitute", "St. John's bread", "Mediterranean"],
+      "clue_ids": ["af348b1e3f", "f06e0754cd"]
+    },
+    {
+      "id": "mocha",
+      "label": "mocha",
+      "statement": "Mocha is both a Yemeni port and a candy made with milk chocolate and coffee.",
+      "associations": ["mocha", "Yemen", "milk chocolate", "coffee"],
+      "clue_ids": ["f6ffa34018", "95c2ccaeee"]
+    },
+    {
+      "id": "rocky-road",
+      "label": "Rocky Road",
+      "statement": "Rocky Road is the chocolate ice cream with almonds and marshmallows that William Dreyer created in the 1930s.",
+      "associations": ["Rocky Road", "William Dreyer", "almonds", "marshmallows"],
+      "clue_ids": ["ea4a314d11", "a682bb4e53"]
+    }
+  ],
+  "clue_ids": [
+    "c8e8d5c9e5", "9d6c59fd60", "5f453d7ae0", "c9e18be116", "7b77294e01",
+    "e2e3d74186", "4b0aa41e94", "a731226d37", "e56b7e218a", "af348b1e3f",
+    "f06e0754cd", "f6ffa34018", "95c2ccaeee", "ea4a314d11", "a682bb4e53",
+    "6cf186ac38", "a0493929bf", "39237d4c8b"
+  ],
+  "related": ["coffee", "champagne", "coca-cola"]
+}

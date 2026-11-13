@@ -1,0 +1,64 @@
+{
+  "id": "world-cup",
+  "name": "World Cup",
+  "deck": "sports",
+  "aliases": ["FIFA World Cup"],
+  "hook": "Soccer's quadrennial spectacle — the trophy, Brazil, and the finals everyone remembers.",
+  "facts": [
+    {
+      "id": "first-tournament",
+      "label": "1930 in Uruguay",
+      "statement": "The first World Cup began July 13, 1930, in Montevideo; 13 countries competed and Uruguay won.",
+      "associations": ["1930", "Montevideo", "Uruguay", "13 teams"],
+      "clue_ids": ["e88c4e1a8f"]
+    },
+    {
+      "id": "trophy",
+      "label": "the Jules Rimet Cup",
+      "statement": "The Jules Rimet Cup, named for FIFA's three-decade president, was replaced by the current trophy in 1974.",
+      "associations": ["Jules Rimet Cup", "1974", "FIFA trophy"],
+      "clue_ids": ["e04bb7f850", "35cf93c87b"]
+    },
+    {
+      "id": "brazil",
+      "label": "Brazil",
+      "statement": "Brazil is the only country to play in every World Cup and has won it five times, starting with Pelé's 1958 title.",
+      "associations": ["Brazil", "five titles", "Pelé", "1958"],
+      "clue_ids": ["f882d6ee5b", "2514e48544", "fc5d2aec11"]
+    },
+    {
+      "id": "hosts",
+      "label": "host nations",
+      "statement": "Japan and South Korea co-hosted in 2002, and the United States hosted in 1994.",
+      "associations": ["2002", "Japan", "South Korea", "1994", "United States"],
+      "clue_ids": ["b529b8ab2b", "3cb8959254"]
+    },
+    {
+      "id": "france-2018",
+      "label": "France 2018",
+      "statement": "France beat Croatia 4-2 in 2018, the highest-scoring final in 52 years; Croatia's president, Kolinda Grabar-Kitarović, celebrated in the stands.",
+      "associations": ["France", "Croatia", "2018 final", "4-2"],
+      "clue_ids": ["afeab400d1", "fb06d567a0"]
+    },
+    {
+      "id": "chastain-1999",
+      "label": "Brandi Chastain",
+      "statement": "Brandi Chastain's winning kick in Pasadena gave the U.S. the 1999 Women's World Cup, then she tore off her shirt; the U.S. has won the most women's titles.",
+      "associations": ["Brandi Chastain", "1999", "Pasadena", "victory strip", "United States"],
+      "clue_ids": ["830c77319c", "d1b14ae70c", "78be52034f"]
+    },
+    {
+      "id": "south-africa-2010",
+      "label": "South Africa 2010",
+      "statement": "The 2010 tournament in South Africa is remembered for the vuvuzela and Paul the \"psychic\" octopus, who went 6-for-6 on his picks.",
+      "associations": ["South Africa", "2010", "vuvuzela", "Paul the octopus"],
+      "clue_ids": ["8f02b31fe4", "e681f0ba3f"]
+    }
+  ],
+  "clue_ids": [
+    "e88c4e1a8f", "e04bb7f850", "35cf93c87b", "f882d6ee5b", "2514e48544",
+    "fc5d2aec11", "b529b8ab2b", "3cb8959254", "afeab400d1", "fb06d567a0",
+    "830c77319c", "d1b14ae70c", "78be52034f", "8f02b31fe4", "e681f0ba3f"
+  ],
+  "related": ["olympic-games", "brazil", "france"]
+}

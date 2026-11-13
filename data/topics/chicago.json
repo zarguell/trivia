@@ -1,0 +1,64 @@
+{
+  "id": "chicago",
+  "name": "Chicago",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "The city of Al Capone, the Bulls and the Sears Tower.",
+  "facts": [
+    {
+      "id": "capone",
+      "label": "Al Capone",
+      "statement": "Al Capone ran Chicago's mob, was convicted of tax evasion in 1931, and ended up at Alcatraz.",
+      "associations": ["Al Capone", "tax evasion", "Alcatraz", "1931"],
+      "clue_ids": ["66a28bfcd9", "c822919730"]
+    },
+    {
+      "id": "sandburg",
+      "label": "Carl Sandburg",
+      "statement": "Carl Sandburg, the poet of Chicago, won a 1919 Pulitzer for Cornhuskers and was Illinois poet laureate from 1962 to 1967.",
+      "associations": ["Carl Sandburg", "Chicago poems", "Cornhuskers", "poet laureate"],
+      "clue_ids": ["0e4b791717", "96a467df00"]
+    },
+    {
+      "id": "jordan",
+      "label": "Michael Jordan",
+      "statement": "Michael Jordan won five straight NBA scoring titles with the Bulls and returned to them in March 1995.",
+      "associations": ["Michael Jordan", "Chicago Bulls", "scoring title", "1995"],
+      "clue_ids": ["8909a4e16a", "41e5e3f623"]
+    },
+    {
+      "id": "dillinger",
+      "label": "John Dillinger",
+      "statement": "John Dillinger was shot outside Chicago's Biograph Theater in 1934, two months after Bonnie and Clyde died.",
+      "associations": ["John Dillinger", "Biograph Theater", "1934"],
+      "clue_ids": ["f27731620e", "77f7a321c5"]
+    },
+    {
+      "id": "sears-tower",
+      "label": "the Sears Tower",
+      "statement": "The Sears Tower, designed by Fazlur Khan and completed in 1974, stood as the tallest building in the U.S.",
+      "associations": ["Sears Tower", "Fazlur Khan", "1974", "tallest building"],
+      "clue_ids": ["a476766148", "3490f0c130"]
+    },
+    {
+      "id": "lake-michigan",
+      "label": "Lake Michigan",
+      "statement": "The Chicago Sanitary and Ship Canal, opened in 1900, diverted the city's sewage away from Lake Michigan.",
+      "associations": ["Lake Michigan", "Sanitary and Ship Canal", "1900"],
+      "clue_ids": ["1cfffbfc27"]
+    },
+    {
+      "id": "musical",
+      "label": "Chicago the musical",
+      "statement": "The musical Chicago premiered in 1975, is set partly in the Cook County Jail, and won the 2002 Best Picture Oscar.",
+      "associations": ["Chicago", "1975 musical", "Cook County Jail", "Best Picture"],
+      "clue_ids": ["97fef8f922", "c5f2ad3ae1"]
+    }
+  ],
+  "clue_ids": [
+    "66a28bfcd9", "c822919730", "0e4b791717", "96a467df00", "8909a4e16a",
+    "41e5e3f623", "f27731620e", "77f7a321c5", "a476766148", "3490f0c130",
+    "1cfffbfc27", "97fef8f922", "c5f2ad3ae1"
+  ],
+  "related": ["new-york-city", "michael-jordan"]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "venus",
+  "name": "Venus",
+  "deck": "science",
+  "aliases": [],
+  "hook": "The second rock from the Sun: a greenhouse atmosphere, odd phases and a surface named for women.",
+  "facts": [
+    {
+      "id": "atmosphere",
+      "label": "carbon dioxide atmosphere",
+      "statement": "Venus' atmosphere is about 96% carbon dioxide, a runaway greenhouse that makes its surface hotter than Mercury's.",
+      "associations": [
+        "carbon dioxide",
+        "96%",
+        "greenhouse"
+      ],
+      "clue_ids": [
+        "8101fd4d0a",
+        "35fff11c71"
+      ]
+    },
+    {
+      "id": "phases",
+      "label": "Galileo's phases",
+      "statement": "In 1610 Galileo discovered that Venus has phases like the Moon, evidence that it orbits the Sun.",
+      "associations": [
+        "Galileo",
+        "1610",
+        "phases"
+      ],
+      "clue_ids": [
+        "5b1972ee8d",
+        "f07b0ce7d6"
+      ]
+    },
+    {
+      "id": "terrae",
+      "label": "terrae",
+      "statement": "Venus' continent-sized highlands, called terrae, are named for goddesses: Ishtar and Aphrodite, the Greek counterpart of Venus.",
+      "associations": [
+        "terrae",
+        "Ishtar",
+        "Aphrodite"
+      ],
+      "clue_ids": [
+        "6a0f988b4f",
+        "8947688342"
+      ]
+    },
+    {
+      "id": "surface-names",
+      "label": "surface names",
+      "statement": "Surface features on Venus are named mostly for women, including Margaret Mead, Josephine Baker and Cleopatra.",
+      "associations": [
+        "Margaret Mead",
+        "Josephine Baker",
+        "Cleopatra"
+      ],
+      "clue_ids": [
+        "6140e1a5c6"
+      ]
+    },
+    {
+      "id": "goddess",
+      "label": "Roman goddess",
+      "statement": "Venus is named for the Roman goddess of love, the Greek Aphrodite; her son Cupid is the god of love, and Romance-language Friday is named for her.",
+      "associations": [
+        "goddess of love",
+        "Aphrodite",
+        "Cupid",
+        "Friday"
+      ],
+      "clue_ids": [
+        "c7f8905a89",
+        "c85a9586c3"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "8101fd4d0a",
+    "35fff11c71",
+    "5b1972ee8d",
+    "f07b0ce7d6",
+    "6a0f988b4f",
+    "8947688342",
+    "6140e1a5c6",
+    "c7f8905a89",
+    "c85a9586c3",
+    "8624e8924a",
+    "23420547af",
+    "904fe8c757"
+  ],
+  "related": [
+    "solar-system",
+    "mercury",
+    "mars"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "jupiter",
+  "name": "Jupiter",
+  "deck": "science",
+  "aliases": [],
+  "hook": "The biggest planet, its four famous moons, and the god Jeopardy keeps asking about.",
+  "facts": [
+    {
+      "id": "roman-god",
+      "label": "the king of the Roman gods",
+      "statement": "Jupiter is named for the supreme Roman god, son of Saturn and husband of Juno; the Greeks called him Zeus.",
+      "associations": ["supreme Roman god", "Juno", "Saturn", "Zeus"],
+      "clue_ids": ["36e7fbbeb4", "e968b457de", "31877cb272"]
+    },
+    {
+      "id": "great-red-spot",
+      "label": "the Great Red Spot",
+      "statement": "The Great Red Spot is Jupiter's giant storm; Robert Hooke spotted it in 1664, and Pioneer 10 images showed hurricane-like winds cause it.",
+      "associations": ["Great Red Spot", "giant storm", "Robert Hooke", "1664"],
+      "clue_ids": ["cc1b659f65", "604bd0e5bc"]
+    },
+    {
+      "id": "galilean-moons",
+      "label": "the Galilean moons",
+      "statement": "In 1610 Galileo discovered Jupiter's four largest moons and called them the Medicean stars; two-letter Io has volcanic regions hotter than Mercury's surface.",
+      "associations": ["Galileo", "1610", "Medicean stars", "Io"],
+      "clue_ids": ["8a49083db7", "01c7561879", "3bba93a18d"]
+    },
+    {
+      "id": "ganymede",
+      "label": "Ganymede",
+      "statement": "Ganymede is the largest moon of Jupiter and of the solar system, and the only moon known to have its own magnetic field.",
+      "associations": ["largest moon", "magnetic field", "Zeus' cupbearer"],
+      "clue_ids": ["08b5c85b31", "39e8d3126a"]
+    },
+    {
+      "id": "pioneer-10",
+      "label": "Pioneer 10",
+      "statement": "Pioneer 10, launched in 1972, was the first spacecraft sent to Jupiter and is now more than 6 billion miles from Earth.",
+      "associations": ["Pioneer 10", "1972", "first Jupiter mission"],
+      "clue_ids": ["8fffcd81b4"]
+    },
+    {
+      "id": "asteroid-belt",
+      "label": "the asteroid belt",
+      "statement": "The asteroid belt lies between the orbits of Mars and Jupiter; Ceres, the first asteroid found there, was discovered in 1801.",
+      "associations": ["between Mars and Jupiter", "Ceres", "1801"],
+      "clue_ids": ["7045cc9699", "c1331a7397", "be759f90ba"]
+    },
+    {
+      "id": "jovial",
+      "label": "jovial",
+      "statement": "The word \"jovial\" comes from the Latin for \"under the influence of Jupiter\" — those born under his sign were thought joyful.",
+      "associations": ["jovial", "Latin", "under Jupiter's influence"],
+      "clue_ids": ["7f784f8ac5", "fa33e6e0b6"]
+    }
+  ],
+  "clue_ids": [
+    "36e7fbbeb4", "e968b457de", "31877cb272", "cc1b659f65", "604bd0e5bc",
+    "8a49083db7", "01c7561879", "3bba93a18d", "08b5c85b31", "39e8d3126a",
+    "8fffcd81b4", "7045cc9699", "c1331a7397", "be759f90ba", "7f784f8ac5",
+    "fa33e6e0b6"
+  ],
+  "related": ["saturn", "galileo", "solar-system", "mars"]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "william-shakespeare",
+  "name": "William Shakespeare",
+  "deck": "literature",
+  "aliases": ["Shakespeare", "Bard of Avon", "the Bard"],
+  "hook": "The Bard is Jeopardy's default playwright: hometown, wife, phrases and the plays they quote.",
+  "facts": [
+    {
+      "id": "bard-of-avon",
+      "label": "the Bard of Avon",
+      "statement": "Shakespeare was born in Stratford-upon-Avon in 1564, and his nickname comes from that birthplace on the Avon.",
+      "associations": ["Stratford-upon-Avon", "1564", "Bard of Avon"],
+      "clue_ids": ["1a99898cbc", "50fa5d9c5b"]
+    },
+    {
+      "id": "anne-hathaway",
+      "label": "Anne Hathaway",
+      "statement": "He married Anne Hathaway and had three children, including the twins Judith and Hamnet; he is buried near her at Holy Trinity Church in Stratford.",
+      "associations": ["Anne Hathaway", "Judith & Hamnet", "Holy Trinity Church"],
+      "clue_ids": ["354098cb94", "ed226af74c", "657daf05df"]
+    },
+    {
+      "id": "stamp",
+      "label": "the 1964 stamp",
+      "statement": "For the 400th anniversary of his birth in 1964, he became the first English commoner to appear on a British postage stamp.",
+      "associations": ["1964", "British stamp", "400th anniversary"],
+      "clue_ids": ["c451d0dc4a"]
+    },
+    {
+      "id": "mums-the-word",
+      "label": "\"Mum's the word\"",
+      "statement": "The phrase \"Mum's the word\" goes back to his Henry IV, Part 2: \"Seal up your lips and give no words but — mum.\"",
+      "associations": ["Mum's the word", "Henry IV, Part 2", "phrase origin"],
+      "clue_ids": ["000a4eeeab"]
+    },
+    {
+      "id": "tragedies",
+      "label": "the tragedies",
+      "statement": "His tragedies include Hamlet, Macbeth and Romeo and Juliet — the Danish prince, the murderous Scottish king, and the star-crossed lovers.",
+      "associations": ["Hamlet", "Macbeth", "Romeo and Juliet"],
+      "clue_ids": ["6f3de3f8da", "a1cd575f2f", "b7e943287e"]
+    },
+    {
+      "id": "comedies",
+      "label": "the comedies",
+      "statement": "His comedies and romances include A Midsummer Night's Dream, Twelfth Night and The Tempest.",
+      "associations": ["A Midsummer Night's Dream", "Twelfth Night", "The Tempest"],
+      "clue_ids": ["a80cd696c2", "f86d3259da", "b30eada0a2"]
+    },
+    {
+      "id": "julius-caesar",
+      "label": "Julius Caesar",
+      "statement": "Julius Caesar supplies \"Cry 'Havoc!' and let slip the dogs of war\"; John Wilkes Booth and his brothers performed it in 1864.",
+      "associations": ["Julius Caesar", "Cry 'Havoc!'", "John Wilkes Booth"],
+      "clue_ids": ["3efe195740", "bc5621d6be"]
+    }
+  ],
+  "clue_ids": [
+    "1a99898cbc", "50fa5d9c5b", "354098cb94", "ed226af74c", "657daf05df",
+    "c451d0dc4a", "000a4eeeab", "6f3de3f8da", "a1cd575f2f", "b7e943287e",
+    "a80cd696c2", "f86d3259da", "b30eada0a2", "3efe195740", "bc5621d6be"
+  ],
+  "related": ["hamlet", "macbeth", "romeo-and-juliet"]
+}

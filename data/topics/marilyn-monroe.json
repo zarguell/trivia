@@ -1,0 +1,65 @@
+{
+  "id": "marilyn-monroe",
+  "name": "Marilyn Monroe",
+  "deck": "film-tv",
+  "aliases": [],
+  "hook": "The blonde icon whose films, husbands and image keep turning up as Jeopardy answers.",
+  "facts": [
+    {
+      "id": "seven-year-itch",
+      "label": "The Seven Year Itch",
+      "statement": "In The Seven Year Itch (1955) she steps on a subway grating in a billowy white dress; the dress sold for $5.6 million in 2011.",
+      "associations": ["The Seven Year Itch", "1955", "subway grating", "$5.6 million"],
+      "clue_ids": ["817f7afdab", "13d181a7c0"]
+    },
+    {
+      "id": "some-like-it-hot",
+      "label": "Some Like It Hot",
+      "statement": "Billy Wilder cast her as Sugar Kane in Some Like It Hot, where Jack Lemmon says she walks like \"Jello on springs.\"",
+      "associations": ["Some Like It Hot", "Sugar Kane", "Billy Wilder", "Jello on springs"],
+      "clue_ids": ["5d803aa39e", "97c1c0aea4"]
+    },
+    {
+      "id": "dimaggio",
+      "label": "Joe DiMaggio",
+      "statement": "She married Joe DiMaggio in 1954 and divorced him after nine months, then married Arthur Miller in 1956.",
+      "associations": ["Joe DiMaggio", "1954", "nine months", "Arthur Miller"],
+      "clue_ids": ["626e88c50c", "c2791b1d64"]
+    },
+    {
+      "id": "miller-misfits",
+      "label": "The Misfits",
+      "statement": "Arthur Miller wrote The Misfits (1961), directed by John Huston — the last completed film for both Monroe and Clark Gable.",
+      "associations": ["Arthur Miller", "The Misfits", "John Huston", "Clark Gable"],
+      "clue_ids": ["fbd71455a9", "077c48a6fe", "687b26948a"]
+    },
+    {
+      "id": "warhol",
+      "label": "Marilyn Monroe Diptych",
+      "statement": "Andy Warhol's \"Marilyn Monroe Diptych\" repeats her image in a silk-screen grid.",
+      "associations": ["Andy Warhol", "Marilyn Diptych", "silk-screen"],
+      "clue_ids": ["3b0df1176d", "b3ac0c347c"]
+    },
+    {
+      "id": "candle-in-the-wind",
+      "label": "Candle in the Wind",
+      "statement": "Elton John's \"Candle in the Wind\" was inspired by her; he re-recorded it in 1987.",
+      "associations": ["Elton John", "Candle in the Wind", "1987"],
+      "clue_ids": ["09fe437202", "0753eeedee"]
+    },
+    {
+      "id": "millionaire",
+      "label": "How to Marry a Millionaire",
+      "statement": "In How to Marry a Millionaire (1953) she and Betty Grable scheme to land rich husbands.",
+      "associations": ["How to Marry a Millionaire", "1953", "Betty Grable"],
+      "clue_ids": ["62ff1498cb", "43859a5471"]
+    }
+  ],
+  "clue_ids": [
+    "817f7afdab", "13d181a7c0", "5d803aa39e", "97c1c0aea4", "626e88c50c",
+    "c2791b1d64", "fbd71455a9", "077c48a6fe", "687b26948a", "3b0df1176d",
+    "b3ac0c347c", "09fe437202", "0753eeedee", "62ff1498cb", "43859a5471",
+    "0ce4b3c97f", "7d052faaaf", "0d8c376c03"
+  ],
+  "related": ["audrey-hepburn", "andy-warhol", "madonna"]
+}

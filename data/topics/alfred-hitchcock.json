@@ -1,0 +1,65 @@
+{
+  "id": "alfred-hitchcock",
+  "name": "Alfred Hitchcock",
+  "deck": "film-tv",
+  "aliases": ["Hitchcock"],
+  "hook": "The master of suspense, his landmark films and the details Jeopardy keeps asking about them.",
+  "facts": [
+    {
+      "id": "master-of-suspense",
+      "label": "the master of suspense",
+      "statement": "Alfred Hitchcock, the \"master of suspense,\" was born August 13, 1899 — a Friday the 13th whose centennial fell in 1999.",
+      "associations": ["master of suspense", "August 13, 1899", "Friday the 13th"],
+      "clue_ids": ["bc194bcc2e"]
+    },
+    {
+      "id": "psycho",
+      "label": "Psycho",
+      "statement": "Psycho (1960) kills off its major star early in the film; Bernard Herrmann scored it for strings only.",
+      "associations": ["Psycho", "1960", "all-string score", "Bernard Herrmann"],
+      "clue_ids": ["e9e35af05a", "1e5c2af503"]
+    },
+    {
+      "id": "north-by-northwest",
+      "label": "North by Northwest",
+      "statement": "North by Northwest (1959) ends with a chase on Mount Rushmore, where James Mason's Vandamm falls.",
+      "associations": ["North by Northwest", "1959", "Mount Rushmore", "James Mason"],
+      "clue_ids": ["cb1e63af14", "75bd0bddb2"]
+    },
+    {
+      "id": "the-birds",
+      "label": "The Birds",
+      "statement": "The Birds adapts a Daphne du Maurier novelette about gulls turned violent.",
+      "associations": ["The Birds", "Daphne du Maurier", "gulls"],
+      "clue_ids": ["9edfe25274", "eebcd504ce"]
+    },
+    {
+      "id": "vertigo",
+      "label": "Vertigo",
+      "statement": "Vertigo (1958) stars James Stewart as a San Francisco detective paralyzed by a fear of heights.",
+      "associations": ["Vertigo", "1958", "James Stewart", "fear of heights"],
+      "clue_ids": ["8713a29151", "b45083d857"]
+    },
+    {
+      "id": "rear-window",
+      "label": "Rear Window",
+      "statement": "Rear Window came from Cornell Woolrich's story \"It Had to Be Murder\" and traps Jimmy Stewart in a wheelchair.",
+      "associations": ["Rear Window", "Cornell Woolrich", "Jimmy Stewart"],
+      "clue_ids": ["4606058566", "9f69fbfa66"]
+    },
+    {
+      "id": "rebecca",
+      "label": "Rebecca",
+      "statement": "Rebecca (1940) is the only Hitchcock film to win the Best Picture Oscar.",
+      "associations": ["Rebecca", "1940", "Best Picture"],
+      "clue_ids": ["a6aa5d5a40"]
+    }
+  ],
+  "clue_ids": [
+    "bc194bcc2e", "e9e35af05a", "1e5c2af503", "cb1e63af14", "75bd0bddb2",
+    "9edfe25274", "eebcd504ce", "8713a29151", "b45083d857", "4606058566",
+    "9f69fbfa66", "a6aa5d5a40", "702b4f174f", "6bde642b0c", "b51d5e44e2",
+    "84469b1d6f"
+  ],
+  "related": ["casablanca", "citizen-kane", "marilyn-monroe"]
+}

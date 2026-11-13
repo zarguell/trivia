@@ -1,0 +1,65 @@
+{
+  "id": "harry-potter",
+  "name": "Harry Potter",
+  "deck": "literature",
+  "aliases": ["J.K. Rowling", "J. K. Rowling", "Rowling"],
+  "hook": "Seven books about a boy wizard that Jeopardy asks about through Hogwarts, Hermione and the boy who lived.",
+  "facts": [
+    {
+      "id": "rowling",
+      "label": "J.K. Rowling",
+      "statement": "J.K. Rowling finished the first Harry Potter book while living in Edinburgh, writing in cafes; she borrowed the surname from childhood friends.",
+      "associations": ["Edinburgh", "cafes", "Ian and Vikki Potter"],
+      "clue_ids": ["ef5742233b", "7e6e898229", "2786cc2d0b"]
+    },
+    {
+      "id": "gryffindor",
+      "label": "Gryffindor",
+      "statement": "The Sorting Hat puts Harry in Gryffindor, whose founder's sword he later finds in a forest lake; the school motto warns never to tickle a sleeping dragon.",
+      "associations": ["Sorting Hat", "Godric Gryffindor's sword", "Draco Dormiens Nunquam Titillandus"],
+      "clue_ids": ["d39797d095", "2c521ca7fa", "08a70a5a18"]
+    },
+    {
+      "id": "hermione",
+      "label": "Hermione Granger",
+      "statement": "Hermione Granger, whose name comes from Hermes, is played by Emma Watson in the films.",
+      "associations": ["Hermione", "Emma Watson", "Hermes"],
+      "clue_ids": ["0276a88335", "9f18d9f637", "4600bec52b"]
+    },
+    {
+      "id": "voldemort",
+      "label": "Voldemort",
+      "statement": "Voldemort's name is French for \"flight from death\"; his serpent Nagini serves him and he is the series' chief villain.",
+      "associations": ["flight from death", "Nagini", "Dark Lord"],
+      "clue_ids": ["83368c57d5", "ac1303c92e"]
+    },
+    {
+      "id": "dumbledore",
+      "label": "Dumbledore",
+      "statement": "Albus Dumbledore, Hogwarts's headmaster, was played by Richard Harris and Michael Gambon; Snape kills him in Half-Blood Prince.",
+      "associations": ["headmaster", "Richard Harris", "Michael Gambon"],
+      "clue_ids": ["e0c855a064", "b5406d963e"]
+    },
+    {
+      "id": "stone",
+      "label": "the Philosopher's Stone",
+      "statement": "The first book sends Harry after the Philosopher's Stone, an alchemical stone renamed the Sorcerer's Stone in America.",
+      "associations": ["Philosopher's Stone", "Sorcerer's Stone", "alchemy"],
+      "clue_ids": ["a22dfb7f3a", "a382065a1d"]
+    },
+    {
+      "id": "hedwig",
+      "label": "Hedwig",
+      "statement": "Hedwig is Harry's snowy owl; she dies in Deathly Hallows and appears on a Harry Potter postage stamp.",
+      "associations": ["snowy owl", "Deathly Hallows", "stamp"],
+      "clue_ids": ["690efa8caf", "0ebeeebeff"]
+    }
+  ],
+  "clue_ids": [
+    "ef5742233b", "7e6e898229", "2786cc2d0b", "d39797d095", "2c521ca7fa",
+    "08a70a5a18", "0276a88335", "9f18d9f637", "4600bec52b", "83368c57d5",
+    "ac1303c92e", "e0c855a064", "b5406d963e", "a22dfb7f3a", "a382065a1d",
+    "690efa8caf", "0ebeeebeff"
+  ],
+  "related": ["the-lord-of-the-rings", "the-wizard-of-oz"]
+}

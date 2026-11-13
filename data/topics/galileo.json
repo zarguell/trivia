@@ -1,0 +1,64 @@
+{
+  "id": "galileo",
+  "name": "Galileo",
+  "deck": "science",
+  "aliases": [],
+  "hook": "The telescope, the moons of Jupiter and the Inquisition — Jeopardy's Renaissance astronomer.",
+  "facts": [
+    {
+      "id": "pisa",
+      "label": "Pisa",
+      "statement": "Galileo was born in Pisa, where he became chair of mathematics in 1589 and whose airport is named for him.",
+      "associations": ["Pisa", "1589", "chair of mathematics", "airport"],
+      "clue_ids": ["d8693c7597", "c3fed2999e"]
+    },
+    {
+      "id": "telescope",
+      "label": "the telescope",
+      "statement": "Galileo did not invent the telescope — Hans Lippershey is credited with it in 1608 — but in 1609 he was first to turn it on the sky.",
+      "associations": ["telescope", "Hans Lippershey", "1608", "1609"],
+      "clue_ids": ["809a5071f3", "11a8c78bf0"]
+    },
+    {
+      "id": "jupiter-moons",
+      "label": "the moons of Jupiter",
+      "statement": "In 1610 Galileo discovered the four largest moons of Jupiter and called them the Medicean stars; they are now called the Galilean satellites.",
+      "associations": ["moons of Jupiter", "1610", "Medicean stars", "Galilean satellites"],
+      "clue_ids": ["8a49083db7", "0c7b01419f", "01c7561879"]
+    },
+    {
+      "id": "saturn-rings",
+      "label": "the rings of Saturn",
+      "statement": "In 1610 Galileo became the first person to see the rings of Saturn.",
+      "associations": ["Saturn's rings", "1610", "first to see"],
+      "clue_ids": ["8fa3ba2617", "3ff5ab5dd5"]
+    },
+    {
+      "id": "sunspots",
+      "label": "sunspots",
+      "statement": "Galileo was among the first to observe sunspots, dark solar regions that wax and wane in 11-year cycles.",
+      "associations": ["sunspots", "11-year cycle", "Sun"],
+      "clue_ids": ["a0a9021ec3", "4bced92e24"]
+    },
+    {
+      "id": "inquisition",
+      "label": "the Inquisition",
+      "statement": "The Inquisition summoned Galileo to Rome for promoting Copernicus's heliocentric ideas; in 1992 the Church admitted it had erred in condemning him.",
+      "associations": ["Inquisition", "Copernicus", "1633", "1992 apology"],
+      "clue_ids": ["d4792c65a4", "e10bf27a71"]
+    },
+    {
+      "id": "moon-experiment",
+      "label": "the hammer and feather experiment",
+      "statement": "On the Moon in 1971, an astronaut repeated Galileo's falling-body experiment and declared that Galileo \"was correct.\"",
+      "associations": ["Moon", "1971", "falling bodies"],
+      "clue_ids": ["e7ca07d515"]
+    }
+  ],
+  "clue_ids": [
+    "d8693c7597", "c3fed2999e", "809a5071f3", "11a8c78bf0", "8a49083db7",
+    "0c7b01419f", "01c7561879", "8fa3ba2617", "3ff5ab5dd5", "a0a9021ec3",
+    "4bced92e24", "d4792c65a4", "e10bf27a71", "e7ca07d515"
+  ],
+  "related": ["jupiter", "saturn", "isaac-newton", "solar-system"]
+}

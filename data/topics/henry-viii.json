@@ -1,0 +1,64 @@
+{
+  "id": "henry-viii",
+  "name": "Henry VIII",
+  "deck": "history",
+  "aliases": ["Henry the Eighth"],
+  "hook": "Six wives, two beheadings, and a break with Rome: the Tudor king Jeopardy loves to ask about.",
+  "facts": [
+    {
+      "id": "six-wives",
+      "label": "the six wives",
+      "statement": "Henry VIII married six times; \"divorced, beheaded, died, divorced, beheaded, survived\" runs from Catherine of Aragon through Catherine Parr.",
+      "associations": ["six wives", "Tudor", "divorced, beheaded, died"],
+      "clue_ids": ["04822967eb"]
+    },
+    {
+      "id": "anne-boleyn",
+      "label": "Anne Boleyn",
+      "statement": "Anne Boleyn was the second wife; Henry had her beheaded on May 19, 1536, then married Jane Seymour 11 days later.",
+      "associations": ["Anne Boleyn", "second wife", "1536", "beheaded"],
+      "clue_ids": ["bd22dbbdec", "d45f8fb81c"]
+    },
+    {
+      "id": "catherine-of-aragon",
+      "label": "Catherine of Aragon",
+      "statement": "Catherine of Aragon was the first wife, the widow of Henry's brother Arthur and aunt of Emperor Charles V; Henry divorced her.",
+      "associations": ["Catherine of Aragon", "first wife", "Charles V"],
+      "clue_ids": ["b4fee28a12", "c14029ffe5"]
+    },
+    {
+      "id": "jane-seymour",
+      "label": "Jane Seymour",
+      "statement": "Jane Seymour, the third wife, gave Henry his only legitimate son, Edward VI; Henry is buried beside her.",
+      "associations": ["Jane Seymour", "Edward VI", "third wife"],
+      "clue_ids": ["3436e34c82", "f032739e13", "a327ffc49f"]
+    },
+    {
+      "id": "anne-of-cleves",
+      "label": "Anne of Cleves",
+      "statement": "Anne of Cleves, the fourth wife, was called \"a Flanders mare\"; the marriage was annulled after six months in 1540.",
+      "associations": ["Anne of Cleves", "Flanders Mare", "1540"],
+      "clue_ids": ["3aba6a5a20", "3f6b05e460"]
+    },
+    {
+      "id": "catherine-howard",
+      "label": "Catherine Howard",
+      "statement": "Catherine Howard, the fifth wife, was accused of adultery and beheaded in 1542, like her cousin Anne Boleyn.",
+      "associations": ["Catherine Howard", "fifth wife", "1542"],
+      "clue_ids": ["2ba7464711", "f4b9b5e997"]
+    },
+    {
+      "id": "catherine-parr",
+      "label": "Catherine Parr",
+      "statement": "Catherine Parr was the sixth wife and outlived Henry, marrying him in 1543 near the end of his reign.",
+      "associations": ["Catherine Parr", "sixth wife", "survived"],
+      "clue_ids": ["d626bbe62e", "844d488a80"]
+    }
+  ],
+  "clue_ids": [
+    "04822967eb", "bd22dbbdec", "d45f8fb81c", "b4fee28a12", "c14029ffe5",
+    "3436e34c82", "f032739e13", "a327ffc49f", "3aba6a5a20", "3f6b05e460",
+    "2ba7464711", "f4b9b5e997", "d626bbe62e", "844d488a80"
+  ],
+  "related": ["elizabeth-i", "william-shakespeare"]
+}

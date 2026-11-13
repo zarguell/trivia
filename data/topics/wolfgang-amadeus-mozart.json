@@ -1,0 +1,65 @@
+{
+  "id": "wolfgang-amadeus-mozart",
+  "name": "Wolfgang Amadeus Mozart",
+  "deck": "music",
+  "aliases": ["Mozart"],
+  "hook": "Salzburg to Vienna: the prodigy, the operas and the rival Jeopardy always asks about.",
+  "facts": [
+    {
+      "id": "salzburg",
+      "label": "Salzburg",
+      "statement": "Mozart was born in Salzburg in 1756 and baptized in its cathedral, for which he wrote the Coronation Mass.",
+      "associations": ["Salzburg", "1756", "Coronation Mass"],
+      "clue_ids": ["3b00ab62e1", "c7c362ab92"]
+    },
+    {
+      "id": "vienna",
+      "label": "Vienna",
+      "statement": "He lived in Vienna, where his Domgasse house is a museum, and died there in 1791.",
+      "associations": ["Vienna", "1791", "Domgasse"],
+      "clue_ids": ["0c4bb9293f", "1dddd3527e", "00b08ee6d8"]
+    },
+    {
+      "id": "figaro",
+      "label": "The Marriage of Figaro",
+      "statement": "The Marriage of Figaro includes Susanna's aria \"Deh vieni, non tardar\"; Kathleen Battle sang Susanna.",
+      "associations": ["The Marriage of Figaro", "Susanna", "Kathleen Battle"],
+      "clue_ids": ["e3b7c511be", "6721753af4"]
+    },
+    {
+      "id": "don-giovanni",
+      "label": "Don Giovanni",
+      "statement": "Don Giovanni premiered in Prague and opens with the title character pursuing Donna Anna.",
+      "associations": ["Don Giovanni", "Prague", "Donna Anna"],
+      "clue_ids": ["a0becdb6cc", "ce0d0286cb", "b15fefc36b"]
+    },
+    {
+      "id": "magic-flute",
+      "label": "The Magic Flute",
+      "statement": "The Magic Flute has the Queen of the Night aria, written for Mozart's sister-in-law, and Tamino's magic flute.",
+      "associations": ["The Magic Flute", "Queen of the Night", "Tamino"],
+      "clue_ids": ["b201dfe70b", "b65d939262"]
+    },
+    {
+      "id": "jupiter",
+      "label": "the Jupiter Symphony",
+      "statement": "Symphony No. 41 is nicknamed the Jupiter; No. 38 is the Prague Symphony.",
+      "associations": ["Jupiter Symphony", "No. 41", "Prague Symphony"],
+      "clue_ids": ["5b0e90337b", "dda324adc2", "3f9d3c6b97"]
+    },
+    {
+      "id": "salieri",
+      "label": "Antonio Salieri",
+      "statement": "Antonio Salieri was the alleged rival who supposedly poisoned Mozart, a rumor fueled by an 1898 Rimsky-Korsakov opera.",
+      "associations": ["Salieri", "poison rumor", "Rimsky-Korsakov"],
+      "clue_ids": ["d46f521d11", "d2e370b6ef"]
+    }
+  ],
+  "clue_ids": [
+    "3b00ab62e1", "c7c362ab92", "0c4bb9293f", "1dddd3527e", "00b08ee6d8",
+    "e3b7c511be", "6721753af4", "a0becdb6cc", "ce0d0286cb", "b15fefc36b",
+    "b201dfe70b", "b65d939262", "5b0e90337b", "dda324adc2", "3f9d3c6b97",
+    "d46f521d11", "f4857c7246", "7856dcdb40"
+  ],
+  "related": ["ludwig-van-beethoven", "johann-sebastian-bach", "pyotr-ilyich-tchaikovsky"]
+}

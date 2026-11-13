@@ -1,0 +1,64 @@
+{
+  "id": "nirvana",
+  "name": "Nirvana",
+  "deck": "music",
+  "aliases": ["Nirvana (band)"],
+  "hook": "The Seattle trio that made grunge a household word in the early 1990s.",
+  "facts": [
+    {
+      "id": "kurt-cobain",
+      "label": "Kurt Cobain",
+      "statement": "Kurt Cobain was Nirvana's lead singer and songwriter; his daughter Frances Bean was an executive producer of HBO's \"Montage of Heck.\"",
+      "associations": ["Kurt Cobain", "Frances Bean Cobain", "\"Montage of Heck\""],
+      "clue_ids": ["5e8d30af87", "96973a660f"]
+    },
+    {
+      "id": "nevermind",
+      "label": "Nevermind",
+      "statement": "Nevermind, the 1991 album that made them stars, is spelled as one word; \"Smells Like Teen Spirit\" opens it.",
+      "associations": ["Nevermind", "1991", "\"Smells Like Teen Spirit\""],
+      "clue_ids": ["2acd6c0f00", "d5c0ab0ba1"]
+    },
+    {
+      "id": "smells-like-teen-spirit",
+      "label": "\"Smells Like Teen Spirit\"",
+      "statement": "Rolling Stone called \"Smells Like Teen Spirit\" the song that blew up the world; the title never appears in its lyrics.",
+      "associations": ["\"Smells Like Teen Spirit\"", "breakthrough hit", "Rolling Stone"],
+      "clue_ids": ["6ddc4e98ef", "b2c88711d1"]
+    },
+    {
+      "id": "dave-grohl",
+      "label": "Dave Grohl",
+      "statement": "Dave Grohl drummed for Nirvana and then formed the Foo Fighters, winning a Grammy with \"The Pretender.\"",
+      "associations": ["Dave Grohl", "the Foo Fighters", "\"The Pretender\""],
+      "clue_ids": ["2a7acdd024", "3c9d24e5b2", "ea91223a95"]
+    },
+    {
+      "id": "grunge",
+      "label": "grunge",
+      "statement": "Nirvana was the flagship of grunge, the Seattle sound whose fans wore plaid flannel shirts.",
+      "associations": ["grunge", "Seattle", "plaid flannel"],
+      "clue_ids": ["6f594dfe1e", "c7804f05da"]
+    },
+    {
+      "id": "unplugged",
+      "label": "MTV Unplugged in New York",
+      "statement": "Their acoustic MTV Unplugged in New York, featuring \"Lake of Fire,\" won a Grammy.",
+      "associations": ["MTV Unplugged", "\"Lake of Fire\"", "Grammy"],
+      "clue_ids": ["219b72779a", "aae7c2f491"]
+    },
+    {
+      "id": "heart-shaped-box",
+      "label": "\"Heart-Shaped Box\"",
+      "statement": "\"Heart-Shaped Box\" begins, \"She eyes me like a Pisces when I am weak\" and asks for a new complaint.",
+      "associations": ["\"Heart-Shaped Box\"", "Pisces", "new complaint"],
+      "clue_ids": ["3f3602f17e", "86bcc91fe0"]
+    }
+  ],
+  "clue_ids": [
+    "219b72779a", "2acd6c0f00", "6ddc4e98ef", "b2c88711d1", "d5c0ab0ba1",
+    "6f594dfe1e", "c7804f05da", "5e8d30af87", "96973a660f", "3f3602f17e",
+    "86bcc91fe0", "aae7c2f491", "2a7acdd024", "3c9d24e5b2", "ea91223a95"
+  ],
+  "related": ["the-beatles", "the-rolling-stones", "buddhism"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "academy-awards",
+  "name": "Academy Awards",
+  "deck": "film-tv",
+  "aliases": ["Oscars", "Oscar"],
+  "hook": "The statue, the first banquet and the record-holders: the Oscar questions Jeopardy asks most.",
+  "facts": [
+    {
+      "id": "first-ceremony",
+      "label": "the first ceremony",
+      "statement": "The first Academy Awards were a private banquet on May 16, 1929, in the Blossom Room of Hollywood's Roosevelt Hotel — and were not televised.",
+      "associations": ["May 16, 1929", "Roosevelt Hotel", "Blossom Room"],
+      "clue_ids": ["f7e073390c", "b2c632b6ac", "8a7bf1858e"]
+    },
+    {
+      "id": "statuette",
+      "label": "the Oscar statuette",
+      "statement": "Los Angeles artist George Stanley sculpted the Oscar statuette, first handed out at the 1929 banquet.",
+      "associations": ["George Stanley", "Oscar statuette", "1929"],
+      "clue_ids": ["dbd740e70a"]
+    },
+    {
+      "id": "bob-hope",
+      "label": "Bob Hope",
+      "statement": "Bob Hope first hosted in 1940 and joked in 1968, \"Welcome to the Academy Awards, or, as it's known at my house, Passover.\"",
+      "associations": ["Bob Hope", "1940", "Passover joke"],
+      "clue_ids": ["b7c4053f75", "c13dcdf83e", "ea7bf59631"]
+    },
+    {
+      "id": "hepburn",
+      "label": "Katharine Hepburn",
+      "statement": "Katharine Hepburn won four Best Actress Oscars; her 48-year span between wins, 1933 to 1981, is the longest for a performer.",
+      "associations": ["Katharine Hepburn", "four Oscars", "1933", "1981"],
+      "clue_ids": ["5b4a342706", "21952cbf55"]
+    },
+    {
+      "id": "streep",
+      "label": "Meryl Streep",
+      "statement": "Meryl Streep earned Oscar nominations in all but four years from 1979 to 1991, starting with The Deer Hunter.",
+      "associations": ["Meryl Streep", "The Deer Hunter", "1979–1991"],
+      "clue_ids": ["4aa017fdee", "52ee596c4b"]
+    },
+    {
+      "id": "berry",
+      "label": "Halle Berry",
+      "statement": "Halle Berry became the first African-American woman to win Best Actress, for Monster's Ball.",
+      "associations": ["Halle Berry", "Monster's Ball", "first Black Best Actress"],
+      "clue_ids": ["be6a86e1fe", "ace1a8eeec"]
+    },
+    {
+      "id": "whoopi",
+      "label": "Whoopi Goldberg",
+      "statement": "Whoopi Goldberg won a supporting Oscar for Ghost and has also won a Grammy, Emmy and Tony.",
+      "associations": ["Whoopi Goldberg", "Ghost", "EGOT"],
+      "clue_ids": ["f105bfb659", "6a71f6f140"]
+    }
+  ],
+  "clue_ids": [
+    "dbd740e70a", "f7e073390c", "b2c632b6ac", "8a7bf1858e", "b7c4053f75",
+    "c13dcdf83e", "ea7bf59631", "5b4a342706", "21952cbf55", "4aa017fdee",
+    "52ee596c4b", "be6a86e1fe", "ace1a8eeec", "f105bfb659", "6a71f6f140",
+    "8ba3522064", "03653b80b4", "2fd6a9bbc6"
+  ],
+  "related": ["meryl-streep", "marilyn-monroe", "casablanca"]
+}

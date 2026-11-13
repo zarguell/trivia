@@ -1,0 +1,64 @@
+{
+  "id": "thomas-jefferson",
+  "name": "Thomas Jefferson",
+  "deck": "history",
+  "aliases": [],
+  "hook": "The Declaration, Monticello, and a July 4 death: the founder Jeopardy quizzes most.",
+  "facts": [
+    {
+      "id": "declaration",
+      "label": "the Declaration of Independence",
+      "statement": "Thomas Jefferson drafted the Declaration of Independence in 1776; Congress rejected several passages, and the $2 bill shows its signing.",
+      "associations": ["Declaration of Independence", "1776", "$2 bill"],
+      "clue_ids": ["f58b0cd451", "af659ed14a"]
+    },
+    {
+      "id": "monticello",
+      "label": "Monticello",
+      "statement": "Monticello was Jefferson's Virginia home; by 1814 he had 9,000-plus books, and fires destroyed his Shadwell and Library of Congress collections.",
+      "associations": ["Monticello", "9,000 books", "Shadwell"],
+      "clue_ids": ["55dd66956f", "5b2731dec7", "d8ba0edd82"]
+    },
+    {
+      "id": "university-of-virginia",
+      "label": "the University of Virginia",
+      "statement": "Jefferson founded the University of Virginia in 1819, designed its campus, and its Jefferson Medals honor architecture and law.",
+      "associations": ["University of Virginia", "1819", "Jefferson Medal"],
+      "clue_ids": ["f087a89ebe", "6df31b59a9", "842f4c64da"]
+    },
+    {
+      "id": "secretary-of-state",
+      "label": "Secretary of State",
+      "statement": "Jefferson was the first Secretary of State, appointed by Washington in 1789 while serving as minister to France.",
+      "associations": ["Secretary of State", "1789", "Washington's Cabinet"],
+      "clue_ids": ["0bb76144ef", "d7bd80826c"]
+    },
+    {
+      "id": "lewis-and-clark",
+      "label": "Lewis and Clark",
+      "statement": "Jefferson got Congress to fund $2,500 for the Lewis and Clark expedition and gave the pair a letter of credit dated July 4, 1803.",
+      "associations": ["Lewis and Clark", "1803", "$2,500"],
+      "clue_ids": ["64adf6b1e6", "653115b57b"]
+    },
+    {
+      "id": "election-of-1800",
+      "label": "the election of 1800",
+      "statement": "The House chose Jefferson on the 36th ballot in 1801; Aaron Burr became vice president, and Burr later killed Alexander Hamilton in a duel.",
+      "associations": ["election of 1800", "36th ballot", "Aaron Burr"],
+      "clue_ids": ["3feddd812a", "be594c7c2f"]
+    },
+    {
+      "id": "death",
+      "label": "July 4, 1826",
+      "statement": "Jefferson died on July 4, 1826, hours before his friend John Adams; his grave marker makes no mention of the presidency.",
+      "associations": ["July 4, 1826", "John Adams", "grave marker"],
+      "clue_ids": ["fe2c19c510"]
+    }
+  ],
+  "clue_ids": [
+    "f58b0cd451", "af659ed14a", "55dd66956f", "5b2731dec7", "d8ba0edd82",
+    "f087a89ebe", "6df31b59a9", "842f4c64da", "0bb76144ef", "d7bd80826c",
+    "64adf6b1e6", "653115b57b", "3feddd812a", "be594c7c2f", "fe2c19c510"
+  ],
+  "related": ["american-revolution", "george-washington", "napoleon"]
+}

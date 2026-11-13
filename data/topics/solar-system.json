@@ -1,0 +1,64 @@
+{
+  "id": "solar-system",
+  "name": "Solar System",
+  "deck": "science",
+  "aliases": [],
+  "hook": "One star, eight planets and a cast of moons — the facts Jeopardy keeps asking.",
+  "facts": [
+    {
+      "id": "orrery",
+      "label": "an orrery",
+      "statement": "An orrery is a clockwork model of the solar system, named for the 18th-century Earl of Orrery.",
+      "associations": ["orrery", "clockwork model", "Earl of Orrery"],
+      "clue_ids": ["636bbe222d", "9548e76d29"]
+    },
+    {
+      "id": "copernicus",
+      "label": "Copernicus",
+      "statement": "The Polish astronomer Copernicus put the Sun at the center of the solar system, and Kepler defended that heliocentric model.",
+      "associations": ["Copernicus", "heliocentric", "Sun at the center", "Kepler"],
+      "clue_ids": ["09e993b227", "29c5fddcdf"]
+    },
+    {
+      "id": "venus",
+      "label": "Venus",
+      "statement": "Venus is the hottest planet — its thick atmosphere traps heat in a runaway greenhouse effect — even though it is second from the Sun.",
+      "associations": ["Venus", "hottest planet", "greenhouse effect", "second planet"],
+      "clue_ids": ["9bef6e9495", "8bf7ace104"]
+    },
+    {
+      "id": "earth",
+      "label": "Earth",
+      "statement": "Earth is the densest planet and the only one not named for a deity; it is almost four times denser than the Sun.",
+      "associations": ["Earth", "densest planet", "not named for a deity"],
+      "clue_ids": ["a8e62bd10d", "842aebcc57"]
+    },
+    {
+      "id": "mars",
+      "label": "Mars",
+      "statement": "Mars has the solar system's tallest volcano, Olympus Mons, and exactly two moons.",
+      "associations": ["Mars", "Olympus Mons", "two moons", "tallest volcano"],
+      "clue_ids": ["0b3883d0ca", "29c6b64010"]
+    },
+    {
+      "id": "jupiter",
+      "label": "Jupiter",
+      "statement": "Jupiter is the largest planet and, after the Sun, the solar system's most massive object; its moon Io is the only other world known to have active volcanoes.",
+      "associations": ["Jupiter", "largest planet", "Io", "active volcanoes"],
+      "clue_ids": ["143f8c76ee", "dc7830cda6"]
+    },
+    {
+      "id": "titan",
+      "label": "Titan",
+      "statement": "Titan, Saturn's largest moon, is the second-largest moon in the solar system after Ganymede and orbits Saturn in about 16 days.",
+      "associations": ["Titan", "Saturn", "second-largest moon", "16 days"],
+      "clue_ids": ["3068017c38", "20f9669785"]
+    }
+  ],
+  "clue_ids": [
+    "636bbe222d", "9548e76d29", "09e993b227", "29c5fddcdf", "9bef6e9495",
+    "8bf7ace104", "a8e62bd10d", "842aebcc57", "0b3883d0ca", "29c6b64010",
+    "143f8c76ee", "dc7830cda6", "3068017c38", "20f9669785"
+  ],
+  "related": ["mars", "jupiter", "neptune", "pluto"]
+}

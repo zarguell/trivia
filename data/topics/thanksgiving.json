@@ -1,0 +1,64 @@
+{
+  "id": "thanksgiving",
+  "name": "Thanksgiving",
+  "deck": "world-culture",
+  "aliases": [],
+  "hook": "Pilgrims, Lincoln, parades and pie — the holiday's facts repeat on Jeopardy.",
+  "facts": [
+    {
+      "id": "plymouth",
+      "label": "William Bradford",
+      "statement": "William Bradford, governor of Plymouth Colony, proclaimed a 1621 day of Thanksgiving and invited Native Americans to a three-day feast.",
+      "associations": ["William Bradford", "Plymouth Colony", "1621", "three-day feast"],
+      "clue_ids": ["3f23bc4cbf", "99e9942113"]
+    },
+    {
+      "id": "lincoln",
+      "label": "Abraham Lincoln",
+      "statement": "Abraham Lincoln issued the proclamation that made the last Thursday in November a national day of Thanksgiving.",
+      "associations": ["Abraham Lincoln", "last Thursday in November", "proclamation"],
+      "clue_ids": ["0f31fe4a57"]
+    },
+    {
+      "id": "macys",
+      "label": "Macy's parade",
+      "statement": "Macy's Thanksgiving Day Parade debuted in New York City in 1924, conceived by store employees.",
+      "associations": ["Macy's", "1924", "New York City", "parade"],
+      "clue_ids": ["941a4a2654", "f3fa95a16d"]
+    },
+    {
+      "id": "cyber-monday",
+      "label": "Cyber Monday",
+      "statement": "Cyber Monday, the Monday after Thanksgiving, is named for its online shopping bargains.",
+      "associations": ["Cyber Monday", "Monday after Thanksgiving", "online shopping"],
+      "clue_ids": ["c085c8b6a7", "cc53dc6bda"]
+    },
+    {
+      "id": "turkey",
+      "label": "turkey",
+      "statement": "Turkey is the traditional Thanksgiving bird; the Beltsville Small White is a breed, and turducken stuffs a chicken into a duck into a turkey.",
+      "associations": ["turkey", "Beltsville Small White", "turducken"],
+      "clue_ids": ["9157340340", "ddacb66a81"]
+    },
+    {
+      "id": "stuffing",
+      "label": "stuffing",
+      "statement": "Stuffing is the bread-based Thanksgiving side most likely to be made with sage.",
+      "associations": ["stuffing", "bread", "sage"],
+      "clue_ids": ["a7d7cb5153", "483f5a3b8c"]
+    },
+    {
+      "id": "canada",
+      "label": "Canada",
+      "statement": "Canada has celebrated Thanksgiving on the second Monday in October since 1957.",
+      "associations": ["Canada", "second Monday in October", "1957"],
+      "clue_ids": ["621efed967", "2fd9375956"]
+    }
+  ],
+  "clue_ids": [
+    "3f23bc4cbf", "99e9942113", "0f31fe4a57", "941a4a2654", "f3fa95a16d",
+    "c085c8b6a7", "cc53dc6bda", "9157340340", "ddacb66a81", "a7d7cb5153",
+    "483f5a3b8c", "621efed967", "2fd9375956"
+  ],
+  "related": ["christmas", "halloween", "valentine-s-day"]
+}

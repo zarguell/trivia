@@ -1,0 +1,139 @@
+{
+ "id": "vincent-van-gogh",
+ "name": "Vincent van Gogh",
+ "deck": "arts",
+ "aliases": [
+  "Van Gogh",
+  "Starry Night"
+ ],
+ "hook": "Sunflowers, a severed ear, and a starry sky: the painter whose story Jeopardy tells in pieces.",
+ "facts": [
+  {
+   "id": "starry-night",
+   "label": "Starry Night",
+   "statement": "Starry Night (1889) was painted at the Saint-Rémy asylum, looking from his window at the town below.",
+   "associations": [
+    "Starry Night",
+    "1889",
+    "Saint-Rémy",
+    "asylum window"
+   ],
+   "clue_ids": [
+    "e85ddc8c3b",
+    "75ea85670f"
+   ]
+  },
+  {
+   "id": "ear",
+   "label": "the severed ear",
+   "statement": "In 1888 van Gogh threatened Paul Gauguin, his roommate in Arles, and cut off part of his own ear.",
+   "associations": [
+    "Paul Gauguin",
+    "Arles",
+    "1888",
+    "severed ear"
+   ],
+   "clue_ids": [
+    "014c6c1584",
+    "a69cafd030"
+   ]
+  },
+  {
+   "id": "sunflowers",
+   "label": "Sunflowers",
+   "statement": "Van Gogh painted Sunflowers in Arles in 1888, with the flowers in August bloom against a nearly monochromatic yellow background.",
+   "associations": [
+    "Sunflowers",
+    "Arles",
+    "1888",
+    "yellow"
+   ],
+   "clue_ids": [
+    "7ad49ba09f",
+    "dc102d5563"
+   ]
+  },
+  {
+   "id": "theo",
+   "label": "Theo van Gogh",
+   "statement": "His brother Theo supported him; their letters, preserved by Theo's widow Jo, were published in English as Dear Theo. Vincent died in 1890 saying \"The sadness will last forever.\"",
+   "associations": [
+    "Theo van Gogh",
+    "Dear Theo",
+    "1890",
+    "letters"
+   ],
+   "clue_ids": [
+    "435c1f0b2d",
+    "2a19136576"
+   ]
+  },
+  {
+   "id": "potato-eaters",
+   "label": "The Potato Eaters",
+   "statement": "The Potato Eaters shows a family gathered around a table dining on a plate of spuds, painted in 1885 before the bright Arles years.",
+   "associations": [
+    "The Potato Eaters",
+    "1885",
+    "potatoes",
+    "peasants"
+   ],
+   "clue_ids": [
+    "6e78800521",
+    "c4c1da79dc"
+   ]
+  },
+  {
+   "id": "museum",
+   "label": "the Van Gogh Museum",
+   "statement": "The Van Gogh Museum in Amsterdam holds the world's largest collection of his work.",
+   "associations": [
+    "Van Gogh Museum",
+    "Amsterdam",
+    "largest collection"
+   ],
+   "clue_ids": [
+    "4b739aaa6c",
+    "d72c83010a"
+   ]
+  },
+  {
+   "id": "irises",
+   "label": "Irises",
+   "statement": "Van Gogh painted Irises within his first week at the Saint-Rémy asylum, filling the canvas with violet-colored flowers.",
+   "associations": [
+    "Irises",
+    "Saint-Rémy",
+    "violet",
+    "first week"
+   ],
+   "clue_ids": [
+    "59ffdff85f",
+    "d81a41a48d"
+   ]
+  }
+ ],
+ "clue_ids": [
+  "435c1f0b2d",
+  "190698570e",
+  "e85ddc8c3b",
+  "75ea85670f",
+  "4b739aaa6c",
+  "d72c83010a",
+  "7ad49ba09f",
+  "dc102d5563",
+  "014c6c1584",
+  "a69cafd030",
+  "d81a41a48d",
+  "59ffdff85f",
+  "6e78800521",
+  "c4c1da79dc",
+  "2a19136576"
+ ],
+ "related": [
+  "claude-monet",
+  "pablo-picasso",
+  "rembrandt",
+  "michelangelo"
+ ]
+}

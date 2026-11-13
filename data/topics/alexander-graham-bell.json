@@ -1,0 +1,65 @@
+{
+  "id": "alexander-graham-bell",
+  "name": "Alexander Graham Bell",
+  "deck": "business",
+  "aliases": [],
+  "hook": "The telephone's inventor — and the deaf-education work Jeopardy remembers him for.",
+  "facts": [
+    {
+      "id": "telephone-patent",
+      "label": "the telephone",
+      "statement": "Bell patented the telephone in 1876 (patent No. 174,465), beating rival Elisha Gray by only a few hours; it was called the most valuable patent ever issued.",
+      "associations": ["telephone", "1876", "patent 174,465", "Elisha Gray"],
+      "clue_ids": ["cc84c54c82", "7738b42f77", "2489d647f2"]
+    },
+    {
+      "id": "thomas-watson",
+      "label": "Thomas Watson",
+      "statement": "On March 10, 1876, Bell called his assistant Thomas Watson on the new telephone and later made him a partner in the Bell Telephone Company.",
+      "associations": ["Thomas Watson", "March 10 1876", "first call", "partner"],
+      "clue_ids": ["a8cca09962", "6364472178", "bb568cdf10"]
+    },
+    {
+      "id": "helen-keller",
+      "label": "Helen Keller",
+      "statement": "Helen Keller dedicated The Story of My Life to Bell, who examined her at age 6 and taught the deaf to speak.",
+      "associations": ["Helen Keller", "The Story of My Life", "taught the deaf"],
+      "clue_ids": ["ae0817f339", "2fb9ed7f7a"]
+    },
+    {
+      "id": "scotland-canada",
+      "label": "Scotland and Canada",
+      "statement": "Bell was born in Scotland in 1847 and died in Canada in 1922; his Nova Scotia site is a historic site.",
+      "associations": ["Scotland", "1847", "Canada", "1922"],
+      "clue_ids": ["46928e3364", "0617f20b37"]
+    },
+    {
+      "id": "decibel",
+      "label": "decibel",
+      "statement": "The decibel, a unit of sound intensity abbreviated dB, is named for Alexander Graham Bell.",
+      "associations": ["decibel", "dB", "sound intensity"],
+      "clue_ids": ["c6674fbba3", "f32b4cbd81"]
+    },
+    {
+      "id": "metal-detector",
+      "label": "metal detector",
+      "statement": "Bell built an early metal detector to locate the bullet in President James Garfield, but mattress springs confused it.",
+      "associations": ["metal detector", "James Garfield", "bullet"],
+      "clue_ids": ["9a0b3fad19", "f18db08f2a", "1ad930db54"]
+    },
+    {
+      "id": "tetrahedral-kites",
+      "label": "tetrahedral kites",
+      "statement": "In 1901 Bell began building tetrahedral box kites with the goal of lifting people.",
+      "associations": ["tetrahedral kites", "1901", "flight"],
+      "clue_ids": ["c483b43a46"]
+    }
+  ],
+  "clue_ids": [
+    "ae0817f339", "cc84c54c82", "2fb9ed7f7a", "bb568cdf10", "a8cca09962",
+    "6364472178", "0617f20b37", "46928e3364", "c6674fbba3", "f32b4cbd81",
+    "4ff9da0bea", "1ad930db54", "f18db08f2a", "9a0b3fad19", "2489d647f2",
+    "7738b42f77", "c483b43a46", "9cf24a51a6"
+  ],
+  "related": ["thomas-edison", "wright-brothers", "world-wide-web"]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "peanuts",
+  "name": "Peanuts",
+  "deck": "pop-culture",
+  "aliases": [
+    "Snoopy",
+    "Charlie Brown"
+  ],
+  "hook": "Schulz's neighborhood of misfits, one beagle and a football that never stays put.",
+  "facts": [
+    {
+      "id": "schulz",
+      "label": "Charles Schulz",
+      "statement": "Charles Schulz created Peanuts in 1950 and drew it until 2000; his Santa Rosa museum recreates his studio and holds original strip art.",
+      "associations": [
+        "Charles Schulz",
+        "1950",
+        "Santa Rosa"
+      ],
+      "clue_ids": [
+        "bc707a4911",
+        "d79410dc14"
+      ]
+    },
+    {
+      "id": "charlie-brown",
+      "label": "Charlie Brown",
+      "statement": "Charlie Brown is the round-headed kid who finally hits a home run on March 30, 1993, and he is the 'Charlie Brown' of the rock song asking who walks in the classroom cool and slow.",
+      "associations": [
+        "Charlie Brown",
+        "home run",
+        "1993"
+      ],
+      "clue_ids": [
+        "bfd9290750"
+      ]
+    },
+    {
+      "id": "snoopy",
+      "label": "Snoopy",
+      "statement": "Snoopy is a beagle whose fantasies include Joe Cool, and the Red Baron is his nemesis in the comic strip.",
+      "associations": [
+        "Snoopy",
+        "beagle",
+        "Joe Cool",
+        "Red Baron"
+      ],
+      "clue_ids": [
+        "19cbe327bb",
+        "a7b2504aa8",
+        "f1a4925ab2"
+      ]
+    },
+    {
+      "id": "woodstock",
+      "label": "Woodstock",
+      "statement": "Woodstock is Snoopy's small yellow bird friend; he debuted as a Macy's Thanksgiving Day Parade balloon in 1988.",
+      "associations": [
+        "Woodstock",
+        "yellow bird",
+        "1988",
+        "Macy's parade"
+      ],
+      "clue_ids": [
+        "c7dab0e272",
+        "1474c3d251"
+      ]
+    },
+    {
+      "id": "linus",
+      "label": "Linus",
+      "statement": "Linus is Lucy's blanket-toting younger brother, and he shares his name with the man who taught music to Hercules.",
+      "associations": [
+        "Linus",
+        "blanket",
+        "Lucy's brother"
+      ],
+      "clue_ids": [
+        "e31a04f562",
+        "f6cb7d862c"
+      ]
+    },
+    {
+      "id": "peppermint-patty",
+      "label": "Peppermint Patty",
+      "statement": "Peppermint Patty's full name is Patricia Reichardt.",
+      "associations": [
+        "Peppermint Patty",
+        "Patricia Reichardt"
+      ],
+      "clue_ids": [
+        "7682706399",
+        "db28f71be6"
+      ]
+    },
+    {
+      "id": "great-pumpkin",
+      "label": "the Great Pumpkin",
+      "statement": "The Great Pumpkin is Linus's Halloween imaginary being; the 1966 TV special gave Charlie Brown the line 'I got a rock.'",
+      "associations": [
+        "Great Pumpkin",
+        "1966",
+        "I got a rock",
+        "Halloween"
+      ],
+      "clue_ids": [
+        "760038709b"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "bc707a4911",
+    "d79410dc14",
+    "bfd9290750",
+    "19cbe327bb",
+    "a7b2504aa8",
+    "f1a4925ab2",
+    "c7dab0e272",
+    "1474c3d251",
+    "e31a04f562",
+    "f6cb7d862c",
+    "7682706399",
+    "db28f71be6",
+    "760038709b",
+    "7593d3e17c",
+    "7c27e69626",
+    "921c4027ae",
+    "11d0223aa6"
+  ],
+  "related": [
+    "the-simpsons",
+    "sesame-street",
+    "i-love-lucy"
+  ]
+}

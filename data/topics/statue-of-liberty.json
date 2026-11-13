@@ -1,0 +1,64 @@
+{
+  "id": "statue-of-liberty",
+  "name": "Statue of Liberty",
+  "deck": "arts",
+  "aliases": ["Lady Liberty", "Liberty Enlightening the World"],
+  "hook": "A French gift in 214 crates, a copper skin, and a poem that named the Mother of Exiles.",
+  "facts": [
+    {
+      "id": "bartholdi",
+      "label": "Frédéric Auguste Bartholdi",
+      "statement": "Frédéric Auguste Bartholdi designed the Statue of Liberty; he also sculpted the Lion of Belfort.",
+      "associations": ["Frédéric Bartholdi", "Lion of Belfort", "sculptor"],
+      "clue_ids": ["2988ba887e", "bc2b322454"]
+    },
+    {
+      "id": "gift",
+      "label": "the French gift",
+      "statement": "France gave the statue to the United States, and it crossed the Atlantic in 1885 in 214 crates aboard the frigate Isère.",
+      "associations": ["France", "1885", "214 crates", "Isère"],
+      "clue_ids": ["8e001a2b61"]
+    },
+    {
+      "id": "egypt",
+      "label": "Egypt Carrying the Light to Asia",
+      "statement": "It was first conceived as \"Egypt Carrying the Light to Asia,\" meant for Port Said in 1869.",
+      "associations": ["Egypt Carrying the Light to Asia", "Port Said", "1869"],
+      "clue_ids": ["31ba9a7204"]
+    },
+    {
+      "id": "dedication",
+      "label": "the 1886 dedication",
+      "statement": "President Grover Cleveland dedicated it on October 28, 1886; the statue is sheathed in more than 31 tons of copper mined in Norway.",
+      "associations": ["1886", "Grover Cleveland", "October 28", "copper"],
+      "clue_ids": ["33b3cd607c", "b37da72544", "beea8c81ce"]
+    },
+    {
+      "id": "lazarus",
+      "label": "Emma Lazarus",
+      "statement": "Emma Lazarus wrote The New Colossus to help fund the pedestal; the sonnet calls the statue the \"Mother of Exiles.\"",
+      "associations": ["Emma Lazarus", "The New Colossus", "Mother of Exiles", "pedestal"],
+      "clue_ids": ["7640fb3713", "fc7c47ec04", "e997516944"]
+    },
+    {
+      "id": "torch",
+      "label": "the torch",
+      "statement": "The statue's torch was displayed at the 1876 Centennial Exposition in Philadelphia before it was sent to New York.",
+      "associations": ["torch", "1876", "Centennial Exposition", "Philadelphia"],
+      "clue_ids": ["6ed432c5dc"]
+    },
+    {
+      "id": "planet-of-the-apes",
+      "label": "Planet of the Apes",
+      "statement": "At the end of Planet of the Apes, Charlton Heston finds the Statue of Liberty half-buried on a beach.",
+      "associations": ["Planet of the Apes", "Charlton Heston", "half-buried"],
+      "clue_ids": ["319cfb5a32", "b79e0efa05"]
+    }
+  ],
+  "clue_ids": [
+    "31ba9a7204", "8e001a2b61", "2988ba887e", "bc2b322454", "7640fb3713",
+    "fc7c47ec04", "e997516944", "33b3cd607c", "b37da72544", "beea8c81ce",
+    "6ed432c5dc", "319cfb5a32", "b79e0efa05", "33bf173e99", "1d908c3ace"
+  ],
+  "related": ["new-york-city", "france", "paris", "american-revolution"]
+}

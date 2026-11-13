@@ -1,0 +1,64 @@
+{
+  "id": "valentine-s-day",
+  "name": "Valentine's Day",
+  "deck": "world-culture",
+  "aliases": ["Valentines Day"],
+  "hook": "February 14 is a Jeopardy peg for massacres, statehood, births and candy hearts.",
+  "facts": [
+    {
+      "id": "massacre",
+      "label": "the St. Valentine's Day Massacre",
+      "statement": "The 1929 St. Valentine's Day Massacre was Al Capone's men, disguised as policemen, killing seven of Bugs Moran's gang in Chicago.",
+      "associations": ["St. Valentine's Day Massacre", "Al Capone", "Bugs Moran", "Chicago"],
+      "clue_ids": ["0aba95f3e6", "b0436e0e9f", "19fdc3d0f9"]
+    },
+    {
+      "id": "cook",
+      "label": "Captain James Cook",
+      "statement": "Captain James Cook was killed in Hawaii on Valentine's Day 1779 during a dispute over a stolen boat.",
+      "associations": ["Captain Cook", "Hawaii", "1779"],
+      "clue_ids": ["68d4f8d0c9", "380ff5f8a5"]
+    },
+    {
+      "id": "hoffa",
+      "label": "Jimmy Hoffa",
+      "statement": "Jimmy Hoffa, the Teamsters president, was born on Valentine's Day 1913 in Brazil, Indiana.",
+      "associations": ["Jimmy Hoffa", "1913", "Teamsters", "Brazil, Indiana"],
+      "clue_ids": ["79edfc330c", "82bafbd688"]
+    },
+    {
+      "id": "statehood",
+      "label": "Arizona and Oregon",
+      "statement": "Arizona became a state on Valentine's Day 1912; Oregon entered the Union on Valentine's Day 1859.",
+      "associations": ["Arizona", "1912", "Oregon", "1859"],
+      "clue_ids": ["ef2554daa7", "06920c9acd"]
+    },
+    {
+      "id": "chaucer",
+      "label": "Chaucer",
+      "statement": "Chaucer wrote that birds choose their mates on Valentine's Day in his poem The Parliament of Fowls.",
+      "associations": ["Chaucer", "birds choosing mates", "Parliament of Fowls"],
+      "clue_ids": ["b75c9147dd"]
+    },
+    {
+      "id": "funny-valentine",
+      "label": "My Funny Valentine",
+      "statement": "'My Funny Valentine' is the Rodgers and Hart standard whose last line is 'Each day is Valentine's Day.'",
+      "associations": ["My Funny Valentine", "Rodgers and Hart", "Each day is Valentine's Day"],
+      "clue_ids": ["8b8e841caf"]
+    },
+    {
+      "id": "sweethearts",
+      "label": "Sweethearts",
+      "statement": "Sweethearts, the little candies printed with sayings, claim to be the bestselling Valentine's Day candy.",
+      "associations": ["Sweethearts", "candy hearts", "bestselling candy"],
+      "clue_ids": ["2a9eb092a1"]
+    }
+  ],
+  "clue_ids": [
+    "0aba95f3e6", "b0436e0e9f", "19fdc3d0f9", "68d4f8d0c9", "380ff5f8a5",
+    "79edfc330c", "82bafbd688", "ef2554daa7", "06920c9acd", "b75c9147dd",
+    "8b8e841caf", "2a9eb092a1"
+  ],
+  "related": ["christmas", "halloween", "thanksgiving"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "michael-jordan",
+  "name": "Michael Jordan",
+  "deck": "sports",
+  "aliases": ["MJ", "Air Jordan"],
+  "hook": "Six NBA titles, Space Jam, and the shoe empire — the basketball star clues keep circling back to.",
+  "facts": [
+    {
+      "id": "north-carolina",
+      "label": "North Carolina",
+      "statement": "He grew up in Wilmington, North Carolina, and played at the University of North Carolina for Dean Smith alongside Sam Perkins and James Worthy.",
+      "associations": ["Wilmington", "North Carolina", "Dean Smith", "Tar Heels"],
+      "clue_ids": ["5ecdf20d40", "da7a13f83c", "b1b61cb91b"]
+    },
+    {
+      "id": "bulls",
+      "label": "Chicago Bulls",
+      "statement": "He won six NBA titles with the Chicago Bulls, with Scottie Pippen as his second option, and his 1998 game-winner over Bryon Russell was voted the NBA's top playoff moment.",
+      "associations": ["Chicago Bulls", "Scottie Pippen", "1998", "Bryon Russell", "six titles"],
+      "clue_ids": ["adcb9c3708", "10c64b0720"]
+    },
+    {
+      "id": "space-jam",
+      "label": "Space Jam",
+      "statement": "In the 1996 film Space Jam, Bugs Bunny recruits him to beat the Monstars; R. Kelly's \"I Believe I Can Fly\" was written for it.",
+      "associations": ["Space Jam", "1996", "Bugs Bunny", "Monstars", "I Believe I Can Fly"],
+      "clue_ids": ["ba161e9752", "581a987f50", "794833f785"]
+    },
+    {
+      "id": "nike",
+      "label": "Air Jordans",
+      "statement": "His Air Jordans helped make Nike the top athletic shoe seller, and he also pitched Gatorade and Hanes.",
+      "associations": ["Nike", "Air Jordans", "Gatorade", "Hanes"],
+      "clue_ids": ["75db6759a9", "d8354544d9", "65037b03aa"]
+    },
+    {
+      "id": "dream-team",
+      "label": "the Dream Team",
+      "statement": "He played for the 1992 Olympic Dream Team with Magic Johnson, Larry Bird, Charles Barkley and Karl Malone.",
+      "associations": ["Dream Team", "1992 Olympics", "Magic Johnson", "Larry Bird"],
+      "clue_ids": ["71099e960b", "23850bc596"]
+    },
+    {
+      "id": "barons",
+      "label": "Birmingham Barons",
+      "statement": "His 1994 baseball detour had him playing outfield for the minor league Birmingham Barons.",
+      "associations": ["Birmingham Barons", "minor league baseball", "outfield", "1994"],
+      "clue_ids": ["e193b00319", "e8a2be9e67"]
+    },
+    {
+      "id": "wizards",
+      "label": "Washington Wizards",
+      "statement": "As Washington Wizards general manager he drafted high schooler Kwame Brown No. 1 overall in 2001.",
+      "associations": ["Washington Wizards", "Kwame Brown", "2001 NBA draft"],
+      "clue_ids": ["bda6f9349c"]
+    }
+  ],
+  "clue_ids": [
+    "5ecdf20d40", "da7a13f83c", "b1b61cb91b", "adcb9c3708", "10c64b0720",
+    "ba161e9752", "581a987f50", "794833f785", "75db6759a9", "d8354544d9",
+    "65037b03aa", "71099e960b", "23850bc596", "e193b00319", "e8a2be9e67",
+    "bda6f9349c"
+  ],
+  "related": ["babe-ruth", "serena-williams", "olympic-games"]
+}

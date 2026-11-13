@@ -1,0 +1,65 @@
+{
+  "id": "grand-canyon",
+  "name": "Grand Canyon",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "Arizona's mile-deep chasm: Powell's boats, Grofé's suite, Roosevelt's sermon.",
+  "facts": [
+    {
+      "id": "colorado",
+      "label": "the Colorado River",
+      "statement": "The Colorado River carved the Grand Canyon in Arizona; it rises in the Rocky Mountains and runs about 1,450 miles.",
+      "associations": ["Colorado River", "Arizona", "1,450 miles"],
+      "clue_ids": ["0295f59ab1", "bb7fea9079", "84a1773bcd"]
+    },
+    {
+      "id": "powell",
+      "label": "John Wesley Powell",
+      "statement": "John Wesley Powell, who lost an arm at Shiloh, led the first party down the Colorado through the Grand Canyon.",
+      "associations": ["John Wesley Powell", "Shiloh", "first descent"],
+      "clue_ids": ["5be5825f74", "107dfc7283", "0234b3bde1"]
+    },
+    {
+      "id": "roosevelt",
+      "label": "Teddy Roosevelt",
+      "statement": "Teddy Roosevelt called the Grand Canyon \"the one great sight which every American should see.\"",
+      "associations": ["Teddy Roosevelt", "one great sight", "national park"],
+      "clue_ids": ["59bb81b6fd"]
+    },
+    {
+      "id": "name",
+      "label": "Kaibab",
+      "statement": "John Wesley Powell gave the canyon its current name; the Paiutes called it Kaibab, or \"mountain lying down.\"",
+      "associations": ["Kaibab", "Paiutes", "Powell"],
+      "clue_ids": ["8b5c340f55"]
+    },
+    {
+      "id": "grofe",
+      "label": "Ferde Grofé",
+      "statement": "Ferde Grofé's Grand Canyon Suite premiered in 1931 under Paul Whiteman, and Grofé also orchestrated Rhapsody in Blue.",
+      "associations": ["Ferde Grofé", "Grand Canyon Suite", "Paul Whiteman", "Rhapsody in Blue"],
+      "clue_ids": ["cca93abe66", "3c42b39954", "e7eb8616ec"]
+    },
+    {
+      "id": "coronado",
+      "label": "Coronado",
+      "statement": "Coronado's expedition found the Grand Canyon in 1540 while searching for gold; Francisco Garcés reached it in 1776.",
+      "associations": ["Coronado", "1540", "Francisco Garcés"],
+      "clue_ids": ["fc40a52e00", "d18ba3cd43"]
+    },
+    {
+      "id": "bunyan",
+      "label": "Paul Bunyan",
+      "statement": "In folklore Paul Bunyan dragged his axe behind him and cut the Grand Canyon.",
+      "associations": ["Paul Bunyan", "folklore", "axe"],
+      "clue_ids": ["9026d6ceac", "b22d2b737a"]
+    }
+  ],
+  "clue_ids": [
+    "59bb81b6fd", "8b5c340f55", "bb7fea9079", "0295f59ab1", "84a1773bcd",
+    "5be5825f74", "107dfc7283", "0234b3bde1", "cca93abe66", "3c42b39954",
+    "e7eb8616ec", "81944614ae", "fc40a52e00", "d18ba3cd43", "9026d6ceac",
+    "b22d2b737a", "0006042481", "1faff5b64e"
+  ],
+  "related": ["yellowstone", "niagara-falls", "california"]
+}

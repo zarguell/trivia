@@ -1,0 +1,129 @@
+{
+  "id": "atlantis",
+  "name": "Atlantis",
+  "deck": "myth-religion",
+  "aliases": [],
+  "hook": "Plato's sunken island: the lost continent every generation keeps finding again.",
+  "facts": [
+    {
+      "id": "plato",
+      "label": "Plato",
+      "statement": "Plato is the main source of the legend, describing Atlantis in the dialogues Timaeus and Critias around 360 B.C.",
+      "associations": [
+        "Plato",
+        "Timaeus",
+        "Critias",
+        "360 B.C."
+      ],
+      "clue_ids": [
+        "9aa639e576",
+        "9d3db6d0ea",
+        "fc3f554a35"
+      ]
+    },
+    {
+      "id": "lost-island",
+      "label": "a lost continent",
+      "statement": "Atlantis is the legendary island or continent said to have sunk beneath the sea; Mu is its supposed Pacific counterpart.",
+      "associations": [
+        "lost continent",
+        "sank",
+        "Mu"
+      ],
+      "clue_ids": [
+        "7ff71acda5",
+        "031ece6b71"
+      ]
+    },
+    {
+      "id": "minoan",
+      "label": "the Minoan civilization",
+      "statement": "Many think Plato's Atlantis refers to the Minoan civilization on Crete, which flourished about 5,000 years ago and collapsed.",
+      "associations": [
+        "Minoan civilization",
+        "Crete",
+        "5,000 years ago"
+      ],
+      "clue_ids": [
+        "008f7a9269",
+        "f99d03e339"
+      ]
+    },
+    {
+      "id": "bimini",
+      "label": "the Bimini Road",
+      "statement": "The Bimini Road, an undersea limestone formation off Florida, is cited by some as evidence of Atlantis.",
+      "associations": [
+        "Bimini Road",
+        "Florida",
+        "undersea road"
+      ],
+      "clue_ids": [
+        "58d393649e"
+      ]
+    },
+    {
+      "id": "canaries",
+      "label": "the Canary Islands",
+      "statement": "Legend makes the seven Canary Islands the highest peaks of sunken Atlantis.",
+      "associations": [
+        "Canary Islands",
+        "seven islands",
+        "peaks"
+      ],
+      "clue_ids": [
+        "b719453400"
+      ]
+    },
+    {
+      "id": "utopia",
+      "label": "Utopia",
+      "statement": "Atlantis's orderly society is thought to have inspired Thomas More's 1516 Utopia, while Bacon's New Atlantis may have inspired the Royal Society.",
+      "associations": [
+        "Thomas More",
+        "Utopia",
+        "New Atlantis",
+        "Royal Society"
+      ],
+      "clue_ids": [
+        "31fcbaf108",
+        "3787cb7796"
+      ]
+    },
+    {
+      "id": "helike",
+      "label": "Helike",
+      "statement": "The drowned city of Helike, a center of Poseidon worship found in 2001, has been called 'the real Atlantis.'",
+      "associations": [
+        "Helike",
+        "Poseidon",
+        "2001"
+      ],
+      "clue_ids": [
+        "23b0d4bdd4"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "9aa639e576",
+    "9d3db6d0ea",
+    "fc3f554a35",
+    "7ff71acda5",
+    "031ece6b71",
+    "008f7a9269",
+    "f99d03e339",
+    "58d393649e",
+    "b719453400",
+    "31fcbaf108",
+    "3787cb7796",
+    "23b0d4bdd4",
+    "aac595b4b8",
+    "0d27d710f1",
+    "52db690f89"
+  ],
+  "related": [
+    "greece",
+    "egypt",
+    "athens"
+  ]
+}

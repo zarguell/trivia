@@ -1,0 +1,64 @@
+{
+  "id": "harvard",
+  "name": "Harvard",
+  "deck": "world-culture",
+  "aliases": [],
+  "hook": "One Ivy League school, its presidents, films and rivalries — a reliable Jeopardy staple.",
+  "facts": [
+    {
+      "id": "john-adams",
+      "label": "John Adams",
+      "statement": "John Adams graduated from Harvard in 1755, 14th in a class of 24, and became the first college graduate elected U.S. president.",
+      "associations": ["John Adams", "1755", "class of 24"],
+      "clue_ids": ["15a699111b", "39b1eac11a"]
+    },
+    {
+      "id": "radcliffe",
+      "label": "Radcliffe",
+      "statement": "Radcliffe College began in 1879 as the Harvard Annex, a sister school for women in Cambridge, Massachusetts.",
+      "associations": ["Radcliffe", "Harvard Annex", "1879"],
+      "clue_ids": ["ac32ce7fc8", "d48d93c5b2"]
+    },
+    {
+      "id": "love-story",
+      "label": "Love Story",
+      "statement": "Love Story is the 1970 tearjerker that got Harvard to ban movie filming after fake snow ruined its trees; Erich Segal based a character on classmate Tommy Lee Jones.",
+      "associations": ["Love Story", "Erich Segal", "Tommy Lee Jones", "fake snow"],
+      "clue_ids": ["821f047a72", "6e0541f6aa"]
+    },
+    {
+      "id": "legally-blonde",
+      "label": "Legally Blonde",
+      "statement": "Legally Blonde, based on the Reese Witherspoon film, became a Broadway musical set partly at Harvard Law School.",
+      "associations": ["Legally Blonde", "Reese Witherspoon", "Harvard Law School"],
+      "clue_ids": ["d23c531ea4", "bbc42aac0b"]
+    },
+    {
+      "id": "cambridge",
+      "label": "Cambridge, Massachusetts",
+      "statement": "Harvard and MIT sit in Cambridge, Massachusetts, across the Charles River from Boston; the city was first called New Towne.",
+      "associations": ["Cambridge", "Charles River", "New Towne"],
+      "clue_ids": ["c0dd4ba420", "ce7c5f7200"]
+    },
+    {
+      "id": "crimson",
+      "label": "crimson",
+      "statement": "Crimson became Harvard's official color in 1910; future president Franklin D. Roosevelt edited The Harvard Crimson in 1903.",
+      "associations": ["crimson", "1910", "The Harvard Crimson", "FDR"],
+      "clue_ids": ["326acd7cca", "ee4fee5ceb"]
+    },
+    {
+      "id": "lampoon",
+      "label": "the Lampoon",
+      "statement": "The Harvard Lampoon is the campus humor magazine; a lampoon is a sharp satire, a word that comes from the French.",
+      "associations": ["the Lampoon", "humor magazine", "satire"],
+      "clue_ids": ["8f5720f4f0", "72cec456b4"]
+    }
+  ],
+  "clue_ids": [
+    "15a699111b", "39b1eac11a", "ac32ce7fc8", "d48d93c5b2", "821f047a72",
+    "6e0541f6aa", "d23c531ea4", "bbc42aac0b", "c0dd4ba420", "ce7c5f7200",
+    "326acd7cca", "ee4fee5ceb", "8f5720f4f0", "72cec456b4"
+  ],
+  "related": ["franklin-d-roosevelt", "john-f-kennedy"]
+}

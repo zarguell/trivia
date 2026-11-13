@@ -1,0 +1,65 @@
+{
+  "id": "casablanca",
+  "name": "Casablanca",
+  "deck": "film-tv",
+  "aliases": [],
+  "hook": "The 1942 wartime romance whose lines and piano song Jeopardy quotes more than almost any film.",
+  "facts": [
+    {
+      "id": "premiere",
+      "label": "1942 premiere",
+      "statement": "Casablanca premiered in New York on Thanksgiving 1942, 15 days after the city's liberation, and gained fame after the January 1943 Casablanca Conference.",
+      "associations": ["1942", "Thanksgiving premiere", "Casablanca Conference"],
+      "clue_ids": ["a37fe1d306", "33e025b1d4"]
+    },
+    {
+      "id": "as-time-goes-by",
+      "label": "\"As Time Goes By\"",
+      "statement": "Dooley Wilson's Sam \"plays\" \"As Time Goes By\" on a Warner Bros. prop piano that had only 58 keys.",
+      "associations": ["As Time Goes By", "Dooley Wilson", "58-key piano"],
+      "clue_ids": ["643192b400", "ddb05e8f18"]
+    },
+    {
+      "id": "toast",
+      "label": "\"Here's looking at you, kid\"",
+      "statement": "Humphrey Bogart's Rick toasts Ingrid Bergman's Ilsa with \"Here's looking at you, kid.\"",
+      "associations": ["Here's looking at you, kid", "Humphrey Bogart", "Ingrid Bergman"],
+      "clue_ids": ["b6add65f50", "931bbac327"]
+    },
+    {
+      "id": "usual-suspects",
+      "label": "the usual suspects",
+      "statement": "Claude Rains as Captain Renault orders officers to \"round up the usual suspects,\" a line that titled the 1995 film The Usual Suspects.",
+      "associations": ["round up the usual suspects", "Claude Rains", "The Usual Suspects"],
+      "clue_ids": ["ae63a1da5d", "8d2d5f1c95"]
+    },
+    {
+      "id": "hill-of-beans",
+      "label": "a hill of beans",
+      "statement": "Rick says the problems of three little people \"don't amount to a hill of beans\"; the trio is Rick, Ilsa, and her husband Victor Laszlo.",
+      "associations": ["a hill of beans", "Victor Laszlo", "three little people"],
+      "clue_ids": ["d16c9927fe", "570c56c3eb", "62c33edf0d"]
+    },
+    {
+      "id": "lisbon",
+      "label": "Lisbon",
+      "statement": "The refugees, including Ilsa and Laszlo, escape to Lisbon; Rick and Ilsa had their affair in Paris.",
+      "associations": ["Lisbon", "Paris", "refugees"],
+      "clue_ids": ["f7439e4c60", "a492e76284"]
+    },
+    {
+      "id": "curtiz",
+      "label": "Michael Curtiz",
+      "statement": "Michael Curtiz, a Hungarian émigré, directed Casablanca and Mildred Pierce; Humphrey Bogart played Rick Blaine, AFI's No. 4 hero.",
+      "associations": ["Michael Curtiz", "Hungarian émigré", "Rick Blaine", "Humphrey Bogart"],
+      "clue_ids": ["5729d57df9", "a801d755d1", "6a3391005b"]
+    }
+  ],
+  "clue_ids": [
+    "a37fe1d306", "33e025b1d4", "643192b400", "8d2d5f1c95", "ddb05e8f18",
+    "ae63a1da5d", "f7439e4c60", "d16c9927fe", "570c56c3eb", "a492e76284",
+    "b6add65f50", "931bbac327", "6547409846", "6a3391005b", "62c33edf0d",
+    "5729d57df9", "a801d755d1"
+  ],
+  "related": ["the-godfather", "citizen-kane", "academy-awards"]
+}

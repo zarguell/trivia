@@ -1,0 +1,65 @@
+{
+  "id": "genghis-khan",
+  "name": "Genghis Khan",
+  "deck": "history",
+  "aliases": ["Temüjin", "Chinggis Khan"],
+  "hook": "The Mongol conqueror, his empire, his grandsons, and his surprising screen career.",
+  "facts": [
+    {
+      "id": "temujin",
+      "label": "Temüjin",
+      "statement": "Genghis Khan was born Temüjin around 1162 and was proclaimed supreme ruler in 1206.",
+      "associations": ["Temüjin", "1162", "1206"],
+      "clue_ids": ["2dfb4cfba1", "5b6eca398d"]
+    },
+    {
+      "id": "mongol-tribes",
+      "label": "the united Mongol tribes",
+      "statement": "He united the Mongol tribes and led them into China in the 13th century.",
+      "associations": ["Mongol tribes", "13th century", "China"],
+      "clue_ids": ["809243e3f0"]
+    },
+    {
+      "id": "beijing",
+      "label": "Beijing",
+      "statement": "In 1215 his Mongol horde sacked Beijing, the Chin capital, which burned for a month.",
+      "associations": ["Beijing", "1215", "Chin capital"],
+      "clue_ids": ["bc7eabbe68", "0a0583b1ee", "33ab0e764c"]
+    },
+    {
+      "id": "kublai-khan",
+      "label": "Kublai Khan",
+      "statement": "His grandson Kublai Khan became the first emperor of China's Yuan Dynasty in 1279.",
+      "associations": ["Kublai Khan", "Yuan Dynasty", "1279", "grandson"],
+      "clue_ids": ["f5abb3ad0a", "9196005dde", "8a9a765f11"]
+    },
+    {
+      "id": "ulaanbaatar-statue",
+      "label": "the Genghis Khan Statue Complex",
+      "statement": "The Genghis Khan Statue Complex stands about 35 miles west of Ulaanbaatar, Mongolia's capital.",
+      "associations": ["Ulaanbaatar", "Mongolia", "statue complex"],
+      "clue_ids": ["c29fec47a2", "392e7392c0"]
+    },
+    {
+      "id": "john-wayne",
+      "label": "The Conqueror",
+      "statement": "John Wayne played Genghis Khan in the 1956 film The Conqueror.",
+      "associations": ["John Wayne", "The Conqueror", "1956"],
+      "clue_ids": ["5074377e8d", "3213912ab9"]
+    },
+    {
+      "id": "bill-and-ted",
+      "label": "Bill & Ted's Excellent Adventure",
+      "statement": "Genghis Khan appears in Bill & Ted's Excellent Adventure, where Keanu Reeves asks, \"Want a Twinkie, Genghis Khan?\"",
+      "associations": ["Bill & Ted's Excellent Adventure", "Keanu Reeves", "Twinkie"],
+      "clue_ids": ["1cbae71901", "d31a3aecac", "1e57b5dc1a"]
+    }
+  ],
+  "clue_ids": [
+    "2dfb4cfba1", "5b6eca398d", "809243e3f0", "bc7eabbe68", "0a0583b1ee",
+    "33ab0e764c", "f5abb3ad0a", "9196005dde", "8a9a765f11", "c29fec47a2",
+    "392e7392c0", "5074377e8d", "3213912ab9", "1cbae71901", "d31a3aecac",
+    "1e57b5dc1a", "03906061e2", "9e73116387"
+  ],
+  "related": ["china", "alexander-the-great", "vikings"]
+}

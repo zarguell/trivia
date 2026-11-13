@@ -1,0 +1,65 @@
+{
+  "id": "greenland",
+  "name": "Greenland",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "The world's largest island: Erik the Red's sales pitch and a Danish territory.",
+  "facts": [
+    {
+      "id": "largest",
+      "label": "world's largest island",
+      "statement": "Greenland is the world's largest island; in its native language it is called Kalaallit Nunaat.",
+      "associations": ["world's largest island", "Kalaallit Nunaat", "New Guinea"],
+      "clue_ids": ["74099b8eb0", "996990dc5e"]
+    },
+    {
+      "id": "erik",
+      "label": "Erik the Red",
+      "statement": "Erik the Red gave Greenland its appealing name to attract settlers and founded a colony there around 985.",
+      "associations": ["Erik the Red", "985", "attract settlers"],
+      "clue_ids": ["81ca5fb866", "fecff916c0", "560b3b4637"]
+    },
+    {
+      "id": "denmark",
+      "label": "Denmark",
+      "statement": "Greenland is a self-governing territory of Denmark and uses the Danish krone.",
+      "associations": ["Denmark", "self-governing", "krone"],
+      "clue_ids": ["979115f310", "bee650ac1c"]
+    },
+    {
+      "id": "iceland",
+      "label": "Iceland",
+      "statement": "Iceland lies about 200 miles east of Greenland, across the Denmark Strait.",
+      "associations": ["Iceland", "200 miles", "Denmark Strait"],
+      "clue_ids": ["dc70faba3b", "c6d0e72487"]
+    },
+    {
+      "id": "baffin",
+      "label": "Baffin Bay",
+      "statement": "Baffin Bay lies between Greenland and Canada's Arctic islands, and the Davis Strait separates Greenland from Baffin Island.",
+      "associations": ["Baffin Bay", "Davis Strait", "Baffin Island"],
+      "clue_ids": ["0a40088ffc", "7d881f747c", "93666b53f7"]
+    },
+    {
+      "id": "henson",
+      "label": "Matthew Henson",
+      "statement": "Matthew Henson, the African-American explorer who accompanied Robert Peary, lived in Greenland in the 1890s.",
+      "associations": ["Matthew Henson", "Robert Peary", "1890s"],
+      "clue_ids": ["195ab7f097", "3286dcec03"]
+    },
+    {
+      "id": "leif",
+      "label": "Leif Ericson",
+      "statement": "Leif Ericson, Erik the Red's son, brought Christianity to Greenland and sailed to Vinland around 1000.",
+      "associations": ["Leif Ericson", "Christianity", "Vinland"],
+      "clue_ids": ["0e6ac9909f", "616d9c5003"]
+    }
+  ],
+  "clue_ids": [
+    "74099b8eb0", "81ca5fb866", "fecff916c0", "560b3b4637", "9fc98f46d0",
+    "979115f310", "bee650ac1c", "dc70faba3b", "c6d0e72487", "89b9d5dcb0",
+    "0a40088ffc", "7d881f747c", "93666b53f7", "195ab7f097", "3286dcec03",
+    "0e6ac9909f", "616d9c5003", "996990dc5e"
+  ],
+  "related": ["iceland", "canada", "antarctica"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "iceland",
+  "name": "Iceland",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "Sagas, volcanoes and the world's oldest parliament, just below the Arctic Circle.",
+  "facts": [
+    {
+      "id": "reykjavik",
+      "label": "Reykjavik",
+      "statement": "Reykjavik, Iceland's capital, means \"Bay of Smokes\" and was founded around 874.",
+      "associations": ["Reykjavik", "Bay of Smokes", "874"],
+      "clue_ids": ["8d6d7b4d10", "afa42c8705"]
+    },
+    {
+      "id": "erik",
+      "label": "Erik the Red",
+      "statement": "Erik the Red was exiled from Iceland and in 982 sailed to Greenland, where he founded a colony.",
+      "associations": ["Erik the Red", "exile", "982", "Greenland"],
+      "clue_ids": ["c3eed58c7e", "0e4678fc16", "81ca5fb866"]
+    },
+    {
+      "id": "althing",
+      "label": "the Althing",
+      "statement": "Iceland's parliament is the Althing, whose name means \"whole assembly\" and which dates to the Viking age.",
+      "associations": ["Althing", "whole assembly", "parliament"],
+      "clue_ids": ["7237945e77", "0357b39058"]
+    },
+    {
+      "id": "geothermal",
+      "label": "geothermal energy",
+      "statement": "Most Icelandic houses are heated with geothermal energy, and the island's volcanoes and geysers are powered by that heat.",
+      "associations": ["geothermal", "volcanoes", "geysers"],
+      "clue_ids": ["b95206149e", "7fc90ae1da", "181610f237"]
+    },
+    {
+      "id": "denmark",
+      "label": "Denmark",
+      "statement": "Iceland was ruled by Denmark and celebrates its independence from it on June 17.",
+      "associations": ["Denmark", "June 17", "independence"],
+      "clue_ids": ["0e62f03099", "25632a711b"]
+    },
+    {
+      "id": "president",
+      "label": "Vigdis Finnbogadottir",
+      "statement": "Vigdis Finnbogadottir became Iceland's first female president in 1980.",
+      "associations": ["Vigdis Finnbogadottir", "1980", "first female president"],
+      "clue_ids": ["1def88b640"]
+    },
+    {
+      "id": "verne",
+      "label": "Journey to the Center of the Earth",
+      "statement": "Jules Verne's Journey to the Center of the Earth begins with a descent into Iceland's Mount Snaefells.",
+      "associations": ["Jules Verne", "Journey to the Center of the Earth", "Snaefells"],
+      "clue_ids": ["8bb053bc7d", "d5e1be72a3"]
+    }
+  ],
+  "clue_ids": [
+    "1def88b640", "0e62f03099", "25632a711b", "c3eed58c7e", "0e4678fc16",
+    "8d6d7b4d10", "afa42c8705", "181610f237", "b95206149e", "7fc90ae1da",
+    "7237945e77", "0357b39058", "8bb053bc7d", "d5e1be72a3", "8058ac6916",
+    "5f7d3ccbe1", "2c8d9625b9", "81ca5fb866"
+  ],
+  "related": ["greenland", "sweden", "scotland"]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "robert-frost",
+  "name": "Robert Frost",
+  "deck": "literature",
+  "aliases": [],
+  "hook": "Four Pulitzers, a snowy evening, and the roads and walls Jeopardy keeps quoting.",
+  "facts": [
+    {
+      "id": "inauguration",
+      "label": "the 1961 inauguration",
+      "statement": "Frost won four Pulitzer Prizes and in 1961 became the first poet to read at a presidential inauguration, for John F. Kennedy.",
+      "associations": [
+        "four Pulitzers",
+        "1961",
+        "JFK inauguration"
+      ],
+      "clue_ids": [
+        "05e7b95ea2",
+        "0d6942d0a9"
+      ]
+    },
+    {
+      "id": "road-not-taken",
+      "label": "The Road Not Taken",
+      "statement": "It begins 'Two roads diverged in a yellow wood' and ends 'I took the one less traveled by, / And that has made all the difference.'",
+      "associations": [
+        "yellow wood",
+        "two roads",
+        "less traveled"
+      ],
+      "clue_ids": [
+        "311be7b28e",
+        "31f4d2baec",
+        "a80e6cd859"
+      ]
+    },
+    {
+      "id": "mending-wall",
+      "label": "Mending Wall",
+      "statement": "It gives the proverb 'Good fences make good neighbors' and asks, 'Something there is that doesn't love a wall.'",
+      "associations": [
+        "Good fences make good neighbors",
+        "fences",
+        "neighbors"
+      ],
+      "clue_ids": [
+        "3c61c94545",
+        "c669de527c",
+        "c16a11491e"
+      ]
+    },
+    {
+      "id": "stopping-by-woods",
+      "label": "Stopping by Woods on a Snowy Evening",
+      "statement": "It ends 'And miles to go before I sleep,' with 'sleep' the poem's last word.",
+      "associations": [
+        "snowy woods",
+        "miles to go before I sleep",
+        "sleep"
+      ],
+      "clue_ids": [
+        "4a1850086e"
+      ]
+    },
+    {
+      "id": "fire-and-ice",
+      "label": "Fire and Ice",
+      "statement": "It opens 'Some say the world will end in fire, / Some say in ice.'",
+      "associations": [
+        "fire",
+        "ice",
+        "end of the world"
+      ],
+      "clue_ids": [
+        "96b5883e40",
+        "2fb4f85088"
+      ]
+    },
+    {
+      "id": "death-of-hired-man",
+      "label": "The Death of the Hired Man",
+      "statement": "It defines home as 'the place where, when you have to go there, they have to take you in'; its last line is ''Dead,' was all he answered.'",
+      "associations": [
+        "home",
+        "hired man",
+        "Dead"
+      ],
+      "clue_ids": [
+        "c225f6088d",
+        "1498de9443",
+        "ecb713f9ea"
+      ]
+    },
+    {
+      "id": "free-verse",
+      "label": "free verse",
+      "statement": "Frost said writing free verse was like 'playing tennis with the net down.'",
+      "associations": [
+        "free verse",
+        "tennis with the net down"
+      ],
+      "clue_ids": [
+        "72ff2b98d7",
+        "291899af68"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "05e7b95ea2",
+    "0d6942d0a9",
+    "311be7b28e",
+    "31f4d2baec",
+    "a80e6cd859",
+    "3c61c94545",
+    "c669de527c",
+    "c16a11491e",
+    "4a1850086e",
+    "96b5883e40",
+    "2fb4f85088",
+    "c225f6088d",
+    "1498de9443",
+    "ecb713f9ea",
+    "72ff2b98d7",
+    "291899af68",
+    "2c18f8bd65",
+    "0424b62795"
+  ],
+  "related": [
+    "emily-dickinson",
+    "edgar-allan-poe",
+    "william-shakespeare"
+  ]
+}

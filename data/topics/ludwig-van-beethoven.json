@@ -1,0 +1,65 @@
+{
+  "id": "ludwig-van-beethoven",
+  "name": "Ludwig van Beethoven",
+  "deck": "music",
+  "aliases": ["Beethoven"],
+  "hook": "The deaf genius behind nine symphonies and the first name in every classical-music category.",
+  "facts": [
+    {
+      "id": "bonn-vienna",
+      "label": "Bonn to Vienna",
+      "statement": "Beethoven was born in Bonn in 1770 and moved to Vienna in 1792; he died there in 1827 and was buried in the city.",
+      "associations": ["Bonn", "Vienna", "1770", "1792"],
+      "clue_ids": ["366ae844fd", "f7b10a4e7c", "bd1ef7745a"]
+    },
+    {
+      "id": "fidelio",
+      "label": "Fidelio",
+      "statement": "Fidelio is Beethoven's only opera, and it had little early success — Vienna was occupied by French troops when it premiered.",
+      "associations": ["Fidelio", "only opera", "Vienna"],
+      "clue_ids": ["04d72c8756", "d0264e29d9", "fdfd453432"]
+    },
+    {
+      "id": "ninth",
+      "label": "Symphony No. 9",
+      "statement": "The Ninth Symphony, completed in 1824, ends with a choral setting of Schiller's \"Ode to Joy,\" later adopted as the European Union's anthem.",
+      "associations": ["Ninth Symphony", "Ode to Joy", "Schiller", "1824"],
+      "clue_ids": ["628c4f5ca4", "097bd6d873", "caf6209a7c"]
+    },
+    {
+      "id": "eroica",
+      "label": "Eroica",
+      "statement": "The Third Symphony, \"Eroica,\" was inspired by Napoleon; disillusioned with him, Beethoven changed its title from \"Bonaparte.\"",
+      "associations": ["Eroica", "Third Symphony", "Napoleon", "Bonaparte"],
+      "clue_ids": ["6fa7ead95d", "d2e7c602de"]
+    },
+    {
+      "id": "fifth",
+      "label": "Symphony No. 5",
+      "statement": "The Fifth Symphony, with its famous four-note opening, was the first of his symphonies to use the piccolo and trombone.",
+      "associations": ["Fifth Symphony", "piccolo", "trombone", "four-note motif"],
+      "clue_ids": ["74360ee218"]
+    },
+    {
+      "id": "moonlight",
+      "label": "Moonlight Sonata",
+      "statement": "The Piano Sonata No. 14 in C-sharp minor is known as the \"Moonlight Sonata,\" a nickname from a poet's image of a boat on Lake Lucerne at night.",
+      "associations": ["Moonlight Sonata", "C-sharp minor", "Lake Lucerne"],
+      "clue_ids": ["338815c8d4", "8206375319"]
+    },
+    {
+      "id": "fur-elise",
+      "label": "Für Elise",
+      "statement": "The bagatelle \"Für Elise\" is Bagatelle No. 25 in A minor, and nobody knows for sure who the title girl was.",
+      "associations": ["Für Elise", "Bagatelle No. 25", "A minor"],
+      "clue_ids": ["c44fe4916c", "b82ef1660e"]
+    }
+  ],
+  "clue_ids": [
+    "366ae844fd", "f7b10a4e7c", "bd1ef7745a", "04d72c8756", "d0264e29d9",
+    "fdfd453432", "628c4f5ca4", "097bd6d873", "caf6209a7c", "6fa7ead95d",
+    "d2e7c602de", "74360ee218", "338815c8d4", "8206375319", "c44fe4916c",
+    "b82ef1660e", "4f33a88f4a", "d2df785ccb"
+  ],
+  "related": ["wolfgang-amadeus-mozart", "johann-sebastian-bach", "pyotr-ilyich-tchaikovsky"]
+}

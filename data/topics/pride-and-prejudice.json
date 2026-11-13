@@ -1,0 +1,65 @@
+{
+  "id": "pride-and-prejudice",
+  "name": "Pride and Prejudice",
+  "deck": "literature",
+  "aliases": [],
+  "hook": "Austen's 1813 novel gave Jeopardy Darcy, Elizabeth and the template for every rom-com since.",
+  "facts": [
+    {
+      "id": "austen",
+      "label": "Jane Austen",
+      "statement": "Jane Austen published it in 1813; her first novel, Sense and Sensibility, appeared two years earlier.",
+      "associations": ["Jane Austen", "1813", "Sense and Sensibility"],
+      "clue_ids": ["158569a649", "c089cd0559"]
+    },
+    {
+      "id": "elizabeth",
+      "label": "Elizabeth Bennet",
+      "statement": "Elizabeth Bennet is the second of five Bennet sisters and the heroine eventually won over by Darcy.",
+      "associations": ["Elizabeth Bennet", "five sisters", "heroine"],
+      "clue_ids": ["387f638ac3", "1c54a87587", "7f76a9b84d"]
+    },
+    {
+      "id": "darcy",
+      "label": "Fitzwilliam Darcy",
+      "statement": "Fitzwilliam Darcy is the proud aristocratic gentleman; Colin Firth and Matthew Macfadyen both played him.",
+      "associations": ["Fitzwilliam Darcy", "Colin Firth", "Matthew Macfadyen"],
+      "clue_ids": ["130b4748fe", "71db8492de", "926897d460"]
+    },
+    {
+      "id": "pemberley",
+      "label": "Pemberley",
+      "statement": "Pemberley is Darcy's fictional country estate, which Elizabeth tours with her aunt Mrs. Gardiner.",
+      "associations": ["Pemberley", "country estate", "Mrs. Gardiner"],
+      "clue_ids": ["9ce8b92438", "66dde34713"]
+    },
+    {
+      "id": "bennets",
+      "label": "the Bennet family",
+      "statement": "The Bennets have five daughters; Lydia elopes with and marries the officer Mr. Wickham.",
+      "associations": ["Bennet family", "Lydia", "Mr. Wickham"],
+      "clue_ids": ["612a2535eb", "b61e88a9c9"]
+    },
+    {
+      "id": "ball",
+      "label": "the Netherfield ball",
+      "statement": "Chapter 18 takes place at a ball at Netherfield, where Darcy and Elizabeth dance.",
+      "associations": ["Netherfield ball", "Chapter 18", "dancing"],
+      "clue_ids": ["732af2eca5"]
+    },
+    {
+      "id": "adaptations",
+      "label": "Bridget Jones's Diary",
+      "statement": "Helen Fielding's Bridget Jones's Diary updates it, and P.D. James wrote the sequel Death Comes to Pemberley.",
+      "associations": ["Bridget Jones's Diary", "Death Comes to Pemberley", "Helen Fielding"],
+      "clue_ids": ["c29693b560", "167b9834d8", "2e27d9eca7"]
+    }
+  ],
+  "clue_ids": [
+    "158569a649", "c089cd0559", "387f638ac3", "1c54a87587", "7f76a9b84d",
+    "130b4748fe", "71db8492de", "926897d460", "9ce8b92438", "66dde34713",
+    "612a2535eb", "b61e88a9c9", "732af2eca5", "c29693b560", "167b9834d8",
+    "2e27d9eca7"
+  ],
+  "related": ["jane-austen", "william-shakespeare", "the-great-gatsby"]
+}

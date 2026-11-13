@@ -1,0 +1,57 @@
+{
+  "id": "d-day",
+  "name": "D-Day",
+  "deck": "history",
+  "aliases": ["Normandy"],
+  "hook": "June 6, 1944: the beaches, the commanders and the plan behind the largest amphibious invasion ever.",
+  "facts": [
+    {
+      "id": "date",
+      "label": "June 6, 1944",
+      "statement": "D-Day was June 6, 1944, when the Allies invaded Normandy in the largest sea and airborne invasion in history.",
+      "associations": ["June 6, 1944", "Normandy invasion", "largest amphibious invasion"],
+      "clue_ids": ["14cef0082c", "3ac4a8dc0f", "2537fe5ba6"]
+    },
+    {
+      "id": "normandy",
+      "label": "Normandy",
+      "statement": "The invasion hit the Normandy coast of France, with landing beaches including Utah, Omaha, Gold, Juno and Sword.",
+      "associations": ["Normandy", "Utah and Omaha", "Gold, Juno, Sword"],
+      "clue_ids": ["bcb020e193", "80a21c0de2", "9ef799d8cd"]
+    },
+    {
+      "id": "overlord",
+      "label": "Operation Overlord",
+      "statement": "The invasion's code name was Operation Overlord, and Dwight D. Eisenhower directed it as supreme Allied commander.",
+      "associations": ["Operation Overlord", "Dwight D. Eisenhower", "supreme Allied commander"],
+      "clue_ids": ["6445257c0e", "9fb6fb2453"]
+    },
+    {
+      "id": "montgomery",
+      "label": "Bernard Montgomery",
+      "statement": "British field marshal Bernard Montgomery commanded all Allied ground forces on D-Day under Eisenhower.",
+      "associations": ["Bernard Montgomery", "Allied ground forces", "British field marshal"],
+      "clue_ids": ["5728063c04", "30c6c8511d"]
+    },
+    {
+      "id": "planning",
+      "label": "COSSAC and the Sussex scheme",
+      "statement": "The COSSAC plan laid out the invasion, and the 1944 Sussex scheme dropped agents into France ahead of the assault.",
+      "associations": ["COSSAC Plan", "Sussex scheme", "agents into France"],
+      "clue_ids": ["ac1d0e43cc", "e18a6c3fbb"]
+    },
+    {
+      "id": "saving-private-ryan",
+      "label": "Saving Private Ryan",
+      "statement": "Saving Private Ryan opens with the storming of Omaha Beach, recreating the Normandy landings in its first 20 minutes.",
+      "associations": ["Saving Private Ryan", "Omaha Beach", "1998 film"],
+      "clue_ids": ["2eca920762", "702bbca42a"]
+    }
+  ],
+  "clue_ids": [
+    "14cef0082c", "3ac4a8dc0f", "2537fe5ba6", "bcb020e193", "80a21c0de2",
+    "9ef799d8cd", "6445257c0e", "9fb6fb2453", "5728063c04", "30c6c8511d",
+    "ac1d0e43cc", "e18a6c3fbb", "2eca920762", "702bbca42a"
+  ],
+  "related": ["world-war-ii", "winston-churchill", "france"]
+}

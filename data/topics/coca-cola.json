@@ -1,0 +1,64 @@
+{
+  "id": "coca-cola",
+  "name": "Coca-Cola",
+  "deck": "food-drink",
+  "aliases": ["Coca Cola", "Coke"],
+  "hook": "The Atlanta pharmacy drink that became the world's most recognizable brand.",
+  "facts": [
+    {
+      "id": "pemberton",
+      "label": "John Pemberton",
+      "statement": "Atlanta pharmacist John Pemberton created Coca-Cola in 1886; the company is still headquartered in Atlanta.",
+      "associations": ["John Pemberton", "1886", "Atlanta", "pharmacist"],
+      "clue_ids": ["ea9805904b", "3e83dc2e4a", "5d2ae777b0"]
+    },
+    {
+      "id": "spencerian-script",
+      "label": "Spencerian script",
+      "statement": "Bookkeeper Frank Robinson named the drink and wrote its Spencerian-script logo; the trademark was registered in 1893.",
+      "associations": ["Frank Robinson", "Spencerian script", "1893 trademark"],
+      "clue_ids": ["ce32893390"]
+    },
+    {
+      "id": "asa-candler",
+      "label": "Asa Candler",
+      "statement": "Asa Candler, elected mayor of Atlanta in 1916, gave control of Coca-Cola to his children.",
+      "associations": ["Asa Candler", "Atlanta mayor", "1916"],
+      "clue_ids": ["f4f9080139"]
+    },
+    {
+      "id": "sprite-fanta",
+      "label": "Sprite and Fanta",
+      "statement": "Sprite, the lemon-lime soda, arrived in 1961; Fanta's original orange version was formulated in Germany during World War II.",
+      "associations": ["Sprite", "1961", "Fanta", "World War II Germany"],
+      "clue_ids": ["bc2a5c2a3b", "1fdff5a9cd"]
+    },
+    {
+      "id": "tab",
+      "label": "Tab",
+      "statement": "Tab was Coca-Cola's first diet soda and the leading U.S. diet drink until Diet Coke arrived in 1982.",
+      "associations": ["Tab", "first diet soda", "Diet Coke", "1982"],
+      "clue_ids": ["1788213b14", "36a0774351"]
+    },
+    {
+      "id": "teach-the-world",
+      "label": "I'd Like to Teach the World to Sing",
+      "statement": "The Hillside Singers had a hit with \"I'd Like to Teach the World to Sing,\" adapted from a Coca-Cola commercial jingle.",
+      "associations": ["I'd Like to Teach the World to Sing", "Hillside Singers", "jingle"],
+      "clue_ids": ["7d8e5a8b55"]
+    },
+    {
+      "id": "warhol",
+      "label": "Andy Warhol",
+      "statement": "Andy Warhol's 1962 Green Coca-Cola Bottles hangs in the Whitney; another of his Coke-bottle paintings sold for over $57 million in 2013.",
+      "associations": ["Andy Warhol", "Green Coca-Cola Bottles", "Whitney Museum", "$57 million"],
+      "clue_ids": ["3719f0993f", "f1c9a4830c"]
+    }
+  ],
+  "clue_ids": [
+    "ea9805904b", "3e83dc2e4a", "5d2ae777b0", "ce32893390", "f4f9080139",
+    "bc2a5c2a3b", "1fdff5a9cd", "1788213b14", "36a0774351", "7d8e5a8b55",
+    "3719f0993f", "f1c9a4830c"
+  ],
+  "related": ["mcdonald-s", "guinness", "pizza"]
+}

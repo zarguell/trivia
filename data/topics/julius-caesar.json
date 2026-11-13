@@ -1,0 +1,65 @@
+{
+  "id": "julius-caesar",
+  "name": "Julius Caesar",
+  "deck": "history",
+  "aliases": [],
+  "hook": "The man, the Ides, the Rubicon, and Shakespeare's most quotable assassination.",
+  "facts": [
+    {
+      "id": "ides-of-march",
+      "label": "the Ides of March",
+      "statement": "Julius Caesar was assassinated on the Ides of March — March 15, 44 B.C. — in the Roman Senate, despite a warning to beware that day.",
+      "associations": ["Ides of March", "March 15, 44 B.C.", "assassination"],
+      "clue_ids": ["2994592db5"]
+    },
+    {
+      "id": "brutus",
+      "label": "Marcus Brutus",
+      "statement": "Marcus Brutus, a friend Caesar had pardoned, helped lead the assassination; Shakespeare gives Caesar the line \"Et tu, Brute?\" as he dies.",
+      "associations": ["Brutus", "Et tu, Brute", "assassination"],
+      "clue_ids": ["c24cc9f8a7", "0313d60703", "3bb544cad5"]
+    },
+    {
+      "id": "rubicon",
+      "label": "the Rubicon",
+      "statement": "In 49 B.C. Caesar crossed the Rubicon River into Italy, starting civil war — hence \"the die is cast.\"",
+      "associations": ["Rubicon", "49 B.C.", "the die is cast"],
+      "clue_ids": ["0511168c8c", "f4315e21f5"]
+    },
+    {
+      "id": "triumvirate",
+      "label": "the First Triumvirate",
+      "statement": "Caesar, Pompey and Crassus formed the First Triumvirate; after Crassus and Caesar's daughter Julia died, Pompey turned against him.",
+      "associations": ["First Triumvirate", "Pompey", "Crassus"],
+      "clue_ids": ["6f84aa6377", "f3f5e9bd42", "d5a091ff51"]
+    },
+    {
+      "id": "gaul",
+      "label": "Gaul",
+      "statement": "Caesar conquered Gaul by 50 B.C., the territory the Walloons inhabit, and wrote about Celts dyeing themselves blue with woad.",
+      "associations": ["Gaul", "50 B.C.", "woad"],
+      "clue_ids": ["66cae63f16", "39be998bc3", "c97d0e3c61"]
+    },
+    {
+      "id": "cleopatra",
+      "label": "Cleopatra",
+      "statement": "Cleopatra reportedly smuggled herself into Caesar's quarters in a rolled-up carpet, and Caesar put a gold statue of her in the temple of Venus Genetrix.",
+      "associations": ["Cleopatra", "carpet", "Venus Genetrix"],
+      "clue_ids": ["4f6e6c7ef6", "8fb8ac4eb5"]
+    },
+    {
+      "id": "shakespeare-play",
+      "label": "Shakespeare's Julius Caesar",
+      "statement": "Shakespeare's Julius Caesar was performed by John Wilkes Booth and his brothers in 1864; \"Et tu, Brute?\" is the play's only Latin phrase.",
+      "associations": ["Shakespeare", "John Wilkes Booth", "1864"],
+      "clue_ids": ["bc5621d6be", "f127b029a4"]
+    }
+  ],
+  "clue_ids": [
+    "2994592db5", "c24cc9f8a7", "0313d60703", "3bb544cad5", "0511168c8c",
+    "f4315e21f5", "6f84aa6377", "f3f5e9bd42", "d5a091ff51", "66cae63f16",
+    "39be998bc3", "c97d0e3c61", "4f6e6c7ef6", "8fb8ac4eb5", "bc5621d6be",
+    "f127b029a4"
+  ],
+  "related": ["cleopatra", "roman-empire", "william-shakespeare"]
+}

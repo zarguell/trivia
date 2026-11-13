@@ -1,0 +1,65 @@
+{
+  "id": "athens",
+  "name": "Athens",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "The city-state Jeopardy loves: Acropolis, Marathon and the war with Sparta.",
+  "facts": [
+    {
+      "id": "acropolis",
+      "label": "the Acropolis",
+      "statement": "The Acropolis is the elevated citadel of Athens; its name comes from Greek words meaning \"highest city.\"",
+      "associations": ["Acropolis", "highest city", "citadel"],
+      "clue_ids": ["83e931e79f", "5cb3ba357f"]
+    },
+    {
+      "id": "parthenon",
+      "label": "the Parthenon",
+      "statement": "The Parthenon is the temple to Athena on the Acropolis; Pericles had it built, and the Elgin Marbles came from its pediments.",
+      "associations": ["Parthenon", "Athena", "Pericles", "Elgin Marbles"],
+      "clue_ids": ["fdfe7d4348", "598c0bda72", "6bc70fdc85"]
+    },
+    {
+      "id": "marathon",
+      "label": "Marathon",
+      "statement": "At Marathon in 490 B.C. the Athenians beat the Persians, and a messenger ran roughly 25 miles to Athens with the news.",
+      "associations": ["Marathon", "490 B.C.", "Pheidippides", "25 miles"],
+      "clue_ids": ["6b4b61229c", "4ee1bce9a5", "8229b68218"]
+    },
+    {
+      "id": "peloponnesian",
+      "label": "the Peloponnesian War",
+      "statement": "Sparta defeated Athens in the Peloponnesian War, which ended in 404 B.C. and closed Athens' Golden Age.",
+      "associations": ["Peloponnesian War", "Sparta", "404 B.C."],
+      "clue_ids": ["5b49cfd798", "2f580ec9f4", "509e8a33de"]
+    },
+    {
+      "id": "socrates",
+      "label": "Socrates",
+      "statement": "Socrates was convicted in Athens in 399 B.C. of impiety and corrupting the young, and was put to death.",
+      "associations": ["Socrates", "399 B.C.", "impiety"],
+      "clue_ids": ["aeb37182b4", "8619fcf204"]
+    },
+    {
+      "id": "plato",
+      "label": "Plato's Academy",
+      "statement": "Plato, a student of Socrates, founded the Academy in Athens around 387 B.C.",
+      "associations": ["Plato", "Academy", "387 B.C."],
+      "clue_ids": ["f6c101cde2", "6fdea37832"]
+    },
+    {
+      "id": "raphael",
+      "label": "\"The School of Athens\"",
+      "statement": "Raphael's fresco \"The School of Athens,\" painted in the Vatican, gathers the ancient Greek philosophers in one scene.",
+      "associations": ["Raphael", "The School of Athens", "Vatican"],
+      "clue_ids": ["70106ce44c", "90ee40978d"]
+    }
+  ],
+  "clue_ids": [
+    "83e931e79f", "5cb3ba357f", "fdfe7d4348", "598c0bda72", "6b4b61229c",
+    "4ee1bce9a5", "8229b68218", "5b49cfd798", "2f580ec9f4", "509e8a33de",
+    "aeb37182b4", "8619fcf204", "70106ce44c", "90ee40978d", "6bc70fdc85",
+    "f6c101cde2", "6fdea37832", "a613e67dae"
+  ],
+  "related": ["greece", "rome"]
+}

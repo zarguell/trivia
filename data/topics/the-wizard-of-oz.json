@@ -1,0 +1,65 @@
+{
+  "id": "the-wizard-of-oz",
+  "name": "The Wizard of Oz",
+  "deck": "literature",
+  "aliases": ["Wizard of Oz", "L. Frank Baum", "Frank Baum"],
+  "hook": "The 1900 children's book and the 1939 film that gave America its ruby slippers and its favorite phrase.",
+  "facts": [
+    {
+      "id": "baum",
+      "label": "L. Frank Baum",
+      "statement": "L. Frank Baum published The Wonderful Wizard of Oz in 1900, after a cyclone he saw in Aberdeen, South Dakota, fed his imagination.",
+      "associations": ["L. Frank Baum", "1900", "South Dakota"],
+      "clue_ids": ["d2a18091c4", "dba957b494", "4d0695c24d"]
+    },
+    {
+      "id": "dorothy",
+      "label": "Dorothy Gale",
+      "statement": "Dorothy lives on the gray Kansas prairie with Aunt Em and Uncle Henry until a cyclone carries her to Oz.",
+      "associations": ["Kansas", "cyclone", "Aunt Em"],
+      "clue_ids": ["837b4f393c", "edd88a1ba3"]
+    },
+    {
+      "id": "toto",
+      "label": "Toto",
+      "statement": "Toto is Dorothy's cairn terrier; in the eighth Oz book he finally speaks, having simply chosen not to before.",
+      "associations": ["cairn terrier", "Dorothy's dog", "speaks in later books"],
+      "clue_ids": ["73c04f4410", "2e2053c765"]
+    },
+    {
+      "id": "companions",
+      "label": "the Scarecrow and the Cowardly Lion",
+      "statement": "Dorothy's companions include the Scarecrow, who fears a lighted match, and the Cowardly Lion, who proves brave by killing a giant spider.",
+      "associations": ["Scarecrow", "Cowardly Lion", "Bert Lahr"],
+      "clue_ids": ["5432e72c97", "6308b01aa8", "1bdce9cde6"]
+    },
+    {
+      "id": "witch",
+      "label": "the Wicked Witch of the West",
+      "statement": "The Wicked Witch of the West rules the Winkies and fears water — Dorothy destroys her with a bucket.",
+      "associations": ["Winkies", "aquaphobic", "melted"],
+      "clue_ids": ["b391405602", "c8a2654b9e"]
+    },
+    {
+      "id": "film",
+      "label": "the 1939 film",
+      "statement": "The 1939 film starred Judy Garland as Dorothy and Margaret Hamilton as the Wicked Witch; Garland's gingham dress sold for $480,000.",
+      "associations": ["Judy Garland", "Margaret Hamilton", "1939"],
+      "clue_ids": ["fd46c605e0", "42e761232c", "0aeec077e5", "8593b622ef"]
+    },
+    {
+      "id": "home",
+      "label": "There's no place like home",
+      "statement": "Dorothy clicks the ruby slippers and repeats \"There's no place like home\" to return to Kansas.",
+      "associations": ["ruby slippers", "There's no place like home", "Kansas"],
+      "clue_ids": ["df287459bc", "d6235e4b07"]
+    }
+  ],
+  "clue_ids": [
+    "d2a18091c4", "dba957b494", "4d0695c24d", "837b4f393c", "edd88a1ba3",
+    "73c04f4410", "2e2053c765", "5432e72c97", "6308b01aa8", "1bdce9cde6",
+    "b391405602", "c8a2654b9e", "fd46c605e0", "42e761232c", "0aeec077e5",
+    "8593b622ef", "df287459bc", "d6235e4b07"
+  ],
+  "related": ["alice-s-adventures-in-wonderland", "harry-potter"]
+}

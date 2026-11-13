@@ -1,0 +1,64 @@
+{
+  "id": "texas",
+  "name": "Texas",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "The Lone Star State: a republic, the Alamo and a passel of presidents.",
+  "facts": [
+    {
+      "id": "republic",
+      "label": "the Republic of Texas",
+      "statement": "Texas was an independent republic from 1836 to 1845; France and Britain signed commercial treaties with it in 1839 and 1840.",
+      "associations": ["Republic of Texas", "1836", "1845", "France and Britain"],
+      "clue_ids": ["5e7cfe6384"]
+    },
+    {
+      "id": "alamo",
+      "label": "the Alamo",
+      "statement": "The Alamo in San Antonio was the 1836 siege site where Davy Crockett was killed; Texas bought the mission in 1883.",
+      "associations": ["the Alamo", "San Antonio", "1836", "Davy Crockett"],
+      "clue_ids": ["2a5182d3da", "2deb034f8a", "15e3023ddd"]
+    },
+    {
+      "id": "sam-houston",
+      "label": "Sam Houston",
+      "statement": "Sam Houston, the \"Father of Texas\", was the only governor elected in two states, Tennessee and Texas.",
+      "associations": ["Sam Houston", "Father of Texas", "Tennessee", "governor"],
+      "clue_ids": ["65eb7e1dc1", "9582b3321a"]
+    },
+    {
+      "id": "austin",
+      "label": "Austin",
+      "statement": "Austin, the capital, is named for Stephen F. Austin, who brought the \"Old Three Hundred\" settlers to Texas in 1822.",
+      "associations": ["Austin", "Stephen F. Austin", "Old Three Hundred", "1822"],
+      "clue_ids": ["cf98a51b8f", "aebe2077a7"]
+    },
+    {
+      "id": "houston",
+      "label": "Houston",
+      "statement": "Houston, named for Sam Houston, is home to the NBA's Rockets and the former WNBA Comets.",
+      "associations": ["Houston", "Rockets", "Comets"],
+      "clue_ids": ["5b227081aa"]
+    },
+    {
+      "id": "dallas",
+      "label": "Dallas",
+      "statement": "Dallas was named for James K. Polk's vice president, George M. Dallas, and hosts the Texas State Fair.",
+      "associations": ["Dallas", "George M. Dallas", "Texas State Fair"],
+      "clue_ids": ["44539145f0", "0e70f355f2"]
+    },
+    {
+      "id": "lbj",
+      "label": "Lyndon B. Johnson",
+      "statement": "Lyndon Johnson, the 36th president, died at his Texas ranch on January 22, 1973.",
+      "associations": ["Lyndon Johnson", "36th president", "1973", "Texas ranch"],
+      "clue_ids": ["50d017b273"]
+    }
+  ],
+  "clue_ids": [
+    "5e7cfe6384", "2a5182d3da", "2deb034f8a", "15e3023ddd", "65eb7e1dc1",
+    "9582b3321a", "cf98a51b8f", "aebe2077a7", "5b227081aa", "44539145f0",
+    "0e70f355f2", "50d017b273"
+  ],
+  "related": ["mexico", "california", "alaska"]
+}

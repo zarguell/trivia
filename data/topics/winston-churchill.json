@@ -1,0 +1,64 @@
+{
+  "id": "winston-churchill",
+  "name": "Winston Churchill",
+  "deck": "history",
+  "aliases": [],
+  "hook": "Britain's wartime prime minister: blood, toil, tears and sweat, an Iron Curtain, and a cigar forever.",
+  "facts": [
+    {
+      "id": "blood-toil",
+      "label": "blood, toil, tears and sweat",
+      "statement": "In his first statement as prime minister in 1940, Churchill said he had \"nothing to offer but blood, toil, tears and sweat.\"",
+      "associations": ["blood, toil, tears and sweat", "1940", "prime minister", "first speech"],
+      "clue_ids": ["f73c8d2511", "f31f7bddf9"]
+    },
+    {
+      "id": "iron-curtain",
+      "label": "the Iron Curtain",
+      "statement": "On March 5, 1946, Churchill said an Iron Curtain had \"descended across the continent,\" dividing Eastern Europe from the West.",
+      "associations": ["Iron Curtain", "March 5, 1946", "Eastern Europe", "Fulton speech"],
+      "clue_ids": ["56f93a8913", "8b40a6d4b7"]
+    },
+    {
+      "id": "boer-war",
+      "label": "the Boer War",
+      "statement": "In 1899, in his mid-20s, Churchill was captured and imprisoned during the Boer War, then escaped.",
+      "associations": ["Boer War", "1899", "captured", "escaped"],
+      "clue_ids": ["bd633f836f", "8feb3fa4df"]
+    },
+    {
+      "id": "attlee",
+      "label": "Clement Attlee",
+      "statement": "Clement Attlee led Britain's Labour Party and replaced Churchill as prime minister after the July 1945 election.",
+      "associations": ["Clement Attlee", "Labour Party", "1945 election", "successor"],
+      "clue_ids": ["d700fa27e2", "f8ec35c743"]
+    },
+    {
+      "id": "blenheim",
+      "label": "Blenheim Palace",
+      "statement": "Churchill was born at Blenheim Palace in Oxfordshire, built for John Churchill, the 1st Duke of Marlborough.",
+      "associations": ["Blenheim Palace", "Oxfordshire", "Duke of Marlborough", "birthplace"],
+      "clue_ids": ["2f488745f8", "47ddf7962f"]
+    },
+    {
+      "id": "harrow",
+      "label": "Harrow",
+      "statement": "Churchill attended Harrow, whose alumni also include Lord Byron and Sir Robert Peel, then trained at Sandhurst.",
+      "associations": ["Harrow", "Sandhurst", "Lord Byron", "military academy"],
+      "clue_ids": ["0ce2237739", "422f31b89a", "14a0bf3e8f"]
+    },
+    {
+      "id": "funeral-1965",
+      "label": "his 1965 funeral",
+      "statement": "Churchill died in 1965; Elizabeth II attended his funeral, the first reigning British monarch to attend a commoner's.",
+      "associations": ["1965", "funeral", "Elizabeth II", "commoner"],
+      "clue_ids": ["26852445b6"]
+    }
+  ],
+  "clue_ids": [
+    "f73c8d2511", "f31f7bddf9", "56f93a8913", "8b40a6d4b7", "bd633f836f",
+    "8feb3fa4df", "d700fa27e2", "f8ec35c743", "2f488745f8", "47ddf7962f",
+    "0ce2237739", "422f31b89a", "14a0bf3e8f", "26852445b6"
+  ],
+  "related": ["world-war-ii", "london", "france"]
+}

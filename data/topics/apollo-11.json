@@ -1,0 +1,64 @@
+{
+  "id": "apollo-11",
+  "name": "Apollo 11",
+  "deck": "history",
+  "aliases": ["Apollo"],
+  "hook": "July 1969: the Eagle lands, Armstrong steps out, and Jeopardy asks about it ever after.",
+  "facts": [
+    {
+      "id": "moon-landing",
+      "label": "July 20, 1969",
+      "statement": "Apollo 11 landed on the Moon on July 20, 1969; Neil Armstrong and Buzz Aldrin walked on its surface while the command module stayed in orbit.",
+      "associations": ["July 20, 1969", "Apollo 11", "Moon landing"],
+      "clue_ids": ["294edcbb63"]
+    },
+    {
+      "id": "the-eagle",
+      "label": "the Eagle",
+      "statement": "The Eagle was Apollo 11's lunar module; it landed in the Sea of Tranquility, and Armstrong flew it manually past a rocky crater.",
+      "associations": ["Eagle", "Sea of Tranquility", "lunar module"],
+      "clue_ids": ["58f8ea378e", "d1aa7907a6"]
+    },
+    {
+      "id": "neil-armstrong",
+      "label": "Neil Armstrong",
+      "statement": "Neil Armstrong was the first man on the Moon; a museum in his hometown of Wapakoneta, Ohio, honors him, and Gemini 8 nearly killed him in 1966.",
+      "associations": ["Neil Armstrong", "first man", "Wapakoneta", "Gemini 8"],
+      "clue_ids": ["bdfeb0c007", "9f95977bc4"]
+    },
+    {
+      "id": "buzz-aldrin",
+      "label": "Buzz Aldrin",
+      "statement": "Buzz Aldrin was the second man to walk on the Moon, landing with Apollo 11 in July 1969.",
+      "associations": ["Buzz Aldrin", "second man", "Apollo 11"],
+      "clue_ids": ["311c661662"]
+    },
+    {
+      "id": "apollo-13",
+      "label": "Apollo 13",
+      "statement": "Apollo 13 suffered an oxygen tank rupture and had to swing around the Moon without landing; Jack Swigert was the last-minute replacement.",
+      "associations": ["Apollo 13", "oxygen tank", "Jack Swigert"],
+      "clue_ids": ["9e93fd365d", "13bd8f68a6", "38fd61d696"]
+    },
+    {
+      "id": "apollo-soyuz",
+      "label": "Apollo-Soyuz",
+      "statement": "In 1975 an Apollo spacecraft docked with a Soviet Soyuz in the first joint U.S.-Soviet space mission, the last flight of the Apollo program.",
+      "associations": ["Apollo-Soyuz", "Soyuz", "1975", "docking"],
+      "clue_ids": ["cb74eada0f", "5b359e5d59"]
+    },
+    {
+      "id": "gemini",
+      "label": "Gemini",
+      "statement": "Apollo was preceded by Mercury and Gemini; a stuck thruster sent Armstrong's Gemini 8 spinning in 1966.",
+      "associations": ["Gemini", "Mercury", "1966"],
+      "clue_ids": ["ad983d1495"]
+    }
+  ],
+  "clue_ids": [
+    "294edcbb63", "58f8ea378e", "d1aa7907a6", "bdfeb0c007", "9f95977bc4",
+    "311c661662", "9e93fd365d", "13bd8f68a6", "38fd61d696", "cb74eada0f",
+    "5b359e5d59", "ad983d1495"
+  ],
+  "related": ["moon", "cold-war"]
+}

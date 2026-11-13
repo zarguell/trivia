@@ -1,0 +1,64 @@
+{
+  "id": "venice",
+  "name": "Venice",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "Marco Polo, the Doge, the Grand Canal and Shakespeare: six things cover almost every Venice clue.",
+  "facts": [
+    {
+      "id": "marco-polo",
+      "label": "Marco Polo",
+      "statement": "Marco Polo was born in Venice in 1254; Kublai Khan used the Venetian as an envoy, and a biography is subtitled \"From Venice to Xanadu.\"",
+      "associations": ["Marco Polo", "1254", "Kublai Khan", "Xanadu"],
+      "clue_ids": ["9e712f7db5", "fc8c531d8c"]
+    },
+    {
+      "id": "doge",
+      "label": "the Doge",
+      "statement": "The doge ruled Venice for 1,100 years, from Paolo Lucio Anafesto in 697 to Ludovico Manin, who abdicated in 1797.",
+      "associations": ["doge", "697", "1797", "Ludovico Manin"],
+      "clue_ids": ["fab076efc5", "ac0b0a5440"]
+    },
+    {
+      "id": "grand-canal",
+      "label": "the Grand Canal",
+      "statement": "The Grand Canal runs about two miles in an S shape, with the Rialto Bridge over it and one end at St. Mark's Basilica.",
+      "associations": ["Grand Canal", "Rialto Bridge", "St. Mark's"],
+      "clue_ids": ["a812b901d0", "f52eb31726"]
+    },
+    {
+      "id": "bridge-of-sighs",
+      "label": "the Bridge of Sighs",
+      "statement": "The Bridge of Sighs inspired Byron's line about \"a palace and a prison on each hand,\" and Cambridge, England named a bridge after it.",
+      "associations": ["Bridge of Sighs", "Byron", "palace and prison"],
+      "clue_ids": ["1b744c9547", "6127b0cfc9"]
+    },
+    {
+      "id": "merchant-of-venice",
+      "label": "The Merchant of Venice",
+      "statement": "In The Merchant of Venice, Portia speaks \"The quality of mercy is not strained\" and Shylock warns, \"Since I am a dog beware my fangs.\"",
+      "associations": ["Portia", "Shylock", "quality of mercy"],
+      "clue_ids": ["cbb72a83db", "a96f7e9bdf", "2857e620da"]
+    },
+    {
+      "id": "thomas-mann",
+      "label": "Thomas Mann",
+      "statement": "Thomas Mann wrote Death in Venice — \"half fairy-tale, half snare\" — and died in Switzerland in 1955.",
+      "associations": ["Thomas Mann", "Death in Venice", "1955"],
+      "clue_ids": ["56915a524a", "c28c2f76a5"]
+    },
+    {
+      "id": "othello",
+      "label": "Othello",
+      "statement": "Othello opens in Venice, where the Duke summons Othello over a Turkish threat, then moves to Cyprus.",
+      "associations": ["Othello", "Duke of Venice", "Cyprus"],
+      "clue_ids": ["f9f80f3f91", "dca3cd6b29"]
+    }
+  ],
+  "clue_ids": [
+    "9e712f7db5", "fc8c531d8c", "fab076efc5", "ac0b0a5440", "a812b901d0",
+    "f52eb31726", "1b744c9547", "6127b0cfc9", "cbb72a83db", "a96f7e9bdf",
+    "2857e620da", "56915a524a", "c28c2f76a5", "f9f80f3f91", "dca3cd6b29"
+  ],
+  "related": ["italy", "rome", "istanbul"]
+}

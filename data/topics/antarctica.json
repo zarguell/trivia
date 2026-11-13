@@ -1,0 +1,64 @@
+{
+  "id": "antarctica",
+  "name": "Antarctica",
+  "deck": "geography",
+  "aliases": ["Antarctic"],
+  "hook": "Penguins, Shackleton, the ozone hole and the South Pole: the Antarctic facts Jeopardy actually asks.",
+  "facts": [
+    {
+      "id": "name",
+      "label": "the name Antarctica",
+      "statement": "Antarctica's name comes from Greek for \"opposite the bear,\" referring to the Great Bear constellation in the north.",
+      "associations": ["opposite the bear", "Great Bear", "Greek"],
+      "clue_ids": ["eb379ff6b8"]
+    },
+    {
+      "id": "penguins",
+      "label": "penguins",
+      "statement": "Penguins live in and around Antarctica; the Adelie was named for Jules Dumont d'Urville's wife, and the British Antarctic Territory flies a penguin flag.",
+      "associations": ["penguins", "Adelie", "British Antarctic Territory"],
+      "clue_ids": ["1958019999", "79c28b5d91", "730b303c50"]
+    },
+    {
+      "id": "byrd",
+      "label": "Richard Byrd",
+      "statement": "Richard Byrd's first Antarctic base was Little America on the Bay of Whales; in 1930 he asked, \"Is it a continent?\" and Congress struck medals for his expedition.",
+      "associations": ["Richard Byrd", "Little America", "Bay of Whales"],
+      "clue_ids": ["78e1ffb189", "36c45796c7"]
+    },
+    {
+      "id": "shackleton",
+      "label": "Ernest Shackleton",
+      "statement": "Ernest Shackleton's Endurance sank in the Weddell Sea in 1915 and was found in 2022; he died on South Georgia in 1922 and is buried there.",
+      "associations": ["Ernest Shackleton", "Endurance", "Weddell Sea", "South Georgia"],
+      "clue_ids": ["9f3087f2ba", "2aa74715cd"]
+    },
+    {
+      "id": "ozone",
+      "label": "the ozone hole",
+      "statement": "The ozone hole forms over Antarctica each spring; in September 1992 it measured 8.9 million square miles.",
+      "associations": ["ozone hole", "8.9 million square miles", "1992"],
+      "clue_ids": ["de0269aaa9", "1f54fb933d"]
+    },
+    {
+      "id": "vinson",
+      "label": "Vinson Massif",
+      "statement": "Vinson Massif is Antarctica's highest peak and the continent's Seven Summits entry; it is named for Congressman Carl Vinson.",
+      "associations": ["Vinson Massif", "Seven Summits", "Carl Vinson"],
+      "clue_ids": ["1e14e696b7", "94544b817b"]
+    },
+    {
+      "id": "drake",
+      "label": "the Drake Passage",
+      "statement": "South America is Antarctica's nearest continent, about 600 miles across the Drake Passage.",
+      "associations": ["Drake Passage", "South America", "600 miles"],
+      "clue_ids": ["7260303a14"]
+    }
+  ],
+  "clue_ids": [
+    "eb379ff6b8", "1958019999", "79c28b5d91", "730b303c50", "78e1ffb189",
+    "36c45796c7", "9f3087f2ba", "2aa74715cd", "de0269aaa9", "1f54fb933d",
+    "1e14e696b7", "94544b817b", "7260303a14"
+  ],
+  "related": ["greenland", "alaska", "iceland"]
+}

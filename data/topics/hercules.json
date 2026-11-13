@@ -1,0 +1,65 @@
+{
+  "id": "hercules",
+  "name": "Hercules",
+  "deck": "myth-religion",
+  "aliases": ["Heracles"],
+  "hook": "Twelve labors, a three-headed dog and the Strait of Gibraltar: the Hercules clues.",
+  "facts": [
+    {
+      "id": "hera",
+      "label": "Hera",
+      "statement": "Hercules' name means \"the glory of Hera,\" the goddess who persecuted him and helped devise his twelve labors.",
+      "associations": ["Hera", "glory of Hera", "twelve labors", "persecution"],
+      "clue_ids": ["66da5f6c4a", "67a4892512"]
+    },
+    {
+      "id": "labors",
+      "label": "the Twelve Labors",
+      "statement": "Hercules performed twelve labors to atone for killing his family, beginning with the Nemean lion and the Hydra.",
+      "associations": ["Twelve Labors", "atonement", "Nemean lion", "Hydra"],
+      "clue_ids": ["68599570df"]
+    },
+    {
+      "id": "nemean-hydra",
+      "label": "the Nemean lion and Hydra",
+      "statement": "His first labors were slaying the Nemean lion and the many-headed Hydra of Lerna.",
+      "associations": ["Nemean lion", "Hydra", "Lerna", "many-headed"],
+      "clue_ids": ["7c686d59bd", "c89b26a997"]
+    },
+    {
+      "id": "cerberus",
+      "label": "Cerberus",
+      "statement": "His 12th and most dangerous labor was dragging Cerberus, the three-headed dog, up from Hades.",
+      "associations": ["Cerberus", "three-headed dog", "Hades", "12th labor"],
+      "clue_ids": ["187f58d2ce", "f2628372cc"]
+    },
+    {
+      "id": "augean-stables",
+      "label": "the Augean stables",
+      "statement": "Hercules cleaned King Augeas' vast, filthy stables as one of his labors.",
+      "associations": ["Augean stables", "King Augeas", "cleaning"],
+      "clue_ids": ["e811e548bc"]
+    },
+    {
+      "id": "hippolyta-apples",
+      "label": "Hippolyta's girdle and the golden apples",
+      "statement": "The two labors that did not involve animals were taking Queen Hippolyta's girdle and fetching the golden apples of the Hesperides.",
+      "associations": ["Hippolyta", "girdle", "golden apples", "Hesperides"],
+      "clue_ids": ["23cd3d9b7f", "7318491229", "5f4364dfa6"]
+    },
+    {
+      "id": "pillars",
+      "label": "the Pillars of Hercules",
+      "statement": "The Pillars of Hercules are the two promontories flanking the Strait of Gibraltar, the gateway between the Mediterranean and Atlantic.",
+      "associations": ["Pillars of Hercules", "Strait of Gibraltar", "promontories"],
+      "clue_ids": ["d7ae8cf584", "7b28a0b050", "d8746f6d8e"]
+    }
+  ],
+  "clue_ids": [
+    "66da5f6c4a", "67a4892512", "68599570df", "7c686d59bd", "c89b26a997",
+    "187f58d2ce", "f2628372cc", "e811e548bc", "23cd3d9b7f", "7318491229",
+    "5f4364dfa6", "d7ae8cf584", "7b28a0b050", "d8746f6d8e", "287bdfe455",
+    "fbde4bf9c0", "7edaabd127"
+  ],
+  "related": ["zeus", "achilles", "trojan-war"]
+}

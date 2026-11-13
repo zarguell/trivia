@@ -1,0 +1,64 @@
+{
+  "id": "american-revolution",
+  "name": "American Revolution",
+  "deck": "history",
+  "aliases": ["Revolutionary War"],
+  "hook": "Lexington, Yorktown, Lafayette and the times that try men's souls: the war in six facts.",
+  "facts": [
+    {
+      "id": "lexington-concord",
+      "label": "Lexington and Concord",
+      "statement": "The Revolutionary War began at Lexington and Concord in April 1775; John Nixon commanded minutemen at that first battle.",
+      "associations": ["Lexington and Concord", "April 1775", "John Nixon"],
+      "clue_ids": ["0ad3654cee", "c32e9fa1a4"]
+    },
+    {
+      "id": "yorktown",
+      "label": "Yorktown",
+      "statement": "The 1781 siege of Yorktown ended the war; Alexander Hamilton led an attack there, and the same Virginia port fell again in 1862.",
+      "associations": ["Yorktown", "1781", "Alexander Hamilton"],
+      "clue_ids": ["447f542e0f", "72b845bf3f"]
+    },
+    {
+      "id": "lafayette",
+      "label": "the Marquis de Lafayette",
+      "statement": "The Marquis de Lafayette was a teenage French aristocrat who became a Continental Army major general; at 72 he helped lead France's 1830 July Revolution.",
+      "associations": ["Lafayette", "Continental Army", "1830"],
+      "clue_ids": ["52f22ce5c2", "e16d7bb2a2", "24a3004db8"]
+    },
+    {
+      "id": "thomas-paine",
+      "label": "Thomas Paine",
+      "statement": "Thomas Paine wrote \"These are the times that try men's souls\" and edited Pennsylvania Magazine, which helped bring on the war.",
+      "associations": ["Thomas Paine", "times that try men's souls", "Pennsylvania Magazine"],
+      "clue_ids": ["f6bac64b41", "09a7f52be1"]
+    },
+    {
+      "id": "john-paul-jones",
+      "label": "John Paul Jones",
+      "statement": "Congress gave John Paul Jones a gold medal in 1787 for his naval leadership, and in 1788 he accepted a rear admiral's post in the Russian navy.",
+      "associations": ["John Paul Jones", "naval hero", "Russian navy"],
+      "clue_ids": ["eb47b2c00a", "932836afd3"]
+    },
+    {
+      "id": "paul-revere",
+      "label": "Paul Revere",
+      "statement": "Paul Revere was a silversmith who made copper fittings for Old Ironsides and was court-martialed as a lieutenant colonel long after his famous ride.",
+      "associations": ["Paul Revere", "silversmith", "Old Ironsides"],
+      "clue_ids": ["bce059c0e6", "2d070b22c0"]
+    },
+    {
+      "id": "mad-anthony-wayne",
+      "label": "\"Mad Anthony\" Wayne",
+      "statement": "Boldness in battle earned General Anthony Wayne the nickname \"Mad Anthony\"; after the war he served a year in Congress.",
+      "associations": ["Mad Anthony Wayne", "general", "Congress"],
+      "clue_ids": ["30eedb45c7", "29dd9c9761"]
+    }
+  ],
+  "clue_ids": [
+    "0ad3654cee", "c32e9fa1a4", "447f542e0f", "72b845bf3f", "52f22ce5c2",
+    "e16d7bb2a2", "24a3004db8", "f6bac64b41", "09a7f52be1", "eb47b2c00a",
+    "932836afd3", "bce059c0e6", "2d070b22c0", "30eedb45c7", "29dd9c9761"
+  ],
+  "related": ["george-washington", "thomas-jefferson", "napoleon"]
+}

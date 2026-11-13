@@ -1,0 +1,57 @@
+{
+  "id": "silicon-valley",
+  "name": "Silicon Valley",
+  "deck": "business",
+  "aliases": [],
+  "hook": "A reporter's nickname, a garage birthplace and the tech capital Jeopardy keeps circling.",
+  "facts": [
+    {
+      "id": "name",
+      "label": "Don Hoefler",
+      "statement": "Don Hoefler, a reporter for Electronic News, is credited with coining \"Silicon Valley\" for the area south of San Francisco.",
+      "associations": ["Don Hoefler", "Electronic News", "south of San Francisco"],
+      "clue_ids": ["50da6adc1b"]
+    },
+    {
+      "id": "san-jose",
+      "label": "San Jose",
+      "statement": "San Jose is the valley's biggest city and California's first state capital; Ron Gonzales was its first Latino mayor.",
+      "associations": ["San Jose", "first state capital", "Ron Gonzales"],
+      "clue_ids": ["4567104ce4", "6facf65238"]
+    },
+    {
+      "id": "hp-garage",
+      "label": "Hewlett-Packard",
+      "statement": "Hewlett-Packard started in a Palo Alto garage in 1939; an audio oscillator was its first product, and the site is called the birthplace of Silicon Valley.",
+      "associations": ["Hewlett-Packard", "1939 garage", "audio oscillator"],
+      "clue_ids": ["16edc322cc", "751cae63d4"]
+    },
+    {
+      "id": "intel",
+      "label": "Intel",
+      "statement": "Intel, based in the valley, pioneered microprocessors such as the Pentium.",
+      "associations": ["Intel", "microprocessors", "Pentium"],
+      "clue_ids": ["a5ed165d0f"]
+    },
+    {
+      "id": "housing-cost",
+      "label": "the affordability crisis",
+      "statement": "In 2016 a Labor Department official met a tech-firm janitor who worked in the valley but could not afford to live there.",
+      "associations": ["affordability", "janitor", "2016"],
+      "clue_ids": ["7eb0efbabe"]
+    },
+    {
+      "id": "thiel",
+      "label": "Peter Thiel",
+      "statement": "In 2016 Peter Thiel revealed he had bankrolled the lawsuit that took down Gawker.",
+      "associations": ["Peter Thiel", "Gawker lawsuit", "2016"],
+      "clue_ids": ["e840028036"]
+    }
+  ],
+  "clue_ids": [
+    "50da6adc1b", "4567104ce4", "6facf65238", "16edc322cc", "751cae63d4",
+    "a5ed165d0f", "1e75919574", "7eb0efbabe", "e840028036", "2b92099098",
+    "300d818c42", "59d2b0409b", "5258c56813"
+  ],
+  "related": ["apple-inc", "google", "world-wide-web"]
+}

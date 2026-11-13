@@ -1,0 +1,65 @@
+{
+  "id": "charlemagne",
+  "name": "Charlemagne",
+  "deck": "history",
+  "aliases": [],
+  "hook": "The Frankish king crowned emperor on Christmas Day 800, with a paladin epic and a cheese named in his honor.",
+  "facts": [
+    {
+      "id": "holy-roman-emperor",
+      "label": "Holy Roman Emperor",
+      "statement": "Charlemagne was king of the Franks; on Christmas Day in 800, in Rome, Pope Leo III crowned him Holy Roman Emperor.",
+      "associations": ["Holy Roman Emperor", "Christmas Day 800", "Rome", "Pope Leo III"],
+      "clue_ids": ["d6a2245fbf", "384b3bafac"]
+    },
+    {
+      "id": "charles-martel",
+      "label": "Charles Martel",
+      "statement": "Charles Martel, nicknamed \"the Hammer,\" was Charlemagne's grandfather; he stopped the Moors at the Battle of Tours in 732.",
+      "associations": ["Charles Martel", "the Hammer", "Battle of Tours", "732"],
+      "clue_ids": ["6385be7f14", "13967cb531"]
+    },
+    {
+      "id": "pepin-the-short",
+      "label": "Pepin the Short",
+      "statement": "Pepin the Short, or Pepin III, was Charlemagne's father; Charlemagne's brother Carloman inherited titles alongside him.",
+      "associations": ["Pepin the Short", "Pepin III", "Carloman", "father"],
+      "clue_ids": ["5d1a4cda1a", "00304eb7fb", "8e667ce065"]
+    },
+    {
+      "id": "carolingian",
+      "label": "the Carolingian dynasty",
+      "statement": "The Carolingian dynasty is named for Charlemagne; in France it ended in 987 with the death of Louis V, his descendant.",
+      "associations": ["Carolingian", "dynasty", "Louis V", "987"],
+      "clue_ids": ["513b76a06f", "235b9dcfff"]
+    },
+    {
+      "id": "roland",
+      "label": "Roland",
+      "statement": "Roland, Charlemagne's vassal, dies in a Saracen ambush in the 12th-century Song of Roland after refusing to blow his olifant for help.",
+      "associations": ["Roland", "Song of Roland", "olifant", "Saracen ambush"],
+      "clue_ids": ["f05753d0be", "1d3c6619c2"]
+    },
+    {
+      "id": "roquefort",
+      "label": "Roquefort",
+      "statement": "Roquefort, the blue cheese made from French ewes' milk, was supposedly a favorite of Charlemagne.",
+      "associations": ["Roquefort", "blue cheese", "ewes' milk", "favorite"],
+      "clue_ids": ["2b1514606c", "14457eba23"]
+    },
+    {
+      "id": "pippin",
+      "label": "Pippin",
+      "statement": "Pippin, a 1972 musical about Charlemagne's son, won Ben Vereen a Tony; the character finds he has \"Magic to Do\" in Italy.",
+      "associations": ["Pippin", "1972 musical", "Ben Vereen", "Charlemagne's son"],
+      "clue_ids": ["9d43c2b66d", "b1964356d6", "7625e1bf8e"]
+    }
+  ],
+  "clue_ids": [
+    "d6a2245fbf", "384b3bafac", "6385be7f14", "13967cb531", "5d1a4cda1a",
+    "00304eb7fb", "8e667ce065", "513b76a06f", "235b9dcfff", "f05753d0be",
+    "1d3c6619c2", "2b1514606c", "14457eba23", "9d43c2b66d", "b1964356d6",
+    "7625e1bf8e"
+  ],
+  "related": ["france", "rome", "italy"]
+}

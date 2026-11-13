@@ -1,0 +1,65 @@
+{
+  "id": "batman",
+  "name": "Batman",
+  "deck": "pop-culture",
+  "aliases": [],
+  "hook": "Gotham's caped crusader, from the Batusi to the Dark Knight Returns.",
+  "facts": [
+    {
+      "id": "gotham",
+      "label": "Gotham City",
+      "statement": "Gotham City is Batman's home, just as Metropolis is Superman's.",
+      "associations": ["Gotham City", "Metropolis", "home city"],
+      "clue_ids": ["f25ac563c6", "deea4d6618"]
+    },
+    {
+      "id": "adam-west",
+      "label": "Adam West",
+      "statement": "Adam West played Batman on the 1960s TV series and popularized the Batusi dance.",
+      "associations": ["Adam West", "1960s TV series", "Batusi"],
+      "clue_ids": ["5ea5040722", "3a8578fd57"]
+    },
+    {
+      "id": "michael-keaton",
+      "label": "Michael Keaton",
+      "statement": "Michael Keaton played Batman in Tim Burton's 1989 film; his birth name was Michael Douglas.",
+      "associations": ["Michael Keaton", "1989 film", "Michael Douglas"],
+      "clue_ids": ["c81a0e423e", "ef83b601b6"]
+    },
+    {
+      "id": "christian-bale",
+      "label": "Christian Bale",
+      "statement": "Welsh-born Christian Bale played Batman in Batman Begins after dropping 63 pounds for The Machinist.",
+      "associations": ["Christian Bale", "Batman Begins", "The Machinist"],
+      "clue_ids": ["ab30c6d455", "e67586d75c"]
+    },
+    {
+      "id": "catwoman",
+      "label": "Catwoman",
+      "statement": "Julie Newmar played Catwoman on the 1960s TV series, and Lesley Gore's Pussycat was her sidekick in two 1967 episodes.",
+      "associations": ["Catwoman", "Julie Newmar", "Pussycat"],
+      "clue_ids": ["97e3998c92", "17334457a1"]
+    },
+    {
+      "id": "alfred",
+      "label": "Alfred",
+      "statement": "Alfred is the Wayne family butler, played on film by Michael Caine, Jeremy Irons and Andy Serkis.",
+      "associations": ["Alfred", "butler", "Michael Caine"],
+      "clue_ids": ["3d6e34ce6f", "87cc72ac72"]
+    },
+    {
+      "id": "frank-miller",
+      "label": "Frank Miller",
+      "statement": "Frank Miller wrote Batman: The Dark Knight Returns, the miniseries that remade Batman as a grim vigilante.",
+      "associations": ["Frank Miller", "The Dark Knight Returns", "grim vigilante"],
+      "clue_ids": ["f9fb4b1ee2", "69674a4958"]
+    }
+  ],
+  "clue_ids": [
+    "f25ac563c6", "deea4d6618", "5ea5040722", "3a8578fd57", "c81a0e423e",
+    "ef83b601b6", "ab30c6d455", "e67586d75c", "97e3998c92", "17334457a1",
+    "3d6e34ce6f", "87cc72ac72", "f9fb4b1ee2", "69674a4958", "816321d578",
+    "8e1011908f", "0c23eb1b1a", "e0868b734c"
+  ],
+  "related": ["superman", "marvel"]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "serena-williams",
+  "name": "Serena Williams",
+  "deck": "sports",
+  "aliases": ["Serena"],
+  "hook": "Twenty-three Grand Slam singles titles, a Wimbledon record, and the rivalries that defined an era.",
+  "facts": [
+    {
+      "id": "slam-titles",
+      "label": "23 Grand Slam singles titles",
+      "statement": "She won 23 Grand Slam singles titles, the most in the Open era, including six at Wimbledon and the 2016 title over Angelique Kerber.",
+      "associations": ["23 Grand Slam titles", "Wimbledon", "six titles", "Angelique Kerber"],
+      "clue_ids": ["c6d55af565", "442a471d61", "10651f985b"]
+    },
+    {
+      "id": "french-open",
+      "label": "the French Open",
+      "statement": "She is a three-time French Open champion, taking the Coupe Suzanne-Lenglen as women's singles winner.",
+      "associations": ["French Open", "three titles", "Coupe Suzanne-Lenglen"],
+      "clue_ids": ["2fc3e63410"]
+    },
+    {
+      "id": "osaka",
+      "label": "Naomi Osaka",
+      "statement": "Naomi Osaka beat her in the 2018 U.S. Open final for the women's title.",
+      "associations": ["Naomi Osaka", "2018 U.S. Open", "final"],
+      "clue_ids": ["33920298ae"]
+    },
+    {
+      "id": "sharapova",
+      "label": "Maria Sharapova",
+      "statement": "Maria Sharapova, then a 17-year-old Siberian-born player, beat her in the 2004 Wimbledon final.",
+      "associations": ["Maria Sharapova", "2004 Wimbledon", "17 years old"],
+      "clue_ids": ["7ab7ed6c2f"]
+    },
+    {
+      "id": "vanity-fair",
+      "label": "the Vanity Fair cover",
+      "statement": "She appeared nude and pregnant on Vanity Fair's August 2017 cover.",
+      "associations": ["Vanity Fair", "August 2017", "pregnant cover"],
+      "clue_ids": ["91c82b1670"]
+    },
+    {
+      "id": "masterclass",
+      "label": "MasterClass",
+      "statement": "She was one of MasterClass's first instructors in 2015, teaching ground strokes, forehands and backhands from the baseline.",
+      "associations": ["MasterClass", "2015", "ground strokes", "baseline"],
+      "clue_ids": ["6107c91d54", "0c5df561e4"]
+    },
+    {
+      "id": "richard-williams",
+      "label": "Richard Williams",
+      "statement": "Her father Richard Williams coached her and Venus from childhood; Will Smith played him in the film King Richard.",
+      "associations": ["Richard Williams", "Venus Williams", "King Richard", "Will Smith"],
+      "clue_ids": ["604befcd29"]
+    }
+  ],
+  "clue_ids": [
+    "442a471d61", "c6d55af565", "10651f985b", "2fc3e63410", "33920298ae",
+    "7ab7ed6c2f", "91c82b1670", "6107c91d54", "0c5df561e4", "604befcd29",
+    "b1d2478121", "afd4d19db8"
+  ],
+  "related": ["wimbledon", "tiger-woods", "michael-jordan"]
+}

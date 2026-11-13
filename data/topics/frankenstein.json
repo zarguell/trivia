@@ -1,0 +1,138 @@
+{
+  "id": "frankenstein",
+  "name": "Frankenstein",
+  "deck": "literature",
+  "aliases": [
+    "Mary Shelley"
+  ],
+  "hook": "A teenage ghost story that became the monster Jeopardy asks about most.",
+  "facts": [
+    {
+      "id": "shelley",
+      "label": "Mary Shelley",
+      "statement": "Mary Shelley wrote Frankenstein at 18, inspired by Galvani's electrical experiments, and published it anonymously in 1818; she dedicated it to her father, William Godwin.",
+      "associations": [
+        "Mary Shelley",
+        "1818",
+        "Luigi Galvani",
+        "William Godwin"
+      ],
+      "clue_ids": [
+        "9fc7e44dd0",
+        "a9a5b29dc3",
+        "ce7210dc61"
+      ]
+    },
+    {
+      "id": "wollstonecraft",
+      "label": "Mary Wollstonecraft",
+      "statement": "Mary Wollstonecraft wrote A Vindication of the Rights of Woman in 1792 and died after giving birth to Mary Shelley.",
+      "associations": [
+        "Mary Wollstonecraft",
+        "1792",
+        "A Vindication of the Rights of Woman"
+      ],
+      "clue_ids": [
+        "8b5444c895",
+        "ce7210dc61"
+      ]
+    },
+    {
+      "id": "prometheus",
+      "label": "The Modern Prometheus",
+      "statement": "Its subtitle is 'The Modern Prometheus'; Percy Shelley, author of Prometheus Unbound, urged Mary to write it and supplied the preface.",
+      "associations": [
+        "The Modern Prometheus",
+        "Percy Shelley",
+        "Prometheus Unbound"
+      ],
+      "clue_ids": [
+        "2fc0c5b306",
+        "d18bafc9b8",
+        "f8911ccd36"
+      ]
+    },
+    {
+      "id": "victor",
+      "label": "Victor Frankenstein",
+      "statement": "Victor Frankenstein is the scientist who creates the creature; his name is routinely confused with the monster's.",
+      "associations": [
+        "Victor Frankenstein",
+        "scientist",
+        "creature"
+      ],
+      "clue_ids": [
+        "183f45d619",
+        "565a4e5048"
+      ]
+    },
+    {
+      "id": "karloff",
+      "label": "Boris Karloff",
+      "statement": "Boris Karloff played the creature in the 1931 film, with Colin Clive as Dr. Frankenstein.",
+      "associations": [
+        "Boris Karloff",
+        "1931",
+        "Colin Clive"
+      ],
+      "clue_ids": [
+        "3133032d14",
+        "e3b78b015b"
+      ]
+    },
+    {
+      "id": "bride",
+      "label": "Bride of Frankenstein",
+      "statement": "The 1935 sequel starred Elsa Lanchester, who was married to Charles Laughton.",
+      "associations": [
+        "Bride of Frankenstein",
+        "Elsa Lanchester",
+        "Charles Laughton"
+      ],
+      "clue_ids": [
+        "434159fac3",
+        "e7c788b55d"
+      ]
+    },
+    {
+      "id": "young-frankenstein",
+      "label": "Young Frankenstein",
+      "statement": "Mel Brooks's 1974 comedy starred Gene Wilder as Dr. Frankenstein and Marty Feldman as the hunchback assistant Igor.",
+      "associations": [
+        "Young Frankenstein",
+        "Gene Wilder",
+        "Marty Feldman",
+        "Igor"
+      ],
+      "clue_ids": [
+        "fd12bc0037",
+        "43312ce9a5",
+        "ad384adcb4"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "9fc7e44dd0",
+    "a9a5b29dc3",
+    "ce7210dc61",
+    "8b5444c895",
+    "2fc0c5b306",
+    "d18bafc9b8",
+    "f8911ccd36",
+    "183f45d619",
+    "565a4e5048",
+    "3133032d14",
+    "e3b78b015b",
+    "434159fac3",
+    "e7c788b55d",
+    "fd12bc0037",
+    "43312ce9a5",
+    "ad384adcb4",
+    "a41d83e391"
+  ],
+  "related": [
+    "dracula",
+    "edgar-allan-poe",
+    "william-shakespeare"
+  ]
+}

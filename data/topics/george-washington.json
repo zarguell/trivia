@@ -1,0 +1,65 @@
+{
+  "id": "george-washington",
+  "name": "George Washington",
+  "deck": "history",
+  "aliases": [],
+  "hook": "Father of his Country: the cherry tree, Valley Forge and the first presidency in seven facts.",
+  "facts": [
+    {
+      "id": "first-president",
+      "label": "the first president",
+      "statement": "He was sworn in on April 30, 1789 at Federal Hall in New York City and is the only president who never lived in Washington, D.C.",
+      "associations": ["first president", "April 30, 1789", "New York City", "never lived in D.C."],
+      "clue_ids": ["1c71fa1d1f", "c58ace0dff"]
+    },
+    {
+      "id": "mount-vernon",
+      "label": "Mount Vernon",
+      "statement": "Mount Vernon was his Virginia estate on the Potomac; he retired there in 1797 and died two years later.",
+      "associations": ["Mount Vernon", "Potomac", "1799"],
+      "clue_ids": ["885e0ef8a9", "c8d2bceb5a", "dd2f5926f4"]
+    },
+    {
+      "id": "surveyor",
+      "label": "surveyor",
+      "statement": "He got his surveyor's license from the College of William & Mary in 1749.",
+      "associations": ["surveyor", "William & Mary", "1749"],
+      "clue_ids": ["96c60ac299", "b7160fca3f"]
+    },
+    {
+      "id": "fort-necessity",
+      "label": "Fort Necessity",
+      "statement": "He led the building of Fort Necessity in 1754 and surrendered there during the French and Indian War.",
+      "associations": ["Fort Necessity", "1754", "French and Indian War"],
+      "clue_ids": ["06a9e8fb98", "81d04cdac1"]
+    },
+    {
+      "id": "valley-forge",
+      "label": "Valley Forge",
+      "statement": "His army wintered at Valley Forge in 1777-78, and the Marquis de Lafayette was with him there.",
+      "associations": ["Valley Forge", "1777-78", "Lafayette"],
+      "clue_ids": ["4e93a839e5", "40b4841ffd"]
+    },
+    {
+      "id": "cherry-tree",
+      "label": "the cherry tree",
+      "statement": "The cherry tree story comes from Parson Weems's 1806 biography of him, not from Washington himself.",
+      "associations": ["cherry tree", "Parson Weems", "1806 biography"],
+      "clue_ids": ["78f306c5e9", "850c0215ad"]
+    },
+    {
+      "id": "stuart",
+      "label": "Gilbert Stuart",
+      "statement": "Gilbert Stuart painted the portrait of him that is used on the one-dollar bill; one version left his head unfinished.",
+      "associations": ["Gilbert Stuart", "one-dollar bill", "unfinished portrait"],
+      "clue_ids": ["31b694e0d2", "0f8d57b41f"]
+    }
+  ],
+  "clue_ids": [
+    "cf8a6a3053", "c58ace0dff", "31b694e0d2", "6daba598a6", "0f8d57b41f",
+    "c8d2bceb5a", "885e0ef8a9", "06a9e8fb98", "81d04cdac1", "dd2f5926f4",
+    "96c60ac299", "78f306c5e9", "850c0215ad", "4e93a839e5", "b7160fca3f",
+    "9388c00932", "40b4841ffd", "1c71fa1d1f"
+  ],
+  "related": ["american-revolution", "abraham-lincoln", "thomas-jefferson"]
+}

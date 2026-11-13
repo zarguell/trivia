@@ -1,0 +1,141 @@
+{
+  "id": "the-lord-of-the-rings",
+  "name": "The Lord of the Rings",
+  "deck": "literature",
+  "aliases": [
+    "Lord of the Rings",
+    "J.R.R. Tolkien",
+    "Tolkien"
+  ],
+  "hook": "One Ring, three volumes, and the Oxford philologist who invented Middle-earth.",
+  "facts": [
+    {
+      "id": "tolkien",
+      "label": "J.R.R. Tolkien",
+      "statement": "Tolkien was an Oxford philologist who invented languages and taught at Leeds and Oxford; Bag End takes its name from his Aunt Jane's farm.",
+      "associations": [
+        "J.R.R. Tolkien",
+        "Oxford",
+        "Leeds",
+        "Bag End"
+      ],
+      "clue_ids": [
+        "eab789f955",
+        "a09b18cf44"
+      ]
+    },
+    {
+      "id": "one-ring",
+      "label": "the One Ring",
+      "statement": "The title's dark lord is Sauron; in The Hobbit the ring was merely a magic ring of invisibility, but in the trilogy it is the One Ring.",
+      "associations": [
+        "Sauron",
+        "One Ring",
+        "invisibility",
+        "The Hobbit"
+      ],
+      "clue_ids": [
+        "0280bf4427",
+        "65b68aee44",
+        "e44f0ad16a"
+      ]
+    },
+    {
+      "id": "fellowship",
+      "label": "The Fellowship of the Ring",
+      "statement": "The first volume (1954) says its prologue is 'largely concerned with hobbits'; the Fellowship's elven archer is Legolas, son of Thranduil.",
+      "associations": [
+        "1954",
+        "hobbits",
+        "Legolas",
+        "Fellowship"
+      ],
+      "clue_ids": [
+        "5c54606401",
+        "405abdc740",
+        "5a967413c6"
+      ]
+    },
+    {
+      "id": "two-towers",
+      "label": "The Two Towers",
+      "statement": "The middle volume builds to the battle of Helm's Deep and Treebeard's Ents attacking Saruman's forces.",
+      "associations": [
+        "Helm's Deep",
+        "Ents",
+        "Saruman"
+      ],
+      "clue_ids": [
+        "c370df387f",
+        "e664910e4f"
+      ]
+    },
+    {
+      "id": "return-king",
+      "label": "The Return of the King",
+      "statement": "The 1955 finale ends with Frodo and Sam approaching Mount Doom; Peter Jackson's 2003 film won 11 Oscars.",
+      "associations": [
+        "1955",
+        "Mount Doom",
+        "11 Oscars"
+      ],
+      "clue_ids": [
+        "a90c2ca629",
+        "379c5aa1db"
+      ]
+    },
+    {
+      "id": "gandalf",
+      "label": "Gandalf",
+      "statement": "Gandalf is the wizard who sacrifices himself by breaking the bridge he stands on, falling into the abyss with the Balrog.",
+      "associations": [
+        "Gandalf",
+        "bridge",
+        "Balrog",
+        "wizard"
+      ],
+      "clue_ids": [
+        "74bd4389b6"
+      ]
+    },
+    {
+      "id": "silmarillion",
+      "label": "The Silmarillion",
+      "statement": "Published posthumously in 1977, The Silmarillion is a prequel telling Middle-earth's First Age.",
+      "associations": [
+        "1977",
+        "posthumous",
+        "prequel",
+        "First Age"
+      ],
+      "clue_ids": [
+        "5f8b4cac1d",
+        "b53aaf72ac",
+        "01159d966b"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "eab789f955",
+    "a09b18cf44",
+    "0280bf4427",
+    "65b68aee44",
+    "e44f0ad16a",
+    "5c54606401",
+    "405abdc740",
+    "5a967413c6",
+    "c370df387f",
+    "e664910e4f",
+    "a90c2ca629",
+    "379c5aa1db",
+    "74bd4389b6",
+    "5f8b4cac1d",
+    "b53aaf72ac",
+    "01159d966b"
+  ],
+  "related": [
+    "harry-potter",
+    "william-shakespeare",
+    "the-wizard-of-oz"
+  ]
+}

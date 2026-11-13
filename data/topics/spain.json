@@ -1,0 +1,65 @@
+{
+  "id": "spain",
+  "name": "Spain",
+  "deck": "geography",
+  "aliases": ["Spanish"],
+  "hook": "Conquistadors, a Cubist, and a dictator named Franco: Spain's clues reward knowing the cast.",
+  "facts": [
+    {
+      "id": "barcelona",
+      "label": "Barcelona",
+      "statement": "Barcelona, the Catalan capital, is known for La Rambla and is a UNESCO City of Literature for publishing in Spanish and Catalan.",
+      "associations": ["Barcelona", "La Rambla", "Catalan", "UNESCO City of Literature"],
+      "clue_ids": ["a579f119a2", "a91d993067"]
+    },
+    {
+      "id": "canary-islands",
+      "label": "the Canary Islands",
+      "statement": "The Canary Islands, an autonomous Spanish archipelago in the Atlantic, were named for wild dogs, not birds.",
+      "associations": ["Canary Islands", "Atlantic", "wild dogs", "autonomous region"],
+      "clue_ids": ["171f408166", "c9c0ae48db"]
+    },
+    {
+      "id": "franco",
+      "label": "Francisco Franco",
+      "statement": "Francisco Franco, the Nationalist dictator, was governing the Canary Islands in 1936 when the Spanish Civil War began; the U.S. recognized his government in 1939.",
+      "associations": ["Francisco Franco", "Spanish Civil War", "1936", "1939"],
+      "clue_ids": ["af83b78749", "a0a82fad13"]
+    },
+    {
+      "id": "el-cid",
+      "label": "El Cid",
+      "statement": "El Cid, Rodrigo Díaz de Vivar, took his byname from the Arabic for \"Lord\" and helped retake Toledo for Christendom in 1085.",
+      "associations": ["El Cid", "Rodrigo Díaz de Vivar", "Toledo", "1085"],
+      "clue_ids": ["c0ff37df2c", "386d95ffd6"]
+    },
+    {
+      "id": "picasso",
+      "label": "Pablo Picasso",
+      "statement": "Pablo Picasso, the Spanish Cubist, took his mother's surname and used a real rope as a frame in Still Life with Chair Caning.",
+      "associations": ["Pablo Picasso", "Cubism", "Still Life with Chair Caning", "Málaga"],
+      "clue_ids": ["37263d8313", "71a7b8e816"]
+    },
+    {
+      "id": "gibraltar",
+      "label": "Gibraltar",
+      "statement": "Gibraltar, the 2.3-square-mile territory at Spain's southern tip, was ceded to Britain by the 1713 Treaty of Utrecht; locals speak Llanito.",
+      "associations": ["Gibraltar", "Treaty of Utrecht", "1713", "Llanito"],
+      "clue_ids": ["3cfb32693b", "faf9067cba"]
+    },
+    {
+      "id": "spanish-language",
+      "label": "the Spanish language",
+      "statement": "Spanish, or Castilian, is Spain's official language and the only official language of Equatorial Guinea; its dialects include Andalusian and Canary Island Spanish.",
+      "associations": ["Spanish language", "Castilian", "Equatorial Guinea", "Andalusian"],
+      "clue_ids": ["cc4450e0a6", "33df5c5c53"]
+    }
+  ],
+  "clue_ids": [
+    "a579f119a2", "a91d993067", "171f408166", "c9c0ae48db", "af83b78749",
+    "a0a82fad13", "c0ff37df2c", "386d95ffd6", "37263d8313", "71a7b8e816",
+    "3cfb32693b", "faf9067cba", "cc4450e0a6", "33df5c5c53", "2b1a3ba336",
+    "8ee53a1999", "164bca1243", "f8a175b908"
+  ],
+  "related": ["pablo-picasso", "portugal", "france"]
+}

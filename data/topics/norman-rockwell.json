@@ -1,0 +1,57 @@
+{
+  "id": "norman-rockwell",
+  "name": "Norman Rockwell",
+  "deck": "arts",
+  "aliases": ["Rockwell"],
+  "hook": "The Saturday Evening Post illustrator whose Four Freedoms and Rosie define mid-century America.",
+  "facts": [
+    {
+      "id": "post-covers",
+      "label": "Saturday Evening Post covers",
+      "statement": "Rockwell created his first Saturday Evening Post cover in 1916 and went on to paint more than 300 for the magazine.",
+      "associations": ["Saturday Evening Post", "1916", "300 covers"],
+      "clue_ids": ["c569c988b0", "8ac4c52dca"]
+    },
+    {
+      "id": "triple-self-portrait",
+      "label": "Triple Self-Portrait",
+      "statement": "His Triple Self-Portrait graced the Post cover of February 13, 1960, and appeared on a 29-cent stamp in 1994.",
+      "associations": ["Triple Self-Portrait", "February 13, 1960", "29-cent stamp"],
+      "clue_ids": ["0d8b2f1cc1", "81258a4ae3", "7f75a379c6"]
+    },
+    {
+      "id": "four-freedoms",
+      "label": "the Four Freedoms",
+      "statement": "Rockwell's Four Freedoms paintings, inspired by FDR's 1941 speech, promoted war bonds; Freedom from Want shows a Thanksgiving turkey.",
+      "associations": ["Four Freedoms", "FDR", "war bonds", "turkey"],
+      "clue_ids": ["eb236915cf", "e59cca3bed", "41fefa6f33"]
+    },
+    {
+      "id": "rosie",
+      "label": "Rosie the Riveter",
+      "statement": "For a 1943 Post cover, Rockwell used a Vermont phone operator as the model for Rosie the Riveter.",
+      "associations": ["Rosie the Riveter", "1943", "Vermont phone operator"],
+      "clue_ids": ["cbb75e3abe", "ff462014e6"]
+    },
+    {
+      "id": "christmas-carol",
+      "label": "A Christmas Carol",
+      "statement": "Fond of Dickens and Victorian images, Rockwell based a painting in the Stockbridge museum on A Christmas Carol.",
+      "associations": ["A Christmas Carol", "Dickens", "Stockbridge museum"],
+      "clue_ids": ["4889057770"]
+    },
+    {
+      "id": "ruby-bridges",
+      "label": "Ruby Bridges",
+      "statement": "Rockwell painted Ruby Bridges, who in 1960 made history by integrating an all-white school in New Orleans.",
+      "associations": ["Ruby Bridges", "1960", "New Orleans"],
+      "clue_ids": ["f31231a14c"]
+    }
+  ],
+  "clue_ids": [
+    "c569c988b0", "8ac4c52dca", "0d8b2f1cc1", "81258a4ae3", "7f75a379c6",
+    "eb236915cf", "e59cca3bed", "41fefa6f33", "cbb75e3abe", "ff462014e6",
+    "4889057770", "f31231a14c"
+  ],
+  "related": ["andy-warhol", "the-scream", "franklin-d-roosevelt"]
+}

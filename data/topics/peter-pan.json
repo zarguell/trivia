@@ -1,0 +1,65 @@
+{
+  "id": "peter-pan",
+  "name": "Peter Pan",
+  "deck": "pop-culture",
+  "aliases": [],
+  "hook": "The boy who wouldn't grow up, his fairy, his pirate, and the dog who minded the children.",
+  "facts": [
+    {
+      "id": "barrie",
+      "label": "J.M. Barrie",
+      "statement": "J.M. Barrie created Peter Pan; the play reached the London stage in 1904, with Nina Boucicault the first actress to play him.",
+      "associations": ["J.M. Barrie", "1904", "Nina Boucicault"],
+      "clue_ids": ["e8a193b4b6", "44cd0bcbeb", "14e17e8d77"]
+    },
+    {
+      "id": "neverland",
+      "label": "Never-Never Land",
+      "statement": "Never-Never Land is the island where Peter lives with the Lost Boys and where he brings Wendy's brothers.",
+      "associations": ["Never-Never Land", "island", "the Lost Boys"],
+      "clue_ids": ["c430926abf", "32307580bb", "9c6c1dc97a"]
+    },
+    {
+      "id": "wendy",
+      "label": "Wendy Darling",
+      "statement": "Wendy Darling is the eldest Darling child, sister of John and Michael; the last chapter is \"When Wendy Grew Up.\"",
+      "associations": ["Wendy Darling", "John and Michael", "When Wendy Grew Up"],
+      "clue_ids": ["32f8ab3296", "7d0be0d3ab", "c0e8a597c1"]
+    },
+    {
+      "id": "tinker-bell",
+      "label": "Tinker Bell",
+      "statement": "Tinker Bell is the fairy who drinks the poison meant for Peter; in Barrie's first draft she was called Tippytoe.",
+      "associations": ["Tinker Bell", "Tippytoe", "poison"],
+      "clue_ids": ["d9bdc22dcc", "3465c89d82"]
+    },
+    {
+      "id": "hook",
+      "label": "Captain Hook",
+      "statement": "Captain Hook is Peter's pirate nemesis, who lost his hand to a crocodile; Dustin Hoffman played him in Spielberg's 1991 Hook.",
+      "associations": ["Captain Hook", "crocodile", "Dustin Hoffman"],
+      "clue_ids": ["0ea77eedcc", "ca0f742d1d", "12c9aab1b1"]
+    },
+    {
+      "id": "mary-martin",
+      "label": "Mary Martin",
+      "statement": "Mary Martin won a 1955 Emmy for playing Peter Pan in the Producers' Showcase broadcast.",
+      "associations": ["Mary Martin", "1955 Emmy", "Producers' Showcase"],
+      "clue_ids": ["9eca27a15a", "2fbc35f2b5"]
+    },
+    {
+      "id": "hospital",
+      "label": "Great Ormond Street Hospital",
+      "statement": "In 1929 Barrie gave all rights to Peter Pan to London's Great Ormond Street Children's Hospital.",
+      "associations": ["Great Ormond Street", "1929", "rights"],
+      "clue_ids": ["07010bfc56"]
+    }
+  ],
+  "clue_ids": [
+    "e8a193b4b6", "44cd0bcbeb", "14e17e8d77", "c430926abf", "32307580bb",
+    "9c6c1dc97a", "32f8ab3296", "7d0be0d3ab", "c0e8a597c1", "d9bdc22dcc",
+    "3465c89d82", "0ea77eedcc", "ca0f742d1d", "12c9aab1b1", "9eca27a15a",
+    "2fbc35f2b5", "07010bfc56", "1f7d43fa09"
+  ],
+  "related": ["disney", "alice-s-adventures-in-wonderland", "the-wizard-of-oz"]
+}

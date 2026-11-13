@@ -1,0 +1,64 @@
+{
+  "id": "louis-xiv",
+  "name": "Louis XIV",
+  "deck": "history",
+  "aliases": [],
+  "hook": "The Sun King of Versailles: ballet, the minuet, an iron mask and \"I am the state.\"",
+  "facts": [
+    {
+      "id": "sun-king",
+      "label": "the Sun King",
+      "statement": "Louis XIV, born in 1638, was the Sun King; in 1653 he played the sun, as Apollo, in the court Ballet de la Nuit.",
+      "associations": ["Sun King", "1638", "Apollo", "Ballet de la Nuit"],
+      "clue_ids": ["76a4cd11a8", "7fd517d342", "0eae8938eb"]
+    },
+    {
+      "id": "versailles",
+      "label": "Versailles",
+      "statement": "Louis XIV died at Versailles on September 1, 1715; its gardens, with a mile-long canal, were designed by André Le Nôtre.",
+      "associations": ["Versailles", "September 1, 1715", "André Le Nôtre", "canal"],
+      "clue_ids": ["b4581f0c52", "40c0ddc2e4"]
+    },
+    {
+      "id": "iron-mask",
+      "label": "the Man in the Iron Mask",
+      "statement": "The Man in the Iron Mask was an unknown prisoner jailed under Louis XIV; Dumas's novel makes him Louis's twin brother, Philippe.",
+      "associations": ["Man in the Iron Mask", "prisoner", "Alexandre Dumas", "Philippe"],
+      "clue_ids": ["3820ba189d", "8064b2a23a"]
+    },
+    {
+      "id": "minuet",
+      "label": "the minuet",
+      "statement": "The minuet was popularized at Louis XIV's court; its name comes from the French for \"small,\" and it often forms a symphony's third movement.",
+      "associations": ["minuet", "French for small", "court dance", "third movement"],
+      "clue_ids": ["f5c0644bae", "b7478e79bb"]
+    },
+    {
+      "id": "edict-of-nantes",
+      "label": "the Edict of Nantes",
+      "statement": "In 1685 Louis XIV revoked the Edict of Nantes with the Edict of Fontainebleau, declaring France Catholic and driving out Huguenots.",
+      "associations": ["Edict of Nantes", "1685", "Edict of Fontainebleau", "Huguenots"],
+      "clue_ids": ["942c19349b", "29c2e9a988", "73d6ad43aa"]
+    },
+    {
+      "id": "letat-cest-moi",
+      "label": "L'État, c'est moi",
+      "statement": "Louis XIV reportedly told parliament, \"L'État, c'est moi\" — \"I am the state.\"",
+      "associations": ["L'État, c'est moi", "I am the state", "parliament", "absolutism"],
+      "clue_ids": ["60dcfc7aab"]
+    },
+    {
+      "id": "moliere",
+      "label": "Molière",
+      "statement": "Molière's Tartuffe was performed before Louis XIV in 1664, then banned for three years; the first version is lost.",
+      "associations": ["Molière", "Tartuffe", "1664", "banned"],
+      "clue_ids": ["ff76264496", "d2668ff75d"]
+    }
+  ],
+  "clue_ids": [
+    "76a4cd11a8", "7fd517d342", "0eae8938eb", "b4581f0c52", "40c0ddc2e4",
+    "3820ba189d", "8064b2a23a", "f5c0644bae", "b7478e79bb", "942c19349b",
+    "29c2e9a988", "73d6ad43aa", "60dcfc7aab", "ff76264496", "d2668ff75d"
+  ],
+  "related": ["france", "paris", "napoleon"]
+}

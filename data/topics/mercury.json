@@ -1,0 +1,115 @@
+{
+  "id": "mercury",
+  "name": "Mercury",
+  "deck": "science",
+  "aliases": [],
+  "hook": "A liquid metal and the closest planet to the Sun share one name, so the clues split between the two.",
+  "facts": [
+    {
+      "id": "quicksilver",
+      "label": "quicksilver",
+      "statement": "Mercury is the only metal liquid at room temperature, also called quicksilver; its symbol Hg comes from the Latin for \"liquid silver,\" and Pliny called it argentum vivum.",
+      "associations": [
+        "liquid metal",
+        "quicksilver",
+        "Hg"
+      ],
+      "clue_ids": [
+        "3ce000e854",
+        "6df154635f",
+        "2e691b2a87"
+      ]
+    },
+    {
+      "id": "barometer",
+      "label": "the barometer",
+      "statement": "Around 1644 Evangelista Torricelli used mercury in a glass tube to invent the barometer, a device for measuring atmospheric pressure.",
+      "associations": [
+        "Torricelli",
+        "1644",
+        "atmospheric pressure"
+      ],
+      "clue_ids": [
+        "5ba89719c2",
+        "5d90fccd44"
+      ]
+    },
+    {
+      "id": "thermometer",
+      "label": "the thermometer",
+      "statement": "Fahrenheit began using mercury in thermometers around 1715, and in 1866 Thomas Allbutt invented a six-inch clinical thermometer that used it.",
+      "associations": [
+        "Fahrenheit",
+        "1715",
+        "Thomas Allbutt"
+      ],
+      "clue_ids": [
+        "780f17445f",
+        "6604b7bb80",
+        "7314159967"
+      ]
+    },
+    {
+      "id": "freezing",
+      "label": "freezing mercury",
+      "statement": "In 1759 Braun and Lomonosov used snow and acid to freeze mercury, showing the liquid metal could become solid.",
+      "associations": [
+        "1759",
+        "Lomonosov",
+        "solid mercury"
+      ],
+      "clue_ids": [
+        "6e47f2e9ab"
+      ]
+    },
+    {
+      "id": "closest-planet",
+      "label": "the closest planet",
+      "statement": "Mercury is the planet closest to the Sun; it is named for the Roman messenger god, whose Greek counterpart is Hermes.",
+      "associations": [
+        "closest to Sun",
+        "Roman messenger",
+        "Hermes"
+      ],
+      "clue_ids": [
+        "0ab90dde79",
+        "0998cabe62"
+      ]
+    },
+    {
+      "id": "caduceus",
+      "label": "the caduceus",
+      "statement": "The caduceus — the staff of Mercury or Hermes with snakes — became a common symbol of the medical profession.",
+      "associations": [
+        "caduceus",
+        "snakes",
+        "medical symbol"
+      ],
+      "clue_ids": [
+        "df2ab8fb32",
+        "746527944a"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "3ce000e854",
+    "6df154635f",
+    "2e691b2a87",
+    "5ba89719c2",
+    "5d90fccd44",
+    "780f17445f",
+    "6604b7bb80",
+    "7314159967",
+    "6e47f2e9ab",
+    "0ab90dde79",
+    "0998cabe62",
+    "df2ab8fb32",
+    "746527944a",
+    "b30f024b42"
+  ],
+  "related": [
+    "solar-system",
+    "venus",
+    "mars"
+  ]
+}

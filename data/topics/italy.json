@@ -1,0 +1,65 @@
+{
+  "id": "italy",
+  "name": "Italy",
+  "deck": "geography",
+  "aliases": ["Italian"],
+  "hook": "Rome, the Renaissance and Il Duce: the boot-shaped country comes with a ready-made cast.",
+  "facts": [
+    {
+      "id": "rome",
+      "label": "Rome",
+      "statement": "Rome became Italy's capital only in 1870, the last territory absorbed in unification; Florence had held the title before it.",
+      "associations": ["Rome", "1870", "unification", "Florence"],
+      "clue_ids": ["8327d3b804", "1e3f3ea6df"]
+    },
+    {
+      "id": "mussolini",
+      "label": "Benito Mussolini",
+      "statement": "Benito Mussolini, called Il Duce, ruled Italy as a Fascist dictator and allied with Hitler in World War II.",
+      "associations": ["Benito Mussolini", "Il Duce", "Fascist", "World War II"],
+      "clue_ids": ["bddf49002a", "7132b2219a"]
+    },
+    {
+      "id": "renaissance",
+      "label": "the Renaissance",
+      "statement": "Florence is the birthplace of the Renaissance, and Leonardo da Vinci painted The Last Supper in Milan.",
+      "associations": ["Florence", "Renaissance", "Leonardo da Vinci", "The Last Supper", "Milan"],
+      "clue_ids": ["100134d910", "7732cd5490"]
+    },
+    {
+      "id": "po",
+      "label": "the Po",
+      "statement": "The Po, Italy's longest river, crosses northern Italy from the French frontier to the Adriatic, where its delta advances 200 feet a year.",
+      "associations": ["Po River", "longest river", "Adriatic", "northern Italy"],
+      "clue_ids": ["4ad7f578ed", "3578aa1bf2"]
+    },
+    {
+      "id": "sicily",
+      "label": "Sicily",
+      "statement": "Sicily is Italy's largest island and an autonomous region; the Strait of Messina separates it from the mainland.",
+      "associations": ["Sicily", "Strait of Messina", "largest island", "autonomous region"],
+      "clue_ids": ["8dfc3bcd51", "cf6104b07e"]
+    },
+    {
+      "id": "san-marino",
+      "label": "San Marino",
+      "statement": "San Marino, founded by tradition in 301, is a tiny republic on the Italian peninsula and a short bus ride from Rimini.",
+      "associations": ["San Marino", "301", "republic", "Rimini"],
+      "clue_ids": ["a640a7d880", "675a795cd8"]
+    },
+    {
+      "id": "galileo",
+      "label": "Galileo Galilei",
+      "statement": "Galileo Galilei, the Pisan astronomer, has Pisa's airport and a Jupiter probe named for him.",
+      "associations": ["Galileo Galilei", "Pisa", "Jupiter probe", "astronomer"],
+      "clue_ids": ["97b1c4efc6", "c5490eb2c0"]
+    }
+  ],
+  "clue_ids": [
+    "8327d3b804", "1e3f3ea6df", "bddf49002a", "7132b2219a", "100134d910",
+    "7732cd5490", "4ad7f578ed", "3578aa1bf2", "8dfc3bcd51", "cf6104b07e",
+    "a640a7d880", "675a795cd8", "97b1c4efc6", "c5490eb2c0", "736eeadaac",
+    "48a42738ff", "374b936558", "ae793f152a"
+  ],
+  "related": ["rome", "venice", "pizza", "leonardo-da-vinci"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "citizen-kane",
+  "name": "Citizen Kane",
+  "deck": "film-tv",
+  "aliases": [],
+  "hook": "The 1941 film that tops \"greatest movie\" lists — six facts cover Welles, Rosebud and Xanadu.",
+  "facts": [
+    {
+      "id": "welles",
+      "label": "Orson Welles",
+      "statement": "Orson Welles directed and starred in the 1941 film as newspaper tycoon Charles Foster Kane, and co-wrote the screenplay with Herman Mankiewicz.",
+      "associations": ["Orson Welles", "1941", "Charles Foster Kane", "Herman Mankiewicz"],
+      "clue_ids": ["a49bf0c951", "735cec69d3", "80d6fc7bf8"]
+    },
+    {
+      "id": "rosebud",
+      "label": "Rosebud",
+      "statement": "Rosebud is Kane's dying word and the name of his childhood sled; Steven Spielberg later bought the sled at auction.",
+      "associations": ["Rosebud", "dying word", "sled", "Steven Spielberg"],
+      "clue_ids": ["cfdb6e8391", "247c87b982", "f62fe849f6"]
+    },
+    {
+      "id": "xanadu",
+      "label": "Xanadu",
+      "statement": "Xanadu is Kane's palatial estate, modeled on William Randolph Hearst's San Simeon; its name comes from Coleridge's poem \"Kubla Khan.\"",
+      "associations": ["Xanadu", "San Simeon", "Kubla Khan", "mansion"],
+      "clue_ids": ["6f95594b9d", "038751790e", "a8b010cf6f"]
+    },
+    {
+      "id": "hearst",
+      "label": "William Randolph Hearst",
+      "statement": "Kane was modeled on newspaper publisher William Randolph Hearst, who offered RKO $800,000 to destroy the film.",
+      "associations": ["William Randolph Hearst", "newspaper tycoon", "RKO", "$800,000"],
+      "clue_ids": ["77558dbd09", "f51d5cb351", "8b21f35c6d"]
+    },
+    {
+      "id": "oscars",
+      "label": "the 1941 Oscars",
+      "statement": "It is often called the greatest American film, but at the 1941 Oscars it lost Best Picture to How Green Was My Valley.",
+      "associations": ["1941 Oscars", "How Green Was My Valley", "Best Picture", "greatest American film"],
+      "clue_ids": ["735cec69d3"]
+    },
+    {
+      "id": "mank",
+      "label": "Mank",
+      "statement": "The 2020 film Mank dramatizes the screenplay's writing, with Gary Oldman as Herman Mankiewicz and Amanda Seyfried as Marion Davies.",
+      "associations": ["Mank", "Gary Oldman", "Amanda Seyfried", "Marion Davies"],
+      "clue_ids": ["1bf046640a", "80d6fc7bf8"]
+    },
+    {
+      "id": "moorehead",
+      "label": "Agnes Moorehead",
+      "statement": "Agnes Moorehead played Kane's mother, then became Endora, Samantha's mother, on Bewitched.",
+      "associations": ["Agnes Moorehead", "Kane's mother", "Endora", "Bewitched"],
+      "clue_ids": ["df69cd55eb", "060610a910"]
+    }
+  ],
+  "clue_ids": [
+    "a49bf0c951", "735cec69d3", "80d6fc7bf8", "cfdb6e8391", "247c87b982",
+    "f62fe849f6", "6f95594b9d", "038751790e", "a8b010cf6f", "77558dbd09",
+    "f51d5cb351", "8b21f35c6d", "1bf046640a", "df69cd55eb", "060610a910",
+    "f2deabb302", "1f93db313a", "c099079c36"
+  ],
+  "related": ["casablanca", "the-godfather", "alfred-hitchcock"]
+}

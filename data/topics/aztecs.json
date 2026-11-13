@@ -1,0 +1,65 @@
+{
+  "id": "aztecs",
+  "name": "Aztecs",
+  "deck": "history",
+  "aliases": ["Aztec"],
+  "hook": "A Mesoamerican empire of gold, gods and human sacrifice, undone by Cortés in two years.",
+  "facts": [
+    {
+      "id": "tenochtitlan",
+      "label": "Tenochtitlan",
+      "statement": "Tenochtitlan was the Aztec capital, built on an island in Lake Texcoco on the site of modern Mexico City; its sister city was Tlatelolco.",
+      "associations": ["Tenochtitlan", "Mexico City", "Tlatelolco", "Lake Texcoco"],
+      "clue_ids": ["24bab5a358", "12ee149410"]
+    },
+    {
+      "id": "cortes",
+      "label": "Hernán Cortés",
+      "statement": "Hernán Cortés sailed from Cuba in 1519 and toppled the Aztec Empire for Spain; Doña Marina served as his interpreter and mistress.",
+      "associations": ["Hernán Cortés", "1519", "Doña Marina", "conquistador"],
+      "clue_ids": ["f957919a65", "808c982f45", "8a65080138"]
+    },
+    {
+      "id": "montezuma",
+      "label": "Montezuma II",
+      "statement": "Montezuma II was the Aztec emperor when Cortés arrived in 1519; he died in 1520, and the empire fell in 1521 when Cuauhtémoc was captured.",
+      "associations": ["Montezuma II", "1519", "Cuauhtémoc", "last emperor"],
+      "clue_ids": ["cfaf83936c", "54201ed756"]
+    },
+    {
+      "id": "quetzalcoatl",
+      "label": "Quetzalcoatl",
+      "statement": "Quetzalcoatl was the feathered-serpent wind god; the story that the Aztecs mistook Cortés for him is a later legend, not contemporary fact.",
+      "associations": ["Quetzalcoatl", "feathered serpent", "wind god", "Cortés myth"],
+      "clue_ids": ["4a3e3da913", "7b53cd78c4", "502deb08f2"]
+    },
+    {
+      "id": "huitzilopochtli",
+      "label": "Huitzilopochtli",
+      "statement": "Huitzilopochtli was the Aztec god of war and the sun, brother of Quetzalcoatl; priests offered human sacrifices to him atop pyramid temples.",
+      "associations": ["Huitzilopochtli", "war and sun god", "human sacrifice", "pyramid"],
+      "clue_ids": ["7e02d0c1f3", "86b22aa09c", "5abc8b2ac4"]
+    },
+    {
+      "id": "nahuatl",
+      "label": "Nahuatl",
+      "statement": "Nahuatl was the Aztec language; Popocatépetl, the volcano whose name means \"smoking mountain,\" is a Nahuatl word.",
+      "associations": ["Nahuatl", "Popocatépetl", "smoking mountain", "language"],
+      "clue_ids": ["211956aab6"]
+    },
+    {
+      "id": "aztec-gifts",
+      "label": "Aztec gifts",
+      "statement": "The Aztecs gave the world chocolate and vanilla; they prized turquoise, and a double-headed serpent mosaic of it is an icon of their art.",
+      "associations": ["chocolate", "vanilla", "turquoise", "double-headed serpent"],
+      "clue_ids": ["9d6c59fd60", "5c7eda40ac", "53a1d98414"]
+    }
+  ],
+  "clue_ids": [
+    "24bab5a358", "12ee149410", "f957919a65", "808c982f45", "8a65080138",
+    "cfaf83936c", "54201ed756", "4a3e3da913", "7b53cd78c4", "502deb08f2",
+    "7e02d0c1f3", "86b22aa09c", "5abc8b2ac4", "211956aab6", "9d6c59fd60",
+    "5c7eda40ac", "53a1d98414"
+  ],
+  "related": ["mexico", "chocolate"]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "jackie-robinson",
+  "name": "Jackie Robinson",
+  "deck": "sports",
+  "aliases": ["Jackie Roosevelt Robinson"],
+  "hook": "The man who broke baseball's color line — No. 42, Branch Rickey, and the Dodgers.",
+  "facts": [
+    {
+      "id": "color-line",
+      "label": "broke the color line",
+      "statement": "He broke baseball's color line in 1947 with the Brooklyn Dodgers after starring for the Kansas City Monarchs, and spent his whole major league career there.",
+      "associations": ["1947", "Brooklyn Dodgers", "color line", "Kansas City Monarchs"],
+      "clue_ids": ["a0d9b8bea8", "a0f82fa3ae", "799ef42bb4"]
+    },
+    {
+      "id": "rickey",
+      "label": "Branch Rickey",
+      "statement": "Dodgers owner Branch Rickey, nicknamed \"Mahatma,\" signed him; Harrison Ford played Rickey to Chadwick Boseman's Robinson in the film 42.",
+      "associations": ["Branch Rickey", "Mahatma", "Chadwick Boseman", "Harrison Ford"],
+      "clue_ids": ["235061202a", "3f112d93c7"]
+    },
+    {
+      "id": "number-42",
+      "label": "No. 42",
+      "statement": "His number 42 is retired throughout Major League Baseball, and the 2013 film about him used it as its title.",
+      "associations": ["42", "retired number", "2013 film"],
+      "clue_ids": ["077c4425b8", "3e6d173caa"]
+    },
+    {
+      "id": "roosevelt",
+      "label": "the middle name Roosevelt",
+      "statement": "Born in January 1919, the month Theodore Roosevelt died, he was given the middle name Roosevelt.",
+      "associations": ["Roosevelt", "1919", "Theodore Roosevelt", "middle name"],
+      "clue_ids": ["3460dcbc03", "7a443cd783"]
+    },
+    {
+      "id": "time-cover",
+      "label": "the 1947 Time cover",
+      "statement": "He appeared on the September 22, 1947, cover of Time, captioned \"He and the boss took a chance.\"",
+      "associations": ["Time magazine", "September 22, 1947", "cover"],
+      "clue_ids": ["16a02db56d"]
+    },
+    {
+      "id": "honors",
+      "label": "Spingarn Medal and Medal of Freedom",
+      "statement": "He won the NAACP's Spingarn Medal and, posthumously, the Presidential Medal of Freedom; Jesse Jackson delivered his 1972 eulogy.",
+      "associations": ["Spingarn Medal", "NAACP", "Medal of Freedom", "Jesse Jackson"],
+      "clue_ids": ["0b685a3092", "704f4f0d76", "3f2d027067"]
+    },
+    {
+      "id": "stealing-home",
+      "label": "stealing home",
+      "statement": "He stole home in Game 1 of the 1955 World Series, one of the most dramatic plays in the sport.",
+      "associations": ["stealing home", "1955 World Series", "Game 1"],
+      "clue_ids": ["704e9d0091"]
+    }
+  ],
+  "clue_ids": [
+    "a0d9b8bea8", "a0f82fa3ae", "799ef42bb4", "235061202a", "3f112d93c7",
+    "077c4425b8", "3e6d173caa", "3460dcbc03", "7a443cd783", "16a02db56d",
+    "0b685a3092", "704f4f0d76", "3f2d027067", "704e9d0091"
+  ],
+  "related": ["babe-ruth", "muhammad-ali", "serena-williams"]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "muhammad-ali",
+  "name": "Muhammad Ali",
+  "deck": "sports",
+  "aliases": ["Cassius Clay", "the Greatest"],
+  "hook": "The boxer Jeopardy asks about most: the name change, the Rumble in the Jungle, the Fight of the Century.",
+  "facts": [
+    {
+      "id": "cassius-clay",
+      "label": "Cassius Clay",
+      "statement": "He was born Cassius Clay in Louisville and won 1960 Olympic light-heavyweight gold under that name.",
+      "associations": ["Cassius Clay", "Louisville", "1960 Olympics", "light heavyweight"],
+      "clue_ids": ["a0f76b1c50", "1cd5921e19", "5dc2a331b1"]
+    },
+    {
+      "id": "islam",
+      "label": "the name change",
+      "statement": "After converting to Islam he dropped Cassius Clay and became Muhammad Ali.",
+      "associations": ["Islam", "Nation of Islam", "Cassius Clay"],
+      "clue_ids": ["0330fb2ced"]
+    },
+    {
+      "id": "rumble",
+      "label": "Rumble in the Jungle",
+      "statement": "Stripped of his title in 1967, he won it back by knocking out George Foreman in 1974's Rumble in the Jungle in Zaire, using the rope-a-dope.",
+      "associations": ["George Foreman", "Rumble in the Jungle", "Zaire", "rope-a-dope", "1974"],
+      "clue_ids": ["0a2f91e443", "368d0cc3e7", "f28ecb9903"]
+    },
+    {
+      "id": "frazier",
+      "label": "Joe Frazier",
+      "statement": "He lost the 1971 \"Fight of the Century\" to Joe Frazier at Madison Square Garden, then won the 1974 and 1975 rematches.",
+      "associations": ["Joe Frazier", "Fight of the Century", "Madison Square Garden", "1971"],
+      "clue_ids": ["fb7040acc2", "ef9bf33bca"]
+    },
+    {
+      "id": "liston",
+      "label": "Sonny Liston",
+      "statement": "He called Sonny Liston \"The Bear\" before their 1964 title bout, then needed less than two minutes to beat him in the 1965 rematch.",
+      "associations": ["Sonny Liston", "The Bear", "1964", "1965"],
+      "clue_ids": ["7e424f2128", "d087944b08"]
+    },
+    {
+      "id": "spinks",
+      "label": "Leon Spinks",
+      "statement": "Leon Spinks upset him in 1978; Ali took the rematch, the last title fight he won.",
+      "associations": ["Leon Spinks", "1978", "rematch"],
+      "clue_ids": ["9532670424", "0158db0852"]
+    },
+    {
+      "id": "legacy",
+      "label": "Parkinson's and his funeral",
+      "statement": "He campaigned on Capitol Hill for Parkinson's research, and Will Smith and Lennox Lewis were pallbearers at his 2016 funeral.",
+      "associations": ["Parkinson's Disease", "2016 funeral", "Will Smith", "Lennox Lewis"],
+      "clue_ids": ["d941226caa", "4cd02e003d"]
+    }
+  ],
+  "clue_ids": [
+    "a0f76b1c50", "1cd5921e19", "5dc2a331b1", "0330fb2ced", "0a2f91e443",
+    "368d0cc3e7", "f28ecb9903", "fb7040acc2", "ef9bf33bca", "7e424f2128",
+    "d087944b08", "9532670424", "0158db0852", "d941226caa", "4cd02e003d"
+  ],
+  "related": ["olympic-games", "michael-jordan"]
+}

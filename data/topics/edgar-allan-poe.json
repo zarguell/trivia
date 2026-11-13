@@ -1,0 +1,65 @@
+{
+  "id": "edgar-allan-poe",
+  "name": "Edgar Allan Poe",
+  "deck": "literature",
+  "aliases": ["Poe"],
+  "hook": "Poe means the raven, the beating heart and a Baltimore grave — six facts cover the clues.",
+  "facts": [
+    {
+      "id": "baltimore",
+      "label": "Baltimore",
+      "statement": "Poe was born in 1809 — his parents were acting in King Lear the year before — and died in 1849 in Baltimore, where a bar keeps \"Poe's Last Stop\".",
+      "associations": ["Baltimore", "1809", "1849", "Poe's Last Stop"],
+      "clue_ids": ["89a40256f2", "cbada91664", "fe212dbf9a"]
+    },
+    {
+      "id": "the-raven",
+      "label": "\"The Raven\"",
+      "statement": "\"The Raven\" is the poem whose bird says \"nevermore\"; Coleridge, not Poe, wrote the other famous poem about a raven.",
+      "associations": ["nevermore", "raven", "Coleridge"],
+      "clue_ids": ["38ac31cebc", "11b53c0e16"]
+    },
+    {
+      "id": "annabel-lee",
+      "label": "\"Annabel Lee\"",
+      "statement": "\"Annabel Lee\" mourns a maiden in a \"kingdom by the sea\" — likely inspired by Poe's child bride Virginia Clemm.",
+      "associations": ["Annabel Lee", "kingdom by the sea", "Virginia Clemm"],
+      "clue_ids": ["6a36ef0065", "f76c5d6925", "4884a84e1e"]
+    },
+    {
+      "id": "tell-tale-heart",
+      "label": "\"The Tell-Tale Heart\"",
+      "statement": "\"The Tell-Tale Heart\" opens \"True!... Nervous I had been and am\" and climaxes with the narrator hearing the dead man's heart.",
+      "associations": ["Tell-Tale Heart", "nervous", "beating heart"],
+      "clue_ids": ["1810e6a0b6", "b99ab3373c", "41c8c84068"]
+    },
+    {
+      "id": "pit-and-pendulum",
+      "label": "\"The Pit and the Pendulum\"",
+      "statement": "\"The Pit and the Pendulum\" tortures a prisoner during the Spanish Inquisition; its line about the French army places the tale in Toledo.",
+      "associations": ["Spanish Inquisition", "pendulum", "Toledo"],
+      "clue_ids": ["ffdc852b41", "6eb9ce4b94"]
+    },
+    {
+      "id": "usher",
+      "label": "\"The Fall of the House of Usher\"",
+      "statement": "\"The Fall of the House of Usher\" includes Poe's poem \"The Haunted Palace\" and inspired a 2023 Netflix series.",
+      "associations": ["House of Usher", "The Haunted Palace", "Netflix"],
+      "clue_ids": ["c3961c11b5", "5bf7f84f21"]
+    },
+    {
+      "id": "rue-morgue",
+      "label": "\"The Murders in the Rue Morgue\"",
+      "statement": "\"The Murders in the Rue Morgue\" (1841) introduces C. Auguste Dupin, who solves the killings: an escaped orangutan did it.",
+      "associations": ["C. Auguste Dupin", "orangutan", "1841"],
+      "clue_ids": ["6994d52335", "42cc3288af"]
+    }
+  ],
+  "clue_ids": [
+    "89a40256f2", "cbada91664", "fe212dbf9a", "38ac31cebc", "11b53c0e16",
+    "6a36ef0065", "f76c5d6925", "4884a84e1e", "1810e6a0b6", "b99ab3373c",
+    "41c8c84068", "ffdc852b41", "6eb9ce4b94", "c3961c11b5", "5bf7f84f21",
+    "6994d52335", "42cc3288af"
+  ],
+  "related": ["dracula", "frankenstein", "sherlock-holmes"]
+}

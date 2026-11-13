@@ -1,0 +1,127 @@
+{
+  "id": "gold",
+  "name": "Gold",
+  "deck": "science",
+  "aliases": [],
+  "hook": "The metal behind the rushes, the legends and Fort Knox — and Jeopardy never stops digging it up.",
+  "facts": [
+    {
+      "id": "element",
+      "label": "Au",
+      "statement": "Gold is a precious metal and chemical element with the symbol Au. Pure gold is 24 karats, and electrum is mostly gold with at least 20 percent silver.",
+      "associations": [
+        "Au",
+        "24 karats",
+        "electrum"
+      ],
+      "clue_ids": [
+        "c848fc8468"
+      ]
+    },
+    {
+      "id": "el-dorado",
+      "label": "El Dorado",
+      "statement": "El Dorado was the legendary city of gold sought in vain by conquistadors including Pizarro and Sir Walter Raleigh, who searched in what is now Guyana.",
+      "associations": [
+        "city of gold",
+        "Pizarro",
+        "Sir Walter Raleigh"
+      ],
+      "clue_ids": [
+        "8ad80e11fe",
+        "5f9dc1f5fe"
+      ]
+    },
+    {
+      "id": "fort-knox",
+      "label": "Fort Knox",
+      "statement": "Fort Knox in Kentucky is the site of the U.S. Gold Bullion Depository; in December 1941 the Declaration of Independence was sent there for safekeeping.",
+      "associations": [
+        "Kentucky",
+        "gold depository",
+        "1941"
+      ],
+      "clue_ids": [
+        "4508ea7a02",
+        "5633560b31"
+      ]
+    },
+    {
+      "id": "california",
+      "label": "California Gold Rush",
+      "statement": "Gold discovered in California in 1848 gave the state its \"Golden State\" nickname and produced Gold Country towns such as Rough & Ready and Fiddletown.",
+      "associations": [
+        "1848",
+        "Golden State",
+        "Gold Country"
+      ],
+      "clue_ids": [
+        "a58aa0a5ba",
+        "f37b325056"
+      ]
+    },
+    {
+      "id": "klondike",
+      "label": "the Klondike",
+      "statement": "The Klondike gold rush began after gold was found near Bonanza Creek in the Yukon in 1896; Whitehorse grew as a transit hub to the fields.",
+      "associations": [
+        "Yukon",
+        "1896",
+        "Bonanza Creek"
+      ],
+      "clue_ids": [
+        "0ee50c8540",
+        "83d2e36a82"
+      ]
+    },
+    {
+      "id": "south-africa",
+      "label": "South Africa",
+      "statement": "Gold from the Witwatersrand in the Transvaal makes South Africa one of the world's top gold producers, and mines like Savuka and Driefontein are among the deepest.",
+      "associations": [
+        "Witwatersrand",
+        "Transvaal",
+        "deep mines"
+      ],
+      "clue_ids": [
+        "00c6dba5a3",
+        "39745a95f6"
+      ]
+    },
+    {
+      "id": "denver",
+      "label": "Denver",
+      "statement": "The 1859 Pikes Peak gold rush created Denver, which merged with Auraria in 1860.",
+      "associations": [
+        "Pikes Peak",
+        "1859",
+        "Auraria"
+      ],
+      "clue_ids": [
+        "876dfd122d",
+        "52d103d41d"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "1620caeed7",
+    "c848fc8468",
+    "8ad80e11fe",
+    "5f9dc1f5fe",
+    "4508ea7a02",
+    "5633560b31",
+    "a58aa0a5ba",
+    "f37b325056",
+    "0ee50c8540",
+    "83d2e36a82",
+    "00c6dba5a3",
+    "39745a95f6",
+    "876dfd122d",
+    "52d103d41d"
+  ],
+  "related": [
+    "california",
+    "alaska",
+    "south-africa"
+  ]
+}

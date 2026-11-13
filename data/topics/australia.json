@@ -1,0 +1,64 @@
+{
+  "id": "australia",
+  "name": "Australia",
+  "deck": "geography",
+  "aliases": ["Australian"],
+  "hook": "The continent-country of kangaroos, the Outback and a purpose-built capital.",
+  "facts": [
+    {
+      "id": "name",
+      "label": "the name Australia",
+      "statement": "Australia's name comes from the Latin australis, meaning \"southern\"; it is the only country that occupies an entire continent.",
+      "associations": ["australis", "southern", "smallest continent"],
+      "clue_ids": ["cbe9bd6fdf"]
+    },
+    {
+      "id": "tasmania",
+      "label": "Tasmania",
+      "statement": "Tasmania is Australia's smallest state, an island once called Van Diemen's Land.",
+      "associations": ["Tasmania", "smallest state", "Van Diemen's Land"],
+      "clue_ids": ["31c88c2544", "d9498b535a"]
+    },
+    {
+      "id": "canberra",
+      "label": "Canberra",
+      "statement": "Canberra, the capital, sits in the Australian Capital Territory surrounded by New South Wales; the prime minister's residence is The Lodge.",
+      "associations": ["Canberra", "Australian Capital Territory", "New South Wales", "The Lodge"],
+      "clue_ids": ["cdafd470db", "c38073f112", "1d490ebafb"]
+    },
+    {
+      "id": "sydney",
+      "label": "Sydney",
+      "statement": "Sydney, Australia's largest city, is known for its Opera House and the Taronga Zoo on the harbor.",
+      "associations": ["Sydney", "Opera House", "Taronga Zoo"],
+      "clue_ids": ["2e56fed738", "24b0d5bb41"]
+    },
+    {
+      "id": "melbourne",
+      "label": "Melbourne",
+      "statement": "Melbourne was Australia's first federal capital, from 1901 to 1927, and is a UNESCO City of Literature.",
+      "associations": ["Melbourne", "first capital", "1901 to 1927", "City of Literature"],
+      "clue_ids": ["e4deda22d5", "669c7b88a7"]
+    },
+    {
+      "id": "dingo",
+      "label": "the dingo",
+      "statement": "The dingo, also called the warrigal, is Australia's wild dog and an ancestor of the stumpy tail cattle dog.",
+      "associations": ["dingo", "warrigal", "wild dog"],
+      "clue_ids": ["ec55356bba", "0f13589a09"]
+    },
+    {
+      "id": "emu",
+      "label": "the emu",
+      "statement": "The emu is the flightless bird of the 1932 \"Great Emu War\" and the mascot of Edith Cowan University.",
+      "associations": ["emu", "Great Emu War", "1932", "flightless"],
+      "clue_ids": ["fdc50288b4", "48d0cb5ec7"]
+    }
+  ],
+  "clue_ids": [
+    "cbe9bd6fdf", "31c88c2544", "d9498b535a", "cdafd470db", "c38073f112",
+    "1d490ebafb", "2e56fed738", "24b0d5bb41", "e4deda22d5", "669c7b88a7",
+    "ec55356bba", "0f13589a09", "fdc50288b4", "48d0cb5ec7"
+  ],
+  "related": ["great-barrier-reef", "canada"]
+}

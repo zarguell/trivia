@@ -1,0 +1,57 @@
+{
+  "id": "taj-mahal",
+  "name": "Taj Mahal",
+  "deck": "arts",
+  "aliases": [],
+  "hook": "A marble tomb for one wife, built by an emperor his son overthrew — the facts Jeopardy actually asks.",
+  "facts": [
+    {
+      "id": "shah-jahan",
+      "label": "Shah Jahan",
+      "statement": "Shah Jahan, the 17th-century Mughal emperor, built the Taj Mahal as a tomb for his favorite wife, Mumtaz Mahal.",
+      "associations": ["Shah Jahan", "Mumtaz Mahal", "Mughal emperor"],
+      "clue_ids": ["08a899c67f", "77fb618184", "c6d144df53"]
+    },
+    {
+      "id": "agra",
+      "label": "Agra, India",
+      "statement": "The Taj Mahal stands in Agra, India; Agra is southeast of New Delhi and also home to the Red Fort.",
+      "associations": ["Agra", "India", "New Delhi", "Red Fort"],
+      "clue_ids": ["940f0dc0f7", "3bb4d197b5", "ac04a7a362"]
+    },
+    {
+      "id": "mausoleum",
+      "label": "a mausoleum",
+      "statement": "It is a mausoleum; Tagore called it a teardrop on the cheek of time, and it has been billed as the Eighth Wonder of the World.",
+      "associations": ["mausoleum", "Tagore", "Eighth Wonder of the World"],
+      "clue_ids": ["0023647195", "e747c6a664", "f620a43d9c"]
+    },
+    {
+      "id": "marble-dome",
+      "label": "white marble and the dome",
+      "statement": "Built of white marble, the Taj Mahal has one large onion dome and four smaller domes.",
+      "associations": ["white marble", "onion dome", "four smaller domes"],
+      "clue_ids": ["dfe94e6897", "8f3d6fa75c"]
+    },
+    {
+      "id": "aurangzeb",
+      "label": "Aurangzeb",
+      "statement": "After the Taj Mahal was completed, Shah Jahan's son Aurangzeb deposed him and took over the Mughal Empire.",
+      "associations": ["Aurangzeb", "deposed", "Mughal Empire"],
+      "clue_ids": ["8c8729b26b", "77fb618184", "ac60362fa7"]
+    },
+    {
+      "id": "koran",
+      "label": "Koran inscriptions",
+      "statement": "Parts of the Taj Mahal are inscribed with verses from the Koran.",
+      "associations": ["Koran", "inscriptions", "Muslim holy book"],
+      "clue_ids": ["d10fa7a5a2"]
+    }
+  ],
+  "clue_ids": [
+    "08a899c67f", "77fb618184", "c6d144df53", "940f0dc0f7", "3bb4d197b5",
+    "ac04a7a362", "23e9346f1d", "0023647195", "e747c6a664", "f620a43d9c",
+    "dfe94e6897", "8f3d6fa75c", "8c8729b26b", "ac60362fa7", "d10fa7a5a2"
+  ],
+  "related": ["india", "ancient-egypt"]
+}

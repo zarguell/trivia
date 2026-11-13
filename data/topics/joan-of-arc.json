@@ -1,0 +1,65 @@
+{
+  "id": "joan-of-arc",
+  "name": "Joan of Arc",
+  "deck": "history",
+  "aliases": [],
+  "hook": "The peasant visionary who saved Orléans, crowned a king and was burned at Rouen.",
+  "facts": [
+    {
+      "id": "orleans",
+      "label": "Siege of Orléans",
+      "statement": "Joan lifted the Siege of Orléans in May 1429, turning the tide of the Hundred Years' War against the English.",
+      "associations": ["Siege of Orléans", "1429", "Hundred Years' War"],
+      "clue_ids": ["2c92a3bf99", "2f7903e18d", "d542d4c1ad"]
+    },
+    {
+      "id": "charles",
+      "label": "Charles VII",
+      "statement": "Joan fought to restore the Dauphin, Charles VII, and stood by him at his coronation in Reims cathedral in July 1429.",
+      "associations": ["Charles VII", "Dauphin", "Reims", "1429 coronation"],
+      "clue_ids": ["dbe72448b7", "013990397d", "be46fc50eb"]
+    },
+    {
+      "id": "rouen",
+      "label": "Rouen",
+      "statement": "Joan was burned at the stake in 1431 at the Place du Vieux-Marche in Rouen, on the Seine.",
+      "associations": ["Rouen", "1431", "burned at the stake", "Place du Vieux-Marche"],
+      "clue_ids": ["14b4c49fb7", "c4721b5e17"]
+    },
+    {
+      "id": "seine",
+      "label": "the Seine",
+      "statement": "Joan's ashes were thrown into the Seine after her execution, according to tradition.",
+      "associations": ["the Seine", "ashes", "execution"],
+      "clue_ids": ["da179415f7", "61c90c3ba3"]
+    },
+    {
+      "id": "saint-joan",
+      "label": "Saint Joan",
+      "statement": "Joan was canonized in 1920; George Bernard Shaw's play Saint Joan opened in 1923.",
+      "associations": ["canonized 1920", "Saint Joan", "George Bernard Shaw"],
+      "clue_ids": ["7530ff9513", "14859911f2"]
+    },
+    {
+      "id": "twain",
+      "label": "Personal Recollections of Joan of Arc",
+      "statement": "Mark Twain wrote Personal Recollections of Joan of Arc and called it, oddly, his favorite of his own works.",
+      "associations": ["Mark Twain", "Personal Recollections", "favorite work"],
+      "clue_ids": ["164545456d", "4e5b81a6ee"]
+    },
+    {
+      "id": "banner",
+      "label": "Jhesus Maria banner",
+      "statement": "Joan carried a banner sprinkled with lilies and inscribed 'Jhesus Maria'; Shakespeare's Henry VI calls her a holy prophetess.",
+      "associations": ["Jhesus Maria", "banner of lilies", "Henry VI, Part I"],
+      "clue_ids": ["7e4687835a", "8ee380608a"]
+    }
+  ],
+  "clue_ids": [
+    "2c92a3bf99", "2f7903e18d", "d542d4c1ad", "dbe72448b7", "013990397d",
+    "be46fc50eb", "14b4c49fb7", "c4721b5e17", "da179415f7", "61c90c3ba3",
+    "7530ff9513", "14859911f2", "164545456d", "4e5b81a6ee", "7e4687835a",
+    "8ee380608a"
+  ],
+  "related": ["france", "william-shakespeare", "mark-twain"]
+}

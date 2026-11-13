@@ -1,0 +1,65 @@
+{
+  "id": "alice-s-adventures-in-wonderland",
+  "name": "Alice's Adventures in Wonderland",
+  "deck": "literature",
+  "aliases": ["Alice in Wonderland", "Lewis Carroll"],
+  "hook": "A math lecturer's dream logic: a rabbit hole, a grinning cat, and words Carroll invented.",
+  "facts": [
+    {
+      "id": "carroll",
+      "label": "Lewis Carroll",
+      "statement": "Lewis Carroll was the pen name of Oxford mathematician Charles Dodgson, who Latinized and reversed his names and appears in the book as the Dodo.",
+      "associations": ["Charles Dodgson", "pen name", "the Dodo"],
+      "clue_ids": ["bfe80c9057", "dd5909d0be"]
+    },
+    {
+      "id": "alice",
+      "label": "Alice",
+      "statement": "Alice is named for Alice Liddell, daughter of the dean of Christ Church, whom Carroll entertained with the story.",
+      "associations": ["Alice Liddell", "Christ Church", "dean's daughter"],
+      "clue_ids": ["32771224e2", "e2e8b78968"]
+    },
+    {
+      "id": "white-rabbit",
+      "label": "the White Rabbit",
+      "statement": "The White Rabbit, anxious about being late, carries a pocket watch and leads Alice down the rabbit hole.",
+      "associations": ["pocket watch", "late", "rabbit hole"],
+      "clue_ids": ["3023c371e3", "4b139edc71"]
+    },
+    {
+      "id": "cheshire-cat",
+      "label": "the Cheshire Cat",
+      "statement": "The Cheshire Cat grins and vanishes slowly, ending with the tail; he is named for the county where Carroll was born.",
+      "associations": ["grin", "vanishes", "Cheshire"],
+      "clue_ids": ["0c4ed314ed", "34610c138f"]
+    },
+    {
+      "id": "mad-hatter",
+      "label": "the Mad Hatter",
+      "statement": "The Mad Hatter asks Alice \"Why is a raven like a writing desk?\" at the tea party, where the March Hare and Dormouse also sit.",
+      "associations": ["tea party", "raven", "March Hare"],
+      "clue_ids": ["a24469ede8", "921e103131", "050d0ae8fd"]
+    },
+    {
+      "id": "jabberwocky",
+      "label": "Jabberwocky",
+      "statement": "\"Jabberwocky\" appears in Through the Looking-Glass, where Humpty Dumpty explains its invented words like \"chortle\" and \"bandersnatch\".",
+      "associations": ["Through the Looking-Glass", "Humpty Dumpty", "chortle"],
+      "clue_ids": ["fdcaecdd1f", "fb4ad1fd3a", "0c928812f0"]
+    },
+    {
+      "id": "queen",
+      "label": "the Queen of Hearts",
+      "statement": "The Queen of Hearts shouts \"Off with her head!\" and presides over the trial \"Who Stole the Tarts?\" in Chapter XI.",
+      "associations": ["Off with her head", "Who Stole the Tarts", "trial"],
+      "clue_ids": ["382331a5a9", "c52dd71033"]
+    }
+  ],
+  "clue_ids": [
+    "bfe80c9057", "dd5909d0be", "32771224e2", "e2e8b78968", "3023c371e3",
+    "4b139edc71", "0c4ed314ed", "34610c138f", "a24469ede8", "921e103131",
+    "050d0ae8fd", "fdcaecdd1f", "fb4ad1fd3a", "0c928812f0", "382331a5a9",
+    "c52dd71033"
+  ],
+  "related": ["the-wizard-of-oz", "harry-potter"]
+}

@@ -1,0 +1,67 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Restore corpus
+        run: |
+          mkdir -p data/work
+          gzip -dc data/corpus/clues.jsonl.gz > data/work/clues.jsonl
+
+      - name: Validate curated packs
+        run: python3 pipeline/validate_packs.py
+
+      - name: Generate site data
+        run: python3 pipeline/site_data.py
+
+      - name: Unit tests
+        run: node --test tests/
+
+      - name: Build static site
+        env:
+          BASE_PATH: /trivia/
+        run: node site/build.mjs
+
+      - name: Check links and payloads
+        env:
+          BASE_PATH: /trivia/
+        run: node scripts/check.mjs
+
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

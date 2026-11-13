@@ -1,0 +1,65 @@
+{
+  "id": "rembrandt",
+  "name": "Rembrandt",
+  "deck": "arts",
+  "aliases": ["Rembrandt van Rijn"],
+  "hook": "The Dutch master of light: one night watch, one anatomy lesson, and hundreds of etchings.",
+  "facts": [
+    {
+      "id": "night-watch",
+      "label": "The Night Watch",
+      "statement": "The Night Watch (1642), officially the company of Captain Frans Banning Cocq, hangs in Amsterdam's Rijksmuseum.",
+      "associations": ["The Night Watch", "1642", "Rijksmuseum", "Amsterdam"],
+      "clue_ids": ["ad2c7ebe50", "d78ae0967d", "494023a15c"]
+    },
+    {
+      "id": "anatomy",
+      "label": "The Anatomy Lesson of Dr. Nicolaes Tulp",
+      "statement": "The Anatomy Lesson of Dr. Nicolaes Tulp shows a dissection in Amsterdam, with Dr. Tulp demonstrating the procedure.",
+      "associations": ["The Anatomy Lesson", "Dr. Nicolaes Tulp", "Amsterdam", "dissection"],
+      "clue_ids": ["8bc36c1266"]
+    },
+    {
+      "id": "aristotle",
+      "label": "Aristotle Contemplating the Bust of Homer",
+      "statement": "Aristotle Contemplating the Bust of Homer was one of the few Rembrandt paintings sent abroad during his lifetime.",
+      "associations": ["Aristotle", "Homer", "bust", "sent abroad"],
+      "clue_ids": ["4b5c248112", "747e3f4f0d", "fcb9a24238"]
+    },
+    {
+      "id": "etchings",
+      "label": "his etchings",
+      "statement": "Rembrandt made about 300 etchings, turning an acid-and-metal-plate process into an art form; in his day his print reputation outshone his painting.",
+      "associations": ["etchings", "300 prints", "acid", "metal plates"],
+      "clue_ids": ["7ef095fd32", "9b304e3732", "01d42376ce"]
+    },
+    {
+      "id": "samson",
+      "label": "Samson",
+      "statement": "Rembrandt painted biblical scenes including Samson Threatening His Father-in-Law and The Blinding of Samson.",
+      "associations": ["Samson", "biblical scenes", "The Blinding of Samson"],
+      "clue_ids": ["fd22cbd20c", "1591f6d269"]
+    },
+    {
+      "id": "saskia",
+      "label": "Saskia",
+      "statement": "Saskia, Rembrandt's wife and portrait subject, died three years after the couple moved into his Amsterdam house.",
+      "associations": ["Saskia", "Amsterdam house", "wife", "portrait"],
+      "clue_ids": ["47797fa808"]
+    },
+    {
+      "id": "tulip",
+      "label": "the Rembrandt tulip",
+      "statement": "A streaked variety of tulip is named for Rembrandt; the unusual markings were originally caused by a virus.",
+      "associations": ["Rembrandt tulip", "streaked", "virus"],
+      "clue_ids": ["6dbd5082d0", "c82e9c4088"]
+    }
+  ],
+  "clue_ids": [
+    "12926a0275", "4dcca07af1", "ad2c7ebe50", "fd22cbd20c", "d78ae0967d",
+    "8bc36c1266", "4b5c248112", "494023a15c", "1591f6d269", "747e3f4f0d",
+    "fcb9a24238", "7ef095fd32", "9b304e3732", "01d42376ce", "47797fa808",
+    "6dbd5082d0", "c82e9c4088", "6434c93cb9"
+  ],
+  "related": ["vincent-van-gogh", "michelangelo", "leonardo-da-vinci", "claude-monet"]
+}

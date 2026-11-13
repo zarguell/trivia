@@ -1,0 +1,65 @@
+{
+  "id": "sesame-street",
+  "name": "Sesame Street",
+  "deck": "film-tv",
+  "aliases": [],
+  "hook": "The 1969 public-TV experiment that taught counting, cookies and grouches to generations.",
+  "facts": [
+    {
+      "id": "premiere",
+      "label": "1969",
+      "statement": "Sesame Street premiered in 1969 on public television, produced by the Children's Television Workshop, co-founded by Joan Ganz Cooney.",
+      "associations": ["1969", "PBS", "Children's Television Workshop", "Joan Ganz Cooney"],
+      "clue_ids": ["03cd724b11", "ab96de9516"]
+    },
+    {
+      "id": "big-bird",
+      "label": "Big Bird",
+      "statement": "Big Bird is the giant yellow bird; Caroll Spinney was the original puppeteer for both Big Bird and Oscar the Grouch.",
+      "associations": ["Big Bird", "Caroll Spinney", "yellow bird", "Follow That Bird"],
+      "clue_ids": ["3a76fd815b", "639b946cbc"]
+    },
+    {
+      "id": "oscar",
+      "label": "Oscar the Grouch",
+      "statement": "Oscar the Grouch is the ill-tempered Muppet who lives in a garbage can.",
+      "associations": ["Oscar the Grouch", "garbage can", "ill-tempered"],
+      "clue_ids": ["794f370cba", "34e84d6ab1"]
+    },
+    {
+      "id": "cookie-monster",
+      "label": "Cookie Monster",
+      "statement": "Cookie Monster is the blue Muppet whose catchphrase is \"Me want cookies.\"",
+      "associations": ["Cookie Monster", "Me want cookies", "blue Muppet"],
+      "clue_ids": ["16d3932c10", "ea7608734a"]
+    },
+    {
+      "id": "elmo",
+      "label": "Elmo",
+      "statement": "Elmo is the red Muppet whose Tickle Me Elmo toy became the hottest holiday item of 1996.",
+      "associations": ["Elmo", "Tickle Me Elmo", "1996", "Tyco"],
+      "clue_ids": ["60b0df9ed7", "00e2cf1cf4"]
+    },
+    {
+      "id": "bert-and-ernie",
+      "label": "Bert and Ernie",
+      "statement": "Bert and Ernie are the odd-couple roommates who have shared an apartment since 1969, named after characters in It's a Wonderful Life; Ernie sings \"Rubber Duckie.\"",
+      "associations": ["Bert", "Ernie", "roommates", "It's a Wonderful Life", "Rubber Duckie"],
+      "clue_ids": ["e86f09224c", "779ada6c78", "7eaa849126"]
+    },
+    {
+      "id": "the-count",
+      "label": "The Count",
+      "statement": "The Count is the vampire-style Muppet who loves counting; he played a census taker in a 2020 public service announcement.",
+      "associations": ["The Count", "counting", "census taker", "2020 PSA"],
+      "clue_ids": ["b792fb1d9a"]
+    }
+  ],
+  "clue_ids": [
+    "03cd724b11", "ab96de9516", "3a76fd815b", "639b946cbc", "794f370cba",
+    "34e84d6ab1", "16d3932c10", "ea7608734a", "60b0df9ed7", "00e2cf1cf4",
+    "e86f09224c", "779ada6c78", "65dc9ec1c6", "b792fb1d9a", "0286fce606",
+    "8c7f24f009", "1afc1205f4", "7eaa849126"
+  ],
+  "related": ["i-love-lucy", "the-simpsons"]
+}

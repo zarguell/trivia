@@ -1,0 +1,64 @@
+{
+  "id": "potato",
+  "name": "Potato",
+  "deck": "food-drink",
+  "aliases": ["potatoes"],
+  "hook": "The tuber behind the Irish famine, the Idaho fields and half the world's comfort food.",
+  "facts": [
+    {
+      "id": "ireland",
+      "label": "Ireland",
+      "statement": "The potato reached North America by way of Ireland; in the 1840s late blight, Phytophthora infestans, destroyed the Irish crop and over a million people emigrated to the U.S.",
+      "associations": ["Ireland", "1840s famine", "Phytophthora infestans", "one million emigrants"],
+      "clue_ids": ["407ff021ed", "7c29673bfa", "bba358369a"]
+    },
+    {
+      "id": "andes",
+      "label": "the Andes",
+      "statement": "The potato originated in the Andes; ancient Peruvians ate a wild, toxic form of Solanum tuberosum and used clay to absorb its toxins.",
+      "associations": ["Andes", "Solanum tuberosum", "ancient Peru", "clay"],
+      "clue_ids": ["e6755f8dea"]
+    },
+    {
+      "id": "idaho",
+      "label": "Idaho",
+      "statement": "Idaho, the Gem State, is potato country: Blackfoot hosts the World Potato Exposition, and Mr. Potato Head once ran for mayor of Boise.",
+      "associations": ["Idaho", "Gem State", "Blackfoot", "Boise"],
+      "clue_ids": ["975df717b2", "937d23a352", "b4ffdf39a7"]
+    },
+    {
+      "id": "burbank",
+      "label": "Luther Burbank",
+      "statement": "Horticulturist Luther Burbank developed the potato variety that bears his name and sold it for $150 to fund his move to California.",
+      "associations": ["Luther Burbank", "russet", "$150", "California"],
+      "clue_ids": ["2aa5453b6e", "653e1895ee"]
+    },
+    {
+      "id": "gnocchi",
+      "label": "Gnocchi",
+      "statement": "Gnocchi are little Italian potato dumplings; in Verona they are the symbol of Carnevale, where il papa del gnocchi presides.",
+      "associations": ["gnocchi", "potato dumplings", "Verona", "Carnevale"],
+      "clue_ids": ["02b5ff0f74", "8918f8a8b1"]
+    },
+    {
+      "id": "vichyssoise",
+      "label": "Vichyssoise",
+      "statement": "Vichyssoise is a creamy potato-and-leek soup served cold, credited to French chef Louis Diat at New York's Ritz-Carlton.",
+      "associations": ["vichyssoise", "potato and leek", "served cold", "Louis Diat"],
+      "clue_ids": ["5dfbfe451d", "36742a2f58"]
+    },
+    {
+      "id": "latkes",
+      "label": "Latkes",
+      "statement": "Latkes are Jewish potato pancakes, traditionally eaten at Hanukkah and served with applesauce.",
+      "associations": ["latkes", "potato pancakes", "Hanukkah", "applesauce"],
+      "clue_ids": ["60bfba6473", "1c8f9d98a7"]
+    }
+  ],
+  "clue_ids": [
+    "407ff021ed", "7c29673bfa", "bba358369a", "e6755f8dea", "975df717b2",
+    "937d23a352", "b4ffdf39a7", "2aa5453b6e", "653e1895ee", "02b5ff0f74",
+    "8918f8a8b1", "5dfbfe451d", "36742a2f58", "60bfba6473", "1c8f9d98a7"
+  ],
+  "related": ["tomato", "mcdonald-s", "pizza"]
+}

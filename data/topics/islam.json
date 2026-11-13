@@ -1,0 +1,58 @@
+{
+  "id": "islam",
+  "name": "Islam",
+  "deck": "myth-religion",
+  "aliases": [],
+  "hook": "From \"submission\" to the Kaaba, the Sunni-Shia split and the Sufi mystics.",
+  "facts": [
+    {
+      "id": "submission",
+      "label": "submission to God",
+      "statement": "Islam is Arabic for \"submission,\" specifically submission to the will of God; a follower is a Muslim.",
+      "associations": ["Islam", "submission", "will of God", "Muslim"],
+      "clue_ids": ["9d18dd9714", "da2eac6d50"]
+    },
+    {
+      "id": "muhammad",
+      "label": "Muhammad",
+      "statement": "Muhammad received his first visions from the angel Gabriel in a cave near Mecca, then fled to Medina in 622, the year Islam's calendar begins.",
+      "associations": ["Muhammad", "angel Gabriel", "Mecca", "Medina", "622"],
+      "clue_ids": ["54ecf3d5ee", "853c0f80c9"]
+    },
+    {
+      "id": "sunni-shia",
+      "label": "Sunni and Shia",
+      "statement": "Sunni is the largest branch, about 90 percent of Saudi Arabia; Shia is the second-largest and the state religion of Iran.",
+      "associations": ["Sunni", "Shia", "Saudi Arabia", "Iran"],
+      "clue_ids": ["a806013eab", "96bf40a2a7", "898fc22245"]
+    },
+    {
+      "id": "kaaba",
+      "label": "the Kaaba",
+      "statement": "The Kaaba is Islam's cube-shaped central shrine in Mecca, built around the Black Stone and the goal of the hajj pilgrimage.",
+      "associations": ["Kaaba", "Black Stone", "Mecca", "hajj"],
+      "clue_ids": ["46f66cca04", "2eabb298ab"]
+    },
+    {
+      "id": "sufism",
+      "label": "Sufism",
+      "statement": "Sufism is Islam's mystical form, called Tasawwuf, \"to dress in wool\"; it began around 800 partly with a woman from Basra.",
+      "associations": ["Sufism", "Tasawwuf", "mysticism", "Basra"],
+      "clue_ids": ["95b2e91f6d", "693a6ea719"]
+    },
+    {
+      "id": "nation-of-islam",
+      "label": "the Nation of Islam",
+      "statement": "The Nation of Islam produced Malcolm X, who converted in prison in the 1950s, and Louis Farrakhan, a former Calypso singer who led the 1995 Million Man March.",
+      "associations": ["Nation of Islam", "Malcolm X", "Louis Farrakhan", "Million Man March"],
+      "clue_ids": ["67ea1e7a19", "dcb557cbb2", "9017116ddf"]
+    }
+  ],
+  "clue_ids": [
+    "9d18dd9714", "da2eac6d50", "54ecf3d5ee", "853c0f80c9", "a806013eab",
+    "96bf40a2a7", "898fc22245", "8f15a6bffa", "46f66cca04", "2eabb298ab",
+    "95b2e91f6d", "693a6ea719", "c51fa25590", "67ea1e7a19", "dcb557cbb2",
+    "9017116ddf", "12d2aa4492", "12871e70bc"
+  ],
+  "related": ["moses", "garden-of-eden"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "meryl-streep",
+  "name": "Meryl Streep",
+  "deck": "film-tv",
+  "aliases": [],
+  "hook": "A chameleon who disappears into accents, from Sophie's Choice to The Devil Wears Prada.",
+  "facts": [
+    {
+      "id": "kramer-vs-kramer",
+      "label": "Kramer vs. Kramer",
+      "statement": "Kramer vs. Kramer (1979) cast Dustin Hoffman and Streep as the divorcing title couple; Justin Henry earned an Oscar nomination as their son.",
+      "associations": ["Kramer vs. Kramer", "Dustin Hoffman", "Justin Henry"],
+      "clue_ids": ["978d0f403f", "9d0b30f708"]
+    },
+    {
+      "id": "sophies-choice",
+      "label": "Sophie's Choice",
+      "statement": "For Sophie's Choice (1982) Streep learned German and Polish; the film was Kevin Kline's debut.",
+      "associations": ["Sophie's Choice", "1982", "German and Polish", "Kevin Kline"],
+      "clue_ids": ["8faab8d046", "2a6ec708a0"]
+    },
+    {
+      "id": "prada",
+      "label": "The Devil Wears Prada",
+      "statement": "In The Devil Wears Prada (2006) she plays Runway editor Miranda Priestly and delivers the cerulean-blue rant.",
+      "associations": ["The Devil Wears Prada", "Miranda Priestly", "cerulean blue", "Runway"],
+      "clue_ids": ["e8999b693b", "20dc1dc04b"]
+    },
+    {
+      "id": "julie-julia",
+      "label": "Julie & Julia",
+      "statement": "Julie & Julia (2009) has Streep as Julia Child, with Mastering the Art of French Cooking at its heart and Amy Adams as Julie.",
+      "associations": ["Julie & Julia", "Julia Child", "Amy Adams"],
+      "clue_ids": ["86d48c85d9", "c9a5c7e4fa"]
+    },
+    {
+      "id": "mamma-mia",
+      "label": "Mamma Mia!",
+      "statement": "Mamma Mia! (2008) had her singing the ABBA title song while her character's daughter sorts out three possible fathers.",
+      "associations": ["Mamma Mia!", "ABBA", "2008"],
+      "clue_ids": ["e272aee893", "8e9588dfef"]
+    },
+    {
+      "id": "out-of-africa",
+      "label": "Out of Africa",
+      "statement": "Out of Africa (1985), the only Best Picture winner with a continent in its title, has Klaus Maria Brandauer as Bror Blixen opposite Streep.",
+      "associations": ["Out of Africa", "Best Picture", "Bror Blixen"],
+      "clue_ids": ["ed4da35de8", "83a10dbbeb"]
+    },
+    {
+      "id": "vassar",
+      "label": "Vassar",
+      "statement": "Streep acted in a campus production of Miss Julie at Vassar, then trained at Yale School of Drama.",
+      "associations": ["Vassar", "Miss Julie", "Yale School of Drama"],
+      "clue_ids": ["57c9e5d173", "ece39a0892"]
+    }
+  ],
+  "clue_ids": [
+    "8178cf3a7d", "eec2aa9abb", "86d48c85d9", "9d0b30f708", "e8999b693b",
+    "20dc1dc04b", "8faab8d046", "2a6ec708a0", "83a10dbbeb", "c9a5c7e4fa",
+    "e272aee893", "8e9588dfef", "978d0f403f", "ed4da35de8", "7bca3e0158",
+    "d94cf596fe", "57c9e5d173"
+  ],
+  "related": ["tom-hanks", "academy-awards", "audrey-hepburn"]
+}

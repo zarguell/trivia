@@ -1,0 +1,136 @@
+{
+  "id": "ten-commandments",
+  "name": "Ten Commandments",
+  "deck": "myth-religion",
+  "aliases": [],
+  "hook": "Moses, Mount Sinai and the two Cecil B. DeMille epics that fixed them on film.",
+  "facts": [
+    {
+      "id": "sinai",
+      "label": "Mount Sinai",
+      "statement": "Moses receives the commandments on Mount Sinai, also called Mount Horeb; Jabal Musa, 7,497 feet high, is traditionally identified as the peak.",
+      "associations": [
+        "Moses",
+        "Mount Sinai",
+        "Mount Horeb",
+        "Jabal Musa"
+      ],
+      "clue_ids": [
+        "e21ddfa864",
+        "ce4fa1434d"
+      ]
+    },
+    {
+      "id": "exodus",
+      "label": "Exodus",
+      "statement": "The commandments first appear in the Book of Exodus, and their other name, the Decalogue, comes from Greek for 'ten words.'",
+      "associations": [
+        "Book of Exodus",
+        "Decalogue",
+        "ten words"
+      ],
+      "clue_ids": [
+        "2c92bfd640",
+        "5453174636"
+      ]
+    },
+    {
+      "id": "tablets",
+      "label": "the tablets",
+      "statement": "Moses breaks the first set of tablets when he sees the golden calf; the second set is kept in the Ark of the Covenant.",
+      "associations": [
+        "golden calf",
+        "tablets",
+        "Ark of the Covenant"
+      ],
+      "clue_ids": [
+        "17d144a414",
+        "faa76096b2"
+      ]
+    },
+    {
+      "id": "sabbath",
+      "label": "the sabbath",
+      "statement": "The fourth commandment says 'Remember the sabbath day, to keep it holy'; another tells children to honor their father and mother.",
+      "associations": [
+        "sabbath",
+        "honor thy father and mother",
+        "fourth commandment"
+      ],
+      "clue_ids": [
+        "d49f101875",
+        "9daa3076b5"
+      ]
+    },
+    {
+      "id": "demille",
+      "label": "Cecil B. DeMille",
+      "statement": "DeMille directed both the 1923 silent epic and the 1956 remake, and The Ten Commandments was the last film he directed.",
+      "associations": [
+        "Cecil B. DeMille",
+        "1923",
+        "1956"
+      ],
+      "clue_ids": [
+        "3f9d32cb8b",
+        "cf816a7118",
+        "3deefc39ab"
+      ]
+    },
+    {
+      "id": "heston",
+      "label": "Charlton Heston",
+      "statement": "Charlton Heston plays Moses in the 1956 film and also supplies God's slowed-down burning-bush voice.",
+      "associations": [
+        "Charlton Heston",
+        "Moses",
+        "burning bush"
+      ],
+      "clue_ids": [
+        "a36f6060c3",
+        "f7b0a03418"
+      ]
+    },
+    {
+      "id": "cast",
+      "label": "the 1956 cast",
+      "statement": "Edward G. Robinson plays the sneering Dathan, Yvonne De Carlo plays Moses' wife, and John Carradine plays Aaron in the 1956 film.",
+      "associations": [
+        "Edward G. Robinson",
+        "Yvonne De Carlo",
+        "John Carradine",
+        "Dathan"
+      ],
+      "clue_ids": [
+        "7d6f785bde",
+        "c1ba38006e",
+        "57d51db642"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "e21ddfa864",
+    "ce4fa1434d",
+    "2c92bfd640",
+    "5453174636",
+    "17d144a414",
+    "faa76096b2",
+    "d49f101875",
+    "9daa3076b5",
+    "3f9d32cb8b",
+    "cf816a7118",
+    "3deefc39ab",
+    "a36f6060c3",
+    "f7b0a03418",
+    "7d6f785bde",
+    "c1ba38006e",
+    "57d51db642",
+    "952aed1767",
+    "7c7b65f898"
+  ],
+  "related": [
+    "moses",
+    "ancient-egypt",
+    "jerusalem"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "moon",
+  "name": "Moon",
+  "deck": "science",
+  "aliases": [
+    "the Moon"
+  ],
+  "hook": "Apollo, the tides and the Moon itself: a small set of facts covers decades of lunar clues.",
+  "facts": [
+    {
+      "id": "apollo-11",
+      "label": "Apollo 11",
+      "statement": "Apollo 11 landed the first people on the Moon in July 1969: Neil Armstrong and Buzz Aldrin walked while Michael Collins orbited in Columbia, and their lunar module was the Eagle.",
+      "associations": [
+        "July 1969",
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "the Eagle"
+      ],
+      "clue_ids": [
+        "4994878621",
+        "89616b00e7"
+      ]
+    },
+    {
+      "id": "shepard",
+      "label": "Alan Shepard",
+      "statement": "Alan Shepard was the oldest man to walk on the Moon and the only World War II veteran to do so; he also hit a golf ball there.",
+      "associations": [
+        "oldest moonwalker",
+        "golf",
+        "World War II veteran"
+      ],
+      "clue_ids": [
+        "02b16094f5",
+        "5d64ec53c5"
+      ]
+    },
+    {
+      "id": "aldrin",
+      "label": "Buzz Aldrin",
+      "statement": "Buzz Aldrin was the second man on the Moon; after the 1969 walk he wrote Return to Earth.",
+      "associations": [
+        "second man",
+        "Return to Earth",
+        "1969"
+      ],
+      "clue_ids": [
+        "21e42a493a",
+        "bd3aa774c2"
+      ]
+    },
+    {
+      "id": "tides",
+      "label": "the tides",
+      "statement": "The Moon and Sun drive Earth's tides; Galileo wrongly blamed them on Earth's orbit rather than the Moon's pull.",
+      "associations": [
+        "tides",
+        "Moon and Sun",
+        "Galileo"
+      ],
+      "clue_ids": [
+        "eeabc33e0e",
+        "11de8f8106"
+      ]
+    },
+    {
+      "id": "apollo-13",
+      "label": "Apollo 13",
+      "statement": "Apollo 13 had to swing back to Earth without landing after an oxygen tank ruptured.",
+      "associations": [
+        "oxygen tank",
+        "failed landing",
+        "1970"
+      ],
+      "clue_ids": [
+        "9e93fd365d"
+      ]
+    },
+    {
+      "id": "saturn-v",
+      "label": "Saturn V",
+      "statement": "The Saturn V rocket, based on a concept by Wernher von Braun, sent the Apollo missions to the Moon.",
+      "associations": [
+        "Wernher von Braun",
+        "Apollo",
+        "rocket"
+      ],
+      "clue_ids": [
+        "d2e94dbf8a"
+      ]
+    },
+    {
+      "id": "galileo",
+      "label": "Galileo's experiment",
+      "statement": "In 1971 an astronaut on the Moon repeated Galileo's falling-body experiment and declared that Galileo had been correct.",
+      "associations": [
+        "Galileo",
+        "1971",
+        "falling bodies"
+      ],
+      "clue_ids": [
+        "e7ca07d515"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "4994878621",
+    "89616b00e7",
+    "02b16094f5",
+    "5d64ec53c5",
+    "21e42a493a",
+    "bd3aa774c2",
+    "eeabc33e0e",
+    "11de8f8106",
+    "9e93fd365d",
+    "d2e94dbf8a",
+    "e7ca07d515",
+    "a059d89ed1"
+  ],
+  "related": [
+    "apollo-11",
+    "solar-system"
+  ]
+}

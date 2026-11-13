@@ -1,0 +1,64 @@
+{
+  "id": "the-scream",
+  "name": "The Scream",
+  "deck": "arts",
+  "aliases": ["Edvard Munch", "Munch"],
+  "hook": "Munch's howling figure is the world's most stolen masterpiece — and every clue is about the theft or the man.",
+  "facts": [
+    {
+      "id": "munch",
+      "label": "Edvard Munch",
+      "statement": "Edvard Munch was a Norwegian painter born in 1863 in Loten, Norway; he painted The Scream in 1893.",
+      "associations": ["Edvard Munch", "Norwegian", "1863", "1893"],
+      "clue_ids": ["2708f8524e", "3c6aaf8e9c"]
+    },
+    {
+      "id": "the-scream",
+      "label": "The Scream",
+      "statement": "The Scream shows a figure with an open mouth against a red sky; experts concluded Munch wrote \"Could only have been painted by a madman\" on one version.",
+      "associations": ["The Scream", "open mouth", "madman inscription"],
+      "clue_ids": ["2fb648a78a", "32b4a3adcb"]
+    },
+    {
+      "id": "krakatoa",
+      "label": "Krakatoa",
+      "statement": "The red sky in The Scream may record debris in Oslo's air from the 1883 eruption of Krakatoa, halfway around the world.",
+      "associations": ["red sky", "Krakatoa", "volcano"],
+      "clue_ids": ["15fcc1f30d"]
+    },
+    {
+      "id": "thefts",
+      "label": "the art thefts",
+      "statement": "The Scream was stolen from Oslo's National Gallery in 1994, just before the Winter Olympics, and recovered three months later; the Munch Museum lost The Scream and Madonna in 2004.",
+      "associations": ["1994 theft", "2004 theft", "Oslo National Gallery", "Munch Museum"],
+      "clue_ids": ["32b4a3adcb", "353513d3cf", "0f11ce7ec3"]
+    },
+    {
+      "id": "oslo",
+      "label": "Oslo",
+      "statement": "Munch bequeathed his works to Oslo, where the Munch Museum displays them; a walking tour there visits his tomb.",
+      "associations": ["Oslo", "Munch Museum", "Norway"],
+      "clue_ids": ["5b4de922f8", "ddd27aaa81", "08c944375c"]
+    },
+    {
+      "id": "expressionism",
+      "label": "Expressionism",
+      "statement": "Munch was a pioneer of Expressionism, using color and line in a highly personal way to convey emotion.",
+      "associations": ["Expressionism", "emotion", "color and line"],
+      "clue_ids": ["a47c72a7ad", "1c6846863f"]
+    },
+    {
+      "id": "sick-child",
+      "label": "The Sick Child",
+      "statement": "Munch finished The Sick Child in 1886; after a 1908 breakdown he became more positive and painted murals for the University of Oslo.",
+      "associations": ["The Sick Child", "1886", "1908 breakdown", "University of Oslo"],
+      "clue_ids": ["8f9fa9d5e9", "6e0de604df"]
+    }
+  ],
+  "clue_ids": [
+    "2708f8524e", "3c6aaf8e9c", "2fb648a78a", "32b4a3adcb", "353513d3cf",
+    "0f11ce7ec3", "5b4de922f8", "ddd27aaa81", "08c944375c", "a47c72a7ad",
+    "1c6846863f", "8f9fa9d5e9", "6e0de604df", "15fcc1f30d"
+  ],
+  "related": ["vincent-van-gogh", "mona-lisa", "salvador-dali"]
+}

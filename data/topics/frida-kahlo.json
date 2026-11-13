@@ -1,0 +1,56 @@
+{
+  "id": "frida-kahlo",
+  "name": "Frida Kahlo",
+  "deck": "arts",
+  "aliases": [],
+  "hook": "Mexico's most famous woman painter — self-portraits, Diego Rivera and the Blue House.",
+  "facts": [
+    {
+      "id": "mexican-artist",
+      "label": "Mexican artist",
+      "statement": "Frida Kahlo was a Mexican painter born in Coyoacán in Mexico City, where her Blue House, the Casa Azul, is now the Frida Kahlo Museum.",
+      "associations": ["Mexican", "Coyoacán", "Casa Azul", "Mexico City"],
+      "clue_ids": ["aeab914214", "d4cb57c2f6", "d9c2649fc1"]
+    },
+    {
+      "id": "diego-rivera",
+      "label": "Diego Rivera",
+      "statement": "She married muralist Diego Rivera in 1929 and remarried him in 1941 after a separation — a joke said he wed her twice.",
+      "associations": ["Diego Rivera", "1929", "1941", "muralist"],
+      "clue_ids": ["c8c0742039", "c354df0727"]
+    },
+    {
+      "id": "self-portraits",
+      "label": "self-portraits",
+      "statement": "She is famous for her many self-portraits, including a 1937 one dedicated to Leon Trotsky, the Russian exile who stayed with her.",
+      "associations": ["self-portrait", "Leon Trotsky", "1937", "rebozo"],
+      "clue_ids": ["1fb48b6ad1", "a0404e06b1"]
+    },
+    {
+      "id": "diego-and-i",
+      "label": "\"Diego and I\"",
+      "statement": "\"Diego and I\" was the first painting by a Latin American artist to sell for more than $1 million.",
+      "associations": ["Diego and I", "$1 million", "auction record"],
+      "clue_ids": ["d6c5dfdd0e"]
+    },
+    {
+      "id": "viva-la-vida",
+      "label": "\"Viva la Vida\"",
+      "statement": "Her painting \"Viva la Vida\" inspired the title of Coldplay's 2008 No. 1 hit of the same name.",
+      "associations": ["Viva la Vida", "Coldplay", "2008 hit"],
+      "clue_ids": ["2933db9735"]
+    },
+    {
+      "id": "fulang-chang",
+      "label": "Fulang-Chang",
+      "statement": "Her self-portrait \"Fulang-Chang and I\" shows her pet monkey Fulang-Chang wearing a ribbon.",
+      "associations": ["Fulang-Chang", "monkey", "pet", "self-portrait"],
+      "clue_ids": ["d5a4607f4a"]
+    }
+  ],
+  "clue_ids": [
+    "1fb48b6ad1", "d6c5dfdd0e", "d4cb57c2f6", "c8c0742039", "c354df0727",
+    "aeab914214", "2933db9735", "d5a4607f4a", "a0404e06b1", "d9c2649fc1"
+  ],
+  "related": ["mona-lisa", "vincent-van-gogh", "mexico"]
+}

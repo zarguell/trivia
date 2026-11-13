@@ -1,0 +1,58 @@
+{
+  "id": "the-godfather",
+  "name": "The Godfather",
+  "deck": "film-tv",
+  "aliases": ["Godfather"],
+  "hook": "A 1972 Best Picture winner whose lines, cast, and family saga Jeopardy keeps returning to.",
+  "facts": [
+    {
+      "id": "author",
+      "label": "Mario Puzo",
+      "statement": "Mario Puzo wrote the 1969 novel, prompted by needing money for his five children; Francis Ford Coppola co-wrote and directed the 1972 film.",
+      "associations": ["Mario Puzo", "Francis Ford Coppola", "1969 novel"],
+      "clue_ids": ["02ed5a3227", "f5863c34e6", "f9025575c6"]
+    },
+    {
+      "id": "vito",
+      "label": "Marlon Brando",
+      "statement": "Marlon Brando played Vito Corleone, the don whose offer you can't refuse; Puzo wrote to him saying he was the only actor for the part.",
+      "associations": ["Marlon Brando", "Vito Corleone", "offer you can't refuse"],
+      "clue_ids": ["a792ac7a8f", "c237606f9d", "308b56ddd0"]
+    },
+    {
+      "id": "michael",
+      "label": "Al Pacino",
+      "statement": "Al Pacino played Michael Corleone in all three films, including the kiss for his betraying brother Fredo in Part II.",
+      "associations": ["Al Pacino", "Michael Corleone", "Fredo"],
+      "clue_ids": ["7f38fe82e8", "1863221bb6"]
+    },
+    {
+      "id": "best-picture",
+      "label": "1972 Best Picture",
+      "statement": "The Godfather won the 1972 Best Picture Oscar; it and its sequel are tied with On the Waterfront at three Best Supporting Actor nominations each.",
+      "associations": ["1972", "Best Picture", "On the Waterfront"],
+      "clue_ids": ["28f8d8d567", "b2be8a4e85"]
+    },
+    {
+      "id": "coppola-family",
+      "label": "Talia Shire and Sofia Coppola",
+      "statement": "Francis Ford Coppola cast his sister Talia Shire as Connie and his daughter Sofia as the infant baptized in the first film; Sofia later played Michael's daughter Mary in Part III.",
+      "associations": ["Talia Shire", "Sofia Coppola", "Connie Corleone", "Mary Corleone"],
+      "clue_ids": ["0b71e28c3d", "95561ca8cd", "3e60593f28"]
+    },
+    {
+      "id": "part-three",
+      "label": "The Godfather Part III",
+      "statement": "Part III sends Michael to Sicily for Cavalleria rusticana, introduces Andy Garcia as Vincent Mancini, and gives the line \"friendship and money — oil and water.\"",
+      "associations": ["Andy Garcia", "Vincent Mancini", "Sicily", "oil and water"],
+      "clue_ids": ["fc7bde7f9b", "d477c1e9d5", "0f686a6559"]
+    }
+  ],
+  "clue_ids": [
+    "28f8d8d567", "b2be8a4e85", "f9025575c6", "1863221bb6", "0b71e28c3d",
+    "dbcc8a1677", "c237606f9d", "3a2ae68c0f", "f5863c34e6", "02ed5a3227",
+    "95561ca8cd", "7f38fe82e8", "3e60593f28", "54ee7ac46f", "308b56ddd0",
+    "a792ac7a8f", "fc7bde7f9b", "fc9052199c"
+  ],
+  "related": ["casablanca", "steven-spielberg", "academy-awards"]
+}

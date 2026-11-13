@@ -1,0 +1,135 @@
+{
+  "id": "dracula",
+  "name": "Dracula",
+  "deck": "literature",
+  "aliases": [
+    "Bram Stoker",
+    "Stoker"
+  ],
+  "hook": "The 1897 vampire novel that invented the modern Count — by a writer who never saw Romania.",
+  "facts": [
+    {
+      "id": "stoker",
+      "label": "Bram Stoker",
+      "statement": "Bram Stoker was a Dublin-born drama critic who managed an actor's tour of America but never visited Romania; Dracula appeared in 1897.",
+      "associations": [
+        "Bram Stoker",
+        "Dublin",
+        "1897",
+        "never visited Romania"
+      ],
+      "clue_ids": [
+        "53d5dc1ead",
+        "bfb8ce4d9c"
+      ]
+    },
+    {
+      "id": "harker",
+      "label": "Jonathan Harker",
+      "statement": "Jonathan Harker is the young solicitor whose journal opens the novel as he travels to the Count's castle in the Carpathians.",
+      "associations": [
+        "Jonathan Harker",
+        "solicitor",
+        "Carpathians",
+        "journal"
+      ],
+      "clue_ids": [
+        "cbd5e52bb9"
+      ]
+    },
+    {
+      "id": "vlad",
+      "label": "Vlad the Impaler",
+      "statement": "Vlad the Impaler, a 15th-century prince of Wallachia in present-day Romania, is the historical Dracula; Bran Castle is linked to the novel.",
+      "associations": [
+        "Vlad the Impaler",
+        "Wallachia",
+        "Romania",
+        "Bran Castle"
+      ],
+      "clue_ids": [
+        "1458e6e77c",
+        "53f8585699",
+        "d1654cff4d"
+      ]
+    },
+    {
+      "id": "van-helsing",
+      "label": "Van Helsing",
+      "statement": "Van Helsing is the Dutch physician and vampire expert who leads the group that destroys Dracula.",
+      "associations": [
+        "Van Helsing",
+        "Dutch physician",
+        "vampire expert"
+      ],
+      "clue_ids": [
+        "65541cef55",
+        "ffa1ac89f9"
+      ]
+    },
+    {
+      "id": "nosferatu",
+      "label": "Nosferatu",
+      "statement": "The 1922 German silent film was an unlicensed adaptation, and its producer was accused of ripping off Stoker's novel.",
+      "associations": [
+        "Nosferatu",
+        "1922",
+        "silent film"
+      ],
+      "clue_ids": [
+        "e64eb91cd6"
+      ]
+    },
+    {
+      "id": "lugosi",
+      "label": "Bela Lugosi",
+      "statement": "Hungarian-born Bela Lugosi starred in the 1931 film and was offered Frankenstein's monster before Boris Karloff.",
+      "associations": [
+        "Bela Lugosi",
+        "1931",
+        "Boris Karloff"
+      ],
+      "clue_ids": [
+        "41d911e7ce",
+        "bcdab2d358"
+      ]
+    },
+    {
+      "id": "white-worm",
+      "label": "The Lair of the White Worm",
+      "statement": "The Lair of the White Worm is another Stoker horror novel, named for a colorful snakelike creature.",
+      "associations": [
+        "The Lair of the White Worm",
+        "snakelike creature"
+      ],
+      "clue_ids": [
+        "7bfe052bd9",
+        "f0b7852744"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "53d5dc1ead",
+    "bfb8ce4d9c",
+    "cbd5e52bb9",
+    "1458e6e77c",
+    "53f8585699",
+    "d1654cff4d",
+    "65541cef55",
+    "ffa1ac89f9",
+    "e64eb91cd6",
+    "41d911e7ce",
+    "bcdab2d358",
+    "7bfe052bd9",
+    "f0b7852744",
+    "ebde473227",
+    "c02300bfbc",
+    "6a4363d7b7",
+    "eb0a2a1f03"
+  ],
+  "related": [
+    "frankenstein",
+    "edgar-allan-poe",
+    "sherlock-holmes"
+  ]
+}

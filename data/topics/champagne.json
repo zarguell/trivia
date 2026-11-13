@@ -1,0 +1,64 @@
+{
+  "id": "champagne",
+  "name": "Champagne",
+  "deck": "food-drink",
+  "aliases": [],
+  "hook": "The French sparkling wine with its own monk, glass, bottle sizes and cocktail canon.",
+  "facts": [
+    {
+      "id": "dom-perignon",
+      "label": "Dom Pérignon",
+      "statement": "Dom Pérignon was a 17th-century monk and cellar master at the Abbey of Hautvillers; Moët & Chandon introduced the champagne brand named for him in 1936.",
+      "associations": ["Dom Pérignon", "Hautvillers", "Moët & Chandon", "1936"],
+      "clue_ids": ["54631018e4", "e5244bce4a"]
+    },
+    {
+      "id": "brut",
+      "label": "brut",
+      "statement": "Brut is the term for a dry champagne; \"extra brut\" means even drier.",
+      "associations": ["brut", "dry champagne", "extra brut"],
+      "clue_ids": ["36e570ac53", "c1c54f9ac5"]
+    },
+    {
+      "id": "flute",
+      "label": "the flute",
+      "statement": "Champagne is served in a flute, a tall stemmed glass that shares its name with a musical instrument and a column groove.",
+      "associations": ["flute", "champagne glass", "musical instrument"],
+      "clue_ids": ["746346d6e2", "7b59726f11"]
+    },
+    {
+      "id": "magnum",
+      "label": "a magnum",
+      "statement": "A magnum holds 1.5 liters of champagne — twice the standard bottle.",
+      "associations": ["magnum", "1.5 liters", "two bottles"],
+      "clue_ids": ["6f4760eee5", "23033490b4"]
+    },
+    {
+      "id": "french-75",
+      "label": "French 75",
+      "statement": "The French 75 is champagne and gin, named for the 75mm field gun of World War I.",
+      "associations": ["French 75", "champagne and gin", "WWI field gun"],
+      "clue_ids": ["2cc33daf18", "b80914cd97"]
+    },
+    {
+      "id": "mimosa",
+      "label": "mimosa",
+      "statement": "A mimosa is champagne mixed with orange juice, often served at brunch.",
+      "associations": ["mimosa", "orange juice", "brunch"],
+      "clue_ids": ["d34bef8097", "52cd242ab6"]
+    },
+    {
+      "id": "cole-porter",
+      "label": "Cole Porter",
+      "statement": "Cole Porter wrote \"I Get a Kick Out of You,\" with its line \"I get no kick from champagne.\"",
+      "associations": ["Cole Porter", "I Get a Kick Out of You", "lyric"],
+      "clue_ids": ["c5d48307eb", "004bde3a55"]
+    }
+  ],
+  "clue_ids": [
+    "54631018e4", "e5244bce4a", "36e570ac53", "c1c54f9ac5", "746346d6e2",
+    "7b59726f11", "6f4760eee5", "23033490b4", "2cc33daf18", "b80914cd97",
+    "d34bef8097", "52cd242ab6", "c5d48307eb", "004bde3a55"
+  ],
+  "related": ["guinness", "coca-cola"]
+}

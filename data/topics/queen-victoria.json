@@ -1,0 +1,64 @@
+{
+  "id": "queen-victoria",
+  "name": "Queen Victoria",
+  "deck": "world-culture",
+  "aliases": [],
+  "hook": "Britain's longest-reigning monarch before Elizabeth II, and the family, ministers and habits around her.",
+  "facts": [
+    {
+      "id": "reign",
+      "label": "1837 to 1901",
+      "statement": "Victoria reigned from 1837 to 1901; when she died on January 22, 1901, Henry James wrote that everyone felt 'a bit motherless.'",
+      "associations": ["1837", "1901", "Henry James"],
+      "clue_ids": ["b83518bf57"]
+    },
+    {
+      "id": "albert",
+      "label": "Prince Albert",
+      "statement": "Prince Albert was her German-born husband and consort; he popularized the Christmas tree and co-designed Osborne House.",
+      "associations": ["Prince Albert", "German-born", "Christmas tree", "Osborne House"],
+      "clue_ids": ["f4153c4232", "d16684ec41", "d6f75b0e68"]
+    },
+    {
+      "id": "edward-vii",
+      "label": "Edward VII",
+      "statement": "Her eldest son succeeded her in 1901 as Edward VII.",
+      "associations": ["Edward VII", "1901", "eldest son"],
+      "clue_ids": ["a5078bf3b1", "751099bd6d"]
+    },
+    {
+      "id": "disraeli",
+      "label": "Benjamin Disraeli",
+      "statement": "Benjamin Disraeli was her favorite prime minister — a novelist-turned-politician, twice PM, made Earl of Beaconsfield in 1876.",
+      "associations": ["Disraeli", "Earl of Beaconsfield", "prime minister"],
+      "clue_ids": ["7649f75dc0", "d21ad4ad81", "15d7b032a7"]
+    },
+    {
+      "id": "chloroform",
+      "label": "chloroform",
+      "statement": "Victoria used chloroform in 1853 while giving birth to her eighth child, easing her royal birthing pains.",
+      "associations": ["chloroform", "1853", "eighth child"],
+      "clue_ids": ["c9837e2449", "e621c94713"]
+    },
+    {
+      "id": "ottawa",
+      "label": "Ottawa",
+      "statement": "She chose Ottawa as the capital of Canada on December 31, 1857.",
+      "associations": ["Ottawa", "1857", "capital of Canada"],
+      "clue_ids": ["54714771b9", "2c22af764f"]
+    },
+    {
+      "id": "hemophilia",
+      "label": "hemophilia",
+      "statement": "Victoria carried hemophilia; a granddaughter brought the blood disease into the Russian royal house.",
+      "associations": ["hemophilia", "Russian royals", "granddaughter"],
+      "clue_ids": ["eff820908d", "e844f0a261"]
+    }
+  ],
+  "clue_ids": [
+    "b83518bf57", "f4153c4232", "d16684ec41", "d6f75b0e68", "a5078bf3b1",
+    "751099bd6d", "7649f75dc0", "d21ad4ad81", "15d7b032a7", "c9837e2449",
+    "e621c94713", "54714771b9", "2c22af764f", "eff820908d", "e844f0a261"
+  ],
+  "related": ["elizabeth-i", "charles-dickens", "napoleon"]
+}

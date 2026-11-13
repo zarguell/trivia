@@ -1,0 +1,64 @@
+{
+  "id": "mayans",
+  "name": "Mayans",
+  "deck": "history",
+  "aliases": ["Maya", "Mayan"],
+  "hook": "Pyramids, a Long Count calendar and a jaguar god: the Maya of Mexico and Central America.",
+  "facts": [
+    {
+      "id": "tikal",
+      "label": "Tikal",
+      "statement": "Tikal, with temples and pyramids in a Guatemalan rainforest, has the tallest surviving Mayan building.",
+      "associations": ["Tikal", "Guatemala", "tallest temple"],
+      "clue_ids": ["b26f2578fb", "778e26926e"]
+    },
+    {
+      "id": "chichen-itza",
+      "label": "Chichen Itza",
+      "statement": "Chichen Itza is on the Yucatan Peninsula in Mexico; its El Castillo pyramid was dedicated to the serpent god Kukulkan.",
+      "associations": ["Chichen Itza", "Yucatan", "El Castillo", "Kukulkan"],
+      "clue_ids": ["a53fc78c72", "5639818a5a", "7e16708e50"]
+    },
+    {
+      "id": "copan",
+      "label": "Copan",
+      "statement": "Copan, in Honduras near the Guatemalan border, was a Classic-period Maya city where 16 kings ruled from about 400 to 800 A.D.",
+      "associations": ["Copan", "Honduras", "16 kings"],
+      "clue_ids": ["33ba9fee74", "f497f10bb5"]
+    },
+    {
+      "id": "long-count",
+      "label": "the Long Count",
+      "statement": "The Maya kept a Long Count calendar that begins in 3114 B.C., the era when the Sumerians settled Ur.",
+      "associations": ["Long Count", "3114 B.C.", "calendar"],
+      "clue_ids": ["afe46e9973"]
+    },
+    {
+      "id": "jaguar",
+      "label": "the jaguar",
+      "statement": "The Maya revered the jaguar, Panthera onca; the sun god Kinich Ahau was usually shown with jaguar features.",
+      "associations": ["jaguar", "Kinich Ahau", "sun god"],
+      "clue_ids": ["9de241c1a1", "20bc31cff9"]
+    },
+    {
+      "id": "palenque",
+      "label": "Palenque",
+      "statement": "Palenque flourished from 600 to 900 A.D. during the Classic era of the Maya.",
+      "associations": ["Palenque", "600-900 A.D.", "Classic era"],
+      "clue_ids": ["2676018a6e"]
+    },
+    {
+      "id": "yucatan",
+      "label": "the Yucatan",
+      "statement": "The walled city of Tulum and the ruins of Xunantunich in Belize are Maya sites; Yucatec Maya is still spoken on the peninsula.",
+      "associations": ["Yucatan", "Tulum", "Xunantunich", "Belize"],
+      "clue_ids": ["46ddd1cad8", "47b5a98fbf"]
+    }
+  ],
+  "clue_ids": [
+    "b26f2578fb", "778e26926e", "a53fc78c72", "5639818a5a", "7e16708e50",
+    "33ba9fee74", "f497f10bb5", "afe46e9973", "9de241c1a1", "20bc31cff9",
+    "2676018a6e", "46ddd1cad8", "47b5a98fbf"
+  ],
+  "related": ["aztecs", "mexico", "ancient-egypt"]
+}

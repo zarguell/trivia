@@ -1,0 +1,65 @@
+{
+  "id": "hawaii",
+  "name": "Hawaii",
+  "deck": "geography",
+  "aliases": ["Hawaiian"],
+  "hook": "The 50th state in six moves: islands, volcanoes, Kamehameha and the words visitors take home.",
+  "facts": [
+    {
+      "id": "big-island",
+      "label": "the Big Island",
+      "statement": "Hawaii is the largest island in the United States — hence its nickname, the Big Island — and it holds Mauna Loa, the largest volcano on Earth.",
+      "associations": ["Hawaii", "Big Island", "largest island", "Mauna Loa"],
+      "clue_ids": ["0e4e3d5d96", "1ab7651ebe", "0dda99e534"]
+    },
+    {
+      "id": "maui",
+      "label": "Maui",
+      "statement": "Maui is the second-largest Hawaiian island, the \"Valley Isle,\" home to Haleakala National Park and Maui Gold pineapple.",
+      "associations": ["Maui", "Valley Isle", "Haleakala", "pineapple"],
+      "clue_ids": ["d5a8cc2fe4", "a99471e14e"]
+    },
+    {
+      "id": "oahu",
+      "label": "Oahu",
+      "statement": "Oahu is the third-largest island in the chain, home to the NFL Pro Bowl and the National Memorial Cemetery of the Pacific in Punchbowl Crater.",
+      "associations": ["Oahu", "third-largest", "Pro Bowl", "Punchbowl"],
+      "clue_ids": ["683e552caa", "99134f78a2"]
+    },
+    {
+      "id": "kauai",
+      "label": "Kauai",
+      "statement": "Kauai is the \"Garden Isle\"; Mount Waialeale there is one of the wettest places on Earth, averaging about 450 inches of rain a year.",
+      "associations": ["Kauai", "Garden Isle", "Mount Waialeale", "450 inches"],
+      "clue_ids": ["649e828f77", "0c211e5af1"]
+    },
+    {
+      "id": "kamehameha",
+      "label": "Kamehameha",
+      "statement": "Kamehameha I unified the Hawaiian Islands and built the Pu'ukohola Heiau; his yellow feather cloak is at the Bishop Museum.",
+      "associations": ["Kamehameha", "Pu'ukohola Heiau", "feather cloak", "Bishop Museum"],
+      "clue_ids": ["5eb8c45d0d", "31fe25f604"]
+    },
+    {
+      "id": "ukulele",
+      "label": "the ukulele",
+      "statement": "The ukulele, derived from the Portuguese machete, is Hawaii's official modern instrument and is tuned with the ditty \"My Dog Has Fleas.\"",
+      "associations": ["ukulele", "Portuguese machete", "My Dog Has Fleas", "official instrument"],
+      "clue_ids": ["49880b7879", "4f12755b87"]
+    },
+    {
+      "id": "aloha",
+      "label": "aloha",
+      "statement": "Aloha means both hello and goodbye, and gave its name to the aloha shirt Truman wore on a 1951 Life cover.",
+      "associations": ["aloha", "hello and goodbye", "aloha shirt", "Truman"],
+      "clue_ids": ["0eee440e0e", "f40a1fc685"]
+    }
+  ],
+  "clue_ids": [
+    "0e4e3d5d96", "1ab7651ebe", "0dda99e534", "d5a8cc2fe4", "a99471e14e",
+    "683e552caa", "99134f78a2", "649e828f77", "0c211e5af1", "5eb8c45d0d",
+    "31fe25f604", "49880b7879", "4f12755b87", "0eee440e0e", "f40a1fc685",
+    "809de2da1f", "b8f069181c", "edc33671e6"
+  ],
+  "related": ["pearl-harbor", "alaska", "japan"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "nile",
+  "name": "Nile",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "The river that made Egypt, from Lake Victoria to the Aswan High Dam.",
+  "facts": [
+    {
+      "id": "length",
+      "label": "4,160 miles",
+      "statement": "The Nile runs about 4,160 miles from Burundi to the Mediterranean and was once said to rise in the Mountains of the Moon.",
+      "associations": ["4,160 miles", "Burundi", "Mountains of the Moon"],
+      "clue_ids": ["7f58f6da4b", "d0c4bf15b8", "4c022ead85"]
+    },
+    {
+      "id": "victoria",
+      "label": "Lake Victoria",
+      "statement": "Lake Victoria, bordered by Uganda, Tanzania and Kenya, is the Nile's chief reservoir and was identified by John Speke in 1858.",
+      "associations": ["Lake Victoria", "John Speke", "1858"],
+      "clue_ids": ["3811401f38", "a778e18d0e"]
+    },
+    {
+      "id": "khartoum",
+      "label": "Khartoum",
+      "statement": "The Blue Nile and the White Nile meet at Khartoum, Sudan's capital, to form the main Nile.",
+      "associations": ["Khartoum", "Blue Nile", "White Nile", "Sudan"],
+      "clue_ids": ["46821a7355", "fa86383209"]
+    },
+    {
+      "id": "cairo",
+      "label": "Cairo",
+      "statement": "Cairo, Egypt's capital, lines the Nile's eastern bank; Herodotus called Egypt \"the gift of the Nile.\"",
+      "associations": ["Cairo", "Egypt", "gift of the Nile", "Herodotus"],
+      "clue_ids": ["23009bf142", "8cfb586173", "f07d04f132"]
+    },
+    {
+      "id": "aswan",
+      "label": "the Aswan High Dam",
+      "statement": "The Aswan High Dam, begun in 1960, created Lake Nasser, one of the world's largest artificial lakes.",
+      "associations": ["Aswan High Dam", "Lake Nasser", "1960"],
+      "clue_ids": ["57b9241b70", "0d4ea1efa5", "99802cefae"]
+    },
+    {
+      "id": "papyrus",
+      "label": "papyrus",
+      "statement": "Papyrus, the plant used to make ancient writing material, grew in the Nile delta.",
+      "associations": ["papyrus", "Nile delta", "writing material"],
+      "clue_ids": ["b53dfa3847", "bccef66a5c"]
+    },
+    {
+      "id": "nelson",
+      "label": "the Battle of the Nile",
+      "statement": "At the 1798 Battle of the Nile, Admiral Nelson destroyed the French fleet, a victory that made him a baron.",
+      "associations": ["Battle of the Nile", "Nelson", "1798"],
+      "clue_ids": ["277e52c4b0", "db37d10f64"]
+    }
+  ],
+  "clue_ids": [
+    "4c022ead85", "7f58f6da4b", "d0c4bf15b8", "99802cefae", "3811401f38",
+    "a778e18d0e", "46821a7355", "fa86383209", "23009bf142", "8cfb586173",
+    "f07d04f132", "57b9241b70", "0d4ea1efa5", "b53dfa3847", "bccef66a5c",
+    "db37d10f64", "277e52c4b0", "5b8cfc6e56"
+  ],
+  "related": ["egypt", "sahara", "suez-canal"]
+}

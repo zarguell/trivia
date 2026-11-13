@@ -1,0 +1,65 @@
+{
+  "id": "hinduism",
+  "name": "Hinduism",
+  "deck": "myth-religion",
+  "aliases": [],
+  "hook": "Brahma, Vishnu, Shiva, karma and the Ganges: the Hinduism clues in six.",
+  "facts": [
+    {
+      "id": "trimurti",
+      "label": "the Trimurti",
+      "statement": "Hinduism's three main gods are Brahma the creator, Vishnu the preserver and Shiva the destroyer.",
+      "associations": ["Brahma", "Vishnu", "Shiva", "creator and destroyer"],
+      "clue_ids": ["6a9f545424", "0962fa4d82", "59db11f93c"]
+    },
+    {
+      "id": "vishnu-avatars",
+      "label": "Vishnu's avatars",
+      "statement": "Vishnu's earthly incarnations include Kurma the tortoise, Rama and Krishna, his eighth avatar.",
+      "associations": ["Vishnu", "avatars", "Kurma", "Rama", "Krishna"],
+      "clue_ids": ["20d7f7983c", "2ccf76a5d7"]
+    },
+    {
+      "id": "vedas",
+      "label": "the Vedas",
+      "statement": "The Vedas are Hinduism's oldest sacred books, dating from 1500-500 B.C.; the Rigveda, with 1,028 hymns in 10 books, is oldest.",
+      "associations": ["Vedas", "Rigveda", "1,028 hymns", "sacred books"],
+      "clue_ids": ["cfe61ac657", "1552dc7b3e", "76ca65a799"]
+    },
+    {
+      "id": "ganges",
+      "label": "the Ganges",
+      "statement": "The Ganges is Hinduism's holy river; Varanasi, one of its seven holy cities, lines its banks.",
+      "associations": ["Ganges", "Varanasi", "holy river", "seven holy cities"],
+      "clue_ids": ["a69aab95f0", "24ed21def2"]
+    },
+    {
+      "id": "karma",
+      "label": "karma",
+      "statement": "Karma means \"act\": deeds in one life fix consequences in the next, an immutable law of cause and effect.",
+      "associations": ["karma", "act", "rebirth", "consequences"],
+      "clue_ids": ["f36326ddae", "f65aace381"]
+    },
+    {
+      "id": "sanskrit",
+      "label": "Sanskrit",
+      "statement": "Sanskrit is the classical language of Hinduism, related to old European languages such as Latvian.",
+      "associations": ["Sanskrit", "classical language", "Latvian", "Vedas"],
+      "clue_ids": ["1db8f6eaa7", "3883f05d96"]
+    },
+    {
+      "id": "festivals",
+      "label": "Kumbh Mela and Shivaratri",
+      "statement": "Kumbh Mela draws tens of millions to bathe in sacred rivers; Maha Shivaratri falls on the 14th night of a March new moon.",
+      "associations": ["Kumbh Mela", "Maha Shivaratri", "sacred rivers", "festival"],
+      "clue_ids": ["c4ba81f5f0", "5439236b22"]
+    }
+  ],
+  "clue_ids": [
+    "c4ba81f5f0", "5439236b22", "a69aab95f0", "24ed21def2", "87282ec0cb",
+    "6a9f545424", "1db8f6eaa7", "3883f05d96", "20d7f7983c", "2ccf76a5d7",
+    "59db11f93c", "0962fa4d82", "cfe61ac657", "70c3c15e78", "1552dc7b3e",
+    "76ca65a799", "f36326ddae", "f65aace381"
+  ],
+  "related": ["buddhism", "buddha"]
+}

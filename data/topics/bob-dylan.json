@@ -1,0 +1,65 @@
+{
+  "id": "bob-dylan",
+  "name": "Bob Dylan",
+  "deck": "music",
+  "aliases": ["Robert Zimmerman"],
+  "hook": "Nobel laureate, folk-rock pioneer, and the voice behind a dozen songbook standards.",
+  "facts": [
+    {
+      "id": "born-robert-zimmerman",
+      "label": "Robert Zimmerman",
+      "statement": "Bob Dylan was born Robert Zimmerman and grew up in Hibbing, Minnesota, on the Mesabi Range.",
+      "associations": ["Robert Zimmerman", "Hibbing", "Minnesota"],
+      "clue_ids": ["7763bad754", "f14f0f44f7", "028b4a536e"]
+    },
+    {
+      "id": "blowin-in-the-wind",
+      "label": "\"Blowin' in the Wind\"",
+      "statement": "\"Blowin' in the Wind\" is his early anthem, a No. 2 hit for Peter, Paul and Mary, asking how many seas a white dove must sail.",
+      "associations": ["\"Blowin' in the Wind\"", "Peter, Paul and Mary", "white dove"],
+      "clue_ids": ["c47e36c67e", "d4e43019cc"]
+    },
+    {
+      "id": "mr-tambourine-man",
+      "label": "\"Mr. Tambourine Man\"",
+      "statement": "He wrote \"Mr. Tambourine Man\"; The Byrds' 1965 cover flew to No. 1 and helped launch folk rock.",
+      "associations": ["\"Mr. Tambourine Man\"", "The Byrds", "1965", "folk rock"],
+      "clue_ids": ["b60ff9dc88", "064f21998e", "b2de5b9e6f"]
+    },
+    {
+      "id": "all-along-the-watchtower",
+      "label": "\"All Along the Watchtower\"",
+      "statement": "Jimi Hendrix's cover of his \"All Along the Watchtower\" topped a Rolling Stone poll of greatest covers; Dylan called it overwhelming.",
+      "associations": ["\"All Along the Watchtower\"", "Jimi Hendrix", "greatest cover"],
+      "clue_ids": ["a207373340", "2e0a2d2bc9", "263257f073"]
+    },
+    {
+      "id": "nobel-prize",
+      "label": "Nobel Prize",
+      "statement": "Dylan won the 2016 Nobel Prize in Literature; he and George Bernard Shaw are the only people with both a Nobel in Literature and an Oscar.",
+      "associations": ["Nobel Prize in Literature", "Academy Award", "George Bernard Shaw"],
+      "clue_ids": ["198b37786c", "40e1085db7"]
+    },
+    {
+      "id": "traveling-wilburys",
+      "label": "the Traveling Wilburys",
+      "statement": "In 1988 he joined George Harrison, Jeff Lynne, Roy Orbison and Tom Petty in the Traveling Wilburys, whose hit was \"Handle with Care.\"",
+      "associations": ["the Traveling Wilburys", "\"Handle with Care\"", "George Harrison", "Roy Orbison"],
+      "clue_ids": ["c7cbbc47d0", "8ad0cae245"]
+    },
+    {
+      "id": "harmonica",
+      "label": "harmonica",
+      "statement": "Dylan is famous for the harmonica, or mouth organ; Hohner makes a Bob Dylan signature model.",
+      "associations": ["harmonica", "mouth organ", "Hohner"],
+      "clue_ids": ["5ad9e11c5f", "bfb1fcfdf2"]
+    }
+  ],
+  "clue_ids": [
+    "198b37786c", "40e1085db7", "c47e36c67e", "d4e43019cc", "7763bad754",
+    "f14f0f44f7", "028b4a536e", "b60ff9dc88", "064f21998e", "b2de5b9e6f",
+    "46321885e1", "a207373340", "2e0a2d2bc9", "263257f073", "c7cbbc47d0",
+    "8ad0cae245", "5ad9e11c5f", "bfb1fcfdf2"
+  ],
+  "related": ["the-beatles", "the-rolling-stones", "woodstock"]
+}

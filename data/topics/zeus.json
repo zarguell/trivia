@@ -1,0 +1,65 @@
+{
+  "id": "zeus",
+  "name": "Zeus",
+  "deck": "myth-religion",
+  "aliases": [],
+  "hook": "The thunderbolt-wielding king of the Greek gods, and the family tree Jeopardy keeps climbing.",
+  "facts": [
+    {
+      "id": "cronus-rhea",
+      "label": "Cronus and Rhea",
+      "statement": "Zeus was the son of the Titans Cronus and Rhea. Rhea saved him by giving Cronus a stone to swallow, and Zeus later forced his father to disgorge his siblings.",
+      "associations": ["Cronus", "Rhea", "swallowed stone", "Titans"],
+      "clue_ids": ["1d9cdc5717", "cf9131f63d", "b771639e1e"]
+    },
+    {
+      "id": "titans",
+      "label": "the Titans",
+      "statement": "Zeus led the Olympians in overthrowing the Titans, the earlier generation of gods, and banished them to Tartarus.",
+      "associations": ["the Titans", "Olympians", "Tartarus", "overthrow"],
+      "clue_ids": ["93cd6df0a5", "03713adaa7"]
+    },
+    {
+      "id": "hera",
+      "label": "Hera",
+      "statement": "Hera is Zeus's sister and wife and the goddess of marriage. He once hung her by the wrists from Mount Olympus, and Aphrodite lent her a magic girdle.",
+      "associations": ["Hera", "Mount Olympus", "magic girdle", "goddess of marriage"],
+      "clue_ids": ["e94dc157f0", "31e62da4b6", "92e0f3fc95"]
+    },
+    {
+      "id": "athena",
+      "label": "Athena",
+      "statement": "Zeus swallowed his first wife Metis, and Athena was then born full-grown from his head, fully armed.",
+      "associations": ["Athena", "Metis", "born from his head", "wisdom"],
+      "clue_ids": ["d0eed0d163", "fb89e6f3fe"]
+    },
+    {
+      "id": "heracles",
+      "label": "Heracles",
+      "statement": "Zeus assumed Amphitryon's form to seduce Alcmene, and their son was the demigod Heracles, known to the Romans as Hercules.",
+      "associations": ["Heracles", "Alcmene", "Amphitryon", "demigod"],
+      "clue_ids": ["eb316813ad", "b2d0d35ffd"]
+    },
+    {
+      "id": "leda",
+      "label": "the swan",
+      "statement": "Zeus came to Leda disguised as a swan; the encounter led to the birth of Helen of Troy and the twins Castor and Pollux.",
+      "associations": ["Leda", "swan", "Helen of Troy", "Castor and Pollux"],
+      "clue_ids": ["83a36b256a", "0ad283f422"]
+    },
+    {
+      "id": "statue",
+      "label": "Statue of Zeus at Olympia",
+      "statement": "Phidias made the giant Statue of Zeus at Olympia, one of the Seven Wonders of the Ancient World; he also made the Athena Parthenos.",
+      "associations": ["Phidias", "Olympia", "Seven Wonders", "Athena Parthenos"],
+      "clue_ids": ["a1ea700db7"]
+    }
+  ],
+  "clue_ids": [
+    "1d9cdc5717", "cf9131f63d", "b771639e1e", "93cd6df0a5", "03713adaa7",
+    "e94dc157f0", "31e62da4b6", "92e0f3fc95", "d0eed0d163", "fb89e6f3fe",
+    "eb316813ad", "b2d0d35ffd", "83a36b256a", "0ad283f422", "a1ea700db7",
+    "3a53fd4b8d", "7f9e60e5f2", "1db56ad2be"
+  ],
+  "related": ["hercules", "trojan-war", "odysseus", "achilles"]
+}

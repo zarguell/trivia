@@ -1,0 +1,57 @@
+{
+  "id": "mona-lisa",
+  "name": "Mona Lisa",
+  "deck": "arts",
+  "aliases": ["La Gioconda"],
+  "hook": "The world's most famous portrait, and the 1911 theft that turned it into a household name.",
+  "facts": [
+    {
+      "id": "leonardo",
+      "label": "Leonardo da Vinci",
+      "statement": "Leonardo da Vinci painted the Mona Lisa, beginning around 1503. He was born in the Tuscan town of Vinci and later studied lip muscles in a Florence morgue.",
+      "associations": ["Leonardo da Vinci", "1503", "Vinci, Tuscany", "Renaissance"],
+      "clue_ids": ["4717bbeff0", "357f41b527"]
+    },
+    {
+      "id": "lisa",
+      "label": "Lisa Gherardini",
+      "statement": "The sitter is generally identified as Lisa Gherardini, wife of the Florentine merchant Francesco del Giocondo — hence the title La Gioconda.",
+      "associations": ["Lisa Gherardini", "Francesco del Giocondo", "La Gioconda", "Florence"],
+      "clue_ids": ["9851c8b5e6"]
+    },
+    {
+      "id": "louvre",
+      "label": "the Louvre",
+      "statement": "The painting hangs in the Louvre in Paris. In the 17th century it was in Louis XIV's suite before becoming the museum's star attraction.",
+      "associations": ["the Louvre", "Paris", "Louis XIV", "museum"],
+      "clue_ids": ["61c499c5a6", "4d0c95f9cd"]
+    },
+    {
+      "id": "theft",
+      "label": "the 1911 theft",
+      "statement": "Vincenzo Peruggia stole it from the Louvre in 1911, hiding it for two years before he was caught trying to sell it in Florence.",
+      "associations": ["Vincenzo Peruggia", "1911", "stolen", "Florence"],
+      "clue_ids": ["b909a73fcc"]
+    },
+    {
+      "id": "smile",
+      "label": "the smile",
+      "statement": "Her enigmatic smile is the painting's trademark. She may have lost her eyebrows to a careless cleaning, and Leonardo studied lip muscles to get the expression right.",
+      "associations": ["enigmatic smile", "no eyebrows", "lip muscles"],
+      "clue_ids": ["0ed8006b45"]
+    },
+    {
+      "id": "duchamp",
+      "label": "Marcel Duchamp",
+      "statement": "Marcel Duchamp's readymade L.H.O.O.Q. is a reproduction of the Mona Lisa defaced with a penciled mustache and goatee.",
+      "associations": ["Marcel Duchamp", "L.H.O.O.Q.", "mustache", "readymade"],
+      "clue_ids": ["488380eb03", "b111a4733c"]
+    }
+  ],
+  "clue_ids": [
+    "4717bbeff0", "357f41b527", "9851c8b5e6", "b8d5179b40", "61c499c5a6",
+    "4d0c95f9cd", "b909a73fcc", "0ed8006b45", "488380eb03", "b111a4733c",
+    "fc5f95e627", "fb7afbd5e5", "658c455339", "e7b8b6318d"
+  ],
+  "related": ["leonardo-da-vinci", "the-scream", "johannes-vermeer", "pablo-picasso"]
+}

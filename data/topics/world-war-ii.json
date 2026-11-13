@@ -1,0 +1,65 @@
+{
+  "id": "world-war-ii",
+  "name": "World War II",
+  "deck": "history",
+  "aliases": ["World War 2", "WWII", "WW2", "Second World War"],
+  "hook": "Churchill, the Bulge, the code talkers — the handful of WWII answers Jeopardy returns to endlessly.",
+  "facts": [
+    {
+      "id": "ending",
+      "label": "September 2, 1945",
+      "statement": "The war ended on September 2, 1945, when Japan signed the surrender aboard the USS Missouri; New Zealand's Air Marshal Isitt put down the final signature.",
+      "associations": ["September 2, 1945", "USS Missouri", "Japanese surrender"],
+      "clue_ids": ["9ce3293f09"]
+    },
+    {
+      "id": "bulge",
+      "label": "the Battle of the Bulge",
+      "statement": "Hitler's Ardennes Counteroffensive of December 1944 became the Battle of the Bulge — an Allied victory won in snow and freezing cold.",
+      "associations": ["Battle of the Bulge", "Ardennes", "December 1944"],
+      "clue_ids": ["02995fbeb9", "9efed40eb2"]
+    },
+    {
+      "id": "churchill",
+      "label": "Winston Churchill",
+      "statement": "Churchill led Britain as prime minister and wrote The Second World War; its first volume, The Gathering Storm, was later adapted for television.",
+      "associations": ["Winston Churchill", "The Gathering Storm", "prime minister"],
+      "clue_ids": ["1ab5329b79", "aa88a4f217"]
+    },
+    {
+      "id": "code-talkers",
+      "label": "the Navajo code talkers",
+      "statement": "Navajo code talkers sent unbreakable messages in their own language, as depicted in Windtalkers; Arizona now marks August 14 in their honor.",
+      "associations": ["Navajo code talkers", "Windtalkers", "August 14"],
+      "clue_ids": ["e1f36b60a7", "2f70d30800"]
+    },
+    {
+      "id": "anne-frank",
+      "label": "Anne Frank",
+      "statement": "Anne Frank and her sister Margot hid in a secret annex in Amsterdam; Miep Gies, who helped hide them, lived to 100.",
+      "associations": ["Anne Frank", "Margot", "secret annex", "Miep Gies"],
+      "clue_ids": ["3300d5ef7b", "98b3b0ed2b"]
+    },
+    {
+      "id": "tokyo-rose",
+      "label": "Tokyo Rose",
+      "statement": "Iva Toguri D'Aquino was convicted of treason as \"Tokyo Rose\" and pardoned by President Ford in 1977.",
+      "associations": ["Tokyo Rose", "Iva Toguri D'Aquino", "Ford pardon"],
+      "clue_ids": ["1e9a71fa86", "199ec82e50"]
+    },
+    {
+      "id": "rosie",
+      "label": "Rosie the Riveter",
+      "statement": "Rosie the Riveter was created in a 1943 song — \"That little frail can do more than a male can do\" — and became the icon of women war workers.",
+      "associations": ["Rosie the Riveter", "1943 song", "women war workers"],
+      "clue_ids": ["12ac32b5e6", "589deedbf8"]
+    }
+  ],
+  "clue_ids": [
+    "9ce3293f09", "02995fbeb9", "9efed40eb2", "1ab5329b79", "aa88a4f217",
+    "e1f36b60a7", "2f70d30800", "3300d5ef7b", "98b3b0ed2b", "1e9a71fa86",
+    "199ec82e50", "12ac32b5e6", "589deedbf8", "eb700c0402", "4697695d47",
+    "41470579d2", "738ce385bc"
+  ],
+  "related": ["winston-churchill", "cold-war", "berlin-wall"]
+}

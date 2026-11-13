@@ -1,0 +1,64 @@
+{
+  "id": "gandhi",
+  "name": "Gandhi",
+  "deck": "history",
+  "aliases": [],
+  "hook": "The lawyer who turned nonviolence into a weapon — salt, satyagraha and the 1982 film.",
+  "facts": [
+    {
+      "id": "salt",
+      "label": "Salt March",
+      "statement": "Gandhi marched to the sea to make salt in defiance of the British salt tax, calling it a blow to the foundations of the Empire.",
+      "associations": ["Salt March", "salt tax", "Dandi"],
+      "clue_ids": ["ecd5082d5d", "d90886ce30"]
+    },
+    {
+      "id": "satyagraha",
+      "label": "satyagraha",
+      "statement": "Gandhi's philosophy of nonviolence, or satyagraha, is honored on October 2, his birthday, as an international day.",
+      "associations": ["satyagraha", "nonviolence", "October 2"],
+      "clue_ids": ["6f07c029cb", "46637d8217", "7d2d245b47"]
+    },
+    {
+      "id": "south-africa",
+      "label": "South Africa",
+      "statement": "Gandhi lived in South Africa during the Boer War and served the British there as a medical volunteer.",
+      "associations": ["South Africa", "Boer War", "medical volunteer"],
+      "clue_ids": ["85503a6077", "0200e7d239"]
+    },
+    {
+      "id": "law",
+      "label": "London law degree",
+      "statement": "As a teenager Gandhi left India for London, where he studied law and met Christians who shaped his religious quest.",
+      "associations": ["London", "law degree", "England"],
+      "clue_ids": ["ba6120adfe", "1d15b4ecd5"]
+    },
+    {
+      "id": "harijan",
+      "label": "Harijan",
+      "statement": "Gandhi called the untouchables Harijan, or children of God, and campaigned against their treatment as a demeaned caste.",
+      "associations": ["Harijan", "untouchables", "children of God"],
+      "clue_ids": ["be60a1d372", "287678700c"]
+    },
+    {
+      "id": "film",
+      "label": "Gandhi (1982 film)",
+      "statement": "Richard Attenborough's 1982 film Gandhi won Best Picture, with Ben Kingsley playing Gandhi.",
+      "associations": ["1982 film", "Ben Kingsley", "Richard Attenborough", "Best Picture"],
+      "clue_ids": ["8efce6b9e7", "f241ae6262", "7833c5dc41"]
+    },
+    {
+      "id": "king",
+      "label": "Martin Luther King, Jr.",
+      "statement": "Martin Luther King, Jr. adopted Gandhi's ideas of nonviolence while studying at Crozer Theological Seminary in the 1950s.",
+      "associations": ["Martin Luther King, Jr.", "Crozer Seminary", "nonviolence"],
+      "clue_ids": ["7ba18f9b1f"]
+    }
+  ],
+  "clue_ids": [
+    "ecd5082d5d", "d90886ce30", "6f07c029cb", "46637d8217", "7d2d245b47",
+    "85503a6077", "0200e7d239", "ba6120adfe", "1d15b4ecd5", "be60a1d372",
+    "287678700c", "8efce6b9e7", "f241ae6262", "7833c5dc41", "7ba18f9b1f"
+  ],
+  "related": ["india", "martin-luther-king-jr", "south-africa"]
+}

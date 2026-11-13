@@ -1,0 +1,65 @@
+{
+  "id": "john-f-kennedy",
+  "name": "John F. Kennedy",
+  "deck": "history",
+  "aliases": ["JFK", "Kennedy"],
+  "hook": "PT-109, Profiles in Courage and the Cold War flashpoints Jeopardy never stops asking about.",
+  "facts": [
+    {
+      "id": "purple-heart",
+      "label": "the only president with a Purple Heart",
+      "statement": "JFK is the only U.S. president awarded the Purple Heart, for his PT-109 service in World War II.",
+      "associations": ["Purple Heart", "PT-109", "World War II"],
+      "clue_ids": ["c04c5ff261"]
+    },
+    {
+      "id": "profiles",
+      "label": "Profiles in Courage",
+      "statement": "Profiles in Courage, his 1956 book on eight brave senators, won the 1957 Pulitzer Prize; Ted Sorensen drafted much of it.",
+      "associations": ["Profiles in Courage", "Pulitzer Prize", "Ted Sorensen"],
+      "clue_ids": ["49d8e6d4b1", "32f26ba266"]
+    },
+    {
+      "id": "cuba",
+      "label": "Cuba",
+      "statement": "He authorized the 1961 Bay of Pigs invasion of Cuba and faced the Cuban Missile Crisis there in October 1962.",
+      "associations": ["Bay of Pigs", "Cuba", "Cuban Missile Crisis"],
+      "clue_ids": ["ba8b42cc5e", "c3ff6f5adf"]
+    },
+    {
+      "id": "berliner",
+      "label": "\"Ich bin ein Berliner\"",
+      "statement": "In a 1963 speech in West Berlin he declared \"Ich bin ein Berliner\" — \"I am a Berliner.\"",
+      "associations": ["Ich bin ein Berliner", "Berlin", "1963"],
+      "clue_ids": ["caf4b1e807"]
+    },
+    {
+      "id": "frost",
+      "label": "Robert Frost",
+      "statement": "Robert Frost read \"The Gift Outright\" at his 1961 presidential inauguration.",
+      "associations": ["Robert Frost", "The Gift Outright", "1961 inauguration"],
+      "clue_ids": ["05e7b95ea2", "36b958a714"]
+    },
+    {
+      "id": "cape-canaveral",
+      "label": "Cape Canaveral",
+      "statement": "Cape Canaveral in Florida was renamed Cape Kennedy to honor him, then changed back again.",
+      "associations": ["Cape Canaveral", "Cape Kennedy", "Merritt Island"],
+      "clue_ids": ["bf3074712f", "fc74faf367"]
+    },
+    {
+      "id": "mcnamara",
+      "label": "Robert McNamara",
+      "statement": "Robert McNamara was his Secretary of Defense, stayed on under LBJ, and later ran the World Bank.",
+      "associations": ["Robert McNamara", "Secretary of Defense", "World Bank"],
+      "clue_ids": ["c22bba0684", "8d2f09ebdd"]
+    }
+  ],
+  "clue_ids": [
+    "c04c5ff261", "c4dc898756", "f8a38a239f", "caf4b1e807", "048d074ce4",
+    "49d8e6d4b1", "32f26ba266", "fe5e2a1c31", "9c98747a7c", "c22bba0684",
+    "8d2f09ebdd", "bf3074712f", "fc74faf367", "ba8b42cc5e", "c3ff6f5adf",
+    "5533acea49", "05e7b95ea2", "36b958a714"
+  ],
+  "related": ["ronald-reagan", "franklin-d-roosevelt", "cold-war", "cuba"]
+}

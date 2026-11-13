@@ -1,0 +1,65 @@
+{
+  "id": "elizabeth-i",
+  "name": "Elizabeth I",
+  "deck": "history",
+  "aliases": ["Queen Elizabeth I"],
+  "hook": "The Virgin Queen who beheaded a rival queen, scattered the Armada, and gave her name to an age.",
+  "facts": [
+    {
+      "id": "anne-boleyn",
+      "label": "Anne Boleyn",
+      "statement": "Elizabeth I was the daughter of Henry VIII and his second wife, Anne Boleyn, who gave birth to her on September 7, 1533.",
+      "associations": ["Anne Boleyn", "Henry VIII", "1533", "second wife"],
+      "clue_ids": ["0a86c5364a", "7253504159", "fa4cedb314"]
+    },
+    {
+      "id": "virgin-queen",
+      "label": "the Virgin Queen",
+      "statement": "Elizabeth never married and was called the Virgin Queen; Virginia, an original colony, was named for her chastity.",
+      "associations": ["Virgin Queen", "never married", "Virginia", "chaste"],
+      "clue_ids": ["fcf8b62117", "dc154c486b", "4c9a256e5e"]
+    },
+    {
+      "id": "last-tudor",
+      "label": "the last Tudor",
+      "statement": "Elizabeth I was the last Tudor monarch; the dynasty ruled England from Henry VII in 1485 until her death in 1603.",
+      "associations": ["Tudor", "Henry VII", "1485", "1603"],
+      "clue_ids": ["491b4e918b", "3c1c70a84f"]
+    },
+    {
+      "id": "spanish-armada",
+      "label": "the Spanish Armada",
+      "statement": "Elizabeth's England scattered the Spanish Armada; a medal she issued reads, \"God breathed and they were scattered.\"",
+      "associations": ["Spanish Armada", "1588", "medal", "God breathed"],
+      "clue_ids": ["8f8ec764b9"]
+    },
+    {
+      "id": "mary-queen-of-scots",
+      "label": "Mary, Queen of Scots",
+      "statement": "Mary, Queen of Scots plotted to kill Elizabeth and was found out in 1586; Elizabeth signed her death warrant, and Mary was executed in 1587.",
+      "associations": ["Mary, Queen of Scots", "1586", "death warrant", "1587"],
+      "clue_ids": ["4899806ef6", "6e7c28240c", "562b68b3bc"]
+    },
+    {
+      "id": "drake",
+      "label": "Sir Francis Drake",
+      "statement": "Francis Drake circumnavigated the globe, was knighted by Elizabeth, and hosted her aboard his ship, the Golden Hind.",
+      "associations": ["Francis Drake", "circumnavigation", "Golden Hind", "knighted"],
+      "clue_ids": ["78e31ba6c3", "65003ff368"]
+    },
+    {
+      "id": "faerie-queene",
+      "label": "The Faerie Queene",
+      "statement": "Edmund Spenser's The Faerie Queene casts Elizabeth as Belphoebe; Britten's opera Gloriana takes its title from the poem.",
+      "associations": ["The Faerie Queene", "Edmund Spenser", "Belphoebe", "Gloriana"],
+      "clue_ids": ["492bd8c5be", "7234fa1293"]
+    }
+  ],
+  "clue_ids": [
+    "0a86c5364a", "7253504159", "fa4cedb314", "fcf8b62117", "dc154c486b",
+    "4c9a256e5e", "491b4e918b", "3c1c70a84f", "8f8ec764b9", "4899806ef6",
+    "6e7c28240c", "562b68b3bc", "78e31ba6c3", "65003ff368", "492bd8c5be",
+    "7234fa1293"
+  ],
+  "related": ["france", "spain", "william-shakespeare"]
+}

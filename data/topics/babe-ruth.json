@@ -1,0 +1,65 @@
+{
+  "id": "babe-ruth",
+  "name": "Babe Ruth",
+  "deck": "sports",
+  "aliases": ["The Bambino", "George Herman Ruth", "Sultan of Swat"],
+  "hook": "Baseball's original home run king — 714 homers, the called shot, and the curse he left behind.",
+  "facts": [
+    {
+      "id": "bambino",
+      "label": "the Bambino",
+      "statement": "George Herman Ruth was nicknamed \"the Bambino\" — Italian for baby — and also called the Sultan of Swat.",
+      "associations": ["the Bambino", "George Herman Ruth", "Sultan of Swat"],
+      "clue_ids": ["a138430ced", "a243ceed77", "550d2ef6b7"]
+    },
+    {
+      "id": "sale-to-yankees",
+      "label": "sold to the Yankees",
+      "statement": "The Boston Red Sox sold him to the Yankees for a reported $125,000 in January 1920 — the deal behind the Curse of the Bambino, which lasted until 2004.",
+      "associations": ["Boston Red Sox", "New York Yankees", "Curse of the Bambino", "$125,000"],
+      "clue_ids": ["7a7d49e1ab", "1149d789b3", "cf8a214c90"]
+    },
+    {
+      "id": "red-sox-pitcher",
+      "label": "Red Sox pitcher",
+      "statement": "Before he was a slugger he was Boston's best left-handed pitcher, holding the World Series record for consecutive scoreless innings from 1918 until 1961.",
+      "associations": ["pitcher", "29 2/3 scoreless innings", "1916-18", "left field"],
+      "clue_ids": ["931854963e", "5887828fe3", "ef904d31e3"]
+    },
+    {
+      "id": "714",
+      "label": "714 home runs",
+      "statement": "He hit 714 regular-season home runs, a record that stood until Hank Aaron passed him in 1974.",
+      "associations": ["714", "home run record", "Hank Aaron", "1974"],
+      "clue_ids": ["881ee2f001", "4d025d024f"]
+    },
+    {
+      "id": "yankee-stadium",
+      "label": "Yankee Stadium",
+      "statement": "Yankee Stadium opened on April 18, 1923, and Ruth hit its first home run — a three-run shot that beat the Red Sox.",
+      "associations": ["Yankee Stadium", "April 18, 1923", "first home run"],
+      "clue_ids": ["54af050923", "e192e57f09"]
+    },
+    {
+      "id": "called-shot",
+      "label": "the called shot",
+      "statement": "In the 1932 World Series at Wrigley Field he pointed toward the outfield and then homered — the famous \"called shot.\"",
+      "associations": ["called shot", "1932 World Series", "Wrigley Field"],
+      "clue_ids": ["ee826549f7", "44686c953b"]
+    },
+    {
+      "id": "salary",
+      "label": "$80,000 salary",
+      "statement": "Told his $80,000 salary was more than President Hoover's, Ruth replied that he had had a better year.",
+      "associations": ["$80,000", "President Hoover", "better year"],
+      "clue_ids": ["b1ccc11cc4", "3c9a69e622"]
+    }
+  ],
+  "clue_ids": [
+    "a138430ced", "a243ceed77", "550d2ef6b7", "7a7d49e1ab", "1149d789b3",
+    "cf8a214c90", "931854963e", "5887828fe3", "ef904d31e3", "881ee2f001",
+    "4d025d024f", "393b53cb36", "54af050923", "e192e57f09", "ee826549f7",
+    "44686c953b", "b1ccc11cc4", "3c9a69e622"
+  ],
+  "related": ["jackie-robinson", "michael-jordan"]
+}

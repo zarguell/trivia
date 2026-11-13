@@ -1,0 +1,65 @@
+{
+  "id": "apple-inc",
+  "name": "Apple Inc.",
+  "deck": "business",
+  "aliases": ["Apple Computer", "Steve Jobs"],
+  "hook": "The garage startup that became the world's most valuable company — Jobs, Wozniak and the products.",
+  "facts": [
+    {
+      "id": "founding",
+      "label": "April 1, 1976",
+      "statement": "Steve Jobs, Steve Wozniak and Ronald Wayne founded Apple on April 1, 1976; Wayne sold his stake days later for $800.",
+      "associations": ["April 1, 1976", "Ronald Wayne", "$800"],
+      "clue_ids": ["c36095efe7", "d9e4514c83"]
+    },
+    {
+      "id": "jobs",
+      "label": "Steve Jobs",
+      "statement": "Steve Jobs died in 2011; in his 2005 Stanford speech he warned, \"Your time is limited, so don't waste it.\"",
+      "associations": ["Steve Jobs", "2011", "Stanford 2005", "black turtleneck"],
+      "clue_ids": ["3d852af075", "5712ec9d51", "7104b73910"]
+    },
+    {
+      "id": "wozniak",
+      "label": "Steve Wozniak",
+      "statement": "Steve Wozniak built the Apple II in 1977, the first affordable home PC, and holds the patent for its video-display microcomputer.",
+      "associations": ["Steve Wozniak", "Apple II", "1977", "affordable home PC"],
+      "clue_ids": ["0b3ab693ed", "0cd78467b1", "8b90823534"]
+    },
+    {
+      "id": "logo",
+      "label": "the Apple logo",
+      "statement": "The first Apple logo, from 1976, showed Isaac Newton under a tree; the bite in today's apple nods to Adam and Eve's tree of knowledge.",
+      "associations": ["Isaac Newton", "1976 logo", "the bite", "tree of knowledge"],
+      "clue_ids": ["1eefaf0b78", "93c0da99ab"]
+    },
+    {
+      "id": "macintosh",
+      "label": "Macintosh",
+      "statement": "The Macintosh, introduced in 1984, was named by adding an \"A\" to the McIntosh apple.",
+      "associations": ["Macintosh", "1984", "McIntosh apple"],
+      "clue_ids": ["6e4eb3d409", "18173dfb2d"]
+    },
+    {
+      "id": "tim-cook",
+      "label": "Tim Cook",
+      "statement": "Tim Cook succeeded Steve Jobs as Apple's CEO in 2011.",
+      "associations": ["Tim Cook", "CEO", "2011"],
+      "clue_ids": ["ec8e2a0494"]
+    },
+    {
+      "id": "pixar",
+      "label": "Pixar",
+      "statement": "Jobs bought Pixar for $5 million in 1986 and sold it to Disney in 2006 for $7.4 billion.",
+      "associations": ["Pixar", "$5 million", "Disney", "$7.4 billion"],
+      "clue_ids": ["4180c73665", "49f5560d45"]
+    }
+  ],
+  "clue_ids": [
+    "1eefaf0b78", "3d852af075", "5712ec9d51", "93c0da99ab", "ec8e2a0494",
+    "d9e4514c83", "0cd78467b1", "65b5be7dbd", "6e4eb3d409", "0b3ab693ed",
+    "8b90823534", "4180c73665", "c36095efe7", "18173dfb2d", "7104b73910",
+    "49f5560d45"
+  ],
+  "related": ["microsoft", "google", "silicon-valley"]
+}

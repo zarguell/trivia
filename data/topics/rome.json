@@ -1,0 +1,65 @@
+{
+  "id": "rome",
+  "name": "Rome",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "Founding twins, emperors and a road that still runs: the Roman facts Jeopardy keeps asking.",
+  "facts": [
+    {
+      "id": "twins",
+      "label": "Romulus and Remus",
+      "statement": "Rome's founding myth makes the twins Romulus and Remus sons of Mars, set adrift on the Tiber and suckled by a she-wolf.",
+      "associations": ["Romulus and Remus", "Mars", "she-wolf", "Tiber"],
+      "clue_ids": ["7e72c5e89f", "b897cbebaf"]
+    },
+    {
+      "id": "tiber",
+      "label": "the Tiber",
+      "statement": "The Tiber runs through Rome; it flooded so badly in 1598 that the Pantheon stood in 12 feet of water.",
+      "associations": ["the Tiber", "Pantheon", "1598 flood", "Ostia"],
+      "clue_ids": ["e4d1437aed", "b6d88811d3"]
+    },
+    {
+      "id": "punic-wars",
+      "label": "the Punic Wars",
+      "statement": "Rome fought Carthage in three Punic Wars — the name comes from Latin for \"Phoenician\" — and destroyed Carthage in 146 B.C.",
+      "associations": ["Punic Wars", "Carthage", "146 B.C.", "Phoenician"],
+      "clue_ids": ["f8ab4d3181", "13661b9058", "2da6d6b538"]
+    },
+    {
+      "id": "nero",
+      "label": "Nero",
+      "statement": "Nero built the Domus Aurea, or Golden House, after the Great Fire of 64; the fiddle story is legend.",
+      "associations": ["Nero", "Domus Aurea", "Great Fire", "Golden House"],
+      "clue_ids": ["0fa2ba0d70", "a32b56ef2e"]
+    },
+    {
+      "id": "appian-way",
+      "label": "the Appian Way",
+      "statement": "The Appian Way was antiquity's \"Queen of Roads,\" stretching from Rome southeast to Brindisi on the Adriatic.",
+      "associations": ["Appian Way", "Queen of Roads", "Brindisi", "2,000 years"],
+      "clue_ids": ["d93828d932", "799ecbd23d"]
+    },
+    {
+      "id": "colosseum",
+      "label": "the Colosseum",
+      "statement": "The Colosseum was begun by Emperor Vespasian; a 1590 papal plan would have turned it into a wool factory.",
+      "associations": ["Colosseum", "Vespasian", "wool factory", "A.D. 80"],
+      "clue_ids": ["b2554ddfbe"]
+    },
+    {
+      "id": "caesar",
+      "label": "Julius Caesar",
+      "statement": "Julius Caesar made himself dictator for life after beating Pompey; Rome's coins marked his murder with daggers and the Ides of March.",
+      "associations": ["Julius Caesar", "dictator for life", "Ides of March", "Brutus"],
+      "clue_ids": ["51d550d2c5", "c301547f17"]
+    }
+  ],
+  "clue_ids": [
+    "7e72c5e89f", "b897cbebaf", "e4d1437aed", "b6d88811d3", "f8ab4d3181",
+    "13661b9058", "2da6d6b538", "0fa2ba0d70", "a32b56ef2e", "d93828d932",
+    "799ecbd23d", "b2554ddfbe", "51d550d2c5", "c301547f17", "cd68c632bb",
+    "b7cc7e9398", "588caf501b"
+  ],
+  "related": ["roman-empire", "julius-caesar", "athens", "egypt"]
+}

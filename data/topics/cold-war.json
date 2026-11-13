@@ -1,0 +1,65 @@
+{
+  "id": "cold-war",
+  "name": "Cold War",
+  "deck": "history",
+  "aliases": ["the Cold War"],
+  "hook": "Orwell's phrase, the alliances, the spies and the bomb: six decades of superpower standoff.",
+  "facts": [
+    {
+      "id": "term",
+      "label": "the phrase \"cold war\"",
+      "statement": "George Orwell coined \"cold war\" in 1945; Bernard Baruch popularized it in a 1947 Senate speech.",
+      "associations": ["George Orwell", "Bernard Baruch", "1945", "1947"],
+      "clue_ids": ["6aa4fd0a45", "8a773c14d0", "e55c4918f4"]
+    },
+    {
+      "id": "alliances",
+      "label": "NATO and the Warsaw Pact",
+      "statement": "The Cold War hardened in the mid-1950s with two rival alliances, NATO and the Warsaw Pact.",
+      "associations": ["NATO", "Warsaw Pact", "rival alliances"],
+      "clue_ids": ["d175641c6b", "79aaca6900"]
+    },
+    {
+      "id": "mad",
+      "label": "MAD",
+      "statement": "The nuclear standoff was called MAD, for mutually assured destruction.",
+      "associations": ["MAD", "mutually assured destruction", "nuclear balance"],
+      "clue_ids": ["cfc9644fa4"]
+    },
+    {
+      "id": "detente",
+      "label": "détente",
+      "statement": "Détente, from the French for relaxation, was the easing of U.S.–Soviet Cold War tensions.",
+      "associations": ["détente", "relaxation", "U.S.–Soviet tensions"],
+      "clue_ids": ["e7f93df1d3", "ef403f6e26"]
+    },
+    {
+      "id": "gary-powers",
+      "label": "Francis Gary Powers",
+      "statement": "Francis Gary Powers was shot down over the Soviet Union in 1960 and wrote Operation Overflight.",
+      "associations": ["Francis Gary Powers", "U-2", "1960", "Operation Overflight"],
+      "clue_ids": ["7fc88bce6c", "bc7c0d009f"]
+    },
+    {
+      "id": "spy-fiction",
+      "label": "Cold War spy thrillers",
+      "statement": "Graham Greene's The Third Man is a 1949 Cold War thriller set in Vienna; John le Carré wrote The Russia House.",
+      "associations": ["The Third Man", "Graham Greene", "John le Carré", "The Russia House"],
+      "clue_ids": ["c9ae29052c", "3e929d322e", "166ddcd3b3"]
+    },
+    {
+      "id": "hot-war",
+      "label": "the Korean War",
+      "statement": "The Korean War was the Cold War's one major \"hot war,\" according to the Concise Columbia Encyclopedia.",
+      "associations": ["Korean War", "hot war", "1950s"],
+      "clue_ids": ["a719078730"]
+    }
+  ],
+  "clue_ids": [
+    "6aa4fd0a45", "8a773c14d0", "e55c4918f4", "d175641c6b", "79aaca6900",
+    "cfc9644fa4", "e7f93df1d3", "ef403f6e26", "7fc88bce6c", "bc7c0d009f",
+    "c9ae29052c", "3e929d322e", "166ddcd3b3", "a719078730", "625e99f983",
+    "1d83f9aab1"
+  ],
+  "related": ["berlin-wall", "world-war-ii", "vietnam-war", "russia"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "cuba",
+  "name": "Cuba",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "Castro, Batista, the Bay of Pigs and Guantanamo Bay: Cuba's clues are a Cold War history quiz.",
+  "facts": [
+    {
+      "id": "castro",
+      "label": "Fidel Castro",
+      "statement": "Fidel Castro launched the 26th of July Movement with his failed 1953 attack on a Santiago de Cuba barracks, then built a guerrilla base in the Sierra Maestra.",
+      "associations": ["26th of July Movement", "1953", "Sierra Maestra"],
+      "clue_ids": ["8c6346310b", "db9eef8b9e", "6c03555f49"]
+    },
+    {
+      "id": "batista",
+      "label": "Fulgencio Batista",
+      "statement": "Fulgencio Batista ruled Cuba from 1952 to 1959; he fled to the Dominican Republic on New Year's Day 1959, and his palace is now Havana's Museum of the Revolution.",
+      "associations": ["Fulgencio Batista", "1952-1959", "Museum of the Revolution"],
+      "clue_ids": ["3657c6edfc", "e29bbd9f10"]
+    },
+    {
+      "id": "bay-of-pigs",
+      "label": "the Bay of Pigs",
+      "statement": "The Bay of Pigs is Cuba's Bahia de Cochinos, site of the 1961 invasion; Cuba's Order of Playa Giron commemorates the victory.",
+      "associations": ["Bahia de Cochinos", "1961 invasion", "Playa Giron"],
+      "clue_ids": ["38ccf45416", "0051e54b4f"]
+    },
+    {
+      "id": "guantanamo",
+      "label": "Guantanamo Bay",
+      "statement": "Guantanamo Bay, near the Windward Passage, holds a U.S. naval base; Marines first landed there during the Spanish-American War.",
+      "associations": ["Guantanamo Bay", "U.S. naval base", "Windward Passage"],
+      "clue_ids": ["d9cd894ab1", "434a5881a8"]
+    },
+    {
+      "id": "hemingway",
+      "label": "Ernest Hemingway",
+      "statement": "Ernest Hemingway lived and wrote in Cuba; in 1961 JFK helped his widow get permission to retrieve his papers there.",
+      "associations": ["Ernest Hemingway", "1961", "JFK"],
+      "clue_ids": ["cfbc5f271c", "93f5b4aaad"]
+    },
+    {
+      "id": "spanish-american-war",
+      "label": "the Spanish-American War",
+      "statement": "The Spanish-American War's first land battle was at Las Guasimas, Cuba, on June 24, 1898; its last Western Hemisphere action was in Puerto Rico.",
+      "associations": ["1898", "Las Guasimas", "Puerto Rico"],
+      "clue_ids": ["dad9fe5a14", "c40d3ae87f", "3eb4b6d9d8"]
+    },
+    {
+      "id": "rum",
+      "label": "rum",
+      "statement": "Rum is the base of a Cuba libre; Don Facundo Bacardi built a Cuban distillery to make it in 1862.",
+      "associations": ["rum", "Cuba libre", "Bacardi", "1862"],
+      "clue_ids": ["fdd00d41ec", "2398aabec1"]
+    }
+  ],
+  "clue_ids": [
+    "8c6346310b", "db9eef8b9e", "6c03555f49", "3657c6edfc", "e29bbd9f10",
+    "38ccf45416", "0051e54b4f", "d9cd894ab1", "434a5881a8", "cfbc5f271c",
+    "93f5b4aaad", "dad9fe5a14", "c40d3ae87f", "3eb4b6d9d8", "fdd00d41ec",
+    "2398aabec1"
+  ],
+  "related": ["spain", "mexico", "panama-canal"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "american-civil-war",
+  "name": "American Civil War",
+  "deck": "history",
+  "aliases": ["Civil War"],
+  "hook": "America's deadliest war: the battles, generals and photographs Jeopardy keeps returning to.",
+  "facts": [
+    {
+      "id": "fort-sumter",
+      "label": "Fort Sumter",
+      "statement": "The war began with the Confederate capture of Fort Sumter in Charleston harbor in April 1861; the fort saw the war's first fatality.",
+      "associations": ["Fort Sumter", "April 1861", "Charleston"],
+      "clue_ids": ["fd36e963e4", "fc9844fa12"]
+    },
+    {
+      "id": "antietam",
+      "label": "Antietam",
+      "statement": "Antietam, also called Sharpsburg, was the bloodiest single day: over 22,000 killed or wounded on September 17, 1862.",
+      "associations": ["Antietam", "Sharpsburg", "September 17, 1862"],
+      "clue_ids": ["54c6c02060", "bd231131c7"]
+    },
+    {
+      "id": "gettysburg",
+      "label": "Gettysburg",
+      "statement": "At Gettysburg in July 1863, Joshua Chamberlain held Little Round Top; Lincoln's address there followed that November.",
+      "associations": ["Gettysburg", "Little Round Top", "Joshua Chamberlain"],
+      "clue_ids": ["519ca3b43d", "05d59adce2"]
+    },
+    {
+      "id": "grant",
+      "label": "Ulysses S. Grant",
+      "statement": "Grant was made General in Chief after his war service; in 1860 he had been working in his father's leather store in Galena, Illinois.",
+      "associations": ["Ulysses S. Grant", "General in Chief", "Galena, Illinois"],
+      "clue_ids": ["79d773b9d2", "c24490f9d1", "a2d5b33f36"]
+    },
+    {
+      "id": "brady",
+      "label": "Mathew Brady",
+      "statement": "Mathew Brady organized a photographic corps to document the war, and his battlefield photos are among the first of their kind.",
+      "associations": ["Mathew Brady", "photography", "battlefield photos"],
+      "clue_ids": ["9c6fc72f41", "9c530b752a", "25afadd545"]
+    },
+    {
+      "id": "lee",
+      "label": "Robert E. Lee",
+      "statement": "When Robert E. Lee left to fight for the Confederacy, the Union turned his family's land into Arlington National Cemetery.",
+      "associations": ["Robert E. Lee", "Arlington National Cemetery", "Confederacy"],
+      "clue_ids": ["41f023a4ef"]
+    },
+    {
+      "id": "tubman",
+      "label": "Harriet Tubman",
+      "statement": "Harriet Tubman, the \"Moses of Her People,\" served the Union Army as a cook and nurse during the war.",
+      "associations": ["Harriet Tubman", "Moses of Her People", "Union Army"],
+      "clue_ids": ["3a7e93f382", "4852044083"]
+    }
+  ],
+  "clue_ids": [
+    "e96b81f360", "95ea3e9502", "25afadd545", "9c6fc72f41", "9c530b752a",
+    "79d773b9d2", "c24490f9d1", "a2d5b33f36", "54c6c02060", "bd231131c7",
+    "fd36e963e4", "fc9844fa12", "519ca3b43d", "05d59adce2", "38cebb2771",
+    "41f023a4ef", "3a7e93f382", "4852044083"
+  ],
+  "related": ["abraham-lincoln", "american-revolution", "world-war-ii"]
+}

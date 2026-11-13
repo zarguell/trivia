@@ -1,0 +1,58 @@
+{
+  "id": "mississippi-river",
+  "name": "Mississippi River",
+  "deck": "geography",
+  "aliases": ["Mississippi"],
+  "hook": "One river, sixteen clues: its course, its cities and the war that made its bluffs famous.",
+  "facts": [
+    {
+      "id": "course",
+      "label": "its course",
+      "statement": "The Mississippi rises in Minnesota and runs 2,348 miles to the Gulf of Mexico, draining the nation's midsection.",
+      "associations": ["Minnesota", "Gulf of Mexico", "2,348 miles"],
+      "clue_ids": ["9c5ec3eff9", "f3a12f218e"]
+    },
+    {
+      "id": "new-orleans",
+      "label": "New Orleans",
+      "statement": "New Orleans is the largest city with parts on both banks of the Mississippi, and in 1861 it was the South's most populous city.",
+      "associations": ["New Orleans", "both banks", "170,000", "largest Southern city"],
+      "clue_ids": ["3b3f5b4e67", "9cdc2545b6"]
+    },
+    {
+      "id": "st-louis",
+      "label": "St. Louis",
+      "statement": "St. Louis sits on the Mississippi; Lewis and Clark set out from there in 1804, and its Missouri Gazette was the first newspaper west of the river.",
+      "associations": ["St. Louis", "Lewis and Clark", "Missouri Gazette", "1804"],
+      "clue_ids": ["7b0f34cb7b", "1366d0eeda"]
+    },
+    {
+      "id": "la-salle",
+      "label": "La Salle",
+      "statement": "In 1682 the sieur de La Salle followed the Mississippi to its mouth and claimed the whole valley for France as Louisiana.",
+      "associations": ["La Salle", "1682", "Louisiana", "France"],
+      "clue_ids": ["9fb6898755", "69b228f5d1"]
+    },
+    {
+      "id": "vicksburg",
+      "label": "Vicksburg",
+      "statement": "Vicksburg, the \"Gibraltar of the Confederacy,\" fell on July 4, 1863; the city did not observe Independence Day again until 1945.",
+      "associations": ["Vicksburg", "Gibraltar of the Confederacy", "July 4, 1863", "1945"],
+      "clue_ids": ["fea31480f8", "efb19564ed"]
+    },
+    {
+      "id": "divide",
+      "label": "the Ws and Ks",
+      "statement": "For U.S. radio call letters the Mississippi divides most W stations from K stations, and it separates most of the country's east from its west.",
+      "associations": ["W and K call letters", "east-west divide", "Missouri", "Vermont"],
+      "clue_ids": ["32703f2968", "63f85afe9f", "2aaee9dce3"]
+    }
+  ],
+  "clue_ids": [
+    "9c5ec3eff9", "f3a12f218e", "3b3f5b4e67", "9cdc2545b6", "7b0f34cb7b",
+    "1366d0eeda", "9fb6898755", "69b228f5d1", "fea31480f8", "efb19564ed",
+    "32703f2968", "63f85afe9f", "2aaee9dce3", "f0db796f6e", "bb46fd0d88",
+    "b6e41c5e30"
+  ],
+  "related": ["mark-twain", "american-civil-war", "niagara-falls"]
+}

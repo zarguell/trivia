@@ -1,0 +1,65 @@
+{
+  "id": "michelangelo",
+  "name": "Michelangelo",
+  "deck": "arts",
+  "aliases": ["Michelangelo Buonarroti"],
+  "hook": "One sculptor, one ceiling, one signed Pietà: the Renaissance artist Jeopardy quizzes most.",
+  "facts": [
+    {
+      "id": "david",
+      "label": "David",
+      "statement": "Michelangelo carved David between 1501 and 1504 from marble; the statue was placed beside the Palazzo Vecchio in Florence.",
+      "associations": ["David", "1501-1504", "Palazzo Vecchio", "Florence"],
+      "clue_ids": ["1c5346ae57"]
+    },
+    {
+      "id": "pieta",
+      "label": "the Pietà",
+      "statement": "The Pietà (1498-99) in St. Peter's Basilica is the only work Michelangelo signed, and its title is Italian for \"compassion.\"",
+      "associations": ["Pietà", "St. Peter's Basilica", "only signed work", "compassion"],
+      "clue_ids": ["4a42e9ce22", "6152fbd7b6", "e6aa6b811d"]
+    },
+    {
+      "id": "sistine",
+      "label": "the Sistine Chapel",
+      "statement": "Michelangelo painted the Sistine Chapel ceiling for Pope Julius II; the Last Judgment went up on its west wall in 1541.",
+      "associations": ["Sistine Chapel", "Pope Julius II", "Last Judgment", "1541"],
+      "clue_ids": ["c4b2d37045", "07ee71c642", "cfbdbeaa13"]
+    },
+    {
+      "id": "raphael",
+      "label": "Raphael",
+      "statement": "While Michelangelo worked on the Sistine Chapel, Raphael was upstairs in the Vatican painting The School of Athens.",
+      "associations": ["Raphael", "The School of Athens", "Vatican"],
+      "clue_ids": ["97192cb0d4", "4cb54374ef"]
+    },
+    {
+      "id": "marble",
+      "label": "Carrara marble",
+      "statement": "Michelangelo's marble came from the Carrara quarry in Tuscany; the two Slaves he carved for Julius II's tomb are in the Louvre.",
+      "associations": ["Carrara", "Tuscany", "the Slaves", "the Louvre"],
+      "clue_ids": ["ccaf03f12a", "f05be35924"]
+    },
+    {
+      "id": "santa-croce",
+      "label": "Santa Croce",
+      "statement": "Michelangelo is buried in the Basilica of Santa Croce in Florence, where Machiavelli's tomb also stands.",
+      "associations": ["Santa Croce", "Florence", "Machiavelli", "tomb"],
+      "clue_ids": ["2f0afaa98f", "22cffe6659"]
+    },
+    {
+      "id": "agony",
+      "label": "The Agony and the Ecstasy",
+      "statement": "Irving Stone's 1961 bestseller The Agony and the Ecstasy is about Michelangelo; a juvenile edition was titled The Great Adventure of Michelangelo.",
+      "associations": ["Irving Stone", "1961", "The Agony and the Ecstasy"],
+      "clue_ids": ["7b8df7a27d", "8458bda2d6"]
+    }
+  ],
+  "clue_ids": [
+    "1c5346ae57", "4a17d43541", "4a42e9ce22", "6152fbd7b6", "e6aa6b811d",
+    "c4b2d37045", "07ee71c642", "cfbdbeaa13", "97192cb0d4", "4cb54374ef",
+    "ccaf03f12a", "f05be35924", "2f0afaa98f", "22cffe6659", "7b8df7a27d",
+    "8458bda2d6"
+  ],
+  "related": ["leonardo-da-vinci", "mona-lisa", "rembrandt", "statue-of-liberty"]
+}

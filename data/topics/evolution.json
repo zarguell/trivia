@@ -1,0 +1,65 @@
+{
+  "id": "evolution",
+  "name": "Evolution",
+  "deck": "science",
+  "aliases": ["natural selection"],
+  "hook": "Darwin's big idea and a century of fights — Scopes, creationism and Inherit the Wind.",
+  "facts": [
+    {
+      "id": "darwin",
+      "label": "Charles Darwin",
+      "statement": "Charles Darwin laid out evolution by natural selection in the 1859 book On the Origin of Species, then applied it to humans in The Descent of Man.",
+      "associations": ["Charles Darwin", "On the Origin of Species", "1859", "The Descent of Man"],
+      "clue_ids": ["3efa27ff15", "201c307d69", "252f4ceb91"]
+    },
+    {
+      "id": "wallace",
+      "label": "Alfred Russel Wallace",
+      "statement": "Alfred Russel Wallace arrived at natural selection independently, prompting the joint 1858 papers and pushing Darwin to publish.",
+      "associations": ["Alfred Russel Wallace", "natural selection", "1858", "independent discovery"],
+      "clue_ids": ["69850369ba", "a63a841fc8"]
+    },
+    {
+      "id": "survival",
+      "label": "survival of the fittest",
+      "statement": "Herbert Spencer coined the phrase survival of the fittest, which Darwin adopted to describe natural selection.",
+      "associations": ["survival of the fittest", "Herbert Spencer", "natural selection"],
+      "clue_ids": ["3cb00934da", "68f2e8cf63"]
+    },
+    {
+      "id": "scopes",
+      "label": "John Scopes",
+      "statement": "John Scopes was convicted and fined $100 in 1925 for teaching evolution in Dayton, Tennessee, in the so-called Monkey Trial.",
+      "associations": ["John Scopes", "1925", "Dayton, Tennessee", "Monkey Trial"],
+      "clue_ids": ["ddef349e25", "86aa59942e", "a555aa09d8"]
+    },
+    {
+      "id": "inherit-the-wind",
+      "label": "Inherit the Wind",
+      "statement": "Inherit the Wind, with Bertram Cates on trial, is the play and 1960 film inspired by the Scopes trial.",
+      "associations": ["Inherit the Wind", "Bertram Cates", "1960 film", "play"],
+      "clue_ids": ["b6436fa4fb", "2ee4078b9b"]
+    },
+    {
+      "id": "creationism",
+      "label": "creationism",
+      "statement": "At the Scopes trial William Jennings Bryan argued for creationism, the Christian alternative to evolution.",
+      "associations": ["creationism", "William Jennings Bryan", "Scopes trial"],
+      "clue_ids": ["a0b8f8b22c", "8b2fc79a2d"]
+    },
+    {
+      "id": "intelligent-design",
+      "label": "intelligent design",
+      "statement": "In Kitzmiller v. Dover a federal judge barred a Pennsylvania district from teaching intelligent design as an alternative to evolution.",
+      "associations": ["intelligent design", "Kitzmiller v. Dover", "ACLU", "Pennsylvania"],
+      "clue_ids": ["e9b3c2c2b3", "5bcaf0a033"]
+    }
+  ],
+  "clue_ids": [
+    "3efa27ff15", "201c307d69", "252f4ceb91", "69850369ba", "a63a841fc8",
+    "3cb00934da", "68f2e8cf63", "ddef349e25", "86aa59942e", "a555aa09d8",
+    "b6436fa4fb", "2ee4078b9b", "a0b8f8b22c", "8b2fc79a2d", "e9b3c2c2b3",
+    "5bcaf0a033"
+  ],
+  "related": ["charles-darwin", "dna", "dinosaurs", "photosynthesis"]
+}

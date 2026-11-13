@@ -1,0 +1,65 @@
+{
+  "id": "jurassic-park",
+  "name": "Jurassic Park",
+  "deck": "film-tv",
+  "aliases": [],
+  "hook": "Crichton's cloned dinosaurs became Spielberg's record-breaking blockbuster — and a franchise.",
+  "facts": [
+    {
+      "id": "crichton",
+      "label": "Michael Crichton",
+      "statement": "Michael Crichton wrote the 1990 bestseller, and its only sequel was The Lost World; he also created the TV series ER.",
+      "associations": ["Michael Crichton", "1990 novel", "The Lost World", "ER"],
+      "clue_ids": ["36c1474387", "933a99dfd8", "d424f9256a"]
+    },
+    {
+      "id": "spielberg",
+      "label": "Steven Spielberg",
+      "statement": "Steven Spielberg's 1993 film became the highest-grossing movie ever, passing E.T., and won three technical Oscars.",
+      "associations": ["Steven Spielberg", "1993", "E.T.", "highest-grossing"],
+      "clue_ids": ["29ada8d163", "cac2aa9780", "c1bee2d17f"]
+    },
+    {
+      "id": "velociraptor",
+      "label": "Velociraptor",
+      "statement": "The film's ferocious predator is the Velociraptor, whose name means \"swift robber\" and which had a killing claw on each foot.",
+      "associations": ["Velociraptor", "swift robber", "killing claw", "predator"],
+      "clue_ids": ["d928aea191", "edd7a121b5"]
+    },
+    {
+      "id": "amber",
+      "label": "amber",
+      "statement": "The park's dinosaurs are revived from DNA preserved in amber, fossilized tree resin.",
+      "associations": ["amber", "DNA", "fossilized resin", "cloning"],
+      "clue_ids": ["812a4ee0a3", "47a09eb05a"]
+    },
+    {
+      "id": "cast",
+      "label": "Sam Neill",
+      "statement": "Sam Neill played paleontologist Alan Grant, Jeff Goldblum played Ian Malcolm, and Laura Dern played paleobotanist Ellie Sattler.",
+      "associations": ["Sam Neill", "Alan Grant", "Jeff Goldblum", "Laura Dern"],
+      "clue_ids": ["ad2987d220", "3db8af1fab", "5824720817"]
+    },
+    {
+      "id": "john-williams",
+      "label": "John Williams",
+      "statement": "John Williams composed the score; he had been a studio pianist on West Side Story and To Kill a Mockingbird.",
+      "associations": ["John Williams", "film score", "West Side Story"],
+      "clue_ids": ["144a0b1c36", "f2912d3217"]
+    },
+    {
+      "id": "attenborough",
+      "label": "Richard Attenborough",
+      "statement": "Richard Attenborough, who directed Gandhi, played park founder John Hammond.",
+      "associations": ["Richard Attenborough", "John Hammond", "Gandhi"],
+      "clue_ids": ["f241ae6262"]
+    }
+  ],
+  "clue_ids": [
+    "36c1474387", "933a99dfd8", "d424f9256a", "29ada8d163", "cac2aa9780",
+    "c1bee2d17f", "d928aea191", "edd7a121b5", "812a4ee0a3", "47a09eb05a",
+    "ad2987d220", "3db8af1fab", "5824720817", "144a0b1c36", "f2912d3217",
+    "f241ae6262", "756421d886", "14a8c9ae54"
+  ],
+  "related": ["steven-spielberg", "star-wars", "the-godfather"]
+}

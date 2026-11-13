@@ -1,0 +1,65 @@
+{
+  "id": "pluto",
+  "name": "Pluto",
+  "deck": "science",
+  "aliases": [],
+  "hook": "The demoted planet Jeopardy refuses to forget — discovery, moons and the 2006 demotion.",
+  "facts": [
+    {
+      "id": "discovery",
+      "label": "its 1930 discovery",
+      "statement": "Clyde Tombaugh discovered Pluto in 1930 at Lowell Observatory, completing the search Percival Lowell had begun.",
+      "associations": ["Clyde Tombaugh", "1930", "Lowell Observatory", "Percival Lowell"],
+      "clue_ids": ["67992e69ca", "2060ab3fd0", "9b339a105f"]
+    },
+    {
+      "id": "dwarf-planet",
+      "label": "a dwarf planet",
+      "statement": "In 2006 Pluto was reclassified as a dwarf planet, joining Ceres and Eris, and it is smaller than Mercury.",
+      "associations": ["dwarf planet", "2006", "Ceres", "Eris", "smaller than Mercury"],
+      "clue_ids": ["54c4a056bf", "a084d29c51", "0166418319"]
+    },
+    {
+      "id": "charon",
+      "label": "Charon",
+      "statement": "Charon, Pluto's largest moon, was discovered in 1978, is just over half Pluto's diameter, and is named for the ferryman of the dead.",
+      "associations": ["Charon", "1978", "largest moon", "ferryman of the Styx"],
+      "clue_ids": ["39ba06671d", "1fa7eb8613"]
+    },
+    {
+      "id": "styx",
+      "label": "Styx",
+      "statement": "Pluto's moons carry underworld names — Charon, Nix, Hydra, Kerberos and Styx, the most recently discovered.",
+      "associations": ["Styx", "Kerberos", "underworld names", "moons"],
+      "clue_ids": ["ea4ed90cdc", "e3520e8cf2"]
+    },
+    {
+      "id": "kuiper-belt",
+      "label": "the Kuiper Belt",
+      "statement": "Pluto is one of the larger Kuiper Belt objects, the icy belt beyond Neptune where Eris was discovered in 2005.",
+      "associations": ["Kuiper Belt", "KBO", "Eris", "beyond Neptune"],
+      "clue_ids": ["43824e706a", "254521e9ea"]
+    },
+    {
+      "id": "new-horizons",
+      "label": "New Horizons",
+      "statement": "NASA's New Horizons probe revealed nitrogen-ice glaciers on Pluto and the heart-shaped region now called Tombaugh Regio.",
+      "associations": ["New Horizons", "nitrogen ice", "Tombaugh Regio", "glaciers"],
+      "clue_ids": ["84e00af541", "ce2f9c4bf9"]
+    },
+    {
+      "id": "eccentric-orbit",
+      "label": "its eccentric orbit",
+      "statement": "Pluto's orbit is so eccentric that for 20 years of every 248 it comes closer to the Sun than Neptune does.",
+      "associations": ["eccentric orbit", "20 years", "248-year orbit", "closer than Neptune"],
+      "clue_ids": ["da222cdc30", "832ce44241"]
+    }
+  ],
+  "clue_ids": [
+    "67992e69ca", "2060ab3fd0", "9b339a105f", "54c4a056bf", "a084d29c51",
+    "0166418319", "39ba06671d", "1fa7eb8613", "ea4ed90cdc", "e3520e8cf2",
+    "43824e706a", "254521e9ea", "84e00af541", "ce2f9c4bf9", "da222cdc30",
+    "832ce44241"
+  ],
+  "related": ["neptune", "solar-system", "mars"]
+}

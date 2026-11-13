@@ -1,0 +1,65 @@
+{
+  "id": "moses",
+  "name": "Moses",
+  "deck": "myth-religion",
+  "aliases": [],
+  "hook": "The lawgiver of Exodus: burning bush, plagues, Sinai and the Promised Land.",
+  "facts": [
+    {
+      "id": "exodus",
+      "label": "Exodus",
+      "statement": "In Exodus, Moses hears God from the burning bush and tells Pharaoh, \"Let my people go,\" then leads Israel out of Egypt.",
+      "associations": ["Exodus", "burning bush", "\"Let my people go\"", "Pharaoh"],
+      "clue_ids": ["0af6b3f57d", "251b081445", "335ed46cb9"]
+    },
+    {
+      "id": "mount-sinai",
+      "label": "Mount Sinai",
+      "statement": "Moses receives the Ten Commandments on Mount Sinai; the two stone tablets are kept in the Ark of the Covenant.",
+      "associations": ["Mount Sinai", "Ten Commandments", "Ark of the Covenant", "Jabal Musa"],
+      "clue_ids": ["f533f392ee", "16716281c3", "8bcd817091"]
+    },
+    {
+      "id": "aaron",
+      "label": "Aaron",
+      "statement": "Aaron, Moses' brother, makes the golden calf from the Israelites' jewelry while Moses is on Sinai.",
+      "associations": ["Aaron", "golden calf", "brother"],
+      "clue_ids": ["2044c2d3e4", "d1f5467d2d", "28dec7993c"]
+    },
+    {
+      "id": "deuteronomy",
+      "label": "Deuteronomy",
+      "statement": "Deuteronomy, the fifth book of the Old Testament, is Moses' farewell address and contains his farewell song.",
+      "associations": ["Deuteronomy", "fifth book", "farewell song"],
+      "clue_ids": ["f7978c0a22", "eb046ee343"]
+    },
+    {
+      "id": "ten-commandments-film",
+      "label": "The Ten Commandments",
+      "statement": "Cecil B. DeMille's The Ten Commandments premiered in 1923 and was remade in 1956 with Charlton Heston as Moses.",
+      "associations": ["The Ten Commandments", "Cecil B. DeMille", "Charlton Heston", "1956"],
+      "clue_ids": ["7b12a987f9", "8509b6d6fa"]
+    },
+    {
+      "id": "miriam",
+      "label": "Miriam",
+      "statement": "Miriam, Moses' sister, leads the women in song and dance after the crossing of the Red Sea.",
+      "associations": ["Miriam", "Red Sea", "song and dance", "sister"],
+      "clue_ids": ["7309ffe18b", "4d21b49464"]
+    },
+    {
+      "id": "harriet-tubman",
+      "label": "Harriet Tubman",
+      "statement": "Harriet Tubman was called \"Moses\" for leading enslaved people out of the South, as in the spiritual \"Go Down, Moses.\"",
+      "associations": ["Harriet Tubman", "\"Moses\"", "Underground Railroad"],
+      "clue_ids": ["649f55d369", "eb14382e99"]
+    }
+  ],
+  "clue_ids": [
+    "0af6b3f57d", "251b081445", "335ed46cb9", "f533f392ee", "16716281c3",
+    "8bcd817091", "2044c2d3e4", "d1f5467d2d", "28dec7993c", "f7978c0a22",
+    "eb046ee343", "7b12a987f9", "8509b6d6fa", "7309ffe18b", "4d21b49464",
+    "649f55d369", "eb14382e99"
+  ],
+  "related": ["ten-commandments", "noah-s-ark", "david-and-goliath"]
+}

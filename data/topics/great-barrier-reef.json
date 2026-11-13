@@ -1,0 +1,64 @@
+{
+  "id": "great-barrier-reef",
+  "name": "Great Barrier Reef",
+  "deck": "geography",
+  "aliases": ["the Reef"],
+  "hook": "The largest living structure on Earth, off Queensland — and the only one you can see from orbit.",
+  "facts": [
+    {
+      "id": "largest",
+      "label": "the largest coral reef system",
+      "statement": "Stretching some 1,400 miles off Australia's northeast coast, it is the world's largest coral reef system, built by hundreds of coral species.",
+      "associations": ["largest coral reef", "1,400 miles", "350 coral species"],
+      "clue_ids": ["c5ee812108"]
+    },
+    {
+      "id": "queensland",
+      "label": "Queensland",
+      "statement": "It lies off Queensland, the \"royal\" state named for Queen Victoria whose territory includes part of the reef.",
+      "associations": ["Queensland", "Queen Victoria", "northeast coast"],
+      "clue_ids": ["4baaa919f0", "6b3e2cb9d2"]
+    },
+    {
+      "id": "coral-sea",
+      "label": "the Coral Sea",
+      "statement": "The reef gave its name to the Coral Sea, which lies off Queensland between Australia and Papua New Guinea.",
+      "associations": ["Coral Sea", "Papua New Guinea", "Queensland"],
+      "clue_ids": ["a62523a01b", "46934abfa1"]
+    },
+    {
+      "id": "cook",
+      "label": "Captain James Cook",
+      "statement": "In 1770 Captain Cook's Endeavour ran aground on the reef and nearly sank, after he had charted New Zealand.",
+      "associations": ["Captain Cook", "Endeavour", "1770"],
+      "clue_ids": ["e5b1be8406", "eb65d8be87", "e39c284371"]
+    },
+    {
+      "id": "bleaching",
+      "label": "coral bleaching",
+      "statement": "In 2018 National Geographic reported half the reef dead, \"akin to a forest after a devastating fire\"; crown-of-thorns starfish also eat the coral.",
+      "associations": ["coral bleaching", "half dead", "crown-of-thorns starfish"],
+      "clue_ids": ["8cb917c1da", "84aff527c1"]
+    },
+    {
+      "id": "irwin",
+      "label": "Steve Irwin",
+      "statement": "Steve Irwin, television's Crocodile Hunter and an Australian folk hero, died in 2006 when a stingray's barb struck him at the reef.",
+      "associations": ["Steve Irwin", "Crocodile Hunter", "2006"],
+      "clue_ids": ["6982930bb3"]
+    },
+    {
+      "id": "heritage",
+      "label": "a World Heritage Site",
+      "statement": "It is a UNESCO World Heritage Site, and removing coral can bring a fine of up to $53,000.",
+      "associations": ["World Heritage Site", "$53,000 fine", "UNESCO"],
+      "clue_ids": ["cde861be63"]
+    }
+  ],
+  "clue_ids": [
+    "c5ee812108", "4baaa919f0", "6b3e2cb9d2", "a62523a01b", "46934abfa1",
+    "e5b1be8406", "eb65d8be87", "e39c284371", "8cb917c1da", "84aff527c1",
+    "6982930bb3", "cde861be63", "491a5be4fc", "e518963f73", "516d4bcc34"
+  ],
+  "related": ["australia", "grand-canyon", "mount-everest"]
+}

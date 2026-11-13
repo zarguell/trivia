@@ -1,0 +1,64 @@
+{
+  "id": "notre-dame",
+  "name": "Notre Dame",
+  "deck": "world-culture",
+  "aliases": [],
+  "hook": "One name for a Paris cathedral and an Indiana university — and Jeopardy asks about both.",
+  "facts": [
+    {
+      "id": "university",
+      "label": "the University of Notre Dame",
+      "statement": "French Catholic missionaries led by Father Edward Sorin founded the University of Notre Dame in Indiana in 1842.",
+      "associations": ["University of Notre Dame", "Edward Sorin", "1842", "Indiana"],
+      "clue_ids": ["b459732dd9"]
+    },
+    {
+      "id": "rockne",
+      "label": "Knute Rockne",
+      "statement": "Knute Rockne coached Notre Dame football from 1918 to 1930 with the best career winning percentage, .881.",
+      "associations": ["Knute Rockne", ".881", "Notre Dame football"],
+      "clue_ids": ["709ca70b13", "e74a442515"]
+    },
+    {
+      "id": "four-horsemen",
+      "label": "the Four Horsemen",
+      "statement": "Notre Dame's 1924 backfield was the Four Horsemen: Stuhldreher, Crowley, Miller and Layden.",
+      "associations": ["the Four Horsemen", "1924 backfield", "Harry Stuhldreher"],
+      "clue_ids": ["c97d0d507d", "d63f663558"]
+    },
+    {
+      "id": "rudy",
+      "label": "Rudy",
+      "statement": "Rudy is the 1993 film about a Notre Dame dreamer; it was the first film pairing Jon Favreau and Vince Vaughn.",
+      "associations": ["Rudy", "1993 film", "Jon Favreau", "Vince Vaughn"],
+      "clue_ids": ["24ea1463ab", "c9de442cc3"]
+    },
+    {
+      "id": "south-bend",
+      "label": "South Bend, Indiana",
+      "statement": "Notre Dame sits near South Bend, Indiana, once home to the Studebaker automobile company.",
+      "associations": ["South Bend", "Indiana", "Studebaker"],
+      "clue_ids": ["d4cbbbbe02", "e21b3507bf"]
+    },
+    {
+      "id": "cathedral",
+      "label": "the Paris cathedral",
+      "statement": "Victor Hugo's The Hunchback of Notre Dame, with the bell ringer Quasimodo and gypsy Esmeralda, spurred Paris to save the cathedral.",
+      "associations": ["Victor Hugo", "Quasimodo", "Esmeralda", "Paris cathedral"],
+      "clue_ids": ["98145631b8", "ba14750a8a", "87a618e42f"]
+    },
+    {
+      "id": "seine",
+      "label": "the Seine",
+      "statement": "The Seine runs past Notre Dame in Paris; in January 2018 flooding closed the cathedral as the river peaked.",
+      "associations": ["the Seine", "Paris", "2018 flood"],
+      "clue_ids": ["71f13e9d5f", "98299fedaf"]
+    }
+  ],
+  "clue_ids": [
+    "b459732dd9", "709ca70b13", "e74a442515", "c97d0d507d", "d63f663558",
+    "24ea1463ab", "c9de442cc3", "d4cbbbbe02", "e21b3507bf", "98145631b8",
+    "ba14750a8a", "87a618e42f", "71f13e9d5f", "98299fedaf"
+  ],
+  "related": ["harvard", "paris"]
+}

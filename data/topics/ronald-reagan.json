@@ -1,0 +1,135 @@
+{
+  "id": "ronald-reagan",
+  "name": "Ronald Reagan",
+  "deck": "history",
+  "aliases": [
+    "Reagan"
+  ],
+  "hook": "The actor-turned-president: 525 electoral votes, \"tear down this wall\" and the Cold War's last act.",
+  "facts": [
+    {
+      "id": "divorce",
+      "label": "the only divorced president",
+      "statement": "Reagan is the only U.S. president who had been divorced; his first wife was actress Jane Wyman.",
+      "associations": [
+        "only divorced president",
+        "Jane Wyman",
+        "Brother Rat"
+      ],
+      "clue_ids": [
+        "0b1f730479",
+        "31b88d3347"
+      ]
+    },
+    {
+      "id": "government",
+      "label": "\"Government is not the solution\"",
+      "statement": "A New Deal Democrat in his youth, he declared in his 1981 inaugural address that \"government is not the solution to our problem.\"",
+      "associations": [
+        "1981 inaugural",
+        "government is not the solution",
+        "New Deal Democrat"
+      ],
+      "clue_ids": [
+        "0454b0c702"
+      ]
+    },
+    {
+      "id": "electoral-landslide",
+      "label": "525 electoral votes",
+      "statement": "He beat Walter Mondale in 1984 with 525 electoral votes, the most in U.S. history.",
+      "associations": [
+        "1984 election",
+        "Walter Mondale",
+        "525 electoral votes"
+      ],
+      "clue_ids": [
+        "c2783ae3ba",
+        "46773726bf"
+      ]
+    },
+    {
+      "id": "berlin-wall",
+      "label": "\"Tear down this wall\"",
+      "statement": "In a June 12, 1987 speech at the Brandenburg Gate, he told Mikhail Gorbachev to \"tear down this wall!\"",
+      "associations": [
+        "tear down this wall",
+        "Berlin Wall",
+        "1987"
+      ],
+      "clue_ids": [
+        "effb5cfa31",
+        "dfe9f6915b"
+      ]
+    },
+    {
+      "id": "gorbachev",
+      "label": "Mikhail Gorbachev",
+      "statement": "His summits with Gorbachev began at Geneva in 1985; the 1986 talks snagged on his \"Star Wars\" missile-defense plan.",
+      "associations": [
+        "Mikhail Gorbachev",
+        "Geneva 1985",
+        "Star Wars"
+      ],
+      "clue_ids": [
+        "1cd9e8d83c",
+        "48dd2f7991",
+        "021fef351b"
+      ]
+    },
+    {
+      "id": "oconnor",
+      "label": "Sandra Day O'Connor",
+      "statement": "In 1981 he appointed Sandra Day O'Connor as the first woman on the Supreme Court.",
+      "associations": [
+        "Sandra Day O'Connor",
+        "Supreme Court",
+        "1981"
+      ],
+      "clue_ids": [
+        "27ed8debbd",
+        "a21efacff6"
+      ]
+    },
+    {
+      "id": "illinois",
+      "label": "Tampico, Illinois",
+      "statement": "He was born above a bank in Tampico, Illinois in 1911 and attended Eureka College in the state.",
+      "associations": [
+        "Tampico, Illinois",
+        "1911",
+        "Eureka College"
+      ],
+      "clue_ids": [
+        "dd4353d5e8",
+        "5c1e462ea2",
+        "b0062fd261"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "0b1f730479",
+    "0454b0c702",
+    "603ab67cf6",
+    "b0062fd261",
+    "8382ecc7ca",
+    "1cd9e8d83c",
+    "021fef351b",
+    "3d17754782",
+    "31b88d3347",
+    "27ed8debbd",
+    "c2783ae3ba",
+    "dfe9f6915b",
+    "a21efacff6",
+    "48dd2f7991",
+    "dd4353d5e8",
+    "5c1e462ea2",
+    "46773726bf",
+    "effb5cfa31"
+  ],
+  "related": [
+    "cold-war",
+    "franklin-d-roosevelt",
+    "john-f-kennedy"
+  ]
+}

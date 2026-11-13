@@ -1,0 +1,65 @@
+{
+  "id": "prohibition",
+  "name": "Prohibition",
+  "deck": "history",
+  "aliases": ["the Noble Experiment"],
+  "hook": "America's failed experiment: the amendment, the speakeasy, and the repeal that ended it.",
+  "facts": [
+    {
+      "id": "eighteenth-amendment",
+      "label": "the 18th Amendment and Volstead Act",
+      "statement": "The 18th Amendment established Prohibition in 1920; the Volstead Act, passed over President Wilson's veto in 1919, enforced it.",
+      "associations": ["18th Amendment", "Volstead Act", "1920", "Wilson veto"],
+      "clue_ids": ["eabca3dafe", "eac9a12de2"]
+    },
+    {
+      "id": "repeal",
+      "label": "the 21st Amendment",
+      "statement": "The 21st Amendment repealed Prohibition in 1933, and Utah's ratification on December 5 made it official.",
+      "associations": ["21st Amendment", "1933", "Utah ratification"],
+      "clue_ids": ["5c9444dbfd", "ccb444c1b3"]
+    },
+    {
+      "id": "speakeasies",
+      "label": "speakeasies",
+      "statement": "Illegal bars were called speakeasies, named for customers speaking discreetly; New York's 21 Club was one of them.",
+      "associations": ["speakeasy", "21 Club", "illegal bar"],
+      "clue_ids": ["fa5c7fbe32", "c9cabcd066", "757b088d1f"]
+    },
+    {
+      "id": "eliot-ness",
+      "label": "Eliot Ness",
+      "statement": "Eliot Ness became a special agent in Chicago's Prohibition Bureau in 1929 and later ran for mayor of Cleveland.",
+      "associations": ["Eliot Ness", "Chicago", "1929", "Cleveland"],
+      "clue_ids": ["c0671924c8", "d9d34c7797"]
+    },
+    {
+      "id": "breweries",
+      "label": "Anheuser-Busch and Coors",
+      "statement": "During Prohibition, Anheuser-Busch made Bevo and non-alcoholic beer, while Coors switched to malted milk and near beer.",
+      "associations": ["Anheuser-Busch", "Bevo", "Coors", "malted milk"],
+      "clue_ids": ["692fcc11b4", "47c3521d7b"]
+    },
+    {
+      "id": "mississippi",
+      "label": "Mississippi",
+      "statement": "Mississippi was the last state to end statewide prohibition, adopting a local-option law in 1966.",
+      "associations": ["Mississippi", "1966", "last state", "local option"],
+      "clue_ids": ["54a7d78f1c", "b0cf20b4e9"]
+    },
+    {
+      "id": "prohibition-party",
+      "label": "the Prohibition Party",
+      "statement": "The Prohibition Party adopted the camel as its mascot in 1908, a fitting symbol for going without a drink.",
+      "associations": ["Prohibition Party", "camel", "1908"],
+      "clue_ids": ["00b5ca66f2"]
+    }
+  ],
+  "clue_ids": [
+    "5c9444dbfd", "ccb444c1b3", "c0671924c8", "d9d34c7797", "54a7d78f1c",
+    "b0cf20b4e9", "7c88a482da", "eabca3dafe", "eac9a12de2", "692fcc11b4",
+    "c9cabcd066", "fa5c7fbe32", "00b5ca66f2", "47c3521d7b", "757b088d1f",
+    "450ace0c67", "0ea9b4a8e6"
+  ],
+  "related": ["great-depression", "chicago"]
+}

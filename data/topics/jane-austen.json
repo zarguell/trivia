@@ -1,0 +1,136 @@
+{
+  "id": "jane-austen",
+  "name": "Jane Austen",
+  "deck": "literature",
+  "aliases": [
+    "Austen"
+  ],
+  "hook": "Six novels, one Hampshire village, and the sharpest marriage plots in English fiction.",
+  "facts": [
+    {
+      "id": "six-novels",
+      "label": "six novels",
+      "statement": "Austen completed six novels; Sense and Sensibility (1811) was the first published, and Persuasion, her last, appeared posthumously.",
+      "associations": [
+        "six novels",
+        "1811",
+        "Sense and Sensibility",
+        "Persuasion"
+      ],
+      "clue_ids": [
+        "654ef9caec",
+        "d9db6d44ed",
+        "8aed2688c4"
+      ]
+    },
+    {
+      "id": "pride-prejudice",
+      "label": "Pride and Prejudice",
+      "statement": "Pride and Prejudice follows Elizabeth Bennet and Mr. Darcy; it was first drafted as 'First Impressions' and became a zombie novel in 2009.",
+      "associations": [
+        "Elizabeth Bennet",
+        "Mr. Darcy",
+        "First Impressions",
+        "zombies"
+      ],
+      "clue_ids": [
+        "8306ac3521",
+        "f97336ea40",
+        "e6831d7633"
+      ]
+    },
+    {
+      "id": "emma",
+      "label": "Emma",
+      "statement": "Emma is about a rich, clever young woman who meddles in other people's matches; 'handsome, clever, and rich' is the famous description of her.",
+      "associations": [
+        "Emma Woodhouse",
+        "matchmaker",
+        "handsome, clever, and rich"
+      ],
+      "clue_ids": [
+        "125b8787ca"
+      ]
+    },
+    {
+      "id": "northanger-abbey",
+      "label": "Northanger Abbey",
+      "statement": "Northanger Abbey satirizes the Gothic novel; Catherine Morland imagines the title house is full of terrors.",
+      "associations": [
+        "Gothic satire",
+        "Catherine Morland",
+        "abbey"
+      ],
+      "clue_ids": [
+        "749592bc03",
+        "2e9bd7e264",
+        "d4df0b888d"
+      ]
+    },
+    {
+      "id": "persuasion",
+      "label": "Persuasion",
+      "statement": "In Persuasion, Anne Elliot is persuaded to refuse Frederick Wentworth; it was the last novel Austen completed.",
+      "associations": [
+        "Anne Elliot",
+        "Frederick Wentworth",
+        "last novel"
+      ],
+      "clue_ids": [
+        "85b02625eb",
+        "8aed2688c4"
+      ]
+    },
+    {
+      "id": "mansfield-park",
+      "label": "Mansfield Park",
+      "statement": "Fanny Price is adopted into the family of her rich uncle, who lives at the title estate, Mansfield Park.",
+      "associations": [
+        "Fanny Price",
+        "adopted",
+        "estate"
+      ],
+      "clue_ids": [
+        "83b117abdf"
+      ]
+    },
+    {
+      "id": "sense-sensibility",
+      "label": "Sense and Sensibility",
+      "statement": "The Dashwood family of Sussex opens Sense and Sensibility; Emma Thompson won an Oscar for its screenplay.",
+      "associations": [
+        "Dashwood",
+        "Sussex",
+        "Emma Thompson",
+        "Oscar"
+      ],
+      "clue_ids": [
+        "5e8bec6c29",
+        "1b606d9fd7",
+        "333f165816"
+      ]
+    }
+  ],
+  "clue_ids": [
+    "654ef9caec",
+    "d9db6d44ed",
+    "8aed2688c4",
+    "8306ac3521",
+    "f97336ea40",
+    "e6831d7633",
+    "125b8787ca",
+    "749592bc03",
+    "2e9bd7e264",
+    "d4df0b888d",
+    "85b02625eb",
+    "83b117abdf",
+    "5e8bec6c29",
+    "1b606d9fd7",
+    "333f165816"
+  ],
+  "related": [
+    "pride-and-prejudice",
+    "little-women",
+    "charles-dickens"
+  ]
+}

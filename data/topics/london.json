@@ -1,0 +1,64 @@
+{
+  "id": "london",
+  "name": "London",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "The city of the Great Fire, the Blitz and Jack the Ripper.",
+  "facts": [
+    {
+      "id": "great-fire",
+      "label": "the Great Fire",
+      "statement": "The Great Fire of 1666 burned much of London; in 1986 a bakers' union formally apologized for starting it.",
+      "associations": ["Great Fire", "1666", "bakers' union"],
+      "clue_ids": ["6a5a62c9ab"]
+    },
+    {
+      "id": "westminster-abbey",
+      "label": "Westminster Abbey",
+      "statement": "Westminster Abbey, formally the Collegiate Church of St. Peter, holds Britain's Unknown Soldier in the only floor tomb visitors may not walk on.",
+      "associations": ["Westminster Abbey", "Collegiate Church of St. Peter", "Unknown Soldier"],
+      "clue_ids": ["c1e710f72c", "76990dc3ee"]
+    },
+    {
+      "id": "jack-the-ripper",
+      "label": "Jack the Ripper",
+      "statement": "Jack the Ripper killed in London's Whitechapel district in 1888; his victims included Elizabeth Stride and Catherine Eddowes.",
+      "associations": ["Jack the Ripper", "Whitechapel", "1888"],
+      "clue_ids": ["5b794e7480", "9ab37d2fa8"]
+    },
+    {
+      "id": "buckingham-palace",
+      "label": "Buckingham Palace",
+      "statement": "Buckingham Palace, the royal London residence, has 600 rooms and was bombed during the Blitz on September 13, 1940.",
+      "associations": ["Buckingham Palace", "600 rooms", "Blitz", "1940"],
+      "clue_ids": ["9ad2d78185", "8fb3c97a81"]
+    },
+    {
+      "id": "british-museum",
+      "label": "the British Museum",
+      "statement": "The British Museum houses the Rosetta Stone and, thanks to Norman Foster, a glass-enclosed courtyard.",
+      "associations": ["British Museum", "Rosetta Stone", "Norman Foster"],
+      "clue_ids": ["3b7f685952", "099bdf4270"]
+    },
+    {
+      "id": "st-pauls",
+      "label": "St. Paul's Cathedral",
+      "statement": "St. Paul's Cathedral, Christopher Wren's seat of the Bishop of London, had its bells cast at Whitechapel's foundry.",
+      "associations": ["St. Paul's", "Christopher Wren", "Bishop of London", "Whitechapel foundry"],
+      "clue_ids": ["ed19269d8d", "7478b39d91"]
+    },
+    {
+      "id": "hyde-park",
+      "label": "Hyde Park",
+      "statement": "Hyde Park, a former royal hunting preserve, hosted the 1851 Great Exhibition in the Crystal Palace and is home to Speakers' Corner.",
+      "associations": ["Hyde Park", "1851 Great Exhibition", "Crystal Palace", "Speakers' Corner"],
+      "clue_ids": ["032315aa42", "655c0832b7"]
+    }
+  ],
+  "clue_ids": [
+    "6a5a62c9ab", "c1e710f72c", "76990dc3ee", "5b794e7480", "9ab37d2fa8",
+    "9ad2d78185", "8fb3c97a81", "3b7f685952", "099bdf4270", "ed19269d8d",
+    "7478b39d91", "032315aa42", "655c0832b7"
+  ],
+  "related": ["paris", "rome", "new-york-city"]
+}

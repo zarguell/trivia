@@ -1,0 +1,65 @@
+{
+  "id": "mount-everest",
+  "name": "Mount Everest",
+  "deck": "geography",
+  "aliases": ["Everest", "Chomolungma"],
+  "hook": "The world's highest peak and the handful of stories Jeopardy tells about it.",
+  "facts": [
+    {
+      "id": "highest",
+      "label": "Earth's highest peak",
+      "statement": "Mount Everest is Earth's highest peak, on the Nepal-China border; Tibetans call it Chomolungma, \"Goddess Mother of the World.\"",
+      "associations": ["highest peak", "Nepal", "China", "Chomolungma"],
+      "clue_ids": ["b45363e81c", "9d1c3ac144", "66dda5b642"]
+    },
+    {
+      "id": "named",
+      "label": "George Everest",
+      "statement": "Everest is named for George Everest, a former Surveyor-General of India who objected to the honor.",
+      "associations": ["George Everest", "Surveyor-General of India", "objected"],
+      "clue_ids": ["39a1e61335"]
+    },
+    {
+      "id": "first-ascent",
+      "label": "Hillary and Norgay",
+      "statement": "Edmund Hillary and Tenzing Norgay made the first ascent of Everest on May 29, 1953.",
+      "associations": ["Edmund Hillary", "Tenzing Norgay", "May 29, 1953"],
+      "clue_ids": ["a74569b168", "5262fc3741", "d60d196bcd"]
+    },
+    {
+      "id": "hillary",
+      "label": "Edmund Hillary",
+      "statement": "Hillary was a New Zealand beekeeper who later reached the South Pole by tractor and appears on the country's $5 note.",
+      "associations": ["New Zealand", "beekeeper", "South Pole", "$5 note"],
+      "clue_ids": ["7f5d36b5eb", "b555639588", "3502c043bf"]
+    },
+    {
+      "id": "mallory",
+      "label": "George Mallory",
+      "statement": "George Mallory answered \"Because it's there\" when asked why he wanted to climb Everest; he vanished on the mountain in 1924.",
+      "associations": ["George Mallory", "Because it's there", "1924"],
+      "clue_ids": ["d95e403092", "b84136db27", "85171563f8"]
+    },
+    {
+      "id": "krakauer",
+      "label": "Into Thin Air",
+      "statement": "Jon Krakauer's Into Thin Air recounts the 1996 Everest disaster, in which eight climbers died.",
+      "associations": ["Jon Krakauer", "Into Thin Air", "1996 disaster"],
+      "clue_ids": ["142cf70979", "493780ee95"]
+    },
+    {
+      "id": "k2",
+      "label": "K2",
+      "statement": "K2 is the second-highest peak after Everest; Reinhold Messner made the first solo ascent and climbed without bottled oxygen.",
+      "associations": ["K2", "second-highest", "Reinhold Messner", "no oxygen"],
+      "clue_ids": ["c90fc3e5ac", "977e116420", "8dadddd50a"]
+    }
+  ],
+  "clue_ids": [
+    "39a1e61335", "b45363e81c", "66dda5b642", "9d1c3ac144", "a74569b168",
+    "5262fc3741", "d60d196bcd", "7f5d36b5eb", "b555639588", "3502c043bf",
+    "d95e403092", "b84136db27", "85171563f8", "142cf70979", "493780ee95",
+    "c90fc3e5ac", "977e116420", "8dadddd50a"
+  ],
+  "related": ["grand-canyon", "antarctica", "yellowstone"]
+}

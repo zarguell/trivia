@@ -1,0 +1,65 @@
+{
+  "id": "russia",
+  "name": "Russia",
+  "deck": "geography",
+  "aliases": ["Russian"],
+  "hook": "Czars, a revolution and Siberia: the Russia clues keep asking about the same rulers and winter.",
+  "facts": [
+    {
+      "id": "catherine-the-great",
+      "label": "Catherine the Great",
+      "statement": "Catherine the Great, born Sophie, took the throne in 1762 after a palace coup led by Grigory Orlov and later ordered exploration of Alaska.",
+      "associations": ["Catherine the Great", "Sophie", "1762", "Alaska"],
+      "clue_ids": ["4f950b8747", "59b9f171e2", "d12469c452"]
+    },
+    {
+      "id": "peter-the-great",
+      "label": "Peter the Great",
+      "statement": "Peter the Great opened Russia to the West and built St. Petersburg, including a palace called the Russian Versailles; the Bronze Horseman celebrates him.",
+      "associations": ["Peter the Great", "St. Petersburg", "Russian Versailles", "Bronze Horseman"],
+      "clue_ids": ["7cb93c6ed2", "da4552c100"]
+    },
+    {
+      "id": "ivan-the-terrible",
+      "label": "Ivan the Terrible",
+      "statement": "Ivan the Terrible, Russia's first czar, conquered much of Siberia and in 1565 won the right to execute traitors at will.",
+      "associations": ["Ivan the Terrible", "first czar", "Siberia", "1565"],
+      "clue_ids": ["d7fa31c5cb", "4efe9219aa"]
+    },
+    {
+      "id": "siberia",
+      "label": "Siberia",
+      "statement": "Siberia, basically all of Russia east of the Urals, may take its name from a Tatar word meaning \"sleeping land\" and was long a place of exile.",
+      "associations": ["Siberia", "Ural Mountains", "sleeping land", "exile"],
+      "clue_ids": ["c44b86bf46", "e36ff3c0d5"]
+    },
+    {
+      "id": "lenin",
+      "label": "Vladimir Lenin",
+      "statement": "Vladimir Lenin led the Bolsheviks, whose speeches inspired the Russian Revolution; a series of strokes left him unable to speak.",
+      "associations": ["Vladimir Lenin", "Bolsheviks", "Russian Revolution", "strokes"],
+      "clue_ids": ["847c5366e0", "a842679c24"]
+    },
+    {
+      "id": "tchaikovsky",
+      "label": "Pyotr Ilyich Tchaikovsky",
+      "statement": "Pyotr Ilyich Tchaikovsky turned Pushkin's Eugene Onegin into an opera and wrote the music for Balanchine's Theme and Variations.",
+      "associations": ["Tchaikovsky", "Eugene Onegin", "Balanchine", "Theme and Variations"],
+      "clue_ids": ["6cda721386", "8598ad0339"]
+    },
+    {
+      "id": "largest-country",
+      "label": "the largest country",
+      "statement": "Russia is the world's largest country by area, and the Moscow Canal links its capital to the Volga.",
+      "associations": ["largest country", "Moscow Canal", "Volga", "capital"],
+      "clue_ids": ["5e19c11059", "25615e09f6"]
+    }
+  ],
+  "clue_ids": [
+    "4f950b8747", "59b9f171e2", "d12469c452", "7cb93c6ed2", "da4552c100",
+    "d7fa31c5cb", "4efe9219aa", "c44b86bf46", "e36ff3c0d5", "847c5366e0",
+    "a842679c24", "6cda721386", "8598ad0339", "5e19c11059", "25615e09f6",
+    "019945d021", "796ed0415f", "e8fd8cad74"
+  ],
+  "related": ["pyotr-ilyich-tchaikovsky", "alaska", "world-war-ii"]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "seinfeld",
+  "name": "Seinfeld",
+  "deck": "film-tv",
+  "aliases": [],
+  "hook": "The \"show about nothing\" whose catchphrases, neighbors, and soup recipes became Jeopardy staples.",
+  "facts": [
+    {
+      "id": "show",
+      "label": "the show about nothing",
+      "statement": "Seinfeld ran on NBC from 1989 to 1998; its finale put the four leads in prison for violating a Good Samaritan law.",
+      "associations": ["NBC sitcom", "1989–1998", "Good Samaritan law"],
+      "clue_ids": ["bf62a21a60"]
+    },
+    {
+      "id": "apartment",
+      "label": "apartment 5A",
+      "statement": "The gang gathers in apartment 5A at 129 West 81st Street in Manhattan, with Kramer as the neighbor in 5B.",
+      "associations": ["apartment 5A", "129 West 81st Street", "Kramer"],
+      "clue_ids": ["937c8e2f78"]
+    },
+    {
+      "id": "cosmo",
+      "label": "Cosmo Kramer",
+      "statement": "Kramer's first name, revealed in a 1995 episode, is Cosmo.",
+      "associations": ["Cosmo Kramer", "first name", "1995"],
+      "clue_ids": ["a765aaf3ac", "4a736da30a"]
+    },
+    {
+      "id": "george",
+      "label": "George Costanza",
+      "statement": "George Costanza, played by Jason Alexander, is the son of Jerry Stiller and Estelle Harris and once said he wanted to pretend to be an architect.",
+      "associations": ["George Costanza", "Jason Alexander", "Jerry Stiller", "architect"],
+      "clue_ids": ["c1af132840", "b238c7cd44"]
+    },
+    {
+      "id": "elaine",
+      "label": "Elaine Benes",
+      "statement": "Julia Louis-Dreyfus played Elaine, a copywriter for the J. Peterman catalog; she later won an Emmy for The New Adventures of Old Christine.",
+      "associations": ["Elaine Benes", "Julia Louis-Dreyfus", "J. Peterman"],
+      "clue_ids": ["f6be3c727b", "6a1ca26848"]
+    },
+    {
+      "id": "soup-nazi",
+      "label": "the Soup Nazi",
+      "statement": "The Soup Nazi is Yev Kasem, based on a real New York cook, whose catchphrase is \"No soup for you!\"",
+      "associations": ["Soup Nazi", "Yev Kasem", "No soup for you"],
+      "clue_ids": ["5023029d88", "170d5dd697"]
+    },
+    {
+      "id": "puffy-shirt",
+      "label": "the puffy shirt",
+      "statement": "Jerry donated the puffy shirt from the season 5 episode to the Smithsonian in 2004; a low-talker designed it.",
+      "associations": ["puffy shirt", "Smithsonian", "low-talker"],
+      "clue_ids": ["40d1682bca", "9b0c129e8c"]
+    }
+  ],
+  "clue_ids": [
+    "bf62a21a60", "937c8e2f78", "2564e092f8", "f6be3c727b", "40d1682bca",
+    "6ef20328d3", "5023029d88", "b064c18423", "a765aaf3ac", "c1af132840",
+    "b238c7cd44", "9b0c129e8c", "170d5dd697", "4a736da30a", "a5bd1e9a30",
+    "6a1ca26848", "64277ac930", "e0c59225fe"
+  ],
+  "related": ["i-love-lucy", "the-simpsons", "sesame-street"]
+}

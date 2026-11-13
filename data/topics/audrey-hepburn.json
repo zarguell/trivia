@@ -1,0 +1,65 @@
+{
+  "id": "audrey-hepburn",
+  "name": "Audrey Hepburn",
+  "deck": "film-tv",
+  "aliases": [],
+  "hook": "Hollywood's gamine icon: Roman Holiday, Holly Golightly and a little black dress.",
+  "facts": [
+    {
+      "id": "roman-holiday",
+      "label": "Roman Holiday",
+      "statement": "Audrey Hepburn won the Best Actress Oscar for Roman Holiday (1953), playing Princess Anne opposite Gregory Peck in Rome.",
+      "associations": ["Roman Holiday", "1953", "Princess Anne", "Gregory Peck", "Oscar"],
+      "clue_ids": ["01a570b01a", "daaa274c8b", "2005adc9bc"]
+    },
+    {
+      "id": "breakfast-at-tiffanys",
+      "label": "Breakfast at Tiffany's",
+      "statement": "She played Holly Golightly in Breakfast at Tiffany's, a small-town girl in New York with a cat named Cat.",
+      "associations": ["Breakfast at Tiffany's", "Holly Golightly", "cat named Cat", "little black dress"],
+      "clue_ids": ["5a020c82d4", "58c5594dc0", "5eb92c5003"]
+    },
+    {
+      "id": "sabrina",
+      "label": "Sabrina",
+      "statement": "She played Sabrina, the chauffeur's daughter, opposite Humphrey Bogart; Julia Ormond took the role in the 1995 remake.",
+      "associations": ["Sabrina", "chauffeur's daughter", "Humphrey Bogart", "Julia Ormond"],
+      "clue_ids": ["216f3b4fd2", "c49e90ffeb"]
+    },
+    {
+      "id": "my-fair-lady",
+      "label": "Eliza Doolittle",
+      "statement": "In My Fair Lady she played Eliza Doolittle, the Cockney flower seller taught to speak like a lady.",
+      "associations": ["My Fair Lady", "Eliza Doolittle", "Cockney flower seller"],
+      "clue_ids": ["aaa853566e", "a045610695"]
+    },
+    {
+      "id": "war-and-peace",
+      "label": "War and Peace",
+      "statement": "In 1956 she played Natasha Rostov in a nearly three-and-a-half-hour film of War and Peace.",
+      "associations": ["War and Peace", "Natasha Rostov", "1956", "Tolstoy"],
+      "clue_ids": ["a5ea416982", "c53d785a9d"]
+    },
+    {
+      "id": "charade",
+      "label": "Charade",
+      "statement": "She starred with Fred Astaire in Funny Face and with Cary Grant in the 1963 thriller Charade.",
+      "associations": ["Funny Face", "Fred Astaire", "Charade", "Cary Grant"],
+      "clue_ids": ["8a2a40d06d", "46655c7aa4", "9768b482f2"]
+    },
+    {
+      "id": "unicef",
+      "label": "UNICEF",
+      "statement": "She became a UNICEF goodwill ambassador in 1988 and introduced the agency to Roger Moore.",
+      "associations": ["UNICEF", "goodwill ambassador", "1988", "Roger Moore"],
+      "clue_ids": ["6d372bf693", "6baa1712b1"]
+    }
+  ],
+  "clue_ids": [
+    "01a570b01a", "daaa274c8b", "2005adc9bc", "5a020c82d4", "58c5594dc0",
+    "5eb92c5003", "216f3b4fd2", "c49e90ffeb", "aaa853566e", "a045610695",
+    "a5ea416982", "c53d785a9d", "8a2a40d06d", "46655c7aa4", "9768b482f2",
+    "6d372bf693", "6baa1712b1", "11d5a198a5"
+  ],
+  "related": ["marilyn-monroe", "casablanca", "academy-awards"]
+}

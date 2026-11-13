@@ -1,0 +1,65 @@
+{
+  "id": "billboard",
+  "name": "Billboard",
+  "deck": "music",
+  "aliases": ["Billboard Hot 100", "Billboard charts"],
+  "hook": "The music industry's chart bible — home of the Hot 100 and the Billboard 200.",
+  "facts": [
+    {
+      "id": "hot-100",
+      "label": "the Hot 100",
+      "statement": "Billboard's Hot 100 chart debuted in the August 4, 1958 issue of the magazine.",
+      "associations": ["Hot 100", "August 4, 1958", "chart"],
+      "clue_ids": ["1558940895"]
+    },
+    {
+      "id": "trade-magazine",
+      "label": "trade magazine",
+      "statement": "Billboard is the music-industry trade magazine; Paul Ackerman edited it for 30 years and entered the Rock & Roll Hall of Fame.",
+      "associations": ["trade magazine", "Paul Ackerman", "Rock & Roll Hall of Fame"],
+      "clue_ids": ["fa86a5bb61"]
+    },
+    {
+      "id": "mariah-carey",
+      "label": "Mariah Carey",
+      "statement": "Mariah Carey has more Billboard No. 1 pop hits than any other solo artist — her 18th came in April 2008.",
+      "associations": ["Mariah Carey", "18 No. 1 hits", "2008"],
+      "clue_ids": ["4d2f26d1fc", "8b02328270"]
+    },
+    {
+      "id": "mccartney-record",
+      "label": "Paul McCartney",
+      "statement": "Paul McCartney has had more Billboard No. 1 hits than any other artist — 29 in all, solo, in duets and with groups.",
+      "associations": ["Paul McCartney", "29 No. 1 hits"],
+      "clue_ids": ["eec3cc0019"]
+    },
+    {
+      "id": "billboard-200",
+      "label": "the Billboard 200",
+      "statement": "Journey's Greatest Hits has spent more than 800 weeks on the Billboard 200, one of only three albums to reach 600 weeks.",
+      "associations": ["Billboard 200", "Journey", "Greatest Hits", "600 weeks"],
+      "clue_ids": ["2f1551050a", "0ec2aa3b8a"]
+    },
+    {
+      "id": "music-awards",
+      "label": "Billboard Music Awards",
+      "statement": "At the 1990 Billboard Music Awards, Janet Jackson's album Rhythm Nation 1814 helped her take eight trophies.",
+      "associations": ["Billboard Music Awards", "Janet Jackson", "Rhythm Nation 1814", "1990"],
+      "clue_ids": ["f7c56411b0", "ade164ef4a"]
+    },
+    {
+      "id": "drake",
+      "label": "Drake",
+      "statement": "In May 2016 Drake set a record by placing 20 songs on Billboard's Hot 100 in a single week.",
+      "associations": ["Drake", "20 songs", "Hot 100", "2016"],
+      "clue_ids": ["6012ca56cd"]
+    }
+  ],
+  "clue_ids": [
+    "1558940895", "fa86a5bb61", "4d2f26d1fc", "8b02328270", "eec3cc0019",
+    "2f1551050a", "0ec2aa3b8a", "f7c56411b0", "ade164ef4a", "6012ca56cd",
+    "08cd39f7ce", "48943f9de3", "da7d9a06a2", "f2d0327adc", "3827f1d4bb",
+    "ebd3d2a621"
+  ],
+  "related": ["michael-jackson", "madonna", "the-beatles"]
+}

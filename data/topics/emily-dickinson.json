@@ -1,0 +1,64 @@
+{
+  "id": "emily-dickinson",
+  "name": "Emily Dickinson",
+  "deck": "literature",
+  "aliases": [],
+  "hook": "The Belle of Amherst wrote the short, strange poems Jeopardy quotes more than almost any other verse.",
+  "facts": [
+    {
+      "id": "amherst",
+      "label": "Amherst, Massachusetts",
+      "statement": "She lived almost her whole life in Amherst, Massachusetts, and died there in 1886.",
+      "associations": ["Amherst", "Massachusetts", "1886"],
+      "clue_ids": ["5d8ff38d28", "21ee189a8d"]
+    },
+    {
+      "id": "death",
+      "label": "\"Because I could not stop for Death\"",
+      "statement": "\"Because I could not stop for Death\" has Death kindly stopping for her and a carriage holding just the two of them.",
+      "associations": ["Death", "carriage", "Because I could not stop"],
+      "clue_ids": ["72603b93f1", "c43f8bada0", "37ad182523"]
+    },
+    {
+      "id": "hope",
+      "label": "hope",
+      "statement": "She calls hope \"the thing with feathers that perches in the soul.\"",
+      "associations": ["hope", "feathers", "soul"],
+      "clue_ids": ["eca0b4f8f9", "8b5efa45be"]
+    },
+    {
+      "id": "fly",
+      "label": "\"I heard a Fly buzz\"",
+      "statement": "She wrote \"I heard a Fly buzz — when I died.\"",
+      "associations": ["fly", "buzz", "deathbed"],
+      "clue_ids": ["869cbee4f6", "b8406f6019"]
+    },
+    {
+      "id": "nobody",
+      "label": "\"I'm Nobody!\"",
+      "statement": "She wrote \"I'm Nobody! Who are you? Are you — Nobody — too?\"",
+      "associations": ["Nobody", "identity"],
+      "clue_ids": ["fac0f699b1"]
+    },
+    {
+      "id": "book",
+      "label": "\"There is no Frigate like a Book\"",
+      "statement": "She wrote \"There is no Frigate like a Book / To take us Lands away.\"",
+      "associations": ["book", "frigate", "travel"],
+      "clue_ids": ["eb0e11a3c3"]
+    },
+    {
+      "id": "civil-war",
+      "label": "the Civil War",
+      "statement": "She wrote hundreds of poems during the Civil War.",
+      "associations": ["Civil War", "productive years"],
+      "clue_ids": ["0567798f3d"]
+    }
+  ],
+  "clue_ids": [
+    "5d8ff38d28", "21ee189a8d", "72603b93f1", "c43f8bada0", "37ad182523",
+    "eca0b4f8f9", "8b5efa45be", "869cbee4f6", "b8406f6019", "fac0f699b1",
+    "eb0e11a3c3", "0567798f3d", "a7f749fe5b", "393f4ad095", "c4ef06b261"
+  ],
+  "related": ["edgar-allan-poe", "william-shakespeare", "mark-twain"]
+}

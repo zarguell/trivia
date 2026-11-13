@@ -1,0 +1,57 @@
+{
+  "id": "homer",
+  "name": "Homer",
+  "deck": "literature",
+  "aliases": [],
+  "hook": "Two epics, one war, one long voyage home — Homer is Jeopardy's ancient default.",
+  "facts": [
+    {
+      "id": "epic-poet",
+      "label": "the epic poet",
+      "statement": "Homer is the ancient Greek epic poet, mocked in antiquity by the Battle of the Frogs and the Mice and later painted by Rembrandt with Aristotle.",
+      "associations": ["ancient Greek poet", "Battle of the Frogs and the Mice", "Rembrandt"],
+      "clue_ids": ["fdf12ea586", "fe48cbdadb"]
+    },
+    {
+      "id": "iliad",
+      "label": "the Iliad",
+      "statement": "The Iliad is the Trojan War epic: Achilles, the Greeks' greatest warrior, kills Hector, and the poem ends with Hector's funeral.",
+      "associations": ["Trojan War", "Achilles", "Hector", "funeral"],
+      "clue_ids": ["713b54ef2b", "6fd331cd64", "9b953b065f"]
+    },
+    {
+      "id": "odyssey",
+      "label": "the Odyssey",
+      "statement": "The Odyssey follows Odysseus home to Ithaca after a 10-year voyage; Penelope sets a bow contest, and only his dog Argus knows him at first.",
+      "associations": ["Odysseus", "Ithaca", "Penelope", "10-year voyage"],
+      "clue_ids": ["48cba128cf", "6c2f60331b", "c7b4603409"]
+    },
+    {
+      "id": "troy",
+      "label": "Troy",
+      "statement": "Troy, also called Ilium, was excavated by Heinrich Schliemann in the 1870s using descriptions from the Iliad.",
+      "associations": ["Troy", "Ilium", "Heinrich Schliemann"],
+      "clue_ids": ["10166948f3", "8a9f0b9872"]
+    },
+    {
+      "id": "alexander",
+      "label": "Alexander the Great",
+      "statement": "Alexander the Great carried a copy of the Iliad with him in a special gold casket while conquering Asia.",
+      "associations": ["Alexander the Great", "gold casket", "Iliad"],
+      "clue_ids": ["6bc0b3f614"]
+    },
+    {
+      "id": "ulysses",
+      "label": "Ulysses",
+      "statement": "Ulysses is the Latin name for Odysseus — the hero of Pope's translation, and the title Joyce gave his Dublin novel.",
+      "associations": ["Ulysses", "Odysseus", "James Joyce"],
+      "clue_ids": ["870b0131fb", "4bbc4a77a8"]
+    }
+  ],
+  "clue_ids": [
+    "fdf12ea586", "fe48cbdadb", "713b54ef2b", "6fd331cd64", "9b953b065f",
+    "48cba128cf", "6c2f60331b", "c7b4603409", "10166948f3", "8a9f0b9872",
+    "6bc0b3f614", "870b0131fb", "4bbc4a77a8"
+  ],
+  "related": ["odysseus", "achilles", "athens"]
+}

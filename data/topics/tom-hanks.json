@@ -1,0 +1,65 @@
+{
+  "id": "tom-hanks",
+  "name": "Tom Hanks",
+  "deck": "film-tv",
+  "aliases": [],
+  "hook": "America's everyman, with a filmography Jeopardy mines for Oscar roles and one volleyball.",
+  "facts": [
+    {
+      "id": "forrest-gump",
+      "label": "Forrest Gump",
+      "statement": "Forrest Gump (1994) has a theme nicknamed \"The Feather Theme,\" and Forrest's friend Bubba lectures him on shrimp.",
+      "associations": ["Forrest Gump", "The Feather Theme", "Bubba", "shrimp"],
+      "clue_ids": ["ede7eedad4", "6878b8e1c2"]
+    },
+    {
+      "id": "philadelphia",
+      "label": "Philadelphia",
+      "statement": "In Philadelphia (1993) Hanks plays Andrew Beckett, a lawyer with AIDS; Bruce Springsteen's \"Streets of Philadelphia\" won the Oscar for its song.",
+      "associations": ["Philadelphia", "Andrew Beckett", "Bruce Springsteen"],
+      "clue_ids": ["bb9212c189", "8a8ad32191", "860b88a4ad"]
+    },
+    {
+      "id": "big",
+      "label": "Big",
+      "statement": "In Big (1988) Hanks plays a 12-year-old in a grown-up body and sings \"The Way We Were\"; the script was co-written by Steven Spielberg's sister Anne.",
+      "associations": ["Big", "12-year-old", "The Way We Were"],
+      "clue_ids": ["d849562c33", "c13b06533d"]
+    },
+    {
+      "id": "cast-away",
+      "label": "Cast Away",
+      "statement": "Cast Away (2000) casts Hanks as FedEx employee Chuck Noland, stranded with a volleyball named Wilson; filming made Fiji's Monuriki a tourist draw.",
+      "associations": ["Cast Away", "Chuck Noland", "Wilson", "FedEx"],
+      "clue_ids": ["b728643f79", "e758f6de9b", "5161624c8b"]
+    },
+    {
+      "id": "sleepless",
+      "label": "Sleepless in Seattle",
+      "statement": "Sleepless in Seattle (1993) ends with Hanks and Meg Ryan meeting atop the Empire State Building.",
+      "associations": ["Sleepless in Seattle", "Meg Ryan", "Empire State Building"],
+      "clue_ids": ["6b6a2838fb", "d2d1f4e562"]
+    },
+    {
+      "id": "private-ryan",
+      "label": "Saving Private Ryan",
+      "statement": "Saving Private Ryan (1998) put Hanks and his squad through a week of boot camp for its WWII story; Steven Spielberg won Best Director.",
+      "associations": ["Saving Private Ryan", "WWII", "boot camp", "Steven Spielberg"],
+      "clue_ids": ["e490bcfd67", "553f67ca6d"]
+    },
+    {
+      "id": "bosom-buddies",
+      "label": "Bosom Buddies",
+      "statement": "His 1980s sitcom Bosom Buddies had Hanks and Peter Scolari posing as Hildegarde and Buffy to live in a women's hotel.",
+      "associations": ["Bosom Buddies", "Peter Scolari", "Hildegarde and Buffy"],
+      "clue_ids": ["f670a4b6a2", "91ce1f7b0e"]
+    }
+  ],
+  "clue_ids": [
+    "f6fcf65ea5", "b728643f79", "8a8ad32191", "ede7eedad4", "6878b8e1c2",
+    "bb9212c189", "d849562c33", "e758f6de9b", "6b6a2838fb", "d2d1f4e562",
+    "e490bcfd67", "c13b06533d", "5161624c8b", "553f67ca6d", "f670a4b6a2",
+    "91ce1f7b0e"
+  ],
+  "related": ["steven-spielberg", "meryl-streep", "academy-awards"]
+}

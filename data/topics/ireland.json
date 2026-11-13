@@ -1,0 +1,65 @@
+{
+  "id": "ireland",
+  "name": "Ireland",
+  "deck": "geography",
+  "aliases": [],
+  "hook": "Patrick, the shamrock and the black stuff: the Irish answers that keep coming back.",
+  "facts": [
+    {
+      "id": "patrick",
+      "label": "St. Patrick",
+      "statement": "St. Patrick was taken to Ireland as a slave in the early 400s, escaped, and returned as a missionary; his feast day, March 17, is a national holiday.",
+      "associations": ["St. Patrick", "March 17", "missionary", "slave"],
+      "clue_ids": ["b8263f82bf", "a284eb4263"]
+    },
+    {
+      "id": "shamrock",
+      "label": "the shamrock",
+      "statement": "St. Patrick used the shamrock to explain the Trinity, and it remains Ireland's national symbol.",
+      "associations": ["shamrock", "Trinity", "national symbol"],
+      "clue_ids": ["1ca6d8673c", "ec9ee85e7c"]
+    },
+    {
+      "id": "potatoes",
+      "label": "the potato",
+      "statement": "Potatoes became Ireland's staple crop, and in the 1840s late blight destroyed the harvest and caused the Great Famine.",
+      "associations": ["potato", "Great Famine", "1840s", "blight"],
+      "clue_ids": ["407ff021ed", "3e00e02d67"]
+    },
+    {
+      "id": "dublin",
+      "label": "Dublin",
+      "statement": "Dublin is the Republic's capital and, with Cork, one of its only two cities with more than 100,000 people.",
+      "associations": ["Dublin", "capital", "Cork", "100,000"],
+      "clue_ids": ["a66ab0e4cb", "8f080076af"]
+    },
+    {
+      "id": "belfast",
+      "label": "Belfast",
+      "statement": "Belfast, Northern Ireland's capital, sits on the River Lagan and was chartered in 1613.",
+      "associations": ["Belfast", "Northern Ireland", "River Lagan", "1613"],
+      "clue_ids": ["4be92b30af", "7c2ae3845e"]
+    },
+    {
+      "id": "shannon",
+      "label": "the Shannon",
+      "statement": "The Shannon is the longest river in Ireland and the British Isles, and its name is also Ireland's main airport.",
+      "associations": ["Shannon", "longest river", "airport", "Limerick"],
+      "clue_ids": ["4cdacdc39a", "a8c741550f"]
+    },
+    {
+      "id": "guinness",
+      "label": "Guinness",
+      "statement": "The Guinness family gave Dublin its first Lord Mayor and founded Ireland's most famous brewery.",
+      "associations": ["Guinness", "brewery", "Lord Mayor", "stout"],
+      "clue_ids": ["fd350e4301", "713b1aba84"]
+    }
+  ],
+  "clue_ids": [
+    "b8263f82bf", "a284eb4263", "1ca6d8673c", "ec9ee85e7c", "407ff021ed",
+    "3e00e02d67", "a66ab0e4cb", "8f080076af", "4be92b30af", "7c2ae3845e",
+    "4cdacdc39a", "a8c741550f", "fd350e4301", "713b1aba84", "46d108480e",
+    "92540b472f", "226141526b"
+  ],
+  "related": ["guinness", "titanic"]
+}

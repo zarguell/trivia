@@ -1,0 +1,65 @@
+{
+  "id": "french-revolution",
+  "name": "French Revolution",
+  "deck": "history",
+  "aliases": ["Revolution française"],
+  "hook": "Bastille, guillotine and Terror: the upheaval that reshaped France and its fiction.",
+  "facts": [
+    {
+      "id": "bastille",
+      "label": "the storming of the Bastille",
+      "statement": "The French Revolution began in 1789; the storming of the Bastille prison on July 14 is its most famous event.",
+      "associations": ["Bastille", "1789", "July 14"],
+      "clue_ids": ["f1e48ddb94"]
+    },
+    {
+      "id": "reign-of-terror",
+      "label": "the Reign of Terror",
+      "statement": "The Reign of Terror was the Revolution's bloody phase, ended by Robespierre's overthrow and execution in 1794.",
+      "associations": ["Reign of Terror", "Robespierre", "1794"],
+      "clue_ids": ["541d449dbc", "a35121b72a", "96865b2f19"]
+    },
+    {
+      "id": "guillotine",
+      "label": "the guillotine",
+      "statement": "The guillotine stood in the Place de la Concorde, the largest square in Paris, during the Revolution.",
+      "associations": ["guillotine", "Place de la Concorde", "Paris"],
+      "clue_ids": ["1e4166035c", "36453d9af1"]
+    },
+    {
+      "id": "marat",
+      "label": "Jean-Paul Marat",
+      "statement": "Jean-Paul Marat was stabbed to death in his bath by Charlotte Corday in 1793.",
+      "associations": ["Marat", "Charlotte Corday", "1793", "bath"],
+      "clue_ids": ["e323c28fb8", "8f8d951d31"]
+    },
+    {
+      "id": "tale-of-two-cities",
+      "label": "A Tale of Two Cities",
+      "statement": "Charles Dickens set A Tale of Two Cities in Paris and London during the French Revolution; it was published in 1859.",
+      "associations": ["A Tale of Two Cities", "Charles Dickens", "1859"],
+      "clue_ids": ["9935916753", "1b18cc61a8"]
+    },
+    {
+      "id": "scarlet-pimpernel",
+      "label": "The Scarlet Pimpernel",
+      "statement": "In The Scarlet Pimpernel, Percy Blakeney uses a red pimpernel flower as his secret identity during the Revolution.",
+      "associations": ["The Scarlet Pimpernel", "Percy Blakeney", "red flower"],
+      "clue_ids": ["6a7bac03f3", "33c57ca7cd"]
+    },
+    {
+      "id": "napoleon",
+      "label": "Napoleon Bonaparte",
+      "statement": "Napoleon seized control of the Directory on November 9, 1799, ending the French Revolution.",
+      "associations": ["Napoleon", "1799", "Directory"],
+      "clue_ids": ["6c0e2f0eaf"]
+    }
+  ],
+  "clue_ids": [
+    "f1e48ddb94", "541d449dbc", "a35121b72a", "96865b2f19", "1e4166035c",
+    "36453d9af1", "e323c28fb8", "8f8d951d31", "9935916753", "1b18cc61a8",
+    "6a7bac03f3", "33c57ca7cd", "6c0e2f0eaf", "01e3bbb1ed", "421b623c95",
+    "828908da69", "e6877ded9d", "5db8f0ad53"
+  ],
+  "related": ["napoleon", "marie-antoinette", "charles-dickens", "france"]
+}

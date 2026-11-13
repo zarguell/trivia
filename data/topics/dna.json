@@ -1,0 +1,65 @@
+{
+  "id": "dna",
+  "name": "DNA",
+  "deck": "science",
+  "aliases": ["deoxyribonucleic acid"],
+  "hook": "The double helix: what DNA is, how it copies and mutates, and what it proved.",
+  "facts": [
+    {
+      "id": "acid",
+      "label": "deoxyribonucleic acid",
+      "statement": "DNA stands for deoxyribonucleic acid, the molecule that carries genetic information in living cells.",
+      "associations": ["deoxyribonucleic acid", "genetic material", "molecule"],
+      "clue_ids": ["2bacaf3d7c", "9cf5d11663"]
+    },
+    {
+      "id": "double-helix",
+      "label": "the double helix",
+      "statement": "In 1953 James Watson and Francis Crick built the double helix model of DNA; Watson's book about the discovery is The Double Helix.",
+      "associations": ["double helix", "Watson and Crick", "1953", "The Double Helix"],
+      "clue_ids": ["c3443ce363", "af5862f2b9", "e9d57466f4"]
+    },
+    {
+      "id": "base-pairs",
+      "label": "base pairs",
+      "statement": "Each rung of the DNA double helix is a base pair such as A-T, linking the two strands of the molecule.",
+      "associations": ["base pair", "A-T", "rungs", "complementary strands"],
+      "clue_ids": ["12a563c08a", "fab82f649a"]
+    },
+    {
+      "id": "genome",
+      "label": "the human genome",
+      "statement": "The human genome is all 3 billion base pairs of DNA in a person; the Human Genome Project finished mapping it in 2003.",
+      "associations": ["genome", "3 billion base pairs", "Human Genome Project", "2003"],
+      "clue_ids": ["b2a85f248d", "17fd237769", "a507e14704"]
+    },
+    {
+      "id": "mutation",
+      "label": "mutation",
+      "statement": "A mutation is a change in the sequence of DNA bases; a single point mutation causes sickle-cell anemia.",
+      "associations": ["mutation", "change in sequence", "sickle-cell anemia"],
+      "clue_ids": ["30b688a578", "5e2beeee6d"]
+    },
+    {
+      "id": "chromosomes",
+      "label": "chromosomes",
+      "statement": "Chromosomes are threadlike structures of DNA and protein in the cell nucleus; humans have 46 of them.",
+      "associations": ["chromosomes", "46", "cell nucleus", "DNA and protein"],
+      "clue_ids": ["88590f9eff"]
+    },
+    {
+      "id": "dna-testing",
+      "label": "DNA testing",
+      "statement": "DNA testing has identified remains and exposed impostors: Anna Anderson was not Anastasia, and Richard III's bones were matched through living relatives.",
+      "associations": ["DNA testing", "Anastasia", "Richard III", "identification"],
+      "clue_ids": ["2a0054426e", "b9850c267d", "8367d71eee"]
+    }
+  ],
+  "clue_ids": [
+    "2bacaf3d7c", "9cf5d11663", "c3443ce363", "af5862f2b9", "e9d57466f4",
+    "12a563c08a", "fab82f649a", "b2a85f248d", "17fd237769", "a507e14704",
+    "30b688a578", "5e2beeee6d", "88590f9eff", "2a0054426e", "b9850c267d",
+    "8367d71eee"
+  ],
+  "related": ["evolution", "charles-darwin", "human-heart"]
+}
