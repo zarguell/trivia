@@ -194,9 +194,33 @@ const studyPage = layout({
   narrow: true,
   content: `
   ${screenHead({ title: "Study", meta: `${fmt(site.decks.length)} categories · ${fmt(site.topics.length)} topics` })}
+  <div class="learn-entry">
+    <a class="learn-entry__main" href="${base}study/learn/">
+      <span class="learn-entry__title">Learn</span>
+      <span class="learn-entry__sub">Flashcards, then a quiz</span>
+    </a>
+    <a class="btn btn--ghost btn--sm" href="${base}study/learn/?shuffle=1">Shuffle</a>
+  </div>
   <nav class="category-list" aria-label="Study categories">
     ${site.decks.map(categoryRow).join("")}
   </nav>`,
+});
+
+const learnPage = layout({
+  base,
+  page: "learn",
+  active: "study",
+  title: "Learn",
+  description: "Shuffled flashcards from the archive, followed by a recall quiz.",
+  narrow: true,
+  showFooter: false,
+  content: `
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="${base}study/">Study</a>${icon("chevron")}<span>Learn</span></nav>
+  ${screenHead({ title: "Learn", meta: "Flashcards, then a quiz" })}
+  <div id="learn-app" class="learn-shell" aria-live="polite">
+    <noscript><p class="notice">Learn mode needs JavaScript.</p></noscript>
+    <div class="skeleton"><span></span><span></span><span></span></div>
+  </div>`,
 });
 
 for (const d of site.decks) {
@@ -366,6 +390,7 @@ const aboutPage = layout({
     <ul>
       <li><b>Today.</b> Seven questions on one topic, the same for everyone, deterministic by date. Type your answer; close spelling and surnames count. Your score is a shareable grid.</li>
       <li><b>Study.</b> ${fmt(site.stats.topics)} topics, each a handful of facts and the real clues behind them. Mark what you knew; mastery stays on your device.</li>
+      <li><b>Learn.</b> Shuffled flashcards from any category, with the fact blanked out, then a recall quiz drawn from the same facts. Choose 5–20 cards and whether to include ones you already know.</li>
       <li><b>Endless.</b> Rapid-fire real clues. A wrong answer resets the streak, not the session.</li>
       <li><b>Lookup.</b> Search the ${fmt(lookupCount)} text-only clues by answer and see when each one aired.</li>
     </ul>
@@ -401,6 +426,21 @@ const trimmed = {
 };
 await mkdir(path.join(OUT, "data"), { recursive: true });
 await writeFile(path.join(OUT, "data", "site.json"), JSON.stringify(trimmed));
+
+const learnFacts = [];
+for (const t of site.topics) {
+  for (const f of t.facts) {
+    const label = f.label.toLowerCase();
+    const clues = f.clues || [];
+    const clue = clues.find((c) => c.a.toLowerCase().includes(label) || label.includes(c.a.toLowerCase())) || clues[0] || null;
+    learnFacts.push({
+      t: t.id, n: t.name, d: t.deck, dn: deckTitle(t.deck),
+      f: f.id, l: f.label, s: f.statement, a: f.associations,
+      c: clue ? { id: clue.id, c: clue.c, a: clue.a, k: clue.k, d: clue.d, v: clue.v } : null,
+    });
+  }
+}
+await writeFile(path.join(OUT, "data", "learn.json"), JSON.stringify(learnFacts));
 await copyDir(path.join(GEN, "daily"), path.join(OUT, "data", "daily"));
 await copyDir(path.join(GEN, "endless"), path.join(OUT, "data", "endless"));
 await copyDir(path.join(GEN, "lookup"), path.join(OUT, "data", "lookup"));
@@ -412,7 +452,7 @@ await writeFile(path.join(OUT, "manifest.webmanifest"), JSON.stringify({
   icons: [{ src: `${BASE}assets/icon.svg`, sizes: "any", type: "image/svg+xml", purpose: "any" }],
 }));
 await writeFile(path.join(OUT, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: https://zarguell.github.io${BASE}sitemap.xml\n`);
-const urls = ["", "daily/", "daily/archive/", "study/", "endless/", "archive/", "about/",
+const urls = ["", "daily/", "daily/archive/", "study/", "study/learn/", "endless/", "archive/", "about/",
   ...site.decks.map((d) => `study/${d.id}/`),
   ...site.topics.map((t) => `topic/${t.id}/`)];
 await writeFile(path.join(OUT, "sitemap.xml"),
@@ -423,6 +463,7 @@ await writePage("index.html", todayPage);
 await writePage("daily/index.html", todayPage);
 await writePage("daily/archive/index.html", dailyArchivePage);
 await writePage("study/index.html", studyPage);
+await writePage("study/learn/index.html", learnPage);
 await writePage("endless/index.html", endlessPage);
 await writePage("archive/index.html", archiveSearch);
 await writePage("about/index.html", aboutPage);

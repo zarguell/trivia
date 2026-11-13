@@ -52,6 +52,7 @@ and rejects duplicate fact labels.
 - `daily/<year>.json` — deterministic daily puzzles
 - `endless/<deck>.json` — per-deck clue pools
 - `lookup/<xx>.json` — all clues sharded by the first two letters of the answer
+- `learn.json` — every fact with one cited clue, for the Learn flashcards and recall quiz
 
 Regenerate with `python3 pipeline/site_data.py`.
 

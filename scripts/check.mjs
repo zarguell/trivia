@@ -41,7 +41,7 @@ for (const file of html) {
 
 // Every JSON payload the client fetches must parse.
 const required = [
-  "data/site.json", "data/daily/index.json", "data/lookup/index.json",
+  "data/site.json", "data/learn.json", "data/daily/index.json", "data/lookup/index.json",
   "data/daily/2026.json", "data/endless/history.json",
 ];
 for (const rel of required) {

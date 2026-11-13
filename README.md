@@ -1,6 +1,6 @@
 # Six Things
 
-**The trivia you actually need.** Daily challenges and endless study built from every clue in *Jeopardy!* history.
+**The trivia you actually need.** Daily challenges, shuffled flashcards, and endless study built from every clue in *Jeopardy!* history.
 
 **Play: [zarguell.github.io/trivia](https://zarguell.github.io/trivia/)**
 
@@ -23,6 +23,8 @@ So the thesis: **if you dissect the archive into the handful of things each topi
 **Today.** The daily challenge: seven questions on one topic — six clues plus a final. The puzzle is deterministic by date, so everyone gets the same one. Answers are typed — spelling is forgiven, surnames count. Your score and a shareable grid are stored on your device.
 
 **Study.** Every topic is a six-minute lesson: four to seven facts, the association chips that jog them, and the real clues that prove each one. Mark what you knew; mastery is tracked locally. Then take the quiz, which is drawn from real archive clues, not generated questions.
+
+**Learn.** A Quizlet-style session: choose a category, a card count (5–20), and whether to include facts you have already marked. Flip shuffled recall cards with the answer blanked out, rate them, then take a quiz drawn from those same facts. Options are remembered on the device; “Shuffle” starts a fresh set.
 
 **Endless mode.** Four-choice rapid fire across a curated pool of real clues, balanced by deck and difficulty. A wrong answer resets the streak, never the session.
 
@@ -80,7 +82,7 @@ Those evidence dossiers become the authoring briefs. Curators write the handful 
 
 `site/build.mjs` is a from-scratch SSG with zero runtime dependencies: it reads structured JSON, renders every page with template literals, copies the client assets, and writes a static `dist/`. The client is vanilla ES modules; no React, no bundler.
 
-Pages generated: home, daily challenge, daily archive, study index, one page per deck, one page per topic, endless, lookup, about, 404, sitemap and manifest. Topic pages are server-rendered for speed and include their own quiz payload.
+Pages generated: home, daily challenge, daily archive, study index, learn session, one page per deck, one page per topic, endless, lookup, about, 404, sitemap and manifest. Topic pages are server-rendered for speed and include their own quiz payload.
 
 The data shipped to the browser is deliberately compact:
 

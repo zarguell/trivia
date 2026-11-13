@@ -11,7 +11,11 @@ const DAY_VALUES = [200, 400, 600, 800, 1000, 1200];
 const FINAL_VALUE = 2000;
 
 // ---------------------------------------------------------------- storage
-const defaults = () => ({ theme: null, daily: {}, facts: {}, endless: { best: 0, correct: 0, total: 0 }, lastDeck: null });
+const defaults = () => ({
+  theme: null, daily: {}, facts: {},
+  endless: { best: 0, correct: 0, total: 0 }, lastDeck: null,
+  learn: { scope: "all", size: 10, filter: "all" },
+});
 let state;
 try { state = { ...defaults(), ...JSON.parse(localStorage.getItem(STORE) || "{}") }; }
 catch { state = defaults(); }
@@ -609,6 +613,299 @@ function initDeck() {
   });
 }
 
+// ---------------------------------------------------------------- learn
+function maskFact(fact) {
+  const rxFor = (t, flags = "i") => {
+    const escaped = t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return new RegExp(`(?<![A-Za-z])${escaped}(?![A-Za-z])`, flags);
+  };
+  const terms = (fact.a || [])
+    .filter((t) => t && t.length >= 3)
+    .sort((a, b) => b.length - a.length);
+  let term = null;
+  // Prefer the fact's own label; associations are the fallback cue.
+  if (fact.l && fact.l.length >= 3 && rxFor(fact.l).test(fact.s)) term = fact.l;
+  else {
+    for (const t of terms) {
+      if (rxFor(t).test(fact.s)) { term = t; break; }
+    }
+  }
+  if (!term) return { html: esc(fact.s), masked: false };
+  const rx = rxFor(term, "gi");
+  const text = fact.s.replace(rx, "\u0000");
+  return {
+    html: esc(text).replace(/\u0000/g, '<span class="learn-blank" aria-label="blank"></span>'),
+    masked: true,
+  };
+}
+
+async function initLearn() {
+  const app = $("#learn-app");
+  if (!app) return;
+  let facts;
+  try { facts = await fetchJSON("data/learn.json"); }
+  catch { app.innerHTML = `<div class="notice">Could not load the learn deck.</div>`; return; }
+
+  const opts = { scope: "all", size: 10, filter: "all", ...(state.learn || {}) };
+  const decks = [...new Map(facts.map((f) => [f.d, f.dn])).entries()]
+    .sort((a, b) => a[1].localeCompare(b[1]));
+  if (opts.scope !== "all" && !decks.some(([id]) => id === opts.scope)) opts.scope = "all";
+  if (![5, 10, 15, 20].includes(Number(opts.size))) opts.size = 10;
+  if (!["all", "new"].includes(opts.filter)) opts.filter = "all";
+  opts.size = Number(opts.size);
+
+  let preview = [];
+  let session = null;
+  const focusTop = () => app.scrollIntoView({ block: "start", behavior: "instant" });
+  const learned = (f) => !!(state.facts?.[f.t]?.[f.f]);
+  const pool = () => facts.filter((f) =>
+    (opts.scope === "all" || f.d === opts.scope) &&
+    (opts.filter === "all" || !learned(f)));
+  const draw = () => {
+    const p = pool();
+    preview = shuffled(p).slice(0, Math.min(opts.size, p.length));
+    return preview;
+  };
+  const persist = () => { state.learn = { ...opts }; save(); };
+  const markKnown = (f) => {
+    if (!state.facts[f.t]) state.facts[f.t] = {};
+    state.facts[f.t][f.f] = true;
+    save();
+  };
+
+  function renderSetup() {
+    session = null;
+    app.innerHTML = `<div class="learn-setup">
+      <div class="learn-fields">
+        <label class="field"><span>Category</span>
+          <select class="select" id="learn-scope">
+            <option value="all"${opts.scope === "all" ? " selected" : ""}>All topics</option>
+            ${decks.map(([id, name]) => `<option value="${esc(id)}"${opts.scope === id ? " selected" : ""}>${esc(name)}</option>`).join("")}
+          </select>
+        </label>
+        <label class="field"><span>Cards</span>
+          <select class="select" id="learn-size">
+            ${[5, 10, 15, 20].map((n) => `<option value="${n}"${opts.size === n ? " selected" : ""}>${n}</option>`).join("")}
+          </select>
+        </label>
+        <label class="field"><span>Facts</span>
+          <select class="select" id="learn-filter">
+            <option value="all"${opts.filter === "all" ? " selected" : ""}>All facts</option>
+            <option value="new"${opts.filter === "new" ? " selected" : ""}>Not yet learned</option>
+          </select>
+        </label>
+      </div>
+      <div class="learn-preview" data-learn-preview></div>
+      <div class="learn-actions">
+        <button class="btn btn--primary" type="button" id="learn-start">Start</button>
+        <button class="btn btn--ghost" type="button" id="learn-shuffle">Shuffle</button>
+      </div>
+    </div>`;
+
+    const paint = () => {
+      const target = $("[data-learn-preview]", app);
+      const topics = [...new Set(preview.map((f) => f.n))];
+      if (!preview.length) {
+        target.innerHTML = `<span>No facts match these filters.</span>`;
+      } else {
+        target.innerHTML = `<span>${preview.length} fact${preview.length === 1 ? "" : "s"} · ${topics.length} topic${topics.length === 1 ? "" : "s"}</span>
+          <span class="learn-preview__topics">${esc(topics.slice(0, 5).join(" · "))}${topics.length > 5 ? " · …" : ""}</span>`;
+      }
+      const start = $("#learn-start", app);
+      start.disabled = !preview.length;
+      start.textContent = preview.length ? `Start ${preview.length} card${preview.length === 1 ? "" : "s"}` : "Start";
+      $("#learn-shuffle", app).disabled = !preview.length;
+    };
+    paint();
+
+    $("#learn-scope").addEventListener("change", (e) => {
+      opts.scope = e.target.value; persist(); draw(); paint();
+    });
+    $("#learn-size").addEventListener("change", (e) => {
+      opts.size = Number(e.target.value); persist(); draw(); paint();
+    });
+    $("#learn-filter").addEventListener("change", (e) => {
+      opts.filter = e.target.value; persist(); draw(); paint();
+    });
+    $("#learn-start").addEventListener("click", () => start(preview));
+    $("#learn-shuffle").addEventListener("click", () => { draw(); paint(); });
+  }
+
+  function renderCard() {
+    if (session.idx >= session.order.length) {
+      if (session.retry.length && !session.retried) {
+        session.order = shuffled(session.retry);
+        session.retry = [];
+        session.retried = true;
+        session.review = true;
+        session.idx = 0;
+        session.flipped = false;
+      } else {
+        return renderQuiz();
+      }
+    }
+    const fact = session.order[session.idx];
+    const mask = maskFact(fact);
+    const front = mask.masked
+      ? mask.html
+      : `What do you know about ${esc(fact.l)}?`;
+    const givesAway = fact.l && fact.n.toLowerCase().includes(fact.l.toLowerCase());
+    const topicLine = givesAway ? esc(fact.dn) : `${esc(fact.n)} · ${esc(fact.dn)}`;
+    const progress = Math.round((session.idx / session.order.length) * 100);
+    const more = session.order.length - session.idx - 1;
+    app.innerHTML = `<div class="learn-toolbar">
+        <span>${session.review ? "Review" : "Card"} ${session.idx + 1} of ${session.order.length}</span>
+        <span class="learn-tools">
+          <button class="link-quiet" type="button" id="learn-shuffle-remaining"${more ? "" : " disabled"}>Shuffle</button>
+          <button class="link-quiet" type="button" id="learn-exit">Exit</button>
+        </span>
+      </div>
+      <div class="learn-progress" role="progressbar" aria-label="Card progress" aria-valuemin="0" aria-valuemax="${session.order.length}" aria-valuenow="${session.idx}">
+        <i style="width:${progress}%"></i>
+      </div>
+      <p class="learn-note" id="learn-note"></p>
+      <div class="learn-card" id="learn-card" role="button" tabindex="0" aria-expanded="false" aria-label="Flashcard. Press Enter to reveal.">
+        <div class="learn-card__inner">
+          <div class="learn-card__face learn-card__front">
+            <p class="learn-card__topic">${topicLine}</p>
+            <p class="learn-card__statement">${front}</p>
+            <p class="learn-card__hint">Tap or press Enter to reveal</p>
+          </div>
+          <div class="learn-card__face learn-card__back" aria-hidden="true">
+            <p class="learn-card__label">${esc(fact.l)}</p>
+            <p class="learn-card__statement">${esc(fact.s)}</p>
+            <div class="chips">${(fact.a || []).map((a) => `<span class="chip">${esc(a)}</span>`).join("")}</div>
+            ${fact.c ? `<p class="learn-card__clue">“${esc(fact.c.c)}” <span>${esc(fact.c.k)} · ${esc(fact.c.d.slice(0, 4))}</span></p>` : ""}
+          </div>
+        </div>
+      </div>
+      <div class="learn-actions">
+        <button class="btn btn--ghost" type="button" id="learn-show">Show answer</button>
+        <div class="learn-rating" hidden>
+          <button class="btn btn--ghost" type="button" id="learn-again">Again</button>
+          <button class="btn btn--primary" type="button" id="learn-got">Got it</button>
+        </div>
+      </div>`;
+
+    const card = $("#learn-card", app);
+    const show = $("#learn-show", app);
+    const rating = $(".learn-rating", app);
+    const flip = () => {
+      if (session.flipped) return;
+      session.flipped = true;
+      card.classList.add("is-flipped");
+      card.setAttribute("aria-expanded", "true");
+      $(".learn-card__front", card)?.setAttribute("aria-hidden", "true");
+      $(".learn-card__back", card)?.setAttribute("aria-hidden", "false");
+      show.hidden = true;
+      rating.hidden = false;
+      $("#learn-got", app)?.focus({ preventScroll: true });
+      requestAnimationFrame(() => {
+        const rect = rating.getBoundingClientRect();
+        const clear = window.innerHeight - 74;
+        if (rect.bottom > clear) {
+          window.scrollBy({ top: rect.bottom - clear + 8, behavior: "smooth" });
+        }
+      });
+    };
+    card.addEventListener("click", flip);
+    card.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); flip(); }
+    });
+    show.addEventListener("click", flip);
+
+    const rate = (ok) => {
+      session.ratings.push({ fact, ok });
+      if (ok) markKnown(fact);
+      else session.retry.push(fact);
+      session.idx += 1;
+      session.flipped = false;
+      renderCard();
+    };
+    $("#learn-again", app).addEventListener("click", () => rate(false));
+    $("#learn-got", app).addEventListener("click", () => rate(true));
+
+    $("#learn-shuffle-remaining", app)?.addEventListener("click", () => {
+      const rest = session.order.slice(session.idx + 1);
+      if (!rest.length) return;
+      session.order = session.order.slice(0, session.idx + 1).concat(shuffled(rest));
+      $("#learn-note", app).textContent = "Remaining cards shuffled.";
+    });
+    $("#learn-exit", app)?.addEventListener("click", () => { draw(); renderSetup(); focusTop(); });
+    focusTop();
+  }
+
+  function renderQuiz() {
+    const items = [];
+    const seen = new Set();
+    for (const fact of session.facts) {
+      if (!fact.c || seen.has(fact.c.id)) continue;
+      seen.add(fact.c.id);
+      items.push({ ...fact.c, fact });
+    }
+    if (!items.length) {
+      app.innerHTML = `<div class="notice">No quiz clues for this set. <button class="inline-link" type="button" id="learn-options">Change options</button></div>`;
+      $("#learn-options", app).addEventListener("click", () => { draw(); renderSetup(); });
+      return;
+    }
+    const quizItems = shuffled(items);
+    app.innerHTML = `<div class="section-head"><h2>Recall</h2><span class="screen-meta">${quizItems.length} question${quizItems.length === 1 ? "" : "s"}</span></div>
+      <div class="quiz" data-quiz></div>`;
+    runQuiz($("[data-quiz]", app), quizItems, {
+      onFinish(results) { renderSummary(results, quizItems); },
+    });
+    focusTop();
+  }
+
+  function renderSummary(results, quizItems) {
+    const correct = results.filter((r) => r?.ok).length;
+    const marked = new Set(session.ratings.filter((r) => r.ok).map((r) => `${r.fact.t}:${r.fact.f}`)).size;
+    const totalCards = session.facts.length;
+    const pct = results.length ? Math.round((correct / results.length) * 100) : 0;
+    app.innerHTML = `<div class="quiz-card score-card learn-summary">
+      <p class="kicker">Recall</p>
+      <p class="score">${correct} / ${results.length}</p>
+      <p class="verdict">${pct === 100 ? "The associations held." : pct >= 70 ? "Close. Review the ones that slipped." : "Run the cards again, then retry."}</p>
+      <p class="fine">Cards marked known: ${marked} / ${totalCards}</p>
+      <div class="review">
+        ${results.map((r, i) => {
+          const it = quizItems[i];
+          const label = it.fact.l && it.fact.l.toLowerCase() !== it.fact.n.toLowerCase()
+            ? `<small class="review__fact">${esc(it.fact.l)}</small>` : "";
+          return `<div><span>${esc(it.fact.n)}${label}</span><span>${r?.ok ? "✓" : "✗"} ${esc(it.a)}</span></div>`;
+        }).join("")}
+      </div>
+      <div class="cta-row">
+        <button class="btn btn--primary" type="button" id="learn-new">New shuffle</button>
+        <button class="btn btn--ghost" type="button" id="learn-review">Review cards</button>
+        <a class="btn btn--ghost" href="${BASE}study/">Back to Study</a>
+      </div>
+      <p class="fine" style="margin-top:14px"><button class="inline-link" type="button" id="learn-options">Change options</button></p>
+    </div>`;
+    $("#learn-new", app).addEventListener("click", () => {
+      draw();
+      if (!preview.length) { renderSetup(); return; }
+      start(preview);
+    });
+    $("#learn-review", app).addEventListener("click", () => start(session.facts));
+    $("#learn-options", app).addEventListener("click", () => { draw(); renderSetup(); focusTop(); });
+    focusTop();
+  }
+
+  function start(selected) {
+    if (!selected?.length) return;
+    session = {
+      facts: [...selected], order: shuffled(selected), idx: 0,
+      flipped: false, ratings: [], retry: [], retried: false, review: false,
+    };
+    renderCard();
+  }
+
+  draw();
+  renderSetup();
+  if (new URLSearchParams(location.search).get("shuffle") === "1") start(preview);
+}
+
 // ---------------------------------------------------------------- keyboard
 const isAnswerField = (el) => !!el && el.matches && el.matches(".input");
 document.addEventListener("focusin", (e) => {
@@ -625,5 +922,6 @@ document.addEventListener("focusout", (e) => {
 if (document.body.dataset.page === "daily") initDaily();
 if (document.body.dataset.page === "deck") initDeck();
 if (document.body.dataset.page === "topic") initTopic();
+if (document.body.dataset.page === "learn") initLearn();
 if (document.body.dataset.page === "endless") initEndless();
 if (document.body.dataset.page === "archive") initArchive();
