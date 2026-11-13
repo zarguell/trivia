@@ -36,10 +36,15 @@ const NAV = [
 export function layout({
   base = "/trivia/", title, description, page = "", active = "", content,
   bodyClass = "", preload = "", scriptData = "", narrow = false, showFooter = true,
+  ogTitle = "", ogDescription = "", ogUrl = "", ogImage = "", ogType = "website",
+  canonical = "", robots = "",
 }) {
   const fullTitle = title === "Six Things"
     ? "Six Things — the trivia you actually need"
     : `${title} · Six Things`;
+  const socialTitle = ogTitle || fullTitle;
+  const socialDescription = ogDescription || description;
+  const socialImage = ogImage || `https://zarguell.github.io${base}assets/og.png`;
   return `<!doctype html>
 <html lang="en" data-base="${base}">
 <head>
@@ -47,6 +52,8 @@ export function layout({
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(description)}">
+${canonical ? `<link rel="canonical" href="${esc(canonical)}">` : ""}
+${robots ? `<meta name="robots" content="${esc(robots)}">` : ""}
 <meta name="color-scheme" content="dark light">
 <meta name="theme-color" content="#0a1020">
 <link rel="icon" href="${base}assets/icon.svg" type="image/svg+xml">
@@ -56,10 +63,19 @@ ${preload}
 <script>try{var t=localStorage.getItem("sixthings.v1");var th=t&&JSON.parse(t).theme;
 if(th!=="light"&&th!=="dark"){th=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";}
 document.documentElement.dataset.theme=th;var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=th==="light"?"#f6f2e8":"#080d18";}catch(e){}</script>
-<meta property="og:title" content="${esc(fullTitle)}">
-<meta property="og:description" content="${esc(description)}">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
+<meta property="og:site_name" content="Six Things">
+<meta property="og:title" content="${esc(socialTitle)}">
+<meta property="og:description" content="${esc(socialDescription)}">
+<meta property="og:type" content="${esc(ogType)}">
+${ogUrl ? `<meta property="og:url" content="${esc(ogUrl)}">` : ""}
+<meta property="og:image" content="${esc(socialImage)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Six Things">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(socialTitle)}">
+<meta name="twitter:description" content="${esc(socialDescription)}">
+<meta name="twitter:image" content="${esc(socialImage)}">
 </head>
 <body data-page="${esc(page)}" class="${esc(bodyClass)}">
 <a class="skip" href="#main">Skip to content</a>
@@ -79,6 +95,7 @@ document.documentElement.dataset.theme=th;var m=document.querySelector('meta[nam
 <main id="main" class="wrap${narrow ? " wrap--narrow" : ""}">
 ${content}
 </main>
+<p class="sr-only" aria-live="polite" data-share-status></p>
 ${showFooter ? `<footer class="footer wrap">
   <span class="footer__brand">Six Things</span>
   <a href="${base}about/">About</a>

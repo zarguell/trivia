@@ -40,6 +40,11 @@ const shortDate = (s) => new Date(`${s}T12:00:00`).toLocaleDateString("en-US", {
   month: "short", day: "numeric", year: "numeric",
 });
 const fmt = (n) => Number(n || 0).toLocaleString("en-US");
+const ORIGIN = "https://zarguell.github.io";
+const abs = (path) => `${ORIGIN}${BASE}${path}`;
+const truncate = (text, n) => text.length > n ? `${text.slice(0, n - 1).trimEnd()}…` : text;
+const displayLabel = (label) => label ? label.charAt(0).toUpperCase() + label.slice(1) : label;
+const sharePath = (t, f) => `topic/${t.id}/${f.id}/`;
 const today = iso(new Date());
 const todayPuzzle = allPuzzles.find((p) => p.d === today)
   || allPuzzles.reduce((best, p) => Math.abs(p.d.localeCompare(today)) < Math.abs(best.d.localeCompare(today)) ? p : best, allPuzzles[0]);
@@ -288,7 +293,13 @@ for (const t of site.topics) {
             <summary>${f.clues.length} real clue${f.clues.length > 1 ? "s" : ""} ${icon("chevron")}</summary>
             <ul>${f.clues.map((c) => `<li><p class="clue-mini">${esc(c.c)}</p><p class="clue-mini__a"><b>${esc(c.a)}</b> · ${esc(c.k)} · ${esc(c.d.slice(0, 4))}</p></li>`).join("")}</ul>
           </details>` : ""}
-          <button class="know" type="button" data-action="know-fact" data-fact-id="${esc(f.id)}" aria-pressed="false">${icon("check")}<span>I knew this</span></button>
+          <div class="fact__actions">
+            <button class="know" type="button" data-action="know-fact" data-fact-id="${esc(f.id)}" aria-pressed="false">${icon("check")}<span>I knew this</span></button>
+            <button class="know" type="button" data-action="share-item"
+              data-share-url="${base}${sharePath(t, f)}"
+              data-share-title="${esc(`${t.name}: ${displayLabel(f.label)}`)}"
+              data-share-text="${esc(f.statement)}">Share</button>
+          </div>
         </div>
       </article>`).join("")}
     </section>
@@ -300,6 +311,51 @@ for (const t of site.topics) {
     <script type="application/json" id="topic-data">${json}</script>`,
   });
   await writePage(`topic/${t.id}/index.html`, html);
+
+  for (const f of t.facts) {
+    const path = sharePath(t, f);
+    const shareUrl = abs(path);
+    const summary = truncate(f.statement, 220);
+    const clues = f.clues || [];
+    const label = displayLabel(f.label);
+    const shareHtml = layout({
+      base,
+      page: "share",
+      active: "study",
+      title: `${label} · ${t.name}`,
+      description: summary,
+      ogTitle: `${t.name}: ${label}`,
+      ogDescription: summary,
+      ogUrl: shareUrl,
+      ogType: "article",
+      canonical: `${ORIGIN}${BASE}topic/${t.id}/#fact-${f.id}`,
+      narrow: true,
+      content: `
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="${base}study/">Study</a>${icon("chevron")}
+        <a href="${base}topic/${t.id}/">${esc(t.name)}</a>${icon("chevron")}<span>Fact</span>
+      </nav>
+      <article class="share-card">
+        <p class="share-kicker">${esc(t.name)} · ${esc(deckTitle(t.deck))}</p>
+        <h1>${esc(label)}</h1>
+        <p class="share-statement">${esc(f.statement)}</p>
+        <div class="chips">${(f.associations || []).map((a) => `<span class="chip">${esc(a)}</span>`).join("")}</div>
+        <div class="share-actions">
+          <button class="btn btn--primary" type="button" data-action="share-item"
+            data-share-url="${base}${path}"
+            data-share-title="${esc(`${t.name}: ${label}`)}"
+            data-share-text="${esc(f.statement)}">Share fact</button>
+          <a class="btn btn--ghost" href="${base}topic/${t.id}/#fact-${f.id}">Open topic</a>
+        </div>
+      </article>
+      ${clues.length ? `<section class="share-clues">
+        <h2>Real clues</h2>
+        <ul>${clues.map((c) => `<li class="share-clue"><p>${esc(c.c)}</p><span>${esc(c.a)} · ${esc(c.k)} · ${esc(c.d)}</span></li>`).join("")}</ul>
+      </section>` : ""}
+      <p class="share-note"><a class="inline-link" href="${base}topic/${t.id}/">Study ${esc(t.name)}</a> · <a class="inline-link" href="${base}study/${t.deck}/">More ${esc(deckTitle(t.deck))} topics</a></p>`,
+    });
+    await writePage(`topic/${t.id}/${f.id}/index.html`, shareHtml);
+  }
 }
 
 // ------------------------------------------------------------------ endless

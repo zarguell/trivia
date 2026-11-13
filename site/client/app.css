@@ -558,6 +558,31 @@ mark { background: var(--accent-soft); color: var(--accent-text); border-radius:
 .learn-summary .cta-row { justify-content: center; }
 .learn-summary .fine { margin-top: 10px; }
 
+/* ---------------------------------------------------------------- share */
+.fact__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 12px; }
+.fact__actions .know { margin-top: 0; }
+.fact__actions .know[data-action="share-item"] { color: var(--muted); }
+.learn-share-row { margin-top: 7px; }
+.learn-share-row .link-quiet { min-height: 34px; padding: 5px 0; }
+
+.share-card {
+  margin-top: 18px; padding: clamp(20px, 4vw, 30px);
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--surface);
+}
+.share-kicker { color: var(--muted); font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.share-card h1 { font-family: var(--font-display); font-size: clamp(1.9rem, 5.5vw, 2.8rem); font-weight: 600; letter-spacing: -.02em; margin-top: 7px; }
+.share-statement { font-family: var(--font-display); font-size: clamp(1.1rem, 2.8vw, 1.28rem); line-height: 1.55; color: var(--fg-soft); margin-top: 10px; }
+.share-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.share-clues { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 13px; }
+.share-clues h2 { font-family: var(--font-display); font-size: 1.35rem; font-weight: 600; margin-bottom: 6px; }
+.share-clues ul { list-style: none; padding: 0; }
+.share-clue { padding: 12px 0; border-bottom: 1px solid var(--line-soft); }
+.share-clue p { font-family: var(--font-display); font-size: .98rem; line-height: 1.45; }
+.share-clue span { display: block; margin-top: 4px; color: var(--muted); font-size: .7rem; }
+.share-note { margin-top: 18px; color: var(--muted); font-size: .8rem; }
+.share-note a { color: var(--accent-text); }
+
 /* ---------------------------------------------------------------- prose */
 .prose { max-width: 70ch; padding-block: clamp(24px, 5vw, 44px); }
 .prose > * + * { margin-top: 1em; }

@@ -28,6 +28,8 @@ So the thesis: **if you dissect the archive into the handful of things each topi
 
 **Endless mode.** Four-choice rapid fire across a curated pool of real clues, balanced by deck and difficulty. A wrong answer resets the streak, never the session.
 
+**Share.** Every fact has a standalone link with fact-specific Open Graph metadata and a branded preview image. The generic Share button copies the link on desktop and opens the native share sheet on phones — no per-network buttons.
+
 **Lookup.** Type an answer — `pistachio`, `Buchanan`, `Gone with the Wind` — and see the actual clues, with air dates.
 
 ## By the numbers

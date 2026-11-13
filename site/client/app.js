@@ -60,6 +60,67 @@ $$('[data-action="theme"]').forEach((b) => b.addEventListener("click", () => {
   setTheme(document.documentElement.dataset.theme === "light" ? "dark" : "light");
 }));
 
+// ---------------------------------------------------------------- sharing
+async function copyText(text) {
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch { /* fall through */ }
+  const ta = document.createElement("textarea");
+  ta.value = text;
+  ta.setAttribute("readonly", "");
+  ta.style.position = "fixed";
+  ta.style.opacity = "0";
+  document.body.append(ta);
+  ta.select();
+  let ok = false;
+  try { ok = document.execCommand("copy"); } catch { /* ignore */ }
+  ta.remove();
+  return ok;
+}
+
+function flashShare(btn, message) {
+  const label = btn.dataset.shareLabel || btn.textContent.trim();
+  btn.dataset.shareLabel = label;
+  btn.textContent = message;
+  btn.setAttribute("aria-label", message);
+  const status = $("[data-share-status]");
+  if (status) {
+    status.textContent = message;
+    setTimeout(() => { status.textContent = ""; }, 2000);
+  }
+  setTimeout(() => {
+    btn.textContent = label;
+    btn.removeAttribute("aria-label");
+  }, 1600);
+}
+
+async function shareItem(btn) {
+  const url = new URL(btn.dataset.shareUrl || location.href, location.origin).href;
+  const title = btn.dataset.shareTitle || document.title;
+  const text = btn.dataset.shareText || "";
+  const isPhone = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
+    || (matchMedia("(pointer: coarse)").matches && navigator.maxTouchPoints > 0);
+  if (isPhone && typeof navigator.share === "function") {
+    try {
+      await navigator.share({ title, text, url });
+      return;
+    } catch (err) {
+      if (err?.name === "AbortError") return;
+    }
+  }
+  const copied = await copyText(url);
+  if (copied) flashShare(btn, "Copied");
+  else window.prompt("Copy this link", url);
+}
+
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest('[data-action="share-item"]');
+  if (btn) shareItem(btn);
+});
+
 // ---------------------------------------------------------------- shared quiz UI
 function dotsHTML(items, results, idx) {
   return `<div class="dots" aria-hidden="true">${items.map((_, i) => {
@@ -789,6 +850,12 @@ async function initLearn() {
           <button class="btn btn--ghost" type="button" id="learn-again">Again</button>
           <button class="btn btn--primary" type="button" id="learn-got">Got it</button>
         </div>
+      </div>
+      <div class="learn-share-row" hidden>
+        <button class="link-quiet" type="button" data-action="share-item"
+          data-share-url="${BASE}topic/${fact.t}/${fact.f}/"
+          data-share-title="${esc(`${fact.n}: ${fact.l.charAt(0).toUpperCase()}${fact.l.slice(1)}`)}"
+          data-share-text="${esc(fact.s)}">Share fact</button>
       </div>`;
 
     const card = $("#learn-card", app);
@@ -803,12 +870,16 @@ async function initLearn() {
       $(".learn-card__back", card)?.setAttribute("aria-hidden", "false");
       show.hidden = true;
       rating.hidden = false;
+      const shareRow = $(".learn-share-row", app);
+      if (shareRow) shareRow.hidden = false;
       $("#learn-got", app)?.focus({ preventScroll: true });
       requestAnimationFrame(() => {
         const rect = rating.getBoundingClientRect();
+        const shareRect = shareRow?.getBoundingClientRect();
+        const bottom = Math.max(rect.bottom, shareRect?.bottom || 0);
         const clear = window.innerHeight - 74;
-        if (rect.bottom > clear) {
-          window.scrollBy({ top: rect.bottom - clear + 8, behavior: "smooth" });
+        if (bottom > clear) {
+          window.scrollBy({ top: bottom - clear + 8, behavior: "smooth" });
         }
       });
     };
