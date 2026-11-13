@@ -235,21 +235,25 @@ def main():
         for c in pool:
             tiers[difficulty(c, response_freq)].append(c)
         chosen, used_answers = [], set()
-        for tier in (1, 2, 3, 4, 1, 2, 3):
+        # two easy, two medium, one hard, one wildcard; the rotation keeps
+        # different clues surfacing on different days
+        for tier in (1, 1, 2, 2, 3, 4, 2, 3):
             candidates = [c for c in tiers[tier] if c["answer_key"] not in used_answers]
             if not candidates:
                 candidates = [c for c in pool if c["answer_key"] not in used_answers]
             if not candidates:
                 break
-            c = min(candidates, key=lambda c: (abs(len(c["clue"]) - 110), c["id"]))
+            candidates.sort(key=lambda c: (abs(len(c["clue"]) - 115), c["id"]))
+            c = candidates[(day * 3 + tier) % min(6, len(candidates))]
             chosen.append(c)
             used_answers.add(c["answer_key"])
             if len(chosen) == 6:
                 break
         if len(chosen) < 6:
             for c in pool:
-                if c["id"] not in {x["id"] for x in chosen}:
+                if c["id"] not in {x["id"] for x in chosen} and c["answer_key"] not in used_answers:
                     chosen.append(c)
+                    used_answers.add(c["answer_key"])
                 if len(chosen) == 6:
                     break
         # final from another deck
@@ -257,8 +261,10 @@ def main():
         final_pack = pack_by_id[other[(day * 7 + 3) % len(other)]]
         finals = [by_id[cid] for cid in final_pack["clue_ids"]
                   if cid in by_id and by_id[cid]["usable"] and by_id[cid]["answer_key"] not in used_answers]
-        finals.sort(key=lambda c: -len(c["clue"]))
-        final = finals[0] if finals else chosen[-1]
+        if not finals:
+            finals = [by_id[cid] for cid in final_pack["clue_ids"] if cid in by_id and by_id[cid]["usable"]]
+        finals.sort(key=lambda c: (abs(len(c["clue"]) - 140), c["id"]))
+        final = finals[(day * 5 + 1) % len(finals)] if finals else chosen[-1]
         puzzles.append({
             "d": (EPOCH + timedelta(days=day)).isoformat(),
             "t": tid,

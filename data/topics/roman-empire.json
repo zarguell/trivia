@@ -1,65 +1,146 @@
 {
-  "id": "roman-empire",
-  "name": "Roman Empire",
-  "deck": "history",
-  "aliases": ["Ancient Rome"],
-  "hook": "Forums, gladiators, emperors and the long decline — the empire Jeopardy never stops excavating.",
-  "facts": [
-    {
-      "id": "gibbon",
-      "label": "Edward Gibbon",
-      "statement": "Edward Gibbon wrote The History of the Decline and Fall of the Roman Empire, published in 1788; it later landed on the Vatican's Index of Forbidden Books.",
-      "associations": ["Edward Gibbon", "Decline and Fall", "1788", "Index of Forbidden Books"],
-      "clue_ids": ["8482067cf6", "a3743c57b6", "7c3582cc05"]
-    },
-    {
-      "id": "byzantine",
-      "label": "the Byzantine Empire",
-      "statement": "The Byzantine Empire was the Eastern Roman Empire; it outlasted the Western empire by nearly 1,000 years, with its capital at Constantinople.",
-      "associations": ["Byzantine Empire", "Eastern Roman Empire", "Constantinople", "1,100 years"],
-      "clue_ids": ["2e85842f33", "87bdf6fabb", "1a88822da6"]
-    },
-    {
-      "id": "constantine",
-      "label": "Constantine",
-      "statement": "Constantine issued the Edict of Milan in 313, legalizing Christianity, and in 330 moved the imperial capital to Byzantium, which became Constantinople.",
-      "associations": ["Constantine", "Edict of Milan", "313", "Constantinople"],
-      "clue_ids": ["0b91df7056", "5f64dfe4af", "3ae0579948"]
-    },
-    {
-      "id": "attila",
-      "label": "Attila the Hun",
-      "statement": "Attila the Hun, Dante's \"Scourge of God,\" attacked the Roman Empire in the 5th century and forced the Eastern empire to pay him gold yearly.",
-      "associations": ["Attila the Hun", "Scourge of God", "5th century", "tribute"],
-      "clue_ids": ["ded841d8e6", "bec354dc35"]
-    },
-    {
-      "id": "forum",
-      "label": "the forum",
-      "statement": "The forum was ancient Rome's marketplace and civic center, the equivalent of the Greek agora; the Tabularium, or state archives, stood there.",
-      "associations": ["the forum", "marketplace", "Greek agora", "Tabularium"],
-      "clue_ids": ["90f6f51860", "e8e7e1f2ff"]
-    },
-    {
-      "id": "gladiators",
-      "label": "gladiators",
-      "statement": "Gladiators were trained arena fighters who fought to the death for public entertainment; the word comes from gladius, Latin for sword.",
-      "associations": ["gladiators", "gladius", "arena", "sword"],
-      "clue_ids": ["2db3c841f2", "12c68dba17"]
-    },
-    {
-      "id": "provinces",
-      "label": "provinces",
-      "statement": "At its height the Roman Empire ruled provinces from Britain to Egypt; Egypt became one after Cleopatra's death in 30 B.C.",
-      "associations": ["provinces", "Egypt", "Cleopatra", "30 B.C."],
-      "clue_ids": ["b51f2828a4", "59a9b3ed7b", "626a2931c4"]
-    }
-  ],
-  "clue_ids": [
-    "8482067cf6", "a3743c57b6", "7c3582cc05", "2e85842f33", "87bdf6fabb",
-    "1a88822da6", "0b91df7056", "5f64dfe4af", "3ae0579948", "ded841d8e6",
-    "bec354dc35", "90f6f51860", "e8e7e1f2ff", "2db3c841f2", "12c68dba17",
-    "b51f2828a4", "59a9b3ed7b", "626a2931c4"
-  ],
-  "related": ["rome", "italy", "egypt", "charlemagne"]
+ "id": "roman-empire",
+ "name": "Roman Empire",
+ "deck": "history",
+ "aliases": [
+  "Ancient Rome"
+ ],
+ "hook": "Forums, gladiators, emperors and the long decline — the empire Jeopardy never stops excavating.",
+ "facts": [
+  {
+   "id": "gibbon",
+   "label": "Edward Gibbon",
+   "statement": "Edward Gibbon wrote The History of the Decline and Fall of the Roman Empire, published in 1788; it later landed on the Vatican's Index of Forbidden Books.",
+   "associations": [
+    "Edward Gibbon",
+    "Decline and Fall",
+    "1788",
+    "Index of Forbidden Books"
+   ],
+   "clue_ids": [
+    "8482067cf6",
+    "a3743c57b6",
+    "7c3582cc05"
+   ]
+  },
+  {
+   "id": "byzantine",
+   "label": "the Byzantine Empire",
+   "statement": "The Byzantine Empire was the Eastern Roman Empire; it outlasted the Western empire by nearly 1,000 years, with its capital at Constantinople.",
+   "associations": [
+    "Byzantine Empire",
+    "Eastern Roman Empire",
+    "Constantinople",
+    "1,100 years"
+   ],
+   "clue_ids": [
+    "2e85842f33",
+    "87bdf6fabb",
+    "1a88822da6"
+   ]
+  },
+  {
+   "id": "constantine",
+   "label": "Constantine",
+   "statement": "Constantine issued the Edict of Milan in 313, legalizing Christianity, and in 330 moved the imperial capital to Byzantium, which became Constantinople.",
+   "associations": [
+    "Constantine",
+    "Edict of Milan",
+    "313",
+    "Constantinople"
+   ],
+   "clue_ids": [
+    "0b91df7056",
+    "5f64dfe4af",
+    "3ae0579948"
+   ]
+  },
+  {
+   "id": "attila",
+   "label": "Attila the Hun",
+   "statement": "Attila the Hun — the Latins' Flagellum Dei, or \"Scourge of God\" — attacked the Roman Empire in the 5th century and forced the Eastern empire to pay him gold yearly.",
+   "associations": [
+    "Attila the Hun",
+    "Scourge of God",
+    "5th century",
+    "tribute"
+   ],
+   "clue_ids": [
+    "ded841d8e6",
+    "bec354dc35"
+   ]
+  },
+  {
+   "id": "forum",
+   "label": "the forum",
+   "statement": "The forum was ancient Rome's marketplace and civic center, the equivalent of the Greek agora; the Tabularium, or state archives, stood there.",
+   "associations": [
+    "the forum",
+    "marketplace",
+    "Greek agora",
+    "Tabularium"
+   ],
+   "clue_ids": [
+    "90f6f51860",
+    "e8e7e1f2ff"
+   ]
+  },
+  {
+   "id": "gladiators",
+   "label": "gladiators",
+   "statement": "Gladiators were trained arena fighters who fought to the death for public entertainment; the word comes from gladius, Latin for sword.",
+   "associations": [
+    "gladiators",
+    "gladius",
+    "arena",
+    "sword"
+   ],
+   "clue_ids": [
+    "2db3c841f2",
+    "12c68dba17"
+   ]
+  },
+  {
+   "id": "provinces",
+   "label": "provinces",
+   "statement": "At its height the Roman Empire ruled provinces from Britain to Egypt; Egypt became one after Cleopatra's death in 30 B.C.",
+   "associations": [
+    "provinces",
+    "Egypt",
+    "Cleopatra",
+    "30 B.C."
+   ],
+   "clue_ids": [
+    "b51f2828a4",
+    "59a9b3ed7b",
+    "626a2931c4"
+   ]
+  }
+ ],
+ "clue_ids": [
+  "8482067cf6",
+  "a3743c57b6",
+  "7c3582cc05",
+  "2e85842f33",
+  "87bdf6fabb",
+  "1a88822da6",
+  "0b91df7056",
+  "5f64dfe4af",
+  "3ae0579948",
+  "ded841d8e6",
+  "bec354dc35",
+  "90f6f51860",
+  "e8e7e1f2ff",
+  "2db3c841f2",
+  "12c68dba17",
+  "b51f2828a4",
+  "59a9b3ed7b",
+  "626a2931c4"
+ ],
+ "related": [
+  "rome",
+  "italy",
+  "egypt",
+  "charlemagne"
+ ]
 }

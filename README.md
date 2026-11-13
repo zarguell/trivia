@@ -35,7 +35,7 @@ So the thesis: **if you dissect the archive into the handful of things each topi
 | Clues mined | **544,106** (1984–2026) |
 | Distinct answers | **114,819** |
 | Curated topics | **260** |
-| Essential facts | **1,795** |
+| Essential facts | **1,794** |
 | Real clues in packs | **4,177** |
 | Clues searchable in Lookup | 538,616 |
 

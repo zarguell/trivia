@@ -1,63 +1,132 @@
 {
-  "id": "salem-witch-trials",
-  "name": "Salem witch trials",
-  "deck": "history",
-  "aliases": ["Salem"],
-  "hook": "Nineteen hangings, spectral evidence and a panic that gave America its favorite metaphor for hysteria.",
-  "facts": [
-    {
-      "id": "year-1692",
-      "label": "1692",
-      "statement": "The Salem witch trials were 1692 proceedings in colonial Massachusetts, retold in novels such as The Heretic's Daughter.",
-      "associations": ["1692", "Salem", "Massachusetts", "witch trials"],
-      "clue_ids": ["08b3b56d5a"]
-    },
-    {
-      "id": "hangings",
-      "label": "the hangings",
-      "statement": "The last witchcraft execution in Salem was September 22, 1692; John Willard, accused by his in-laws, was found guilty and hanged.",
-      "associations": ["September 22, 1692", "John Willard", "hanged", "execution"],
-      "clue_ids": ["2e0fbea615", "1efd717cd8"]
-    },
-    {
-      "id": "ergot",
-      "label": "ergot poisoning",
-      "statement": "Some attribute the Salem accusations to ergot poisoning, which can cause psychotic effects.",
-      "associations": ["ergot poisoning", "psychotic effects", "theory", "rye"],
-      "clue_ids": ["9bc09345e3"]
-    },
-    {
-      "id": "the-crucible",
-      "label": "The Crucible",
-      "statement": "Arthur Miller's 1953 play The Crucible is about the Salem witch trials; he researched it in Salem at the courthouse and Witch House.",
-      "associations": ["The Crucible", "Arthur Miller", "1953", "Salem research"],
-      "clue_ids": ["b1f28bf592", "03327901a3", "932ce84ddd"]
-    },
-    {
-      "id": "cotton-mather",
-      "label": "Cotton Mather",
-      "statement": "Cotton Mather, a Puritan minister, wrote The Wonders of the Invisible World about the trials; he and his father denounced spectre evidence.",
-      "associations": ["Cotton Mather", "Wonders of the Invisible World", "spectre evidence", "Puritan minister"],
-      "clue_ids": ["13a6e97d89", "526e101503"]
-    },
-    {
-      "id": "hawthorne",
-      "label": "Nathaniel Hawthorne",
-      "statement": "Nathaniel Hawthorne was born in Salem in 1804 and worked at its Custom House; he wrote about it in The Scarlet Letter's introduction.",
-      "associations": ["Nathaniel Hawthorne", "Salem", "Custom House", "The Scarlet Letter"],
-      "clue_ids": ["79a0f0a28c", "04cfdb4127", "bea83c38dc"]
-    },
-    {
-      "id": "seven-gables",
-      "label": "The House of the Seven Gables",
-      "statement": "Hawthorne's 1851 novel The House of the Seven Gables is set in Salem and inspired by a 1668 house and a family curse.",
-      "associations": ["The House of the Seven Gables", "1851", "1668 house", "family curse"],
-      "clue_ids": ["e123eebd5b", "bb3c14da9a"]
-    }
-  ],
-  "clue_ids": [
-    "08b3b56d5a", "2e0fbea615", "1efd717cd8", "9bc09345e3", "b1f28bf592",
-    "03327901a3", "932ce84ddd", "13a6e97d89", "526e101503", "79a0f0a28c",
-    "04cfdb4127", "bea83c38dc", "e123eebd5b", "bb3c14da9a"
-  ]
+ "id": "salem-witch-trials",
+ "name": "Salem witch trials",
+ "deck": "history",
+ "aliases": [
+  "Salem"
+ ],
+ "hook": "Nineteen hangings, spectral evidence and a panic that gave America its favorite metaphor for hysteria.",
+ "facts": [
+  {
+   "id": "year-1692",
+   "label": "1692",
+   "statement": "The Salem witch trials were 1692 proceedings in colonial Massachusetts, retold in novels such as The Heretic's Daughter.",
+   "associations": [
+    "1692",
+    "Salem",
+    "Massachusetts",
+    "witch trials"
+   ],
+   "clue_ids": [
+    "08b3b56d5a"
+   ]
+  },
+  {
+   "id": "hangings",
+   "label": "the hangings",
+   "statement": "The last witchcraft executions in Salem were on September 22, 1692. John Willard, accused by his in-laws, was hanged earlier, on August 19.",
+   "associations": [
+    "September 22, 1692",
+    "John Willard",
+    "hanged",
+    "execution"
+   ],
+   "clue_ids": [
+    "2e0fbea615",
+    "1efd717cd8"
+   ]
+  },
+  {
+   "id": "ergot",
+   "label": "ergot poisoning",
+   "statement": "Some attribute the Salem accusations to ergot poisoning, which can cause psychotic effects.",
+   "associations": [
+    "ergot poisoning",
+    "psychotic effects",
+    "theory",
+    "rye"
+   ],
+   "clue_ids": [
+    "9bc09345e3"
+   ]
+  },
+  {
+   "id": "the-crucible",
+   "label": "The Crucible",
+   "statement": "Arthur Miller's 1953 play The Crucible is about the Salem witch trials; he researched it in Salem at the courthouse and Witch House.",
+   "associations": [
+    "The Crucible",
+    "Arthur Miller",
+    "1953",
+    "Salem research"
+   ],
+   "clue_ids": [
+    "b1f28bf592",
+    "03327901a3",
+    "932ce84ddd"
+   ]
+  },
+  {
+   "id": "cotton-mather",
+   "label": "Cotton Mather",
+   "statement": "Cotton Mather, a Puritan minister, wrote The Wonders of the Invisible World about the trials; he and his father denounced spectre evidence.",
+   "associations": [
+    "Cotton Mather",
+    "Wonders of the Invisible World",
+    "spectre evidence",
+    "Puritan minister"
+   ],
+   "clue_ids": [
+    "13a6e97d89",
+    "526e101503"
+   ]
+  },
+  {
+   "id": "hawthorne",
+   "label": "Nathaniel Hawthorne",
+   "statement": "Nathaniel Hawthorne was born in Salem in 1804 and worked at its Custom House; he wrote about it in The Scarlet Letter's introduction.",
+   "associations": [
+    "Nathaniel Hawthorne",
+    "Salem",
+    "Custom House",
+    "The Scarlet Letter"
+   ],
+   "clue_ids": [
+    "79a0f0a28c",
+    "04cfdb4127",
+    "bea83c38dc"
+   ]
+  },
+  {
+   "id": "seven-gables",
+   "label": "The House of the Seven Gables",
+   "statement": "Hawthorne's 1851 novel The House of the Seven Gables is set in Salem and inspired by a 1668 house and a family curse.",
+   "associations": [
+    "The House of the Seven Gables",
+    "1851",
+    "1668 house",
+    "family curse"
+   ],
+   "clue_ids": [
+    "e123eebd5b",
+    "bb3c14da9a"
+   ]
+  }
+ ],
+ "clue_ids": [
+  "08b3b56d5a",
+  "2e0fbea615",
+  "1efd717cd8",
+  "9bc09345e3",
+  "b1f28bf592",
+  "03327901a3",
+  "932ce84ddd",
+  "13a6e97d89",
+  "526e101503",
+  "79a0f0a28c",
+  "04cfdb4127",
+  "bea83c38dc",
+  "e123eebd5b",
+  "bb3c14da9a"
+ ]
 }

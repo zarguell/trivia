@@ -1,64 +1,131 @@
 {
-  "id": "charles-darwin",
-  "name": "Charles Darwin",
-  "deck": "science",
-  "aliases": ["Darwin"],
-  "hook": "The Beagle, the Galápagos and the phrase Darwin did not coin.",
-  "facts": [
-    {
-      "id": "beagle",
-      "label": "HMS Beagle",
-      "statement": "Darwin signed on as unpaid naturalist of HMS Beagle in 1831 for the survey voyage that made his career.",
-      "associations": ["HMS Beagle", "1831", "unpaid naturalist"],
-      "clue_ids": ["a3cf491d06", "d9e73ead67"]
-    },
-    {
-      "id": "origin",
-      "label": "On the Origin of Species",
-      "statement": "On the Origin of Species, published in 1859, set out his theory of evolution; its last sentence mentions \"the Creator.\"",
-      "associations": ["On the Origin of Species", "1859", "evolution"],
-      "clue_ids": ["78d09cd77f", "77e5672308"]
-    },
-    {
-      "id": "natural-selection",
-      "label": "natural selection",
-      "statement": "Darwin's mechanism was natural selection: in 1858 he and Alfred Wallace each proposed evolution by it.",
-      "associations": ["natural selection", "Alfred Wallace", "1858"],
-      "clue_ids": ["69850369ba", "3efa27ff15"]
-    },
-    {
-      "id": "survival-of-the-fittest",
-      "label": "survival of the fittest",
-      "statement": "Herbert Spencer coined \"survival of the fittest,\" a phrase Darwin adopted for natural selection.",
-      "associations": ["Herbert Spencer", "survival of the fittest", "phrase"],
-      "clue_ids": ["3cb00934da", "68f2e8cf63"]
-    },
-    {
-      "id": "galapagos",
-      "label": "the Galápagos Islands",
-      "statement": "The Galápagos Islands, Ecuadorian territory off South America, are where Darwin studied evolution; the Charles Darwin Research Station is on Santa Cruz.",
-      "associations": ["Galápagos", "Ecuador", "Santa Cruz", "research station"],
-      "clue_ids": ["3d2fc644c9", "e14d75341f", "2dee7ef6c7"]
-    },
-    {
-      "id": "wedgwood",
-      "label": "Josiah Wedgwood",
-      "statement": "Darwin's grandfather Josiah Wedgwood was the English potter famous for pale blue jasperware.",
-      "associations": ["Josiah Wedgwood", "grandfather", "jasperware"],
-      "clue_ids": ["aea9155d7a", "3228d48d08"]
-    },
-    {
-      "id": "huxley",
-      "label": "Thomas Huxley",
-      "statement": "Thomas Huxley championed Darwin's theory and was called by Darwin his warmest and most important supporter.",
-      "associations": ["Thomas Huxley", "champion", "supporter"],
-      "clue_ids": ["4b17ee4a65"]
-    }
-  ],
-  "clue_ids": [
-    "a3cf491d06", "d9e73ead67", "78d09cd77f", "77e5672308", "69850369ba",
-    "3efa27ff15", "3cb00934da", "68f2e8cf63", "3d2fc644c9", "e14d75341f",
-    "2dee7ef6c7", "aea9155d7a", "3228d48d08", "4b17ee4a65"
-  ],
-  "related": ["evolution", "dinosaurs", "isaac-newton"]
+ "id": "charles-darwin",
+ "name": "Charles Darwin",
+ "deck": "science",
+ "aliases": [
+  "Darwin"
+ ],
+ "hook": "The Beagle, the Galápagos and the phrase Darwin did not coin.",
+ "facts": [
+  {
+   "id": "beagle",
+   "label": "HMS Beagle",
+   "statement": "Darwin signed on as unpaid naturalist of HMS Beagle in 1831 for the survey voyage that made his career.",
+   "associations": [
+    "HMS Beagle",
+    "1831",
+    "unpaid naturalist"
+   ],
+   "clue_ids": [
+    "a3cf491d06",
+    "d9e73ead67"
+   ]
+  },
+  {
+   "id": "origin",
+   "label": "On the Origin of Species",
+   "statement": "On the Origin of Species, published in 1859, set out his theory of evolution; the 1860 second edition added \"by the Creator\" to its last sentence.",
+   "associations": [
+    "On the Origin of Species",
+    "1859",
+    "evolution"
+   ],
+   "clue_ids": [
+    "78d09cd77f",
+    "77e5672308"
+   ]
+  },
+  {
+   "id": "natural-selection",
+   "label": "natural selection",
+   "statement": "Darwin's mechanism was natural selection: in 1858 he and Alfred Wallace each proposed evolution by it.",
+   "associations": [
+    "natural selection",
+    "Alfred Wallace",
+    "1858"
+   ],
+   "clue_ids": [
+    "69850369ba",
+    "3efa27ff15"
+   ]
+  },
+  {
+   "id": "survival-of-the-fittest",
+   "label": "survival of the fittest",
+   "statement": "Herbert Spencer coined \"survival of the fittest,\" a phrase Darwin adopted for natural selection.",
+   "associations": [
+    "Herbert Spencer",
+    "survival of the fittest",
+    "phrase"
+   ],
+   "clue_ids": [
+    "3cb00934da",
+    "68f2e8cf63"
+   ]
+  },
+  {
+   "id": "galapagos",
+   "label": "the Galápagos Islands",
+   "statement": "The Galápagos Islands, Ecuadorian territory off South America, are where Darwin studied evolution; the Charles Darwin Research Station is on Santa Cruz.",
+   "associations": [
+    "Galápagos",
+    "Ecuador",
+    "Santa Cruz",
+    "research station"
+   ],
+   "clue_ids": [
+    "3d2fc644c9",
+    "e14d75341f",
+    "2dee7ef6c7"
+   ]
+  },
+  {
+   "id": "wedgwood",
+   "label": "Josiah Wedgwood",
+   "statement": "Darwin's grandfather Josiah Wedgwood was the English potter famous for pale blue jasperware.",
+   "associations": [
+    "Josiah Wedgwood",
+    "grandfather",
+    "jasperware"
+   ],
+   "clue_ids": [
+    "aea9155d7a",
+    "3228d48d08"
+   ]
+  },
+  {
+   "id": "huxley",
+   "label": "Thomas Huxley",
+   "statement": "Thomas Huxley championed Darwin's theory and was called by Darwin his warmest and most important supporter.",
+   "associations": [
+    "Thomas Huxley",
+    "champion",
+    "supporter"
+   ],
+   "clue_ids": [
+    "4b17ee4a65"
+   ]
+  }
+ ],
+ "clue_ids": [
+  "a3cf491d06",
+  "d9e73ead67",
+  "78d09cd77f",
+  "77e5672308",
+  "69850369ba",
+  "3efa27ff15",
+  "3cb00934da",
+  "68f2e8cf63",
+  "3d2fc644c9",
+  "e14d75341f",
+  "2dee7ef6c7",
+  "aea9155d7a",
+  "3228d48d08",
+  "4b17ee4a65"
+ ],
+ "related": [
+  "evolution",
+  "dinosaurs",
+  "isaac-newton"
+ ]
 }

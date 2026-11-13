@@ -393,7 +393,7 @@ const archiveSearch = layout({
   <section class="page-head">
     <p class="kicker">Lookup</p>
     <h1 class="h1">Did Jeopardy<br>ask this?</h1>
-    <p class="section-sub">Search ${fmt(site.stats.cluesMined)} real clues by answer or phrase. Results come with the air date — the receipt for your word association. Lookup fetches one letter-sized shard, not the whole archive.</p>
+    <p class="section-sub">Search ${fmt(site.stats.cluesMined)} real clues by answer or phrase. Results come with the air date — the receipt for your word association. Lookup fetches one two-letter shard, not the whole archive.</p>
   </section>
   <div class="lookup">
     <label class="sr-only" for="q">Search clues</label>

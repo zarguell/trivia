@@ -1,131 +1,131 @@
 {
-  "id": "cleopatra",
-  "name": "Cleopatra",
-  "deck": "history",
-  "aliases": [],
-  "hook": "The last pharaoh, two Roman lovers, an asp, and Elizabeth Taylor's epic.",
-  "facts": [
-    {
-      "id": "last-pharaoh",
-      "label": "the last pharaoh",
-      "statement": "Cleopatra was the last active pharaoh of Egypt; after her death in 30 B.C. Egypt became a Roman province.",
-      "associations": [
-        "last pharaoh",
-        "30 B.C.",
-        "Roman province"
-      ],
-      "clue_ids": [
-        "b51f2828a4",
-        "067fe5f70e",
-        "d91ca482f5"
-      ]
-    },
-    {
-      "id": "asp",
-      "label": "the asp",
-      "statement": "Cleopatra reportedly killed herself with an asp, the Egyptian cobra Shakespeare calls \"the pretty worm of Nilus.\"",
-      "associations": [
-        "asp",
-        "Egyptian cobra",
-        "pretty worm of Nilus"
-      ],
-      "clue_ids": [
-        "ce06c62ba1",
-        "a3ac0a3bc1"
-      ]
-    },
-    {
-      "id": "mark-antony",
-      "label": "Mark Antony",
-      "statement": "Mark Antony was her Roman lover; at Tarsus in 41 B.C. she arrived dressed as Aphrodite on a barge, and after his death their children were raised by Octavia.",
-      "associations": [
-        "Mark Antony",
-        "Tarsus",
-        "Aphrodite",
-        "Octavia"
-      ],
-      "clue_ids": [
-        "aa412c9aca",
-        "daf56365f9",
-        "7d7ffe0bf1"
-      ]
-    },
-    {
-      "id": "julius-caesar",
-      "label": "Julius Caesar",
-      "statement": "Julius Caesar was her lover and the father of her son Caesarion; Handel's opera Giulio Cesare sets the affair in Egypt.",
-      "associations": [
-        "Julius Caesar",
-        "Caesarion",
-        "Handel"
-      ],
-      "clue_ids": [
-        "36c2a67d85",
-        "f2705d7e1c"
-      ]
-    },
-    {
-      "id": "ptolemy",
-      "label": "Ptolemy",
-      "statement": "Cleopatra married her brother Ptolemy XIII, then ruled with another brother, Ptolemy XIV, after XIII drowned in the Nile.",
-      "associations": [
-        "Ptolemy XIII",
-        "Ptolemy XIV",
-        "brother-husband"
-      ],
-      "clue_ids": [
-        "37a9c7ef11",
-        "b4dfabc170"
-      ]
-    },
-    {
-      "id": "alexandria",
-      "label": "Alexandria",
-      "statement": "Alexandria was her capital; the sunken island of Antirhodos off the city was where she once lived, and both Cleopatra's Needles came from there.",
-      "associations": [
-        "Alexandria",
-        "Antirhodos",
-        "Cleopatra's Needle"
-      ],
-      "clue_ids": [
-        "5525b31d6c",
-        "2f8f7dd478"
-      ]
-    },
-    {
-      "id": "the-1963-film",
-      "label": "the 1963 film Cleopatra",
-      "statement": "Elizabeth Taylor starred in the budget-busting 1963 epic Cleopatra, which Joseph Mankiewicz directed.",
-      "associations": [
-        "1963 film",
-        "Elizabeth Taylor",
-        "Joseph Mankiewicz"
-      ],
-      "clue_ids": [
-        "168389546e"
-      ]
-    }
-  ],
-  "clue_ids": [
+ "id": "cleopatra",
+ "name": "Cleopatra",
+ "deck": "history",
+ "aliases": [],
+ "hook": "The last pharaoh, two Roman lovers, an asp, and Elizabeth Taylor's epic.",
+ "facts": [
+  {
+   "id": "last-pharaoh",
+   "label": "the last pharaoh",
+   "statement": "Cleopatra was the last active pharaoh of Egypt; after her death in 30 B.C. Egypt became a Roman province.",
+   "associations": [
+    "last pharaoh",
+    "30 B.C.",
+    "Roman province"
+   ],
+   "clue_ids": [
     "b51f2828a4",
     "067fe5f70e",
-    "d91ca482f5",
+    "d91ca482f5"
+   ]
+  },
+  {
+   "id": "asp",
+   "label": "the asp",
+   "statement": "Cleopatra reportedly killed herself with an asp, the Egyptian cobra Shakespeare calls \"the pretty worm of Nilus.\"",
+   "associations": [
+    "asp",
+    "Egyptian cobra",
+    "pretty worm of Nilus"
+   ],
+   "clue_ids": [
     "ce06c62ba1",
-    "a3ac0a3bc1",
+    "a3ac0a3bc1"
+   ]
+  },
+  {
+   "id": "mark-antony",
+   "label": "Mark Antony",
+   "statement": "Mark Antony was her Roman lover; at Tarsus in 41 B.C. she arrived dressed as Aphrodite on a barge, and after his death their children were raised by Octavia.",
+   "associations": [
+    "Mark Antony",
+    "Tarsus",
+    "Aphrodite",
+    "Octavia"
+   ],
+   "clue_ids": [
     "aa412c9aca",
     "daf56365f9",
-    "7d7ffe0bf1",
+    "7d7ffe0bf1"
+   ]
+  },
+  {
+   "id": "julius-caesar",
+   "label": "Julius Caesar",
+   "statement": "Julius Caesar was her lover and the father of her son Caesarion; Handel's opera Giulio Cesare sets the affair in Egypt.",
+   "associations": [
+    "Julius Caesar",
+    "Caesarion",
+    "Handel"
+   ],
+   "clue_ids": [
     "36c2a67d85",
-    "f2705d7e1c",
+    "f2705d7e1c"
+   ]
+  },
+  {
+   "id": "ptolemy",
+   "label": "Ptolemy",
+   "statement": "Cleopatra married her brother Ptolemy XIII, then ruled with another brother, Ptolemy XIV, after XIII drowned in the Nile.",
+   "associations": [
+    "Ptolemy XIII",
+    "Ptolemy XIV",
+    "brother-husband"
+   ],
+   "clue_ids": [
     "37a9c7ef11",
-    "b4dfabc170",
+    "b4dfabc170"
+   ]
+  },
+  {
+   "id": "alexandria",
+   "label": "Alexandria",
+   "statement": "Alexandria was her capital, and the sunken island of Antirhodos offshore was where she once lived. Both Cleopatra's Needles stood at the Caesareum, not on Antirhodos; they came originally from Heliopolis.",
+   "associations": [
+    "Alexandria",
+    "Antirhodos",
+    "Cleopatra's Needle"
+   ],
+   "clue_ids": [
     "5525b31d6c",
-    "2f8f7dd478",
+    "2f8f7dd478"
+   ]
+  },
+  {
+   "id": "the-1963-film",
+   "label": "the 1963 film Cleopatra",
+   "statement": "Elizabeth Taylor starred in the budget-busting 1963 epic Cleopatra, which Joseph Mankiewicz directed.",
+   "associations": [
+    "1963 film",
+    "Elizabeth Taylor",
+    "Joseph Mankiewicz"
+   ],
+   "clue_ids": [
     "168389546e"
-  ],
-  "related": [
-    "julius-caesar",
-    "ancient-egypt",
-    "roman-empire"
-  ]
+   ]
+  }
+ ],
+ "clue_ids": [
+  "b51f2828a4",
+  "067fe5f70e",
+  "d91ca482f5",
+  "ce06c62ba1",
+  "a3ac0a3bc1",
+  "aa412c9aca",
+  "daf56365f9",
+  "7d7ffe0bf1",
+  "36c2a67d85",
+  "f2705d7e1c",
+  "37a9c7ef11",
+  "b4dfabc170",
+  "5525b31d6c",
+  "2f8f7dd478",
+  "168389546e"
+ ],
+ "related": [
+  "julius-caesar",
+  "ancient-egypt",
+  "roman-empire"
+ ]
 }

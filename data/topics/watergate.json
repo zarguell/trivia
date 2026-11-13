@@ -1,65 +1,134 @@
 {
-  "id": "watergate",
-  "name": "Watergate",
-  "deck": "history",
-  "aliases": [],
-  "hook": "A break-in, a cover-up, Deep Throat and a president's resignation.",
-  "facts": [
-    {
-      "id": "break-in",
-      "label": "the Watergate break-in",
-      "statement": "On June 17, 1972, burglars broke into the Watergate hotel and office complex in Washington, D.C.",
-      "associations": ["June 17, 1972", "Watergate hotel", "Washington, D.C.", "break-in"],
-      "clue_ids": ["560261ffcb", "374d7026c2"]
-    },
-    {
-      "id": "nixon",
-      "label": "Richard Nixon",
-      "statement": "The scandal forced President Richard Nixon to resign in 1974.",
-      "associations": ["Richard Nixon", "resignation", "1974"],
-      "clue_ids": ["299673e27b", "1efab53240"]
-    },
-    {
-      "id": "post",
-      "label": "the Washington Post",
-      "statement": "Washington Post reporters Bob Woodward and Carl Bernstein broke the story and won a 1973 Pulitzer Prize.",
-      "associations": ["Washington Post", "Woodward and Bernstein", "Pulitzer Prize", "1973"],
-      "clue_ids": ["24ef015385", "11cebfb0f1", "e7f9521d59"]
-    },
-    {
-      "id": "deep-throat",
-      "label": "Deep Throat",
-      "statement": "Deep Throat, the secret source, was revealed to be former FBI official W. Mark Felt.",
-      "associations": ["Deep Throat", "W. Mark Felt", "secret source"],
-      "clue_ids": ["46934ad482", "a517bb23d1"]
-    },
-    {
-      "id": "ervin",
-      "label": "Sam Ervin",
-      "statement": "North Carolina senator Sam Ervin chaired the Senate Watergate Committee and dismissed executive privilege as 'executive poppycock.'",
-      "associations": ["Sam Ervin", "Senate Watergate Committee", "executive poppycock"],
-      "clue_ids": ["0dc4b82f12", "759c1a2eb1"]
-    },
-    {
-      "id": "dean",
-      "label": "John Dean",
-      "statement": "John Dean, former counsel to Nixon, was the chief witness against him and wrote Blind Ambition.",
-      "associations": ["John Dean", "Blind Ambition", "chief witness"],
-      "clue_ids": ["385ac6b932", "f39a8f9f5c"]
-    },
-    {
-      "id": "sirica",
-      "label": "John Sirica",
-      "statement": "District judge John Sirica, known as 'Maximum John,' presided over the Watergate case.",
-      "associations": ["John Sirica", "Maximum John", "district judge"],
-      "clue_ids": ["d458d620cb", "a3aa3c2587"]
-    }
-  ],
-  "clue_ids": [
-    "560261ffcb", "374d7026c2", "299673e27b", "1efab53240", "24ef015385",
-    "11cebfb0f1", "e7f9521d59", "46934ad482", "a517bb23d1", "0dc4b82f12",
-    "759c1a2eb1", "385ac6b932", "f39a8f9f5c", "d458d620cb", "a3aa3c2587",
-    "1c667bd7e2", "aef1c3fd6c", "11e4eddbdd"
-  ],
-  "related": ["vietnam-war", "cold-war"]
+ "id": "watergate",
+ "name": "Watergate",
+ "deck": "history",
+ "aliases": [],
+ "hook": "A break-in, a cover-up, Deep Throat and a president's resignation.",
+ "facts": [
+  {
+   "id": "break-in",
+   "label": "the Watergate break-in",
+   "statement": "On June 17, 1972, burglars broke into the Watergate hotel and office complex in Washington, D.C.",
+   "associations": [
+    "June 17, 1972",
+    "Watergate hotel",
+    "Washington, D.C.",
+    "break-in"
+   ],
+   "clue_ids": [
+    "560261ffcb",
+    "374d7026c2"
+   ]
+  },
+  {
+   "id": "nixon",
+   "label": "Richard Nixon",
+   "statement": "The scandal forced President Richard Nixon to resign in 1974.",
+   "associations": [
+    "Richard Nixon",
+    "resignation",
+    "1974"
+   ],
+   "clue_ids": [
+    "299673e27b",
+    "1efab53240"
+   ]
+  },
+  {
+   "id": "post",
+   "label": "the Washington Post",
+   "statement": "Washington Post reporters Bob Woodward and Carl Bernstein broke the story; the Post won a 1973 Pulitzer Prize for Public Service for its Watergate investigation.",
+   "associations": [
+    "Washington Post",
+    "Woodward and Bernstein",
+    "Pulitzer Prize",
+    "1973"
+   ],
+   "clue_ids": [
+    "24ef015385",
+    "11cebfb0f1",
+    "e7f9521d59"
+   ]
+  },
+  {
+   "id": "deep-throat",
+   "label": "Deep Throat",
+   "statement": "Deep Throat, the secret source, was revealed to be former FBI official W. Mark Felt.",
+   "associations": [
+    "Deep Throat",
+    "W. Mark Felt",
+    "secret source"
+   ],
+   "clue_ids": [
+    "46934ad482",
+    "a517bb23d1"
+   ]
+  },
+  {
+   "id": "ervin",
+   "label": "Sam Ervin",
+   "statement": "North Carolina senator Sam Ervin chaired the Senate Watergate Committee and dismissed executive privilege as 'executive poppycock.'",
+   "associations": [
+    "Sam Ervin",
+    "Senate Watergate Committee",
+    "executive poppycock"
+   ],
+   "clue_ids": [
+    "0dc4b82f12",
+    "759c1a2eb1"
+   ]
+  },
+  {
+   "id": "dean",
+   "label": "John Dean",
+   "statement": "John Dean, former counsel to Nixon, was the chief witness against him and wrote Blind Ambition.",
+   "associations": [
+    "John Dean",
+    "Blind Ambition",
+    "chief witness"
+   ],
+   "clue_ids": [
+    "385ac6b932",
+    "f39a8f9f5c"
+   ]
+  },
+  {
+   "id": "sirica",
+   "label": "John Sirica",
+   "statement": "District judge John Sirica, known as 'Maximum John,' presided over the Watergate case.",
+   "associations": [
+    "John Sirica",
+    "Maximum John",
+    "district judge"
+   ],
+   "clue_ids": [
+    "d458d620cb",
+    "a3aa3c2587"
+   ]
+  }
+ ],
+ "clue_ids": [
+  "560261ffcb",
+  "374d7026c2",
+  "299673e27b",
+  "1efab53240",
+  "24ef015385",
+  "11cebfb0f1",
+  "e7f9521d59",
+  "46934ad482",
+  "a517bb23d1",
+  "0dc4b82f12",
+  "759c1a2eb1",
+  "385ac6b932",
+  "f39a8f9f5c",
+  "d458d620cb",
+  "a3aa3c2587",
+  "1c667bd7e2",
+  "aef1c3fd6c",
+  "11e4eddbdd"
+ ],
+ "related": [
+  "vietnam-war",
+  "cold-war"
+ ]
 }

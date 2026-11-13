@@ -1,65 +1,134 @@
 {
-  "id": "to-kill-a-mockingbird",
-  "name": "To Kill a Mockingbird",
-  "deck": "literature",
-  "aliases": ["Harper Lee"],
-  "hook": "Harper Lee's only novel is Jeopardy's shorthand for Southern justice seen through a child's eyes.",
-  "facts": [
-    {
-      "id": "lee",
-      "label": "Harper Lee",
-      "statement": "Harper Lee, born in 1926 to an Alabama lawyer, published it in 1960 and won the Pulitzer Prize.",
-      "associations": ["Harper Lee", "1960", "Pulitzer Prize"],
-      "clue_ids": ["096621251f", "519ad09011"]
-    },
-    {
-      "id": "scout",
-      "label": "Scout Finch",
-      "statement": "Scout, the narrator, is six-year-old Jean Louise Finch; her brother Jem is really Jeremy.",
-      "associations": ["Scout", "Jean Louise", "Jem"],
-      "clue_ids": ["869afc13e2", "a2e253ffee", "2a03464ef3"]
-    },
-    {
-      "id": "atticus",
-      "label": "Atticus Finch",
-      "statement": "Atticus Finch defends Tom Robinson, and his children are harassed by classmates for it.",
-      "associations": ["Atticus Finch", "Tom Robinson", "defense lawyer"],
-      "clue_ids": ["fb6cb6a22a", "0420ebc516"]
-    },
-    {
-      "id": "boo",
-      "label": "Boo Radley",
-      "statement": "Boo Radley is the reclusive neighbor Arthur Radley who saves Jem and Scout from Bob Ewell.",
-      "associations": ["Boo Radley", "Arthur Radley", "recluse"],
-      "clue_ids": ["510fcf7a2e", "25dd9963a8"]
-    },
-    {
-      "id": "maycomb",
-      "label": "Maycomb, Alabama",
-      "statement": "It is set in the small Alabama town of Maycomb, where Lee grew up.",
-      "associations": ["Maycomb", "Alabama", "small town"],
-      "clue_ids": ["93b531ec3d", "00f4b9897e"]
-    },
-    {
-      "id": "capote",
-      "label": "Truman Capote",
-      "statement": "Truman Capote, Lee's childhood friend, was the model for Dill.",
-      "associations": ["Truman Capote", "Dill", "childhood friend"],
-      "clue_ids": ["5867b6dffd", "a68d30b9c7"]
-    },
-    {
-      "id": "film",
-      "label": "the 1962 film",
-      "statement": "The 1962 film starred Gregory Peck as Atticus and had John Williams as a studio pianist.",
-      "associations": ["Gregory Peck", "1962 film", "John Williams"],
-      "clue_ids": ["22fea808f6", "144a0b1c36", "1c311a9966"]
-    }
-  ],
-  "clue_ids": [
-    "096621251f", "519ad09011", "869afc13e2", "a2e253ffee", "2a03464ef3",
-    "fb6cb6a22a", "0420ebc516", "510fcf7a2e", "25dd9963a8", "93b531ec3d",
-    "00f4b9897e", "5867b6dffd", "a68d30b9c7", "22fea808f6", "144a0b1c36",
-    "01d0209a2b"
-  ],
-  "related": ["the-great-gatsby", "mark-twain", "john-steinbeck"]
+ "id": "to-kill-a-mockingbird",
+ "name": "To Kill a Mockingbird",
+ "deck": "literature",
+ "aliases": [
+  "Harper Lee"
+ ],
+ "hook": "Harper Lee's only novel is Jeopardy's shorthand for Southern justice seen through a child's eyes.",
+ "facts": [
+  {
+   "id": "lee",
+   "label": "Harper Lee",
+   "statement": "Harper Lee, born in 1926 to an Alabama lawyer, published it in 1960 and won the Pulitzer Prize.",
+   "associations": [
+    "Harper Lee",
+    "1960",
+    "Pulitzer Prize"
+   ],
+   "clue_ids": [
+    "096621251f",
+    "519ad09011"
+   ]
+  },
+  {
+   "id": "scout",
+   "label": "Scout Finch",
+   "statement": "Scout, the narrator, is six-year-old Jean Louise Finch; her brother Jem is really Jeremy.",
+   "associations": [
+    "Scout",
+    "Jean Louise",
+    "Jem"
+   ],
+   "clue_ids": [
+    "869afc13e2",
+    "a2e253ffee",
+    "2a03464ef3"
+   ]
+  },
+  {
+   "id": "atticus",
+   "label": "Atticus Finch",
+   "statement": "Atticus Finch defends Tom Robinson, and his children are harassed by classmates for it.",
+   "associations": [
+    "Atticus Finch",
+    "Tom Robinson",
+    "defense lawyer"
+   ],
+   "clue_ids": [
+    "fb6cb6a22a",
+    "0420ebc516"
+   ]
+  },
+  {
+   "id": "boo",
+   "label": "Boo Radley",
+   "statement": "Boo Radley is the reclusive neighbor Arthur Radley who saves Jem and Scout from Bob Ewell.",
+   "associations": [
+    "Boo Radley",
+    "Arthur Radley",
+    "recluse"
+   ],
+   "clue_ids": [
+    "510fcf7a2e",
+    "25dd9963a8"
+   ]
+  },
+  {
+   "id": "maycomb",
+   "label": "Maycomb, Alabama",
+   "statement": "It is set in the fictional Alabama town of Maycomb, modeled on Lee's hometown of Monroeville.",
+   "associations": [
+    "Maycomb",
+    "Alabama",
+    "small town"
+   ],
+   "clue_ids": [
+    "93b531ec3d",
+    "00f4b9897e"
+   ]
+  },
+  {
+   "id": "capote",
+   "label": "Truman Capote",
+   "statement": "Truman Capote, Lee's childhood friend, was the model for Dill.",
+   "associations": [
+    "Truman Capote",
+    "Dill",
+    "childhood friend"
+   ],
+   "clue_ids": [
+    "5867b6dffd",
+    "a68d30b9c7"
+   ]
+  },
+  {
+   "id": "film",
+   "label": "the 1962 film",
+   "statement": "The 1962 film starred Gregory Peck as Atticus and had John Williams as a studio pianist.",
+   "associations": [
+    "Gregory Peck",
+    "1962 film",
+    "John Williams"
+   ],
+   "clue_ids": [
+    "22fea808f6",
+    "144a0b1c36",
+    "1c311a9966"
+   ]
+  }
+ ],
+ "clue_ids": [
+  "096621251f",
+  "519ad09011",
+  "869afc13e2",
+  "a2e253ffee",
+  "2a03464ef3",
+  "fb6cb6a22a",
+  "0420ebc516",
+  "510fcf7a2e",
+  "25dd9963a8",
+  "93b531ec3d",
+  "00f4b9897e",
+  "5867b6dffd",
+  "a68d30b9c7",
+  "22fea808f6",
+  "144a0b1c36",
+  "01d0209a2b"
+ ],
+ "related": [
+  "the-great-gatsby",
+  "mark-twain",
+  "john-steinbeck"
+ ]
 }

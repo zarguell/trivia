@@ -1,65 +1,131 @@
 {
-  "id": "the-beatles",
-  "name": "The Beatles",
-  "deck": "music",
-  "aliases": ["Beatles"],
-  "hook": "From Liverpool to Abbey Road: the handful of facts Jeopardy keeps asking about the Fab Four.",
-  "facts": [
-    {
-      "id": "liverpool",
-      "label": "Liverpool",
-      "statement": "They formed in Liverpool; their first Cavern Club show, in 1961, paid the group five pounds total.",
-      "associations": ["Liverpool", "Cavern Club", "1961"],
-      "clue_ids": ["a368ec7e84", "88abbd2c2c"]
-    },
-    {
-      "id": "first-us-no-1",
-      "label": "\"I Want to Hold Your Hand\"",
-      "statement": "\"I Want to Hold Your Hand\" was their first American No. 1, in 1964.",
-      "associations": ["I Want to Hold Your Hand", "1964", "first US No. 1"],
-      "clue_ids": ["e75ed9537d", "e506bde541"]
-    },
-    {
-      "id": "pete-best",
-      "label": "Pete Best",
-      "statement": "Brian Epstein fired drummer Pete Best in 1962, and Ringo Starr replaced him.",
-      "associations": ["Pete Best", "Ringo Starr", "1962"],
-      "clue_ids": ["637d1fe434"]
-    },
-    {
-      "id": "hard-days-night",
-      "label": "A Hard Day's Night",
-      "statement": "A Hard Day's Night was their first film, with Wilfrid Brambell as Paul's \"clean old man\" grandfather.",
-      "associations": ["A Hard Day's Night", "first film", "Wilfrid Brambell"],
-      "clue_ids": ["221e60ff92", "9936808915"]
-    },
-    {
-      "id": "sgt-pepper",
-      "label": "Sgt. Pepper's Lonely Hearts Club Band",
-      "statement": "Sgt. Pepper's Lonely Hearts Club Band introduced Billy Shears and used 42 London Symphony players on \"A Day in the Life.\"",
-      "associations": ["Sgt. Pepper", "Billy Shears", "A Day in the Life"],
-      "clue_ids": ["5458c3fee4", "4f9b308713"]
-    },
-    {
-      "id": "abbey-road",
-      "label": "Abbey Road",
-      "statement": "The Abbey Road cover shows the four walking across a zebra crossing in Camden.",
-      "associations": ["Abbey Road", "zebra crossing", "Camden"],
-      "clue_ids": ["6b2ea1202b", "c940469a98"]
-    },
-    {
-      "id": "last-no-1",
-      "label": "\"The Long and Winding Road\"",
-      "statement": "\"The Long and Winding Road,\" from Let It Be, was their 20th and final US No. 1.",
-      "associations": ["The Long and Winding Road", "20th No. 1", "Let It Be"],
-      "clue_ids": ["82ea7f90ba", "7c95fe6e9e"]
-    }
-  ],
-  "clue_ids": [
-    "a368ec7e84", "88abbd2c2c", "e75ed9537d", "e506bde541", "637d1fe434",
-    "221e60ff92", "9936808915", "5458c3fee4", "4f9b308713", "6b2ea1202b",
-    "c940469a98", "82ea7f90ba", "7c95fe6e9e", "a9e550c7bf", "b927b49c65",
-    "66d226d976"
-  ],
-  "related": ["the-rolling-stones", "elvis-presley", "frank-sinatra"]
+ "id": "the-beatles",
+ "name": "The Beatles",
+ "deck": "music",
+ "aliases": [
+  "Beatles"
+ ],
+ "hook": "From Liverpool to Abbey Road: the handful of facts Jeopardy keeps asking about the Fab Four.",
+ "facts": [
+  {
+   "id": "liverpool",
+   "label": "Liverpool",
+   "statement": "They formed in Liverpool; their first Cavern Club show, in 1961, paid the group five pounds total.",
+   "associations": [
+    "Liverpool",
+    "Cavern Club",
+    "1961"
+   ],
+   "clue_ids": [
+    "a368ec7e84",
+    "88abbd2c2c"
+   ]
+  },
+  {
+   "id": "first-us-no-1",
+   "label": "\"I Want to Hold Your Hand\"",
+   "statement": "\"I Want to Hold Your Hand\" was their first American No. 1, in 1964.",
+   "associations": [
+    "I Want to Hold Your Hand",
+    "1964",
+    "first US No. 1"
+   ],
+   "clue_ids": [
+    "e75ed9537d",
+    "e506bde541"
+   ]
+  },
+  {
+   "id": "pete-best",
+   "label": "Pete Best",
+   "statement": "Brian Epstein fired drummer Pete Best in 1962, and Ringo Starr replaced him.",
+   "associations": [
+    "Pete Best",
+    "Ringo Starr",
+    "1962"
+   ],
+   "clue_ids": [
+    "637d1fe434"
+   ]
+  },
+  {
+   "id": "hard-days-night",
+   "label": "A Hard Day's Night",
+   "statement": "A Hard Day's Night was their first film, with Wilfrid Brambell as Paul's \"clean old man\" grandfather.",
+   "associations": [
+    "A Hard Day's Night",
+    "first film",
+    "Wilfrid Brambell"
+   ],
+   "clue_ids": [
+    "221e60ff92",
+    "9936808915"
+   ]
+  },
+  {
+   "id": "sgt-pepper",
+   "label": "Sgt. Pepper's Lonely Hearts Club Band",
+   "statement": "Sgt. Pepper's Lonely Hearts Club Band introduced Billy Shears and used a 40-piece orchestra on \"A Day in the Life.\"",
+   "associations": [
+    "Sgt. Pepper",
+    "Billy Shears",
+    "A Day in the Life"
+   ],
+   "clue_ids": [
+    "5458c3fee4",
+    "4f9b308713"
+   ]
+  },
+  {
+   "id": "abbey-road",
+   "label": "Abbey Road",
+   "statement": "The Abbey Road cover shows the four walking across a zebra crossing outside the studios in St John's Wood, Westminster.",
+   "associations": [
+    "Abbey Road",
+    "zebra crossing",
+    "Camden"
+   ],
+   "clue_ids": [
+    "6b2ea1202b",
+    "c940469a98"
+   ]
+  },
+  {
+   "id": "last-no-1",
+   "label": "\"The Long and Winding Road\"",
+   "statement": "\"The Long and Winding Road,\" from Let It Be, was their 20th and final US No. 1.",
+   "associations": [
+    "The Long and Winding Road",
+    "20th No. 1",
+    "Let It Be"
+   ],
+   "clue_ids": [
+    "82ea7f90ba",
+    "7c95fe6e9e"
+   ]
+  }
+ ],
+ "clue_ids": [
+  "a368ec7e84",
+  "88abbd2c2c",
+  "e75ed9537d",
+  "e506bde541",
+  "637d1fe434",
+  "221e60ff92",
+  "9936808915",
+  "5458c3fee4",
+  "4f9b308713",
+  "6b2ea1202b",
+  "c940469a98",
+  "82ea7f90ba",
+  "7c95fe6e9e",
+  "a9e550c7bf",
+  "b927b49c65",
+  "66d226d976"
+ ],
+ "related": [
+  "the-rolling-stones",
+  "elvis-presley",
+  "frank-sinatra"
+ ]
 }
