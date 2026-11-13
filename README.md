@@ -4,7 +4,7 @@
 
 **Play: [zarguell.github.io/trivia](https://zarguell.github.io/trivia/)**
 
-![Six Things home](docs/home.png)
+![The Today screen](docs/home.png)
 
 ---
 
@@ -20,13 +20,13 @@ So the thesis: **if you dissect the archive into the handful of things each topi
 
 ## The game
 
-**Daily challenge.** Seven questions on one topic: six clues plus a final. The puzzle is deterministic by date, so everyone gets the same one. Answers are typed — spelling is forgiven, surnames count. Your score and a shareable grid are stored on your device.
+**Today.** The daily challenge: seven questions on one topic — six clues plus a final. The puzzle is deterministic by date, so everyone gets the same one. Answers are typed — spelling is forgiven, surnames count. Your score and a shareable grid are stored on your device.
 
-**Study mode.** Every topic is a six-minute lesson: four to seven facts, the association chips that jog them, and the real clues that prove each one. Mark what you knew; mastery is tracked locally. Then take the quiz, which is drawn from real archive clues, not generated questions.
+**Study.** Every topic is a six-minute lesson: four to seven facts, the association chips that jog them, and the real clues that prove each one. Mark what you knew; mastery is tracked locally. Then take the quiz, which is drawn from real archive clues, not generated questions.
 
 **Endless mode.** Four-choice rapid fire across a curated pool of real clues, balanced by deck and difficulty. A wrong answer resets the streak, never the session.
 
-**Lookup.** Type an answer — `pistachio`, `Buchanan`, `Gone with the Wind` — and see the actual clues, with air dates. The archive is sharded by answer so a lookup fetches one small file, not the whole corpus.
+**Lookup.** Type an answer — `pistachio`, `Buchanan`, `Gone with the Wind` — and see the actual clues, with air dates.
 
 ## By the numbers
 

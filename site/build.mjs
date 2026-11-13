@@ -36,16 +36,16 @@ const deckById = new Map(site.decks.map((d) => [d.id, d]));
 const deckTitle = (id) => deckById.get(id)?.title || id;
 const pad = (n) => String(n).padStart(2, "0");
 const iso = (d) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
-const prettyDate = (s) => new Date(`${s}T12:00:00`).toLocaleDateString("en-US", {
-  weekday: "long", month: "long", day: "numeric", year: "numeric",
-});
 const shortDate = (s) => new Date(`${s}T12:00:00`).toLocaleDateString("en-US", {
   month: "short", day: "numeric", year: "numeric",
 });
-const fmt = (n) => n.toLocaleString("en-US");
+const fmt = (n) => Number(n || 0).toLocaleString("en-US");
 const today = iso(new Date());
 const todayPuzzle = allPuzzles.find((p) => p.d === today)
   || allPuzzles.reduce((best, p) => Math.abs(p.d.localeCompare(today)) < Math.abs(best.d.localeCompare(today)) ? p : best, allPuzzles[0]);
+const todayTopic = topicById.get(todayPuzzle.t);
+const todayDeck = todayPuzzle.td || deckTitle(todayTopic?.deck || "");
+const lookupCount = site.stats.lookupClues || 0;
 
 // ------------------------------------------------------------------ output
 await rm(OUT, { recursive: true, force: true });
@@ -68,171 +68,117 @@ async function copyDir(src, dst) {
 }
 
 // ------------------------------------------------------------------ fragments
-function btn(href, label, kind = "primary", extra = "") {
-  return `<a class="btn btn--${kind}" href="${base}${href}" ${extra}>${label}${kind === "primary" ? icon("arrow") : ""}</a>`;
-}
 const base = BASE;
 
-function tag(text, kind = "") {
-  return `<span class="tag${kind ? ` tag--${kind}` : ""}">${esc(text)}</span>`;
-}
-
-function topicCard(t) {
-  return `<a class="topic-card" href="${base}topic/${t.id}/">
-    <span class="topic-card__deck">${esc(deckTitle(t.deck))}</span>
-    <strong>${esc(t.name)}</strong>
-    <span class="topic-card__hook">${esc(t.hook)}</span>
-    <span class="topic-card__meta">${t.factCount} things · ${t.clueCount} clues</span>
-  </a>`;
-}
-
-function deckCard(d, i) {
-  const samples = d.topics.slice(0, 3).map((id) => topicById.get(id)?.name).filter(Boolean);
-  return `<a class="deck-card" href="${base}study/${d.id}/" style="--i:${i}">
-    <span class="deck-card__bar"></span>
-    <span class="deck-card__count">${d.topicCount}</span>
-    <h3>${esc(d.title)}</h3>
-    <p>${esc(d.blurb)}</p>
-    <span class="deck-card__samples">${esc(samples.join(" · "))}</span>
-    <span class="deck-card__cta">Study ${d.topicCount} topics ${icon("chevron")}</span>
-  </a>`;
-}
-
-function dailyCard(p, { compact = false } = {}) {
-  if (!p) return "";
-  const t = topicById.get(p.t);
-  return `<section class="daily-card" id="home-daily" data-date="${p.d}">
-    <div class="daily-card__head">
-      ${tag("Today's challenge", "accent")}
-      <span class="daily-card__date" data-daily-date>${esc(prettyDate(p.d))}</span>
+function screenHead({ title, meta = "", sub = "" }) {
+  return `<header class="screen-head">
+    <div class="screen-title-row">
+      <h1 class="screen-name">${esc(title)}</h1>
+      ${meta ? `<span class="screen-meta">${meta}</span>` : ""}
     </div>
-    <div class="daily-card__body">
+    ${sub ? `<p class="screen-sub">${sub}</p>` : ""}
+  </header>`;
+}
+
+function categoryRow(d) {
+  return `<a class="category-row" href="${base}study/${d.id}/">
+    <span class="category-row__name">${esc(d.title)}</span>
+    <span class="category-row__count">${d.topicCount}</span>
+    <span class="category-row__blurb">${esc(d.blurb)}</span>
+    ${icon("chevron", "ico category-row__chev")}
+  </a>`;
+}
+
+function topicRow(t) {
+  return `<a class="topic-row" href="${base}topic/${t.id}/" data-topic="${t.id}" data-facts="${t.factCount}">
+    <span class="topic-row__main">
+      <strong>${esc(t.name)}</strong>
+      <span class="topic-row__hook">${esc(t.hook)}</span>
+    </span>
+    <span class="topic-row__side">
+      <span class="mastery" data-mastery hidden>
+        <span class="mastery__bar"><i></i></span>
+        <span class="mastery__label"></span>
+      </span>
+    </span>
+    ${icon("chevron", "ico topic-row__chev")}
+  </a>`;
+}
+
+function relatedRow(t) {
+  return `<a class="related-row" href="${base}topic/${t.id}/">
+    <span>${esc(t.name)}</span>
+    <span class="related-row__deck">${esc(deckTitle(t.deck))}</span>
+    ${icon("chevron", "ico related-row__chev")}
+  </a>`;
+}
+
+function dailyContent() {
+  return `
+  <section class="today-head">
+    <div class="today-title-row">
+      <span class="today-label">Today</span>
+      <span class="today-date" data-daily-date>${esc(shortDate(todayPuzzle.d))}</span>
+    </div>
+    <div class="today-topic-row">
       <div>
-        <p class="kicker">${esc(deckTitle(t?.deck || ""))}</p>
-        <h2 data-daily-topic>${esc(p.tn)}</h2>
-        <p class="daily-card__hook" data-daily-hook>${esc(p.th)}</p>
+        <p class="today-deck" data-daily-deck>${esc(todayDeck)}</p>
+        <h1 class="today-topic"><a href="${base}topic/${todayPuzzle.t}/" data-daily-topic-link><span data-daily-topic>${esc(todayPuzzle.tn)}</span></a></h1>
       </div>
-      <div class="daily-card__meta">
-        <span><b>6</b> clues</span>
-        <span><b>1</b> final</span>
-        <span><b>2,000</b> max</span>
+      <div class="today-status">
+        <span data-daily-step>Question 1 of 7</span>
+        <span class="streak" data-streak hidden></span>
       </div>
     </div>
-    <div class="daily-card__actions">
-      <a class="btn btn--primary" href="${base}daily/?d=${p.d}" data-daily-link>Play today's challenge ${icon("arrow")}</a>
-      <span class="streak" data-streak hidden></span>
-      ${compact ? "" : `<a class="link-quiet" href="${base}daily/archive/">Past challenges</a>`}
+    <div class="progress" role="progressbar" aria-label="Challenge progress" aria-valuemin="0" aria-valuemax="7" aria-valuenow="0" data-daily-progressbar>
+      <i data-daily-progress style="width:0%"></i>
     </div>
-  </section>`;
-}
-
-// ------------------------------------------------------------------ home
-const featured = [...site.topics].sort((a, b) => b.clueCount - a.clueCount).slice(0, 8);
-const home = layout({
-  base,
-  page: "home",
-  active: "today",
-  title: "Six Things",
-  description: "Daily trivia and spaced study built from 544,106 Jeopardy! clues. Learn the handful of things the show actually asks about every topic.",
-  content: `
-  <section class="hero">
-    <p class="eyebrow"><span class="dot"></span>${fmt(site.stats.cluesMined)} clues, mined and distilled</p>
-    <h1 class="display">Six things.<br><em>That's the whole trick.</em></h1>
-    <p class="lede">Jeopardy has asked about <i>Gone with the Wind</i> 231 times. Nearly every clue is one of seven facts. Learn those, not Wikipedia. Then do it for every topic the show loves.</p>
-    <div class="cta-row">
-      ${btn(`daily/?d=${todayPuzzle.d}`, "Play today's challenge")}
-      ${btn("study/", "Study mode", "ghost")}
-    </div>
-    <div class="hero-stats">
-      <div><b>${fmt(site.stats.cluesMined)}</b><span>clues read</span></div>
-      <div><b>${fmt(site.stats.topics)}</b><span>topics distilled</span></div>
-      <div><b>${fmt(site.stats.facts)}</b><span>things worth knowing</span></div>
-      <div><b>${site.stats.firstDate.slice(0, 4)}–${site.stats.lastDate.slice(0, 4)}</b><span>years covered</span></div>
-    </div>
-  </section>
-
-  ${dailyCard(todayPuzzle)}
-
-  <section class="section">
-    <div class="section-head">
-      <div><p class="kicker">Study mode</p><h2>Learn the seams of the archive</h2></div>
-      <a class="link-quiet" href="${base}study/">All ${site.topics.length} topics ${icon("chevron")}</a>
-    </div>
-    <p class="section-sub">Each topic is a six-minute lesson: the handful of associations that unlock most clues, each backed by real questions from 1984 to today.</p>
-    <div class="deck-grid">
-      ${site.decks.slice(0, 8).map(deckCard).join("")}
-    </div>
-  </section>
-
-  <section class="section two-col">
-    <div class="panel panel--accent">
-      <p class="kicker">Endless mode</p>
-      <h2>Play until you miss</h2>
-      <p>Rapid-fire questions drawn from a curated pool of real clues, balanced across easy and brutal. Build a streak, then find the topics that broke it.</p>
-      ${btn("endless/", "Start endless")}
-    </div>
-    <div class="panel">
-      <p class="kicker">Lookup</p>
-      <h2>Did Jeopardy ask this?</h2>
-      <p>Type anything — a word, a person, a guess from bar trivia — and see every curated clue tied to it, with the date it aired.</p>
-      ${btn("archive/", "Search the archive", "ghost")}
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section-head">
-      <div><p class="kicker">Most asked</p><h2>Start with the heavy hitters</h2></div>
-    </div>
-    <div class="topic-grid">
-      ${featured.map(topicCard).join("")}
-    </div>
-  </section>`,
-});
-
-// ------------------------------------------------------------------ daily
-const dailyPage = layout({
-  base,
-  page: "daily",
-  active: "today",
-  title: "Daily challenge",
-  description: "Six clues on one topic plus a final. Same puzzle for everyone, every day.",
-  preload: `<link rel="preload" href="${base}data/daily/${today.slice(0, 4)}.json" as="fetch" crossorigin>`,
-  content: `
-  <section class="game-head">
-    <p class="kicker">Daily challenge</p>
-    <h1 class="h1">One topic. Seven questions.</h1>
-    <p class="section-sub" id="daily-sub">Same puzzle for everyone. Type your answer; spelling is forgiven.</p>
   </section>
   <div id="daily-app" class="game-shell" aria-live="polite">
     <noscript><p class="notice">The daily challenge needs JavaScript.</p></noscript>
     <div class="skeleton"><span></span><span></span><span></span></div>
   </div>
   <div class="game-foot">
-    <a class="link-quiet" href="${base}daily/archive/">Past challenges ${icon("chevron")}</a>
-    <a class="link-quiet" href="${base}study/">Study instead</a>
-  </div>`,
+    <a class="link-quiet" href="${base}daily/archive/">Past challenges</a>
+  </div>`;
+}
+
+function dailyPage({ title, description }) {
+  return layout({
+    base,
+    page: "daily",
+    active: "today",
+    title,
+    description,
+    narrow: true,
+    preload: `<link rel="preload" href="${base}data/daily/${today.slice(0, 4)}.json" as="fetch" crossorigin>`,
+    content: dailyContent(),
+  });
+}
+
+// ------------------------------------------------------------------ today (home + daily)
+const todayPage = dailyPage({
+  title: "Today",
+  description: "Today's topic, seven questions, typed answers. The same challenge for everyone.",
 });
 
 // daily archive
 const recent = allPuzzles.filter((p) => p.d <= today).slice(-120).reverse();
-const archivePage = layout({
+const dailyArchivePage = layout({
   base,
   page: "daily-archive",
   active: "today",
-  title: "Past daily challenges",
-  description: "Every daily challenge, one topic at a time.",
+  title: "Daily archive",
+  description: "Past daily challenges, one topic at a time.",
+  narrow: true,
   content: `
-  <section class="page-head">
-    <p class="kicker">Daily archive</p>
-    <h1 class="h1">Past challenges</h1>
-    <p class="section-sub">Puzzles are deterministic: the same date always produces the same seven questions.</p>
-  </section>
+  ${screenHead({ title: "Daily archive", meta: `${recent.length} recent puzzles` })}
   <ul class="day-list">
     ${recent.map((p) => `<li>
       <a href="${base}daily/?d=${p.d}">
         <span class="day-list__date">${esc(shortDate(p.d))}</span>
         <span class="day-list__topic">${esc(p.tn)}</span>
-        <span class="day-list__deck">${esc(deckTitle(topicById.get(p.t)?.deck || ""))}</span>
+        <span class="day-list__deck">${esc(p.td || deckTitle(topicById.get(p.t)?.deck || ""))}</span>
         ${icon("chevron")}
       </a></li>`).join("")}
   </ul>`,
@@ -243,21 +189,14 @@ const studyPage = layout({
   base,
   page: "study",
   active: "study",
-  title: "Study mode",
-  description: "Browse topics distilled from the Jeopardy archive. Learn the six things, then test them against real clues.",
+  title: "Study",
+  description: "Browse topics distilled from the Jeopardy archive, then test them against real clues.",
+  narrow: true,
   content: `
-  <section class="page-head">
-    <p class="kicker">Study mode</p>
-    <h1 class="h1">Pick a seam.<br>Learn it in six minutes.</h1>
-    <p class="section-sub">Every topic has a handful of facts that keep coming back. Read the facts, flip the cards, then prove it on real clues. Mastery is tracked on this device.</p>
-  </section>
-  <div class="deck-grid deck-grid--wide">
-    ${site.decks.map(deckCard).join("")}
-  </div>
-  <section class="section">
-    <div class="section-head"><div><p class="kicker">Everything</p><h2>All ${site.topics.length} topics</h2></div></div>
-    <div class="topic-grid">${site.topics.map(topicCard).join("")}</div>
-  </section>`,
+  ${screenHead({ title: "Study", meta: `${fmt(site.decks.length)} categories · ${fmt(site.topics.length)} topics` })}
+  <nav class="category-list" aria-label="Study categories">
+    ${site.decks.map(categoryRow).join("")}
+  </nav>`,
 });
 
 for (const d of site.decks) {
@@ -268,21 +207,12 @@ for (const d of site.decks) {
     active: "study",
     title: d.title,
     description: `${topics.length} ${d.title} topics distilled from the Jeopardy archive.`,
+    narrow: true,
     content: `
     <nav class="crumbs" aria-label="Breadcrumb"><a href="${base}study/">Study</a>${icon("chevron")}<span>${esc(d.title)}</span></nav>
-    <section class="page-head">
-      <p class="kicker">${esc(d.title)}</p>
-      <h1 class="h1">${topics.length} topics. ${topics.reduce((n, t) => n + t.factCount, 0)} things.</h1>
-      <p class="section-sub">${esc(d.blurb)}. Read a topic, then let the archive quiz you on it.</p>
-    </section>
-    <div class="topic-grid">
-      ${topics.map((t) => `<a class="topic-card" href="${base}topic/${t.id}/" data-topic="${t.id}" data-facts="${t.factCount}">
-        <span class="topic-card__deck">${esc(t.name === t.name ? `${t.factCount} things` : "")}</span>
-        <strong>${esc(t.name)}</strong>
-        <span class="topic-card__hook">${esc(t.hook)}</span>
-        <span class="topic-card__meta">${t.clueCount} clues${t.last ? ` · through ${esc(t.last.slice(0, 4))}` : ""}</span>
-        <span class="mastery" data-mastery hidden><span class="mastery__bar"><i></i></span><span class="mastery__label"></span></span>
-      </a>`).join("")}
+    ${screenHead({ title: d.title, meta: `${topics.length} topics`, sub: esc(d.blurb) })}
+    <div class="topic-list">
+      ${topics.map(topicRow).join("")}
     </div>`,
   });
   await writePage(`study/${d.id}/index.html`, html);
@@ -299,26 +229,29 @@ for (const t of site.topics) {
     active: "study",
     title: t.name,
     description: `${t.name}: ${t.factCount} things Jeopardy keeps asking, with ${t.clueCount} real clues.`,
+    narrow: true,
     content: `
     <nav class="crumbs" aria-label="Breadcrumb">
       <a href="${base}study/">Study</a>${icon("chevron")}
       <a href="${base}study/${t.deck}/">${esc(deckTitle(t.deck))}</a>${icon("chevron")}<span>${esc(t.name)}</span>
     </nav>
-    <header class="topic-hero">
-      <p class="kicker">${esc(deckTitle(t.deck))}</p>
-      <h1>${esc(t.name)}</h1>
-      <p class="lede">${esc(t.hook)}</p>
-      <div class="topic-hero__meta">
-        <span><b>${t.factCount}</b> things</span>
-        <span><b>${t.clueCount}</b> real clues</span>
-        <span><b>${t.first ? t.first.slice(0, 4) : "1984"}–${t.last ? t.last.slice(0, 4) : "2026"}</b> on the show</span>
+    <header class="topic-head">
+      <div class="topic-title-row">
+        <h1>${esc(t.name)}</h1>
+        <span class="topic-years">${t.first ? t.first.slice(0, 4) : "1984"}–${t.last ? t.last.slice(0, 4) : "2026"}</span>
       </div>
-      <div class="cta-row">
-        <button class="btn btn--primary" type="button" data-action="start-topic-quiz">Test yourself ${icon("arrow")}</button>
-        <button class="btn btn--ghost" type="button" data-action="toggle-facts">Show all clues</button>
+      <p class="topic-hook">${esc(t.hook)}</p>
+      <div class="topic-actions">
+        <button class="btn btn--primary" type="button" data-action="start-topic-quiz">Quiz me ${icon("arrow")}</button>
+        <button class="btn btn--ghost" type="button" data-action="toggle-facts">Show clues</button>
+        <span class="mastery mastery--inline" data-mastery hidden><span class="mastery__bar"><i></i></span><span class="mastery__label"></span></span>
       </div>
-      <div class="mastery mastery--hero" data-mastery hidden><span class="mastery__bar"><i></i></span><span class="mastery__label"></span></div>
     </header>
+
+    <section class="quiz-section" id="topic-quiz" hidden>
+      <div class="section-head"><h2>Quiz</h2><button class="link-quiet" type="button" data-action="close-quiz">Close</button></div>
+      <div class="quiz" data-quiz></div>
+    </section>
 
     <section class="facts" aria-label="The things worth knowing">
       ${t.facts.map((f, i) => `<article class="fact" id="fact-${esc(f.id)}" data-fact="${esc(f.id)}">
@@ -336,14 +269,9 @@ for (const t of site.topics) {
       </article>`).join("")}
     </section>
 
-    <section class="section quiz-section" id="topic-quiz" hidden>
-      <div class="section-head"><div><p class="kicker">Prove it</p><h2>Real clues, no multiple choice</h2></div><button class="link-quiet" type="button" data-action="close-quiz">Close</button></div>
-      <div class="quiz" data-quiz></div>
-    </section>
-
-    ${related.length ? `<section class="section">
-      <div class="section-head"><div><p class="kicker">Keep going</p><h2>Related seams</h2></div></div>
-      <div class="topic-grid">${related.map(topicCard).join("")}</div>
+    ${related.length ? `<section class="related">
+      <h2>Related</h2>
+      <div class="related-list">${related.map(relatedRow).join("")}</div>
     </section>` : ""}
     <script type="application/json" id="topic-data">${json}</script>`,
   });
@@ -355,30 +283,27 @@ const endlessPage = layout({
   base,
   page: "endless",
   active: "endless",
-  title: "Endless mode",
+  title: "Endless",
   description: "Rapid-fire trivia from a curated pool of real Jeopardy clues. Build a streak.",
-  preload: `<link rel="preload" href="${base}data/site.json" as="fetch" crossorigin>`,
+  narrow: true,
   content: `
-  <section class="page-head page-head--split">
-    <div>
-      <p class="kicker">Endless</p>
-      <h1 class="h1">Play until you miss.<br>Then keep playing.</h1>
-      <p class="section-sub">Four choices, real clues, no timer to start. Wrong answers reset the streak; the archive remembers what broke it.</p>
+  <header class="endless-head">
+    <h1 class="screen-name">Endless</h1>
+    <div class="endless-pick">
+      <label class="sr-only" for="deck-select">Category</label>
+      <select id="deck-select" class="select">
+        <option value="potpourri">Mixed</option>
+        ${site.decks.filter((d) => d.id !== "potpourri").map((d) => `<option value="${d.id}">${esc(d.title)}</option>`).join("")}
+      </select>
     </div>
-    <div class="record" data-endless-record hidden>
-      <span>Best streak</span><b data-best>0</b>
-      <span>Lifetime correct</span><b data-total>0</b>
-    </div>
-  </section>
-  <section class="endless-shell">
-    <div class="deck-chips" role="group" aria-label="Choose a deck">
-      <button class="chipbtn" type="button" data-deck="potpourri">Mixed</button>
-      ${site.decks.filter((d) => d.id !== "potpourri").map((d) => `<button class="chipbtn" type="button" data-deck="${d.id}">${esc(d.title)}</button>`).join("")}
-    </div>
-    <div id="endless-app" class="quiz" aria-live="polite">
-      <div class="skeleton"><span></span><span></span><span></span></div>
-    </div>
-  </section>`,
+  </header>
+  <div id="endless-app" class="quiz" aria-live="polite">
+    <div class="skeleton"><span></span><span></span><span></span></div>
+  </div>
+  <div class="record-line" data-endless-record hidden>
+    <span>Best <b data-best>0</b></span>
+    <span>Correct <b data-total>0</b></span>
+  </div>`,
 });
 
 // ------------------------------------------------------------------ archive
@@ -387,28 +312,25 @@ const archiveSearch = layout({
   page: "archive",
   active: "archive",
   title: "Lookup",
-  description: "Did Jeopardy ask this? Search over half a million real clues by answer or keyword.",
+  description: "Search text-only clues from the Jeopardy archive by answer, with air dates.",
+  narrow: true,
   content: `
-  <section class="page-head">
-    <p class="kicker">Lookup</p>
-    <h1 class="h1">Did Jeopardy<br>ask this?</h1>
-    <p class="section-sub">Search ${fmt(site.stats.cluesMined)} real clues by answer or phrase. Results come with the air date — the receipt for your word association. Lookup fetches one two-letter shard, not the whole archive.</p>
-  </section>
+  ${screenHead({ title: "Lookup", meta: `${fmt(lookupCount)} text clues` })}
   <div class="lookup">
-    <label class="sr-only" for="q">Search clues</label>
+    <label class="sr-only" for="q">Search clues by answer</label>
     <div class="lookup__box">
       ${icon("archive")}
-      <input id="q" type="search" placeholder="pistachio, Buchanan, Uranus…" autocomplete="off" spellcheck="false">
+      <input id="q" type="search" placeholder="Search by answer…" autocomplete="off" spellcheck="false">
       <button class="btn btn--ghost btn--sm" type="button" data-action="random-clue">Random</button>
     </div>
-    <div class="lookup__meta"><span data-count>Fetches one shard, not the whole archive.</span>
-      <label class="switch"><input type="checkbox" data-action="hide-answers" checked> <span>Hide answers until tapped</span></label>
+    <div class="lookup__controls">
+      <label class="switch"><input type="checkbox" data-action="hide-answers" checked> <span>Hide answers</span></label>
+      <span class="lookup__count" data-count></span>
     </div>
   </div>
   <div id="results" class="results" aria-live="polite">
     <div class="empty">
-      <p class="empty__title">Type a word. Any word.</p>
-      <p>Try <button class="inline-link" data-query="pistachio">pistachio</button>, <button class="inline-link" data-query="Gone with the Wind">Gone with the Wind</button>, or <button class="inline-link" data-query="Gothic">Gothic</button>.</p>
+      <p>Try <button class="inline-link" data-query="pistachio">pistachio</button>, <button class="inline-link" data-query="Gone with the Wind">Gone with the Wind</button>, or <button class="inline-link" data-query="Buchanan">Buchanan</button>.</p>
     </div>
   </div>`,
 });
@@ -418,21 +340,20 @@ const aboutPage = layout({
   base,
   page: "about",
   active: "about",
-  title: "Why this exists",
-  description: "The thesis behind Six Things: study Jeopardy by Jeopardy, learn the six things each topic actually tests.",
+  title: "About",
+  description: "The thesis behind Six Things: study Jeopardy by Jeopardy, learn the things each topic actually tests.",
   content: `
   <article class="prose">
-    <p class="kicker">Why this exists</p>
-    <h1>Trivia is not an encyclopedia.<br>It is a small set of associations.</h1>
-    <p class="lede">You do not need to know everything about everything. You need to know the handful of things that keep getting asked.</p>
+    <h1>About</h1>
+    <p class="lede">Six Things is a study tool built on one observation: trivia is a small set of associations, not an encyclopedia.</p>
 
-    <p>I got the idea from a video about studying for <i>Jeopardy!</i> — and from a bar trivia night. The question was: <em>which nut, besides the almond, appears in the Bible?</em> The answer is pistachio. The <i>Jeopardy!</i> archive had asked essentially the same thing in 1998.</p>
+    <p>I got the idea from a video about studying for <i>Jeopardy!</i> — and from a bar trivia night. The question was: <em>which nut, besides the almond, appears in the Bible?</em> The answer is pistachio. The archive has asked about pistachios decade after decade.</p>
 
     <p>That is not a coincidence. <i>Jeopardy!</i> has asked about <i>Gone with the Wind</i> 231 times. Almost every clue reduces to the same few facts: Margaret Mitchell wrote it, it won the Pulitzer, the film came out in 1939, Scarlett O'Hara and Rhett Butler, Tara, Hattie McDaniel, "tomorrow is another day." Learn those seven and you can answer nearly any clue they throw at the book.</p>
 
     <p>So this site does the dissection for you. It mines every clue in the archive — ${fmt(site.stats.cluesMined)} of them, 1984 through 2026 — groups them by topic, and surfaces the repeated associations. A curator turns that evidence into ${fmt(site.stats.facts)} facts across ${fmt(site.stats.topics)} topics; every fact is tied to real clues you can inspect.</p>
 
-    <h2>How the sausage is made</h2>
+    <h2>How it works</h2>
     <ol class="steps">
       <li><b>Normalize.</b> Clues, responses, categories, air dates and rounds are cleaned and deduplicated.</li>
       <li><b>Find the topic.</b> Frequent answers and repeated named entities become topic candidates.</li>
@@ -441,29 +362,25 @@ const aboutPage = layout({
       <li><b>Generate.</b> A custom static-site generator turns the structured packs into HTML and JSON. No framework, no database, no server.</li>
     </ol>
 
-    <h2>The test</h2>
-    <p>Open <a href="${base}topic/gone-with-the-wind/">Gone with the Wind</a>, read seven facts, then take the quiz. If the thesis is right, you will walk into the next trivia night with a new party trick.</p>
-
-    <h2>Rules of the game</h2>
+    <h2>The game</h2>
     <ul>
-      <li><b>Daily challenge.</b> Seven questions on one topic, the same for everyone, deterministic by date. Type your answer; close spelling is accepted. Your score is a shareable grid.</li>
-      <li><b>Study mode.</b> Facts, association chips, and the real clues behind them. Mark what you knew; mastery stays on your device.</li>
+      <li><b>Today.</b> Seven questions on one topic, the same for everyone, deterministic by date. Type your answer; close spelling and surnames count. Your score is a shareable grid.</li>
+      <li><b>Study.</b> ${fmt(site.stats.topics)} topics, each a handful of facts and the real clues behind them. Mark what you knew; mastery stays on your device.</li>
       <li><b>Endless.</b> Rapid-fire real clues. A wrong answer resets the streak, not the session.</li>
-      <li><b>Lookup.</b> Type anything to see whether it has come up, and when.</li>
+      <li><b>Lookup.</b> Search the ${fmt(lookupCount)} text-only clues by answer and see when each one aired.</li>
     </ul>
 
     <h2>Data &amp; credit</h2>
-    <p>The corpus is a cleaned, text-only <a href="https://github.com/jwolle1/jeopardy_clue_dataset" rel="noopener">Jeopardy! clue dataset</a> covering seasons 1–42, derived from the fan-run <a href="https://j-archive.com/" rel="noopener">J! Archive</a>. The original idea comes from C W's video <a href="https://youtu.be/wZq-eRimBE8" rel="noopener">“How to Study for Jeopardy”</a>. Built with a deliberately boring custom SSG and deployed by GitHub Actions to GitHub Pages.</p>
+    <p>The corpus is a cleaned, text-only <a href="https://github.com/jwolle1/jeopardy_clue_dataset" rel="noopener">Jeopardy! clue dataset</a> covering seasons 1–42, derived from the fan-run <a href="https://j-archive.com/" rel="noopener">J! Archive</a>. Of ${fmt(site.stats.cluesMined)} mined clues, ${fmt(lookupCount)} text-only, self-contained clues are available in Lookup. The original idea comes from C W's video <a href="https://youtu.be/wZq-eRimBE8" rel="noopener">“How to Study for Jeopardy”</a>. Built with a deliberately boring custom SSG and deployed by GitHub Actions to GitHub Pages.</p>
     <p class="fine">All clues and responses remain the property of Jeopardy Productions, Inc. This is an unaffiliated, non-commercial fan project for personal study. No images or media-dependent clues are used. If you own the rights and want something removed, open an issue on <a href="https://github.com/zarguell/trivia" rel="noopener">GitHub</a>.</p>
-    <p><a class="btn btn--primary" href="${base}daily/?d=${todayPuzzle.d}">Play today's challenge ${icon("arrow")}</a></p>
   </article>`,
 });
 
 // ------------------------------------------------------------------ 404 + feeds
 const notFound = layout({
-  base, page: "404", title: "Not found",
-  description: "That page is not on the board.",
-  content: `<section class="page-head center"><p class="kicker">404</p><h1 class="h1">That's a daily double<br>you can't answer.</h1><p class="section-sub">The page does not exist. The archive is still here.</p>${btn("", "Back to the board")}</section>`,
+  base, page: "404", title: "Page not found", narrow: true,
+  description: "That page is not in the archive.",
+  content: `<section class="screen-head"><h1 class="screen-name">Page not found</h1><p class="screen-sub">That page is not on the board.</p><p class="notfound-actions"><a class="btn btn--primary" href="${base}">Go to Today</a></p></section>`,
 });
 
 // ------------------------------------------------------------------ write assets
@@ -502,9 +419,9 @@ await writeFile(path.join(OUT, "sitemap.xml"),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>https://zarguell.github.io${BASE}${u}</loc></url>`).join("\n")}\n</urlset>\n`);
 
 // ------------------------------------------------------------------ pages
-await writePage("index.html", home);
-await writePage("daily/index.html", dailyPage);
-await writePage("daily/archive/index.html", archivePage);
+await writePage("index.html", todayPage);
+await writePage("daily/index.html", todayPage);
+await writePage("daily/archive/index.html", dailyArchivePage);
 await writePage("study/index.html", studyPage);
 await writePage("endless/index.html", endlessPage);
 await writePage("archive/index.html", archiveSearch);
@@ -512,5 +429,5 @@ await writePage("about/index.html", aboutPage);
 await writePage("404.html", notFound);
 
 console.log(`built ${urls.length} pages → ${path.relative(ROOT, OUT)}`);
-console.log(`topics: ${site.topics.length}, facts: ${site.stats.facts}, clues: ${site.stats.cluesMined}`);
+console.log(`topics: ${site.topics.length}, facts: ${site.stats.facts}, clues: ${site.stats.cluesMined}, lookup: ${lookupCount}`);
 console.log(`base: ${BASE}`);

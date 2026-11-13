@@ -28,6 +28,9 @@ const todayISO = () => {
 const prettyDate = (s) => new Date(`${s}T12:00:00`).toLocaleDateString("en-US", {
   weekday: "long", month: "long", day: "numeric", year: "numeric",
 });
+const shortDate = (s) => new Date(`${s}T12:00:00`).toLocaleDateString("en-US", {
+  month: "short", day: "numeric", year: "numeric",
+});
 const years = (s) => s.slice(0, 4);
 const cache = new Map();
 async function fetchJSON(path) {
@@ -61,10 +64,10 @@ function dotsHTML(items, results, idx) {
   }).join("")}</div>`;
 }
 
-function clueMeta(item, i, total) {
+function clueMeta(item) {
   return `<div class="quiz-meta">
-    <b>${item.badge || `${i + 1} / ${total}`}</b>
-    <span>·</span><span>${esc(item.k)}</span>
+    ${item.badge ? `<b>${esc(item.badge)}</b><span>·</span>` : ""}
+    <span>${esc(item.k)}</span>
     <span>·</span><span>${esc(item.d.slice(0, 4))}</span>
     ${item.v ? `<span>·</span><span>$${item.v}</span>` : ""}
   </div>`;
@@ -87,13 +90,15 @@ function runQuiz(container, items, opts = {}) {
   let idx = opts.start ?? 0;
   const results = opts.results ? [...opts.results] : [];
   let locked = false;
+  let interacted = false;
 
   function render() {
     locked = false;
     if (idx >= items.length) return finish();
+    opts.onRender?.(idx);
     const item = items[idx];
     container.innerHTML = `<div class="quiz-card">
-      <div class="quiz-top">${clueMeta(item, idx, items.length)}${dotsHTML(items, results, idx)}</div>
+      <div class="quiz-top">${clueMeta(item)}${dotsHTML(items, results, idx)}</div>
       <p class="clue-text">${esc(item.c)}</p>
       <form class="answer-form" autocomplete="off" novalidate>
         <label class="sr-only" for="answer-${idx}">Your answer</label>
@@ -104,13 +109,15 @@ function runQuiz(container, items, opts = {}) {
     </div>`;
     const form = $("form", container);
     const input = $(".input", container);
-    input?.focus({ preventScroll: true });
+    const desktop = window.matchMedia("(min-width: 860px)").matches;
+    if (desktop || interacted) input?.focus({ preventScroll: true });
     form?.addEventListener("submit", (e) => {
       e.preventDefault();
       if (locked) return;
       const given = input.value.trim();
       if (!given) { input.focus(); return; }
       locked = true;
+      interacted = true;
       const ok = isAnswer(given, item.a);
       results[idx] = { ok, given, override: false };
       opts.onProgress?.(idx, results);
@@ -144,29 +151,6 @@ function runQuiz(container, items, opts = {}) {
 
   render();
   return { render, get idx() { return idx; }, results };
-}
-
-// ---------------------------------------------------------------- home
-async function initHome() {
-  const card = $("#home-daily");
-  if (!card) return;
-  const date = todayISO();
-  try {
-    const rows = await fetchJSON(`data/daily/${years(date)}.json`);
-    const p = rows.find((r) => r.d === date);
-    if (!p) return;
-    card.dataset.date = p.d;
-    $("[data-daily-date]", card).textContent = prettyDate(p.d);
-    $("[data-daily-topic]", card).textContent = p.tn;
-    $("[data-daily-hook]", card).textContent = p.th;
-    const link = $("[data-daily-link]", card);
-    link.href = `${BASE}daily/?d=${p.d}`;
-    const result = state.daily[p.d];
-    if (result?.done) {
-      link.innerHTML = `See your result · ${result.results.filter((r) => r.ok).length}/7`;
-    }
-  } catch { /* keep server-rendered fallback */ }
-  renderStreak();
 }
 
 function dailyStreak() {
@@ -218,19 +202,43 @@ async function initDaily() {
   }
 
   const items = [
-    ...puzzle.clues.map((c, i) => ({ ...c, badge: `${i + 1} / 7`, v: DAY_VALUES[i] })),
+    ...puzzle.clues.map((c, i) => ({ ...c, v: DAY_VALUES[i] })),
     { ...puzzle.final, badge: "Final", v: FINAL_VALUE },
   ];
   const saved = state.daily[date];
-  $("#daily-sub").innerHTML = `${esc(prettyDate(date))} · <a class="inline-link" href="${BASE}topic/${puzzle.t}/">${esc(puzzle.tn)}</a>`;
 
-  if (saved?.done) return renderSummary(saved);
+  const dateEl = $("[data-daily-date]");
+  const topicEl = $("[data-daily-topic]");
+  const deckEl = $("[data-daily-deck]");
+  const linkEl = $("[data-daily-topic-link]");
+  const stepEl = $("[data-daily-step]");
+  const barEl = $("[data-daily-progress]");
+  const barWrap = $("[data-daily-progressbar]");
+  if (dateEl) dateEl.textContent = shortDate(date);
+  if (topicEl) topicEl.textContent = puzzle.tn;
+  if (deckEl) deckEl.textContent = puzzle.td || "";
+  if (linkEl) linkEl.href = `${BASE}topic/${puzzle.t}/`;
+  const setStep = (n) => {
+    if (stepEl) stepEl.textContent = n >= 7 ? "Complete" : `Question ${Math.min(n + 1, 7)} of 7`;
+    if (barEl) barEl.style.width = `${Math.min(100, (n / 7) * 100)}%`;
+    barWrap?.setAttribute("aria-valuenow", String(Math.min(n, 7)));
+  };
+
+  if (saved?.done) {
+    setStep(7);
+    renderSummary(saved);
+    renderStreak();
+    return;
+  }
 
   const results = saved?.results || [];
   const startIdx = results.filter(Boolean).length;
+  setStep(startIdx);
+  renderStreak();
   runQuiz(app, items, {
     start: startIdx,
     results,
+    onRender(idx) { setStep(idx); },
     onProgress(step, all) {
       state.daily[date] = { results: all, done: false, step };
       save();
@@ -239,6 +247,8 @@ async function initDaily() {
       const done = { results: all, done: true };
       state.daily[date] = done;
       save();
+      setStep(7);
+      renderStreak();
       renderSummary(done);
     },
   });
@@ -263,7 +273,6 @@ async function initDaily() {
           return `<div><span>${i === 6 ? "Final" : `${i + 1}`}. ${esc(it.k)}</span><span>${r?.ok ? "✓" : "✗"} ${esc(it.a)}</span></div>`;
         }).join("")}
       </div>
-      <p class="fine" style="margin-top:18px">Next: <a class="inline-link" href="${BASE}daily/archive/">past challenges</a> or <a class="inline-link" href="${BASE}endless/">endless mode</a>.</p>
     </div>`;
     $('[data-action="share"]')?.addEventListener("click", async (e) => {
       const text = `Six Things · ${date}\n${puzzle.tn}\n${grid} ${correct}/7 · ${score.toLocaleString("en-US")}\n${location.origin}${BASE}daily/?d=${date}`;
@@ -298,7 +307,7 @@ async function initTopic() {
     const known = facts.filter((f) => fs[f.id]).length;
     const pct = facts.length ? known / facts.length : 0;
     $$("[data-mastery]").forEach((el) => {
-      el.hidden = false;
+      el.hidden = known === 0;
       $(".mastery__bar i", el).style.width = `${Math.round(pct * 100)}%`;
       $(".mastery__label", el).textContent = `${known}/${facts.length} learned`;
     });
@@ -322,7 +331,7 @@ async function initTopic() {
     const all = $$("#main details.clue-drawer");
     const open = all.some((d) => !d.open);
     all.forEach((d) => { d.open = open; });
-    b.textContent = open ? "Hide all clues" : "Show all clues";
+    b.textContent = open ? "Hide clues" : "Show clues";
   }));
 
   const section = $("#topic-quiz");
@@ -335,7 +344,6 @@ async function initTopic() {
 
   function start() {
     section.hidden = false;
-    section.scrollIntoView({ behavior: "smooth", block: "start" });
     const picked = shuffle(clues).slice(0, Math.min(8, clues.length));
     runQuiz(box, picked, {
       onFinish(results) {
@@ -354,6 +362,8 @@ async function initTopic() {
         $('[data-action="again"]', box).addEventListener("click", start);
       },
     });
+    section.scrollIntoView({ block: "start" });
+    $(".input", box)?.focus({ preventScroll: true });
   }
 }
 
@@ -361,9 +371,10 @@ async function initTopic() {
 async function initEndless() {
   const app = $("#endless-app");
   if (!app) return;
-  const chips = $$(".chipbtn[data-deck]");
+  const select = $("#deck-select");
   const record = $("[data-endless-record]");
-  let pool = [], deck = state.lastDeck, seen = new Set(), streak = 0, score = 0, total = 0;
+  const hasDeck = (d) => !!select && [...select.options].some((o) => o.value === d);
+  let pool = [], deck = state.lastDeck, seen = new Set(), streak = 0;
 
   function paintRecord() {
     if (!record) return;
@@ -377,7 +388,7 @@ async function initEndless() {
     deck = d;
     state.lastDeck = d;
     save();
-    chips.forEach((c) => c.classList.toggle("is-active", c.dataset.deck === d));
+    if (select) select.value = d;
     app.innerHTML = `<div class="skeleton"><span></span><span></span><span></span></div>`;
     try {
       pool = await fetchJSON(`data/endless/${d}.json`);
@@ -417,9 +428,8 @@ async function initEndless() {
       answered = true;
       const picked = btn.dataset.answer;
       const ok = isAnswer(picked, clue.a);
-      total += 1;
       if (ok) {
-        streak += 1; score += 1;
+        streak += 1;
         state.endless.correct = (state.endless.correct || 0) + 1;
         state.endless.best = Math.max(state.endless.best || 0, streak);
       } else {
@@ -448,8 +458,8 @@ async function initEndless() {
     };
   }
 
-  chips.forEach((c) => c.addEventListener("click", () => load(c.dataset.deck)));
-  const initial = deck && chips.some((c) => c.dataset.deck === deck) ? deck : "potpourri";
+  select?.addEventListener("change", () => load(select.value));
+  const initial = deck && hasDeck(deck) ? deck : "potpourri";
   load(initial);
 }
 
@@ -483,7 +493,6 @@ async function initArchive() {
   async function ensureManifest() {
     if (!manifest) {
       manifest = await fetchJSON("data/lookup/index.json").catch(() => ({ total: 0, shards: {} }));
-      countEl.textContent = `${(manifest.total || 0).toLocaleString("en-US")} clues in the archive. Each lookup fetches one small shard.`;
     }
     return manifest;
   }
@@ -498,14 +507,14 @@ async function initArchive() {
   function render(rows, query = "") {
     current = rows;
     if (!rows.length) {
-      results.innerHTML = `<div class="empty"><p class="empty__title">No matches.</p><p>Lookup is keyed by the answer's first two letters. Try the answer itself, or a shorter phrase.</p></div>`;
+      results.innerHTML = `<div class="empty"><p class="empty__title">No matches.</p><p>Try the answer itself, or a shorter phrase.</p></div>`;
       return;
     }
     results.innerHTML = rows.slice(0, 80).map((r, i) => `<article class="result">
       <p class="result__clue">${hl(r.c, query)}</p>
       <div class="result__row">
         <span>${esc(r.k)} · ${esc(r.d)}${r.v ? ` · $${r.v}` : ""}</span>
-        <span class="result__a">${hideAnswers ? `<button type="button" data-reveal="${i}">tap to reveal</button>` : `<span>${hl(r.a, query)}</span>`}</span>
+        <span class="result__a">${hideAnswers ? `<button type="button" data-reveal="${i}">reveal</button>` : `<span>${hl(r.a, query)}</span>`}</span>
       </div>
     </article>`).join("");
     $$("[data-reveal]", results).forEach((b) => b.addEventListener("click", () => {
@@ -516,7 +525,7 @@ async function initArchive() {
   async function search(q) {
     const query = q.trim().toLowerCase();
     if (query.length < 2) {
-      results.innerHTML = `<div class="empty"><p class="empty__title">Type two characters or more.</p></div>`;
+      results.innerHTML = `<div class="empty"><p class="empty__title">Type at least two characters.</p></div>`;
       return null;
     }
     const shard = shardOf(query);
@@ -538,7 +547,7 @@ async function initArchive() {
       const bq = bn === query ? 0 : bn.startsWith(query) ? 1 : b.c.toLowerCase().includes(query) ? 2 : 3;
       return aq - bq || b.d.localeCompare(a.d);
     });
-    countEl.textContent = `${rows.length.toLocaleString("en-US")} of ${rows0.length.toLocaleString("en-US")} clues in the “${shard}” shard match “${q.trim()}”.`;
+    countEl.textContent = `${rows.length.toLocaleString("en-US")} clues match “${q.trim()}”.`;
     render(rows, q.trim());
     return { rows, shard };
   }
@@ -562,7 +571,7 @@ async function initArchive() {
     const rows = await loadShard(shard);
     if (!rows.length) return;
     const r = rows[Math.floor(Math.random() * Math.min(rows.length, 200))];
-    countEl.textContent = `Random clue from the “${shard}” shard.`;
+    countEl.textContent = "Random clue.";
     hideAnswers = false;
     if (hideToggle) hideToggle.checked = false;
     render([r]);
@@ -584,20 +593,35 @@ async function initArchive() {
 
 // ---------------------------------------------------------------- deck
 function initDeck() {
-  $$(".topic-card[data-topic]").forEach((card) => {
+  $$(".topic-row[data-topic]").forEach((card) => {
     const total = Number(card.dataset.facts) || 0;
     const fs = state.facts[card.dataset.topic] || {};
     const known = Object.values(fs).filter(Boolean).length;
     const m = $("[data-mastery]", card);
     if (!m) return;
+    if (!known) {
+      m.hidden = true;
+      return;
+    }
     m.hidden = false;
     $(".mastery__bar i", m).style.width = `${total ? Math.round((known / total) * 100) : 0}%`;
-    $(".mastery__label", m).textContent = `${known}/${total} learned`;
+    $(".mastery__label", m).textContent = `${known}/${total}`;
   });
 }
 
+// ---------------------------------------------------------------- keyboard
+const isAnswerField = (el) => !!el && el.matches && el.matches(".input");
+document.addEventListener("focusin", (e) => {
+  if (isAnswerField(e.target)) document.body.classList.add("keyboard-open");
+});
+document.addEventListener("focusout", (e) => {
+  if (!isAnswerField(e.target)) return;
+  setTimeout(() => {
+    if (!isAnswerField(document.activeElement)) document.body.classList.remove("keyboard-open");
+  }, 150);
+});
+
 // ---------------------------------------------------------------- boot
-if (document.body.dataset.page === "home") initHome();
 if (document.body.dataset.page === "daily") initDaily();
 if (document.body.dataset.page === "deck") initDeck();
 if (document.body.dataset.page === "topic") initTopic();

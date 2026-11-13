@@ -195,6 +195,7 @@ def main():
 
     stats = {
         "cluesMined": len(corpus),
+        "usableClues": sum(1 for c in corpus if c["usable"]),
         "topics": len(site_topics),
         "facts": total_facts,
         "decks": len(decks),
@@ -266,6 +267,7 @@ def main():
             "d": (EPOCH + timedelta(days=day)).isoformat(),
             "t": tid,
             "tn": pack["name"],
+            "td": DECK_BY_ID[pack["deck"]]["title"],
             "th": pack["hook"],
             "clues": [clue_obj(c, response_freq) for c in chosen],
             "final": clue_obj(final, response_freq),
@@ -359,6 +361,8 @@ def main():
         (GEN / "endless" / f"{deck}.json").write_text(
             json.dumps(rows, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     sizes = {p.name: round(p.stat().st_size / 1024) for p in GEN.glob("**/*.json")}
+    stats["lookupClues"] = lookup_count
+    (GEN / "site.json").write_text(json.dumps(site, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(json.dumps({"stats": stats, "puzzles": len(puzzles),
                       "endless": dict(per_deck), "lookup": lookup_count,
                       "sizesKB": sizes}, indent=1))
