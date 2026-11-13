@@ -12,7 +12,7 @@
     "build": "node site/build.mjs",
     "serve": "node scripts/serve.mjs",
     "check": "node scripts/check.mjs",
-    "test": "node --test tests/",
+    "test": "node --test tests/*.test.mjs",
     "validate": "python3 pipeline/validate_packs.py"
   },
   "repository": {

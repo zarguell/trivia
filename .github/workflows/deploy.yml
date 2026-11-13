@@ -39,7 +39,7 @@ jobs:
         run: python3 pipeline/site_data.py
 
       - name: Unit tests
-        run: node --test tests/
+        run: node --test tests/*.test.mjs
 
       - name: Build static site
         env:
