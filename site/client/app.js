@@ -1,5 +1,5 @@
 /* Six Things — client game engine. No framework, no build step. */
-import { normAnswer, isAnswer, optionsFor, shuffled } from "./core.js";
+import { normAnswer, isAnswer, optionsFor, shuffled, categoryRevealsAnswer } from "./core.js";
 
 const BASE = document.documentElement.dataset.base || "/trivia/";
 const STORE = "sixthings.v1";
@@ -69,10 +69,11 @@ function dotsHTML(items, results, idx) {
 }
 
 function clueMeta(item) {
+  const hideCategory = categoryRevealsAnswer(item.k, item.a);
   return `<div class="quiz-meta">
     ${item.badge ? `<b>${esc(item.badge)}</b><span>·</span>` : ""}
-    <span>${esc(item.k)}</span>
-    <span>·</span><span>${esc(item.d.slice(0, 4))}</span>
+    ${hideCategory ? "" : `<span>${esc(item.k)}</span><span>·</span>`}
+    <span>${esc(item.d.slice(0, 4))}</span>
     ${item.v ? `<span>·</span><span>$${item.v}</span>` : ""}
   </div>`;
 }
@@ -415,7 +416,10 @@ async function initEndless() {
     const opts = optionsFor(clue, pool);
     app.innerHTML = `<div class="quiz-card">
       <div class="quiz-top">
-        <div class="quiz-meta"><b>${esc(clue.k)}</b><span>·</span><span>${esc(clue.d.slice(0, 4))}</span></div>
+        <div class="quiz-meta">
+          ${categoryRevealsAnswer(clue.k, clue.a) ? "" : `<b>${esc(clue.k)}</b><span>·</span>`}
+          <span>${esc(clue.d.slice(0, 4))}</span>
+        </div>
         <div class="endless-score"><span class="streak-n">${streak}</span><span class="fine">streak</span></div>
       </div>
       <p class="clue-text">${esc(clue.c)}</p>

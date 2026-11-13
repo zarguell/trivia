@@ -27,6 +27,26 @@ export function levenshtein(a, b) {
   return prev[b.length];
 }
 
+
+/**
+ * Does showing the category effectively give away the answer?
+ * Compares normalized phrases and shared significant words, so "VINCENT VAN GOGH"
+ * is suppressed for "the Van Gogh Museum", but "U.S. PRESIDENTS" stays for "Lincoln".
+ */
+export function categoryRevealsAnswer(category, answer) {
+  const c = normAnswer(category);
+  const a = normAnswer(answer);
+  if (!c || !a) return false;
+  if (c === a) return true;
+  if (c.length >= 4 && a.includes(c)) return true;
+  if (a.length >= 4 && c.includes(a)) return true;
+  const cw = new Set(c.split(" ").filter((w) => w.length >= 3));
+  const aw = new Set(a.split(" ").filter((w) => w.length >= 3));
+  let shared = 0;
+  for (const w of cw) if (aw.has(w)) shared += 1;
+  return shared >= 2;
+}
+
 /** Accept exact answers, close spelling, and the surname of a full name. */
 export function isRight(given, correct) {
   const g = normAnswer(given);

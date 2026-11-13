@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { normAnswer, isAnswer, optionsFor, shape, levenshtein } from "../site/client/core.js";
+import { normAnswer, isAnswer, optionsFor, shape, levenshtein, categoryRevealsAnswer } from "../site/client/core.js";
 
 test("normalization strips question scaffolding and articles", () => {
   assert.equal(normAnswer("What is the Mona Lisa?"), "mona lisa");
@@ -54,4 +54,21 @@ test("multiple choice always includes the answer, four unique options", () => {
     assert.equal(new Set(opts).size, 4);
     assert.ok(opts.includes("Margaret Mitchell"));
   }
+});
+
+test("categories that give away the answer are suppressed", () => {
+  assert.ok(categoryRevealsAnswer("VINCENT VAN GOGH", "the Van Gogh Museum"));
+  assert.ok(categoryRevealsAnswer("VAN GOGH", "Van Gogh Museum"));
+  assert.ok(categoryRevealsAnswer("REBECCA", "Rebecca"));
+  assert.ok(categoryRevealsAnswer("THE BEATLES", "The Beatles"));
+  assert.ok(categoryRevealsAnswer("WILLIAM SHAKESPEARE", "Shakespeare"));
+  assert.ok(categoryRevealsAnswer("NEW YORK", "New York City"));
+  assert.ok(!categoryRevealsAnswer("VINCENT VAN GOGH", "Starry Night"));
+  assert.ok(!categoryRevealsAnswer("U.S. PRESIDENTS", "Lincoln"));
+  assert.ok(!categoryRevealsAnswer("THE BEATLES", "John Lennon"));
+  assert.ok(!categoryRevealsAnswer("WORLD WAR II", "Winston Churchill"));
+  assert.ok(!categoryRevealsAnswer("HITCHCOCK FILMS", "Rebecca"));
+  assert.ok(!categoryRevealsAnswer("Putting The Pop In Pop Culture", "King of Pop"));
+  assert.ok(!categoryRevealsAnswer("O Captain! My Captain!", "Captain Cook"));
+  assert.ok(!categoryRevealsAnswer("Tom, Tom", "Tom Buchanan"));
 });
