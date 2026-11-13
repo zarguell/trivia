@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Wait 7 days after a release before proposing non-security updates. Security fixes bypass the wait.",
   "extends": [
     "config:recommended",
     ":dependencyDashboard",
@@ -8,35 +9,69 @@
   "timezone": "America/Chicago",
   "rebaseWhen": "behind-base-branch",
   "platformAutomerge": true,
+  "minimumReleaseAge": "7 days",
+  "internalChecksFilter": "strict",
+  "prCreation": "not-pending",
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
   },
   "vulnerabilityAlerts": {
+    "description": "Apply security fixes immediately; they do not wait for the 7-day maturity window.",
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "minimumReleaseAge": null
   },
   "packageRules": [
     {
-      "description": "Keep GitHub Actions current and merge safe updates without waiting.",
-      "matchManagers": ["github-actions"],
+      "description": "Automerge GitHub Actions updates after the 7-day maturity window.",
+      "matchManagers": [
+        "github-actions"
+      ],
       "automerge": true
     },
     {
-      "description": "Automerge non-breaking npm and tool updates.",
-      "matchUpdateTypes": ["minor", "patch", "digest", "pin"],
+      "description": "Automerge non-breaking npm and tool updates after the maturity window.",
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "digest",
+        "pin"
+      ],
       "automerge": true
     },
     {
       "description": "Major updates stay open for review.",
-      "matchUpdateTypes": ["major"],
+      "matchUpdateTypes": [
+        "major"
+      ],
       "automerge": false
     },
     {
       "description": "Node engine floor follows the current LTS.",
-      "matchManagers": ["npm"],
-      "matchDepTypes": ["engines"],
+      "matchManagers": [
+        "npm"
+      ],
+      "matchDepTypes": [
+        "engines"
+      ],
       "enabled": true
+    },
+    {
+      "description": "Security fixes bypass the 7-day maturity window and automerge.",
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "pinDigest",
+        "rollback",
+        "replacement"
+      ],
+      "isVulnerabilityAlert": true,
+      "minimumReleaseAge": null,
+      "automerge": true
     }
   ]
 }
