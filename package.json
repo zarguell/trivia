@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Daily trivia and study mode, distilled from 544,106 Jeopardy! clues.",
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   },
   "scripts": {
     "data": "python3 pipeline/site_data.py",

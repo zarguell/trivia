@@ -463,6 +463,7 @@ async function initArchive() {
   let hideAnswers = true;
   let manifest = null;
   let current = [];
+  let seq = 0;
   const shards = new Map();
 
   const shardOf = (q) => {
@@ -519,8 +520,10 @@ async function initArchive() {
       return null;
     }
     const shard = shardOf(query);
+    const mine = ++seq;
     const rows0 = await loadShard(shard);
     await ensureManifest();
+    if (mine !== seq) return null;
     const terms = query.split(/\s+/).filter(Boolean);
     const rows = [];
     for (const c of rows0) {

@@ -3,8 +3,7 @@
   "extends": [
     "config:recommended",
     ":dependencyDashboard",
-    ":semanticCommits",
-    "schedule:weekly"
+    ":semanticCommits"
   ],
   "timezone": "America/Chicago",
   "rebaseWhen": "behind-base-branch",
