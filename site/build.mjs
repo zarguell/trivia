@@ -10,7 +10,6 @@
  * Usage: node site/build.mjs [--base=/trivia/] [--out=dist]
  */
 import { readFile, writeFile, mkdir, rm, cp, readdir } from "node:fs/promises";
-import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { esc, layout, icon } from "./lib/html.mjs";

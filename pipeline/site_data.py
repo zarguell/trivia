@@ -7,8 +7,6 @@ Outputs (data/generated/):
   search.json      compact searchable clue pool (loaded only on the archive page)
 """
 import json
-import math
-import random
 import re
 import sys
 from collections import Counter, defaultdict
@@ -221,7 +219,6 @@ def main():
         if i > 10000:
             break
 
-    rng = random.Random(20261112)
     puzzles = []
     prev = None
     for day in range(DAYS):
