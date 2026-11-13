@@ -139,7 +139,7 @@ tests/                       node:test unit tests
 
 ## Deploy
 
-Push to `main`. The workflow restores the corpus, validates packs, generates data, runs tests, builds `dist/`, checks every link, and deploys to GitHub Pages. `BASE_PATH=/trivia/` matches the project page. Renovate keeps GitHub Actions and npm metadata current; safe updates automerge.
+Push to `main`. The workflow restores the corpus, validates packs, generates data, runs tests, builds `dist/`, checks every link, and deploys to GitHub Pages. `BASE_PATH=/trivia/` matches the project page. `renovate.json` keeps GitHub Actions and metadata current, with safe updates set to automerge. Install the Renovate app on this repository once to activate it.
 
 Enable Pages once:
 
